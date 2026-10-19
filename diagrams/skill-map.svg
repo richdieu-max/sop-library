@@ -4,7 +4,7 @@
 <rect width="1280" height="900" fill="#fff"/>
 <rect x="0" y="0" width="1280" height="6" fill="#0078D4"/>
 <text x="32" y="48" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="600" fill="#201F1E">Skill map: what I do, and where it is written down</text>
-<text x="32" y="72" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#605E5C">Nine areas of hands-on work. Every tool listed here is used step by step in at least one published SOP (36 procedures, 802 pages).</text>
+<text x="32" y="72" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#605E5C">Nine areas of hands-on work. Every tool listed here is used step by step in at least one published runbook in the SOP library (36 procedures, 54 diagrams).</text>
 <rect x="33.5" y="106" width="392" height="214" rx="6" fill="#000" opacity="0.06"/>
 <rect x="32" y="104" width="392" height="214" rx="6" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
 <rect x="32" y="104" width="392" height="5" rx="0" fill="#0078D4"/>

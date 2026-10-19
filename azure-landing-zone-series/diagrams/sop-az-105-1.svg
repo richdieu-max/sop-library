@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" role="img" aria-label="Secrets and supply-chain scan, start to evidence">
+<title>Secrets and supply-chain scan, start to evidence</title>
+<defs><marker id="m0078D4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#0078D4"/></marker><marker id="m0078D4s" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M10,0 L0,5 L10,10 z" fill="#0078D4"/></marker></defs>
+<rect width="1280" height="720" fill="#fff"/>
+<rect x="0" y="0" width="1280" height="6" fill="#0078D4"/>
+<text x="32" y="48" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="600" fill="#201F1E">Secrets and supply-chain scan, start to evidence</text>
+<text x="32" y="72" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#605E5C">Authorization first, then a clean clone of the canonical repo, three scans and a hashed manifest before anyone reads the results.</text>
+<rect x="32" y="100" width="220" height="300" rx="6" fill="#FFFCF0" stroke="#C19C00" stroke-width="1.4" stroke-dasharray="6 4"/>
+<g transform="translate(42,108) scale(0.5000)"><circle cx="24" cy="24" r="20" fill="#107C10"/><path d="M14 24 l7 7 13-14" stroke="#fff" stroke-width="4" fill="none"/></g>
+<text x="74" y="125" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#C19C00" text-anchor="start">Before any scan</text>
+<rect x="276" y="100" width="204" height="300" rx="6" fill="#FAF9F8" stroke="#C8C6C4" stroke-width="1.4"/>
+<g transform="translate(286,108) scale(0.5000)"><rect x="5" y="5" width="38" height="38" rx="6" fill="#201F1E"/><circle cx="17" cy="15" r="4" fill="#fff"/><circle cx="17" cy="33" r="4" fill="#fff"/><circle cx="31" cy="22" r="4" fill="#fff"/><path d="M17 19 v10 M17 26 q0-4 10-4" stroke="#fff" stroke-width="2.4" fill="none"/></g>
+<text x="318" y="125" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#201F1E" text-anchor="start">Clone</text>
+<rect x="504" y="100" width="424" height="300" rx="6" fill="#F3F9FD" stroke="#0078D4" stroke-width="1.4" stroke-dasharray="6 4"/>
+<g transform="translate(514,108) scale(0.5000)"><rect x="4" y="7" width="40" height="34" rx="3" fill="#201F1E"/><path d="M11 17 l7 6 -7 6" stroke="#fff" stroke-width="3" fill="none"/><path d="M22 31 h13" stroke="#fff" stroke-width="3"/></g>
+<text x="546" y="125" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#0078D4" text-anchor="start">Scan (read-only)</text>
+<rect x="952" y="100" width="296" height="300" rx="6" fill="#F6FBF6" stroke="#107C10" stroke-width="1.4" stroke-dasharray="6 4"/>
+<g transform="translate(962,108) scale(0.5000)"><path d="M4 12 h15 l4 4 h21 v24 h-40 Z" fill="#C19C00"/><path d="M4 18 h40" stroke="#fff" stroke-width="1.5" opacity=".6"/></g>
+<text x="994" y="125" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#107C10" text-anchor="start">Evidence</text>
+<rect x="32" y="428" width="1216" height="172" rx="6" fill="#fff" stroke="#0078D4" stroke-width="1.4"/>
+<g transform="translate(42,436) scale(0.5000)"><rect x="5" y="6" width="38" height="36" rx="4" fill="#C19C00"/><circle cx="19" cy="24" r="7" fill="none" stroke="#fff" stroke-width="3"/><path d="M26 24 h12 M33 24 v6 M37 24 v5" stroke="#fff" stroke-width="3"/></g>
+<text x="74" y="453" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#201F1E" text-anchor="start">Key Vault posture: secrets live in a private vault the workload can only read</text>
+<rect x="51.5" y="148" width="184" height="116" rx="5" fill="#000" opacity="0.06"/>
+<rect x="50.0" y="146" width="184" height="116" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="48" y="280" width="188" height="72" rx="4" fill="#FFF4CE"/>
+<rect x="48" y="280" width="4" height="72" rx="0" fill="#C19C00"/>
+<rect x="293.5" y="148" width="172" height="116" rx="5" fill="#000" opacity="0.06"/>
+<rect x="292.0" y="146" width="172" height="116" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="292" y="290" width="172" height="50" rx="4" fill="#F3F9FD"/>
+<rect x="292" y="290" width="4" height="50" rx="0" fill="#0078D4"/>
+<rect x="521.5" y="142" width="392" height="72" rx="5" fill="#000" opacity="0.06"/>
+<rect x="520" y="140" width="392" height="72" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="521.5" y="224" width="392" height="72" rx="5" fill="#000" opacity="0.06"/>
+<rect x="520" y="222" width="392" height="72" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="521.5" y="306" width="392" height="72" rx="5" fill="#000" opacity="0.06"/>
+<rect x="520" y="304" width="392" height="72" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="969.5" y="142" width="264" height="72" rx="5" fill="#000" opacity="0.06"/>
+<rect x="968" y="140" width="264" height="72" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="969.5" y="224" width="264" height="72" rx="5" fill="#000" opacity="0.06"/>
+<rect x="968" y="222" width="264" height="72" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="968" y="310" width="264" height="72" rx="4" fill="#FDE7E9"/>
+<rect x="968" y="310" width="4" height="72" rx="0" fill="#A4262C"/>
+<path d="M234,204 L290,204" fill="none" stroke="#0078D4" stroke-width="2.2" marker-end="url(#m0078D4)" stroke-linejoin="round"/>
+<path d="M464,204 L518,204" fill="none" stroke="#0078D4" stroke-width="2.2" marker-end="url(#m0078D4)" stroke-linejoin="round"/>
+<path d="M912,176 L966,176" fill="none" stroke="#0078D4" stroke-width="2.2" marker-end="url(#m0078D4)" stroke-linejoin="round"/>
+<rect x="49.5" y="474" width="280" height="76" rx="5" fill="#000" opacity="0.06"/>
+<rect x="48" y="472" width="280" height="76" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="345.5" y="474" width="280" height="76" rx="5" fill="#000" opacity="0.06"/>
+<rect x="344" y="472" width="280" height="76" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="641.5" y="474" width="280" height="76" rx="5" fill="#000" opacity="0.06"/>
+<rect x="640" y="472" width="280" height="76" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="937.5" y="474" width="296" height="76" rx="5" fill="#000" opacity="0.06"/>
+<rect x="936" y="472" width="296" height="76" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<g transform="translate(120.0,158) scale(0.9167)"><path d="M10 4 h20 l8 8 v32 h-28 Z" fill="#0078D4"/><path d="M30 4 v8 h8" fill="#fff" opacity=".5"/><path d="M15 22 h18 M15 28 h18 M15 34 h12" stroke="#fff" stroke-width="2.4"/></g>
+<text x="142" y="222" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="middle">Written authorization</text>
+<text x="142" y="240" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="middle">Names repo and dates</text>
+<text x="64" y="302" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#201F1E" text-anchor="start">Canonical repo only</text>
+<text x="64" y="323" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">Never scan a fork</text>
+<text x="64" y="340" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">or a developer copy.</text>
+<g transform="translate(356.0,158) scale(0.9167)"><rect x="5" y="5" width="38" height="38" rx="6" fill="#201F1E"/><circle cx="17" cy="15" r="4" fill="#fff"/><circle cx="17" cy="33" r="4" fill="#fff"/><circle cx="31" cy="22" r="4" fill="#fff"/><path d="M17 19 v10 M17 26 q0-4 10-4" stroke="#fff" stroke-width="2.4" fill="none"/></g>
+<text x="378" y="222" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="middle">Clean mirror clone</text>
+<text x="378" y="240" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="middle">All branches</text>
+<text x="378" y="257" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="middle">Full history</text>
+<text x="308" y="312" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">A shallow clone</text>
+<text x="308" y="329" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">hides old secrets.</text>
+<g transform="translate(532,154) scale(0.8333)"><path d="M10 4 h20 l8 8 v32 h-28 Z" fill="#605E5C"/><path d="M30 4 v8 h8" fill="#fff" opacity=".5"/><text x="24" y="35" font-family="Arial" font-weight="700" font-size="17" fill="#fff" text-anchor="middle">#</text></g>
+<text x="584" y="164" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">gitleaks</text>
+<text x="584" y="182" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Keys, tokens, passwords in every commit</text>
+<text x="584" y="199" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Values redacted: file, commit, rule</text>
+<g transform="translate(532,236) scale(0.8333)"><path d="M24 3 L41 9 V23 C41 34 33 41 24 45 C15 41 7 34 7 23 V9 Z" fill="#0078D4"/><path d="M24 3 V45 C33 41 41 34 41 23 V9 Z" fill="#005A9E"/><path d="M16 24 l6 6 11-12" stroke="#fff" stroke-width="3.2" fill="none"/></g>
+<text x="584" y="246" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Trivy</text>
+<text x="584" y="264" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">CVEs, secrets, misconfig in files and IaC</text>
+<text x="584" y="281" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Deployed image · CycloneDX SBOM</text>
+<g transform="translate(532,318) scale(0.8333)"><rect x="5" y="5" width="38" height="38" rx="6" fill="#107C10"/><circle cx="24" cy="24" r="8" fill="none" stroke="#fff" stroke-width="3.5" stroke-dasharray="4 2.3"/><circle cx="24" cy="24" r="3" fill="#fff"/></g>
+<text x="584" y="328" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Dependabot</text>
+<text x="584" y="346" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Open alerts exported from GitHub</text>
+<text x="584" y="363" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Known-vulnerable dependencies</text>
+<g transform="translate(980,154) scale(0.8333)"><path d="M10 4 h20 l8 8 v32 h-28 Z" fill="#605E5C"/><path d="M30 4 v8 h8" fill="#fff" opacity=".5"/><text x="24" y="35" font-family="Arial" font-weight="700" font-size="17" fill="#fff" text-anchor="middle">#</text></g>
+<text x="1032" y="164" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">MANIFEST.sha256</text>
+<text x="1032" y="182" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Every output hashed</text>
+<text x="1032" y="199" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">before anyone reads it</text>
+<g transform="translate(980,236) scale(0.8333)"><path d="M10 4 h20 l8 8 v32 h-28 Z" fill="#0078D4"/><path d="M30 4 v8 h8" fill="#fff" opacity=".5"/><path d="M15 22 h18 M15 28 h18 M15 34 h12" stroke="#fff" stroke-width="2.4"/></g>
+<text x="1032" y="246" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Report</text>
+<text x="1032" y="264" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Counts by severity</text>
+<text x="1032" y="281" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Triage per secret · CVE fix path</text>
+<text x="984" y="332" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#201F1E" text-anchor="start">Never paste a found secret</text>
+<text x="984" y="353" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">Reference commit and rule only;</text>
+<text x="984" y="370" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">rotate before the report goes.</text>
+<circle cx="292" cy="146" r="15" fill="#fff"/><circle cx="292" cy="146" r="13" fill="#0078D4"/>
+<text x="292" y="150.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">1</text>
+<circle cx="520" cy="222" r="15" fill="#fff"/><circle cx="520" cy="222" r="13" fill="#0078D4"/>
+<text x="520" y="226.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">2</text>
+<circle cx="968" cy="140" r="15" fill="#fff"/><circle cx="968" cy="140" r="13" fill="#0078D4"/>
+<text x="968" y="144.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">5</text>
+<g transform="translate(60,486) scale(0.8333)"><rect x="5" y="6" width="38" height="36" rx="4" fill="#C19C00"/><circle cx="19" cy="24" r="7" fill="none" stroke="#fff" stroke-width="3"/><path d="M26 24 h12 M33 24 v6 M37 24 v5" stroke="#fff" stroke-width="3"/></g>
+<text x="112" y="496" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Networking</text>
+<text x="112" y="514" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Disable public access selected</text>
+<text x="112" y="531" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Private endpoint Approved</text>
+<g transform="translate(356,486) scale(0.8333)"><rect x="5" y="8" width="38" height="32" rx="3" fill="#5C2D91"/><circle cx="17" cy="21" r="5" fill="#fff"/><path d="M9 34 q8-12 16 0Z" fill="#fff"/><path d="M28 18 h10 M28 25 h10 M28 32 h7" stroke="#fff" stroke-width="2.4"/></g>
+<text x="408" y="496" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Access</text>
+<text x="408" y="514" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">RBAC mode True</text>
+<text x="408" y="531" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Purge protection True</text>
+<g transform="translate(652,486) scale(0.8333)"><path d="M24 3 L41 9 V23 C41 34 33 41 24 45 C15 41 7 34 7 23 V9 Z" fill="#107C10"/><rect x="14" y="17" width="20" height="14" fill="none" stroke="#fff" stroke-width="2.4"/><path d="M14 24 h20 M24 17 v14" stroke="#fff" stroke-width="2"/></g>
+<text x="704" y="496" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Firewall</text>
+<text x="704" y="514" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Public network Disabled</text>
+<text x="704" y="531" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">IP rules 0</text>
+<g transform="translate(948,486) scale(0.8333)"><circle cx="24" cy="24" r="20" fill="#A4262C"/><path d="M16 16 l16 16 M32 16 l-16 16" stroke="#fff" stroke-width="4"/></g>
+<text x="1000" y="496" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Proof from outside</text>
+<text x="1000" y="514" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Listing secrets is refused:</text>
+<text x="1000" y="531" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">a stolen session alone cannot read</text>
+<circle cx="48" cy="510" r="15" fill="#fff"/><circle cx="48" cy="510" r="13" fill="#0078D4"/>
+<text x="48" y="514.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">3</text>
+<circle cx="936" cy="510" r="15" fill="#fff"/><circle cx="936" cy="510" r="13" fill="#0078D4"/>
+<text x="936" y="514.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">4</text>
+<text x="48" y="576" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Read names only with SOP-05-keyvault-check.ps1, never values. An IP rule left behind is a bootstrap window not closed: remove it and record a finding.</text>
+<circle cx="46" cy="630" r="15" fill="#fff"/><circle cx="46" cy="630" r="13" fill="#0078D4"/>
+<text x="46" y="634.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">1</text>
+<text x="68" y="635" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#201F1E" text-anchor="start">Mirror clone, gitleaks history</text>
+<circle cx="292" cy="630" r="15" fill="#fff"/><circle cx="292" cy="630" r="13" fill="#0078D4"/>
+<text x="292" y="634.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">2</text>
+<text x="314" y="635" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#201F1E" text-anchor="start">Trivy, SBOM, Dependabot</text>
+<circle cx="538" cy="630" r="15" fill="#fff"/><circle cx="538" cy="630" r="13" fill="#0078D4"/>
+<text x="538" y="634.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">3</text>
+<text x="560" y="635" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#201F1E" text-anchor="start">Check the vault is private</text>
+<circle cx="784" cy="630" r="15" fill="#fff"/><circle cx="784" cy="630" r="13" fill="#0078D4"/>
+<text x="784" y="634.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">4</text>
+<text x="806" y="635" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#201F1E" text-anchor="start">Prove it from outside</text>
+<circle cx="1030" cy="630" r="15" fill="#fff"/><circle cx="1030" cy="630" r="13" fill="#0078D4"/>
+<text x="1030" y="634.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">5</text>
+<text x="1052" y="635" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#201F1E" text-anchor="start">Hash, then report</text>
+<line x1="32" y1="686" x2="1248" y2="686" stroke="#E1DFDD"/>
+<text x="32" y="706" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#8A8886">Generalised design: no client names, tenant IDs, addresses or data. Icons are simplified originals, not Microsoft artwork.</text>
+<text x="1248" y="706" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#8A8886" text-anchor="end">Rich Dieu · github.com/richdieu-max</text>
+</svg>

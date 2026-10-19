@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 760" width="1280" height="760" role="img" aria-label="The fix ladder for a lost mapped drive">
+<title>The fix ladder for a lost mapped drive</title>
+<defs><marker id="mA4262C" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#A4262C"/></marker><marker id="mA4262Cs" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M10,0 L0,5 L10,10 z" fill="#A4262C"/></marker><marker id="m8A8886" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#8A8886"/></marker><marker id="m8A8886s" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M10,0 L0,5 L10,10 z" fill="#8A8886"/></marker></defs>
+<rect width="1280" height="760" fill="#fff"/>
+<rect x="0" y="0" width="1280" height="6" fill="#0078D4"/>
+<text x="32" y="48" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="600" fill="#201F1E">The fix ladder for a lost mapped drive</text>
+<text x="32" y="72" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#605E5C">Repair the client from safest to riskiest and stop at the lowest rung that works; most PCs are fixed by rung 2 or 3.</text>
+<rect x="708" y="100" width="540" height="600" rx="6" fill="#FAF9F8" stroke="#C8C6C4" stroke-width="1.4"/>
+<g transform="translate(718,108) scale(0.5000)"><path d="M24 4 L44 24 L24 44 L4 24 Z" fill="#C19C00"/><text x="24" y="31" font-family="Arial" font-weight="700" font-size="20" fill="#fff" text-anchor="middle">?</text></g>
+<text x="750" y="125" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#201F1E" text-anchor="start">Then check, in this order</text>
+<rect x="33.5" y="602" width="400" height="68" rx="5" fill="#000" opacity="0.06"/>
+<rect x="32" y="600" width="400" height="68" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<path d="M72,600 L72,558" fill="none" stroke="#8A8886" stroke-width="1.6" marker-end="url(#m8A8886)" stroke-linejoin="round"/>
+<rect x="89.5" y="490" width="400" height="68" rx="5" fill="#000" opacity="0.06"/>
+<rect x="88" y="488" width="400" height="68" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<path d="M128,488 L128,446" fill="none" stroke="#8A8886" stroke-width="1.6" marker-end="url(#m8A8886)" stroke-linejoin="round"/>
+<rect x="145.5" y="378" width="400" height="68" rx="5" fill="#000" opacity="0.06"/>
+<rect x="144" y="376" width="400" height="68" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<path d="M184,376 L184,334" fill="none" stroke="#8A8886" stroke-width="1.6" marker-end="url(#m8A8886)" stroke-linejoin="round"/>
+<rect x="201.5" y="266" width="400" height="68" rx="5" fill="#000" opacity="0.06"/>
+<rect x="200" y="264" width="400" height="68" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<path d="M240,264 L240,222" fill="none" stroke="#8A8886" stroke-width="1.6" marker-end="url(#m8A8886)" stroke-linejoin="round"/>
+<rect x="257.5" y="154" width="400" height="68" rx="5" fill="#000" opacity="0.06"/>
+<rect x="256" y="152" width="400" height="68" rx="5" fill="#FDE7E9" stroke="#C8C6C4" stroke-width="1"/>
+<path d="M452,700 L680,700" fill="none" stroke="#A4262C" stroke-width="2" marker-end="url(#mA4262C)" stroke-linejoin="round"/>
+<rect x="728" y="146" width="500" height="70" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="728" y="230" width="500" height="70" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="728" y="314" width="500" height="70" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="728" y="600" width="500" height="50" rx="4" fill="#FFF4CE"/>
+<rect x="728" y="600" width="4" height="50" rx="0" fill="#C19C00"/>
+<g transform="translate(44,616.0) scale(0.7500)"><path d="M10 4 h20 l8 8 v32 h-28 Z" fill="#605E5C"/><circle cx="22" cy="25" r="7" fill="none" stroke="#fff" stroke-width="2.6"/><path d="M27 30 l6 6" stroke="#fff" stroke-width="3"/></g>
+<text x="92" y="630.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Diagnose</text>
+<text x="92" y="648.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">services.msc · sc qc · System event log</text>
+<circle cx="32" cy="600" r="15" fill="#fff"/><circle cx="32" cy="600" r="13" fill="#0078D4"/>
+<text x="32" y="604.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">1</text>
+<rect x="349.3" y="608" width="74.69999999999999" height="22" rx="11" fill="#E1DFDD"/>
+<text x="386.65" y="623.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#605E5C" text-anchor="middle">READ-ONLY</text>
+<g transform="translate(100,504.0) scale(0.7500)"><circle cx="24" cy="24" r="20" fill="#A4262C"/><path d="M16 16 l16 16 M32 16 l-16 16" stroke="#fff" stroke-width="4"/></g>
+<text x="148" y="518.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Remove the cause</text>
+<text x="148" y="536.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Uninstall the package that changed SMB, restart</text>
+<circle cx="88" cy="488" r="15" fill="#fff"/><circle cx="88" cy="488" r="13" fill="#0078D4"/>
+<text x="88" y="492.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">2</text>
+<rect x="443.1" y="496" width="36.9" height="22" rx="11" fill="#DFF6DD"/>
+<text x="461.55" y="511.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#107C10" text-anchor="middle">LOW</text>
+<g transform="translate(156,392.0) scale(0.7500)"><circle cx="24" cy="24" r="13" fill="none" stroke="#605E5C" stroke-width="7" stroke-dasharray="6 4.2"/><circle cx="24" cy="24" r="10" fill="#605E5C"/><circle cx="24" cy="24" r="4.5" fill="#fff"/></g>
+<text x="204" y="406.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Correct dependencies</text>
+<text x="204" y="424.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">depend= Bowser/MRxSmb20/NSI · SMB1 off</text>
+<circle cx="144" cy="376" r="15" fill="#fff"/><circle cx="144" cy="376" r="13" fill="#0078D4"/>
+<text x="144" y="380.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">3</text>
+<rect x="461.3" y="384" width="74.69999999999999" height="22" rx="11" fill="#DEECF9"/>
+<text x="498.65" y="399.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#005A9E" text-anchor="middle">USUAL FIX</text>
+<g transform="translate(212,280.0) scale(0.7500)"><circle cx="24" cy="24" r="20" fill="#C19C00"/><path d="M17 15 a12 12 0 1 0 14 0" stroke="#fff" stroke-width="3.4" fill="none"/><path d="M24 10 v14" stroke="#fff" stroke-width="3.4"/></g>
+<text x="260" y="294.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Turn the SMB1 feature off</text>
+<text x="260" y="312.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Windows Features, restart: rewrites the list</text>
+<circle cx="200" cy="264" r="15" fill="#fff"/><circle cx="200" cy="264" r="13" fill="#0078D4"/>
+<text x="200" y="268.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">4</text>
+<rect x="523.6" y="272" width="68.4" height="22" rx="11" fill="#FFF4CE"/>
+<text x="557.8000000000001" y="287.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#7A5F00" text-anchor="middle">MODERATE</text>
+<g transform="translate(268,168.0) scale(0.7500)"><path d="M24 4 L45 42 H3 Z" fill="#A4262C"/><rect x="22" y="17" width="4" height="13" fill="#fff"/><circle cx="24" cy="35" r="2.5" fill="#fff"/></g>
+<text x="316" y="182.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Enable SMB1 client</text>
+<text x="316" y="200.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">One legacy device · approved · time-boxed</text>
+<circle cx="256" cy="152" r="15" fill="#fff"/><circle cx="256" cy="152" r="13" fill="#A4262C"/>
+<text x="256" y="156.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">5</text>
+<rect x="573.3" y="160" width="74.69999999999999" height="22" rx="11" fill="#FDE7E9"/>
+<text x="610.65" y="175.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#A4262C" text-anchor="middle">EXCEPTION</text>
+<text x="566" y="692" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#A4262C" text-anchor="middle">risk and blast radius increase</text>
+<circle cx="728" cy="146" r="15" fill="#fff"/><circle cx="728" cy="146" r="13" fill="#0078D4"/>
+<text x="728" y="150.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">1</text>
+<text x="748" y="172" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Workstation running?</text>
+<text x="748" y="192" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">sc query LanmanWorkstation</text>
+<text x="1212" y="172" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#005A9E" text-anchor="end">no: climb the ladder</text>
+<circle cx="728" cy="230" r="15" fill="#fff"/><circle cx="728" cy="230" r="13" fill="#0078D4"/>
+<text x="728" y="234.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">2</text>
+<text x="748" y="256" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">TCP 445 reachable?</text>
+<text x="748" y="276" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Test-NetConnection fs01 -Port 445</text>
+<text x="1212" y="256" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#005A9E" text-anchor="end">no: DNS, firewall, VPN, server</text>
+<circle cx="728" cy="314" r="15" fill="#fff"/><circle cx="728" cy="314" r="13" fill="#0078D4"/>
+<text x="728" y="318.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">3</text>
+<text x="748" y="340" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">net use as the user works?</text>
+<text x="748" y="360" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">normal prompt, never elevated</text>
+<text x="1212" y="340" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#005A9E" text-anchor="end">yes: re-create the mapping</text>
+<text x="728" y="418" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">4 · Read the net use error number (net helpmsg &lt;n&gt; decodes it)</text>
+<rect x="728" y="436" width="78" height="22" rx="11" fill="#DEECF9"/>
+<text x="767.0" y="451.5" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="11.5" font-weight="600" fill="#005A9E" text-anchor="middle">2138</text>
+<text x="814" y="452" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">client broken: ladder</text>
+<rect x="982" y="436" width="78" height="22" rx="11" fill="#DEECF9"/>
+<text x="1021.0" y="451.5" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="11.5" font-weight="600" fill="#005A9E" text-anchor="middle">5</text>
+<text x="1068" y="452" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">access denied: permissions</text>
+<rect x="728" y="472" width="78" height="22" rx="11" fill="#DEECF9"/>
+<text x="767.0" y="487.5" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="11.5" font-weight="600" fill="#005A9E" text-anchor="middle">53 / 67</text>
+<text x="814" y="488" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">path or share name</text>
+<rect x="982" y="472" width="78" height="22" rx="11" fill="#DEECF9"/>
+<text x="1021.0" y="487.5" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="11.5" font-weight="600" fill="#005A9E" text-anchor="middle">85</text>
+<text x="1068" y="488" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">letter in use: /delete</text>
+<rect x="728" y="508" width="78" height="22" rx="11" fill="#DEECF9"/>
+<text x="767.0" y="523.5" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="11.5" font-weight="600" fill="#005A9E" text-anchor="middle">86 / 1326</text>
+<text x="814" y="524" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">bad credential: cmdkey</text>
+<rect x="982" y="508" width="78" height="22" rx="11" fill="#DEECF9"/>
+<text x="1021.0" y="523.5" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="11.5" font-weight="600" fill="#005A9E" text-anchor="middle">1219</text>
+<text x="1068" y="524" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">two identities: * /delete</text>
+<rect x="728" y="544" width="78" height="22" rx="11" fill="#DEECF9"/>
+<text x="767.0" y="559.5" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="11.5" font-weight="600" fill="#005A9E" text-anchor="middle">1272</text>
+<text x="814" y="560" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">guest blocked: fix the NAS</text>
+<text x="744" y="622" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">Map as the standard user: elevated and standard tokens do not</text>
+<text x="744" y="639" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">share drives. Never put a password on the command line.</text>
+<line x1="32" y1="726" x2="1248" y2="726" stroke="#E1DFDD"/>
+<text x="32" y="746" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#8A8886">Generalised design: no client names, tenant IDs, addresses or data. Icons are simplified originals, not Microsoft artwork.</text>
+<text x="1248" y="746" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#8A8886" text-anchor="end">Rich Dieu · github.com/richdieu-max</text>
+</svg>

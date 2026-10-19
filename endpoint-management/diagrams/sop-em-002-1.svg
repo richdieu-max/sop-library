@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 800" width="1280" height="800" role="img" aria-label="Enrolling Macs into Intune: three paths, one MDM relationship">
+<title>Enrolling Macs into Intune: three paths, one MDM relationship</title>
+<defs><marker id="m0078D4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#0078D4"/></marker><marker id="m0078D4s" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M10,0 L0,5 L10,10 z" fill="#0078D4"/></marker></defs>
+<rect width="1280" height="800" fill="#fff"/>
+<rect x="0" y="0" width="1280" height="6" fill="#0078D4"/>
+<text x="32" y="48" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="600" fill="#201F1E">Enrolling Macs into Intune: three paths, one MDM relationship</text>
+<text x="32" y="72" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#605E5C">Every path installs an MDM enrollment profile; Intune then reaches the Mac only through Apple Push, so the APNs certificate is the single point of failure.</text>
+<rect x="32" y="100" width="372" height="372" rx="6" fill="#FAF9F8" stroke="#C8C6C4" stroke-width="1.4"/>
+<g transform="translate(42,108) scale(0.5000)"><circle cx="17" cy="16" r="7" fill="#005A9E"/><path d="M3 40 q14-20 28 0Z" fill="#005A9E"/><circle cx="31" cy="18" r="7" fill="#0078D4"/><path d="M17 44 q14-20 28 0Z" fill="#0078D4"/></g>
+<text x="74" y="125" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#201F1E" text-anchor="start">Who starts enrollment</text>
+<rect x="32" y="548" width="1216" height="170" rx="6" fill="#FAF9F8" stroke="#C8C6C4" stroke-width="1.4"/>
+<g transform="translate(42,556) scale(0.5000)"><path d="M10 4 h20 l8 8 v32 h-28 Z" fill="#5C2D91"/><path d="M30 4 v8 h8" fill="#fff" opacity=".5"/><path d="M15 27 l5 5 10-11" stroke="#fff" stroke-width="3" fill="none"/></g>
+<text x="74" y="573" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#201F1E" text-anchor="start">Set once for every path: admin prerequisites (Method B) and readiness audit (Method D)</text>
+<rect x="53.5" y="146" width="332" height="92" rx="5" fill="#000" opacity="0.06"/>
+<rect x="52" y="144" width="332" height="92" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<path d="M384,190 L408,190 L408,300 L432,300" fill="none" stroke="#0078D4" stroke-width="2" marker-end="url(#m0078D4)" stroke-linejoin="round"/>
+<rect x="53.5" y="252" width="332" height="92" rx="5" fill="#000" opacity="0.06"/>
+<rect x="52" y="250" width="332" height="92" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<path d="M384,296 L408,296 L408,300 L432,300" fill="none" stroke="#0078D4" stroke-width="2" marker-end="url(#m0078D4)" stroke-linejoin="round"/>
+<rect x="53.5" y="358" width="332" height="92" rx="5" fill="#000" opacity="0.06"/>
+<rect x="52" y="356" width="332" height="92" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<path d="M384,402 L408,402 L408,300 L432,300" fill="none" stroke="#0078D4" stroke-width="2" marker-end="url(#m0078D4)" stroke-linejoin="round"/>
+<rect x="436.5" y="162" width="250" height="236" rx="5" fill="#000" opacity="0.06"/>
+<rect x="435.0" y="160" width="250" height="236" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="821.5" y="152" width="420" height="80" rx="5" fill="#000" opacity="0.06"/>
+<rect x="820" y="150" width="420" height="80" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="821.5" y="318" width="420" height="80" rx="5" fill="#000" opacity="0.06"/>
+<rect x="820" y="316" width="420" height="80" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<path d="M1030,314 L1030,232" fill="none" stroke="#0078D4" stroke-width="2" marker-end="url(#m0078D4)" stroke-linejoin="round"/>
+<path d="M818,200 L687,200" fill="none" stroke="#0078D4" stroke-width="2" marker-end="url(#m0078D4)" stroke-linejoin="round"/>
+<path d="M687,356 L818,356" fill="none" stroke="#0078D4" stroke-width="2" marker-end="url(#m0078D4)" stroke-linejoin="round"/>
+<rect x="820" y="416" width="420" height="106" rx="4" fill="#FFF4CE"/>
+<rect x="820" y="416" width="4" height="106" rx="0" fill="#C19C00"/>
+<rect x="53.5" y="598" width="228" height="100" rx="5" fill="#000" opacity="0.06"/>
+<rect x="52" y="596" width="228" height="100" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="292.5" y="598" width="228" height="100" rx="5" fill="#000" opacity="0.06"/>
+<rect x="291" y="596" width="228" height="100" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="531.5" y="598" width="228" height="100" rx="5" fill="#000" opacity="0.06"/>
+<rect x="530" y="596" width="228" height="100" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="770.5" y="598" width="228" height="100" rx="5" fill="#000" opacity="0.06"/>
+<rect x="769" y="596" width="228" height="100" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="1009.5" y="598" width="228" height="100" rx="5" fill="#000" opacity="0.06"/>
+<rect x="1008" y="596" width="228" height="100" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="1008" y="596" width="4" height="100" rx="0" fill="#5C2D91"/>
+<g transform="translate(64,158) scale(0.8333)"><circle cx="24" cy="15" r="9" fill="#0078D4"/><path d="M6 44 q18-26 36 0 Z" fill="#0078D4"/></g>
+<text x="116" y="168" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Company Portal</text>
+<text x="116" y="186" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">User-driven, any Mac</text>
+<text x="116" y="203" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">User approves the profile</text>
+<text x="116" y="220" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Personal by default</text>
+<rect x="276.2" y="152" width="99.8" height="18" rx="9" fill="#DEECF9"/>
+<text x="326.1" y="165" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#201F1E" text-anchor="middle">USER-APPROVED</text>
+<circle cx="52" cy="144" r="15" fill="#fff"/><circle cx="52" cy="144" r="13" fill="#5C2D91"/>
+<text x="52" y="148.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">A</text>
+<g transform="translate(64,264) scale(0.8333)"><rect x="5" y="5" width="38" height="38" rx="8" fill="#605E5C"/><path d="M24 15 c4-6 14-3 12 6 c-1 8-6 15-12 15 c-6 0-11-7-12-15 c-2-9 8-12 12-6Z" fill="#fff"/><path d="M24 14 q1-5 5-6" stroke="#fff" stroke-width="2.4" fill="none"/></g>
+<text x="116" y="274" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Automated (ADE)</text>
+<text x="116" y="292" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Apple Business Manager</text>
+<text x="116" y="309" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">During Setup Assistant</text>
+<text x="116" y="326" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Locked, zero-touch</text>
+<rect x="296.0" y="258" width="80.0" height="18" rx="9" fill="#DFF6DD"/>
+<text x="336.0" y="271" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#201F1E" text-anchor="middle">SUPERVISED</text>
+<circle cx="52" cy="250" r="15" fill="#fff"/><circle cx="52" cy="250" r="13" fill="#5C2D91"/>
+<text x="52" y="254.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">C</text>
+<g transform="translate(64,370) scale(0.8333)"><rect x="7" y="9" width="34" height="23" rx="2" fill="#0078D4"/><rect x="10" y="12" width="28" height="17" fill="#fff"/><path d="M3 35 h42 l-3 5 h-36 Z" fill="#005A9E"/></g>
+<text x="116" y="380" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Direct enrollment</text>
+<text x="116" y="398" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Apple Configurator, IT installs</text>
+<text x="116" y="415" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Shared or kiosk Macs</text>
+<text x="116" y="432" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Device-based policies</text>
+<rect x="289.4" y="364" width="86.6" height="18" rx="9" fill="#F3F2F1"/>
+<text x="332.7" y="377" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#201F1E" text-anchor="middle">NO AFFINITY</text>
+<circle cx="52" cy="356" r="15" fill="#fff"/><circle cx="52" cy="356" r="13" fill="#5C2D91"/>
+<text x="52" y="360.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">E</text>
+<g transform="translate(538.0,172) scale(0.9167)"><rect x="7" y="9" width="34" height="23" rx="2" fill="#605E5C"/><rect x="10" y="12" width="28" height="17" fill="#fff"/><path d="M3 35 h42 l-3 5 h-36 Z" fill="#8A8886"/><circle cx="24" cy="20.5" r="4" fill="#0078D4"/></g>
+<text x="560" y="236" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="middle">Enrolled Mac</text>
+<text x="560" y="254" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="middle">MDM enrollment profile:</text>
+<text x="560" y="271" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="middle">server address +</text>
+<text x="560" y="288" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="middle">identity certificate</text>
+<text x="560" y="305" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="middle"></text>
+<text x="560" y="322" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="middle">mdmclient polls Intune,</text>
+<text x="560" y="339" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="middle">never accepts inbound</text>
+<g transform="translate(832,164) scale(0.8333)"><rect x="5" y="5" width="38" height="38" rx="8" fill="#605E5C"/><path d="M13 30 a14 14 0 0 1 22 0" stroke="#fff" stroke-width="3" fill="none"/><path d="M17 34 a8 8 0 0 1 14 0" stroke="#fff" stroke-width="3" fill="none"/><circle cx="24" cy="37" r="2.6" fill="#fff"/><path d="M24 11 v10 M19 16 l5 -5 5 5" stroke="#fff" stroke-width="2.6" fill="none"/></g>
+<text x="884" y="174" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Apple Push Notification service (APNs)</text>
+<text x="884" y="192" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Persistent link to every Apple device</text>
+<g transform="translate(832,330) scale(0.8333)"><rect x="4" y="8" width="32" height="22" rx="2" fill="#0078D4"/><rect x="7" y="11" width="26" height="16" fill="#fff"/><rect x="14" y="30" width="12" height="4" fill="#0078D4"/><rect x="28" y="18" width="16" height="26" rx="2" fill="#005A9E"/><rect x="30" y="21" width="12" height="18" fill="#fff"/><path d="M10 19 l5 4 9-8" stroke="#107C10" stroke-width="2.6" fill="none"/></g>
+<text x="884" y="340" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Microsoft Intune</text>
+<text x="884" y="358" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Queues commands and profiles</text>
+<rect x="1045" y="265" width="93.2" height="16" rx="3" fill="#fff" opacity="0.92"/>
+<text x="1050" y="278" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">wake device X</text>
+<circle cx="1004" cy="273" r="15" fill="#fff"/><circle cx="1004" cy="273" r="13" fill="#0078D4"/>
+<text x="1004" y="277.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">1</text>
+<rect x="711.8" y="179" width="80.4" height="16" rx="3" fill="#fff" opacity="0.92"/>
+<text x="752" y="192" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="middle">silent push</text>
+<circle cx="752" cy="222" r="15" fill="#fff"/><circle cx="752" cy="222" r="13" fill="#0078D4"/>
+<text x="752" y="226.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">2</text>
+<rect x="702.2" y="335" width="99.60000000000001" height="16" rx="3" fill="#fff" opacity="0.92"/>
+<text x="752" y="348" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="middle">HTTPS check-in</text>
+<circle cx="752" cy="378" r="15" fill="#fff"/><circle cx="752" cy="378" r="13" fill="#0078D4"/>
+<text x="752" y="382.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">3</text>
+<text x="836" y="438" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#201F1E" text-anchor="start">APNs certificate: the single point of failure</text>
+<text x="836" y="459" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">Valid 365 days, tied to one Apple Account. Renew, never</text>
+<text x="836" y="476" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">re-create: a new certificate is a new push topic, and every</text>
+<text x="836" y="493" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">Mac, iPhone and iPad must re-enroll. Use a shared,</text>
+<text x="836" y="510" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">monitored company Apple Account.</text>
+<g transform="translate(64,610) scale(0.8333)"><rect x="4" y="8" width="40" height="28" rx="3" fill="#C19C00"/><path d="M10 16 h20 M10 22 h16" stroke="#fff" stroke-width="2.4"/><circle cx="35" cy="34" r="7" fill="#A4262C"/><path d="M31 40 l-2 6 4-2 2 3 1-6 M39 40 l2 6 -4-2 -2 3" fill="#A4262C"/></g>
+<text x="116" y="620" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">APNs push certificate</text>
+<text x="116" y="638" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Intune Administrator</text>
+<text x="116" y="655" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Renew yearly, same</text>
+<text x="116" y="672" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Apple Account</text>
+<g transform="translate(303,610) scale(0.8333)"><path d="M10 4 h20 l8 8 v32 h-28 Z" fill="#5C2D91"/><path d="M30 4 v8 h8" fill="#fff" opacity=".5"/><path d="M15 27 l5 5 10-11" stroke="#fff" stroke-width="3" fill="none"/></g>
+<text x="355" y="620" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Restrictions + limits</text>
+<text x="355" y="638" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">macOS MDM: Allow</text>
+<text x="355" y="655" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Personal: allow/block</text>
+<text x="355" y="672" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Device limit 5 (max 15)</text>
+<g transform="translate(542,610) scale(0.8333)"><rect x="4" y="6" width="40" height="36" rx="2" fill="#0078D4"/><path d="M4 16 h40 M4 25 h40 M4 34 h40 M16 6 v36" stroke="#fff" stroke-width="1.8"/></g>
+<text x="594" y="620" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Corporate identifiers</text>
+<text x="594" y="638" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Serial CSV, no header</text>
+<text x="594" y="655" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Marks Macs Corporate</text>
+<text x="594" y="672" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">before they enroll</text>
+<g transform="translate(781,610) scale(0.8333)"><rect x="4" y="8" width="40" height="32" rx="3" fill="#0078D4"/><rect x="4" y="8" width="40" height="8" rx="3" fill="#005A9E"/><circle cx="9" cy="12" r="1.6" fill="#fff"/><circle cx="14" cy="12" r="1.6" fill="#fff"/><path d="M10 24 h28 M10 30 h20" stroke="#fff" stroke-width="2.4"/></g>
+<text x="833" y="620" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Portal branding</text>
+<text x="833" y="638" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Name users see</text>
+<text x="833" y="655" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Support contact</text>
+<text x="833" y="672" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Privacy URL</text>
+<g transform="translate(1020,610) scale(0.8333)"><rect x="4" y="7" width="40" height="34" rx="3" fill="#201F1E"/><path d="M11 17 l7 6 -7 6" stroke="#fff" stroke-width="3" fill="none"/><path d="M22 31 h13" stroke="#fff" stroke-width="3"/></g>
+<text x="1072" y="620" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Readiness audit</text>
+<text x="1072" y="638" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Graph PowerShell</text>
+<text x="1072" y="655" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Cert + token expiry</text>
+<text x="1072" y="672" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Restrictions, Macs</text>
+<text x="32" y="744" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#201F1E" text-anchor="start">Network: Macs reach *.push.apple.com on TCP 443/5223 and *.manage.microsoft.com, with no TLS inspection.</text>
+<line x1="32" y1="766" x2="1248" y2="766" stroke="#E1DFDD"/>
+<text x="32" y="786" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#8A8886">Generalised design: no client names, tenant IDs, addresses or data. Icons are simplified originals, not Microsoft artwork.</text>
+<text x="1248" y="786" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#8A8886" text-anchor="end">Rich Dieu · github.com/richdieu-max</text>
+</svg>
