@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" role="img" aria-label="Service, then address, then trust">
+<title>Service, then address, then trust</title>
+<defs><marker id="m605E5C" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#605E5C"/></marker><marker id="m605E5Cs" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M10,0 L0,5 L10,10 z" fill="#605E5C"/></marker><marker id="m0078D4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#0078D4"/></marker><marker id="m0078D4s" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M10,0 L0,5 L10,10 z" fill="#0078D4"/></marker><marker id="mC19C00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#C19C00"/></marker><marker id="mC19C00s" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M10,0 L0,5 L10,10 z" fill="#C19C00"/></marker><marker id="mA4262C" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#A4262C"/></marker><marker id="mA4262Cs" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M10,0 L0,5 L10,10 z" fill="#A4262C"/></marker><marker id="m107C10" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#107C10"/></marker><marker id="m107C10s" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M10,0 L0,5 L10,10 z" fill="#107C10"/></marker></defs>
+<rect width="1280" height="720" fill="#fff"/>
+<rect x="0" y="0" width="1280" height="6" fill="#0078D4"/>
+<text x="32" y="48" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="600" fill="#201F1E">Service, then address, then trust</text>
+<text x="32" y="72" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#605E5C">Each question is only worth asking once the one before it is answered yes; rejoining the domain is the last resort.</text>
+<rect x="33.5" y="114" width="430" height="64" rx="5" fill="#000" opacity="0.06"/>
+<rect x="32" y="112" width="430" height="64" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="561.5" y="114" width="688" height="64" rx="5" fill="#000" opacity="0.06"/>
+<rect x="560" y="112" width="688" height="64" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="560" y="112" width="4" height="64" rx="0" fill="#A4262C"/>
+<path d="M462,144.0 L558,144.0" fill="none" stroke="#A4262C" stroke-width="1.8" marker-end="url(#mA4262C)" stroke-linejoin="round"/>
+<path d="M92,176 L92,200" fill="none" stroke="#605E5C" stroke-width="1.6" marker-end="url(#m605E5C)" stroke-linejoin="round"/>
+<rect x="33.5" y="204" width="430" height="64" rx="5" fill="#000" opacity="0.06"/>
+<rect x="32" y="202" width="430" height="64" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="561.5" y="204" width="688" height="64" rx="5" fill="#000" opacity="0.06"/>
+<rect x="560" y="202" width="688" height="64" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="560" y="202" width="4" height="64" rx="0" fill="#C19C00"/>
+<path d="M462,234.0 L558,234.0" fill="none" stroke="#C19C00" stroke-width="1.8" marker-end="url(#mC19C00)" stroke-linejoin="round"/>
+<path d="M92,266 L92,290" fill="none" stroke="#605E5C" stroke-width="1.6" marker-end="url(#m605E5C)" stroke-linejoin="round"/>
+<rect x="33.5" y="294" width="430" height="64" rx="5" fill="#000" opacity="0.06"/>
+<rect x="32" y="292" width="430" height="64" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="561.5" y="294" width="688" height="64" rx="5" fill="#000" opacity="0.06"/>
+<rect x="560" y="292" width="688" height="64" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="560" y="292" width="4" height="64" rx="0" fill="#C19C00"/>
+<path d="M462,324.0 L558,324.0" fill="none" stroke="#C19C00" stroke-width="1.8" marker-end="url(#mC19C00)" stroke-linejoin="round"/>
+<path d="M92,356 L92,380" fill="none" stroke="#605E5C" stroke-width="1.6" marker-end="url(#m605E5C)" stroke-linejoin="round"/>
+<rect x="33.5" y="384" width="430" height="64" rx="5" fill="#000" opacity="0.06"/>
+<rect x="32" y="382" width="430" height="64" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="561.5" y="384" width="688" height="64" rx="5" fill="#000" opacity="0.06"/>
+<rect x="560" y="382" width="688" height="64" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="560" y="382" width="4" height="64" rx="0" fill="#0078D4"/>
+<path d="M462,414.0 L558,414.0" fill="none" stroke="#0078D4" stroke-width="1.8" marker-end="url(#m0078D4)" stroke-linejoin="round"/>
+<rect x="561.5" y="474" width="688" height="64" rx="5" fill="#000" opacity="0.06"/>
+<rect x="560" y="472" width="688" height="64" rx="5" fill="#FDE7E9" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="560" y="472" width="4" height="64" rx="0" fill="#A4262C"/>
+<path d="M904,446 L904,470" fill="none" stroke="#A4262C" stroke-width="1.8" marker-end="url(#mA4262C)" stroke-linejoin="round"/>
+<rect x="33.5" y="474" width="430" height="64" rx="5" fill="#000" opacity="0.06"/>
+<rect x="32" y="472" width="430" height="64" rx="5" fill="#DFF6DD" stroke="#C8C6C4" stroke-width="1"/>
+<path d="M92,446 L92,470" fill="none" stroke="#107C10" stroke-width="1.8" marker-end="url(#m107C10)" stroke-linejoin="round"/>
+<rect x="32" y="566" width="590" height="89" rx="4" fill="#F3F9FD"/>
+<rect x="32" y="566" width="4" height="89" rx="0" fill="#0078D4"/>
+<rect x="658" y="566" width="590" height="89" rx="4" fill="#FFF4CE"/>
+<rect x="658" y="566" width="4" height="89" rx="0" fill="#C19C00"/>
+<g transform="translate(46,127.0) scale(0.7083)"><path d="M24 4 L44 24 L24 44 L4 24 Z" fill="#C19C00"/><text x="24" y="31" font-family="Arial" font-weight="700" font-size="20" fill="#fff" text-anchor="middle">?</text></g>
+<text x="92" y="139" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">DHCP Client running?</text>
+<text x="92" y="158" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">sc query Dhcp · Get-Service Dhcp</text>
+<circle cx="32" cy="112" r="15" fill="#fff"/><circle cx="32" cy="112" r="13" fill="#0078D4"/>
+<text x="32" y="116.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">1</text>
+<text x="578" y="139" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Fix the service and its dependencies</text>
+<text x="578" y="158" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">1068 / 1075: sc qc Dhcp, restore depend= NSI/Tcpip/Afd, start= auto</text>
+<rect x="499.6" y="135.0" width="22.8" height="16" rx="3" fill="#fff" opacity="0.92"/>
+<text x="511.0" y="148.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="middle">no</text>
+<text x="102" y="193.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#107C10" text-anchor="start">ok</text>
+<g transform="translate(46,217.0) scale(0.7083)"><path d="M24 4 L44 24 L24 44 L4 24 Z" fill="#C19C00"/><text x="24" y="31" font-family="Arial" font-weight="700" font-size="20" fill="#fff" text-anchor="middle">?</text></g>
+<text x="92" y="229" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Valid IPv4 address?</text>
+<text x="92" y="248" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">ipconfig /all · not 169.254.x.x</text>
+<circle cx="32" cy="202" r="15" fill="#fff"/><circle cx="32" cy="202" r="13" fill="#0078D4"/>
+<text x="32" y="206.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">2</text>
+<text x="578" y="229" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Network path (APIPA)</text>
+<text x="578" y="248" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Link, VLAN, switch port, 802.1X, scope, relay; then ipconfig /renew</text>
+<rect x="483.6" y="225.0" width="54.800000000000004" height="16" rx="3" fill="#fff" opacity="0.92"/>
+<text x="511.0" y="238.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="middle">169.254</text>
+<text x="102" y="283.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#107C10" text-anchor="start">ok</text>
+<g transform="translate(46,307.0) scale(0.7083)"><path d="M24 4 L44 24 L24 44 L4 24 Z" fill="#C19C00"/><text x="24" y="31" font-family="Arial" font-weight="700" font-size="20" fill="#fff" text-anchor="middle">?</text></g>
+<text x="92" y="319" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Domain controller found?</text>
+<text x="92" y="338" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">nltest /dsgetdc:contoso.com</text>
+<circle cx="32" cy="292" r="15" fill="#fff"/><circle cx="32" cy="292" r="13" fill="#0078D4"/>
+<text x="32" y="296.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">3</text>
+<text x="578" y="319" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">DNS or reachability, not the trust</text>
+<text x="578" y="338" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Corporate DNS servers? nslookup -type=SRV _ldap._tcp.dc._msdcs.contoso.com</text>
+<rect x="499.6" y="315.0" width="22.8" height="16" rx="3" fill="#fff" opacity="0.92"/>
+<text x="511.0" y="328.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="middle">no</text>
+<text x="102" y="373.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#107C10" text-anchor="start">ok</text>
+<g transform="translate(46,397.0) scale(0.7083)"><path d="M24 4 L44 24 L24 44 L4 24 Z" fill="#C19C00"/><text x="24" y="31" font-family="Arial" font-weight="700" font-size="20" fill="#fff" text-anchor="middle">?</text></g>
+<text x="92" y="409" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Secure channel OK?</text>
+<text x="92" y="428" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">nltest /sc_verify:contoso.com</text>
+<circle cx="32" cy="382" r="15" fill="#fff"/><circle cx="32" cy="382" r="13" fill="#0078D4"/>
+<text x="32" y="386.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">4</text>
+<text x="578" y="409" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Repair the channel (Method C)</text>
+<text x="578" y="428" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Test-ComputerSecureChannel -Repair; keeps the object, groups and SID</text>
+<rect x="499.6" y="405.0" width="22.8" height="16" rx="3" fill="#fff" opacity="0.92"/>
+<text x="511.0" y="418.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="middle">no</text>
+<text x="578" y="499" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Rejoin the domain (Method D) · last resort</text>
+<text x="578" y="518" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">LAPS password retrieved and tested first; reuse the computer object to keep groups</text>
+<rect x="916.6" y="449" width="86.80000000000001" height="16" rx="3" fill="#fff" opacity="0.92"/>
+<text x="960" y="462" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="middle">repair fails</text>
+<g transform="translate(46,487) scale(0.7083)"><circle cx="24" cy="24" r="20" fill="#107C10"/><path d="M14 24 l7 7 13-14" stroke="#fff" stroke-width="4" fill="none"/></g>
+<text x="92" y="499" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Verified recovery</text>
+<text x="92" y="518" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">gpupdate /force · restart · domain logon · drives</text>
+<text x="102" y="462" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#107C10" text-anchor="start">yes</text>
+<text x="48" y="588" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#201F1E" text-anchor="start">Detect drift before the reboot</text>
+<text x="48" y="609" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">The SCM reads dependencies only when it starts a service, so a PC with</text>
+<text x="48" y="626" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">a damaged list works until its next restart. An Intune Remediation</text>
+<text x="48" y="643" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">(daily, SYSTEM) finds the drift first and restores NSI/Tcpip/Afd.</text>
+<text x="674" y="588" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#201F1E" text-anchor="start">Least privilege and syntax</text>
+<text x="674" y="609" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">Use a support account delegated Reset password on workstation OUs,</text>
+<text x="674" y="626" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">not Domain Admin. In PowerShell type sc.exe, because sc is an alias</text>
+<text x="674" y="643" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">for Set-Content. The space after depend= and start= is required.</text>
+<line x1="32" y1="686" x2="1248" y2="686" stroke="#E1DFDD"/>
+<text x="32" y="706" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#8A8886">Generalised design: no client names, tenant IDs, addresses or data. Icons are simplified originals, not Microsoft artwork.</text>
+<text x="1248" y="706" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#8A8886" text-anchor="end">Rich Dieu · github.com/richdieu-max</text>
+</svg>

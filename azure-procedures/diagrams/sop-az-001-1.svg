@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 760" width="1280" height="760" role="img" aria-label="Azure tenant foundation: day-zero identity and governance">
+<title>Azure tenant foundation: day-zero identity and governance</title>
+<defs><marker id="m0078D4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#0078D4"/></marker><marker id="m0078D4s" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M10,0 L0,5 L10,10 z" fill="#0078D4"/></marker><marker id="m8A8886" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#8A8886"/></marker><marker id="m8A8886s" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M10,0 L0,5 L10,10 z" fill="#8A8886"/></marker><marker id="m5C2D91" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#5C2D91"/></marker><marker id="m5C2D91s" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M10,0 L0,5 L10,10 z" fill="#5C2D91"/></marker></defs>
+<rect width="1280" height="760" fill="#fff"/>
+<rect x="0" y="0" width="1280" height="6" fill="#0078D4"/>
+<text x="32" y="48" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="600" fill="#201F1E">Azure tenant foundation: day-zero identity and governance</text>
+<text x="32" y="72" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#605E5C">What exists before the first workload: a protected tenant on the left, a policy-governed hierarchy on the right.</text>
+<rect x="32" y="100" width="500" height="540" rx="6" fill="#fff" stroke="#0078D4" stroke-width="1.4"/>
+<g transform="translate(42,108) scale(0.5000)"><path d="M24 4 L44 24 L24 44 L4 24 Z" fill="#0078D4"/><circle cx="24" cy="19" r="6" fill="#fff"/><path d="M13 34 q11-13 22 0" fill="#fff"/></g>
+<text x="74" y="125" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#201F1E" text-anchor="start">Microsoft Entra ID tenant</text>
+<rect x="570" y="100" width="678" height="540" rx="6" fill="#F3F9FD" stroke="#0078D4" stroke-width="1.4" stroke-dasharray="6 4"/>
+<g transform="translate(580,108) scale(0.5000)"><rect x="16" y="3" width="16" height="12" rx="2" fill="#0078D4"/><rect x="3" y="33" width="14" height="12" rx="2" fill="#0078D4"/><rect x="17" y="33" width="14" height="12" rx="2" fill="#0078D4"/><rect x="31" y="33" width="14" height="12" rx="2" fill="#0078D4"/><path d="M24 15 v9 M10 24 h28 M10 24 v9 M24 24 v9 M38 24 v9" stroke="#005A9E" stroke-width="2" fill="none"/></g>
+<text x="612" y="125" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#0078D4" text-anchor="start">Azure resource hierarchy</text>
+<rect x="57.5" y="148" width="452" height="100" rx="5" fill="#000" opacity="0.06"/>
+<rect x="56" y="146" width="452" height="100" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="57.5" y="264" width="452" height="100" rx="5" fill="#000" opacity="0.06"/>
+<rect x="56" y="262" width="452" height="100" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="57.5" y="380" width="452" height="72" rx="5" fill="#000" opacity="0.06"/>
+<rect x="56" y="378" width="452" height="72" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="56" y="520" width="452" height="89" rx="4" fill="#FFF4CE"/>
+<rect x="56" y="520" width="4" height="89" rx="0" fill="#C19C00"/>
+<path d="M909,210 L909,248" fill="none" stroke="#8A8886" stroke-width="1.6" marker-end="url(#m8A8886)" stroke-linejoin="round"/>
+<path d="M909,384 L909,396 L690,396 L690,418" fill="none" stroke="#8A8886" stroke-width="1.6" marker-end="url(#m8A8886)" stroke-linejoin="round"/>
+<path d="M909,396 L909,418" fill="none" stroke="#8A8886" stroke-width="1.6" marker-end="url(#m8A8886)" stroke-linejoin="round"/>
+<path d="M909,396 L1128,396 L1128,418" fill="none" stroke="#8A8886" stroke-width="1.6" marker-end="url(#m8A8886)" stroke-linejoin="round"/>
+<path d="M909,494 L909,510 L824,510 L824,536" fill="none" stroke="#8A8886" stroke-width="1.6" marker-end="url(#m8A8886)" stroke-linejoin="round"/>
+<path d="M909,510 L1004,510 L1004,536" fill="none" stroke="#8A8886" stroke-width="1.6" marker-end="url(#m8A8886)" stroke-linejoin="round"/>
+<rect x="785.5" y="148" width="250" height="64" rx="5" fill="#000" opacity="0.06"/>
+<rect x="784" y="146" width="250" height="64" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="735.5" y="252" width="350" height="76" rx="5" fill="#000" opacity="0.06"/>
+<rect x="734" y="250" width="350" height="76" rx="5" fill="#EFE6F7" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="591.5" y="422" width="200" height="74" rx="5" fill="#000" opacity="0.06"/>
+<rect x="590" y="420" width="200" height="74" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="803.5" y="422" width="215" height="74" rx="5" fill="#000" opacity="0.06"/>
+<rect x="802" y="420" width="215" height="74" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="1032.5" y="422" width="194" height="74" rx="5" fill="#000" opacity="0.06"/>
+<rect x="1031" y="420" width="194" height="74" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="735.5" y="540" width="180" height="64" rx="5" fill="#000" opacity="0.06"/>
+<rect x="734" y="538" width="180" height="64" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="925.5" y="540" width="180" height="64" rx="5" fill="#000" opacity="0.06"/>
+<rect x="924" y="538" width="180" height="64" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<path d="M1236,290 L1236,600" fill="none" stroke="#5C2D91" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#m5C2D91)" stroke-linejoin="round"/>
+<path d="M532,178 L782,178" fill="none" stroke="#0078D4" stroke-width="2" marker-end="url(#m0078D4)" stroke-linejoin="round"/>
+<circle cx="512" cy="112" r="15" fill="#fff"/><circle cx="512" cy="112" r="13" fill="#0078D4"/>
+<text x="512" y="116.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">1</text>
+<text x="492" y="117" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#605E5C" text-anchor="end">Create tenant</text>
+<g transform="translate(68,160) scale(0.8333)"><rect x="6" y="8" width="36" height="32" rx="3" fill="#A4262C"/><path d="M14 18 l8 6 -5 4 10 8" stroke="#fff" stroke-width="2.4" fill="none"/><rect x="10" y="12" width="28" height="24" rx="1" fill="none" stroke="#fff" stroke-width="1.5"/></g>
+<text x="120" y="170" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Two emergency access accounts</text>
+<text x="120" y="188" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Cloud-only Global Administrators, not tied to a person</text>
+<text x="120" y="205" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Excluded from every CA policy via a named group</text>
+<text x="120" y="222" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Credentials offline · any sign-in raises an alert</text>
+<circle cx="56" cy="146" r="15" fill="#fff"/><circle cx="56" cy="146" r="13" fill="#0078D4"/>
+<text x="56" y="150.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">2</text>
+<g transform="translate(68,276) scale(0.8333)"><path d="M24 4 L40 10 V24 C40 34 33 41 24 44 C15 41 8 34 8 24 V10 Z" fill="#0078D4"/><path d="M17 24 h14 M24 17 v14" stroke="#fff" stroke-width="3"/><circle cx="24" cy="24" r="9" fill="none" stroke="#fff" stroke-width="2"/></g>
+<text x="120" y="286" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">MFA for everyone</text>
+<text x="120" y="304" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Conditional Access: require MFA for all users</text>
+<text x="120" y="321" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Block legacy authentication</text>
+<text x="120" y="338" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Phishing-resistant MFA for admins</text>
+<circle cx="56" cy="262" r="15" fill="#fff"/><circle cx="56" cy="262" r="13" fill="#0078D4"/>
+<text x="56" y="266.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">3</text>
+<g transform="translate(68,392) scale(0.8333)"><circle cx="24" cy="24" r="19" fill="#0078D4"/><ellipse cx="24" cy="24" rx="8" ry="19" fill="none" stroke="#fff" stroke-width="2"/><path d="M5 24 h38 M9 14 h30 M9 34 h30" stroke="#fff" stroke-width="2"/></g>
+<text x="120" y="402" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Custom domain verified</text>
+<text x="120" y="420" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">MS= TXT record created at the registrar</text>
+<circle cx="56" cy="378" r="15" fill="#fff"/><circle cx="56" cy="378" r="13" fill="#0078D4"/>
+<text x="56" y="382.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">4</text>
+<text x="72" y="542" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#201F1E" text-anchor="start">Decide before you click Create</text>
+<text x="72" y="563" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">Organisation name and *.onmicrosoft.com domain are permanent.</text>
+<text x="72" y="580" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">Country or region sets where directory data lives.</text>
+<text x="72" y="597" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">Use standard Entra ID, not B2C: it cannot be converted.</text>
+<g transform="translate(796,160.0) scale(0.7500)"><rect x="16" y="3" width="16" height="12" rx="2" fill="#0078D4"/><rect x="3" y="33" width="14" height="12" rx="2" fill="#0078D4"/><rect x="17" y="33" width="14" height="12" rx="2" fill="#0078D4"/><rect x="31" y="33" width="14" height="12" rx="2" fill="#0078D4"/><path d="M24 15 v9 M10 24 h28 M10 24 v9 M24 24 v9 M38 24 v9" stroke="#005A9E" stroke-width="2" fill="none"/></g>
+<text x="844" y="174.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Tenant root group</text>
+<text x="844" y="192.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Created with the tenant</text>
+<g transform="translate(746,264) scale(0.8333)"><rect x="16" y="3" width="16" height="12" rx="2" fill="#0078D4"/><rect x="3" y="33" width="14" height="12" rx="2" fill="#0078D4"/><rect x="17" y="33" width="14" height="12" rx="2" fill="#0078D4"/><rect x="31" y="33" width="14" height="12" rx="2" fill="#0078D4"/><path d="M24 15 v9 M10 24 h28 M10 24 v9 M24 24 v9 M38 24 v9" stroke="#005A9E" stroke-width="2" fill="none"/></g>
+<text x="798" y="274" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">org-root management group</text>
+<text x="798" y="292" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Policy assigned once here, inherited below</text>
+<circle cx="734" cy="250" r="15" fill="#fff"/><circle cx="734" cy="250" r="13" fill="#0078D4"/>
+<text x="734" y="254.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">5</text>
+<rect x="600" y="340" width="130.2" height="22" rx="11" fill="#fff"/>
+<text x="665.1" y="355.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#5C2D91" text-anchor="middle">Allowed locations</text>
+<rect x="738.2" y="340" width="150.0" height="22" rx="11" fill="#fff"/>
+<text x="813.2" y="355.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#5C2D91" text-anchor="middle">No public IP on NICs</text>
+<rect x="896.2" y="340" width="103.8" height="22" rx="11" fill="#fff"/>
+<text x="948.1" y="355.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#5C2D91" text-anchor="middle">Required tags</text>
+<rect x="1008.0" y="340" width="163.2" height="22" rx="11" fill="#fff"/>
+<text x="1089.6" y="355.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#5C2D91" text-anchor="middle">Benchmark (audit mode)</text>
+<g transform="translate(602,434) scale(0.8333)"><rect x="16" y="3" width="16" height="12" rx="2" fill="#0078D4"/><rect x="3" y="33" width="14" height="12" rx="2" fill="#0078D4"/><rect x="17" y="33" width="14" height="12" rx="2" fill="#0078D4"/><rect x="31" y="33" width="14" height="12" rx="2" fill="#0078D4"/><path d="M24 15 v9 M10 24 h28 M10 24 v9 M24 24 v9 M38 24 v9" stroke="#005A9E" stroke-width="2" fill="none"/></g>
+<text x="654" y="444" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Platform</text>
+<text x="654" y="462" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Logging · connectivity</text>
+<g transform="translate(814,434) scale(0.8333)"><rect x="16" y="3" width="16" height="12" rx="2" fill="#0078D4"/><rect x="3" y="33" width="14" height="12" rx="2" fill="#0078D4"/><rect x="17" y="33" width="14" height="12" rx="2" fill="#0078D4"/><rect x="31" y="33" width="14" height="12" rx="2" fill="#0078D4"/><path d="M24 15 v9 M10 24 h28 M10 24 v9 M24 24 v9 M38 24 v9" stroke="#005A9E" stroke-width="2" fill="none"/></g>
+<text x="866" y="444" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Landing zones</text>
+<text x="866" y="462" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Workload subscriptions</text>
+<g transform="translate(1043,437.0) scale(0.8333)"><rect x="16" y="3" width="16" height="12" rx="2" fill="#0078D4"/><rect x="3" y="33" width="14" height="12" rx="2" fill="#0078D4"/><rect x="17" y="33" width="14" height="12" rx="2" fill="#0078D4"/><rect x="31" y="33" width="14" height="12" rx="2" fill="#0078D4"/><path d="M24 15 v9 M10 24 h28 M10 24 v9 M24 24 v9 M38 24 v9" stroke="#005A9E" stroke-width="2" fill="none"/></g>
+<text x="1095" y="462.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Sandbox</text>
+<g transform="translate(746,552.0) scale(0.7500)"><rect x="16" y="3" width="16" height="12" rx="2" fill="#0078D4"/><rect x="3" y="33" width="14" height="12" rx="2" fill="#0078D4"/><rect x="17" y="33" width="14" height="12" rx="2" fill="#0078D4"/><rect x="31" y="33" width="14" height="12" rx="2" fill="#0078D4"/><path d="M24 15 v9 M10 24 h28 M10 24 v9 M24 24 v9 M38 24 v9" stroke="#005A9E" stroke-width="2" fill="none"/></g>
+<text x="794" y="575.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Production</text>
+<g transform="translate(936,552.0) scale(0.7500)"><rect x="16" y="3" width="16" height="12" rx="2" fill="#0078D4"/><rect x="3" y="33" width="14" height="12" rx="2" fill="#0078D4"/><rect x="17" y="33" width="14" height="12" rx="2" fill="#0078D4"/><rect x="31" y="33" width="14" height="12" rx="2" fill="#0078D4"/><path d="M24 15 v9 M10 24 h28 M10 24 v9 M24 24 v9 M38 24 v9" stroke="#005A9E" stroke-width="2" fill="none"/></g>
+<text x="984" y="575.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Non-production</text>
+<text x="1222" y="622" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#5C2D91" text-anchor="end">Policy inherits downward</text>
+<rect x="579" y="157" width="189.20000000000002" height="16" rx="3" fill="#fff" opacity="0.92"/>
+<text x="584" y="170" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">Tenant anchors the hierarchy</text>
+<text x="32" y="682" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="400" fill="#605E5C" text-anchor="start">Supports  ·  NIST SP 800-53 AC-2, IA-2(1), CP-2, CM-2, PL-8  ·  NIST CSF 2.0 PR.AA-01, PR.AA-03, GV.PO-01  ·  ISO/IEC 27001:2022 5.15–5.17, 8.5  ·  SOC 2 CC6.1</text>
+<line x1="32" y1="726" x2="1248" y2="726" stroke="#E1DFDD"/>
+<text x="32" y="746" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#8A8886">Generalised design: no client names, tenant IDs, addresses or data. Icons are simplified originals, not Microsoft artwork.</text>
+<text x="1248" y="746" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#8A8886" text-anchor="end">Rich Dieu · github.com/richdieu-max</text>
+</svg>

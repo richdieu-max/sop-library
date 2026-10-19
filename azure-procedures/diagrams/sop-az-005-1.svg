@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 820" width="1280" height="820" role="img" aria-label="Two-region backup and disaster recovery for Azure workloads">
+<title>Two-region backup and disaster recovery for Azure workloads</title>
+<defs><marker id="mC19C00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#C19C00"/></marker><marker id="mC19C00s" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M10,0 L0,5 L10,10 z" fill="#C19C00"/></marker><marker id="m0078D4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#0078D4"/></marker><marker id="m0078D4s" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M10,0 L0,5 L10,10 z" fill="#0078D4"/></marker><marker id="m5C2D91" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#5C2D91"/></marker><marker id="m5C2D91s" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M10,0 L0,5 L10,10 z" fill="#5C2D91"/></marker></defs>
+<rect width="1280" height="820" fill="#fff"/>
+<rect x="0" y="0" width="1280" height="6" fill="#0078D4"/>
+<text x="32" y="48" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="600" fill="#201F1E">Two-region backup and disaster recovery for Azure workloads</text>
+<text x="32" y="72" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#605E5C">Recovery points every 4 hours, immutable copies in a second EU region, and a tested recovery time for each workload tier.</text>
+<rect x="32" y="100" width="690" height="540" rx="6" fill="#F3F9FD" stroke="#0078D4" stroke-width="1.4" stroke-dasharray="6 4"/>
+<g transform="translate(42,108) scale(0.5000)"><path d="M24 4 L42 14 V34 L24 44 L6 34 V14 Z" fill="#C19C00"/><path d="M24 4 V24 M6 14 L24 24 L42 14" stroke="#fff" stroke-width="2" fill="none"/></g>
+<text x="74" y="125" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#0078D4" text-anchor="start">Primary region</text>
+<text x="710" y="125" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="end">EU · primary data stays in one member state</text>
+<rect x="810" y="100" width="438" height="540" rx="6" fill="#FAF6FD" stroke="#5C2D91" stroke-width="1.4" stroke-dasharray="6 4"/>
+<g transform="translate(820,108) scale(0.5000)"><path d="M24 4 L42 14 V34 L24 44 L6 34 V14 Z" fill="#C19C00"/><path d="M24 4 V24 M6 14 L24 24 L42 14" stroke="#fff" stroke-width="2" fill="none"/></g>
+<text x="852" y="125" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#5C2D91" text-anchor="start">Secondary region</text>
+<text x="1236" y="125" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="end">EU · off-site copies</text>
+<rect x="57.5" y="170" width="196" height="88" rx="5" fill="#000" opacity="0.06"/>
+<rect x="56" y="168" width="196" height="88" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="277.5" y="170" width="232" height="88" rx="5" fill="#000" opacity="0.06"/>
+<rect x="276" y="168" width="232" height="88" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="533.5" y="170" width="182" height="88" rx="5" fill="#000" opacity="0.06"/>
+<rect x="532" y="168" width="182" height="88" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<path d="M252,212 L274,212" fill="none" stroke="#0078D4" stroke-width="2" marker-end="url(#m0078D4)" stroke-linejoin="round"/>
+<path d="M508,212 L530,212" fill="none" stroke="#0078D4" stroke-width="2" marker-end="url(#m0078D4)" stroke-linejoin="round"/>
+<rect x="57.5" y="302" width="196" height="88" rx="5" fill="#000" opacity="0.06"/>
+<rect x="56" y="300" width="196" height="88" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="277.5" y="302" width="232" height="88" rx="5" fill="#000" opacity="0.06"/>
+<rect x="276" y="300" width="232" height="88" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="533.5" y="302" width="182" height="88" rx="5" fill="#000" opacity="0.06"/>
+<rect x="532" y="300" width="182" height="88" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<path d="M252,344 L274,344" fill="none" stroke="#0078D4" stroke-width="2" marker-end="url(#m0078D4)" stroke-linejoin="round"/>
+<path d="M623,300 L623,258" fill="none" stroke="#C19C00" stroke-width="1.6" stroke-dasharray="3 3" marker-end="url(#mC19C00)" stroke-linejoin="round"/>
+<path d="M532,344 L510,344" fill="none" stroke="#C19C00" stroke-width="1.6" stroke-dasharray="3 3" marker-end="url(#mC19C00)" stroke-linejoin="round"/>
+<rect x="57.5" y="434" width="196" height="88" rx="5" fill="#000" opacity="0.06"/>
+<rect x="56" y="432" width="196" height="88" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="835.5" y="170" width="390" height="88" rx="5" fill="#000" opacity="0.06"/>
+<rect x="834" y="168" width="390" height="88" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="835.5" y="302" width="390" height="88" rx="5" fill="#000" opacity="0.06"/>
+<rect x="834" y="300" width="390" height="88" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="835.5" y="434" width="390" height="88" rx="5" fill="#000" opacity="0.06"/>
+<rect x="834" y="432" width="390" height="88" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<path d="M714,224 L832,224" fill="none" stroke="#5C2D91" stroke-width="2.4" marker-end="url(#m5C2D91)" stroke-linejoin="round"/>
+<path d="M246,168 L246,138 L780,138 L780,330 L832,330" fill="none" stroke="#5C2D91" stroke-width="1.8" stroke-dasharray="6 4" marker-end="url(#m5C2D91)" stroke-linejoin="round"/>
+<path d="M252,476 L832,476" fill="none" stroke="#5C2D91" stroke-width="2.4" marker-end="url(#m5C2D91)" stroke-linejoin="round"/>
+<rect x="32" y="664" width="520" height="86" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="32" y="664" width="5" height="86" rx="0" fill="#A4262C"/>
+<rect x="570" y="664" width="330" height="86" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="570" y="664" width="5" height="86" rx="0" fill="#C19C00"/>
+<rect x="918" y="664" width="330" height="86" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="918" y="664" width="5" height="86" rx="0" fill="#107C10"/>
+<text x="56" y="154" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="700" fill="#8A8886" text-anchor="start">PROTECTED WORKLOADS</text>
+<text x="276" y="154" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="700" fill="#8A8886" text-anchor="start">BACKUP SERVICE</text>
+<text x="532" y="154" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="700" fill="#8A8886" text-anchor="start">STORED IN</text>
+<text x="834" y="154" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="700" fill="#8A8886" text-anchor="start">OFF-SITE COPY</text>
+<g transform="translate(68,182) scale(0.8333)"><rect x="4" y="7" width="40" height="27" rx="2" fill="#0078D4"/><rect x="7" y="10" width="34" height="21" fill="#fff"/><path d="M15 15 h18 M15 20 h18 M15 25 h12" stroke="#0078D4" stroke-width="2.4"/><rect x="18" y="34" width="12" height="5" fill="#005A9E"/><rect x="12" y="39" width="24" height="3" rx="1" fill="#005A9E"/></g>
+<text x="120" y="192" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Production VMs</text>
+<text x="120" y="210" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Tiers 1–3</text>
+<g transform="translate(288,182) scale(0.8333)"><rect x="5" y="5" width="38" height="38" rx="5" fill="#107C10"/><path d="M33 17 a11 11 0 1 0 2 11" fill="none" stroke="#fff" stroke-width="3.2"/><path d="M28 12 h8 v8" fill="none" stroke="#fff" stroke-width="3.2"/></g>
+<text x="340" y="192" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Veeam Backup for Azure</text>
+<text x="340" y="210" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Every 4 h, app-aware</text>
+<text x="340" y="227" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">File-level restore</text>
+<g transform="translate(544,182) scale(0.8333)"><rect x="4" y="9" width="40" height="30" rx="2" fill="#008575"/><path d="M4 19 h40 M4 29 h40 M17 9 v30 M31 9 v30" stroke="#fff" stroke-width="2"/><rect x="31" y="29" width="13" height="10" fill="#D9F2EF"/></g>
+<text x="596" y="192" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Blob repository</text>
+<text x="596" y="210" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">14 days</text>
+<text x="596" y="227" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Immutable</text>
+<g transform="translate(68,314) scale(0.8333)"><rect x="4" y="7" width="40" height="27" rx="2" fill="#0078D4"/><rect x="7" y="10" width="34" height="21" fill="#fff"/><ellipse cx="24" cy="15" rx="8" ry="3" fill="#005A9E"/><path d="M16 15 v10 a8 3 0 0 0 16 0 v-10" fill="#005A9E"/><rect x="18" y="34" width="12" height="5" fill="#005A9E"/><rect x="12" y="39" width="24" height="3" rx="1" fill="#005A9E"/></g>
+<text x="120" y="324" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">SQL Server on VMs</text>
+<text x="120" y="342" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Full daily · diff 4 h</text>
+<text x="120" y="359" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Log every 15–30 min</text>
+<g transform="translate(288,314) scale(0.8333)"><rect x="5" y="6" width="38" height="36" rx="4" fill="#0078D4"/><circle cx="24" cy="24" r="10" fill="none" stroke="#fff" stroke-width="3"/><path d="M24 14 v4 M24 30 v4 M14 24 h4 M30 24 h4" stroke="#fff" stroke-width="3"/><circle cx="24" cy="24" r="3" fill="#fff"/></g>
+<text x="340" y="324" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Recovery Services vault</text>
+<text x="340" y="342" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Azure Backup, SQL in VM</text>
+<text x="340" y="359" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Also backs up Veeam itself</text>
+<g transform="translate(544,314) scale(0.8333)"><rect x="5" y="6" width="38" height="36" rx="4" fill="#C19C00"/><circle cx="19" cy="24" r="7" fill="none" stroke="#fff" stroke-width="3"/><path d="M26 24 h12 M33 24 v6 M37 24 v5" stroke="#fff" stroke-width="3"/></g>
+<text x="596" y="324" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Key Vault</text>
+<text x="596" y="342" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">CMK encryption</text>
+<text x="596" y="359" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Purge protection</text>
+<text x="631" y="284" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#C19C00" text-anchor="start">encrypts</text>
+<g transform="translate(68,446) scale(0.8333)"><ellipse cx="24" cy="10" rx="16" ry="6" fill="#005A9E"/><path d="M8 10 v28 a16 6 0 0 0 32 0 v-28 a16 6 0 0 1 -32 0Z" fill="#0078D4"/><text x="24" y="33" font-family="Arial" font-weight="700" font-size="11" fill="#fff" text-anchor="middle">SQL</text></g>
+<text x="120" y="456" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Azure SQL Database</text>
+<text x="120" y="474" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Platform automated</text>
+<text x="120" y="491" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">backups, 35 days</text>
+<g transform="translate(846,182) scale(0.8333)"><rect x="4" y="9" width="40" height="30" rx="2" fill="#008575"/><path d="M4 19 h40 M4 29 h40 M17 9 v30 M31 9 v30" stroke="#fff" stroke-width="2"/><rect x="31" y="29" width="13" height="10" fill="#D9F2EF"/></g>
+<text x="898" y="192" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Blob repository</text>
+<text x="898" y="210" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">35 days, immutable</text>
+<text x="898" y="227" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Filled by a Veeam backup copy job</text>
+<g transform="translate(846,314) scale(0.8333)"><rect x="5" y="5" width="38" height="38" rx="5" fill="#5C2D91"/><path d="M14 20 a11 11 0 0 1 19 -4" fill="none" stroke="#fff" stroke-width="3"/><path d="M34 28 a11 11 0 0 1 -19 4" fill="none" stroke="#fff" stroke-width="3"/><path d="M30 11 l4 6 -7 1 M18 37 l-4 -6 7 -1" fill="#fff" stroke="#fff" stroke-width="2"/></g>
+<text x="898" y="324" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Site Recovery replicas</text>
+<text x="898" y="342" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Tier 1 only</text>
+<text x="898" y="359" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Near-zero RPO, failover in about an hour</text>
+<g transform="translate(846,446) scale(0.8333)"><ellipse cx="22" cy="10" rx="14" ry="5" fill="#005A9E"/><path d="M8 10 v26 a14 5 0 0 0 28 0 v-26 a14 5 0 0 1 -28 0Z" fill="#0078D4"/><circle cx="36" cy="35" r="10" fill="#008575"/><ellipse cx="36" cy="35" rx="4" ry="10" fill="none" stroke="#fff" stroke-width="1.5"/><path d="M26 35 h20" stroke="#fff" stroke-width="1.5"/></g>
+<text x="898" y="456" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Geo-replicated SQL backups</text>
+<text x="898" y="474" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Geo-redundant backup storage</text>
+<text x="898" y="491" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Restore into the secondary region</text>
+<rect x="735.4" y="203" width="61.2" height="16" rx="3" fill="#fff" opacity="0.92"/>
+<text x="766" y="216" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="middle">copy job</text>
+<text x="774" y="318" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#5C2D91" text-anchor="end">Tier 1</text>
+<rect x="513.4" y="455" width="93.2" height="16" rx="3" fill="#fff" opacity="0.92"/>
+<text x="560" y="468" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="middle">geo-redundant</text>
+<text x="56" y="562" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="start">Controls on the backups themselves</text>
+<rect x="56" y="576" width="130.2" height="22" rx="11" fill="#DFF6DD"/>
+<text x="121.1" y="591.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#107C10" text-anchor="middle">Private endpoints</text>
+<rect x="194.2" y="576" width="77.4" height="22" rx="11" fill="#DFF6DD"/>
+<text x="232.89999999999998" y="591.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#107C10" text-anchor="middle">Immutable</text>
+<rect x="279.6" y="576" width="70.8" height="22" rx="11" fill="#DFF6DD"/>
+<text x="315.0" y="591.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#107C10" text-anchor="middle">TLS 1.2+</text>
+<rect x="358.40000000000003" y="576" width="70.8" height="22" rx="11" fill="#DFF6DD"/>
+<text x="393.8" y="591.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#107C10" text-anchor="middle">MFA + CA</text>
+<rect x="437.20000000000005" y="576" width="176.39999999999998" height="22" rx="11" fill="#DFF6DD"/>
+<text x="525.4000000000001" y="591.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#107C10" text-anchor="middle">Malware-scanned restores</text>
+<text x="834" y="562" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="start">Recovery drill</text>
+<text x="834" y="590" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">Restores are tested per tier, so the</text>
+<text x="834" y="606" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">RTO below is measured, not assumed.</text>
+<text x="32" y="654" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Recovery objectives by tier</text>
+<text x="50" y="688" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Tier 1 · Critical</text>
+<text x="50" y="706" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Databases, operational systems</text>
+<text x="50" y="730" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="700" fill="#8A8886" text-anchor="start">RPO</text>
+<text x="82" y="730" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="start">15–30 min (logs) · near-zero with Site Recovery</text>
+<text x="462" y="730" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="700" fill="#8A8886" text-anchor="start">RTO</text>
+<text x="494" y="730" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="start">1 h</text>
+<text x="588" y="688" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Tier 2 · Important</text>
+<text x="588" y="706" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Application VMs</text>
+<text x="588" y="730" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="700" fill="#8A8886" text-anchor="start">RPO</text>
+<text x="620" y="730" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="start">4 h</text>
+<text x="810" y="730" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="700" fill="#8A8886" text-anchor="start">RTO</text>
+<text x="842" y="730" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="start">4 h</text>
+<text x="936" y="688" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Tier 3 · Standard</text>
+<text x="936" y="706" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Dev/test, file servers</text>
+<text x="936" y="730" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="700" fill="#8A8886" text-anchor="start">RPO</text>
+<text x="968" y="730" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="start">4 h</text>
+<text x="1158" y="730" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="700" fill="#8A8886" text-anchor="start">RTO</text>
+<text x="1190" y="730" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="start">8 h</text>
+<line x1="32" y1="786" x2="1248" y2="786" stroke="#E1DFDD"/>
+<text x="32" y="806" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#8A8886">Generalised design: no client names, tenant IDs, addresses or data. Icons are simplified originals, not Microsoft artwork.</text>
+<text x="1248" y="806" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#8A8886" text-anchor="end">Rich Dieu · github.com/richdieu-max</text>
+</svg>
