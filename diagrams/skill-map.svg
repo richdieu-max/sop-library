@@ -1,0 +1,238 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 900" width="1280" height="900" role="img" aria-label="Skill map: what I do, and where it is written down">
+<title>Skill map: what I do, and where it is written down</title>
+<defs></defs>
+<rect width="1280" height="900" fill="#fff"/>
+<rect x="0" y="0" width="1280" height="6" fill="#0078D4"/>
+<text x="32" y="48" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="600" fill="#201F1E">Skill map: what I do, and where it is written down</text>
+<text x="32" y="72" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#605E5C">Nine areas of hands-on work. Every tool listed here is used step by step in at least one published SOP (36 procedures, 802 pages).</text>
+<rect x="33.5" y="106" width="392" height="214" rx="6" fill="#000" opacity="0.06"/>
+<rect x="32" y="104" width="392" height="214" rx="6" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="32" y="104" width="392" height="5" rx="0" fill="#0078D4"/>
+<line x1="48" y1="280" x2="408" y2="280" stroke="#E1DFDD"/>
+<rect x="445.5" y="106" width="392" height="214" rx="6" fill="#000" opacity="0.06"/>
+<rect x="444" y="104" width="392" height="214" rx="6" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="444" y="104" width="392" height="5" rx="0" fill="#0078D4"/>
+<line x1="460" y1="280" x2="820" y2="280" stroke="#E1DFDD"/>
+<rect x="857.5" y="106" width="392" height="214" rx="6" fill="#000" opacity="0.06"/>
+<rect x="856" y="104" width="392" height="214" rx="6" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="856" y="104" width="392" height="5" rx="0" fill="#107C10"/>
+<line x1="872" y1="280" x2="1232" y2="280" stroke="#E1DFDD"/>
+<rect x="33.5" y="340" width="392" height="214" rx="6" fill="#000" opacity="0.06"/>
+<rect x="32" y="338" width="392" height="214" rx="6" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="32" y="338" width="392" height="5" rx="0" fill="#A4262C"/>
+<line x1="48" y1="514" x2="408" y2="514" stroke="#E1DFDD"/>
+<rect x="445.5" y="340" width="392" height="214" rx="6" fill="#000" opacity="0.06"/>
+<rect x="444" y="338" width="392" height="214" rx="6" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="444" y="338" width="392" height="5" rx="0" fill="#A4262C"/>
+<line x1="460" y1="514" x2="820" y2="514" stroke="#E1DFDD"/>
+<rect x="857.5" y="340" width="392" height="214" rx="6" fill="#000" opacity="0.06"/>
+<rect x="856" y="338" width="392" height="214" rx="6" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="856" y="338" width="392" height="5" rx="0" fill="#0078D4"/>
+<line x1="872" y1="514" x2="1232" y2="514" stroke="#E1DFDD"/>
+<rect x="33.5" y="574" width="392" height="214" rx="6" fill="#000" opacity="0.06"/>
+<rect x="32" y="572" width="392" height="214" rx="6" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="32" y="572" width="392" height="5" rx="0" fill="#605E5C"/>
+<line x1="48" y1="748" x2="408" y2="748" stroke="#E1DFDD"/>
+<rect x="445.5" y="574" width="392" height="214" rx="6" fill="#000" opacity="0.06"/>
+<rect x="444" y="572" width="392" height="214" rx="6" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="444" y="572" width="392" height="5" rx="0" fill="#5C2D91"/>
+<line x1="460" y1="748" x2="820" y2="748" stroke="#E1DFDD"/>
+<rect x="857.5" y="574" width="392" height="214" rx="6" fill="#000" opacity="0.06"/>
+<rect x="856" y="572" width="392" height="214" rx="6" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="856" y="572" width="392" height="5" rx="0" fill="#008575"/>
+<line x1="872" y1="748" x2="1232" y2="748" stroke="#E1DFDD"/>
+<g transform="translate(48,124) scale(0.7083)"><path d="M24 4 L44 24 L24 44 L4 24 Z" fill="#0078D4"/><circle cx="24" cy="19" r="6" fill="#fff"/><path d="M13 34 q11-13 22 0" fill="#fff"/></g>
+<text x="92" y="147" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="600" fill="#201F1E" text-anchor="start">Identity &amp; access</text>
+<rect x="48" y="172" width="67.03999999999999" height="22" rx="11" fill="#F3F9FD"/>
+<text x="81.52" y="187.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">Entra ID</text>
+<rect x="121.03999999999999" y="172" width="130.83999999999997" height="22" rx="11" fill="#F3F9FD"/>
+<text x="186.45999999999998" y="187.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">Conditional Access</text>
+<rect x="48" y="199" width="156.35999999999999" height="22" rx="11" fill="#F3F9FD"/>
+<text x="126.17999999999999" y="214.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">Phishing-resistant MFA</text>
+<rect x="210.35999999999999" y="199" width="35.14" height="22" rx="11" fill="#F3F9FD"/>
+<text x="227.92999999999998" y="214.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">PIM</text>
+<rect x="251.5" y="199" width="137.21999999999997" height="22" rx="11" fill="#F3F9FD"/>
+<text x="320.11" y="214.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">Joiner-mover-leaver</text>
+<rect x="48" y="226" width="149.98" height="22" rx="11" fill="#F3F9FD"/>
+<text x="122.99" y="241.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">Temporary Access Pass</text>
+<rect x="203.98" y="226" width="118.08" height="22" rx="11" fill="#F3F9FD"/>
+<text x="263.02" y="241.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">Graph PowerShell</text>
+<text x="48" y="303" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="700" fill="#8A8886" text-anchor="start">SOP</text>
+<text x="78" y="303" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#005A9E" text-anchor="start">ID-001 · ID-002 · AZ-104</text>
+<g transform="translate(460,124) scale(0.7083)"><path d="M24 4 L42 14 V34 L24 44 L6 34 V14 Z" fill="#C19C00"/><path d="M24 4 V24 M6 14 L24 24 L42 14" stroke="#fff" stroke-width="2" fill="none"/></g>
+<text x="504" y="147" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="600" fill="#201F1E" text-anchor="start">Azure infrastructure</text>
+<rect x="460" y="172" width="143.6" height="22" rx="11" fill="#F3F9FD"/>
+<text x="531.8" y="187.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">Landing zone as code</text>
+<rect x="609.6" y="172" width="47.9" height="22" rx="11" fill="#F3F9FD"/>
+<text x="633.5500000000001" y="187.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">Bicep</text>
+<rect x="663.5" y="172" width="73.41999999999999" height="22" rx="11" fill="#F3F9FD"/>
+<text x="700.21" y="187.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">Azure CLI</text>
+<rect x="460" y="199" width="124.46" height="22" rx="11" fill="#F3F9FD"/>
+<text x="522.23" y="214.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">Management groups</text>
+<rect x="590.46" y="199" width="92.55999999999999" height="22" rx="11" fill="#F3F9FD"/>
+<text x="636.74" y="214.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">Azure Policy</text>
+<rect x="689.02" y="199" width="130.83999999999997" height="22" rx="11" fill="#F3F9FD"/>
+<text x="754.4399999999999" y="214.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">Trusted Launch VMs</text>
+<rect x="460" y="226" width="60.66" height="22" rx="11" fill="#F3F9FD"/>
+<text x="490.33" y="241.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">P2S VPN</text>
+<rect x="526.66" y="226" width="73.41999999999999" height="22" rx="11" fill="#F3F9FD"/>
+<text x="563.37" y="241.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">Key Vault</text>
+<rect x="606.0799999999999" y="226" width="124.46" height="22" rx="11" fill="#F3F9FD"/>
+<text x="668.31" y="241.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">Private endpoints</text>
+<text x="460" y="303" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="700" fill="#8A8886" text-anchor="start">SOP</text>
+<text x="490" y="303" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#005A9E" text-anchor="start">AZ-001–004 · AZ-101–102</text>
+<g transform="translate(872,124) scale(0.7083)"><rect x="5" y="5" width="38" height="38" rx="5" fill="#107C10"/><path d="M33 17 a11 11 0 1 0 2 11" fill="none" stroke="#fff" stroke-width="3.2"/><path d="M28 12 h8 v8" fill="none" stroke="#fff" stroke-width="3.2"/></g>
+<text x="916" y="147" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="600" fill="#201F1E" text-anchor="start">Backup &amp; disaster recovery</text>
+<rect x="872" y="172" width="92.55999999999999" height="22" rx="11" fill="#F3F9FD"/>
+<text x="918.28" y="187.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">Azure Backup</text>
+<rect x="970.56" y="172" width="111.69999999999999" height="22" rx="11" fill="#F3F9FD"/>
+<text x="1026.4099999999999" y="187.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">Veeam for Azure</text>
+<rect x="1088.26" y="172" width="98.94" height="22" rx="11" fill="#F3F9FD"/>
+<text x="1137.73" y="187.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">Site Recovery</text>
+<rect x="872" y="199" width="124.46" height="22" rx="11" fill="#F3F9FD"/>
+<text x="934.23" y="214.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">Two-region design</text>
+<rect x="1002.46" y="199" width="111.69999999999999" height="22" rx="11" fill="#F3F9FD"/>
+<text x="1058.31" y="214.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">Compute Gallery</text>
+<rect x="1120.16" y="199" width="111.69999999999999" height="22" rx="11" fill="#F3F9FD"/>
+<text x="1176.01" y="214.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">Restore testing</text>
+<rect x="872" y="226" width="111.69999999999999" height="22" rx="11" fill="#F3F9FD"/>
+<text x="927.85" y="241.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">RPO / RTO tiers</text>
+<text x="872" y="303" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="700" fill="#8A8886" text-anchor="start">SOP</text>
+<text x="902" y="303" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#005A9E" text-anchor="start">AZ-003 · AZ-005</text>
+<g transform="translate(48,358) scale(0.7083)"><path d="M24 4 L45 42 H3 Z" fill="#A4262C"/><rect x="22" y="17" width="4" height="13" fill="#fff"/><circle cx="24" cy="35" r="2.5" fill="#fff"/></g>
+<text x="92" y="381" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="600" fill="#201F1E" text-anchor="start">Security assessment</text>
+<rect x="48" y="406" width="156.35999999999999" height="22" rx="11" fill="#F3F9FD"/>
+<text x="126.17999999999999" y="421.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">STRIDE threat modeling</text>
+<rect x="210.35999999999999" y="406" width="67.03999999999999" height="22" rx="11" fill="#F3F9FD"/>
+<text x="243.88" y="421.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">gitleaks</text>
+<rect x="283.4" y="406" width="47.9" height="22" rx="11" fill="#F3F9FD"/>
+<text x="307.34999999999997" y="421.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">Trivy</text>
+<rect x="48" y="433" width="79.8" height="22" rx="11" fill="#F3F9FD"/>
+<text x="87.9" y="448.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">Dependabot</text>
+<rect x="133.8" y="433" width="73.41999999999999" height="22" rx="11" fill="#F3F9FD"/>
+<text x="170.51" y="448.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">CIS Azure</text>
+<rect x="213.22" y="433" width="130.83999999999997" height="22" rx="11" fill="#F3F9FD"/>
+<text x="278.64" y="448.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">Defender for Cloud</text>
+<rect x="48" y="460" width="130.83999999999997" height="22" rx="11" fill="#F3F9FD"/>
+<text x="113.41999999999999" y="475.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">Alert-fire testing</text>
+<rect x="184.83999999999997" y="460" width="130.83999999999997" height="22" rx="11" fill="#F3F9FD"/>
+<text x="250.25999999999996" y="475.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">Control crosswalks</text>
+<text x="48" y="537" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="700" fill="#8A8886" text-anchor="start">SOP</text>
+<text x="78" y="537" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#005A9E" text-anchor="start">AZ-103–108</text>
+<g transform="translate(460,358) scale(0.7083)"><path d="M24 3 L41 9 V23 C41 34 33 41 24 45 C15 41 7 34 7 23 V9 Z" fill="#0078D4"/><path d="M24 3 V45 C33 41 41 34 41 23 V9 Z" fill="#005A9E"/><path d="M16 24 l6 6 11-12" stroke="#fff" stroke-width="3.2" fill="none"/></g>
+<text x="504" y="381" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="600" fill="#201F1E" text-anchor="start">Security operations</text>
+<rect x="460" y="406" width="54.279999999999994" height="22" rx="11" fill="#F3F9FD"/>
+<text x="487.14" y="421.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">Qualys</text>
+<rect x="520.28" y="406" width="188.26" height="22" rx="11" fill="#F3F9FD"/>
+<text x="614.41" y="421.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">Defender vulnerability mgmt</text>
+<rect x="460" y="433" width="181.88" height="22" rx="11" fill="#F3F9FD"/>
+<text x="550.94" y="448.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">Exploit-led prioritisation</text>
+<rect x="647.88" y="433" width="111.69999999999999" height="22" rx="11" fill="#F3F9FD"/>
+<text x="703.73" y="448.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">BEC containment</text>
+<rect x="460" y="460" width="111.69999999999999" height="22" rx="11" fill="#F3F9FD"/>
+<text x="515.85" y="475.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">Exchange Online</text>
+<rect x="577.7" y="460" width="35.14" height="22" rx="11" fill="#F3F9FD"/>
+<text x="595.2700000000001" y="475.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">KQL</text>
+<rect x="618.84" y="460" width="98.94" height="22" rx="11" fill="#F3F9FD"/>
+<text x="668.3100000000001" y="475.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">EDR migration</text>
+<text x="460" y="537" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="700" fill="#8A8886" text-anchor="start">SOP</text>
+<text x="490" y="537" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#005A9E" text-anchor="start">SEC-001 · SEC-002 · EP-002</text>
+<g transform="translate(872,358) scale(0.7083)"><rect x="4" y="8" width="32" height="22" rx="2" fill="#0078D4"/><rect x="7" y="11" width="26" height="16" fill="#fff"/><rect x="14" y="30" width="12" height="4" fill="#0078D4"/><rect x="28" y="18" width="16" height="26" rx="2" fill="#005A9E"/><rect x="30" y="21" width="12" height="18" fill="#fff"/><path d="M10 19 l5 4 9-8" stroke="#107C10" stroke-width="2.6" fill="none"/></g>
+<text x="916" y="381" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="600" fill="#201F1E" text-anchor="start">Endpoint management</text>
+<rect x="872" y="406" width="54.279999999999994" height="22" rx="11" fill="#F3F9FD"/>
+<text x="899.14" y="421.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">Intune</text>
+<rect x="932.28" y="406" width="124.46" height="22" rx="11" fill="#F3F9FD"/>
+<text x="994.51" y="421.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">Windows Autopilot</text>
+<rect x="1062.74" y="406" width="137.21999999999997" height="22" rx="11" fill="#F3F9FD"/>
+<text x="1131.35" y="421.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">Update rings (WUfB)</text>
+<rect x="872" y="433" width="149.98" height="22" rx="11" fill="#F3F9FD"/>
+<text x="946.99" y="448.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">Defender for Endpoint</text>
+<rect x="1027.98" y="433" width="156.35999999999999" height="22" rx="11" fill="#F3F9FD"/>
+<text x="1106.16" y="448.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">Apple Business Manager</text>
+<rect x="872" y="460" width="67.03999999999999" height="22" rx="11" fill="#F3F9FD"/>
+<text x="905.52" y="475.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">Jamf Pro</text>
+<rect x="945.04" y="460" width="143.6" height="22" rx="11" fill="#F3F9FD"/>
+<text x="1016.8399999999999" y="475.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">Multi Admin Approval</text>
+<rect x="1094.6399999999999" y="460" width="54.279999999999994" height="22" rx="11" fill="#F3F9FD"/>
+<text x="1121.78" y="475.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">Tanium</text>
+<rect x="1154.9199999999998" y="460" width="73.41999999999999" height="22" rx="11" fill="#F3F9FD"/>
+<text x="1191.6299999999999" y="475.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">ConfigMgr</text>
+<text x="872" y="537" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="700" fill="#8A8886" text-anchor="start">SOP</text>
+<text x="902" y="537" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#005A9E" text-anchor="start">EM-001–005 · EP-001</text>
+<g transform="translate(48,592) scale(0.7083)"><rect x="4" y="7" width="40" height="27" rx="2" fill="#0078D4"/><rect x="7" y="10" width="34" height="21" fill="#fff"/><path d="M15 15 h18 M15 20 h18 M15 25 h12" stroke="#0078D4" stroke-width="2.4"/><rect x="18" y="34" width="12" height="5" fill="#005A9E"/><rect x="12" y="39" width="24" height="3" rx="1" fill="#005A9E"/></g>
+<text x="92" y="615" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="600" fill="#201F1E" text-anchor="start">Windows &amp; Active Directory</text>
+<rect x="48" y="640" width="92.55999999999999" height="22" rx="11" fill="#F3F9FD"/>
+<text x="94.28" y="655.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">Group Policy</text>
+<rect x="146.56" y="640" width="143.6" height="22" rx="11" fill="#F3F9FD"/>
+<text x="218.36" y="655.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">DHCP + domain repair</text>
+<rect x="48" y="667" width="149.98" height="22" rx="11" fill="#F3F9FD"/>
+<text x="122.99" y="682.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">nltest · sc · net use</text>
+<rect x="203.98" y="667" width="124.46" height="22" rx="11" fill="#F3F9FD"/>
+<text x="266.21" y="682.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">SMB drive mapping</text>
+<rect x="48" y="694" width="118.08" height="22" rx="11" fill="#F3F9FD"/>
+<text x="107.03999999999999" y="709.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">USB serial / COM</text>
+<rect x="172.07999999999998" y="694" width="105.32" height="22" rx="11" fill="#F3F9FD"/>
+<text x="224.73999999999998" y="709.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">Invoke-Command</text>
+<rect x="48" y="721" width="137.21999999999997" height="22" rx="11" fill="#F3F9FD"/>
+<text x="116.60999999999999" y="736.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">Intune Remediations</text>
+<text x="48" y="771" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="700" fill="#8A8886" text-anchor="start">SOP</text>
+<text x="78" y="771" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#005A9E" text-anchor="start">WIN-001–004</text>
+<g transform="translate(460,592) scale(0.7083)"><rect x="8" y="4" width="32" height="40" rx="3" fill="#0078D4"/><path d="M14 14 h20 M14 21 h20 M14 28 h14" stroke="#fff" stroke-width="2.4"/><circle cx="33" cy="36" r="7" fill="#107C10"/><path d="M30 36 l2 2 4-4" stroke="#fff" stroke-width="2" fill="none"/></g>
+<text x="504" y="615" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="600" fill="#201F1E" text-anchor="start">Regulated lab IT (GxP)</text>
+<rect x="460" y="640" width="105.32" height="22" rx="11" fill="#EFE6F7"/>
+<text x="512.66" y="655.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">21 CFR Part 11</text>
+<rect x="571.3199999999999" y="640" width="111.69999999999999" height="22" rx="11" fill="#EFE6F7"/>
+<text x="627.17" y="655.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">EU GMP Annex 11</text>
+<rect x="689.02" y="640" width="105.32" height="22" rx="11" fill="#EFE6F7"/>
+<text x="741.68" y="655.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">Change control</text>
+<rect x="460" y="667" width="156.35999999999999" height="22" rx="11" fill="#EFE6F7"/>
+<text x="538.18" y="682.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">Validated workstations</text>
+<rect x="622.36" y="667" width="137.21999999999997" height="22" rx="11" fill="#EFE6F7"/>
+<text x="690.97" y="682.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">Win 7 → 11 lab apps</text>
+<rect x="460" y="694" width="60.66" height="22" rx="11" fill="#EFE6F7"/>
+<text x="490.33" y="709.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">Hyper-V</text>
+<rect x="526.66" y="694" width="111.69999999999999" height="22" rx="11" fill="#EFE6F7"/>
+<text x="582.51" y="709.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">BeyondTrust PRA</text>
+<rect x="644.3599999999999" y="694" width="41.519999999999996" height="22" rx="11" fill="#EFE6F7"/>
+<text x="665.1199999999999" y="709.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">LIMS</text>
+<rect x="691.8799999999999" y="694" width="124.46" height="22" rx="11" fill="#EFE6F7"/>
+<text x="754.1099999999999" y="709.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">Zebra + BarTender</text>
+<text x="460" y="771" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="700" fill="#8A8886" text-anchor="start">SOP</text>
+<text x="490" y="771" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#005A9E" text-anchor="start">GOV-001 · LAB-001–003 · LBL-001–002</text>
+<g transform="translate(872,592) scale(0.7083)"><rect x="4" y="8" width="40" height="32" rx="3" fill="#0078D4"/><rect x="4" y="8" width="40" height="8" rx="3" fill="#005A9E"/><circle cx="9" cy="12" r="1.6" fill="#fff"/><circle cx="14" cy="12" r="1.6" fill="#fff"/><path d="M10 24 h28 M10 30 h20" stroke="#fff" stroke-width="2.4"/></g>
+<text x="916" y="615" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="15" font-weight="600" fill="#201F1E" text-anchor="start">Microsoft 365 &amp; migration</text>
+<rect x="872" y="640" width="130.83999999999997" height="22" rx="11" fill="#F3F9FD"/>
+<text x="937.42" y="655.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">Teams + SharePoint</text>
+<rect x="1008.8399999999999" y="640" width="124.46" height="22" rx="11" fill="#F3F9FD"/>
+<text x="1071.07" y="655.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">Migration Manager</text>
+<rect x="872" y="667" width="175.5" height="22" rx="11" fill="#F3F9FD"/>
+<text x="959.75" y="682.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">SharePoint Migration Tool</text>
+<rect x="1053.5" y="667" width="98.94" height="22" rx="11" fill="#F3F9FD"/>
+<text x="1102.97" y="682.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">Azure Migrate</text>
+<rect x="872" y="694" width="226.54" height="22" rx="11" fill="#F3F9FD"/>
+<text x="985.27" y="709.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">AWS Application Migration Service</text>
+<rect x="872" y="721" width="130.83999999999997" height="22" rx="11" fill="#F3F9FD"/>
+<text x="937.42" y="736.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">Cutover + rollback</text>
+<text x="872" y="771" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="700" fill="#8A8886" text-anchor="start">SOP</text>
+<text x="902" y="771" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#005A9E" text-anchor="start">M365-001 · MIG-001</text>
+<text x="32" y="814" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Frameworks the work is mapped to</text>
+<rect x="32" y="828" width="162.89999999999998" height="22" rx="11" fill="#DEECF9"/>
+<text x="113.44999999999999" y="843.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#005A9E" text-anchor="middle">NIST SP 800-53 Rev. 5</text>
+<rect x="202.89999999999998" y="828" width="100.8" height="22" rx="11" fill="#DEECF9"/>
+<text x="253.29999999999998" y="843.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#005A9E" text-anchor="middle">NIST CSF 2.0</text>
+<rect x="311.7" y="828" width="142.2" height="22" rx="11" fill="#DEECF9"/>
+<text x="382.79999999999995" y="843.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#005A9E" text-anchor="middle">ISO/IEC 27001:2022</text>
+<rect x="461.9" y="828" width="190.5" height="22" rx="11" fill="#DEECF9"/>
+<text x="557.15" y="843.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#005A9E" text-anchor="middle">21 CFR Part 11 · Annex 11</text>
+<rect x="660.4" y="828" width="149.1" height="22" rx="11" fill="#DEECF9"/>
+<text x="734.9499999999999" y="843.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#005A9E" text-anchor="middle">HIPAA Security Rule</text>
+<rect x="817.5" y="828" width="66.3" height="22" rx="11" fill="#DEECF9"/>
+<text x="850.65" y="843.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#005A9E" text-anchor="middle">PCI DSS</text>
+<rect x="891.8" y="828" width="114.6" height="22" rx="11" fill="#DEECF9"/>
+<text x="949.0999999999999" y="843.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#005A9E" text-anchor="middle">CIS Benchmarks</text>
+<rect x="1014.4" y="828" width="121.49999999999999" height="22" rx="11" fill="#DEECF9"/>
+<text x="1075.1499999999999" y="843.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#005A9E" text-anchor="middle">CIS Controls v8</text>
+<line x1="32" y1="866" x2="1248" y2="866" stroke="#E1DFDD"/>
+<text x="32" y="886" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#8A8886">Generalised design: no client names, tenant IDs, addresses or data. Icons are simplified originals, not Microsoft artwork.</text>
+<text x="1248" y="886" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#8A8886" text-anchor="end">Rich Dieu · github.com/richdieu-max</text>
+</svg>
