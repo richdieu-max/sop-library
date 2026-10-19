@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 760" width="1280" height="760" role="img" aria-label="The migration lifecycle: scan clean, copy live, shrink the deltas">
+<title>The migration lifecycle: scan clean, copy live, shrink the deltas</title>
+<defs><marker id="mC19C00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#C19C00"/></marker><marker id="mC19C00s" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M10,0 L0,5 L10,10 z" fill="#C19C00"/></marker><marker id="m0078D4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#0078D4"/></marker><marker id="m0078D4s" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M10,0 L0,5 L10,10 z" fill="#0078D4"/></marker></defs>
+<rect width="1280" height="760" fill="#fff"/>
+<rect x="0" y="0" width="1280" height="6" fill="#0078D4"/>
+<text x="32" y="48" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="600" fill="#201F1E">The migration lifecycle: scan clean, copy live, shrink the deltas</text>
+<text x="32" y="72" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#605E5C">Remediation repeats until the scan is clean; delta passes repeat until the last one fits the cutover window.</text>
+<rect x="32" y="446" width="760" height="236" rx="6" fill="#F6FBF6" stroke="#107C10" stroke-width="1.4" stroke-dasharray="6 4"/>
+<g transform="translate(42,454) scale(0.5000)"><circle cx="24" cy="24" r="19" fill="#0078D4"/><circle cx="24" cy="24" r="15" fill="#fff"/><path d="M24 14 v10 l7 5" stroke="#0078D4" stroke-width="3" fill="none"/></g>
+<text x="74" y="471" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#107C10" text-anchor="start">Cutover runbook</text>
+<rect x="33.5" y="122" width="280" height="92" rx="5" fill="#000" opacity="0.06"/>
+<rect x="32" y="120" width="280" height="92" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="345.5" y="122" width="280" height="92" rx="5" fill="#000" opacity="0.06"/>
+<rect x="344" y="120" width="280" height="92" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="657.5" y="122" width="280" height="92" rx="5" fill="#000" opacity="0.06"/>
+<rect x="656" y="120" width="280" height="92" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="969.5" y="122" width="280" height="92" rx="5" fill="#000" opacity="0.06"/>
+<rect x="968" y="120" width="280" height="92" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="33.5" y="302" width="280" height="92" rx="5" fill="#000" opacity="0.06"/>
+<rect x="32" y="300" width="280" height="92" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="32" y="300" width="4" height="92" rx="0" fill="#A4262C"/>
+<rect x="345.5" y="302" width="280" height="92" rx="5" fill="#000" opacity="0.06"/>
+<rect x="344" y="300" width="280" height="92" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="344" y="300" width="4" height="92" rx="0" fill="#107C10"/>
+<rect x="657.5" y="302" width="280" height="92" rx="5" fill="#000" opacity="0.06"/>
+<rect x="656" y="300" width="280" height="92" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="969.5" y="302" width="280" height="92" rx="5" fill="#000" opacity="0.06"/>
+<rect x="968" y="300" width="280" height="92" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<path d="M312,166 L342,166" fill="none" stroke="#0078D4" stroke-width="2" marker-end="url(#m0078D4)" stroke-linejoin="round"/>
+<path d="M344,346 L314,346" fill="none" stroke="#0078D4" stroke-width="2" marker-end="url(#m0078D4)" stroke-linejoin="round"/>
+<path d="M624,166 L654,166" fill="none" stroke="#0078D4" stroke-width="2" marker-end="url(#m0078D4)" stroke-linejoin="round"/>
+<path d="M656,346 L626,346" fill="none" stroke="#0078D4" stroke-width="2" marker-end="url(#m0078D4)" stroke-linejoin="round"/>
+<path d="M936,166 L966,166" fill="none" stroke="#0078D4" stroke-width="2" marker-end="url(#m0078D4)" stroke-linejoin="round"/>
+<path d="M968,346 L938,346" fill="none" stroke="#0078D4" stroke-width="2" marker-end="url(#m0078D4)" stroke-linejoin="round"/>
+<path d="M1108.0,212 L1108.0,298" fill="none" stroke="#0078D4" stroke-width="2" marker-end="url(#m0078D4)" stroke-linejoin="round"/>
+<path d="M796.0,120 L796.0,108 L484.0,108 L484.0,118" fill="none" stroke="#C19C00" stroke-width="1.6" stroke-dasharray="4 3" marker-end="url(#mC19C00)" stroke-linejoin="round"/>
+<path d="M736.0,392 L736.0,408 L856.0,408 L856.0,394" fill="none" stroke="#C19C00" stroke-width="1.6" stroke-dasharray="4 3" marker-end="url(#mC19C00)" stroke-linejoin="round"/>
+<rect x="816" y="446" width="432" height="106" rx="4" fill="#FFF4CE"/>
+<rect x="816" y="446" width="4" height="106" rx="0" fill="#C19C00"/>
+<rect x="816" y="574" width="432" height="106" rx="4" fill="#DFF6DD"/>
+<rect x="816" y="574" width="4" height="106" rx="0" fill="#107C10"/>
+<g transform="translate(44,134) scale(0.8333)"><path d="M10 4 h20 l8 8 v32 h-28 Z" fill="#0078D4"/><path d="M30 4 v8 h8" fill="#fff" opacity=".5"/><path d="M15 22 h18 M15 28 h18 M15 34 h12" stroke="#fff" stroke-width="2.4"/></g>
+<text x="96" y="144" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Inventory</text>
+<text x="96" y="162" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">owners, sizes, ACLs,</text>
+<text x="96" y="179" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">wave plan</text>
+<circle cx="32" cy="120" r="15" fill="#fff"/><circle cx="32" cy="120" r="13" fill="#0078D4"/>
+<text x="32" y="124.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">1</text>
+<g transform="translate(356,134) scale(0.8333)"><path d="M10 4 h20 l8 8 v32 h-28 Z" fill="#605E5C"/><circle cx="22" cy="25" r="7" fill="none" stroke="#fff" stroke-width="2.6"/><path d="M27 30 l6 6" stroke="#fff" stroke-width="3"/></g>
+<text x="408" y="144" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Scan</text>
+<text x="408" y="162" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">agent reads every item;</text>
+<text x="408" y="179" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">READY TO MIGRATE?</text>
+<circle cx="344" cy="120" r="15" fill="#fff"/><circle cx="344" cy="120" r="13" fill="#0078D4"/>
+<text x="344" y="124.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">2</text>
+<g transform="translate(668,134) scale(0.8333)"><path d="M33 4 l-10 22" stroke="#605E5C" stroke-width="3.4"/><path d="M14 24 h18 l6 18 h-30 Z" fill="#C19C00"/><path d="M16 32 l-2 10 M22 32 v10 M28 32 l2 10" stroke="#fff" stroke-width="1.8"/></g>
+<text x="720" y="144" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Remediate</text>
+<text x="720" y="162" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">names, empty files, long</text>
+<text x="720" y="179" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">paths; -WhatIf first</text>
+<circle cx="656" cy="120" r="15" fill="#fff"/><circle cx="656" cy="120" r="13" fill="#0078D4"/>
+<text x="656" y="124.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">3</text>
+<g transform="translate(980,134) scale(0.8333)"><circle cx="17" cy="16" r="7" fill="#005A9E"/><path d="M3 40 q14-20 28 0Z" fill="#005A9E"/><circle cx="31" cy="18" r="7" fill="#0078D4"/><path d="M17 44 q14-20 28 0Z" fill="#0078D4"/></g>
+<text x="1032" y="144" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Pilot</text>
+<text x="1032" y="162" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">one team, real users,</text>
+<text x="1032" y="179" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">sign-off</text>
+<circle cx="968" cy="120" r="15" fill="#fff"/><circle cx="968" cy="120" r="13" fill="#0078D4"/>
+<text x="968" y="124.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">4</text>
+<g transform="translate(44,314) scale(0.8333)"><path d="M4 12 h15 l4 4 h21 v24 h-40 Z" fill="#C19C00"/><path d="M4 18 h40" stroke="#fff" stroke-width="1.5" opacity=".6"/></g>
+<text x="96" y="324" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Retire share</text>
+<text x="96" y="342" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">read-only 30–90 days,</text>
+<text x="96" y="359" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">then archive or delete</text>
+<circle cx="32" cy="300" r="15" fill="#fff"/><circle cx="32" cy="300" r="13" fill="#A4262C"/>
+<text x="32" y="304.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">8</text>
+<g transform="translate(356,314) scale(0.8333)"><circle cx="24" cy="24" r="19" fill="#0078D4"/><circle cx="24" cy="24" r="15" fill="#fff"/><path d="M24 14 v10 l7 5" stroke="#0078D4" stroke-width="3" fill="none"/></g>
+<text x="408" y="324" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Cutover</text>
+<text x="408" y="342" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">source read-only, final</text>
+<text x="408" y="359" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">delta, comms, drive map</text>
+<circle cx="344" cy="300" r="15" fill="#fff"/><circle cx="344" cy="300" r="13" fill="#107C10"/>
+<text x="344" y="304.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">7</text>
+<g transform="translate(668,314) scale(0.8333)"><rect x="5" y="5" width="38" height="38" rx="5" fill="#107C10"/><path d="M33 17 a11 11 0 1 0 2 11" fill="none" stroke="#fff" stroke-width="3.2"/><path d="M28 12 h8 v8" fill="none" stroke="#fff" stroke-width="3.2"/></g>
+<text x="720" y="324" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Delta passes</text>
+<text x="720" y="342" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">changed files only,</text>
+<text x="720" y="359" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">each pass smaller</text>
+<circle cx="656" cy="300" r="15" fill="#fff"/><circle cx="656" cy="300" r="13" fill="#0078D4"/>
+<text x="656" y="304.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">6</text>
+<g transform="translate(980,314) scale(0.8333)"><rect x="6" y="8" width="10" height="34" rx="1" fill="#008575"/><rect x="19" y="8" width="10" height="34" rx="1" fill="#008575" opacity=".8"/><rect x="32" y="10" width="10" height="32" rx="1" fill="#008575" transform="rotate(8 37 26)"/></g>
+<text x="1032" y="324" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Bulk copy</text>
+<text x="1032" y="342" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">users keep working,</text>
+<text x="1032" y="359" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">task per source</text>
+<circle cx="968" cy="300" r="15" fill="#fff"/><circle cx="968" cy="300" r="13" fill="#0078D4"/>
+<text x="968" y="304.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">5</text>
+<text x="1118.0" y="260" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#605E5C" text-anchor="start">plan fixed</text>
+<text x="640.0" y="103" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#8A6D00" text-anchor="middle">re-scan until clean</text>
+<text x="796.0" y="424" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#8A6D00" text-anchor="middle">repeat until one fits the window</text>
+<rect x="52" y="483" width="56" height="22" rx="11" fill="#DFF6DD"/>
+<text x="80.0" y="498.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#107C10" text-anchor="middle">T-5 d</text>
+<text x="122" y="498" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">Communicate the date, the new location, read-only old drive; publish "where are my files"</text>
+<rect x="52" y="512" width="56" height="22" rx="11" fill="#DFF6DD"/>
+<text x="80.0" y="527.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#107C10" text-anchor="middle">T-1 d</text>
+<text x="122" y="527" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">Run a delta pass and confirm its duration fits the window</text>
+<rect x="52" y="541" width="56" height="22" rx="11" fill="#DFF6DD"/>
+<text x="80.0" y="556.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#107C10" text-anchor="middle">T-0</text>
+<text x="122" y="556" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">Export the share ACL, then make the share Read for Domain Users</text>
+<rect x="52" y="570" width="56" height="22" rx="11" fill="#DFF6DD"/>
+<text x="80.0" y="585.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#107C10" text-anchor="middle">T-0</text>
+<text x="122" y="585" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">Run the final delta (rerun the task or the SPMT script) and verify</text>
+<rect x="52" y="599" width="56" height="22" rx="11" fill="#DFF6DD"/>
+<text x="80.0" y="614.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#107C10" text-anchor="middle">T-0</text>
+<text x="122" y="614" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">Remove the mapped drive (Drive Maps action Delete, or the logon script)</text>
+<rect x="52" y="628" width="56" height="22" rx="11" fill="#DFF6DD"/>
+<text x="80.0" y="643.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#107C10" text-anchor="middle">After</text>
+<text x="122" y="643" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">Keep the share read-only for the agreed period, then archive</text>
+<text x="832" y="468" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#201F1E" text-anchor="start">Why read-only first</text>
+<text x="832" y="489" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">Deltas copy new and changed files but never</text>
+<text x="832" y="506" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">delete at the destination what users deleted</text>
+<text x="832" y="523" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">at the source. Make the share read-only</text>
+<text x="832" y="540" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">before the final pass.</text>
+<text x="832" y="596" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#201F1E" text-anchor="start">Rollback stays simple</text>
+<text x="832" y="617" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">Every method copies, so the source is safe.</text>
+<text x="832" y="634" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">Only the cleanup changes it: quarantine mode</text>
+<text x="832" y="651" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">keeps that reversible. Deleted destination</text>
+<text x="832" y="668" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">folders sit in the recycle bin for 93 days.</text>
+<line x1="32" y1="726" x2="1248" y2="726" stroke="#E1DFDD"/>
+<text x="32" y="746" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#8A8886">Generalised design: no client names, tenant IDs, addresses or data. Icons are simplified originals, not Microsoft artwork.</text>
+<text x="1248" y="746" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#8A8886" text-anchor="end">Rich Dieu · github.com/richdieu-max</text>
+</svg>

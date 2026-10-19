@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 660" width="1280" height="660" role="img" aria-label="Five steps, then prove it with real sign-ins">
+<title>Five steps, then prove it with real sign-ins</title>
+<defs><marker id="m0078D4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#0078D4"/></marker><marker id="m0078D4s" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M10,0 L0,5 L10,10 z" fill="#0078D4"/></marker></defs>
+<rect width="1280" height="660" fill="#fff"/>
+<rect x="0" y="0" width="1280" height="6" fill="#0078D4"/>
+<text x="32" y="48" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="600" fill="#201F1E">Five steps, then prove it with real sign-ins</text>
+<text x="32" y="72" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#605E5C">Settings are configured in the portal; the matrix is proven by one test account per group trying one allowed and one denied action.</text>
+<rect x="32" y="330" width="590" height="250" rx="6" fill="#FAF9F8" stroke="#C8C6C4" stroke-width="1.4"/>
+<g transform="translate(42,338) scale(0.5000)"><rect x="4" y="7" width="40" height="34" rx="3" fill="#201F1E"/><path d="M11 17 l7 6 -7 6" stroke="#fff" stroke-width="3" fill="none"/><path d="M22 31 h13" stroke="#fff" stroke-width="3"/></g>
+<text x="74" y="355" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#201F1E" text-anchor="start">Read-only review exports</text>
+<rect x="646" y="330" width="602" height="250" rx="6" fill="#F6FBF6" stroke="#107C10" stroke-width="1.4" stroke-dasharray="6 4"/>
+<g transform="translate(656,338) scale(0.5000)"><circle cx="24" cy="24" r="20" fill="#107C10"/><path d="M14 24 l7 7 13-14" stroke="#fff" stroke-width="4" fill="none"/></g>
+<text x="688" y="355" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#107C10" text-anchor="start">Matrix test, one account per group</text>
+<rect x="33.5" y="114" width="224" height="150" rx="5" fill="#000" opacity="0.06"/>
+<rect x="32.0" y="112" width="224" height="150" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<path d="M258,187 L276,187" fill="none" stroke="#0078D4" stroke-width="2" marker-end="url(#m0078D4)" stroke-linejoin="round"/>
+<rect x="279.5" y="114" width="224" height="150" rx="5" fill="#000" opacity="0.06"/>
+<rect x="278.0" y="112" width="224" height="150" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<path d="M504,187 L522,187" fill="none" stroke="#0078D4" stroke-width="2" marker-end="url(#m0078D4)" stroke-linejoin="round"/>
+<rect x="525.5" y="114" width="224" height="150" rx="5" fill="#000" opacity="0.06"/>
+<rect x="524.0" y="112" width="224" height="150" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<path d="M750,187 L768,187" fill="none" stroke="#0078D4" stroke-width="2" marker-end="url(#m0078D4)" stroke-linejoin="round"/>
+<rect x="771.5" y="114" width="224" height="150" rx="5" fill="#000" opacity="0.06"/>
+<rect x="770.0" y="112" width="224" height="150" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<path d="M996,187 L1014,187" fill="none" stroke="#0078D4" stroke-width="2" marker-end="url(#m0078D4)" stroke-linejoin="round"/>
+<rect x="1017.5" y="114" width="224" height="150" rx="5" fill="#000" opacity="0.06"/>
+<rect x="1016.0" y="112" width="224" height="150" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="664" y="500" width="566" height="33" rx="4" fill="#DFF6DD"/>
+<rect x="664" y="500" width="4" height="33" rx="0" fill="#107C10"/>
+<g transform="translate(122.0,124) scale(0.9167)"><rect x="3" y="6" width="42" height="36" rx="4" fill="#DEECF9" stroke="#0078D4" stroke-width="1.5"/><circle cx="18" cy="19" r="5" fill="#0078D4"/><path d="M9 35 q9-14 18 0Z" fill="#0078D4"/><circle cx="31" cy="20" r="5" fill="#005A9E"/><path d="M22 36 q9-14 18 0Z" fill="#005A9E"/></g>
+<text x="144.0" y="188" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="middle">Groups exist</text>
+<text x="144.0" y="206" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="middle">Owned, approved</text>
+<text x="144.0" y="223" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="middle">members only</text>
+<circle cx="52" cy="132" r="15" fill="#fff"/><circle cx="52" cy="132" r="13" fill="#0078D4"/>
+<text x="52" y="136.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">1</text>
+<rect x="44" y="274" width="200" height="22" rx="11" fill="#DEECF9"/>
+<text x="144.0" y="289.5" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">Entra ID › Groups</text>
+<g transform="translate(368.0,124) scale(0.9167)"><rect x="5" y="8" width="38" height="32" rx="3" fill="#5C2D91"/><circle cx="17" cy="21" r="5" fill="#fff"/><path d="M9 34 q8-12 16 0Z" fill="#fff"/><path d="M28 18 h10 M28 25 h10 M28 32 h7" stroke="#fff" stroke-width="2.4"/></g>
+<text x="390.0" y="188" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="middle">Roles to groups</text>
+<text x="390.0" y="206" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="middle">At the product</text>
+<text x="390.0" y="223" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="middle">root MG, IAM</text>
+<circle cx="298" cy="132" r="15" fill="#fff"/><circle cx="298" cy="132" r="13" fill="#0078D4"/>
+<text x="298" y="136.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">2</text>
+<rect x="290" y="274" width="200" height="22" rx="11" fill="#DEECF9"/>
+<text x="390.0" y="289.5" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">Add role assignment</text>
+<g transform="translate(614.0,124) scale(0.9167)"><circle cx="24" cy="24" r="20" fill="#107C10"/><path d="M14 24 l7 7 13-14" stroke="#fff" stroke-width="4" fill="none"/></g>
+<text x="636.0" y="188" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="middle">PIM eligible</text>
+<text x="636.0" y="206" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="middle">Owner, Contributor</text>
+<text x="636.0" y="223" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="middle">4 to 8 h, MFA</text>
+<circle cx="544" cy="132" r="15" fill="#fff"/><circle cx="544" cy="132" r="13" fill="#0078D4"/>
+<text x="544" y="136.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">3</text>
+<rect x="536" y="274" width="200" height="22" rx="11" fill="#DEECF9"/>
+<text x="636.0" y="289.5" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">PIM › Azure resources</text>
+<g transform="translate(860.0,124) scale(0.9167)"><path d="M24 4 L40 10 V24 C40 34 33 41 24 44 C15 41 8 34 8 24 V10 Z" fill="#0078D4"/><path d="M17 24 h14 M24 17 v14" stroke="#fff" stroke-width="3"/><circle cx="24" cy="24" r="9" fill="none" stroke="#fff" stroke-width="2"/></g>
+<text x="882.0" y="188" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="middle">CA requires MFA</text>
+<text x="882.0" y="206" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="middle">Report-only first,</text>
+<text x="882.0" y="223" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="middle">then On</text>
+<circle cx="790" cy="132" r="15" fill="#fff"/><circle cx="790" cy="132" r="13" fill="#0078D4"/>
+<text x="790" y="136.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">4</text>
+<rect x="782" y="274" width="200" height="22" rx="11" fill="#DEECF9"/>
+<text x="882.0" y="289.5" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">Protection › CA</text>
+<g transform="translate(1106.0,124) scale(0.9167)"><path d="M10 4 h20 l8 8 v32 h-28 Z" fill="#605E5C"/><circle cx="22" cy="25" r="7" fill="none" stroke="#fff" stroke-width="2.6"/><path d="M27 30 l6 6" stroke="#fff" stroke-width="3"/></g>
+<text x="1128.0" y="188" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="middle">Review and test</text>
+<text x="1128.0" y="206" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="middle">Script, then the</text>
+<text x="1128.0" y="223" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="middle">matrix test</text>
+<circle cx="1036" cy="132" r="15" fill="#fff"/><circle cx="1036" cy="132" r="13" fill="#0078D4"/>
+<text x="1036" y="136.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">5</text>
+<rect x="1028" y="274" width="200" height="22" rx="11" fill="#DEECF9"/>
+<text x="1128.0" y="289.5" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">identity-review.ps1</text>
+<g transform="translate(48,372) scale(0.5417)"><path d="M10 4 h20 l8 8 v32 h-28 Z" fill="#0078D4"/><path d="M30 4 v8 h8" fill="#fff" opacity=".5"/><path d="M15 22 h18 M15 28 h18 M15 34 h12" stroke="#fff" stroke-width="2.4"/></g>
+<text x="84" y="385" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="12" font-weight="600" fill="#201F1E" text-anchor="start">01-role-assignments-root.csv</text>
+<text x="330" y="385" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Groups only, or documented exceptions</text>
+<g transform="translate(48,410) scale(0.5417)"><path d="M10 4 h20 l8 8 v32 h-28 Z" fill="#0078D4"/><path d="M30 4 v8 h8" fill="#fff" opacity=".5"/><path d="M15 22 h18 M15 28 h18 M15 34 h12" stroke="#fff" stroke-width="2.4"/></g>
+<text x="84" y="423" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="12" font-weight="600" fill="#201F1E" text-anchor="start">02-group-members.csv</text>
+<text x="330" y="423" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Approved members only</text>
+<g transform="translate(48,448) scale(0.5417)"><path d="M10 4 h20 l8 8 v32 h-28 Z" fill="#0078D4"/><path d="M30 4 v8 h8" fill="#fff" opacity=".5"/><path d="M15 22 h18 M15 28 h18 M15 34 h12" stroke="#fff" stroke-width="2.4"/></g>
+<text x="84" y="461" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="12" font-weight="600" fill="#201F1E" text-anchor="start">03-pim-eligible.csv</text>
+<text x="330" y="461" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Owner and Contributor eligible, not active</text>
+<g transform="translate(48,486) scale(0.5417)"><path d="M10 4 h20 l8 8 v32 h-28 Z" fill="#0078D4"/><path d="M30 4 v8 h8" fill="#fff" opacity=".5"/><path d="M15 22 h18 M15 28 h18 M15 34 h12" stroke="#fff" stroke-width="2.4"/></g>
+<text x="84" y="499" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="12" font-weight="600" fill="#201F1E" text-anchor="start">04-conditional-access.csv</text>
+<text x="330" y="499" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">MFA policy On, legacy auth blocked</text>
+<g transform="translate(48,524) scale(0.5417)"><path d="M10 4 h20 l8 8 v32 h-28 Z" fill="#605E5C"/><path d="M30 4 v8 h8" fill="#fff" opacity=".5"/><text x="24" y="35" font-family="Arial" font-weight="700" font-size="17" fill="#fff" text-anchor="middle">#</text></g>
+<text x="84" y="537" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="12" font-weight="600" fill="#201F1E" text-anchor="start">05-security-defaults.txt</text>
+<text x="330" y="537" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Security defaults enabled or not</text>
+<text x="664" y="378" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#201F1E" text-anchor="start">Role</text>
+<text x="784" y="378" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#201F1E" text-anchor="start">Action</text>
+<text x="1000" y="378" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#201F1E" text-anchor="start">Expected</text>
+<text x="1092" y="378" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#201F1E" text-anchor="start">Actual</text>
+<rect x="662" y="388" width="570" height="1" rx="0" fill="#C8C6C4"/>
+<text x="664" y="412" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">auditors</text>
+<text x="784" y="412" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">Read policy compliance</text>
+<text x="1000" y="412" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">Allow</text>
+<text x="1092" y="412" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#107C10" text-anchor="start">Allow</text>
+<text x="664" y="442" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">auditors</text>
+<text x="784" y="442" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">Delete a lock</text>
+<text x="1000" y="442" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">Deny</text>
+<text x="1092" y="442" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#107C10" text-anchor="start">Deny</text>
+<text x="664" y="484" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Also record the UTC time and the activity log correlation ID.</text>
+<text x="680" y="522" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">Pass: one allowed and one denied result per role, as expected</text>
+<line x1="32" y1="626" x2="1248" y2="626" stroke="#E1DFDD"/>
+<text x="32" y="646" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#8A8886">Generalised design: no client names, tenant IDs, addresses or data. Icons are simplified originals, not Microsoft artwork.</text>
+<text x="1248" y="646" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#8A8886" text-anchor="end">Rich Dieu · github.com/richdieu-max</text>
+</svg>

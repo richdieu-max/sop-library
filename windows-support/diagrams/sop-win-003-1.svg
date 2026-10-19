@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 812" width="1280" height="812" role="img" aria-label="Why every mapped drive failed at once">
+<title>Why every mapped drive failed at once</title>
+<defs><marker id="m005A9E" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#005A9E"/></marker><marker id="m005A9Es" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M10,0 L0,5 L10,10 z" fill="#005A9E"/></marker><marker id="m0078D4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#0078D4"/></marker><marker id="m0078D4s" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M10,0 L0,5 L10,10 z" fill="#0078D4"/></marker></defs>
+<rect width="1280" height="812" fill="#fff"/>
+<rect x="0" y="0" width="1280" height="6" fill="#0078D4"/>
+<text x="32" y="48" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="600" fill="#201F1E">Why every mapped drive failed at once</text>
+<text x="32" y="72" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#605E5C">The Workstation service is the SMB client; a dependency list that still names a removed SMB1 driver stops it starting.</text>
+<rect x="32" y="100" width="520" height="600" rx="6" fill="#F3F9FD" stroke="#0078D4" stroke-width="1.4" stroke-dasharray="6 4"/>
+<g transform="translate(42,108) scale(0.5000)"><rect x="7" y="9" width="34" height="23" rx="2" fill="#0078D4"/><rect x="10" y="12" width="28" height="17" fill="#fff"/><path d="M3 35 h42 l-3 5 h-36 Z" fill="#005A9E"/></g>
+<text x="74" y="125" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#0078D4" text-anchor="start">User PC · SMB client stack</text>
+<rect x="576" y="100" width="672" height="300" rx="6" fill="#FFF8F8" stroke="#A4262C" stroke-width="1.4" stroke-dasharray="6 4"/>
+<g transform="translate(586,108) scale(0.5000)"><path d="M24 4 L45 42 H3 Z" fill="#A4262C"/><rect x="22" y="17" width="4" height="13" fill="#fff"/><circle cx="24" cy="35" r="2.5" fill="#fff"/></g>
+<text x="618" y="125" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#A4262C" text-anchor="start">Error 1068: SMB1 removed but still named as a dependency</text>
+<rect x="576" y="424" width="672" height="276" rx="6" fill="#fff" stroke="#8A8886" stroke-width="1.4" stroke-dasharray="6 4"/>
+<text x="590" y="449" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#8A8886" text-anchor="start">What happens when Z: connects (SMB 3.1.1, TCP 445)</text>
+<rect x="53.5" y="146" width="480" height="60" rx="5" fill="#000" opacity="0.06"/>
+<rect x="52" y="144" width="480" height="60" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="53.5" y="232" width="480" height="60" rx="5" fill="#000" opacity="0.06"/>
+<rect x="52" y="230" width="480" height="60" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="53.5" y="318" width="480" height="60" rx="5" fill="#000" opacity="0.06"/>
+<rect x="52" y="316" width="480" height="60" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="53.5" y="404" width="232" height="70" rx="5" fill="#000" opacity="0.06"/>
+<rect x="52" y="402" width="232" height="70" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="52" y="402" width="4" height="70" rx="0" fill="#107C10"/>
+<rect x="301.5" y="404" width="232" height="70" rx="5" fill="#000" opacity="0.06"/>
+<rect x="300" y="402" width="232" height="70" rx="5" fill="#FDE7E9" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="300" y="402" width="4" height="70" rx="0" fill="#A4262C"/>
+<rect x="53.5" y="500" width="480" height="60" rx="5" fill="#000" opacity="0.06"/>
+<rect x="52" y="498" width="480" height="60" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<path d="M292,204 L292,228" fill="none" stroke="#0078D4" stroke-width="1.8" marker-end="url(#m0078D4)" stroke-linejoin="round"/>
+<path d="M292,290 L292,314" fill="none" stroke="#0078D4" stroke-width="1.8" marker-end="url(#m0078D4)" stroke-linejoin="round"/>
+<path d="M168,376 L168,400" fill="none" stroke="#0078D4" stroke-width="1.8" marker-end="url(#m0078D4)" stroke-linejoin="round"/>
+<path d="M168,472 L168,496" fill="none" stroke="#0078D4" stroke-width="1.8" marker-end="url(#m0078D4)" stroke-linejoin="round"/>
+<rect x="53.5" y="592" width="480" height="84" rx="5" fill="#000" opacity="0.06"/>
+<rect x="52" y="590" width="480" height="84" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="52" y="590" width="4" height="84" rx="0" fill="#0078D4"/>
+<path d="M52,632 L42,632 L42,346 L50,346" fill="none" stroke="#005A9E" stroke-width="1.4" stroke-dasharray="4 3" marker-end="url(#m005A9E)" stroke-linejoin="round"/>
+<rect x="600" y="164" width="120" height="40" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="732" y="164" width="120" height="40" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="864" y="164" width="120" height="40" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="996" y="164" width="120" height="40" rx="5" fill="#FDE7E9" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="601.5" y="242" width="624" height="60" rx="5" fill="#000" opacity="0.06"/>
+<rect x="600" y="240" width="624" height="60" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="600" y="240" width="4" height="60" rx="0" fill="#A4262C"/>
+<rect x="600" y="342" width="120" height="40" rx="5" fill="#DFF6DD" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="732" y="342" width="120" height="40" rx="5" fill="#DFF6DD" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="864" y="342" width="120" height="40" rx="5" fill="#DFF6DD" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="600" y="640" width="300" height="33" rx="4" fill="#FDE7E9"/>
+<rect x="600" y="640" width="4" height="33" rx="0" fill="#A4262C"/>
+<rect x="924" y="640" width="300" height="33" rx="4" fill="#FFF4CE"/>
+<rect x="924" y="640" width="4" height="33" rx="0" fill="#C19C00"/>
+<path d="M532,520 L574,520" fill="none" stroke="#0078D4" stroke-width="1.8" marker-end="url(#m0078D4)" stroke-linejoin="round"/>
+<g transform="translate(64,156.0) scale(0.7500)"><path d="M4 12 h15 l4 4 h21 v24 h-40 Z" fill="#C19C00"/><path d="M4 18 h40" stroke="#fff" stroke-width="1.5" opacity=".6"/></g>
+<text x="112" y="170.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Explorer · net use · applications</text>
+<text x="112" y="188.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">open Z:\ or \\fs01\share</text>
+<g transform="translate(64,242.0) scale(0.7500)"><rect x="5" y="5" width="38" height="38" rx="5" fill="#0078D4"/><path d="M11 24 h26 M31 18 l6 6 -6 6 M17 18 l-6 6 6 6" stroke="#fff" stroke-width="3" fill="none"/><rect x="20" y="10" width="8" height="8" rx="1" fill="#fff"/></g>
+<text x="112" y="256.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">MUP</text>
+<text x="112" y="274.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Multiple UNC Provider: routes \\server paths</text>
+<g transform="translate(64,328.0) scale(0.7500)"><circle cx="24" cy="24" r="13" fill="none" stroke="#605E5C" stroke-width="7" stroke-dasharray="6 4.2"/><circle cx="24" cy="24" r="10" fill="#605E5C"/><circle cx="24" cy="24" r="4.5" fill="#fff"/></g>
+<text x="112" y="342.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">RDBSS + mrxsmb</text>
+<text x="112" y="360.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Redirector framework: caching, handles</text>
+<g transform="translate(64,416) scale(0.8333)"><rect x="4" y="14" width="40" height="22" rx="4" fill="#605E5C"/><path d="M4 28 h40" stroke="#fff" stroke-width="1.6"/><circle cx="36" cy="32" r="2" fill="#107C10"/><path d="M24 4 v8 M18 8 h12" stroke="#0078D4" stroke-width="3"/></g>
+<text x="116" y="426" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">MRxSmb20</text>
+<text x="116" y="444" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">SMB 2.x / 3.x</text>
+<g transform="translate(312,416) scale(0.8333)"><rect x="4" y="14" width="40" height="22" rx="4" fill="#605E5C"/><path d="M4 28 h40" stroke="#fff" stroke-width="1.6"/><circle cx="36" cy="32" r="2" fill="#107C10"/><path d="M24 4 v8 M18 8 h12" stroke="#0078D4" stroke-width="3"/></g>
+<text x="364" y="426" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">MRxSmb10</text>
+<text x="364" y="444" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">SMB1, only if installed</text>
+<g transform="translate(64,510.0) scale(0.7500)"><rect x="4" y="12" width="40" height="24" rx="12" fill="#0078D4"/><circle cx="15" cy="24" r="3" fill="#fff"/><circle cx="24" cy="24" r="3" fill="#fff"/><circle cx="33" cy="24" r="3" fill="#fff"/></g>
+<text x="112" y="524.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Tcpip</text>
+<text x="112" y="542.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">TCP 445 to the file server</text>
+<g transform="translate(64,604) scale(0.8333)"><rect x="8" y="4" width="32" height="12" rx="2" fill="#0078D4"/><rect x="8" y="18" width="32" height="12" rx="2" fill="#0078D4"/><rect x="8" y="32" width="32" height="12" rx="2" fill="#005A9E"/><circle cx="14" cy="10" r="2" fill="#fff"/><circle cx="14" cy="24" r="2" fill="#fff"/><circle cx="14" cy="38" r="2" fill="#fff"/><path d="M22 10 h12 M22 24 h12 M22 38 h12" stroke="#fff" stroke-width="2"/></g>
+<text x="116" y="614" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Workstation service (LanmanWorkstation)</text>
+<text x="116" y="632" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Creates and owns the client connections</text>
+<text x="116" y="649" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Depends on Bowser, MRxSmb20, NSI</text>
+<text x="292" y="584" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#005A9E" text-anchor="middle">configures the redirector</text>
+<text x="600" y="150" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="700" fill="#A4262C" text-anchor="start">BEFORE · configuration package left the list stale</text>
+<text x="660" y="189" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="middle">Bowser</text>
+<text x="792" y="189" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="middle">NSI</text>
+<text x="924" y="189" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="middle">MRxSmb20</text>
+<text x="1056" y="189" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#A4262C" text-anchor="middle">MRxSmb10</text>
+<text x="1052" y="222" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#A4262C" text-anchor="middle">missing or disabled</text>
+<g transform="translate(612,252.0) scale(0.7500)"><circle cx="24" cy="24" r="20" fill="#A4262C"/><path d="M16 16 l16 16 M32 16 l-16 16" stroke="#fff" stroke-width="4"/></g>
+<text x="660" y="266.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Workstation will not start: error 1068</text>
+<text x="660" y="284.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">No SMB client, so every mapped drive is unavailable</text>
+<text x="600" y="328" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="700" fill="#107C10" text-anchor="start">AFTER · sc config LanmanWorkstation depend= Bowser/MRxSmb20/NSI</text>
+<text x="660" y="367" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#107C10" text-anchor="middle">Bowser</text>
+<text x="792" y="367" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#107C10" text-anchor="middle">MRxSmb20</text>
+<text x="924" y="367" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#107C10" text-anchor="middle">NSI</text>
+<text x="1000" y="367" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#107C10" text-anchor="start">Workstation runs, drives reconnect</text>
+<circle cx="612" cy="480" r="15" fill="#fff"/><circle cx="612" cy="480" r="13" fill="#0078D4"/>
+<text x="612" y="484.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">1</text>
+<text x="636" y="485" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#201F1E" text-anchor="start">NEGOTIATE</text>
+<text x="830" y="485" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">client lists 2.0.2 to 3.1.1, server picks the highest</text>
+<circle cx="612" cy="522" r="15" fill="#fff"/><circle cx="612" cy="522" r="13" fill="#0078D4"/>
+<text x="612" y="526.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">2</text>
+<text x="636" y="527" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#201F1E" text-anchor="start">SESSION_SETUP</text>
+<text x="830" y="527" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Kerberos or NTLM; signing and encryption keys</text>
+<circle cx="612" cy="564" r="15" fill="#fff"/><circle cx="612" cy="564" r="13" fill="#0078D4"/>
+<text x="612" y="568.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">3</text>
+<text x="636" y="569" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#201F1E" text-anchor="start">TREE_CONNECT</text>
+<text x="830" y="569" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">attach to \\fs01\share: share permissions checked</text>
+<circle cx="612" cy="606" r="15" fill="#fff"/><circle cx="612" cy="606" r="13" fill="#0078D4"/>
+<text x="612" y="610.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">4</text>
+<text x="636" y="611" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#201F1E" text-anchor="start">CREATE · READ · WRITE</text>
+<text x="830" y="611" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">open Z:\report.xlsx: NTFS permissions checked</text>
+<text x="616" y="662" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">Workstation down: step 1 is never sent</text>
+<text x="940" y="662" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">Win 11 24H2: unsigned or guest fail at 2</text>
+<text x="32" y="734" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">SMB1 stays off whenever the server speaks SMB 2 or 3 (every Windows server since 2008, nearly every NAS). It is not installed by default</text>
+<text x="32" y="752" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">since Windows 10 version 1709, and MS17-010 (EternalBlue) powered WannaCry and NotPetya. Turning the feature off is the repair; turning it on is an exception.</text>
+<line x1="32" y1="778" x2="1248" y2="778" stroke="#E1DFDD"/>
+<text x="32" y="798" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#8A8886">Generalised design: no client names, tenant IDs, addresses or data. Icons are simplified originals, not Microsoft artwork.</text>
+<text x="1248" y="798" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#8A8886" text-anchor="end">Rich Dieu · github.com/richdieu-max</text>
+</svg>

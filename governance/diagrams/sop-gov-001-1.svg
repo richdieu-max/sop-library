@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 780" width="1280" height="780" role="img" aria-label="Lifecycle of a GxP change">
+<title>Lifecycle of a GxP change</title>
+<defs><marker id="m0078D4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#0078D4"/></marker><marker id="m0078D4s" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M10,0 L0,5 L10,10 z" fill="#0078D4"/></marker><marker id="mA4262C" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#A4262C"/></marker><marker id="mA4262Cs" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M10,0 L0,5 L10,10 z" fill="#A4262C"/></marker></defs>
+<rect width="1280" height="780" fill="#fff"/>
+<rect x="0" y="0" width="1280" height="6" fill="#0078D4"/>
+<text x="32" y="48" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="600" fill="#201F1E">Lifecycle of a GxP change</text>
+<text x="32" y="72" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#605E5C">Eight stages, each shown in the record before the next begins. The signed approval is the gate inspectors check first.</text>
+<rect x="24" y="96" width="1232" height="168" rx="6" fill="#FAF9F8" stroke="#C8C6C4" stroke-width="1.4"/>
+<g transform="translate(34,104) scale(0.5000)"><path d="M10 4 h20 l8 8 v32 h-28 Z" fill="#0078D4"/><path d="M30 4 v8 h8" fill="#fff" opacity=".5"/><path d="M15 22 h18 M15 28 h18 M15 34 h12" stroke="#fff" stroke-width="2.4"/></g>
+<text x="66" y="121" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#201F1E" text-anchor="start">Before the window</text>
+<text x="1244" y="121" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="end">ITSM record · CMDB-linked CIs</text>
+<rect x="24" y="318" width="1232" height="168" rx="6" fill="#F3F9FD" stroke="#0078D4" stroke-width="1.4" stroke-dasharray="6 4"/>
+<g transform="translate(34,326) scale(0.5000)"><circle cx="24" cy="24" r="20" fill="#107C10"/><path d="M14 24 l7 7 13-14" stroke="#fff" stroke-width="4" fill="none"/></g>
+<text x="66" y="343" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#0078D4" text-anchor="start">In the window, then closure</text>
+<text x="1244" y="343" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="end">actual start and end times recorded</text>
+<rect x="24" y="512" width="600" height="112" rx="6" fill="#FFF8F8" stroke="#A4262C" stroke-width="1.4" stroke-dasharray="6 4"/>
+<g transform="translate(34,520) scale(0.5000)"><circle cx="24" cy="24" r="20" fill="#A4262C"/><path d="M16 16 l16 16 M32 16 l-16 16" stroke="#fff" stroke-width="4"/></g>
+<text x="66" y="537" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#A4262C" text-anchor="start">Fails verification</text>
+<rect x="656" y="512" width="600" height="112" rx="6" fill="#FFFCF0" stroke="#C19C00" stroke-width="1.4" stroke-dasharray="6 4"/>
+<g transform="translate(666,520) scale(0.5000)"><path d="M24 4 L45 42 H3 Z" fill="#A4262C"/><rect x="22" y="17" width="4" height="13" fill="#fff"/><circle cx="24" cy="35" r="2.5" fill="#fff"/></g>
+<text x="698" y="537" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#C19C00" text-anchor="start">Emergency path</text>
+<rect x="43.5" y="142" width="272" height="96" rx="5" fill="#000" opacity="0.06"/>
+<rect x="42" y="140" width="272" height="96" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<path d="M314,188 L348,188" fill="none" stroke="#0078D4" stroke-width="2" marker-end="url(#m0078D4)" stroke-linejoin="round"/>
+<rect x="351.5" y="142" width="272" height="96" rx="5" fill="#000" opacity="0.06"/>
+<rect x="350" y="140" width="272" height="96" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<path d="M622,188 L656,188" fill="none" stroke="#0078D4" stroke-width="2" marker-end="url(#m0078D4)" stroke-linejoin="round"/>
+<rect x="659.5" y="142" width="272" height="96" rx="5" fill="#000" opacity="0.06"/>
+<rect x="658" y="140" width="272" height="96" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<path d="M930,188 L964,188" fill="none" stroke="#0078D4" stroke-width="2" marker-end="url(#m0078D4)" stroke-linejoin="round"/>
+<rect x="967.5" y="142" width="272" height="96" rx="5" fill="#000" opacity="0.06"/>
+<rect x="966" y="140" width="272" height="96" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="966" y="140" width="4" height="96" rx="0" fill="#5C2D91"/>
+<path d="M1102.0,236 L1102.0,300 L298,300 L298,360" fill="none" stroke="#A4262C" stroke-width="2.2" marker-end="url(#mA4262C)" stroke-linejoin="round"/>
+<rect x="43.5" y="364" width="272" height="96" rx="5" fill="#000" opacity="0.06"/>
+<rect x="42" y="362" width="272" height="96" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<path d="M314,410 L348,410" fill="none" stroke="#0078D4" stroke-width="2" marker-end="url(#m0078D4)" stroke-linejoin="round"/>
+<rect x="351.5" y="364" width="272" height="96" rx="5" fill="#000" opacity="0.06"/>
+<rect x="350" y="362" width="272" height="96" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<path d="M622,410 L656,410" fill="none" stroke="#0078D4" stroke-width="2" marker-end="url(#m0078D4)" stroke-linejoin="round"/>
+<rect x="659.5" y="364" width="272" height="96" rx="5" fill="#000" opacity="0.06"/>
+<rect x="658" y="362" width="272" height="96" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<path d="M930,410 L964,410" fill="none" stroke="#0078D4" stroke-width="2" marker-end="url(#m0078D4)" stroke-linejoin="round"/>
+<rect x="967.5" y="364" width="272" height="96" rx="5" fill="#000" opacity="0.06"/>
+<rect x="966" y="362" width="272" height="96" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="966" y="362" width="4" height="96" rx="0" fill="#107C10"/>
+<path d="M486.0,458 L486.0,510" fill="none" stroke="#A4262C" stroke-width="1.8" stroke-dasharray="5 4" marker-end="url(#mA4262C)" stroke-linejoin="round"/>
+<g transform="translate(54,154) scale(0.8333)"><path d="M10 4 h20 l8 8 v32 h-28 Z" fill="#0078D4"/><path d="M30 4 v8 h8" fill="#fff" opacity=".5"/><path d="M15 22 h18 M15 28 h18 M15 34 h12" stroke="#fff" stroke-width="2.4"/></g>
+<text x="106" y="164" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Request</text>
+<text x="106" y="182" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">What, why, which CIs</text>
+<text x="106" y="199" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Plain-language justification</text>
+<circle cx="42" cy="140" r="15" fill="#fff"/><circle cx="42" cy="140" r="13" fill="#0078D4"/>
+<text x="42" y="144.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">1</text>
+<g transform="translate(362,154) scale(0.8333)"><rect x="4" y="6" width="40" height="36" rx="2" fill="#fff" stroke="#605E5C" stroke-width="1.5"/><rect x="6" y="8" width="11" height="9" fill="#107C10"/><rect x="19" y="8" width="11" height="9" fill="#C19C00"/><rect x="32" y="8" width="11" height="9" fill="#A4262C"/><rect x="6" y="19" width="11" height="9" fill="#107C10"/><rect x="19" y="19" width="11" height="9" fill="#C19C00"/><rect x="32" y="19" width="11" height="9" fill="#C19C00"/><rect x="6" y="30" width="11" height="9" fill="#107C10"/><rect x="19" y="30" width="11" height="9" fill="#107C10"/><rect x="32" y="30" width="11" height="9" fill="#C19C00"/></g>
+<text x="414" y="164" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Assess</text>
+<text x="414" y="182" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">5 GxP screening questions</text>
+<text x="414" y="199" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Severity · likelihood · detect</text>
+<circle cx="350" cy="140" r="15" fill="#fff"/><circle cx="350" cy="140" r="13" fill="#0078D4"/>
+<text x="350" y="144.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">2</text>
+<g transform="translate(670,154) scale(0.8333)"><rect x="4" y="6" width="40" height="36" rx="3" fill="#5C2D91"/><path d="M10 15 l3 3 5-6 M10 26 l3 3 5-6 M10 37 l3 3 5-6" stroke="#fff" stroke-width="2.2" fill="none"/><path d="M22 16 h16 M22 27 h16 M22 38 h12" stroke="#fff" stroke-width="2.4"/></g>
+<text x="722" y="164" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Plan</text>
+<text x="722" y="182" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Steps with expected results</text>
+<text x="722" y="199" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Test approach · rollback</text>
+<circle cx="658" cy="140" r="15" fill="#fff"/><circle cx="658" cy="140" r="13" fill="#0078D4"/>
+<text x="658" y="144.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">3</text>
+<g transform="translate(978,154) scale(0.8333)"><path d="M10 4 h20 l8 8 v32 h-28 Z" fill="#5C2D91"/><path d="M30 4 v8 h8" fill="#fff" opacity=".5"/><path d="M15 27 l5 5 10-11" stroke="#fff" stroke-width="3" fill="none"/></g>
+<text x="1030" y="164" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Approve</text>
+<text x="1030" y="182" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">System owner · CAB · QA</text>
+<text x="1030" y="199" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">E-signature with meaning</text>
+<circle cx="966" cy="140" r="15" fill="#fff"/><circle cx="966" cy="140" r="13" fill="#0078D4"/>
+<text x="966" y="144.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">4</text>
+<rect x="560" y="289" width="314.7" height="22" rx="11" fill="#FDE7E9"/>
+<text x="717.35" y="304.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#A4262C" text-anchor="middle">GATE: approval signed before implementation</text>
+<g transform="translate(54,376) scale(0.8333)"><rect x="4" y="7" width="40" height="34" rx="3" fill="#201F1E"/><path d="M11 17 l7 6 -7 6" stroke="#fff" stroke-width="3" fill="none"/><path d="M22 31 h13" stroke="#fff" stroke-width="3"/></g>
+<text x="106" y="386" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Implement</text>
+<text x="106" y="404" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Steps in order, in window</text>
+<text x="106" y="421" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Actual result vs expected</text>
+<circle cx="42" cy="362" r="15" fill="#fff"/><circle cx="42" cy="362" r="13" fill="#0078D4"/>
+<text x="42" y="366.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">5</text>
+<g transform="translate(362,376) scale(0.8333)"><circle cx="24" cy="24" r="20" fill="#107C10"/><path d="M14 24 l7 7 13-14" stroke="#fff" stroke-width="4" fill="none"/></g>
+<text x="414" y="386" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Verify</text>
+<text x="414" y="404" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">IQ · OQ · PQ tests</text>
+<text x="414" y="421" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Signed and dated per step</text>
+<circle cx="350" cy="362" r="15" fill="#fff"/><circle cx="350" cy="362" r="13" fill="#0078D4"/>
+<text x="350" y="366.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">6</text>
+<g transform="translate(670,376) scale(0.8333)"><path d="M10 4 h20 l8 8 v32 h-28 Z" fill="#605E5C"/><circle cx="22" cy="25" r="7" fill="none" stroke="#fff" stroke-width="2.6"/><path d="M27 30 l6 6" stroke="#fff" stroke-width="3"/></g>
+<text x="722" y="386" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Review (PIR)</text>
+<text x="722" y="404" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Did it meet its objective?</text>
+<text x="722" y="421" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Deviations? Rollback used?</text>
+<circle cx="658" cy="362" r="15" fill="#fff"/><circle cx="658" cy="362" r="13" fill="#0078D4"/>
+<text x="658" y="366.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">7</text>
+<g transform="translate(978,376) scale(0.8333)"><path d="M15 21 v-6 a9 9 0 0 1 18 0 v6" fill="none" stroke="#605E5C" stroke-width="4"/><rect x="10" y="21" width="28" height="22" rx="3" fill="#605E5C"/><circle cx="24" cy="31" r="3" fill="#fff"/><rect x="23" y="31" width="2" height="6" fill="#fff"/></g>
+<text x="1030" y="386" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Close</text>
+<text x="1030" y="404" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">CMDB and config spec updated</text>
+<text x="1030" y="421" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">QA reviews evidence, e-signs</text>
+<circle cx="966" cy="362" r="15" fill="#fff"/><circle cx="966" cy="362" r="13" fill="#0078D4"/>
+<text x="966" y="366.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">8</text>
+<text x="48" y="562" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">Stop. Decide with the system owner: fix within the</text>
+<text x="48" y="579" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">approved plan, or execute the rollback.</text>
+<text x="48" y="596" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">Record a deviation, then re-plan.</text>
+<text x="494.0" y="503" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#A4262C" text-anchor="start">deviation</text>
+<text x="680" y="562" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">Authorized at the time by the named emergency approver.</text>
+<text x="680" y="579" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">Implement, record the same day, then retrospective</text>
+<text x="680" y="596" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">impact assessment, CAB and QA approval, and PIR.</text>
+<text x="32" y="652" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">What every record must show</text>
+<rect x="32" y="666" width="222.6" height="22" rx="11" fill="#DEECF9"/>
+<text x="143.3" y="681.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">Approval timestamp before start</text>
+<rect x="264.6" y="666" width="249.0" height="22" rx="11" fill="#DEECF9"/>
+<text x="389.1" y="681.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">Name · date/time · meaning (§11.50)</text>
+<rect x="523.6" y="666" width="249.0" height="22" rx="11" fill="#DEECF9"/>
+<text x="648.1" y="681.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">Signature linked to record (§11.70)</text>
+<rect x="782.6" y="666" width="222.6" height="22" rx="11" fill="#DEECF9"/>
+<text x="893.9" y="681.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">Evidence attached, not in email</text>
+<rect x="1015.2" y="666" width="136.8" height="22" rx="11" fill="#DEECF9"/>
+<text x="1083.6000000000001" y="681.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="middle">ALCOA+ screenshots</text>
+<text x="32" y="716" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Standard changes follow a pre-approved procedure; anything different from it is a normal change and takes this full path.</text>
+<line x1="32" y1="746" x2="1248" y2="746" stroke="#E1DFDD"/>
+<text x="32" y="766" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#8A8886">Generalised design: no client names, tenant IDs, addresses or data. Icons are simplified originals, not Microsoft artwork.</text>
+<text x="1248" y="766" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#8A8886" text-anchor="end">Rich Dieu · github.com/richdieu-max</text>
+</svg>

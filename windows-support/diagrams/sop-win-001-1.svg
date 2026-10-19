@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 800" width="1280" height="800" role="img" aria-label="How a USB-to-serial adapter becomes COM3">
+<title>How a USB-to-serial adapter becomes COM3</title>
+<defs><marker id="m8A8886" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#8A8886"/></marker><marker id="m8A8886s" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M10,0 L0,5 L10,10 z" fill="#8A8886"/></marker><marker id="m0078D4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#0078D4"/></marker><marker id="m0078D4s" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M10,0 L0,5 L10,10 z" fill="#0078D4"/></marker></defs>
+<rect width="1280" height="800" fill="#fff"/>
+<rect x="0" y="0" width="1280" height="6" fill="#0078D4"/>
+<text x="32" y="48" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="600" fill="#201F1E">How a USB-to-serial adapter becomes COM3</text>
+<text x="32" y="72" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#605E5C">Each driver loads on the one below and the application only sees the COM name, so a fault in any layer looks like a COM port problem.</text>
+<rect x="32" y="100" width="560" height="560" rx="6" fill="#F3F9FD" stroke="#0078D4" stroke-width="1.4" stroke-dasharray="6 4"/>
+<g transform="translate(42,108) scale(0.5000)"><rect x="6" y="6" width="17" height="17" fill="#0078D4"/><rect x="25" y="6" width="17" height="17" fill="#0078D4"/><rect x="6" y="25" width="17" height="17" fill="#0078D4"/><rect x="25" y="25" width="17" height="17" fill="#0078D4"/></g>
+<text x="74" y="125" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#0078D4" text-anchor="start">Driver stack on the workstation</text>
+<rect x="616" y="100" width="632" height="560" rx="6" fill="#fff" stroke="#8A8886" stroke-width="1.4" stroke-dasharray="6 4"/>
+<text x="630" y="125" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#8A8886" text-anchor="start">What goes wrong in each layer, and the fix</text>
+<rect x="53.5" y="146" width="520" height="64" rx="5" fill="#000" opacity="0.06"/>
+<rect x="52" y="144" width="520" height="64" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<path d="M312,226 L312,210" fill="none" stroke="#0078D4" stroke-width="1.8" marker-end="url(#m0078D4)" stroke-linejoin="round"/>
+<rect x="53.5" y="228" width="520" height="64" rx="5" fill="#000" opacity="0.06"/>
+<rect x="52" y="226" width="520" height="64" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<path d="M312,308 L312,292" fill="none" stroke="#0078D4" stroke-width="1.8" marker-end="url(#m0078D4)" stroke-linejoin="round"/>
+<rect x="53.5" y="310" width="520" height="64" rx="5" fill="#000" opacity="0.06"/>
+<rect x="52" y="308" width="520" height="64" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<path d="M312,390 L312,374" fill="none" stroke="#0078D4" stroke-width="1.8" marker-end="url(#m0078D4)" stroke-linejoin="round"/>
+<rect x="53.5" y="392" width="520" height="64" rx="5" fill="#000" opacity="0.06"/>
+<rect x="52" y="390" width="520" height="64" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<path d="M312,472 L312,456" fill="none" stroke="#0078D4" stroke-width="1.8" marker-end="url(#m0078D4)" stroke-linejoin="round"/>
+<rect x="53.5" y="474" width="520" height="64" rx="5" fill="#000" opacity="0.06"/>
+<rect x="52" y="472" width="520" height="64" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<path d="M312,554 L312,538" fill="none" stroke="#0078D4" stroke-width="1.8" marker-end="url(#m0078D4)" stroke-linejoin="round"/>
+<rect x="53.5" y="556" width="520" height="60" rx="5" fill="#000" opacity="0.06"/>
+<rect x="52" y="554" width="520" height="60" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="636" y="144" width="592" height="64" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="636" y="144" width="4" height="64" rx="0" fill="#0078D4"/>
+<path d="M572,176 L634,176" fill="none" stroke="#8A8886" stroke-width="1.6" stroke-dasharray="4 3" marker-end="url(#m8A8886)" stroke-linejoin="round"/>
+<rect x="636" y="226" width="592" height="64" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="636" y="226" width="4" height="64" rx="0" fill="#0078D4"/>
+<path d="M572,258 L634,258" fill="none" stroke="#8A8886" stroke-width="1.6" stroke-dasharray="4 3" marker-end="url(#m8A8886)" stroke-linejoin="round"/>
+<rect x="636" y="308" width="592" height="64" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="636" y="308" width="4" height="64" rx="0" fill="#C19C00"/>
+<path d="M572,340 L634,340" fill="none" stroke="#8A8886" stroke-width="1.6" stroke-dasharray="4 3" marker-end="url(#m8A8886)" stroke-linejoin="round"/>
+<rect x="636" y="390" width="592" height="64" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="636" y="390" width="4" height="64" rx="0" fill="#A4262C"/>
+<path d="M572,422 L634,422" fill="none" stroke="#8A8886" stroke-width="1.6" stroke-dasharray="4 3" marker-end="url(#m8A8886)" stroke-linejoin="round"/>
+<rect x="636" y="472" width="592" height="64" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="636" y="472" width="4" height="64" rx="0" fill="#107C10"/>
+<path d="M572,504 L634,504" fill="none" stroke="#8A8886" stroke-width="1.6" stroke-dasharray="4 3" marker-end="url(#m8A8886)" stroke-linejoin="round"/>
+<rect x="636" y="562" width="592" height="33" rx="4" fill="#F3F9FD"/>
+<rect x="636" y="562" width="4" height="33" rx="0" fill="#0078D4"/>
+<rect x="636" y="600" width="592" height="50" rx="4" fill="#FFF4CE"/>
+<rect x="636" y="600" width="4" height="50" rx="0" fill="#C19C00"/>
+<g transform="translate(64,158.0) scale(0.7500)"><rect x="4" y="8" width="40" height="32" rx="3" fill="#0078D4"/><rect x="4" y="8" width="40" height="8" rx="3" fill="#005A9E"/><circle cx="9" cy="12" r="1.6" fill="#fff"/><circle cx="14" cy="12" r="1.6" fill="#fff"/><path d="M10 24 h28 M10 30 h20" stroke="#fff" stroke-width="2.4"/></g>
+<text x="112" y="172.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Application</text>
+<text x="112" y="190.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Instrument software or LIMS opens \\.\COM3</text>
+<g transform="translate(64,240.0) scale(0.7500)"><path d="M10 4 h20 l8 8 v32 h-28 Z" fill="#0078D4"/><path d="M30 4 v8 h8" fill="#fff" opacity=".5"/><path d="M15 22 h18 M15 28 h18 M15 34 h12" stroke="#fff" stroke-width="2.4"/></g>
+<text x="112" y="254.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Ports class · COM Name Arbiter</text>
+<text x="112" y="272.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Lowest free COMn, recorded in ComDB</text>
+<g transform="translate(64,322.0) scale(0.7500)"><rect x="12" y="12" width="24" height="24" rx="3" fill="#0078D4"/><rect x="17" y="17" width="14" height="14" fill="#005A9E"/><path d="M16 6 v6 M16 36 v6 M6 16 h6 M36 16 h6" stroke="#605E5C" stroke-width="2.4"/><path d="M22 6 v6 M22 36 v6 M6 22 h6 M36 22 h6" stroke="#605E5C" stroke-width="2.4"/><path d="M28 6 v6 M28 36 v6 M6 28 h6 M36 28 h6" stroke="#605E5C" stroke-width="2.4"/></g>
+<text x="112" y="336.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Serial function driver</text>
+<text x="112" y="354.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">usbser.sys or vendor: ftser2k, ser2pl64</text>
+<g transform="translate(64,404.0) scale(0.7500)"><circle cx="24" cy="24" r="13" fill="none" stroke="#605E5C" stroke-width="7" stroke-dasharray="6 4.2"/><circle cx="24" cy="24" r="10" fill="#605E5C"/><circle cx="24" cy="24" r="4.5" fill="#fff"/></g>
+<text x="112" y="418.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">USB device / bus driver</text>
+<text x="112" y="436.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">ftdibus.sys or usbccgp.sys</text>
+<g transform="translate(64,486.0) scale(0.7500)"><rect x="16" y="4" width="16" height="14" rx="2" fill="#605E5C"/><rect x="19" y="7" width="3" height="4" fill="#fff"/><rect x="26" y="7" width="3" height="4" fill="#fff"/><rect x="12" y="18" width="24" height="18" rx="3" fill="#0078D4"/><path d="M24 36 v8" stroke="#605E5C" stroke-width="4"/></g>
+<text x="112" y="500.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">USB hub and host controller</text>
+<text x="112" y="518.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">USBHUB3.sys · USBXHCI.sys</text>
+<g transform="translate(64,566.0) scale(0.7500)"><path d="M5 14 h38 l-5 20 h-28 Z" fill="#605E5C"/><circle cx="12" cy="21" r="2" fill="#fff"/><circle cx="18" cy="21" r="2" fill="#fff"/><circle cx="24" cy="21" r="2" fill="#fff"/><circle cx="30" cy="21" r="2" fill="#fff"/><circle cx="36" cy="21" r="2" fill="#fff"/><circle cx="15" cy="28" r="2" fill="#fff"/><circle cx="21" cy="28" r="2" fill="#fff"/><circle cx="27" cy="28" r="2" fill="#fff"/><circle cx="33" cy="28" r="2" fill="#fff"/></g>
+<text x="112" y="580.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">USB-to-serial adapter</text>
+<text x="112" y="598.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">FTDI · Prolific · Silicon Labs · WCH, RS-232 / RS-485 out</text>
+<text x="312" y="640" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#005A9E" text-anchor="middle">Device Manager shows only the top entry, under Ports (COM &amp; LPT)</text>
+<text x="656" y="170" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">COM number does not match the app</text>
+<text x="656" y="190" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Reassign in Port Settings › Advanced (A)</text>
+<text x="656" y="252" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Ghost port holds the number</text>
+<text x="656" y="272" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Show hidden devices, uninstall ghost (A, C)</text>
+<text x="656" y="334" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Code 28, Code 10, Code 43</text>
+<text x="656" y="354" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Install, roll back or reinstall driver (A, C)</text>
+<text x="656" y="416" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Code 52, installs stall</text>
+<text x="656" y="436" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">DISM, SFC, reset WU components (B)</text>
+<text x="656" y="498" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Works after reboot, fails after idle</text>
+<text x="656" y="518" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Disable selective suspend (D)</text>
+<text x="652" y="584" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">VID 0403 = FTDI · 067B = Prolific · 10C4 = Silicon Labs · 1A86 = WCH (CH340)</text>
+<text x="652" y="622" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">Clone Prolific or FTDI chips: current drivers refuse them (Code 10).</text>
+<text x="652" y="639" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">Rolling back is a workaround at best; the fix is a genuine adapter.</text>
+<text x="32" y="688" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#201F1E" text-anchor="start">Why COM numbers drift:</text>
+<text x="196" y="688" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">a chip with no serial number is identified by its USB socket, so moving it creates a new device and a new COMn;</text>
+<text x="196" y="706" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">the old device keeps its ComDB reservation as a hidden ghost (Code 45). Label the socket, or use an adapter with a unique serial.</text>
+<rect x="32" y="726" width="12" height="12" rx="2" fill="#0078D4"/>
+<text x="50" y="737" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Configuration</text>
+<rect x="161.8" y="726" width="12" height="12" rx="2" fill="#C19C00"/>
+<text x="179.8" y="737" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Driver</text>
+<rect x="245.4" y="726" width="12" height="12" rx="2" fill="#A4262C"/>
+<text x="263.4" y="737" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">OS repair</text>
+<rect x="348.8" y="726" width="12" height="12" rx="2" fill="#107C10"/>
+<text x="366.8" y="737" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Power management</text>
+<text x="760" y="737" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Letters in brackets are the methods A to E in the Steps section</text>
+<line x1="32" y1="766" x2="1248" y2="766" stroke="#E1DFDD"/>
+<text x="32" y="786" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#8A8886">Generalised design: no client names, tenant IDs, addresses or data. Icons are simplified originals, not Microsoft artwork.</text>
+<text x="1248" y="786" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#8A8886" text-anchor="end">Rich Dieu · github.com/richdieu-max</text>
+</svg>

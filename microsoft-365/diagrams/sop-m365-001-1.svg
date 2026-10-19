@@ -1,0 +1,134 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 770" width="1280" height="770" role="img" aria-label="File shares to Teams: control in the cloud, work on-premises">
+<title>File shares to Teams: control in the cloud, work on-premises</title>
+<defs><marker id="mA4262C" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#A4262C"/></marker><marker id="mA4262Cs" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M10,0 L0,5 L10,10 z" fill="#A4262C"/></marker><marker id="m5C2D91" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#5C2D91"/></marker><marker id="m5C2D91s" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M10,0 L0,5 L10,10 z" fill="#5C2D91"/></marker><marker id="mC19C00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#C19C00"/></marker><marker id="mC19C00s" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M10,0 L0,5 L10,10 z" fill="#C19C00"/></marker><marker id="m605E5C" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#605E5C"/></marker><marker id="m605E5Cs" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M10,0 L0,5 L10,10 z" fill="#605E5C"/></marker><marker id="m107C10" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#107C10"/></marker><marker id="m107C10s" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M10,0 L0,5 L10,10 z" fill="#107C10"/></marker><marker id="m0078D4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#0078D4"/></marker><marker id="m0078D4s" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M10,0 L0,5 L10,10 z" fill="#0078D4"/></marker></defs>
+<rect width="1280" height="770" fill="#fff"/>
+<rect x="0" y="0" width="1280" height="6" fill="#0078D4"/>
+<text x="32" y="48" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="600" fill="#201F1E">File shares to Teams: control in the cloud, work on-premises</text>
+<text x="32" y="72" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#605E5C">The agent pulls jobs and pushes data over outbound HTTPS 443; Teams shows files that actually live in the team's SharePoint library.</text>
+<rect x="32" y="100" width="400" height="330" rx="6" fill="#FAF9F8" stroke="#C8C6C4" stroke-width="1.4"/>
+<g transform="translate(42,108) scale(0.5000)"><circle cx="24" cy="24" r="19" fill="#0078D4"/><ellipse cx="24" cy="24" rx="8" ry="19" fill="none" stroke="#fff" stroke-width="2"/><path d="M5 24 h38 M9 14 h30 M9 34 h30" stroke="#fff" stroke-width="2"/></g>
+<text x="74" y="125" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#201F1E" text-anchor="start">On-premises network</text>
+<rect x="468" y="100" width="780" height="330" rx="6" fill="#F3F9FD" stroke="#0078D4" stroke-width="1.4" stroke-dasharray="6 4"/>
+<g transform="translate(478,108) scale(0.5000)"><path d="M14 38 a9 9 0 0 1 -1 -18 a12 12 0 0 1 23 -3 a9 9 0 0 1 -1 21 Z" fill="#0078D4"/></g>
+<text x="510" y="125" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#0078D4" text-anchor="start">Microsoft 365 (Microsoft-operated)</text>
+<rect x="53.5" y="148" width="360" height="76" rx="5" fill="#000" opacity="0.06"/>
+<rect x="52" y="146" width="360" height="76" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="53.5" y="302" width="360" height="92" rx="5" fill="#000" opacity="0.06"/>
+<rect x="52" y="300" width="360" height="92" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<path d="M232,222 L232,298" fill="none" stroke="#605E5C" stroke-width="2" marker-end="url(#m605E5C)" stroke-linejoin="round"/>
+<rect x="489.5" y="148" width="300" height="76" rx="5" fill="#000" opacity="0.06"/>
+<rect x="488" y="146" width="300" height="76" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="871.5" y="148" width="358" height="76" rx="5" fill="#000" opacity="0.06"/>
+<rect x="870" y="146" width="358" height="76" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<path d="M868,184 L790,184" fill="none" stroke="#605E5C" stroke-width="1.6" marker-end="url(#m605E5C)" stroke-linejoin="round"/>
+<rect x="489.5" y="302" width="236" height="92" rx="5" fill="#000" opacity="0.06"/>
+<rect x="488" y="300" width="236" height="92" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="761.5" y="302" width="220" height="92" rx="5" fill="#000" opacity="0.06"/>
+<rect x="760" y="300" width="220" height="92" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="1009.5" y="302" width="220" height="92" rx="5" fill="#000" opacity="0.06"/>
+<rect x="1008" y="300" width="220" height="92" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<path d="M412,330 L450,330 L450,184 L486,184" fill="none" stroke="#0078D4" stroke-width="1.8" stroke-dasharray="5 3" marker-end="url(#m0078D4)" stroke-linejoin="round"/>
+<path d="M412,366 L486,366" fill="none" stroke="#0078D4" stroke-width="2.4" marker-end="url(#m0078D4)" stroke-linejoin="round"/>
+<path d="M724,346 L758,346" fill="none" stroke="#0078D4" stroke-width="2.2" marker-end="url(#m0078D4)" stroke-linejoin="round"/>
+<path d="M980,346 L1006,346" fill="none" stroke="#107C10" stroke-width="2.2" marker-end="url(#m107C10)" stroke-linejoin="round"/>
+<rect x="32" y="504" width="400" height="46" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<path d="M436,527 L520,527" fill="none" stroke="#0078D4" stroke-width="2" marker-end="url(#m0078D4)" stroke-linejoin="round"/>
+<rect x="524" y="504" width="520" height="46" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="524" y="504" width="4" height="46" rx="0" fill="#0078D4"/>
+<rect x="32" y="558" width="400" height="46" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<path d="M436,581 L520,581" fill="none" stroke="#5C2D91" stroke-width="2" marker-end="url(#m5C2D91)" stroke-linejoin="round"/>
+<rect x="524" y="558" width="520" height="46" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="524" y="558" width="4" height="46" rx="0" fill="#5C2D91"/>
+<rect x="32" y="612" width="400" height="46" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<path d="M436,635 L520,635" fill="none" stroke="#C19C00" stroke-width="2" marker-end="url(#mC19C00)" stroke-linejoin="round"/>
+<rect x="524" y="612" width="520" height="46" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="524" y="612" width="4" height="46" rx="0" fill="#C19C00"/>
+<rect x="32" y="666" width="400" height="46" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<path d="M436,689 L520,689" fill="none" stroke="#A4262C" stroke-width="2" marker-end="url(#mA4262C)" stroke-linejoin="round"/>
+<rect x="524" y="666" width="520" height="46" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="524" y="666" width="4" height="46" rx="0" fill="#A4262C"/>
+<rect x="1064" y="504" width="184" height="118" rx="4" fill="#FFF4CE"/>
+<rect x="1064" y="504" width="4" height="118" rx="0" fill="#C19C00"/>
+<g transform="translate(64,160) scale(0.8333)"><path d="M4 10 h15 l4 4 h21 v22 h-40 Z" fill="#C19C00"/><path d="M24 36 v6 M12 42 h24" stroke="#605E5C" stroke-width="2.4"/><circle cx="24" cy="42" r="3" fill="#605E5C"/></g>
+<text x="116" y="170" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">File server</text>
+<text x="116" y="188" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">SMB shares, NTFS permissions</text>
+<text x="116" y="205" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">TCP 445, LAN only</text>
+<circle cx="52" cy="146" r="15" fill="#fff"/><circle cx="52" cy="146" r="13" fill="#0078D4"/>
+<text x="52" y="150.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">1</text>
+<g transform="translate(64,314) scale(0.8333)"><rect x="10" y="4" width="28" height="40" rx="3" fill="#0078D4"/><path d="M15 12 h18 M15 18 h18 M15 24 h18" stroke="#fff" stroke-width="2.4"/><circle cx="32" cy="36" r="2.4" fill="#DFF6DD"/></g>
+<text x="116" y="324" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Migration agent</text>
+<text x="116" y="342" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Windows Server VM, same LAN</text>
+<text x="116" y="359" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">dedicated service account: Read</text>
+<text x="116" y="376" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">agent groups run tasks in parallel</text>
+<circle cx="52" cy="300" r="15" fill="#fff"/><circle cx="52" cy="300" r="13" fill="#0078D4"/>
+<text x="52" y="304.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">2</text>
+<text x="242" y="266" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#605E5C" text-anchor="start">SMB read</text>
+<g transform="translate(500,160) scale(0.8333)"><rect x="4" y="8" width="40" height="32" rx="3" fill="#0078D4"/><rect x="4" y="8" width="40" height="8" rx="3" fill="#005A9E"/><circle cx="9" cy="12" r="1.6" fill="#fff"/><circle cx="14" cy="12" r="1.6" fill="#fff"/><path d="M10 24 h28 M10 30 h20" stroke="#fff" stroke-width="2.4"/></g>
+<text x="552" y="170" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Migration Manager</text>
+<text x="552" y="188" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">SharePoint admin center</text>
+<text x="552" y="205" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">scans · tasks · reports</text>
+<g transform="translate(882,160) scale(0.8333)"><circle cx="24" cy="15" r="9" fill="#0078D4"/><path d="M6 44 q18-26 36 0 Z" fill="#0078D4"/></g>
+<text x="934" y="170" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Administrator</text>
+<text x="934" y="188" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">SharePoint Administrator, activated</text>
+<text x="934" y="205" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">through PIM with MFA + change number</text>
+<text x="829" y="176" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#605E5C" text-anchor="middle">configures</text>
+<g transform="translate(500,314) scale(0.8333)"><rect x="4" y="9" width="40" height="30" rx="2" fill="#008575"/><path d="M4 19 h40 M4 29 h40 M17 9 v30 M31 9 v30" stroke="#fff" stroke-width="2"/><rect x="31" y="29" width="13" height="10" fill="#D9F2EF"/></g>
+<text x="552" y="324" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Azure storage</text>
+<text x="552" y="342" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Microsoft-provided,</text>
+<text x="552" y="359" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">transient packages</text>
+<circle cx="488" cy="300" r="15" fill="#fff"/><circle cx="488" cy="300" r="13" fill="#0078D4"/>
+<text x="488" y="304.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">3</text>
+<g transform="translate(772,314) scale(0.8333)"><rect x="6" y="8" width="10" height="34" rx="1" fill="#008575"/><rect x="19" y="8" width="10" height="34" rx="1" fill="#008575" opacity=".8"/><rect x="32" y="10" width="10" height="32" rx="1" fill="#008575" transform="rotate(8 37 26)"/></g>
+<text x="824" y="324" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">SharePoint Online</text>
+<text x="824" y="342" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Migration API</text>
+<text x="824" y="359" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">team site library</text>
+<circle cx="760" cy="300" r="15" fill="#fff"/><circle cx="760" cy="300" r="13" fill="#0078D4"/>
+<text x="760" y="304.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">4</text>
+<g transform="translate(1020,314) scale(0.8333)"><rect x="4" y="6" width="40" height="28" rx="5" fill="#5C2D91"/><path d="M12 34 v9 l9 -9" fill="#5C2D91"/><path d="M12 16 h24 M12 24 h16" stroke="#fff" stroke-width="2.6"/></g>
+<text x="1072" y="324" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Microsoft Teams</text>
+<text x="1072" y="342" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">channel Files tab</text>
+<text x="1072" y="359" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">surfaces the folder</text>
+<circle cx="1008" cy="300" r="15" fill="#fff"/><circle cx="1008" cy="300" r="13" fill="#0078D4"/>
+<text x="1008" y="304.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">5</text>
+<text x="442" y="250" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#0078D4" text-anchor="end">polls 443</text>
+<text x="414" y="352" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#0078D4" text-anchor="start">data 443</text>
+<text x="32" y="452" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#605E5C" text-anchor="start">SMB 445 stays on the LAN · only outbound HTTPS 443 to Microsoft 365 and Azure storage · no inbound firewall rule</text>
+<text x="32" y="486" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Map the share onto the team: working folders become channels, ACLs become membership</text>
+<g transform="translate(44,513) scale(0.5833)"><path d="M4 12 h15 l4 4 h21 v24 h-40 Z" fill="#C19C00"/><path d="M4 18 h40" stroke="#fff" stroke-width="1.5" opacity=".6"/></g>
+<text x="84" y="524" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="start">Infrastructure, Projects</text>
+<text x="84" y="541" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">top-level folders</text>
+<text x="544" y="524" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="start">Standard channels</text>
+<text x="544" y="541" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">folders in the team's Documents library</text>
+<rect x="963.6" y="516" width="68.4" height="22" rx="11" fill="#DEECF9"/>
+<text x="997.8000000000001" y="531.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#005A9E" text-anchor="middle">STANDARD</text>
+<g transform="translate(44,567) scale(0.5833)"><path d="M4 12 h15 l4 4 h21 v24 h-40 Z" fill="#C19C00"/><path d="M4 18 h40" stroke="#fff" stroke-width="1.5" opacity=".6"/></g>
+<text x="84" y="578" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="start">Security</text>
+<text x="84" y="595" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">restricted NTFS ACL</text>
+<text x="544" y="578" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="start">Private channel</text>
+<text x="544" y="595" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">its own SharePoint site and membership</text>
+<rect x="969.9" y="570" width="62.1" height="22" rx="11" fill="#E1DFDD"/>
+<text x="1000.9499999999999" y="585.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#605E5C" text-anchor="middle">PRIVATE</text>
+<g transform="translate(44,621) scale(0.5833)"><path d="M4 12 h15 l4 4 h21 v24 h-40 Z" fill="#C19C00"/><path d="M4 18 h40" stroke="#fff" stroke-width="1.5" opacity=".6"/></g>
+<text x="84" y="632" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="start">Archive 2014–2019</text>
+<text x="84" y="649" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">nobody edits it</text>
+<text x="544" y="632" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="start">Archive site</text>
+<text x="544" y="649" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">read-only, or retire the data</text>
+<rect x="957.3" y="624" width="74.69999999999999" height="22" rx="11" fill="#FFF4CE"/>
+<text x="994.65" y="639.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#8A6D00" text-anchor="middle">READ-ONLY</text>
+<g transform="translate(44,675) scale(0.5833)"><path d="M4 12 h15 l4 4 h21 v24 h-40 Z" fill="#C19C00"/><path d="M4 18 h40" stroke="#fff" stroke-width="1.5" opacity=".6"/></g>
+<text x="84" y="686" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="start">~$budget.xlsx, Thumbs.db</text>
+<text x="84" y="703" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">junk files</text>
+<text x="544" y="686" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="start">Deleted</text>
+<text x="544" y="703" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">removed or quarantined by the cleanup script</text>
+<rect x="976.2" y="678" width="55.8" height="22" rx="11" fill="#FDE7E9"/>
+<text x="1004.1" y="693.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#A4262C" text-anchor="middle">DELETE</text>
+<text x="1080" y="526" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">Leave Preserve</text>
+<text x="1080" y="543" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">file share</text>
+<text x="1080" y="560" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">permissions off:</text>
+<text x="1080" y="577" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">do not drag</text>
+<text x="1080" y="594" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">broken inheritance</text>
+<text x="1080" y="611" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">into Teams.</text>
+<line x1="32" y1="736" x2="1248" y2="736" stroke="#E1DFDD"/>
+<text x="32" y="756" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#8A8886">Generalised design: no client names, tenant IDs, addresses or data. Icons are simplified originals, not Microsoft artwork.</text>
+<text x="1248" y="756" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#8A8886" text-anchor="end">Rich Dieu · github.com/richdieu-max</text>
+</svg>

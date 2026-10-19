@@ -1,123 +1,137 @@
 # SOP Library · Field Guide Series
 
-**36 standard operating procedures · 802 pages · 12 technology families**
+**36 standard operating procedures · 54 architecture and flow diagrams · 12 technology families**
 
-Step-by-step field guides from my work across Microsoft Azure, Entra ID, Intune, security operations, regulated (GxP) lab IT and Windows support. Each one teaches the concepts first, then gives the procedure in the portal, as PowerShell / CLI, and at scale (Group Policy, Intune, templates), and ends with verification, rollback, troubleshooting and the control frameworks it supports.
+Runbooks from my work across Microsoft Azure, Entra ID, Intune, security operations, regulated (GxP) lab IT and Windows support. Every page reads directly on GitHub: what the procedure achieves, a diagram of how it fits together, prerequisites, the steps (portal first, then PowerShell / CLI, then at scale), how to verify it, how to roll it back, troubleshooting, and the controls it supports.
 
-> **Sanitized reference edition.** Client names, hostnames, tenant IDs and ticket numbers are replaced with placeholders (Contoso, documentation IP ranges, sample change numbers). Microsoft's own built-in role, policy and app IDs are left as they are because the scripts need them.
+> **Sanitized reference edition.** Client names, hostnames, tenant IDs and ticket numbers are replaced with placeholders (Contoso, documentation IP ranges, sample change numbers). Microsoft's own built-in role, policy and app IDs are kept because the commands need them.
 
 ![Skill map: nine areas of work and the SOPs that document each one](diagrams/skill-map.svg)
 
-Start with the **[catalog and index (SOP-000)](SOP-000_SOP_Library_Catalog_and_Index.pdf)**, or jump to a family below. PDFs open in the browser.
+## Families
+
+| Prefix | Family | Scope | SOPs |
+|---|---|---|---|
+| ID | [Identity & Access](#identity--access) | Entra ID policy, account lifecycle and privileged access | 2 |
+| EM | [Endpoint Management](#endpoint-management) | Intune enrollment, configuration, updates and safeguards for Windows and macOS | 5 |
+| EP | [Endpoint Agents & Protection](#endpoint-agents--protection) | Deploying and retiring endpoint agents ahead of EDR | 2 |
+| SEC | [Security Operations](#security-operations) | Vulnerability remediation and incident response | 2 |
+| GOV | [Governance & Compliance](#governance--compliance) | Change control and objective evidence for regulated (GxP) systems | 1 |
+| AZ-0xx | [Microsoft Azure · Procedures](#microsoft-azure--procedures) | Hands-on builds: tenant, hardened VMs, cloning, VPN, backup and DR | 5 |
+| AZ-1xx | [Microsoft Azure · Landing Zone Build & Assessment Series](#microsoft-azure--landing-zone-build--assessment-series) | Landing zone as code, customer stamps, and the security assessment of that build | 8 |
+| M365 | [Microsoft 365](#microsoft-365) | Collaboration platform migrations | 1 |
+| MIG | [Cloud Migration](#cloud-migration) | Moving on-premises servers to the cloud | 1 |
+| LAB | [Regulated Lab IT](#regulated-lab-it) | GxP lab workstations, lab applications and compliance agents | 3 |
+| LBL | [Label Printing](#label-printing) | Zebra label printers: drivers, DPI and network integration | 2 |
+| WIN | [Windows Desktop Support](#windows-desktop-support) | Tier 1–3 Windows troubleshooting and command-line tooling | 4 |
 
 ## Catalog
 
-
 ### Identity & Access
 
-| SOP | Title | What it covers | Pages |
-|---|---|---|---|
-| ID-001 | [Building a Conditional Access and MFA Baseline in Microsoft Entra ID](identity-access/SOP-ID-001_Building_a_Conditional_Access_and_MFA_Baseline_in_Microsoft_Entra_ID.pdf) | Replace security defaults with a named, testable Conditional Access set: emergency access, legacy auth blocked, MFA for all, phishing-resistant MFA for admins. | 23 |
-| ID-002 | [Managing the Joiner-Mover-Leaver Account Lifecycle in Microsoft Entra ID](identity-access/SOP-ID-002_Managing_the_Joiner-Mover-Leaver_Account_Lifecycle_in_Microsoft_Entra_ID.pdf) | Joiner-mover-leaver driven from the HR record: birthright access and a Temporary Access Pass on hire, access moved on role change, clean offboarding. | 24 |
+| SOP | Runbook | What it covers |
+|---|---|---|
+| ID-001 | [Building a Conditional Access and MFA baseline in Microsoft Entra ID](identity-access/SOP-ID-001-conditional-access-mfa-baseline.md) | Replace security defaults with a named, testable Conditional Access set: emergency access, legacy auth blocked, MFA for all, phishing-resistant MFA for admins. |
+| ID-002 | [Managing the joiner-mover-leaver account lifecycle in Microsoft Entra ID](identity-access/SOP-ID-002-joiner-mover-leaver-lifecycle.md) | Joiner-mover-leaver driven from the HR record: birthright access and a Temporary Access Pass on hire, access moved on role change, clean offboarding. |
 
 ### Endpoint Management
 
-| SOP | Title | What it covers | Pages |
-|---|---|---|---|
-| EM-001 | [Deploying Defender for Endpoint to macOS with Intune](endpoint-management/SOP-EM-001_Deploying_Defender_for_Endpoint_to_macOS_with_Intune.pdf) | Defender for Endpoint on macOS five ways (Intune, Graph PowerShell, Settings Catalog, local script, Jamf Pro), verified down to mdatp health. | 27 |
-| EM-002 | [Enrolling macOS Devices into Microsoft Intune](endpoint-management/SOP-EM-002_Enrolling_macOS_Devices_into_Microsoft_Intune.pdf) | macOS enrollment: Company Portal, Automated Device Enrollment through Apple Business Manager, direct enrollment, plus a readiness check script. | 27 |
-| EM-003 | [Enforcing Multi Admin Approval for Intune Wipe Retire Delete](endpoint-management/SOP-EM-003_Enforcing_Multi_Admin_Approval_for_Intune_Wipe_Retire_Delete.pdf) | Two-person rule for Intune wipe, retire and delete, in the admin center or Graph PowerShell, with a request-notification flow. | 24 |
-| EM-004 | [Provisioning Windows Devices with Windows Autopilot and Intune](endpoint-management/SOP-EM-004_Provisioning_Windows_Devices_with_Windows_Autopilot_and_Intune.pdf) | Windows Autopilot end to end: hardware hash, ZTDId dynamic group, deployment profile and Enrollment Status Page, sealed laptop to user. | 22 |
-| EM-005 | [Managing Windows Update Rings and Patch Compliance with Intune](endpoint-management/SOP-EM-005_Managing_Windows_Update_Rings_and_Patch_Compliance_with_Intune.pdf) | Update rings with Windows Update for Business: pinned feature versions, expedited zero-day fixes, driver control, monthly patch compliance against an SLA. | 24 |
+| SOP | Runbook | What it covers |
+|---|---|---|
+| EM-001 | [Deploy Microsoft Defender for Endpoint to macOS with Intune](endpoint-management/SOP-EM-001-defender-for-endpoint-macos-intune.md) | Defender for Endpoint on macOS five ways (Intune, Graph PowerShell, Settings Catalog, local script, Jamf Pro), verified down to mdatp health. |
+| EM-002 | [Enrolling macOS devices into Microsoft Intune](endpoint-management/SOP-EM-002-macos-intune-enrollment.md) | macOS enrollment: Company Portal, Automated Device Enrollment through Apple Business Manager, direct enrollment, plus a readiness check script. |
+| EM-003 | [Two-person control for Intune device wipe (Multi Admin Approval)](endpoint-management/SOP-EM-003-multi-admin-approval-wipe-retire-delete.md) | Two-person rule for Intune wipe, retire and delete, in the admin center or Graph PowerShell, with a request-notification flow. |
+| EM-004 | [Provisioning Windows devices with Windows Autopilot and Intune](endpoint-management/SOP-EM-004-windows-autopilot-provisioning.md) | Windows Autopilot end to end: hardware hash, ZTDId dynamic group, deployment profile and Enrollment Status Page, sealed laptop to user. |
+| EM-005 | [Managing Windows Update rings and patch compliance with Intune](endpoint-management/SOP-EM-005-windows-update-rings-patch-compliance.md) | Update rings with Windows Update for Business: pinned feature versions, expedited zero-day fixes, driver control, monthly patch compliance against an SLA. |
 
 ### Endpoint Agents & Protection
 
-| SOP | Title | What it covers | Pages |
-|---|---|---|---|
-| EP-001 | [Deploying an Endpoint Management Agent Tanium Client](endpoint-agents/SOP-EP-001_Deploying_an_Endpoint_Management_Agent_Tanium_Client.pdf) | Install, register and verify an endpoint management agent (Tanium) manually, silently, remotely and at scale with Intune Win32 or ConfigMgr. | 21 |
-| EP-002 | [Removing a Legacy Antivirus Agent Before EDR Migration](endpoint-agents/SOP-EP-002_Removing_a_Legacy_Antivirus_Agent_Before_EDR_Migration.pdf) | Remove a legacy antivirus agent (Trend Micro) before EDR migration, by console, vendor tool or scripted mass removal, then prove it is gone. | 22 |
+| SOP | Runbook | What it covers |
+|---|---|---|
+| EP-001 | [Deploying an endpoint management agent (Tanium Client example)](endpoint-agents/SOP-EP-001-tanium-client-deployment.md) | Install, register and verify an endpoint management agent (Tanium) manually, silently, remotely and at scale with Intune Win32 or ConfigMgr. |
+| EP-002 | [Removing a legacy antivirus agent before EDR migration](endpoint-agents/SOP-EP-002-legacy-av-removal-edr-migration.md) | Remove a legacy antivirus agent (Trend Micro) before EDR migration, by console, vendor tool or scripted mass removal, then prove it is gone. |
 
 ### Security Operations
 
-| SOP | Title | What it covers | Pages |
-|---|---|---|---|
-| SEC-001 | [Running a Vulnerability Remediation Program with Qualys and Microsoft Defender](security-operations/SOP-SEC-001_Running_a_Vulnerability_Remediation_Program_with_Qualys_and_Microsoft_Defender.pdf) | Vulnerability remediation with Qualys and Microsoft Defender: one reconciled queue, exploit-led priorities, SLAs by tier, dated exceptions. | 23 |
-| SEC-002 | [Containing a Compromised Microsoft 365 Account](security-operations/SOP-SEC-002_Containing_a_Compromised_Microsoft_365_Account.pdf) | Contain a compromised Microsoft 365 account: preserve evidence, contain in a fixed order across Entra ID and Exchange Online, scope, recover. | 23 |
+| SOP | Runbook | What it covers |
+|---|---|---|
+| SEC-001 | [Running a vulnerability remediation program with Qualys and Microsoft Defender](security-operations/SOP-SEC-001-vulnerability-remediation-qualys-defender.md) | Vulnerability remediation with Qualys and Microsoft Defender: one reconciled queue, exploit-led priorities, SLAs by tier, dated exceptions. |
+| SEC-002 | [Containing a compromised Microsoft 365 account](security-operations/SOP-SEC-002-containing-compromised-m365-account.md) | Contain a compromised Microsoft 365 account: preserve evidence, contain in a fixed order across Entra ID and Exchange Online, scope, recover. |
 
 ### Governance & Compliance
 
-| SOP | Title | What it covers | Pages |
-|---|---|---|---|
-| GOV-001 | [Change Control and Objective Evidence for GxP and 21 CFR Part 11 Systems](governance/SOP-GOV-001_Change_Control_and_Objective_Evidence_for_GxP_and_21_CFR_Part_11_Systems.pdf) | Change control for GxP and 21 CFR Part 11 systems: classify, assess impact, plan test and rollback, e-signed Quality approval, objective evidence. | 25 |
+| SOP | Runbook | What it covers |
+|---|---|---|
+| GOV-001 | [Change control and objective evidence for GxP and 21 CFR Part 11 systems](governance/SOP-GOV-001-gxp-change-control-and-objective-evidence.md) | Change control for GxP and 21 CFR Part 11 systems: classify, assess impact, plan test and rollback, e-signed Quality approval, objective evidence. |
 
 ### Microsoft Azure · Procedures
 
-| SOP | Title | What it covers | Pages |
-|---|---|---|---|
-| AZ-001 | [Creating and Securing a Microsoft Azure Tenant](azure-procedures/SOP-AZ-001_Creating_and_Securing_a_Microsoft_Azure_Tenant.pdf) | Create a tenant and apply a security and governance baseline four ways: portal, Graph + Az PowerShell, Azure CLI / Bicep, configuration as code. | 28 |
-| AZ-002 | [Deploying a Hardened Azure VM in a Data Residency Region](azure-procedures/SOP-AZ-002_Deploying_a_Hardened_Azure_VM_in_a_Data_Residency_Region.pdf) | Trusted Launch Windows Server VM with encryption at host, no public IP, backup and monitoring, kept in-region by Azure Policy. | 27 |
-| AZ-003 | [Cloning an Azure Virtual Machine](azure-procedures/SOP-AZ-003_Cloning_an_Azure_Virtual_Machine.pdf) | Clone a VM: snapshot to managed disk to new VM via portal, PowerShell, CLI or Compute Gallery, with secure access and rollback. | 19 |
-| AZ-004 | [Azure Point-to-Site VPN with Entra ID](azure-procedures/SOP-AZ-004_Azure_Point-to-Site_VPN_with_Entra_ID.pdf) | Point-to-site VPN with Entra ID sign-in: an MFA-protected OpenVPN tunnel into a private network, plus certificate auth and the user connection. | 28 |
-| AZ-005 | [Multi-Region Backup and Disaster Recovery in Azure](azure-procedures/SOP-AZ-005_Multi-Region_Backup_and_Disaster_Recovery_in_Azure.pdf) | Two-region backup and DR for VMs and SQL with Azure Backup, Veeam for Azure and Site Recovery, proven by restore testing. | 27 |
+| SOP | Runbook | What it covers |
+|---|---|---|
+| AZ-001 | [Azure tenant foundation: day-zero identity and governance](azure-procedures/SOP-AZ-001-creating-securing-azure-tenant.md) | Create a tenant and apply a security and governance baseline four ways: portal, Graph + Az PowerShell, Azure CLI / Bicep, configuration as code. |
+| AZ-002 | [Deploying a hardened Azure VM in a data-residency region](azure-procedures/SOP-AZ-002-hardened-azure-vm-data-residency-region.md) | Trusted Launch Windows Server VM with encryption at host, no public IP, backup and monitoring, kept in-region by Azure Policy. |
+| AZ-003 | [Cloning an Azure virtual machine](azure-procedures/SOP-AZ-003-cloning-azure-virtual-machine.md) | Clone a VM: snapshot to managed disk to new VM via portal, PowerShell, CLI or Compute Gallery, with secure access and rollback. |
+| AZ-004 | [Azure point-to-site VPN with Entra ID sign-in](azure-procedures/SOP-AZ-004-point-to-site-vpn-entra-id.md) | Point-to-site VPN with Entra ID sign-in: an MFA-protected OpenVPN tunnel into a private network, plus certificate auth and the user connection. |
+| AZ-005 | [Two-region backup and disaster recovery design for Azure workloads](azure-procedures/SOP-AZ-005-multi-region-backup-disaster-recovery.md) | Two-region backup and DR for VMs and SQL with Azure Backup, Veeam for Azure and Site Recovery, proven by restore testing. |
 
 ### Microsoft Azure · Landing Zone Build & Assessment Series
 
-| SOP | Title | What it covers | Pages |
-|---|---|---|---|
-| AZ-101 | [Building an Azure Landing Zone as Code](azure-landing-zone-series/SOP-AZ-101_Building_an_Azure_Landing_Zone_as_Code.pdf) | Landing zone as code: management groups, group-based RBAC, Policy guardrails, central logging with an immutable archive, hub network. | 17 |
-| AZ-102 | [Deploying a Repeatable Customer Stamp](azure-landing-zone-series/SOP-AZ-102_Deploying_a_Repeatable_Customer_Stamp.pdf) | A repeatable customer stamp: private spoke, Key Vault read by managed identity, customer-managed disk keys, geo-redundant backup. | 15 |
-| AZ-103 | [Threat Modeling an Azure Build with STRIDE](azure-landing-zone-series/SOP-AZ-103_Threat_Modeling_an_Azure_Build_with_STRIDE.pdf) | STRIDE threat model of the deployed build: trust boundaries, data flows and attack surface reviewed at every boundary. | 11 |
-| AZ-104 | [Hardening Identity and Access in Azure](azure-landing-zone-series/SOP-AZ-104_Hardening_Identity_and_Access_in_Azure.pdf) | Identity hardening: Entra groups, roles at management group scope, PIM, Conditional Access and a role-to-permission matrix tested with real accounts. | 11 |
-| AZ-105 | [Scanning for Secrets and Supply-Chain Risk](azure-landing-zone-series/SOP-AZ-105_Scanning_for_Secrets_and_Supply-Chain_Risk.pdf) | Secrets and supply chain: gitleaks, Trivy and Dependabot across full history, a licence inventory and a Key Vault posture check. | 10 |
-| AZ-106 | [Assessing Network Segmentation and Container Hosting](azure-landing-zone-series/SOP-AZ-106_Assessing_Network_Segmentation_and_Container_Hosting.pdf) | Network segmentation and container hosting: effective routes, NSG rules, public exposure, host hardening, scored against CIS and Defender for Cloud. | 10 |
-| AZ-107 | [Validating Logging and Proving Every Alert Fires](azure-landing-zone-series/SOP-AZ-107_Validating_Logging_and_Proving_Every_Alert_Fires.pdf) | Logging validation: source inventory, retention, alerts on destructive actions, immutability, and a controlled test that fires every alert. | 12 |
-| AZ-108 | [Mapping One Build to Many Compliance Frameworks](azure-landing-zone-series/SOP-AZ-108_Mapping_One_Build_to_Many_Compliance_Frameworks.pdf) | One control matrix crosswalked to NIST CSF 2.0, SP 800-53 R5, ISO 27001:2022, HIPAA and a PCI DSS boundary, every row backed by hashed evidence. | 10 |
+| SOP | Runbook | What it covers |
+|---|---|---|
+| AZ-101 | [Building an Azure landing zone as code](azure-landing-zone-series/SOP-AZ-101-azure-landing-zone-as-code.md) | Landing zone as code: management groups, group-based RBAC, Policy guardrails, central logging with an immutable archive, hub network. |
+| AZ-102 | [Deploying a repeatable customer stamp](azure-landing-zone-series/SOP-AZ-102-repeatable-customer-stamp.md) | A repeatable customer stamp: private spoke, Key Vault read by managed identity, customer-managed disk keys, geo-redundant backup. |
+| AZ-103 | [Threat modeling an Azure build with STRIDE](azure-landing-zone-series/SOP-AZ-103-threat-modeling-azure-build-stride.md) | STRIDE threat model of the deployed build: trust boundaries, data flows and attack surface reviewed at every boundary. |
+| AZ-104 | [Hardening identity and access in Azure](azure-landing-zone-series/SOP-AZ-104-hardening-identity-access-azure.md) | Identity hardening: Entra groups, roles at management group scope, PIM, Conditional Access and a role-to-permission matrix tested with real accounts. |
+| AZ-105 | [Scanning for secrets and supply-chain risk](azure-landing-zone-series/SOP-AZ-105-scanning-secrets-supply-chain-risk.md) | Secrets and supply chain: gitleaks, Trivy and Dependabot across full history, a licence inventory and a Key Vault posture check. |
+| AZ-106 | [Assessing network segmentation and container hosting](azure-landing-zone-series/SOP-AZ-106-network-segmentation-container-hosting.md) | Network segmentation and container hosting: effective routes, NSG rules, public exposure, host hardening, scored against CIS and Defender for Cloud. |
+| AZ-107 | [Validating logging and proving every alert fires](azure-landing-zone-series/SOP-AZ-107-validating-logging-alerts-fire.md) | Logging validation: source inventory, retention, alerts on destructive actions, immutability, and a controlled test that fires every alert. |
+| AZ-108 | [Mapping one build to many compliance frameworks](azure-landing-zone-series/SOP-AZ-108-mapping-build-many-compliance-frameworks.md) | One control matrix crosswalked to NIST CSF 2.0, SP 800-53 R5, ISO 27001:2022, HIPAA and a PCI DSS boundary, every row backed by hashed evidence. |
 
 ### Microsoft 365
 
-| SOP | Title | What it covers | Pages |
-|---|---|---|---|
-| M365-001 | [Migrating File Shares to Teams and SharePoint](microsoft-365/SOP-M365-001_Migrating_File_Shares_to_Teams_and_SharePoint.pdf) | File shares to Teams and SharePoint: scan, clean up, migrate with Migration Manager or SPMT (GUI and PowerShell), then cut over. | 29 |
+| SOP | Runbook | What it covers |
+|---|---|---|
+| M365-001 | [Migrating file shares to Teams and SharePoint](microsoft-365/SOP-M365-001-file-shares-to-teams-sharepoint.md) | File shares to Teams and SharePoint: scan, clean up, migrate with Migration Manager or SPMT (GUI and PowerShell), then cut over. |
 
 ### Cloud Migration
 
-| SOP | Title | What it covers | Pages |
-|---|---|---|---|
-| MIG-001 | [Lift and Shift Migration of a Label Printing Server](cloud-migration/SOP-MIG-001_Lift_and_Shift_Migration_of_a_Label_Printing_Server.pdf) | Rehost a BarTender label server with AWS Application Migration Service or Azure Migrate, or rebuild it, with tested cutover and rollback. | 27 |
+| SOP | Runbook | What it covers |
+|---|---|---|
+| MIG-001 | [Lift-and-shift migration of a label printing server](cloud-migration/SOP-MIG-001-lift-and-shift-label-printing-server.md) | Rehost a BarTender label server with AWS Application Migration Service or Azure Migrate, or rebuild it, with tested cutover and rollback. |
 
 ### Regulated Lab IT
 
-| SOP | Title | What it covers | Pages |
-|---|---|---|---|
-| LAB-001 | [Modernizing a Windows 7 Lab Application onto Windows 11](regulated-lab-it/SOP-LAB-001_Modernizing_a_Windows_7_Lab_Application_onto_Windows_11.pdf) | Move an instrument-control application off Windows 7 onto Windows 11: compatibility mode, shims, isolated Hyper-V and more. | 27 |
-| LAB-002 | [Installing Registering and Patching a Lab Compliance Data Agent](regulated-lab-it/SOP-LAB-002_Installing_Registering_and_Patching_a_Lab_Compliance_Data_Agent.pdf) | Register, install, connect and hotfix a GxP data-capture agent interactively, silently, remotely (BeyondTrust PRA) and at scale. | 27 |
-| LAB-003 | [Requesting and Provisioning a Regulated GxP Lab Workstation](regulated-lab-it/SOP-LAB-003_Requesting_and_Provisioning_a_Regulated_GxP_Lab_Workstation.pdf) | A regulated lab workstation from funding to retirement: standard, qualified, break-fix and decommission paths through ITSM. | 26 |
+| SOP | Runbook | What it covers |
+|---|---|---|
+| LAB-001 | [Modernizing a Windows 7 lab application onto Windows 11](regulated-lab-it/SOP-LAB-001-windows-7-lab-application-to-windows-11.md) | Move an instrument-control application off Windows 7 onto Windows 11: compatibility mode, shims, isolated Hyper-V and more. |
+| LAB-002 | [Installing, registering and patching a lab compliance data agent](regulated-lab-it/SOP-LAB-002-lab-compliance-data-agent.md) | Register, install, connect and hotfix a GxP data-capture agent interactively, silently, remotely (BeyondTrust PRA) and at scale. |
+| LAB-003 | [Requesting and provisioning a regulated (GxP) lab workstation](regulated-lab-it/SOP-LAB-003-requesting-provisioning-gxp-lab-workstation.md) | A regulated lab workstation from funding to retirement: standard, qualified, break-fix and decommission paths through ITSM. |
 
 ### Label Printing
 
-| SOP | Title | What it covers | Pages |
-|---|---|---|---|
-| LBL-001 | [Fixing Undersized Labels Zebra DPI Mismatch](label-printing/SOP-LBL-001_Fixing_Undersized_Labels_Zebra_DPI_Mismatch.pdf) | Fix undersized labels caused by a Zebra driver DPI mismatch via Print Management, PowerShell, PrintUI/pnputil or print-server policy. | 28 |
-| LBL-002 | [Static IP Reservation and Network Label Printer Integration](label-printing/SOP-LBL-002_Static_IP_Reservation_and_Network_Label_Printer_Integration.pdf) | Give a network label printer a reserved address and connect it to Windows, BarTender and the LIMS, four ways. | 23 |
+| SOP | Runbook | What it covers |
+|---|---|---|
+| LBL-001 | [Fixing undersized labels caused by a Zebra driver DPI mismatch](label-printing/SOP-LBL-001-zebra-dpi-mismatch-undersized-labels.md) | Fix undersized labels caused by a Zebra driver DPI mismatch via Print Management, PowerShell, PrintUI/pnputil or print-server policy. |
+| LBL-002 | [Static IP reservation and network label printer integration](label-printing/SOP-LBL-002-static-ip-reservation-network-label-printer.md) | Give a network label printer a reserved address and connect it to Windows, BarTender and the LIMS, four ways. |
 
 ### Windows Desktop Support
 
-| SOP | Title | What it covers | Pages |
-|---|---|---|---|
-| WIN-001 | [Troubleshooting USB Serial COM Port Connectivity](windows-support/SOP-WIN-001_Troubleshooting_USB_Serial_COM_Port_Connectivity.pdf) | USB-to-serial and COM port repair five ways: Device Manager, CMD, PowerShell with pnputil, a power-management fix, Intune Remediations. | 28 |
-| WIN-002 | [Restoring DHCP Client and Domain Connectivity](windows-support/SOP-WIN-002_Restoring_DHCP_Client_and_Domain_Connectivity.pdf) | From "no network, no domain" back to working: Services and Event Viewer, sc / ipconfig / nltest, a PowerShell repair, a controlled rejoin. | 26 |
-| WIN-003 | [Restoring Mapped Network Drive Access](windows-support/SOP-WIN-003_Restoring_Mapped_Network_Drive_Access.pdf) | Restore mapped drives on Windows 11: Workstation service and SMB client, net use / cmdkey, SMB cmdlets, Group Policy or Intune at scale. | 27 |
-| WIN-004 | [Windows Command Line Toolkit for Support Engineers](windows-support/SOP-WIN-004_Windows_Command_Line_Toolkit_for_Support_Engineers.pdf) | The everyday Windows support commands in CMD and PowerShell, run remotely with Invoke-Command and at scale with Intune Remediations. | 24 |
+| SOP | Runbook | What it covers |
+|---|---|---|
+| WIN-001 | [Troubleshooting USB serial (COM port) device connectivity on Windows](windows-support/SOP-WIN-001-usb-serial-com-port-troubleshooting.md) | USB-to-serial and COM port repair five ways: Device Manager, CMD, PowerShell with pnputil, a power-management fix, Intune Remediations. |
+| WIN-002 | [Restoring the DHCP Client service and domain connectivity](windows-support/SOP-WIN-002-dhcp-client-and-domain-connectivity.md) | From "no network, no domain" back to working: Services and Event Viewer, sc / ipconfig / nltest, a PowerShell repair, a controlled rejoin. |
+| WIN-003 | [Restoring mapped network drive access on Windows 11](windows-support/SOP-WIN-003-mapped-network-drive-access.md) | Restore mapped drives on Windows 11: Workstation service and SMB client, net use / cmdkey, SMB cmdlets, Group Policy or Intune at scale. |
+| WIN-004 | [The Windows command-line toolkit for support engineers](windows-support/SOP-WIN-004-windows-command-line-toolkit.md) | The everyday Windows support commands in CMD and PowerShell, run remotely with Invoke-Command and at scale with Intune Remediations. |
 
-## What every procedure contains
+## What every runbook contains
 
 | Chapter | What you get |
 |---|---|
-| Concepts you need first | The model behind the task, with figures, so the steps make sense and can be adapted |
-| Access, prerequisites and planning | Minimum roles, licensing, a prerequisites checklist and a risk table |
-| Methods | The procedure in the portal or GUI, then as PowerShell / CLI / KQL, then at scale |
-| Verification, rollback, troubleshooting | A checklist that proves the result, the safe way back, symptom → cause → fix tables |
-| Summary, glossary and review | Key points, review questions, terms and the control frameworks supported |
+| Diagram | The architecture or flow, drawn so the steps make sense at a glance |
+| Before you start | Roles, licensing, access and the risks worth knowing first |
+| Steps | The procedure in the portal or GUI, then as PowerShell / CLI / KQL, then at scale |
+| Verify, rollback, troubleshooting | Checks that prove the result, the safe way back, symptom → cause → fix |
+| Control mapping | The NIST SP 800-53, CSF 2.0, ISO 27001 or GxP controls it supports |
 
 ## Coverage by framework
 

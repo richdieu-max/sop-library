@@ -1,0 +1,127 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" role="img" aria-label="Containment order for a compromised account">
+<title>Containment order for a compromised account</title>
+<defs><marker id="m605E5C" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#605E5C"/></marker><marker id="m605E5Cs" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M10,0 L0,5 L10,10 z" fill="#605E5C"/></marker></defs>
+<rect width="1280" height="720" fill="#fff"/>
+<rect x="0" y="0" width="1280" height="6" fill="#0078D4"/>
+<text x="32" y="48" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="600" fill="#201F1E">Containment order for a compromised account</text>
+<text x="32" y="72" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#605E5C">Take live access first, then remove persistence, then block re-entry. Record time and operator for every step.</text>
+<rect x="32" y="100" width="360" height="474" rx="6" fill="#FFF8F8" stroke="#A4262C" stroke-width="1.4" stroke-dasharray="6 4"/>
+<text x="46" y="125" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#A4262C" text-anchor="start">Live access · within minutes</text>
+<rect x="408" y="100" width="460" height="474" rx="6" fill="#FFFCF0" stroke="#C19C00" stroke-width="1.4" stroke-dasharray="6 4"/>
+<text x="422" y="125" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#C19C00" text-anchor="start">Persistence</text>
+<rect x="884" y="100" width="364" height="474" rx="6" fill="#FAF6FD" stroke="#5C2D91" stroke-width="1.4" stroke-dasharray="6 4"/>
+<text x="898" y="125" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#5C2D91" text-anchor="start">Re-entry</text>
+<rect x="32" y="616" width="396" height="46" rx="4" fill="#FAF9F8" stroke="#E1DFDD" stroke-width="1"/>
+<rect x="442" y="616" width="396" height="46" rx="4" fill="#FAF9F8" stroke="#E1DFDD" stroke-width="1"/>
+<rect x="852" y="616" width="396" height="46" rx="4" fill="#FAF9F8" stroke="#E1DFDD" stroke-width="1"/>
+<rect x="53.5" y="158" width="320" height="64" rx="5" fill="#000" opacity="0.06"/>
+<rect x="52" y="156" width="320" height="64" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="52" y="156" width="4" height="64" rx="0" fill="#A4262C"/>
+<rect x="53.5" y="238" width="320" height="64" rx="5" fill="#000" opacity="0.06"/>
+<rect x="52" y="236" width="320" height="64" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="52" y="236" width="4" height="64" rx="0" fill="#A4262C"/>
+<rect x="53.5" y="318" width="320" height="64" rx="5" fill="#000" opacity="0.06"/>
+<rect x="52" y="316" width="320" height="64" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="52" y="316" width="4" height="64" rx="0" fill="#A4262C"/>
+<rect x="429.5" y="158" width="420" height="64" rx="5" fill="#000" opacity="0.06"/>
+<rect x="428" y="156" width="420" height="64" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="428" y="156" width="4" height="64" rx="0" fill="#C19C00"/>
+<rect x="429.5" y="238" width="420" height="64" rx="5" fill="#000" opacity="0.06"/>
+<rect x="428" y="236" width="420" height="64" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="428" y="236" width="4" height="64" rx="0" fill="#C19C00"/>
+<rect x="429.5" y="318" width="420" height="64" rx="5" fill="#000" opacity="0.06"/>
+<rect x="428" y="316" width="420" height="64" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="428" y="316" width="4" height="64" rx="0" fill="#C19C00"/>
+<rect x="429.5" y="398" width="420" height="64" rx="5" fill="#000" opacity="0.06"/>
+<rect x="428" y="396" width="420" height="64" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="428" y="396" width="4" height="64" rx="0" fill="#C19C00"/>
+<rect x="429.5" y="478" width="420" height="64" rx="5" fill="#000" opacity="0.06"/>
+<rect x="428" y="476" width="420" height="64" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="428" y="476" width="4" height="64" rx="0" fill="#C19C00"/>
+<rect x="905.5" y="158" width="324" height="64" rx="5" fill="#000" opacity="0.06"/>
+<rect x="904" y="156" width="324" height="64" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="904" y="156" width="4" height="64" rx="0" fill="#5C2D91"/>
+<rect x="905.5" y="238" width="324" height="64" rx="5" fill="#000" opacity="0.06"/>
+<rect x="904" y="236" width="324" height="64" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="904" y="236" width="4" height="64" rx="0" fill="#5C2D91"/>
+<path d="M392,336 L406,336" fill="none" stroke="#605E5C" stroke-width="2" marker-end="url(#m605E5C)" stroke-linejoin="round"/>
+<path d="M868,336 L882,336" fill="none" stroke="#605E5C" stroke-width="2" marker-end="url(#m605E5C)" stroke-linejoin="round"/>
+<rect x="52" y="410" width="320" height="89" rx="4" fill="#FDE7E9"/>
+<rect x="52" y="410" width="4" height="89" rx="0" fill="#A4262C"/>
+<rect x="904" y="330" width="324" height="89" rx="4" fill="#FFF4CE"/>
+<rect x="904" y="330" width="4" height="89" rx="0" fill="#C19C00"/>
+<rect x="904" y="446" width="324" height="89" rx="4" fill="#F3F9FD"/>
+<rect x="904" y="446" width="4" height="89" rx="0" fill="#0078D4"/>
+<g transform="translate(64,170.0) scale(0.7500)"><circle cx="24" cy="24" r="20" fill="#A4262C"/><path d="M16 16 l16 16 M32 16 l-16 16" stroke="#fff" stroke-width="4"/></g>
+<text x="112" y="184.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Block sign-in</text>
+<text x="112" y="202.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">accountEnabled = false</text>
+<circle cx="52" cy="156" r="15" fill="#fff"/><circle cx="52" cy="156" r="13" fill="#A4262C"/>
+<text x="52" y="160.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">1</text>
+<g transform="translate(64,250.0) scale(0.7500)"><path d="M15 21 v-6 a9 9 0 0 1 18 0 v6" fill="none" stroke="#605E5C" stroke-width="4"/><rect x="10" y="21" width="28" height="22" rx="3" fill="#605E5C"/><circle cx="24" cy="31" r="3" fill="#fff"/><rect x="23" y="31" width="2" height="6" fill="#fff"/></g>
+<text x="112" y="264.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Revoke sessions</text>
+<text x="112" y="282.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">refresh tokens invalid</text>
+<circle cx="52" cy="236" r="15" fill="#fff"/><circle cx="52" cy="236" r="13" fill="#A4262C"/>
+<text x="52" y="240.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">2</text>
+<g transform="translate(64,330.0) scale(0.7500)"><rect x="12" y="4" width="24" height="40" rx="4" fill="#0078D4"/><rect x="15" y="9" width="18" height="26" fill="#fff"/><path d="M19 22 l4 4 7-8" stroke="#107C10" stroke-width="3" fill="none"/><circle cx="24" cy="39" r="2" fill="#fff"/></g>
+<text x="112" y="344.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Reset password</text>
+<text x="112" y="362.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">cloud, or on-prem AD</text>
+<circle cx="52" cy="316" r="15" fill="#fff"/><circle cx="52" cy="316" r="13" fill="#A4262C"/>
+<text x="52" y="320.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">3</text>
+<g transform="translate(440,170.0) scale(0.7500)"><path d="M24 4 L45 42 H3 Z" fill="#A4262C"/><rect x="22" y="17" width="4" height="13" fill="#fff"/><circle cx="24" cy="35" r="2.5" fill="#fff"/></g>
+<text x="488" y="184.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Confirm compromised</text>
+<text x="488" y="202.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">user risk set to High</text>
+<circle cx="428" cy="156" r="15" fill="#fff"/><circle cx="428" cy="156" r="13" fill="#C19C00"/>
+<text x="428" y="160.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">4</text>
+<g transform="translate(440,250.0) scale(0.7500)"><rect x="12" y="4" width="24" height="40" rx="4" fill="#0078D4"/><rect x="15" y="9" width="18" height="26" fill="#fff"/><path d="M19 22 l4 4 7-8" stroke="#107C10" stroke-width="3" fill="none"/><circle cx="24" cy="39" r="2" fill="#fff"/></g>
+<text x="488" y="264.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Clean MFA methods</text>
+<text x="488" y="282.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">remove unknown methods</text>
+<circle cx="428" cy="236" r="15" fill="#fff"/><circle cx="428" cy="236" r="13" fill="#C19C00"/>
+<text x="428" y="240.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">5</text>
+<g transform="translate(440,330.0) scale(0.7500)"><path d="M10 4 h20 l8 8 v32 h-28 Z" fill="#0078D4"/><path d="M30 4 v8 h8" fill="#fff" opacity=".5"/><path d="M15 22 h18 M15 28 h18 M15 34 h12" stroke="#fff" stroke-width="2.4"/></g>
+<text x="488" y="344.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Inbox rules</text>
+<text x="488" y="362.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">remove, keep export</text>
+<circle cx="428" cy="316" r="15" fill="#fff"/><circle cx="428" cy="316" r="13" fill="#C19C00"/>
+<text x="428" y="320.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">6</text>
+<g transform="translate(440,410.0) scale(0.7500)"><circle cx="17" cy="16" r="7" fill="#005A9E"/><path d="M3 40 q14-20 28 0Z" fill="#005A9E"/><circle cx="31" cy="18" r="7" fill="#0078D4"/><path d="M17 44 q14-20 28 0Z" fill="#0078D4"/></g>
+<text x="488" y="424.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Forwarding, delegates</text>
+<text x="488" y="442.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">SMTP fwd, FullAccess, SendAs</text>
+<circle cx="428" cy="396" r="15" fill="#fff"/><circle cx="428" cy="396" r="13" fill="#C19C00"/>
+<text x="428" y="400.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">7</text>
+<g transform="translate(440,490.0) scale(0.7500)"><rect x="6" y="6" width="36" height="36" rx="8" fill="#0078D4"/><path d="M24 13 v16 M17 23 l7 7 7-7" stroke="#fff" stroke-width="3.4" fill="none"/><path d="M15 35 h18" stroke="#fff" stroke-width="3"/></g>
+<text x="488" y="504.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">OAuth grants, apps</text>
+<text x="488" y="522.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">revoke grant, disable app</text>
+<circle cx="428" cy="476" r="15" fill="#fff"/><circle cx="428" cy="476" r="13" fill="#C19C00"/>
+<text x="428" y="480.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">8</text>
+<g transform="translate(916,170.0) scale(0.7500)"><rect x="7" y="9" width="34" height="23" rx="2" fill="#0078D4"/><rect x="10" y="12" width="28" height="17" fill="#fff"/><path d="M3 35 h42 l-3 5 h-36 Z" fill="#005A9E"/></g>
+<text x="964" y="184.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Devices</text>
+<text x="964" y="202.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">isolate in Defender</text>
+<circle cx="904" cy="156" r="15" fill="#fff"/><circle cx="904" cy="156" r="13" fill="#5C2D91"/>
+<text x="904" y="160.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">9</text>
+<g transform="translate(916,250.0) scale(0.7500)"><path d="M24 3 L41 9 V23 C41 34 33 41 24 45 C15 41 7 34 7 23 V9 Z" fill="#0078D4"/><path d="M24 3 V45 C33 41 41 34 41 23 V9 Z" fill="#005A9E"/><path d="M16 24 l6 6 11-12" stroke="#fff" stroke-width="3.2" fill="none"/></g>
+<text x="964" y="264.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Block IOCs</text>
+<text x="964" y="282.5" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Tenant Allow/Block List</text>
+<circle cx="904" cy="236" r="15" fill="#fff"/><circle cx="904" cy="236" r="13" fill="#5C2D91"/>
+<text x="904" y="240.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">10</text>
+<text x="68" y="432" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#201F1E" text-anchor="start">Why this order</text>
+<text x="68" y="453" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">Block first, so the attacker cannot sign</text>
+<text x="68" y="470" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">in again between revoke and reset.</text>
+<text x="68" y="487" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">Hybrid: disable and reset in AD too.</text>
+<text x="920" y="352" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#201F1E" text-anchor="start">No wipes</text>
+<text x="920" y="373" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">Isolation keeps the Defender connection.</text>
+<text x="920" y="390" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">Never wipe during containment: a wipe</text>
+<text x="920" y="407" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">needs approval under SOP-EM-003.</text>
+<text x="920" y="468" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#201F1E" text-anchor="start">Admins</text>
+<text x="920" y="489" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">Admin accounts: a Privileged</text>
+<text x="920" y="506" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">Authentication Administrator</text>
+<text x="920" y="523" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">performs steps 1–4.</text>
+<text x="32" y="604" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">What each identity action stops</text>
+<text x="46" y="635" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#201F1E" text-anchor="start">Reset password</text>
+<text x="46" y="652" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">stops new password sign-ins</text>
+<text x="456" y="635" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#201F1E" text-anchor="start">Revoke sessions</text>
+<text x="456" y="652" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">stolen refresh token + cookie dead</text>
+<text x="866" y="635" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#201F1E" text-anchor="start">Block sign-in</text>
+<text x="866" y="652" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">no new tokens; CAE apps reject within minutes</text>
+<line x1="32" y1="686" x2="1248" y2="686" stroke="#E1DFDD"/>
+<text x="32" y="706" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#8A8886">Generalised design: no client names, tenant IDs, addresses or data. Icons are simplified originals, not Microsoft artwork.</text>
+<text x="1248" y="706" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#8A8886" text-anchor="end">Rich Dieu · github.com/richdieu-max</text>
+</svg>

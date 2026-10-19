@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 700" width="1280" height="700" role="img" aria-label="Four update types, four Intune policy types">
+<title>Four update types, four Intune policy types</title>
+<defs><marker id="m0078D4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#0078D4"/></marker><marker id="m0078D4s" viewBox="0 0 10 10" refX="1" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M10,0 L0,5 L10,10 z" fill="#0078D4"/></marker></defs>
+<rect width="1280" height="700" fill="#fff"/>
+<rect x="0" y="0" width="1280" height="6" fill="#0078D4"/>
+<text x="32" y="48" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="600" fill="#201F1E">Four update types, four Intune policy types</text>
+<text x="32" y="72" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#605E5C">Every update a Windows device receives is governed by exactly one policy. Confusing them is the most common reason a device surprises its admin.</text>
+<rect x="53.5" y="132" width="520" height="92" rx="5" fill="#000" opacity="0.06"/>
+<rect x="52" y="130" width="520" height="92" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="713.5" y="132" width="516" height="92" rx="5" fill="#000" opacity="0.06"/>
+<rect x="712" y="130" width="516" height="92" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<path d="M572,176 L710,176" fill="none" stroke="#0078D4" stroke-width="2" marker-end="url(#m0078D4)" stroke-linejoin="round"/>
+<rect x="53.5" y="244" width="520" height="92" rx="5" fill="#000" opacity="0.06"/>
+<rect x="52" y="242" width="520" height="92" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="713.5" y="244" width="516" height="92" rx="5" fill="#000" opacity="0.06"/>
+<rect x="712" y="242" width="516" height="92" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<path d="M572,288 L710,288" fill="none" stroke="#0078D4" stroke-width="2" marker-end="url(#m0078D4)" stroke-linejoin="round"/>
+<rect x="53.5" y="356" width="520" height="92" rx="5" fill="#000" opacity="0.06"/>
+<rect x="52" y="354" width="520" height="92" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="713.5" y="356" width="516" height="92" rx="5" fill="#000" opacity="0.06"/>
+<rect x="712" y="354" width="516" height="92" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<path d="M572,400 L710,400" fill="none" stroke="#0078D4" stroke-width="2" marker-end="url(#m0078D4)" stroke-linejoin="round"/>
+<rect x="53.5" y="468" width="520" height="92" rx="5" fill="#000" opacity="0.06"/>
+<rect x="52" y="466" width="520" height="92" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="713.5" y="468" width="516" height="92" rx="5" fill="#000" opacity="0.06"/>
+<rect x="712" y="466" width="516" height="92" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<path d="M572,512 L710,512" fill="none" stroke="#0078D4" stroke-width="2" marker-end="url(#m0078D4)" stroke-linejoin="round"/>
+<rect x="52" y="590" width="1176" height="50" rx="4" fill="#F3F9FD"/>
+<rect x="52" y="590" width="4" height="50" rx="0" fill="#0078D4"/>
+<text x="80" y="118" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#605E5C" text-anchor="start">Update type</text>
+<text x="712" y="118" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#605E5C" text-anchor="start">Governed by</text>
+<g transform="translate(64,144) scale(0.8333)"><rect x="5" y="9" width="38" height="34" rx="3" fill="#fff" stroke="#0078D4" stroke-width="2"/><rect x="5" y="9" width="38" height="10" rx="3" fill="#0078D4"/><path d="M14 5 v8 M34 5 v8" stroke="#005A9E" stroke-width="3"/><rect x="11" y="24" width="7" height="6" fill="#DEECF9"/><rect x="21" y="24" width="7" height="6" fill="#A4262C"/><rect x="31" y="24" width="7" height="6" fill="#DEECF9"/><rect x="11" y="33" width="7" height="6" fill="#DEECF9"/><rect x="21" y="33" width="7" height="6" fill="#DEECF9"/></g>
+<text x="116" y="154" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Quality updates</text>
+<text x="116" y="172" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Monthly security + fixes (Patch Tuesday)</text>
+<text x="116" y="189" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Cumulative: latest contains all prior</text>
+<circle cx="52" cy="130" r="15" fill="#fff"/><circle cx="52" cy="130" r="13" fill="#0078D4"/>
+<text x="52" y="134.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">1</text>
+<g transform="translate(724,144) scale(0.8333)"><path d="M10 4 h20 l8 8 v32 h-28 Z" fill="#5C2D91"/><path d="M30 4 v8 h8" fill="#fff" opacity=".5"/><path d="M15 27 l5 5 10-11" stroke="#fff" stroke-width="3" fill="none"/></g>
+<text x="776" y="154" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Update rings for Windows 10 and later</text>
+<text x="776" y="172" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Quality deferral, deadlines, grace,</text>
+<text x="776" y="189" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">active hours, pause</text>
+<rect x="1179.6" y="138" width="40.4" height="18" rx="9" fill="#DEECF9"/>
+<text x="1199.8" y="151" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#201F1E" text-anchor="middle">RING</text>
+<g transform="translate(64,256) scale(0.8333)"><rect x="6" y="6" width="17" height="17" fill="#0078D4"/><rect x="25" y="6" width="17" height="17" fill="#0078D4"/><rect x="6" y="25" width="17" height="17" fill="#0078D4"/><rect x="25" y="25" width="17" height="17" fill="#0078D4"/></g>
+<text x="116" y="266" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Feature updates</text>
+<text x="116" y="284" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">New Windows version, yearly</text>
+<text x="116" y="301" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">e.g. Windows 11, version 24H2</text>
+<circle cx="52" cy="242" r="15" fill="#fff"/><circle cx="52" cy="242" r="13" fill="#0078D4"/>
+<text x="52" y="246.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">2</text>
+<g transform="translate(724,256) scale(0.8333)"><path d="M10 4 h20 l8 8 v32 h-28 Z" fill="#5C2D91"/><path d="M30 4 v8 h8" fill="#fff" opacity=".5"/><path d="M15 27 l5 5 10-11" stroke="#fff" stroke-width="3" fill="none"/></g>
+<text x="776" y="266" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Feature updates for Windows 10 and later</text>
+<text x="776" y="284" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Pins the version a device may run</text>
+<text x="776" y="301" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Ring feature deferral stays at 0</text>
+<rect x="1133.4" y="250" width="86.6" height="18" rx="9" fill="#EFE6F7"/>
+<text x="1176.7" y="263" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#201F1E" text-anchor="middle">VERSION PIN</text>
+<g transform="translate(64,368) scale(0.8333)"><circle cx="24" cy="24" r="20" fill="#A4262C"/><path d="M27 9 L15 27 h8 l-3 13 l13 -19 h-8 Z" fill="#fff"/></g>
+<text x="116" y="378" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Expedited quality update</text>
+<text x="116" y="396" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">A specific security release, now</text>
+<text x="116" y="413" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Bypasses deferral for zero-days</text>
+<circle cx="52" cy="354" r="15" fill="#fff"/><circle cx="52" cy="354" r="13" fill="#0078D4"/>
+<text x="52" y="358.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">3</text>
+<g transform="translate(724,368) scale(0.8333)"><path d="M10 4 h20 l8 8 v32 h-28 Z" fill="#5C2D91"/><path d="M30 4 v8 h8" fill="#fff" opacity=".5"/><path d="M15 27 l5 5 10-11" stroke="#fff" stroke-width="3" fill="none"/></g>
+<text x="776" y="378" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Quality updates for Windows 10 and later</text>
+<text x="776" y="396" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Expedite if OS is below a chosen</text>
+<text x="776" y="413" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">security release; restart in 0–2 days</text>
+<rect x="1146.6" y="362" width="73.4" height="18" rx="9" fill="#FDE7E9"/>
+<text x="1183.3" y="375" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#201F1E" text-anchor="middle">EMERGENCY</text>
+<g transform="translate(64,480) scale(0.8333)"><rect x="6" y="6" width="36" height="36" rx="8" fill="#0078D4"/><path d="M24 13 v16 M17 23 l7 7 7-7" stroke="#fff" stroke-width="3.4" fill="none"/><path d="M15 35 h18" stroke="#fff" stroke-width="3"/></g>
+<text x="116" y="490" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Drivers and firmware</text>
+<text x="116" y="508" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">OEM content published to</text>
+<text x="116" y="525" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Windows Update</text>
+<circle cx="52" cy="466" r="15" fill="#fff"/><circle cx="52" cy="466" r="13" fill="#0078D4"/>
+<text x="52" y="470.7" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="700" fill="#fff" text-anchor="middle">4</text>
+<g transform="translate(724,480) scale(0.8333)"><path d="M10 4 h20 l8 8 v32 h-28 Z" fill="#5C2D91"/><path d="M30 4 v8 h8" fill="#fff" opacity=".5"/><path d="M15 27 l5 5 10-11" stroke="#fff" stroke-width="3" fill="none"/></g>
+<text x="776" y="490" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Windows driver updates</text>
+<text x="776" y="508" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Manual approval, per ring</text>
+<text x="776" y="525" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Drivers blocked in the rings</text>
+<rect x="1153.2" y="474" width="66.8" height="18" rx="9" fill="#FFF4CE"/>
+<text x="1186.6" y="487" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#201F1E" text-anchor="middle">APPROVAL</text>
+<text x="68" y="612" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">Feature, expedite and driver policies use the Windows Update for Business deployment service: it needs a qualifying licence</text>
+<text x="68" y="629" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#201F1E" text-anchor="start">(Windows Enterprise E3/E5, Education A3/A5 or Microsoft 365 Business Premium) and Windows diagnostic data enabled for the tenant.</text>
+<line x1="32" y1="666" x2="1248" y2="666" stroke="#E1DFDD"/>
+<text x="32" y="686" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#8A8886">Generalised design: no client names, tenant IDs, addresses or data. Icons are simplified originals, not Microsoft artwork.</text>
+<text x="1248" y="686" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#8A8886" text-anchor="end">Rich Dieu · github.com/richdieu-max</text>
+</svg>
