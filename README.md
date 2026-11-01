@@ -2,7 +2,7 @@
 
 **36 standard operating procedures · 54 architecture and flow diagrams · 12 technology families**
 
-Runbooks from my work across Microsoft Azure, Entra ID, Intune, security operations, regulated (GxP) lab IT and Windows support. Every page reads directly on GitHub: what the procedure achieves, a diagram of how it fits together, prerequisites, the steps (portal first, then PowerShell / CLI, then at scale), how to verify it, how to roll it back, troubleshooting, and the controls it supports.
+Runbooks from my work across Microsoft Azure, Entra ID, Intune, security operations, regulated (GxP) lab IT and Windows support. Every page reads directly on GitHub: what the procedure achieves, a diagram of how it fits together, prerequisites, the steps (portal first, then PowerShell / CLI, then at scale), how to verify it, how to roll it back (for procedures that change something), troubleshooting, and the controls it supports.
 
 > **Sanitized reference edition.** Client names, hostnames, tenant IDs and ticket numbers are replaced with placeholders (Contoso, documentation IP ranges, sample change numbers). Microsoft's own built-in role, policy and app IDs are kept because the commands need them.
 
@@ -130,7 +130,7 @@ Runbooks from my work across Microsoft Azure, Entra ID, Intune, security operati
 | Diagram | The architecture or flow, drawn so the steps make sense at a glance |
 | Before you start | Roles, licensing, access and the risks worth knowing first |
 | Steps | The procedure in the portal or GUI, then as PowerShell / CLI / KQL, then at scale |
-| Verify, rollback, troubleshooting | Checks that prove the result, the safe way back, symptom → cause → fix |
+| Verify, rollback, troubleshooting | Checks that prove the result, the safe way back where the procedure changes something (assessment and design runbooks have none to undo), symptom → cause → fix |
 | Control mapping | The NIST SP 800-53, CSF 2.0, ISO 27001 or GxP controls it supports |
 
 ## Coverage by framework
@@ -162,6 +162,10 @@ Runbooks from my work across Microsoft Azure, Entra ID, Intune, security operati
 - [azure-posture-check](https://github.com/richdieu-max/azure-posture-check): the read-only evidence script referenced by the AZ-1xx series
 - [security-assessment-toolkit](https://github.com/richdieu-max/security-assessment-toolkit): the workbook behind AZ-103 to AZ-108
 
+## License
+
+Text and diagrams are licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE): reuse and adapt them, including commercially, as long as you credit Rich Dieu and link back to this repository. Microsoft product names, policy IDs and built-in role IDs that appear in the commands belong to Microsoft.
+
 ---
 
-© Rich Dieu IT Solutions LLC · [richdieu.com](https://richdieu.com).
+© Rich Dieu IT Solutions LLC · [richdieu.com](https://richdieu.com) · CC BY 4.0
