@@ -2,7 +2,7 @@
 
 Register a lab workstation, install and connect a GxP data-capture agent, and apply a vendor hotfix under change control, with evidence for the record. The agent records every create, change, rename and delete of instrument result files with who and when, and sends it to the server that keeps the audit trail; if it is missing, stopped or cut off, records pile up unattested.
 
-**Family:** Regulated lab IT · **Covers:** console registration, four install methods (interactive; silent msiexec and PowerShell; remote via BeyondTrust PRA or PowerShell remoting; ConfigMgr or Intune Win32), the hotfix lifecycle, verification, rollback · **Does not cover:** server installation. Compliance Builder is the worked example; the pattern applies to any agent paired with a central server.
+**Family:** Regulated lab IT · **Covers:** console registration, four install methods (interactive; silent msiexec and PowerShell; remote via BeyondTrust PRA or PowerShell remoting; ConfigMgr or Intune Win32), the hotfix lifecycle, verification, rollback · **Does not cover:** server installation. A commercial GxP data-capture agent is the worked example; the pattern applies to any agent paired with a central server.
 
 ## Shape
 
@@ -15,7 +15,7 @@ Registration ties the workstation's hostname to a **System** (for example *Mecha
 | Item | Requirement |
 |---|---|
 | Change | Approved change record (for example `CHG0012345`) and a window agreed with the lab, because instrument runs must be paused |
-| Packages | Approved `CBAgentSetup.msi` and hotfix from the controlled repository, with vendor checksums |
+| Packages | Approved `<agent>Setup.msi` and hotfix from the controlled repository, with vendor checksums |
 | Access | Web console role that can add Workstations; Local Administrators via a separate or LAPS-managed admin account, never the analyst's; just-in-time elevation where available (the activation log is evidence) |
 | Service identity | Vendor default (often LocalSystem) if the agent only reads local folders; gMSA if it must reach network shares and the vendor supports it; otherwise a dedicated domain account with **Log on as a service** only, interactive and RDP logon denied. Never shared, never known to analysts |
 | Network | Server `<cb-server.contoso.com>`, port `<agent-port>`, direction of each connection and TLS confirmed with the vendor and server owner; lab VLAN ACL change requested before the day |
@@ -36,7 +36,7 @@ Choosing a method: 1–3 PCs with hands on the keyboard use **A**; 1–3 remote 
 
 ### Method A · Interactive
 
-3. **Install.** Copy the MSI to `C:\Install\CBAgent\`, check `Get-FileHash .\CBAgentSetup.msi -Algorithm SHA256` against the repository, and run `msiexec /i CBAgentSetup.msi` from an elevated prompt. Supply the service account if prompted.
+3. **Install.** Copy the MSI to `C:\Install\<agent>\`, check `Get-FileHash .\<agent>Setup.msi -Algorithm SHA256` against the repository, and run `msiexec /i <agent>Setup.msi` from an elevated prompt. Supply the service account if prompted.
 4. **Connect.** In the **Agent Configuration Utility › Connections**, add the entry for the System (server, port, authentication). In `services.msc` set the agent to **Automatic** and restart it. Confirm **Connections** is healthy in the agent window and the workstation reports in the console under the right System. If correct configuration still shows disconnected, one clean reboot, recorded, often fixes it.
 
 ### Method B · Silent

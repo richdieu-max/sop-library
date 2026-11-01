@@ -4,7 +4,7 @@ Move an instrument-control application off an end-of-life OS in a regulated lab,
 
 **Family:** Regulated lab IT · **Covers:** a dual-NIC Windows 11 workstation with an isolated instrument network, four delivery methods (direct install with compatibility mode, compatibility shims, an isolated Hyper-V Windows 7 VM, the vendor upgrade), OQ link testing, rollback · **Does not cover:** the change-control record itself (SOP-GOV-001).
 
-In the reference engagement, AMTI NetControl controlled orthopaedic test frames and had only been qualified on Windows 7. Earlier Windows 10 attempts launched but kept dropping the connection. On a clean Windows 11 build with the instrument network configured deliberately, a direct install held the link through extended sessions and no VM was needed.
+In the reference engagement, the vendor's instrument-control application drove mechanical test frames and had only been qualified on Windows 7. Earlier Windows 10 attempts launched but kept dropping the connection. On a clean Windows 11 build with the instrument network configured deliberately, a direct install held the link through extended sessions and no VM was needed.
 
 ## Shape
 
@@ -66,7 +66,7 @@ If Group Policy forces unidentified networks to Public or ignores local firewall
 ### Method B · Shims at scale
 
 7. **All-users layer.** Write `~ WIN7RTM` under `HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Layers`, value name = full path to the executable. Avoid `RUNASADMIN` unless the vendor requires it, and record it in the risk assessment.
-8. **Custom shim database.** In Compatibility Administrator (Windows ADK; 32-bit edition for 32-bit apps): **Custom Databases › New Database › Fix › Create Application Fix…**, choose Windows 7 mode plus specific fixes such as `CorrectFilePaths` or `VirtualRegistry`, test, save as `NetControl-Win11.sdb`. Deploy with `sdbinst.exe -q` packaged in Intune or Configuration Manager. Version the .sdb, reference it in the IQ and re-test when the application version changes.
+8. **Custom shim database.** In Compatibility Administrator (Windows ADK; 32-bit edition for 32-bit apps): **Custom Databases › New Database › Fix › Create Application Fix…**, choose Windows 7 mode plus specific fixes such as `CorrectFilePaths` or `VirtualRegistry`, test, save as `<app>-Win11.sdb`. Deploy with `sdbinst.exe -q` packaged in Intune or Configuration Manager. Version the .sdb, reference it in the IQ and re-test when the application version changes.
 
 ![The compatibility layer between the legacy executable and Windows 11: WIN7RTM mode answers the version check while CorrectFilePaths and VirtualRegistry redirect the writes the app expects; it is applied as an all-users Layers value or a custom .sdb deployed with sdbinst through Intune or Configuration Manager, with Remove-ItemProperty or sdbinst -u as the rollback](diagrams/sop-lab-001-4.svg)
 

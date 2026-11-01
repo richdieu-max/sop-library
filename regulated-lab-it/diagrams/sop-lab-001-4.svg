@@ -78,7 +78,7 @@
 <text x="1006" y="236" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Windows 7 mode plus</text>
 <text x="1006" y="253" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">CorrectFilePaths or VirtualRegistry;</text>
 <text x="1006" y="270" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">tested, then saved as</text>
-<text x="1006" y="287" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">NetControl-Win11.sdb</text>
+<text x="1006" y="287" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">&lt;app&gt;-Win11.sdb</text>
 <polyline points="1094,296 1094,330" fill="none" stroke="#5C2D91" stroke-width="2" marker-end="url(#m5C2D91)"/>
 <rect x="673.5" y="334" width="560" height="76" rx="5" fill="#000" opacity="0.06"/>
 <rect x="672" y="332" width="560" height="76" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
