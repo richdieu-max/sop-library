@@ -68,6 +68,8 @@ If Group Policy forces unidentified networks to Public or ignores local firewall
 7. **All-users layer.** Write `~ WIN7RTM` under `HKLM:\SOFTWARE\Microsoft\Windows NT\CurrentVersion\AppCompatFlags\Layers`, value name = full path to the executable. Avoid `RUNASADMIN` unless the vendor requires it, and record it in the risk assessment.
 8. **Custom shim database.** In Compatibility Administrator (Windows ADK; 32-bit edition for 32-bit apps): **Custom Databases › New Database › Fix › Create Application Fix…**, choose Windows 7 mode plus specific fixes such as `CorrectFilePaths` or `VirtualRegistry`, test, save as `NetControl-Win11.sdb`. Deploy with `sdbinst.exe -q` packaged in Intune or Configuration Manager. Version the .sdb, reference it in the IQ and re-test when the application version changes.
 
+![The compatibility layer between the legacy executable and Windows 11: WIN7RTM mode answers the version check while CorrectFilePaths and VirtualRegistry redirect the writes the app expects; it is applied as an all-users Layers value or a custom .sdb deployed with sdbinst through Intune or Configuration Manager, with Remove-ItemProperty or sdbinst -u as the rollback](diagrams/sop-lab-001-4.svg)
+
 ### Method C · Isolated Hyper-V Windows 7 VM (time-boxed bridge)
 
 9. **Build.** Bind the instrument NIC to an external vSwitch the host cannot use; Windows 7 needs Generation 1:
@@ -82,6 +84,8 @@ Checkpoint-VM -Name $vm -SnapshotName "Validated baseline $(Get-Date -Format yyy
 ```
 
 10. **Contain it.** No corporate or internet network; Enhanced Session clipboard and drive redirection off; integration components update installed in the guest (use a legacy adapter until then). There is no general USB pass-through, so USB-dongle instruments cannot use this method without a validated USB-over-IP product. `Export-VM` to controlled storage (checkpoints are not backups); confirm guest licensing and put the exit date in the change record.
+
+![Windows 11 host with the corporate NIC for domain, patching and EDR, a Generation 1 Windows 7 VM attached only to an external vSwitch bound to the instrument NIC with AllowManagementOS off, no corporate or internet path, the isolated switch and controller as its only peer, and the containment, exit-date, export and checkpoint rules that time-box the bridge](diagrams/sop-lab-001-3.svg)
 
 ### Method D · Vendor upgrade
 

@@ -18,6 +18,8 @@ Nobody trusts a smoke alarm because it has a green light. You press the test but
 | VM syslog and performance | Azure Monitor Agent and a data collection rule | Workspace |
 | Long-term record | Data export | WORM archive |
 
+![Four log sources stream into the Log Analytics workspace that the alert rules and the matching queries read, data export copies the rows to the geo-redundant WORM archive under a seven-year time-based retention policy, unlocked at build and locked only by the data owner, with the four things the validation run records](diagrams/sop-az-107-2.svg)
+
 ## Before you start
 
 | Item | Requirement |
@@ -66,6 +68,8 @@ Nobody trusts a smoke alarm because it has a green light. You press the test but
    ```
 
 The query template set also holds the guardrail-change alert query (scheduled query rule, severity 1, every 15 minutes), a Key Vault data-plane access summary, and a query that lists every fired alert with its timestamp for the test evidence.
+
+![The five actions of the alert test in order with their write-nsg, del-lock and cleanup marks, the operation names the matching query watches, the four proofs required per rule (fired, received, matched, filed) and the three reasons the button does nothing](diagrams/sop-az-107-3.svg)
 
 ## Verify
 

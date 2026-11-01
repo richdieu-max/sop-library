@@ -52,6 +52,8 @@ Get-MgUserOauth2PermissionGrant -UserId $u.Id -All | ConvertTo-Json -Depth 5 | O
 Get-ChildItem $case -File | Get-FileHash -Algorithm SHA256 | Export-Csv "$case\hashes.csv" -NoTypeInformation
 ```
 
+![The evidence exported before containment: Exchange Online rules, forwarding, permissions and message trace, Entra ID authentication methods, OAuth grants, devices and sign-ins, and the audit logs already retained, all landing in an access-restricted case folder with a SHA-256 hash list and the incident ticket, with why it must come first and what it answers later](diagrams/sop-sec-002-3.svg)
+
 ### Contain, in this order
 
 ![Ten containment steps in a fixed order: block, revoke and reset take live access; confirm compromise, MFA methods, inbox rules, forwarding and OAuth grants remove persistence; devices and IOC blocks stop re-entry](diagrams/sop-sec-002-2.svg)
@@ -81,6 +83,8 @@ union SigninLogs, AADNonInteractiveUserSignInLogs
 | summarize First = min(TimeGenerated), Last = max(TimeGenerated),
             Apps = make_set(AppDisplayName, 10) by UserPrincipalName, IPAddress
 ```
+
+![Blast radius around the compromised account: what the attacker read and sent (MailItemsAccessed Bind and Sync, message trace, CloudAppEvents), what they planted to survive a reset (rules, forwarding and delegates, OAuth consent, new MFA methods or devices), and who else they reached through the same IPs, URL, recipients and app, each named with the table that proves it](diagrams/sop-sec-002-4.svg)
 
 ### Eradicate, recover, communicate
 

@@ -1,0 +1,106 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 800" width="1280" height="800" role="img" aria-label="Seven profiles, what each unlocks on the Mac, and what breaks without it">
+<title>Seven profiles, what each unlocks on the Mac, and what breaks without it</title>
+<defs><marker id="m0078D4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#0078D4"/></marker><marker id="m5C2D91" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#5C2D91"/></marker></defs>
+<rect width="1280" height="800" fill="#fff"/>
+<rect x="0" y="0" width="1280" height="6" fill="#0078D4"/>
+<text x="32" y="48" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="600" fill="#201F1E">Seven profiles, what each unlocks on the Mac, and what breaks without it</text>
+<text x="32" y="72" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#605E5C">Each signed profile pre-approves one macOS permission; the onboarding profile ties the agent to the tenant; the app lands last so nobody is prompted.</text>
+<rect x="32" y="100" width="1216" height="128" rx="6" fill="#FAF9F8" stroke="#C8C6C4" stroke-width="1.4"/>
+<g transform="translate(42,108) scale(0.5000)"><rect x="4" y="6" width="40" height="36" rx="3" fill="#5C2D91"/><path d="M10 15 l3 3 5-6 M10 26 l3 3 5-6 M10 37 l3 3 5-6" stroke="#fff" stroke-width="2.2" fill="none"/><path d="M22 16 h16 M22 27 h16 M22 38 h12" stroke="#fff" stroke-width="2.4"/></g>
+<text x="74" y="125" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#201F1E" text-anchor="start">Delivery order: profiles first, app last</text>
+<text x="1236" y="125" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="end">all eight profiles: Templates › Custom, Device channel, assigned to the dynamic Mac group</text>
+<rect x="49.5" y="144" width="330" height="72" rx="5" fill="#000" opacity="0.06"/>
+<rect x="48" y="142" width="330" height="72" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="48" y="142" width="4" height="72" rx="0" fill="#0078D4"/>
+<circle cx="72" cy="158" r="11" fill="#0078D4"/>
+<text x="72" y="162" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">1</text>
+<text x="92" y="164" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Seven permission profiles</text>
+<text x="92" y="181" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">one custom profile per .mobileconfig file, named</text>
+<text x="92" y="198" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">macOS - Defender - &lt;purpose&gt;</text>
+<polyline points="378,178 420,178" fill="none" stroke="#0078D4" stroke-width="2" marker-end="url(#m0078D4)"/>
+<rect x="423.5" y="144" width="330" height="72" rx="5" fill="#000" opacity="0.06"/>
+<rect x="422" y="142" width="330" height="72" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="422" y="142" width="4" height="72" rx="0" fill="#5C2D91"/>
+<circle cx="446" cy="158" r="11" fill="#5C2D91"/>
+<text x="446" y="162" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">2</text>
+<text x="466" y="164" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Onboarding profile (the eighth)</text>
+<text x="466" y="181" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">WindowsDefenderATPOnboarding.xml from the</text>
+<text x="466" y="198" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Defender portal; tenant-specific</text>
+<polyline points="752,178 794,178" fill="none" stroke="#5C2D91" stroke-width="2" marker-end="url(#m5C2D91)"/>
+<rect x="797.5" y="144" width="436" height="72" rx="5" fill="#000" opacity="0.06"/>
+<rect x="796" y="142" width="436" height="72" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="796" y="142" width="4" height="72" rx="0" fill="#107C10"/>
+<circle cx="820" cy="158" r="11" fill="#107C10"/>
+<text x="820" y="162" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">3</text>
+<rect x="1159.467696" y="152" width="63" height="20" rx="10" fill="#F2FAF2" stroke="#107C10" stroke-width="1"/>
+<text x="1191" y="166" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#107C10" text-anchor="middle">Required</text>
+<text x="840" y="164" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">App assigned as Required</text>
+<text x="840" y="181" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Microsoft Defender for Endpoint (macOS); Available would make it</text>
+<text x="840" y="198" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">optional</text>
+<rect x="32" y="244" width="1216" height="362" rx="6" fill="#FAF9F8" stroke="#C8C6C4" stroke-width="1.4"/>
+<g transform="translate(42,252) scale(0.5000)"><rect x="5" y="5" width="38" height="38" rx="8" fill="#605E5C"/><path d="M24 15 c4-6 14-3 12 6 c-1 8-6 15-12 15 c-6 0-11-7-12-15 c-2-9 8-12 12-6Z" fill="#fff"/><path d="M24 14 q1-5 5-6" stroke="#fff" stroke-width="2.4" fill="none"/></g>
+<text x="74" y="269" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#201F1E" text-anchor="start">The seven permission profiles</text>
+<text x="1236" y="269" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="end">download each with Download raw file; the folder page saves as HTML</text>
+<rect x="48" y="286" width="1184" height="34" fill="#FAF9F8" stroke="#C8C6C4" stroke-width="1"/>
+<text x="56" y="307.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#201F1E" text-anchor="start">Profile file</text>
+<text x="318" y="307.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#201F1E" text-anchor="start">Grants on the Mac</text>
+<text x="532" y="307.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#201F1E" text-anchor="start">Defender capability it unlocks</text>
+<text x="778" y="307.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#201F1E" text-anchor="start">Without the profile</text>
+<rect x="48" y="320" width="1184" height="34" fill="#fff" stroke="#E1DFDD" stroke-width="1"/>
+<text x="56" y="341.0" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="11.5" font-weight="400" fill="#0078D4" text-anchor="start">fulldisk.mobileconfig</text>
+<text x="318" y="341.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="start">Full Disk Access</text>
+<text x="532" y="341.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="start">Real-time protection, scanning</text>
+<text x="778" y="341.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">No file access for real-time protection and scanning</text>
+<rect x="48" y="354" width="1184" height="34" fill="#FCFCFB" stroke="#E1DFDD" stroke-width="1"/>
+<text x="56" y="375.0" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="11.5" font-weight="400" fill="#0078D4" text-anchor="start">sysext.mobileconfig</text>
+<text x="318" y="375.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="start">System extension approval</text>
+<text x="532" y="375.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="start">EDR telemetry</text>
+<text x="778" y="375.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">The user is asked to approve the extension (app landed first)</text>
+<rect x="48" y="388" width="1184" height="34" fill="#fff" stroke="#E1DFDD" stroke-width="1"/>
+<text x="56" y="409.0" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="11.5" font-weight="400" fill="#0078D4" text-anchor="start">netfilter.mobileconfig</text>
+<text x="318" y="409.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="start">Network content filter</text>
+<text x="532" y="409.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="start">Network protection</text>
+<text x="778" y="409.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">Network protection has no filter to attach to</text>
+<rect x="48" y="422" width="1184" height="34" fill="#FCFCFB" stroke="#E1DFDD" stroke-width="1"/>
+<text x="56" y="443.0" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="11.5" font-weight="400" fill="#0078D4" text-anchor="start">background_services.mobileconfig</text>
+<text x="318" y="443.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="start">Background task approval</text>
+<text x="532" y="443.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="start">Silent operation</text>
+<text x="778" y="443.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">The agent cannot run in the background unprompted</text>
+<rect x="48" y="456" width="1184" height="34" fill="#fff" stroke="#E1DFDD" stroke-width="1"/>
+<text x="56" y="477.0" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="11.5" font-weight="400" fill="#0078D4" text-anchor="start">notif.mobileconfig</text>
+<text x="318" y="477.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="start">Notifications</text>
+<text x="532" y="477.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="start">User alerts</text>
+<text x="778" y="477.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">Users never see a Defender alert</text>
+<rect x="48" y="490" width="1184" height="34" fill="#FCFCFB" stroke="#E1DFDD" stroke-width="1"/>
+<text x="56" y="511.0" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="11.5" font-weight="400" fill="#0078D4" text-anchor="start">accessibility.mobileconfig</text>
+<text x="318" y="511.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="start">Accessibility</text>
+<text x="532" y="511.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="start">Endpoint DLP</text>
+<text x="778" y="511.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">Endpoint DLP cannot observe user actions</text>
+<rect x="48" y="524" width="1184" height="34" fill="#fff" stroke="#E1DFDD" stroke-width="1"/>
+<text x="56" y="545.0" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="11.5" font-weight="400" fill="#0078D4" text-anchor="start">bluetooth.mobileconfig</text>
+<text x="318" y="545.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="start">Bluetooth</text>
+<text x="532" y="545.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="start">Device control</text>
+<text x="778" y="545.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">Device control cannot govern Bluetooth</text>
+<text x="48" y="578" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">Skip kext.mobileconfig: it is the legacy kernel-extension profile and is not needed on macOS 13 or later.</text>
+<rect x="32" y="622" width="392" height="108" rx="6" fill="#FFF8F8" stroke="#A4262C" stroke-width="1.4" stroke-dasharray="6 4"/>
+<g transform="translate(42,630) scale(0.5000)"><path d="M24 4 L45 42 H3 Z" fill="#A4262C"/><rect x="22" y="17" width="4" height="13" fill="#fff"/><circle cx="24" cy="35" r="2.5" fill="#fff"/></g>
+<text x="74" y="647" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#A4262C" text-anchor="start">Profile shows Error</text>
+<text x="46" y="668" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">An HTML page was saved instead of the raw profile, or the</text>
+<text x="46" y="685" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">profile went out on the User channel instead of the Device</text>
+<text x="46" y="702" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">channel.</text>
+<rect x="444" y="622" width="392" height="108" rx="6" fill="#FFF9E6" stroke="#C19C00" stroke-width="1.4" stroke-dasharray="6 4"/>
+<g transform="translate(454,630) scale(0.5000)"><path d="M10 4 h20 l8 8 v32 h-28 Z" fill="#0078D4"/><path d="M30 4 v8 h8" fill="#fff" opacity=".5"/><path d="M15 22 h18 M15 28 h18 M15 34 h12" stroke="#fff" stroke-width="2.4"/></g>
+<text x="486" y="647" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#C19C00" text-anchor="start">User asked to approve the system extension</text>
+<text x="458" y="668" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">The sysext profile arrived after the app. Check that device</text>
+<text x="458" y="685" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">ownership is Corporate and the profile assignment reached the</text>
+<text x="458" y="702" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">group.</text>
+<rect x="856" y="622" width="392" height="108" rx="6" fill="#EFF6FC" stroke="#0078D4" stroke-width="1.4" stroke-dasharray="6 4"/>
+<g transform="translate(866,630) scale(0.5000)"><path d="M10 4 h20 l8 8 v32 h-28 Z" fill="#0078D4"/><path d="M30 4 v8 h8" fill="#fff" opacity=".5"/><path d="M15 22 h18 M15 28 h18 M15 34 h12" stroke="#fff" stroke-width="2.4"/></g>
+<text x="898" y="647" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#0078D4" text-anchor="start">Why ownership must be Corporate</text>
+<text x="870" y="668" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Personal-owned devices can prompt the user to approve</text>
+<text x="870" y="685" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">extensions and permissions even when the profiles are present.</text>
+<text x="32" y="754" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">7 permission profiles + 1 onboarding profile = 8 profiles Succeeded per Mac; 1 app Required. Controls: CM-2, CM-6 (managed configuration), SI-3, SI-4.</text>
+<line x1="32" y1="766" x2="1248" y2="766" stroke="#E1DFDD"/>
+<text x="32" y="786" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#8A8886">Generalised design: no client names, tenant IDs, addresses or data. Icons are simplified originals, not Microsoft artwork.</text>
+<text x="1248" y="786" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#8A8886" text-anchor="end">Rich Dieu · github.com/richdieu-max</text>
+</svg>

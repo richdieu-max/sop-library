@@ -65,6 +65,8 @@ A COM port is a name, not a socket. The COM Name Arbiter hands out the lowest fr
 
 11. **Remote and fleet.** `Invoke-Command -ComputerName PC-LAB-0001 -FilePath .\Repair-UsbSerial.ps1 -ArgumentList 'COM3'` for a few PCs; coordinate with someone at the instrument for swap tests. For a fleet, create a Remediation in **Intune admin center › Devices › Scripts and remediations › Remediations › + Create** (64-bit, SYSTEM, assigned only to instrument workstations): detection exits 1 on a port problem code or suspend enabled; remediation disables suspend and restarts problem ports. Deploy drivers as a Win32 app (`pnputil /add-driver .\*.inf /install`), pin versions with Windows driver update policies, and allow the Ports class `{4d36e978-e325-11ce-bfc1-08002be10318}` for non-admins by Group Policy.
 
+![Seven symptoms routed to Methods A to E or to a hardware fix, the Intune Remediation loop of assign, detect, remediate, re-detect and report for an instrument fleet, and the six switches of the Repair-UsbSerial.ps1 script](diagrams/sop-win-001-3.svg)
+
 ## Verify
 
 | Check | Pass |

@@ -54,6 +54,8 @@ On Windows 10 and 11, DHCP Client (service name `Dhcp`) runs as `svchost.exe -k 
    ```
 7. **Scripted recovery with evidence.** `Repair-DhcpDomain.ps1` exports `Dhcp-backup.reg`, restores the dependencies (or clears them with `-ClearDependencies`), sets Automatic and starts the service, renews, tests the DC locator and secure channel, repairs it with `-RepairSecureChannel`, runs `gpupdate` and writes JSON. Preview with `.\Repair-DhcpDomain.ps1 -DomainName contoso.com -RepairSecureChannel -WhatIf`.
 
+![The five-step start gate from the SCM reading the dependency list to Dhcp running, the DISCOVER, OFFER, REQUEST, ACK exchange between workstation, relay and DHCP server, the three ipconfig readings and what each one means, and the six commands that re-establish the domain after the lease](diagrams/sop-win-002-3.svg)
+
 ### Method D · Rejoin (last resort)
 
 8. **Only when the channel cannot be repaired** (object deleted, repair account refused, `-Repair` keeps returning False). Test the LAPS password, note the object's OU and groups, then **sysdm.cpl › Computer Name › Change…** to WORKGROUP and back to `contoso.com`, or `Remove-Computer -UnjoinDomainCredential … -WorkgroupName WORKGROUP -Restart` then `Add-Computer -DomainName contoso.com -OUPath 'OU=Workstations,DC=contoso,DC=com' -Restart`. Reuse the same name to keep memberships. With no DC reachable at all, use offline domain join (`djoin /provision`, then `djoin /requestodj`).

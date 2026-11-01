@@ -1,0 +1,189 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 884" width="1280" height="884" role="img" aria-label="The same job in CMD, PowerShell, over WinRM and through Intune, by risk class">
+<title>The same job in CMD, PowerShell, over WinRM and through Intune, by risk class</title>
+<defs><marker id="m605E5C" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#605E5C"/></marker></defs>
+<rect width="1280" height="884" fill="#fff"/>
+<rect x="0" y="0" width="1280" height="6" fill="#0078D4"/>
+<text x="32" y="48" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="600" fill="#201F1E">The same job in CMD, PowerShell, over WinRM and through Intune, by risk class</text>
+<text x="32" y="72" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#605E5C">Each task family has a local text form, a local object form, a remote form and a fleet form; the verb sets the risk class and the precaution, wherever it runs.</text>
+<rect x="32" y="100" width="1216" height="30" fill="#FAF9F8" stroke="#C8C6C4" stroke-width="1"/>
+<text x="40" y="120" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#201F1E" text-anchor="start">Task family</text>
+<text x="190" y="120" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#201F1E" text-anchor="start">A · CMD (text)</text>
+<text x="430" y="120" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#201F1E" text-anchor="start">B · PowerShell (objects)</text>
+<text x="718" y="120" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#201F1E" text-anchor="start">C · Remote (WinRM)</text>
+<text x="938" y="120" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#201F1E" text-anchor="start">D · Intune (fleet)</text>
+<text x="1134" y="120" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#201F1E" text-anchor="start">Risk</text>
+<rect x="32" y="130" width="1216" height="46" fill="#fff" stroke="#E1DFDD" stroke-width="1"/>
+<text x="40" y="158" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#201F1E" text-anchor="start">System information</text>
+<text x="190" y="149" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="10.5" font-weight="400" fill="#201F1E" text-anchor="start">systeminfo · hostname · whoami /all</text>
+<text x="190" y="164" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="10.5" font-weight="400" fill="#201F1E" text-anchor="start">fsutil volume diskfree C:</text>
+<text x="430" y="149" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="10.5" font-weight="400" fill="#201F1E" text-anchor="start">Get-ComputerInfo · Get-Volume C</text>
+<text x="430" y="164" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="10.5" font-weight="400" fill="#201F1E" text-anchor="start">$env:COMPUTERNAME · whoami /groups</text>
+<text x="718" y="149" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">Invoke-Command { Get-CimInstance</text>
+<text x="718" y="164" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">Win32_OperatingSystem } → fleet.csv</text>
+<text x="938" y="149" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">Collect diagnostics</text>
+<text x="938" y="164" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">(device action)</text>
+<rect x="1134" y="143" width="38" height="20" rx="10" fill="#F2FAF2" stroke="#107C10" stroke-width="1"/>
+<text x="1153" y="157" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10" font-weight="600" fill="#107C10" text-anchor="middle">Safe</text>
+<rect x="32" y="176" width="1216" height="46" fill="#FCFCFB" stroke="#E1DFDD" stroke-width="1"/>
+<text x="40" y="204" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#201F1E" text-anchor="start">Cleanup</text>
+<text x="190" y="195" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="10.5" font-weight="400" fill="#201F1E" text-anchor="start">del /s /q %temp%\*</text>
+<text x="190" y="210" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="10.5" font-weight="400" fill="#201F1E" text-anchor="start">DISM /StartComponentCleanup</text>
+<text x="430" y="195" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="10.5" font-weight="400" fill="#201F1E" text-anchor="start">Remove-Item &quot;$env:TEMP\*&quot; -Recurse</text>
+<text x="430" y="210" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="10.5" font-weight="400" fill="#201F1E" text-anchor="start">Repair-WindowsImage -StartComponentCleanup</text>
+<text x="718" y="195" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">Get-SupportSnapshot.ps1 -ClearTemp</text>
+<text x="718" y="210" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">honours -WhatIf</text>
+<text x="938" y="195" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">Remediation as SYSTEM:</text>
+<text x="938" y="210" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">%TEMP% is C:\Windows\Temp</text>
+<rect x="1134" y="189" width="59" height="20" rx="10" fill="#FFF9E6" stroke="#C19C00" stroke-width="1"/>
+<text x="1163" y="203" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10" font-weight="600" fill="#C19C00" text-anchor="middle">Changes</text>
+<rect x="32" y="222" width="1216" height="46" fill="#fff" stroke="#E1DFDD" stroke-width="1"/>
+<text x="40" y="250" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#201F1E" text-anchor="start">Network diagnosis</text>
+<text x="190" y="241" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="10.5" font-weight="400" fill="#201F1E" text-anchor="start">ipconfig /all · ping · nslookup</text>
+<text x="190" y="256" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="10.5" font-weight="400" fill="#201F1E" text-anchor="start">tracert · pathping · netstat -ano</text>
+<text x="430" y="241" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="10.5" font-weight="400" fill="#201F1E" text-anchor="start">Get-NetIPConfiguration -Detailed</text>
+<text x="430" y="256" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="10.5" font-weight="400" fill="#201F1E" text-anchor="start">Test-NetConnection host -Port 443</text>
+<text x="718" y="241" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">snapshot -TestHost intranet</text>
+<text x="718" y="256" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">-TestPort 443</text>
+<text x="938" y="241" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">Collect diagnostics</text>
+<text x="938" y="256" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">(device action)</text>
+<rect x="1134" y="235" width="38" height="20" rx="10" fill="#F2FAF2" stroke="#107C10" stroke-width="1"/>
+<text x="1153" y="249" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10" font-weight="600" fill="#107C10" text-anchor="middle">Safe</text>
+<rect x="32" y="268" width="1216" height="46" fill="#FCFCFB" stroke="#E1DFDD" stroke-width="1"/>
+<text x="40" y="296" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#201F1E" text-anchor="start">Network reset</text>
+<text x="190" y="287" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="10.5" font-weight="400" fill="#201F1E" text-anchor="start">ipconfig /release &amp;&amp; /renew</text>
+<text x="190" y="302" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="10.5" font-weight="400" fill="#201F1E" text-anchor="start">netsh int ip reset · winsock reset</text>
+<text x="430" y="287" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="10.5" font-weight="400" fill="#201F1E" text-anchor="start">Restart-NetAdapter -Name Ethernet</text>
+<text x="430" y="302" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="10.5" font-weight="400" fill="#201F1E" text-anchor="start">Clear-DnsClientCache</text>
+<text x="718" y="287" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">chain on one line and expect</text>
+<text x="718" y="302" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">to reconnect; record static IPs</text>
+<text x="938" y="287" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">Sync · Restart</text>
+<text x="938" y="302" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">(device actions)</text>
+<rect x="1134" y="281" width="59" height="20" rx="10" fill="#FFF9E6" stroke="#C19C00" stroke-width="1"/>
+<text x="1163" y="295" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10" font-weight="600" fill="#C19C00" text-anchor="middle">Changes</text>
+<rect x="32" y="314" width="1216" height="46" fill="#fff" stroke="#E1DFDD" stroke-width="1"/>
+<text x="40" y="342" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#201F1E" text-anchor="start">Processes, services</text>
+<text x="190" y="333" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="10.5" font-weight="400" fill="#201F1E" text-anchor="start">tasklist /svc · sc query Spooler</text>
+<text x="190" y="348" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="10.5" font-weight="400" fill="#201F1E" text-anchor="start">net stop / net start Spooler</text>
+<text x="430" y="333" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="10.5" font-weight="400" fill="#201F1E" text-anchor="start">Get-Process · Get-Service</text>
+<text x="430" y="348" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="10.5" font-weight="400" fill="#201F1E" text-anchor="start">Restart-Service Spooler</text>
+<text x="718" y="333" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">sc.exe \\PC-LAB-0001 query Spooler</text>
+<text x="718" y="348" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">Invoke-Command { Restart-Service }</text>
+<text x="938" y="333" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">Remediation: detect Spooler</text>
+<text x="938" y="348" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">stopped, then fix and report</text>
+<rect x="1134" y="327" width="38" height="20" rx="10" fill="#F2FAF2" stroke="#107C10" stroke-width="1"/>
+<text x="1153" y="341" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10" font-weight="600" fill="#107C10" text-anchor="middle">Safe</text>
+<rect x="1176.48896" y="327" width="59" height="20" rx="10" fill="#FFF9E6" stroke="#C19C00" stroke-width="1"/>
+<text x="1206" y="341" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10" font-weight="600" fill="#C19C00" text-anchor="middle">Changes</text>
+<rect x="32" y="360" width="1216" height="46" fill="#FCFCFB" stroke="#E1DFDD" stroke-width="1"/>
+<text x="40" y="388" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#201F1E" text-anchor="start">Local accounts</text>
+<text x="190" y="379" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="10.5" font-weight="400" fill="#201F1E" text-anchor="start">net user kiosk01 * /add</text>
+<text x="190" y="394" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="10.5" font-weight="400" fill="#201F1E" text-anchor="start">net user kiosk01 /delete</text>
+<text x="430" y="379" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="10.5" font-weight="400" fill="#201F1E" text-anchor="start">New-LocalUser -Password</text>
+<text x="430" y="394" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="10.5" font-weight="400" fill="#201F1E" text-anchor="start">(Read-Host -AsSecureString)</text>
+<text x="718" y="379" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">same cmdlets inside</text>
+<text x="718" y="394" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">Invoke-Command</text>
+<text x="938" y="379" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">tracked change; admin</text>
+<text x="938" y="394" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">membership removed after</text>
+<rect x="1134" y="373" width="59" height="20" rx="10" fill="#FFF9E6" stroke="#C19C00" stroke-width="1"/>
+<text x="1163" y="387" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10" font-weight="600" fill="#C19C00" text-anchor="middle">Changes</text>
+<rect x="1196.9936" y="373" width="73" height="20" rx="10" fill="#FFF8F8" stroke="#A4262C" stroke-width="1"/>
+<text x="1233" y="387" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10" font-weight="600" fill="#A4262C" text-anchor="middle">Destructive</text>
+<rect x="32" y="406" width="1216" height="46" fill="#fff" stroke="#E1DFDD" stroke-width="1"/>
+<text x="40" y="434" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#201F1E" text-anchor="start">Files and copies</text>
+<text x="190" y="425" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="10.5" font-weight="400" fill="#201F1E" text-anchor="start">robocopy /MIR /L, then /MIR</text>
+<text x="190" y="440" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="10.5" font-weight="400" fill="#201F1E" text-anchor="start">rmdir /s /q C:\path\folder</text>
+<text x="430" y="425" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="10.5" font-weight="400" fill="#201F1E" text-anchor="start">Remove-Item C:\path -Recurse</text>
+<text x="430" y="440" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="10.5" font-weight="400" fill="#201F1E" text-anchor="start">-WhatIf first</text>
+<text x="718" y="425" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">Copy-Item -ToSession</text>
+<text x="718" y="440" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">(no double hop to a share)</text>
+<text x="938" y="425" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">platform script</text>
+<text x="938" y="440" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">(one-off PowerShell)</text>
+<rect x="1134" y="419" width="38" height="20" rx="10" fill="#F2FAF2" stroke="#107C10" stroke-width="1"/>
+<text x="1153" y="433" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10" font-weight="600" fill="#107C10" text-anchor="middle">Safe</text>
+<rect x="1176.48896" y="419" width="73" height="20" rx="10" fill="#FFF8F8" stroke="#A4262C" stroke-width="1"/>
+<text x="1213" y="433" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10" font-weight="600" fill="#A4262C" text-anchor="middle">Destructive</text>
+<rect x="32" y="452" width="1216" height="46" fill="#FCFCFB" stroke="#E1DFDD" stroke-width="1"/>
+<text x="40" y="480" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#201F1E" text-anchor="start">OS and volume repair</text>
+<text x="190" y="471" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="10.5" font-weight="400" fill="#201F1E" text-anchor="start">DISM /CheckHealth · /RestoreHealth</text>
+<text x="190" y="486" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="10.5" font-weight="400" fill="#201F1E" text-anchor="start">sfc /scannow · chkdsk C: /scan</text>
+<text x="430" y="471" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="10.5" font-weight="400" fill="#201F1E" text-anchor="start">Repair-WindowsImage -Online</text>
+<text x="430" y="486" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="10.5" font-weight="400" fill="#201F1E" text-anchor="start">Repair-Volume -DriveLetter C -Scan</text>
+<text x="718" y="471" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">Invoke-Command, long-running;</text>
+<text x="718" y="486" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">/r is hours offline</text>
+<text x="938" y="471" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">Collect diagnostics, then</text>
+<text x="938" y="486" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">Restart (device action)</text>
+<rect x="1134" y="465" width="38" height="20" rx="10" fill="#F2FAF2" stroke="#107C10" stroke-width="1"/>
+<text x="1153" y="479" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10" font-weight="600" fill="#107C10" text-anchor="middle">Safe</text>
+<rect x="1176.48896" y="465" width="59" height="20" rx="10" fill="#FFF9E6" stroke="#C19C00" stroke-width="1"/>
+<text x="1206" y="479" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10" font-weight="600" fill="#C19C00" text-anchor="middle">Changes</text>
+<rect x="32" y="498" width="1216" height="46" fill="#fff" stroke="#E1DFDD" stroke-width="1"/>
+<text x="40" y="526" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#201F1E" text-anchor="start">Policy, logs, restart</text>
+<text x="190" y="517" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="10.5" font-weight="400" fill="#201F1E" text-anchor="start">gpupdate /force · wevtutil qe System</text>
+<text x="190" y="532" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="10.5" font-weight="400" fill="#201F1E" text-anchor="start">shutdown /r /t 300 /c &quot;CHG0012345&quot;</text>
+<text x="430" y="517" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="10.5" font-weight="400" fill="#201F1E" text-anchor="start">Invoke-GPUpdate · Get-WinEvent</text>
+<text x="430" y="532" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="10.5" font-weight="400" fill="#201F1E" text-anchor="start">Restart-Computer -Confirm</text>
+<text x="718" y="517" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">shutdown /r /m \\PC-LAB-0001</text>
+<text x="718" y="532" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">/t 600 /c &quot;Restart for CHG0012345&quot;</text>
+<text x="938" y="517" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">Restart</text>
+<text x="938" y="532" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">(device action)</text>
+<rect x="1134" y="511" width="59" height="20" rx="10" fill="#FFF9E6" stroke="#C19C00" stroke-width="1"/>
+<text x="1163" y="525" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10" font-weight="600" fill="#C19C00" text-anchor="middle">Changes</text>
+<rect x="32" y="562" width="1216" height="134" rx="6" fill="#FAF9F8" stroke="#C8C6C4" stroke-width="1.4"/>
+<g transform="translate(42,570) scale(0.5000)"><rect x="12" y="6" width="24" height="10" rx="1" fill="#005A9E"/><rect x="5" y="14" width="38" height="20" rx="3" fill="#0078D4"/><circle cx="36" cy="21" r="2" fill="#fff"/><rect x="11" y="28" width="26" height="16" fill="#fff" stroke="#605E5C" stroke-width="1.5"/><path d="M15 32 v9 M18 32 v9 M22 32 v9 M25 32 v9 M29 32 v9 M33 32 v9" stroke="#201F1E" stroke-width="1.6"/></g>
+<text x="74" y="587" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#201F1E" text-anchor="start">One task, four ways: restart the print spooler</text>
+<text x="1236" y="587" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="end">A and B need an elevated prompt; C needs WinRM; D needs the device enrolled</text>
+<rect x="48" y="602" width="292" height="76" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="48" y="602" width="4" height="76" rx="0" fill="#0078D4"/>
+<text x="66" y="624" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="start">A · CMD</text>
+<text x="66" y="639" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">net stop Spooler</text>
+<text x="66" y="654" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">net start Spooler</text>
+<text x="66" y="669" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">(elevated prompt)</text>
+<polyline points="340,640 348,640" fill="none" stroke="#605E5C" stroke-width="1.4" marker-end="url(#m605E5C)"/>
+<rect x="348" y="602" width="292" height="76" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="348" y="602" width="4" height="76" rx="0" fill="#5C2D91"/>
+<text x="366" y="624" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="start">B · PowerShell</text>
+<text x="366" y="639" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">Restart-Service Spooler</text>
+<text x="366" y="654" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">Get-Service Spooler   # read back</text>
+<text x="366" y="669" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">(elevated prompt)</text>
+<polyline points="640,640 648,640" fill="none" stroke="#605E5C" stroke-width="1.4" marker-end="url(#m605E5C)"/>
+<rect x="648" y="602" width="292" height="76" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="648" y="602" width="4" height="76" rx="0" fill="#008272"/>
+<text x="666" y="624" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="start">C · Remote</text>
+<text x="666" y="639" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">Invoke-Command -ComputerName PC-LAB-0001</text>
+<text x="666" y="654" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">  { Restart-Service Spooler }</text>
+<text x="666" y="669" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">sc.exe \\PC-LAB-0001 query Spooler</text>
+<polyline points="940,640 948,640" fill="none" stroke="#605E5C" stroke-width="1.4" marker-end="url(#m605E5C)"/>
+<rect x="948" y="602" width="292" height="76" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="948" y="602" width="4" height="76" rx="0" fill="#107C10"/>
+<text x="966" y="624" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="start">D · Intune Remediation</text>
+<text x="966" y="639" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">detect: exit 1 if Spooler not running</text>
+<text x="966" y="654" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">fix: stop, clear PRINTERS\*, start,</text>
+<text x="966" y="669" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">write the status as the last line</text>
+<rect x="32" y="712" width="1216" height="108" rx="6" fill="#FAF9F8" stroke="#C8C6C4" stroke-width="1.4"/>
+<g transform="translate(42,720) scale(0.5000)"><path d="M10 4 h20 l8 8 v32 h-28 Z" fill="#605E5C"/><circle cx="22" cy="25" r="7" fill="none" stroke="#fff" stroke-width="2.6"/><path d="M27 30 l6 6" stroke="#fff" stroke-width="3"/></g>
+<text x="74" y="737" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#201F1E" text-anchor="start">Read the line left to right before you press Enter</text>
+<text x="1236" y="737" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="end">CMD rarely previews: run the matching read-only command first</text>
+<rect x="48" y="748" width="288" height="64" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="48" y="748" width="4" height="64" rx="0" fill="#C19C00"/>
+<text x="66" y="770" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#201F1E" text-anchor="start">Verb = risk class</text>
+<text x="66" y="785" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">Get- safe · Set-, Restart-, Stop- change state ·</text>
+<text x="66" y="800" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">Remove-, Clear-, Format- destructive</text>
+<rect x="350" y="748" width="288" height="64" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="350" y="748" width="4" height="64" rx="0" fill="#0078D4"/>
+<text x="368" y="770" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#201F1E" text-anchor="start">Parameter + value = target</text>
+<text x="368" y="785" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">confirm hostname and whoami before any change</text>
+<rect x="652" y="748" width="288" height="64" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="652" y="748" width="4" height="64" rx="0" fill="#107C10"/>
+<text x="670" y="770" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#201F1E" text-anchor="start">-WhatIf = rehearsal</text>
+<text x="670" y="785" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">robocopy /L is the CMD exception; read the</text>
+<text x="670" y="800" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">summary counts</text>
+<rect x="954" y="748" width="288" height="64" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="954" y="748" width="4" height="64" rx="0" fill="#A4262C"/>
+<text x="972" y="770" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#201F1E" text-anchor="start">Paths are the danger</text>
+<text x="972" y="785" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">Remove-Item &quot;$folder\*&quot; with an empty $folder</text>
+<text x="972" y="800" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">becomes \*; never type a password</text>
+<text x="32" y="838" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">Safe: run freely, paste output in the ticket. Changes: warn the user, know the undo. Destructive: verify the target, preview, back up, change control. Controls: CM-3, AC-6, IA-5, AC-17, AU-3.</text>
+<line x1="32" y1="850" x2="1248" y2="850" stroke="#E1DFDD"/>
+<text x="32" y="870" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#8A8886">Generalised design: no client names, tenant IDs, addresses or data. Icons are simplified originals, not Microsoft artwork.</text>
+<text x="1248" y="870" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#8A8886" text-anchor="end">Rich Dieu · github.com/richdieu-max</text>
+</svg>

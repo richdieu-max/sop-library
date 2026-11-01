@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 740" width="1280" height="740" role="img" aria-label="Four layers of protection on one VM: boot, host, disk, backup">
+<title>Four layers of protection on one VM: boot, host, disk, backup</title>
+<defs><marker id="mC19C00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#C19C00"/></marker></defs>
+<rect width="1280" height="740" fill="#fff"/>
+<rect x="0" y="0" width="1280" height="6" fill="#0078D4"/>
+<text x="32" y="48" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="600" fill="#201F1E">Four layers of protection on one VM: boot, host, disk, backup</text>
+<text x="32" y="72" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#605E5C">Each layer answers a different failure: malware before the OS loads, data left in caches, a disk copied out of the tenant, and a copy held only at the same site.</text>
+<rect x="33.5" y="110" width="560" height="112" rx="5" fill="#000" opacity="0.06"/>
+<rect x="32" y="108" width="560" height="112" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="32" y="108" width="4" height="112" rx="0" fill="#107C10"/>
+<g transform="translate(48,118) scale(0.5000)"><rect x="5" y="5" width="38" height="38" rx="5" fill="#107C10"/><path d="M33 17 a11 11 0 1 0 2 11" fill="none" stroke="#fff" stroke-width="3.2"/><path d="M28 12 h8 v8" fill="none" stroke="#fff" stroke-width="3.2"/></g>
+<circle cx="572" cy="124" r="11" fill="#107C10"/>
+<text x="572" y="128" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">4</text>
+<text x="82" y="130" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Backup · Recovery Services vault</text>
+<text x="82" y="147" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Geo-redundant, cross-region restore on, immutable (unlocked), public network access</text>
+<text x="82" y="164" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">off. Set GRS and cross-region restore before the first item is protected: redundancy</text>
+<text x="82" y="181" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">locks after that</text>
+<text x="96" y="208" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#107C10" text-anchor="start">copies never only at the same site</text>
+<rect x="33.5" y="232" width="560" height="112" rx="5" fill="#000" opacity="0.06"/>
+<rect x="32" y="230" width="560" height="112" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="32" y="230" width="4" height="112" rx="0" fill="#C19C00"/>
+<g transform="translate(48,240) scale(0.5000)"><rect x="4" y="14" width="40" height="22" rx="4" fill="#605E5C"/><path d="M4 28 h40" stroke="#fff" stroke-width="1.6"/><circle cx="36" cy="32" r="2" fill="#107C10"/><path d="M24 4 v8 M18 8 h12" stroke="#0078D4" stroke-width="3"/></g>
+<circle cx="572" cy="246" r="11" fill="#C19C00"/>
+<text x="572" y="250" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">3</text>
+<text x="82" y="252" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Disks · Disk encryption set</text>
+<text x="82" y="269" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Customer-managed RSA 3072 HSM key from the vault, double encryption with platform</text>
+<text x="82" y="286" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">and customer keys, auto key rotation on; data disk on the same set</text>
+<text x="96" y="330" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#C19C00" text-anchor="start">the client can revoke the key and every disk becomes unreadable</text>
+<rect x="33.5" y="354" width="560" height="112" rx="5" fill="#000" opacity="0.06"/>
+<rect x="32" y="352" width="560" height="112" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="32" y="352" width="4" height="112" rx="0" fill="#5C2D91"/>
+<g transform="translate(48,362) scale(0.5000)"><rect x="10" y="4" width="28" height="40" rx="3" fill="#0078D4"/><path d="M15 12 h18 M15 18 h18 M15 24 h18" stroke="#fff" stroke-width="2.4"/><circle cx="32" cy="36" r="2.4" fill="#DFF6DD"/></g>
+<circle cx="572" cy="368" r="11" fill="#5C2D91"/>
+<text x="572" y="372" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">2</text>
+<text x="82" y="374" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Host · Encryption at host</text>
+<text x="82" y="391" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Temp disk and caches encrypted too, so nothing readable is left on the physical host.</text>
+<text x="82" y="408" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Needs the EncryptionAtHost feature registered on the subscription</text>
+<text x="96" y="452" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#5C2D91" text-anchor="start">no clear-text spill outside the disks</text>
+<rect x="33.5" y="476" width="560" height="112" rx="5" fill="#000" opacity="0.06"/>
+<rect x="32" y="474" width="560" height="112" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="32" y="474" width="4" height="112" rx="0" fill="#0078D4"/>
+<g transform="translate(48,484) scale(0.5000)"><path d="M24 3 L41 9 V23 C41 34 33 41 24 45 C15 41 7 34 7 23 V9 Z" fill="#0078D4"/><path d="M24 3 V45 C33 41 41 34 41 23 V9 Z" fill="#005A9E"/><path d="M16 24 l6 6 11-12" stroke="#fff" stroke-width="3.2" fill="none"/></g>
+<circle cx="572" cy="490" r="11" fill="#0078D4"/>
+<text x="572" y="494" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">1</text>
+<text x="82" y="496" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Boot · Trusted Launch</text>
+<text x="82" y="513" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Secure Boot and vTPM on the VM; patch orchestration Azure orchestrated;</text>
+<text x="82" y="530" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">system-assigned managed identity</text>
+<text x="96" y="574" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#0078D4" text-anchor="start">blocks boot-level malware</text>
+<rect x="628" y="100" width="620" height="300" rx="6" fill="#FAF9F8" stroke="#C8C6C4" stroke-width="1.4"/>
+<g transform="translate(638,108) scale(0.5000)"><path d="M15 21 v-6 a9 9 0 0 1 18 0 v6" fill="none" stroke="#605E5C" stroke-width="4"/><rect x="10" y="21" width="28" height="22" rx="3" fill="#605E5C"/><circle cx="24" cy="31" r="3" fill="#fff"/><rect x="23" y="31" width="2" height="6" fill="#fff"/></g>
+<text x="670" y="125" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#201F1E" text-anchor="start">The vault behind the disk key</text>
+<text x="1236" y="125" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="end">Premium · RBAC · private endpoint only</text>
+<rect x="644" y="140" width="282" height="110" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="644" y="140" width="4" height="110" rx="0" fill="#C19C00"/>
+<g transform="translate(660,150) scale(0.5000)"><path d="M15 21 v-6 a9 9 0 0 1 18 0 v6" fill="none" stroke="#605E5C" stroke-width="4"/><rect x="10" y="21" width="28" height="22" rx="3" fill="#605E5C"/><circle cx="24" cy="31" r="3" fill="#fff"/><rect x="23" y="31" width="2" height="6" fill="#fff"/></g>
+<text x="694" y="162" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Key Vault</text>
+<text x="694" y="178" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">Premium tier, soft delete 90 days, purge</text>
+<text x="694" y="194" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">protection on, RBAC authorization, public</text>
+<text x="694" y="210" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">access disabled, private endpoint in</text>
+<text x="694" y="226" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">snet-pe with private DNS</text>
+<rect x="944" y="140" width="288" height="110" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="944" y="140" width="4" height="110" rx="0" fill="#C19C00"/>
+<g transform="translate(960,150) scale(0.5000)"><rect x="5" y="6" width="38" height="36" rx="4" fill="#C19C00"/><circle cx="19" cy="24" r="7" fill="none" stroke="#fff" stroke-width="3"/><path d="M26 24 h12 M33 24 v6 M37 24 v5" stroke="#fff" stroke-width="3"/></g>
+<text x="994" y="162" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">RSA 3072 HSM key</text>
+<text x="994" y="178" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">Created in the vault with an expiry date.</text>
+<text x="994" y="194" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">Stays in the vault; the disk encryption set</text>
+<text x="994" y="210" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">wraps the disk keys with it and rotates</text>
+<text x="994" y="226" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">automatically</text>
+<rect x="644" y="264" width="282" height="110" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="644" y="264" width="4" height="110" rx="0" fill="#C19C00"/>
+<g transform="translate(660,274) scale(0.5000)"><path d="M10 4 h20 l8 8 v32 h-28 Z" fill="#605E5C"/><path d="M30 4 v8 h8" fill="#fff" opacity=".5"/><text x="24" y="35" font-family="Arial" font-weight="700" font-size="17" fill="#fff" text-anchor="middle">#</text></g>
+<rect x="874.997568" y="274" width="41" height="20" rx="10" fill="#FFF9E6" stroke="#C19C00" stroke-width="1"/>
+<text x="895" y="288" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#C19C00" text-anchor="middle">keys</text>
+<text x="694" y="286" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Disk set identity</text>
+<text x="694" y="302" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">Granted Key Vault Crypto Service</text>
+<text x="694" y="318" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">Encryption User on the vault when the set</text>
+<text x="694" y="334" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">is created: wrap and unwrap only</text>
+<rect x="944" y="264" width="288" height="110" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="944" y="264" width="4" height="110" rx="0" fill="#5C2D91"/>
+<g transform="translate(960,274) scale(0.5000)"><rect x="4" y="7" width="40" height="27" rx="2" fill="#0078D4"/><rect x="7" y="10" width="34" height="21" fill="#fff"/><ellipse cx="24" cy="15" rx="8" ry="3" fill="#005A9E"/><path d="M16 15 v10 a8 3 0 0 0 16 0 v-10" fill="#005A9E"/><rect x="18" y="34" width="12" height="5" fill="#005A9E"/><rect x="12" y="39" width="24" height="3" rx="1" fill="#005A9E"/></g>
+<rect x="1183.081104" y="274" width="39" height="20" rx="10" fill="#F2FAF2" stroke="#107C10" stroke-width="1"/>
+<text x="1203" y="288" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#107C10" text-anchor="middle">read</text>
+<text x="994" y="286" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">VM identity</text>
+<text x="994" y="302" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">Key Vault Secrets User only: reads secret</text>
+<text x="994" y="318" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">values at service start and holds no key</text>
+<text x="994" y="334" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">role at all (see the secrets figure)</text>
+<polyline points="592,300 644,300" fill="none" stroke="#C19C00" stroke-width="1.5" marker-end="url(#mC19C00)"/>
+<rect x="628" y="424" width="620" height="122" rx="6" fill="#EFF6FC" stroke="#0078D4" stroke-width="1.4" stroke-dasharray="6 4"/>
+<g transform="translate(638,432) scale(0.5000)"><path d="M10 4 h20 l8 8 v32 h-28 Z" fill="#008575"/><path d="M30 4 v8 h8" fill="#fff" opacity=".5"/><text x="24" y="33" font-family="Consolas,monospace" font-weight="700" font-size="12" fill="#fff" text-anchor="middle">{ }</text></g>
+<text x="670" y="449" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#0078D4" text-anchor="start">The next customer changes two values</text>
+<text x="642" y="470" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Same template, same four layers. To onboard c002 change customerCode and the spoke address space</text>
+<text x="642" y="487" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">(for example 10.2.0.0/16) in the parameter file and run SOP-02-customer-stamp.ps1 with -WhatIf first.</text>
+<text x="642" y="504" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">A hardening pass at the end closes any bootstrap window and removes the operator&#x27;s temporary vault</text>
+<text x="642" y="521" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">role, even if a step failed part way.</text>
+<rect x="628" y="562" width="620" height="98" rx="6" fill="#FFF8F8" stroke="#A4262C" stroke-width="1.4" stroke-dasharray="6 4"/>
+<g transform="translate(638,570) scale(0.5000)"><rect x="5" y="6" width="38" height="36" rx="4" fill="#C19C00"/><circle cx="19" cy="24" r="7" fill="none" stroke="#fff" stroke-width="3"/><path d="M26 24 h12 M33 24 v6 M37 24 v5" stroke="#fff" stroke-width="3"/></g>
+<text x="670" y="587" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#A4262C" text-anchor="start">Rollback keeps the key</text>
+<text x="642" y="608" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Stop backup with retain data, then remove the stamp resource group. Purge protection keeps the vault</text>
+<text x="642" y="625" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">recoverable for 90 days, and the disk key must stay until every recovery point that used it has expired.</text>
+<text x="32" y="694" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">Controls: SC-12, SC-28 (customer-managed key, encryption at rest and at host), CP-9, CP-10 (geo-redundant, immutable backup with cross-region restore), CIS Azure Foundations 7.x. Numbers are the template defaults.</text>
+<line x1="32" y1="706" x2="1248" y2="706" stroke="#E1DFDD"/>
+<text x="32" y="726" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#8A8886">Generalised design: no client names, tenant IDs, addresses or data. Icons are simplified originals, not Microsoft artwork.</text>
+<text x="1248" y="726" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#8A8886" text-anchor="end">Rich Dieu · github.com/richdieu-max</text>
+</svg>

@@ -55,6 +55,8 @@ SigninLogs
           IPAddress, Location, AppDisplayName, ConditionalAccessStatus
 ```
 
+![The eight policies row by row: who each includes and excludes, what it targets, the grant or session control it applies, and which enforcement wave switches it on, with the three combination rules and the two break-glass and security-defaults rules beneath](diagrams/sop-id-001-3.svg)
+
 ### Method of record: Graph PowerShell
 
 Connect with `Policy.Read.All`, `Policy.ReadWrite.ConditionalAccess` and `Application.Read.All`, export the current policies to JSON, then create each policy from a peer-reviewed definition. The exported JSON in the change repository is the version of record.

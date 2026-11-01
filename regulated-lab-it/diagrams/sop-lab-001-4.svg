@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 700" width="1280" height="700" role="img" aria-label="What a compatibility shim changes for the application, and how it is applied at scale">
+<title>What a compatibility shim changes for the application, and how it is applied at scale</title>
+<defs><marker id="mC19C00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#C19C00"/></marker><marker id="m0078D4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#0078D4"/></marker><marker id="m5C2D91" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#5C2D91"/></marker></defs>
+<rect width="1280" height="700" fill="#fff"/>
+<rect x="0" y="0" width="1280" height="6" fill="#0078D4"/>
+<text x="32" y="48" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="600" fill="#201F1E">What a compatibility shim changes for the application, and how it is applied at scale</text>
+<text x="32" y="72" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#605E5C">The shim sits between the legacy executable and Windows 11: it answers the version check and redirects the writes the app expects to make, while the OS itself stays unchanged.</text>
+<rect x="32" y="100" width="600" height="424" rx="6" fill="#FAF9F8" stroke="#C8C6C4" stroke-width="1.4"/>
+<g transform="translate(42,108) scale(0.5000)"><rect x="3" y="8" width="16" height="32" rx="2" fill="#0078D4"/><rect x="29" y="8" width="16" height="32" rx="2" fill="#5C2D91"/><path d="M19 14 L29 22 M19 24 L29 16 M19 34 L29 34" stroke="#605E5C" stroke-width="2"/></g>
+<text x="74" y="125" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#201F1E" text-anchor="start">Where the shim sits</text>
+<text x="620" y="125" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="end">applied per executable, loaded at process start</text>
+<rect x="53.5" y="148" width="560" height="66" rx="5" fill="#000" opacity="0.06"/>
+<rect x="52" y="146" width="560" height="66" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="52" y="146" width="4" height="66" rx="0" fill="#C19C00"/>
+<g transform="translate(68,156) scale(0.5000)"><rect x="4" y="8" width="40" height="32" rx="3" fill="#0078D4"/><rect x="4" y="8" width="40" height="8" rx="3" fill="#005A9E"/><circle cx="9" cy="12" r="1.6" fill="#fff"/><circle cx="14" cy="12" r="1.6" fill="#fff"/><path d="M10 24 h28 M10 30 h20" stroke="#fff" stroke-width="2.4"/></g>
+<text x="102" y="168" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Legacy instrument application</text>
+<text x="102" y="185" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">built for Windows 7: checks the OS version, writes beside its own files and under</text>
+<text x="102" y="202" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">HKLM</text>
+<polyline points="332,212 332,238" fill="none" stroke="#C19C00" stroke-width="2" marker-end="url(#mC19C00)"/>
+<rect x="52" y="240" width="560" height="170" rx="6" fill="#fff" stroke="#C8C6C4" stroke-width="1.4"/>
+<g transform="translate(62,248) scale(0.5000)"><circle cx="24" cy="24" r="13" fill="none" stroke="#605E5C" stroke-width="7" stroke-dasharray="6 4.2"/><circle cx="24" cy="24" r="10" fill="#605E5C"/><circle cx="24" cy="24" r="4.5" fill="#fff"/></g>
+<text x="94" y="265" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#201F1E" text-anchor="start">Compatibility layer</text>
+<text x="600" y="265" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="end">Windows 7 mode plus the specific fixes the app needs</text>
+<rect x="66" y="282" width="172" height="112" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="66" y="282" width="4" height="112" rx="0" fill="#0078D4"/>
+<text x="84" y="304" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="start">WIN7RTM mode</text>
+<text x="84" y="320" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">version check: the app is</text>
+<text x="84" y="336" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">told it runs on Windows 7,</text>
+<text x="84" y="352" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">so the check passes</text>
+<rect x="250" y="282" width="172" height="112" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="250" y="282" width="4" height="112" rx="0" fill="#107C10"/>
+<text x="268" y="304" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="start">CorrectFilePaths</text>
+<text x="268" y="320" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">file writes: writes aimed at</text>
+<text x="268" y="336" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">Program Files go to a path</text>
+<text x="268" y="352" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">a standard user may use</text>
+<rect x="434" y="282" width="172" height="112" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="434" y="282" width="4" height="112" rx="0" fill="#5C2D91"/>
+<text x="452" y="304" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="start">VirtualRegistry</text>
+<text x="452" y="320" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">registry writes: HKLM</text>
+<text x="452" y="336" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">writes the app expects are</text>
+<text x="452" y="352" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">virtualized for a standard</text>
+<text x="452" y="368" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">user</text>
+<polyline points="332,410 332,436" fill="none" stroke="#0078D4" stroke-width="2" marker-end="url(#m0078D4)"/>
+<rect x="53.5" y="440" width="560" height="66" rx="5" fill="#000" opacity="0.06"/>
+<rect x="52" y="438" width="560" height="66" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="52" y="438" width="4" height="66" rx="0" fill="#0078D4"/>
+<g transform="translate(68,448) scale(0.5000)"><rect x="6" y="6" width="17" height="17" fill="#0078D4"/><rect x="25" y="6" width="17" height="17" fill="#0078D4"/><rect x="6" y="25" width="17" height="17" fill="#0078D4"/><rect x="25" y="25" width="17" height="17" fill="#0078D4"/></g>
+<text x="102" y="460" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Windows 11 Enterprise, fully patched</text>
+<text x="102" y="477" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">sees ordinary calls; nothing in the OS is changed. The shim is configuration: reviewed,</text>
+<text x="102" y="494" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">versioned, in the IQ</text>
+<rect x="656" y="100" width="592" height="424" rx="6" fill="#FAF9F8" stroke="#C8C6C4" stroke-width="1.4"/>
+<g transform="translate(666,108) scale(0.5000)"><path d="M24 4 L42 14 V34 L24 44 L6 34 V14 Z" fill="#C19C00"/><path d="M24 4 V24 M6 14 L24 24 L42 14" stroke="#fff" stroke-width="2" fill="none"/></g>
+<text x="698" y="125" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#201F1E" text-anchor="start">Two ways to apply it, one way to deploy it</text>
+<text x="1236" y="125" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="end">letters are alternatives</text>
+<rect x="673.5" y="148" width="276" height="150" rx="5" fill="#000" opacity="0.06"/>
+<rect x="672" y="146" width="276" height="150" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="672" y="146" width="4" height="150" rx="0" fill="#0078D4"/>
+<g transform="translate(688,156) scale(0.5000)"><rect x="4" y="6" width="40" height="36" rx="2" fill="#0078D4"/><path d="M4 16 h40 M4 25 h40 M4 34 h40 M16 6 v36" stroke="#fff" stroke-width="1.8"/></g>
+<circle cx="928" cy="162" r="11" fill="#0078D4"/>
+<text x="928" y="166" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">A</text>
+<text x="722" y="168" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Layer value, all users</text>
+<text x="722" y="185" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">HKLM › SOFTWARE › Microsoft ›</text>
+<text x="722" y="202" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Windows NT › CurrentVersion ›</text>
+<text x="722" y="219" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">AppCompatFlags › Layers</text>
+<text x="722" y="236" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">value name = full path to the .exe;</text>
+<text x="722" y="253" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">data = ~ WIN7RTM</text>
+<text x="722" y="270" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">one mode flag, no specific fixes</text>
+<rect x="957.5" y="148" width="276" height="150" rx="5" fill="#000" opacity="0.06"/>
+<rect x="956" y="146" width="276" height="150" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="956" y="146" width="4" height="150" rx="0" fill="#5C2D91"/>
+<g transform="translate(972,156) scale(0.5000)"><path d="M10 4 h20 l8 8 v32 h-28 Z" fill="#5C2D91"/><path d="M30 4 v8 h8" fill="#fff" opacity=".5"/><path d="M15 27 l5 5 10-11" stroke="#fff" stroke-width="3" fill="none"/></g>
+<circle cx="1212" cy="162" r="11" fill="#5C2D91"/>
+<text x="1212" y="166" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">B</text>
+<text x="1006" y="168" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Custom shim database (.sdb)</text>
+<text x="1006" y="185" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Compatibility Administrator from the</text>
+<text x="1006" y="202" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Windows ADK; 32-bit edition for</text>
+<text x="1006" y="219" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">32-bit apps</text>
+<text x="1006" y="236" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Windows 7 mode plus</text>
+<text x="1006" y="253" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">CorrectFilePaths or VirtualRegistry;</text>
+<text x="1006" y="270" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">tested, then saved as</text>
+<text x="1006" y="287" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">NetControl-Win11.sdb</text>
+<polyline points="1094,296 1094,330" fill="none" stroke="#5C2D91" stroke-width="2" marker-end="url(#m5C2D91)"/>
+<rect x="673.5" y="334" width="560" height="76" rx="5" fill="#000" opacity="0.06"/>
+<rect x="672" y="332" width="560" height="76" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="672" y="332" width="4" height="76" rx="0" fill="#107C10"/>
+<g transform="translate(688,342) scale(0.5000)"><rect x="4" y="8" width="32" height="22" rx="2" fill="#0078D4"/><rect x="7" y="11" width="26" height="16" fill="#fff"/><rect x="14" y="30" width="12" height="4" fill="#0078D4"/><rect x="28" y="18" width="16" height="26" rx="2" fill="#005A9E"/><rect x="30" y="21" width="12" height="18" fill="#fff"/><path d="M10 19 l5 4 9-8" stroke="#107C10" stroke-width="2.6" fill="none"/></g>
+<text x="722" y="354" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Deploy at scale: sdbinst.exe -q in Intune or ConfigMgr</text>
+<text x="722" y="371" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">the .sdb is versioned, referenced in the IQ and re-tested whenever the application or OS</text>
+<text x="722" y="388" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">version changes</text>
+<rect x="673.5" y="426" width="560" height="76" rx="5" fill="#000" opacity="0.06"/>
+<rect x="672" y="424" width="560" height="76" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="672" y="424" width="4" height="76" rx="0" fill="#605E5C"/>
+<g transform="translate(688,434) scale(0.5000)"><rect x="5" y="5" width="38" height="38" rx="5" fill="#107C10"/><path d="M33 17 a11 11 0 1 0 2 11" fill="none" stroke="#fff" stroke-width="3.2"/><path d="M28 12 h8 v8" fill="none" stroke="#fff" stroke-width="3.2"/></g>
+<text x="722" y="446" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Rollback</text>
+<text x="722" y="463" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Remove-ItemProperty the Layers value, or sdbinst -u the database; the untouched</text>
+<text x="722" y="480" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">reference PC stays in service until OQ passes</text>
+<rect x="32" y="540" width="600" height="84" rx="6" fill="#FFF8F8" stroke="#A4262C" stroke-width="1.4" stroke-dasharray="6 4"/>
+<g transform="translate(42,548) scale(0.5000)"><path d="M24 4 L45 42 H3 Z" fill="#A4262C"/><rect x="22" y="17" width="4" height="13" fill="#fff"/><circle cx="24" cy="35" r="2.5" fill="#fff"/></g>
+<text x="74" y="565" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#A4262C" text-anchor="start">Avoid RUNASADMIN</text>
+<text x="46" y="586" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Use it only if the vendor requires it, and record it in the risk assessment. Per-user compatibility</text>
+<text x="46" y="603" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">settings are for first launch; production uses the all-users layer or the .sdb.</text>
+<rect x="656" y="540" width="592" height="84" rx="6" fill="#F2FAF2" stroke="#107C10" stroke-width="1.4" stroke-dasharray="6 4"/>
+<g transform="translate(666,548) scale(0.5000)"><circle cx="24" cy="24" r="20" fill="#107C10"/><path d="M14 24 l7 7 13-14" stroke="#fff" stroke-width="4" fill="none"/></g>
+<text x="698" y="565" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#107C10" text-anchor="start">Validation footprint</text>
+<text x="670" y="586" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Posture as Method A (fully patched) with the shim reviewed; IQ/OQ of the platform plus the shim as</text>
+<text x="670" y="603" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">configuration; re-test per application or OS update.</text>
+<text x="32" y="654" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">Symptoms it answers: &#x27;unsupported OS&#x27; at install (version check); works for admins but not operators (writes to Program Files or HKLM). Controls: Part 11 §11.10(a); Annex 11 configuration management.</text>
+<line x1="32" y1="666" x2="1248" y2="666" stroke="#E1DFDD"/>
+<text x="32" y="686" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#8A8886">Generalised design: no client names, tenant IDs, addresses or data. Icons are simplified originals, not Microsoft artwork.</text>
+<text x="1248" y="686" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#8A8886" text-anchor="end">Rich Dieu · github.com/richdieu-max</text>
+</svg>

@@ -40,6 +40,8 @@ What breaks when a label server moves:
 
 1. **Inventory dependencies.** Run `Get-LabelServerDependencies.ps1` elevated on the source: it records printers, ports, mapped drives, services and scheduled tasks and searches BarTender configuration for literal IPs and UNC paths, writing JSON evidence. Re-point IP-based printer ports to DNS names (for example `prn-line1.contoso.com`).
 
+![Two decision questions, whether the OS is in support and which cloud holds the landing zone, then AWS Application Migration Service, Azure Migrate and a rebuild compared row by row on how they copy, what must be open, access, test, cutover action, scripting and re-validation scope, with the constants shared by every method](diagrams/sop-mig-001-3.svg)
+
 ### Method A · AWS Application Migration Service (MGN)
 
 2. **Prepare MGN.** In the target Region open **Application Migration Service** and choose **Get started / Set up service**. Under **Settings › Replication template** choose the staging subnet, replication server type, EBS volume type and encryption key, and turn on **Use private IP for data replication**. The staging security group must allow TCP 1500 from the source; the source needs TCP 443 to the MGN endpoint and Amazon S3.
@@ -74,6 +76,8 @@ What breaks when a label server moves:
 ### Cutover window (example 08:00–12:00)
 
 10. **Run the sequence.** 08:00 freeze (announce, stop BarTender and Integration services) · 08:15 final sync and launch · 09:00 network (DNS A record to the cloud private IP, its TTL lowered a day earlier; routes and firewall for 9100; SQL and AD reachability) · 09:30 re-activate the licence and print a test label on each production printer · 10:15 SME validation · 11:30 decision: finalize, or roll back with 30 minutes left in the window.
+
+![The 08:00 to 12:00 cutover window as a clock strip with the six timed steps, freeze, final sync and launch, network, licence and first labels, SME validation and the 11:30 decision with a 30-minute reserve, the condition that must be true at each gate, and the four rollback steps in order](diagrams/sop-mig-001-4.svg)
 
 ## Verify
 

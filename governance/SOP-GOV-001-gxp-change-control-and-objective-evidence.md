@@ -35,6 +35,8 @@ The stages are the same in any ITSM tool; the terms here are ServiceNow's (Chang
 3. **Rate the risk.** Severity × likelihood, adjusted by detectability, sets the test depth. High: scripted, pre-approved steps, independently executed and signed. Medium: scripted for critical functions, exploratory for the rest. Low: unscripted or leveraged vendor evidence, summarised with outcome. Record a one-paragraph rationale agreed with QA.
 4. **Plan.** Numbered steps with expected results and the evidence each produces; baseline capture; test scripts or charters traced to requirements; rollback trigger, steps, duration and decision owner; communications. Walk through or test the rollback before the window.
 
+![Three decisions in order, class (Standard, Normal, Emergency), the five GxP impact questions with any Yes requiring a QA signature, and the risk rating that sets scripted, mixed or summarised testing, feeding a matrix of the approval chain, the evidence the record must carry and what changes when GxP impact is Yes](diagrams/sop-gov-001-2.svg)
+
 ### Approve
 
 5. **Electronic signature.** Use the tool's approval mechanism or the validated quality system. The signature shows printed name, date and time, and meaning (§11.50), is linked to its record (§11.70), is unique to one person (§11.100) and uses two components with re-authentication (§11.200). An email saying "approved" pasted into a work note is not an approval.
@@ -71,6 +73,8 @@ The clock is part of the evidence: confirm the time source (`w32tm /query /statu
 
 9. **PIR.** Did the change meet its objective; any deviations or incidents; was the rollback needed?
 10. **Close.** Attach all evidence to the record, not email; update the CMDB and configuration specification. QA reviews the evidence itself, not a summary, and signs with the meaning *Evidence reviewed; system in validated state*.
+
+![Anatomy of a Part 11 approval signature (name, date-time and meaning, linked to its record, unique to one person, two components with re-authentication) and what is not an approval; the seven-item evidence package in the order an auditor opens it; and the screenshot naming convention broken into change, stage-step, hostname and capture time](diagrams/sop-gov-001-3.svg)
 
 ### Emergency changes, deviations and CAPA
 

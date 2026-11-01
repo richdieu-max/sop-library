@@ -71,6 +71,8 @@ A threat model answers four questions: what are we protecting, where can it be a
    If the review finds data already at risk (for example an open inbound rule to a data port), report it to the client within one business day; do not wait for the final report.
 5. **Rate, register and sign off.** Rate each row as likelihood times impact: 7 to 9 High, 4 to 6 Medium, 1 to 3 Low. Every High row gets a risk register ID and an owner role. Walk the client approver through the boundaries and gaps, and record approval with name, role and date on the sign-off page.
 
+![A grid of the six boundaries B1 to B6 against the six STRIDE questions, with the two worked rows from the template filled in (WAF rate limit on B1 spoofing and NAT plus NSG on B4 information disclosure, both High), the likelihood-times-impact heat map with its High, Medium and Low bands, and the rules: no control means a gap, every control names a hashed evidence file, data at risk is reported within one business day](diagrams/sop-az-103-2.svg)
+
 ## Verify
 
 | Check | Pass |

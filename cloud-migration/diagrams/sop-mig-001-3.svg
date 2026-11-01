@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 892" width="1280" height="892" role="img" aria-label="Choosing the method: AWS MGN, Azure Migrate or a rebuild">
+<title>Choosing the method: AWS MGN, Azure Migrate or a rebuild</title>
+<defs><marker id="m107C10" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#107C10"/></marker><marker id="m0078D4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#0078D4"/></marker></defs>
+<rect width="1280" height="892" fill="#fff"/>
+<rect x="0" y="0" width="1280" height="6" fill="#0078D4"/>
+<text x="32" y="48" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="600" fill="#201F1E">Choosing the method: AWS MGN, Azure Migrate or a rebuild</text>
+<text x="32" y="72" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#605E5C">Rehost is the default for a validated label server: block replication keeps the validated state identical. The target cloud picks the tool; only an unsupported or drifted OS justifies a rebuild.</text>
+<rect x="32" y="100" width="1216" height="128" rx="6" fill="#FAF9F8" stroke="#C8C6C4" stroke-width="1.4"/>
+<g transform="translate(42,108) scale(0.5000)"><path d="M24 3 L45 24 L24 45 L3 24 Z" fill="#C19C00"/><text x="24" y="30" font-family="Arial" font-weight="700" font-size="17" fill="#fff" text-anchor="middle">?</text></g>
+<text x="74" y="125" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#201F1E" text-anchor="start">Two questions decide it</text>
+<rect x="48" y="140" width="360" height="74" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="48" y="140" width="4" height="74" rx="0" fill="#C19C00"/>
+<g transform="translate(64,150) scale(0.5000)"><path d="M24 4 L44 24 L24 44 L4 24 Z" fill="#C19C00"/><text x="24" y="31" font-family="Arial" font-weight="700" font-size="20" fill="#fff" text-anchor="middle">?</text></g>
+<text x="98" y="162" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Is the OS in support and the build clean?</text>
+<text x="98" y="179" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">No, drift is heavy or an upgrade is due: rebuild (C) and</text>
+<text x="98" y="196" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">plan fuller re-validation</text>
+<polyline points="408,177 440,177" fill="none" stroke="#107C10" stroke-width="2" marker-end="url(#m107C10)"/>
+<rect x="410" y="160.0" width="29" height="16" rx="3" fill="#fff" opacity="0.92"/>
+<text x="424.0" y="172.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#107C10" text-anchor="middle">yes</text>
+<rect x="442" y="140" width="380" height="74" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="442" y="140" width="4" height="74" rx="0" fill="#0078D4"/>
+<g transform="translate(458,150) scale(0.5000)"><path d="M14 38 a9 9 0 0 1 -1 -18 a12 12 0 0 1 23 -3 a9 9 0 0 1 -1 21 Z" fill="#0078D4"/></g>
+<text x="492" y="162" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Which cloud holds the landing zone?</text>
+<text x="492" y="179" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">Rehost where the landing zone and private link are: AWS</text>
+<text x="492" y="196" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">→ MGN (A); Azure → Azure Migrate (B)</text>
+<polyline points="822,177 854,177" fill="none" stroke="#0078D4" stroke-width="2" marker-end="url(#m0078D4)"/>
+<rect x="856" y="140" width="376" height="74" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="856" y="140" width="4" height="74" rx="0" fill="#107C10"/>
+<g transform="translate(872,150) scale(0.5000)"><circle cx="24" cy="24" r="20" fill="#107C10"/><path d="M14 24 l7 7 13-14" stroke="#fff" stroke-width="4" fill="none"/></g>
+<text x="906" y="162" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Rehost, then re-test only what changed</text>
+<text x="906" y="179" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">the network path, the licence and the hardware the OS</text>
+<text x="906" y="196" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">sees; templates and drivers are byte for byte the same</text>
+<rect x="32" y="244" width="1216" height="474" rx="6" fill="#FAF9F8" stroke="#C8C6C4" stroke-width="1.4"/>
+<g transform="translate(42,252) scale(0.5000)"><rect x="5" y="5" width="38" height="38" rx="5" fill="#0078D4"/><path d="M11 24 h26 M31 18 l6 6 -6 6 M17 18 l-6 6 6 6" stroke="#fff" stroke-width="3" fill="none"/><rect x="20" y="10" width="8" height="8" rx="1" fill="#fff"/></g>
+<text x="74" y="269" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#201F1E" text-anchor="start">Method by method</text>
+<text x="1236" y="269" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="end">same discovery, same freeze rule, same cutover window for A and B</text>
+<rect x="262" y="284" width="310" height="44" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="262" y="284" width="4" height="44" rx="0" fill="#C19C00"/>
+<circle cx="286" cy="300" r="11" fill="#C19C00"/>
+<text x="286" y="304" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">A</text>
+<text x="306" y="306" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#201F1E" text-anchor="start">AWS Application Migration Service</text>
+<rect x="586" y="284" width="310" height="44" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="586" y="284" width="4" height="44" rx="0" fill="#0078D4"/>
+<circle cx="610" cy="300" r="11" fill="#0078D4"/>
+<text x="610" y="304" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">B</text>
+<text x="630" y="306" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#201F1E" text-anchor="start">Azure Migrate</text>
+<rect x="910" y="284" width="310" height="44" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="910" y="284" width="4" height="44" rx="0" fill="#5C2D91"/>
+<circle cx="934" cy="300" r="11" fill="#5C2D91"/>
+<text x="934" y="304" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">C</text>
+<text x="954" y="306" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#201F1E" text-anchor="start">Rebuild and replatform</text>
+<text x="48" y="356" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="start">How it copies</text>
+<line x1="48" y1="390" x2="1232" y2="390" stroke="#E1DFDD" stroke-width="1"/>
+<text x="266" y="354" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">agent on the source replicates all disks: initial sync, then</text>
+<text x="266" y="367" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">changed blocks, while BarTender runs</text>
+<text x="590" y="354" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">appliance OVA on vCenter replicates the VM from vSphere;</text>
+<text x="590" y="367" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">no agent in the guest</text>
+<text x="914" y="354" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">fresh hardened image; restore the System Database,</text>
+<text x="914" y="367" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">robocopy /MIR /COPYALL documents, Librarian and</text>
+<text x="914" y="380" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">integrations</text>
+<text x="48" y="410" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="start">What it needs open</text>
+<line x1="48" y1="444" x2="1232" y2="444" stroke="#E1DFDD" stroke-width="1"/>
+<text x="266" y="408" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">TCP 1500 source → staging subnet; 443 source → MGN</text>
+<text x="266" y="421" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">endpoint and S3; private IP replication on</text>
+<text x="590" y="408" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">TCP 902 appliance → ESXi hosts; vCenter role with read,</text>
+<text x="590" y="421" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">snapshot, disk and change-tracking</text>
+<text x="914" y="408" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">the same printer driver versions: a different driver, dpi or</text>
+<text x="914" y="421" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">font shifts barcodes</text>
+<text x="48" y="464" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="start">Access, just in time</text>
+<line x1="48" y1="498" x2="1232" y2="498" stroke="#E1DFDD" stroke-width="1"/>
+<text x="266" y="462" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">Identity Center permission sets: MigrationFullAccess,</text>
+<text x="266" y="475" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">AgentInstallationPolicy on short-lived credentials</text>
+<text x="590" y="462" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">Owner, or Contributor + User Access Administrator, for</text>
+<text x="590" y="475" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">project and appliance; subnets/join/action on the VNet</text>
+<text x="914" y="462" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">local Administrator, BarTender administrator, SQL db_owner</text>
+<text x="914" y="475" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">(sysadmin for restore)</text>
+<text x="48" y="518" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="start">Test before cutover</text>
+<line x1="48" y1="552" x2="1232" y2="552" stroke="#E1DFDD" stroke-width="1"/>
+<text x="266" y="516" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">Launch test instances into a subnet that cannot reach</text>
+<text x="266" y="529" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">production printers; repeat as needed; Mark Ready for</text>
+<text x="266" y="542" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">cutover</text>
+<text x="590" y="516" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">Test migration into an isolated test VNet, Azure Bastion,</text>
+<text x="590" y="529" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">then Clean up test migration</text>
+<text x="914" y="516" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">side-by-side print comparison against the source on every</text>
+<text x="914" y="529" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">printer</text>
+<text x="48" y="572" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="start">Cutover action</text>
+<line x1="48" y1="606" x2="1232" y2="606" stroke="#E1DFDD" stroke-width="1"/>
+<text x="266" y="570" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">Launch cutover instances, shut down (keep) the source,</text>
+<text x="266" y="583" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">DNS, licence, validate, Finalize, later Archive</text>
+<text x="590" y="570" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">Migrate with Yes to shut down the source (planned, no data</text>
+<text x="590" y="583" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">loss), DNS, licence, validate, Complete migration</text>
+<text x="914" y="570" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">move the licence, recreate printers on DNS-named ports, cut</text>
+<text x="914" y="583" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">DNS; the old server stays off but intact</text>
+<text x="48" y="626" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="start">Scripted as</text>
+<line x1="48" y1="660" x2="1232" y2="660" stroke="#E1DFDD" stroke-width="1"/>
+<text x="266" y="624" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">aws mgn start-test, change-server-life-cycle-state,</text>
+<text x="266" y="637" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">start-cutover, finalize-cutover, or AWS.Tools.Mgn</text>
+<text x="590" y="624" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">Invoke-AzMigrateLabelServer.ps1 -Stage Replicate · Test ·</text>
+<text x="590" y="637" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">CleanupTest · Migrate · Complete, one stage per change</text>
+<text x="590" y="650" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">step</text>
+<text x="914" y="624" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">build automation of the landing zone; the content moves by</text>
+<text x="914" y="637" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">hand with evidence</text>
+<text x="48" y="680" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="start">Re-validation</text>
+<line x1="48" y1="714" x2="1232" y2="714" stroke="#E1DFDD" stroke-width="1"/>
+<text x="266" y="678" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">network path, licence, hardware the OS sees</text>
+<text x="590" y="678" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">network path, licence, hardware the OS sees</text>
+<text x="914" y="678" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">full: OS, SQL, drivers, templates, integrations</text>
+<rect x="32" y="734" width="1216" height="96" rx="6" fill="#FAF9F8" stroke="#C8C6C4" stroke-width="1.4"/>
+<g transform="translate(42,742) scale(0.5000)"><path d="M24 3 L41 9 V23 C41 34 33 41 24 45 C15 41 7 34 7 23 V9 Z" fill="#0078D4"/><path d="M24 3 V45 C33 41 41 34 41 23 V9 Z" fill="#005A9E"/><path d="M16 24 l6 6 11-12" stroke="#fff" stroke-width="3.2" fill="none"/></g>
+<text x="74" y="759" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#201F1E" text-anchor="start">The same for every method</text>
+<rect x="48" y="768" width="290" height="54" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="48" y="768" width="4" height="54" rx="0" fill="#0078D4"/>
+<text x="66" y="790" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#201F1E" text-anchor="start">Discovery first</text>
+<text x="66" y="804" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10" font-weight="400" fill="#605E5C" text-anchor="start">Get-LabelServerDependencies.ps1: IPs and UNC paths</text>
+<text x="66" y="818" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10" font-weight="400" fill="#605E5C" text-anchor="start">become DNS names</text>
+<rect x="346" y="768" width="290" height="54" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="346" y="768" width="4" height="54" rx="0" fill="#A4262C"/>
+<text x="364" y="790" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#201F1E" text-anchor="start">Disk-change freeze</text>
+<text x="364" y="804" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10" font-weight="400" fill="#605E5C" text-anchor="start">from agent install until cutover; exceptions go back to</text>
+<text x="364" y="818" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10" font-weight="400" fill="#605E5C" text-anchor="start">the CAB</text>
+<rect x="644" y="768" width="290" height="54" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="644" y="768" width="4" height="54" rx="0" fill="#008272"/>
+<text x="662" y="790" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#201F1E" text-anchor="start">Right-size</text>
+<text x="662" y="804" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10" font-weight="400" fill="#605E5C" text-anchor="start">reference source at 92 % CPU on 2 vCPU / 8 GB went</text>
+<text x="662" y="818" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10" font-weight="400" fill="#605E5C" text-anchor="start">to 4 vCPU / 16 GB</text>
+<rect x="942" y="768" width="290" height="54" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="942" y="768" width="4" height="54" rx="0" fill="#C19C00"/>
+<text x="960" y="790" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#201F1E" text-anchor="start">Licence</text>
+<text x="960" y="804" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10" font-weight="400" fill="#605E5C" text-anchor="start">deactivate before, re-activate after; TCP 5160 for</text>
+<text x="960" y="818" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10" font-weight="400" fill="#605E5C" text-anchor="start">remote licence clients</text>
+<text x="32" y="846" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">Elapsed: 2–3 weeks, with a 4-hour cutover window and a source VM that is only ever shut down, never modified. Controls: CM-3 (two changes), CP-10 (retained source), SC-28 (encrypted replicated disks).</text>
+<line x1="32" y1="858" x2="1248" y2="858" stroke="#E1DFDD"/>
+<text x="32" y="878" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#8A8886">Generalised design: no client names, tenant IDs, addresses or data. Icons are simplified originals, not Microsoft artwork.</text>
+<text x="1248" y="878" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#8A8886" text-anchor="end">Rich Dieu · github.com/richdieu-max</text>
+</svg>

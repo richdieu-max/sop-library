@@ -21,6 +21,8 @@ Pick three non-overlapping ranges that also do not overlap any on-premises or ho
 | `GatewaySubnet` | /27 inside the VNet | Gateway only; nothing else goes here |
 | `<client-pool>` | /24 **outside** the VNet | Addresses handed to connected laptops |
 
+![The four address ranges and how they relate: the client pool outside the VNet handed to laptops, the VNet /16 containing the GatewaySubnet /27 with the VPN gateway and the VM subnet /24 whose only inbound rule is 3389 from the client pool, the route pushed to the client, and the overlap rules](diagrams/sop-az-004-2.svg)
+
 ## Build (administrator, once)
 
 1. **Virtual network.** Create the VNet with the VM subnet.
@@ -34,6 +36,8 @@ Pick three non-overlapping ranges that also do not overlap any on-premises or ho
 ## Connect (each user, once per device)
 
 Install **Azure VPN Client** from the Microsoft Store → **+ → Import** the profile → **Connect** → sign in and approve MFA. Status shows Connected, a client-pool address and a route to the VNet. Then RDP to the VM's private IP. Disconnect when finished.
+
+![Sequence from clicking Connect: profile import, sign-in to Entra ID with Conditional Access and MFA, a token for the Azure VPN Client application, OpenVPN over TLS 443 to the gateway which checks tenant, issuer and audience, the client-pool address and VNet route, then RDP to the private IP; alongside, the one-time build steps it depends on and where each message can fail](diagrams/sop-az-004-3.svg)
 
 ## Troubleshooting
 
