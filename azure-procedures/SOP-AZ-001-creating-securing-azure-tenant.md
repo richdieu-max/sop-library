@@ -8,6 +8,8 @@ Create a Microsoft Entra tenant and put the controls in place that have to exist
 
 The organisation name and the initial `*.onmicrosoft.com` domain are permanent, and the country or region sets where directory data lives. Choose standard **Microsoft Entra ID**, not B2C; a B2C tenant cannot be converted. For US government workloads, build in Azure Government instead.
 
+![The three values the tenant wizard makes permanent (organisation name, initial onmicrosoft.com domain, country or region), the two one-way choices (Entra ID versus B2C, global Azure versus Azure Government) with letters for the alternatives, and the four things to have ready before opening the wizard](diagrams/sop-az-001-2.svg)
+
 ## Target end state
 
 ![Entra ID tenant with break-glass accounts, MFA and a verified domain, anchoring a management group hierarchy with policy assigned at org-root](diagrams/sop-az-001-1.svg)
@@ -19,6 +21,8 @@ The organisation name and the initial `*.onmicrosoft.com` domain are permanent, 
 3. **MFA.** Turn on Security Defaults for a small tenant. For anything larger, use Conditional Access: require MFA for all users, block legacy authentication, require phishing-resistant MFA for admins. Never leave a gap between turning Security Defaults off and turning CA on.
 4. **Custom domain.** Entra ID → Custom domain names → Add → create the `MS=` TXT record at the registrar → Verify once DNS propagates.
 5. **Management groups and policy.** Create the hierarchy above, move subscriptions under it, and assign policy at the org root: allowed locations, no public IP on NICs, required tags, plus a benchmark initiative (Microsoft cloud security benchmark or CIS) in audit mode to score against.
+
+![The five day-zero steps in order, each with the portal location where its evidence lives afterwards, and the four gates the order enforces: emergency accounts before MFA, no gap between Security Defaults and Conditional Access, DNS propagation before verifying the domain, and policy at org root before the first resource](diagrams/sop-az-001-3.svg)
 
 ## Evidence this produces
 

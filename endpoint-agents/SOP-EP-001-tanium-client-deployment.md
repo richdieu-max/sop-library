@@ -61,6 +61,8 @@ sc query "Tanium Client"
 
 4. **Notify.** Tell the tooling owner the install is done and ask them to confirm reporting.
 
+![Sequence from the staged installer and tanium-init.dat through the Tanium Client service to the server on TCP 17472 and the console: registration with the server's trust key, peer chaining on the subnet, a question passed along the chain and answered, the Client Management health view, and the JSON evidence; alongside, the five ways a client ends up installed but invisible, the three ports, and the six health checks in order](diagrams/sop-ep-001-2.svg)
+
 ### Remote
 
 5. **PsExec.** Copy both files to `\\%PC%\C$\Install\Tanium\`, then `psexec \\%PC% -s -w C:\Install\Tanium C:\Install\Tanium\SetupClient.exe /S`. Many EDR products flag PsExec: tell security operations first, or use remoting.
@@ -72,6 +74,8 @@ sc query "Tanium Client"
 8. **ConfigMgr.** Both files on the content share; **Software Library › Application Management › Applications › Create Application**, Script Installer `SetupClient.exe /S`, file detection, install for system whether or not a user is logged on. Deploy Required, monitor **Monitoring › Deployments**.
 9. **GPO startup script.** An idempotent script that returns if the service exists, copies both files from a read-only share to a temp folder, installs with `/S` and cleans up. Link under **Computer Configuration › Policies › Windows Settings › Scripts › Startup**. GPO gives no reporting, so query for stragglers.
 10. **Tanium client deployment.** Confirm the option with the Tanium administrator, provide targets and a deployment credential stored in the console's credential store, ensure SMB 445 and remote service management, run and review per-endpoint results. Remove the credential's rights or rotate it afterwards. Its discovery reports list machines with no client.
+
+![Decision ladder from the endpoint's existing management to the route (Intune Win32, ConfigMgr, GPO startup script, Tanium client deployment, or remoting for a handful) and a matrix comparing the four fleet routes by packaging, run context, detection, reporting, uninstall, role needed and clean-up](diagrams/sop-ep-001-3.svg)
 
 ## Verify
 

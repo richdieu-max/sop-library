@@ -64,6 +64,8 @@ Toggling the **SMB 1.0/CIFS File Sharing Support** feature fixed the reference c
 11. **Group Policy Preferences.** **User Configuration › Preferences › Windows Settings › Drive Maps › New › Mapped Drive**, Action **Replace** (also cures stale mappings) or **Update**, Location `\\fs01.contoso.com\share`, Reconnect, label and letter; on **Common** use item-level targeting by the data owner's security group. Check with `gpupdate /force` and `gpresult /r`.
 12. **Intune.** No native drive-map profile: use a platform script (**Devices › Scripts and remediations › Platform scripts**) with **Run this script using the logged on credentials** = Yes that maps each letter with `New-SmbMapping`. For the client itself, a SYSTEM Remediation detects MRxSmb10 listed while SMB1 is not enabled, or Workstation not running, and resets the list. Keep SMB1 disabled centrally and fix the package at source.
 
+![The SMB negotiation and dialect ladder from 3.1.1 down to SMB1, why SMB1 stays off and how the feature toggle rewrites the Workstation dependency list, and the Method D split between Group Policy drive maps, an Intune platform script, a SYSTEM Remediation and fixing the package at source](diagrams/sop-win-003-3.svg)
+
 ## Verify
 
 | Check | Pass |

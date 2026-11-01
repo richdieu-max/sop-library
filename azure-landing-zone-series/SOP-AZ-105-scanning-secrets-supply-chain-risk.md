@@ -59,6 +59,8 @@ Cleaning the living room (the current branch) does not empty the attic (every ol
 4. **Prove it from outside.** From a machine outside the private network open the vault › **Objects › Secrets**. The portal should refuse to list secrets. That refusal is the evidence that a stolen portal session alone cannot read them.
 5. **Hash and report.** Hash every output into `MANIFEST.sha256` before anyone reads the results. Report counts by severity, the triage result for each secret hit, and the fix path for each CVE (owner role and target date).
 
+![gitleaks, Trivy and Dependabot outputs feed one triage where a real secret is rotated and its history purged, a non-secret is recorded, and every CVE gets an owner role and target date, before the outputs are hashed and reported; side panels cover the written authorization and mirror clone, the CycloneDX licence inventory and the read-only vault checks ending in the outside-in refusal](diagrams/sop-az-105-2.svg)
+
 ## Verify
 
 | Check | Pass |

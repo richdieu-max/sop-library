@@ -1,0 +1,177 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 800" width="1280" height="800" role="img" aria-label="What actually reaches a VM: paper rules versus the effective view">
+<title>What actually reaches a VM: paper rules versus the effective view</title>
+<defs><marker id="m605E5C" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#605E5C"/></marker><marker id="m107C10" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#107C10"/></marker><marker id="mC19C00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#C19C00"/></marker></defs>
+<rect width="1280" height="800" fill="#fff"/>
+<rect x="0" y="0" width="1280" height="6" fill="#0078D4"/>
+<text x="32" y="48" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="600" fill="#201F1E">What actually reaches a VM: paper rules versus the effective view</text>
+<text x="32" y="72" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#605E5C">Azure evaluates inbound traffic subnet NSG then NIC NSG, lowest priority number first, first match wins; outbound runs the other way and then follows the effective route table.</text>
+<rect x="32" y="100" width="1216" height="300" rx="6" fill="#FAF9F8" stroke="#C8C6C4" stroke-width="1.4"/>
+<g transform="translate(42,108) scale(0.5000)"><rect x="6" y="6" width="36" height="36" rx="8" fill="#0078D4"/><path d="M24 13 v16 M17 23 l7 7 7-7" stroke="#fff" stroke-width="3.4" fill="none"/><path d="M15 35 h18" stroke="#fff" stroke-width="3"/></g>
+<text x="74" y="125" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#201F1E" text-anchor="start">Inbound to the app VM</text>
+<text x="1236" y="125" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="end">evaluated subnet NSG → NIC NSG; first matching rule wins</text>
+<rect x="49.5" y="148" width="150" height="100" rx="5" fill="#000" opacity="0.06"/>
+<rect x="48" y="146" width="150" height="100" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="48" y="146" width="4" height="100" rx="0" fill="#605E5C"/>
+<g transform="translate(64,156) scale(0.5000)"><circle cx="24" cy="24" r="19" fill="#8A8886"/><ellipse cx="24" cy="24" rx="8" ry="19" fill="none" stroke="#fff" stroke-width="2"/><path d="M5 24 h38 M9 14 h30 M9 34 h30" stroke="#fff" stroke-width="2"/></g>
+<text x="98" y="168" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Source</text>
+<text x="98" y="185" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Internet, hub</text>
+<text x="98" y="202" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">mgmt subnet,</text>
+<text x="98" y="219" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">gateway</text>
+<text x="98" y="236" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">subnet</text>
+<polyline points="198,192 236,192" fill="none" stroke="#605E5C" stroke-width="2" marker-end="url(#m605E5C)"/>
+<rect x="238" y="136" width="520" height="252" rx="6" fill="#fff" stroke="#C8C6C4" stroke-width="1.4"/>
+<g transform="translate(248,144) scale(0.5000)"><rect x="4" y="8" width="40" height="32" rx="2" fill="#A4262C"/><path d="M4 18.5 h40 M4 29 h40 M16 8 v10.5 M32 8 v10.5 M24 18.5 v10.5 M10 29 v11 M38 29 v11 M24 29 v11" stroke="#fff" stroke-width="2"/></g>
+<text x="280" y="161" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#201F1E" text-anchor="start">Subnet NSG on snet-app (rules in priority order)</text>
+<rect x="252" y="176" width="492" height="38" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="252" y="176" width="4" height="38" rx="0" fill="#107C10"/>
+<rect x="687.672976" y="186" width="46" height="20" rx="10" fill="#F2FAF2" stroke="#107C10" stroke-width="1"/>
+<text x="711" y="200" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#107C10" text-anchor="middle">Allow</text>
+<text x="270" y="198" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start"></text>
+<text x="258" y="200" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#107C10" text-anchor="start">100</text>
+<text x="336" y="200" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="start">Allow SSH 22</text>
+<text x="534" y="200" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">from hub mgmt subnet only</text>
+<rect x="252" y="218" width="492" height="38" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="252" y="218" width="4" height="38" rx="0" fill="#107C10"/>
+<rect x="687.672976" y="228" width="46" height="20" rx="10" fill="#F2FAF2" stroke="#107C10" stroke-width="1"/>
+<text x="711" y="242" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#107C10" text-anchor="middle">Allow</text>
+<text x="270" y="240" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start"></text>
+<text x="258" y="242" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#107C10" text-anchor="start">110</text>
+<text x="336" y="242" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="start">Allow app port</text>
+<text x="534" y="242" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">from gateway subnet only</text>
+<rect x="252" y="260" width="492" height="38" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="252" y="260" width="4" height="38" rx="0" fill="#A4262C"/>
+<rect x="691.6085439999999" y="270" width="42" height="20" rx="10" fill="#FFF8F8" stroke="#A4262C" stroke-width="1"/>
+<text x="713" y="284" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#A4262C" text-anchor="middle">Deny</text>
+<text x="270" y="282" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start"></text>
+<text x="258" y="284" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#A4262C" text-anchor="start">4000</text>
+<text x="336" y="284" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="start">Deny Internet inbound</text>
+<text x="534" y="284" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">explicit, above defaults</text>
+<rect x="252" y="302" width="492" height="38" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="252" y="302" width="4" height="38" rx="0" fill="#605E5C"/>
+<rect x="687.672976" y="312" width="46" height="20" rx="10" fill="#FAF9F8" stroke="#605E5C" stroke-width="1"/>
+<text x="711" y="326" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#605E5C" text-anchor="middle">Allow</text>
+<text x="270" y="324" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start"></text>
+<text x="258" y="326" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#605E5C" text-anchor="start">65000</text>
+<text x="336" y="326" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="start">AllowVnetInBound (default)</text>
+<text x="534" y="326" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">any VNet incl. peered hub</text>
+<rect x="252" y="344" width="492" height="38" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="252" y="344" width="4" height="38" rx="0" fill="#605E5C"/>
+<rect x="691.6085439999999" y="354" width="42" height="20" rx="10" fill="#FAF9F8" stroke="#605E5C" stroke-width="1"/>
+<text x="713" y="368" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#605E5C" text-anchor="middle">Deny</text>
+<text x="270" y="366" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start"></text>
+<text x="258" y="368" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#605E5C" text-anchor="start">65500</text>
+<text x="336" y="368" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="start">DenyAllInBound (default)</text>
+<text x="534" y="368" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">the floor, hit last</text>
+<polyline points="758,192 796,192" fill="none" stroke="#605E5C" stroke-width="2" marker-end="url(#m605E5C)"/>
+<rect x="799.5" y="148" width="190" height="100" rx="5" fill="#000" opacity="0.06"/>
+<rect x="798" y="146" width="190" height="100" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="798" y="146" width="4" height="100" rx="0" fill="#605E5C"/>
+<g transform="translate(814,156) scale(0.5000)"><rect x="3" y="14" width="16" height="20" rx="3" fill="#0078D4"/><rect x="29" y="14" width="16" height="20" rx="3" fill="#005A9E"/><path d="M19 24 h10" stroke="#605E5C" stroke-width="3"/><circle cx="24" cy="24" r="3" fill="#107C10"/></g>
+<rect x="936.997568" y="156" width="41" height="20" rx="10" fill="#FAF9F8" stroke="#605E5C" stroke-width="1"/>
+<text x="957" y="170" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#605E5C" text-anchor="middle">none</text>
+<text x="848" y="168" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">NIC NSG</text>
+<text x="848" y="185" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">none on this NIC, so</text>
+<text x="848" y="202" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">the subnet rules are</text>
+<text x="848" y="219" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">the whole story</text>
+<polyline points="988,192 1026,192" fill="none" stroke="#107C10" stroke-width="2" marker-end="url(#m107C10)"/>
+<rect x="1029.5" y="148" width="204" height="100" rx="5" fill="#000" opacity="0.06"/>
+<rect x="1028" y="146" width="204" height="100" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="1028" y="146" width="4" height="100" rx="0" fill="#5C2D91"/>
+<g transform="translate(1044,156) scale(0.5000)"><rect x="4" y="7" width="40" height="27" rx="2" fill="#0078D4"/><rect x="7" y="10" width="34" height="21" fill="#fff"/><ellipse cx="24" cy="15" rx="8" ry="3" fill="#005A9E"/><path d="M16 15 v10 a8 3 0 0 0 16 0 v-10" fill="#005A9E"/><rect x="18" y="34" width="12" height="5" fill="#005A9E"/><rect x="12" y="39" width="24" height="3" rx="1" fill="#005A9E"/></g>
+<rect x="1171.390152" y="156" width="51" height="20" rx="10" fill="#F2FAF2" stroke="#107C10" stroke-width="1"/>
+<text x="1197" y="170" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#107C10" text-anchor="middle">no PIP</text>
+<text x="1078" y="168" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">App VM</text>
+<text x="1078" y="185" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">no public IP, so nothing</text>
+<text x="1078" y="202" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">arrives from the Internet</text>
+<text x="1078" y="219" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">to begin with</text>
+<rect x="798" y="258" width="434" height="126" rx="6" fill="#EFF6FC" stroke="#0078D4" stroke-width="1.4" stroke-dasharray="6 4"/>
+<g transform="translate(808,266) scale(0.5000)"><rect x="8" y="4" width="32" height="40" rx="3" fill="#0078D4"/><path d="M14 14 h20 M14 21 h20 M14 28 h14" stroke="#fff" stroke-width="2.4"/><circle cx="33" cy="36" r="7" fill="#107C10"/><path d="M30 36 l2 2 4-4" stroke="#fff" stroke-width="2" fill="none"/></g>
+<text x="840" y="283" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#0078D4" text-anchor="start">Effective security rules = subnet + NIC, merged</text>
+<text x="812" y="304" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Read on the NIC under Help › Effective security rules. Azure computes</text>
+<text x="812" y="321" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">it only while the VM runs, so the review is scheduled with the VMs up.</text>
+<text x="812" y="338" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">That merged list, not the design diagram, is the evidence.</text>
+<rect x="32" y="416" width="1216" height="300" rx="6" fill="#FAF9F8" stroke="#C8C6C4" stroke-width="1.4"/>
+<g transform="translate(42,424) scale(0.5000)"><rect x="5" y="5" width="38" height="38" rx="5" fill="#0078D4"/><path d="M11 24 h26 M31 18 l6 6 -6 6 M17 18 l-6 6 6 6" stroke="#fff" stroke-width="3" fill="none"/><rect x="20" y="10" width="8" height="8" rx="1" fill="#fff"/></g>
+<text x="74" y="441" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#201F1E" text-anchor="start">Outbound from the app VM</text>
+<text x="1236" y="441" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="end">NIC NSG → subnet NSG, then the effective route decides the exit</text>
+<rect x="49.5" y="464" width="150" height="92" rx="5" fill="#000" opacity="0.06"/>
+<rect x="48" y="462" width="150" height="92" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="48" y="462" width="4" height="92" rx="0" fill="#5C2D91"/>
+<g transform="translate(64,472) scale(0.5000)"><rect x="4" y="7" width="40" height="27" rx="2" fill="#0078D4"/><rect x="7" y="10" width="34" height="21" fill="#fff"/><ellipse cx="24" cy="15" rx="8" ry="3" fill="#005A9E"/><path d="M16 15 v10 a8 3 0 0 0 16 0 v-10" fill="#005A9E"/><rect x="18" y="34" width="12" height="5" fill="#005A9E"/><rect x="12" y="39" width="24" height="3" rx="1" fill="#005A9E"/></g>
+<text x="98" y="484" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">App VM</text>
+<text x="98" y="501" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">service calls</text>
+<text x="98" y="518" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">out on 443</text>
+<polyline points="198,508 236,508" fill="none" stroke="#605E5C" stroke-width="2" marker-end="url(#m605E5C)"/>
+<rect x="238" y="452" width="330" height="252" rx="6" fill="#fff" stroke="#C8C6C4" stroke-width="1.4"/>
+<g transform="translate(248,460) scale(0.5000)"><rect x="4" y="8" width="40" height="32" rx="2" fill="#A4262C"/><path d="M4 18.5 h40 M4 29 h40 M16 8 v10.5 M32 8 v10.5 M24 18.5 v10.5 M10 29 v11 M38 29 v11 M24 29 v11" stroke="#fff" stroke-width="2"/></g>
+<text x="280" y="477" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#201F1E" text-anchor="start">Subnet NSG, outbound</text>
+<rect x="252" y="492" width="302" height="38" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="252" y="492" width="4" height="38" rx="0" fill="#107C10"/>
+<rect x="497.672976" y="502" width="46" height="20" rx="10" fill="#F2FAF2" stroke="#107C10" stroke-width="1"/>
+<text x="521" y="516" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#107C10" text-anchor="middle">Allow</text>
+<text x="270" y="514" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start"></text>
+<text x="258" y="516" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#107C10" text-anchor="start">200</text>
+<text x="306" y="516" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="start">Allow 443 to AzureCloud</text>
+<rect x="252" y="534" width="302" height="38" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="252" y="534" width="4" height="38" rx="0" fill="#A4262C"/>
+<rect x="501.608544" y="544" width="42" height="20" rx="10" fill="#FFF8F8" stroke="#A4262C" stroke-width="1"/>
+<text x="523" y="558" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#A4262C" text-anchor="middle">Deny</text>
+<text x="270" y="556" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start"></text>
+<text x="258" y="558" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#A4262C" text-anchor="start">4000</text>
+<text x="306" y="558" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="start">Deny all outbound</text>
+<rect x="252" y="576" width="302" height="38" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="252" y="576" width="4" height="38" rx="0" fill="#605E5C"/>
+<rect x="497.672976" y="586" width="46" height="20" rx="10" fill="#FAF9F8" stroke="#605E5C" stroke-width="1"/>
+<text x="521" y="600" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#605E5C" text-anchor="middle">Allow</text>
+<text x="270" y="598" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start"></text>
+<text x="258" y="600" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#605E5C" text-anchor="start">65000</text>
+<text x="306" y="600" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="start">AllowVnetOutBound (default)</text>
+<rect x="252" y="618" width="302" height="38" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="252" y="618" width="4" height="38" rx="0" fill="#605E5C"/>
+<rect x="497.672976" y="628" width="46" height="20" rx="10" fill="#FAF9F8" stroke="#605E5C" stroke-width="1"/>
+<text x="521" y="642" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#605E5C" text-anchor="middle">Allow</text>
+<text x="270" y="640" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start"></text>
+<text x="258" y="642" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#605E5C" text-anchor="start">65001</text>
+<text x="306" y="642" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="start">AllowInternetOut (default)</text>
+<text x="252" y="672" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">The explicit deny at 4000 masks the default</text>
+<text x="252" y="687" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">AllowInternetOutBound at 65001.</text>
+<polyline points="568,508 606,508" fill="none" stroke="#605E5C" stroke-width="2" marker-end="url(#m605E5C)"/>
+<rect x="608" y="452" width="330" height="252" rx="6" fill="#fff" stroke="#C8C6C4" stroke-width="1.4"/>
+<g transform="translate(618,460) scale(0.5000)"><rect x="16" y="3" width="16" height="12" rx="2" fill="#0078D4"/><rect x="3" y="33" width="14" height="12" rx="2" fill="#0078D4"/><rect x="17" y="33" width="14" height="12" rx="2" fill="#0078D4"/><rect x="31" y="33" width="14" height="12" rx="2" fill="#0078D4"/><path d="M24 15 v9 M10 24 h28 M10 24 v9 M24 24 v9 M38 24 v9" stroke="#005A9E" stroke-width="2" fill="none"/></g>
+<text x="650" y="477" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#201F1E" text-anchor="start">Effective routes on the NIC</text>
+<rect x="622" y="492" width="302" height="58" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="622" y="492" width="4" height="58" rx="0" fill="#0078D4"/>
+<text x="640" y="514" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="start">Virtual network</text>
+<text x="640" y="530" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">stays in the spoke</text>
+<text x="916" y="512" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="11" font-weight="600" fill="#0078D4" text-anchor="end">10.2.0.0/16</text>
+<rect x="622" y="556" width="302" height="58" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="622" y="556" width="4" height="58" rx="0" fill="#0078D4"/>
+<text x="640" y="578" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="start">VNet peering</text>
+<text x="640" y="594" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">to the hub only, never another stamp</text>
+<text x="916" y="576" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="11" font-weight="600" fill="#0078D4" text-anchor="end">10.0.0.0/16</text>
+<rect x="622" y="620" width="302" height="58" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="622" y="620" width="4" height="58" rx="0" fill="#C19C00"/>
+<text x="640" y="642" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="start">Internet (via NAT gateway)</text>
+<text x="640" y="658" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">fixed outbound IP; finding if a firewall was designed</text>
+<text x="916" y="640" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="11" font-weight="600" fill="#C19C00" text-anchor="end">0.0.0.0/0</text>
+<polyline points="938,508 976,508" fill="none" stroke="#C19C00" stroke-width="2" marker-end="url(#mC19C00)"/>
+<rect x="979.5" y="464" width="254" height="100" rx="5" fill="#000" opacity="0.06"/>
+<rect x="978" y="462" width="254" height="100" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="978" y="462" width="4" height="100" rx="0" fill="#C19C00"/>
+<g transform="translate(994,472) scale(0.5000)"><path d="M14 38 a9 9 0 0 1 -1 -18 a12 12 0 0 1 23 -3 a9 9 0 0 1 -1 21 Z" fill="#0078D4"/></g>
+<text x="1028" y="484" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Exit point</text>
+<text x="1028" y="501" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">NAT gateway (fixed IP) or, if the</text>
+<text x="1028" y="518" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">design says so, a firewall with an</text>
+<text x="1028" y="535" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">FQDN allow-list</text>
+<rect x="978" y="574" width="254" height="130" rx="6" fill="#FFF8F8" stroke="#A4262C" stroke-width="1.4" stroke-dasharray="6 4"/>
+<g transform="translate(988,582) scale(0.5000)"><path d="M24 4 L45 42 H3 Z" fill="#A4262C"/><rect x="22" y="17" width="4" height="13" fill="#fff"/><circle cx="24" cy="35" r="2.5" fill="#fff"/></g>
+<text x="1020" y="599" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#A4262C" text-anchor="start">Finding, not a pass</text>
+<text x="992" y="620" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Outbound 443 to any host is how stolen</text>
+<text x="992" y="637" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">data leaves. No FQDN allow-list: record</text>
+<text x="992" y="654" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">it with the accepted-risk decision and</text>
+<text x="992" y="671" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">owner.</text>
+<text x="32" y="754" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">Pass: no Allow rule with source Internet, Any or 0.0.0.0/0; public IPs only on gateways, NAT and Bastion; stamps peer only with the hub. Controls: SC-7, CM-6, CA-7.</text>
+<line x1="32" y1="766" x2="1248" y2="766" stroke="#E1DFDD"/>
+<text x="32" y="786" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#8A8886">Generalised design: no client names, tenant IDs, addresses or data. Icons are simplified originals, not Microsoft artwork.</text>
+<text x="1248" y="786" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#8A8886" text-anchor="end">Rich Dieu · github.com/richdieu-max</text>
+</svg>

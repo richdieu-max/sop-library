@@ -61,6 +61,8 @@ Skip `kext.mobileconfig` (legacy kernel extension).
 
 For each file: Intune → **Devices → macOS → Configuration → Create → Templates → Custom** → name it (`macOS - Defender - <purpose>`), **Deployment channel: Device channel**, upload the file, assign to the Mac group.
 
+![Delivery order of seven permission profiles, the onboarding profile and the Required app, then a table of each profile file, the macOS permission it grants, the Defender capability it unlocks and what fails without it, with the three common failure modes](diagrams/sop-em-001-2.svg)
+
 ### 5. Create the onboarding profile
 
 Defender portal → **Settings → Endpoints → Onboarding**: OS **macOS**, connectivity **Streamlined**, method **Mobile Device Management / Microsoft Intune** → download. In the `intune` folder, upload `WindowsDefenderATPOnboarding.xml` as an eighth custom profile, device channel, same group. (The file name says Windows for historical reasons; it is the macOS package.)
@@ -79,6 +81,8 @@ Intune → **Apps → macOS → Create → Microsoft Defender for Endpoint (macO
 | On the Mac | System Settings → Device Management lists the eight profiles; the Defender menu-bar icon reports Protected |
 
 Optional: run Microsoft's EICAR detection test.
+
+![Six-rung verification ladder from connector and group readiness through app Installed, eight profiles Succeeded and the Mac's own view to the definitive Defender portal listing and the optional EICAR test, each rung paired with the symptom that stops it and the fix](diagrams/sop-em-001-3.svg)
 
 ## Troubleshooting
 

@@ -62,6 +62,8 @@ Scan, remediate, migrate and cut over Windows file shares into Teams channels wi
 
 7. **Avoid.** Robocopy into a synced folder loses authors and timestamps, is throttled, has no report and can strand files on the server's disk. Only for a few gigabytes when every tool is blocked.
 
+![Side-by-side comparison of Migration Manager, SPMT desktop, SPMT PowerShell and OneDrive sync on scale, role and footprint, evidence, throttling, what is kept and delta passes, with a verdict for each and the order to pick in](diagrams/sop-m365-001-3.svg)
+
 ### Pilot and cutover
 
 8. **Pilot, then bulk.** Pilot one share with a small team (edit, co-author, links, sync) and fix what breaks. Copy the bulk while users work, then run deltas until one fits the window.
@@ -73,6 +75,8 @@ Scan, remediate, migrate and cut over Windows file shares into Teams channels wi
     ```
 
 ![Eight-stage lifecycle: inventory, scan, remediate (repeat until clean), pilot, bulk copy, delta passes (repeat until one fits), cutover, retire share, with the cutover runbook from T-5 days to after](diagrams/sop-m365-001-2.svg)
+
+![The six-step remediate loop from scan through cleanup with -WhatIf, owner review, a quarantined run and re-scan until READY TO MIGRATE, with a table of each scan finding, why SharePoint rejects it, the fix and who owns it, and the evidence the cleanup leaves](diagrams/sop-m365-001-4.svg)
 
 ## Verify
 

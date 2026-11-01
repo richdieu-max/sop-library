@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 740" width="1280" height="740" role="img" aria-label="Mover: what moves by itself, what stays, and what people must review">
+<title>Mover: what moves by itself, what stays, and what people must review</title>
+<defs><marker id="m605E5C" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#605E5C"/></marker></defs>
+<rect width="1280" height="740" fill="#fff"/>
+<rect x="0" y="0" width="1280" height="6" fill="#0078D4"/>
+<text x="32" y="48" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="600" fill="#201F1E">Mover: what moves by itself, what stays, and what people must review</text>
+<text x="32" y="72" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#605E5C">A job change flows from HR as new attributes; birthright access follows them automatically, while requested access and roles only move when a person decides.</text>
+<rect x="32" y="100" width="1216" height="118" rx="6" fill="#FAF9F8" stroke="#C8C6C4" stroke-width="1.4"/>
+<g transform="translate(42,108) scale(0.5000)"><rect x="5" y="5" width="38" height="38" rx="5" fill="#0078D4"/><path d="M11 24 h26 M31 18 l6 6 -6 6 M17 18 l-6 6 6 6" stroke="#fff" stroke-width="3" fill="none"/><rect x="20" y="10" width="8" height="8" rx="1" fill="#fff"/></g>
+<text x="74" y="125" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#201F1E" text-anchor="start">What a role change sets in motion</text>
+<text x="1236" y="125" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="end">WF-M1 job change workflow</text>
+<rect x="48" y="140" width="280" height="64" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="48" y="140" width="4" height="64" rx="0" fill="#008272"/>
+<g transform="translate(64,150) scale(0.5000)"><rect x="5" y="8" width="38" height="32" rx="3" fill="#5C2D91"/><circle cx="17" cy="21" r="5" fill="#fff"/><path d="M9 34 q8-12 16 0Z" fill="#fff"/><path d="M28 18 h10 M28 25 h10 M28 32 h7" stroke="#fff" stroke-width="2.4"/></g>
+<circle cx="308" cy="156" r="11" fill="#008272"/>
+<text x="308" y="160" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">1</text>
+<text x="98" y="162" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">HR records the change</text>
+<text x="98" y="178" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">new department, jobTitle, manager</text>
+<polyline points="328,172 344,172" fill="none" stroke="#605E5C" stroke-width="2" marker-end="url(#m605E5C)"/>
+<rect x="344" y="140" width="280" height="64" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="344" y="140" width="4" height="64" rx="0" fill="#0078D4"/>
+<g transform="translate(360,150) scale(0.5000)"><path d="M24 4 L44 24 L24 44 L4 24 Z" fill="#0078D4"/><circle cx="24" cy="19" r="6" fill="#fff"/><path d="M13 34 q11-13 22 0" fill="#fff"/></g>
+<circle cx="604" cy="156" r="11" fill="#0078D4"/>
+<text x="604" y="160" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">2</text>
+<text x="394" y="162" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Attributes flow to Entra ID</text>
+<text x="394" y="178" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">raise it with HR if they have not; never</text>
+<text x="394" y="194" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">hand-edit</text>
+<polyline points="624,172 640,172" fill="none" stroke="#605E5C" stroke-width="2" marker-end="url(#m605E5C)"/>
+<rect x="640" y="140" width="280" height="64" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="640" y="140" width="4" height="64" rx="0" fill="#5C2D91"/>
+<g transform="translate(656,150) scale(0.5000)"><rect x="5" y="5" width="38" height="38" rx="5" fill="#5C2D91"/><path d="M14 20 a11 11 0 0 1 19 -4" fill="none" stroke="#fff" stroke-width="3"/><path d="M34 28 a11 11 0 0 1 -19 4" fill="none" stroke="#fff" stroke-width="3"/><path d="M30 11 l4 6 -7 1 M18 37 l-4 -6 7 -1" fill="#fff" stroke="#fff" stroke-width="2"/></g>
+<circle cx="900" cy="156" r="11" fill="#5C2D91"/>
+<text x="900" y="160" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">3</text>
+<text x="690" y="162" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">WF-M1 fires</text>
+<text x="690" y="178" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">emails both managers; opens a</text>
+<text x="690" y="194" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">ServiceNow review task</text>
+<polyline points="920,172 936,172" fill="none" stroke="#605E5C" stroke-width="2" marker-end="url(#m605E5C)"/>
+<rect x="936" y="140" width="280" height="64" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="936" y="140" width="4" height="64" rx="0" fill="#C19C00"/>
+<g transform="translate(952,150) scale(0.5000)"><rect x="4" y="6" width="40" height="36" rx="3" fill="#5C2D91"/><path d="M10 15 l3 3 5-6 M10 26 l3 3 5-6 M10 37 l3 3 5-6" stroke="#fff" stroke-width="2.2" fill="none"/><path d="M22 16 h16 M22 27 h16 M22 38 h12" stroke="#fff" stroke-width="2.4"/></g>
+<circle cx="1196" cy="156" r="11" fill="#C19C00"/>
+<text x="1196" y="160" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">4</text>
+<text x="986" y="162" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Check and review</text>
+<text x="986" y="178" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">old group gone, new one present;</text>
+<text x="986" y="194" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">packages and roles reviewed</text>
+<rect x="32" y="236" width="392" height="352" rx="6" fill="#F2FAF2" stroke="#107C10" stroke-width="1.4"/>
+<g transform="translate(42,244) scale(0.5000)"><rect x="5" y="5" width="38" height="38" rx="5" fill="#107C10"/><path d="M33 17 a11 11 0 1 0 2 11" fill="none" stroke="#fff" stroke-width="3.2"/><path d="M28 12 h8 v8" fill="none" stroke="#fff" stroke-width="3.2"/></g>
+<text x="74" y="261" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#107C10" text-anchor="start">Moves by itself</text>
+<text x="412" y="261" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="end">birthright</text>
+<rect x="48" y="280" width="360" height="64" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="48" y="280" width="4" height="64" rx="0" fill="#107C10"/>
+<text x="66" y="302" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Department dynamic group</text>
+<text x="66" y="319" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">GRP-Dept-&lt;old&gt; drops the user, GRP-Dept-&lt;new&gt; picks</text>
+<text x="66" y="336" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">them up on the new attribute</text>
+<rect x="48" y="356" width="360" height="64" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="48" y="356" width="4" height="64" rx="0" fill="#107C10"/>
+<text x="66" y="378" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Department site and Teams</text>
+<text x="66" y="395" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">granted through the department group, so they follow the</text>
+<text x="66" y="412" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">group change</text>
+<rect x="48" y="432" width="360" height="64" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="48" y="432" width="4" height="64" rx="0" fill="#107C10"/>
+<text x="66" y="454" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Manager for approvals</text>
+<text x="66" y="471" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">new manager attribute drives future approvals and TAP</text>
+<text x="66" y="488" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">delivery</text>
+<rect x="48" y="508" width="360" height="64" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="48" y="508" width="4" height="64" rx="0" fill="#107C10"/>
+<text x="66" y="530" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Birthright of the old role</text>
+<text x="66" y="547" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">disappears when the attributes change; nothing to revoke by</text>
+<text x="66" y="564" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">hand</text>
+<rect x="444" y="236" width="392" height="352" rx="6" fill="#FAF9F8" stroke="#C8C6C4" stroke-width="1.4"/>
+<g transform="translate(454,244) scale(0.5000)"><path d="M15 21 v-6 a9 9 0 0 1 18 0 v6" fill="none" stroke="#605E5C" stroke-width="4"/><rect x="10" y="21" width="28" height="22" rx="3" fill="#605E5C"/><circle cx="24" cy="31" r="3" fill="#fff"/><rect x="23" y="31" width="2" height="6" fill="#fff"/></g>
+<text x="486" y="261" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#201F1E" text-anchor="start">Stays as it is</text>
+<text x="824" y="261" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="end">same person, same record</text>
+<rect x="460" y="280" width="360" height="64" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="460" y="280" width="4" height="64" rx="0" fill="#605E5C"/>
+<text x="478" y="302" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Account and employeeId</text>
+<text x="478" y="319" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">one account for life; the HR number is never reused</text>
+<rect x="460" y="356" width="360" height="64" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="460" y="356" width="4" height="64" rx="0" fill="#605E5C"/>
+<text x="478" y="378" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Standard licence</text>
+<text x="478" y="395" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">inherited from GRP-AllEmployees; employeeType unchanged</text>
+<rect x="460" y="432" width="360" height="64" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="460" y="432" width="4" height="64" rx="0" fill="#605E5C"/>
+<text x="478" y="454" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Mailbox and Teams</text>
+<text x="478" y="471" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">company-wide birthright: email and Teams continue</text>
+<text x="478" y="488" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">uninterrupted</text>
+<rect x="460" y="508" width="360" height="64" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="460" y="508" width="4" height="64" rx="0" fill="#605E5C"/>
+<text x="478" y="530" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">WF-M1 changes nothing itself</text>
+<text x="478" y="547" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">it emails both managers and opens the review task; removal</text>
+<text x="478" y="564" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">is a human decision</text>
+<rect x="856" y="236" width="392" height="352" rx="6" fill="#FFF9E6" stroke="#C19C00" stroke-width="1.4"/>
+<g transform="translate(866,244) scale(0.5000)"><path d="M24 4 L45 42 H3 Z" fill="#A4262C"/><rect x="22" y="17" width="4" height="13" fill="#fff"/><circle cx="24" cy="35" r="2.5" fill="#fff"/></g>
+<text x="898" y="261" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#C19C00" text-anchor="start">People must review</text>
+<text x="1236" y="261" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="end">requested access</text>
+<rect x="872" y="280" width="360" height="64" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="872" y="280" width="4" height="64" rx="0" fill="#C19C00"/>
+<text x="890" y="302" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Access packages</text>
+<text x="890" y="319" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">ask the old manager what to keep; remove the rest in</text>
+<text x="890" y="336" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">Entitlement management</text>
+<rect x="872" y="356" width="360" height="64" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="872" y="356" width="4" height="64" rx="0" fill="#C19C00"/>
+<text x="890" y="378" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Admin roles and PIM eligibility</text>
+<text x="890" y="395" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">Roles and administrators; roles never move automatically</text>
+<rect x="872" y="432" width="360" height="64" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="872" y="432" width="4" height="64" rx="0" fill="#A4262C"/>
+<text x="890" y="454" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Directly granted access</text>
+<text x="890" y="471" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">a site or group given outside birthright or a package keeps</text>
+<text x="890" y="488" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">following the user</text>
+<rect x="872" y="508" width="360" height="64" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="872" y="508" width="4" height="64" rx="0" fill="#C19C00"/>
+<text x="890" y="530" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Old group gone, new one present</text>
+<text x="890" y="547" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">confirm it in the user&#x27;s Groups rather than assume the rule</text>
+<text x="890" y="564" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">has caught up</text>
+<rect x="32" y="604" width="1216" height="68" rx="6" fill="#FFF8F8" stroke="#A4262C" stroke-width="1.4" stroke-dasharray="6 4"/>
+<g transform="translate(42,612) scale(0.5000)"><path d="M24 4 L45 42 H3 Z" fill="#A4262C"/><rect x="22" y="17" width="4" height="13" fill="#fff"/><circle cx="24" cy="35" r="2.5" fill="#fff"/></g>
+<text x="74" y="629" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#A4262C" text-anchor="start">Movers who keep old access are the most common AC-2 audit finding</text>
+<text x="46" y="650" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Grant sites only through birthright groups or access packages, so a change of department takes the old access away without a ticket.</text>
+<text x="32" y="694" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">Workflow WF-M1: job change → email both managers, ServiceNow review task. Controls: AC-2, AC-6, PS-5; ISO/IEC 27001 5.18, 6.5; SOX logical access.</text>
+<line x1="32" y1="706" x2="1248" y2="706" stroke="#E1DFDD"/>
+<text x="32" y="726" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#8A8886">Generalised design: no client names, tenant IDs, addresses or data. Icons are simplified originals, not Microsoft artwork.</text>
+<text x="1248" y="726" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#8A8886" text-anchor="end">Rich Dieu · github.com/richdieu-max</text>
+</svg>

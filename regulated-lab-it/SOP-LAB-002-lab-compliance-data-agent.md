@@ -32,6 +32,8 @@ Choosing a method: 1–3 PCs with hands on the keyboard use **A**; 1–3 remote 
 1. **Console first.** Sign in to the web console; under **Systems** record the target System's name and server/port. Under **Workstations › Add** enter the hostname exactly as Windows reports it (`hostname`) plus System, lab, owner and purpose. Save, run a **System Reload** if your environment needs it, and screenshot the entry. Hostname mismatches (typo, old name after reimage, NetBIOS differing from DNS) are the most common reason an agent never connects.
 2. **Pre-flight.** Before the window, run `Test-AgentPrereqs.ps1` on the workstation: admin rights, time source, DNS resolution, `Test-NetConnection` to the port, free disk and pending reboot.
 
+![Sequence from the administrator through the web console, the workstation agent service and the compliance server: registration by exact hostname, pre-flight, checksum-verified install, the Connections entry, the TLS connection checked against the registration, the workstation listed with a current last contact, and a test event captured and signed, with the common failure causes and the rule never to delete the agent queue](diagrams/sop-lab-002-2.svg)
+
 ### Method A · Interactive
 
 3. **Install.** Copy the MSI to `C:\Install\<agent>\`, check `Get-FileHash .\<agent>Setup.msi -Algorithm SHA256` against the repository, and run `msiexec /i <agent>Setup.msi` from an elevated prompt. Supply the service account if prompted.
@@ -67,6 +69,8 @@ sc.exe failure $ServiceName reset= 86400 actions= restart/60000/restart/60000// 
 
 11. **Assess and test.** Read the release notes with Quality or the CSV lead: does it touch data capture, signatures or audit trail; must server and agent versions match; do existing OQ scripts cover it? Pass it on a test system, then get the change approved and the window booked.
 12. **Deploy.** Confirm the package checksum; confirm the agent queue is empty and the console's last contact is current; stop the service if the vendor requires; run the hotfix (`msiexec /p` for an .msp); start the service; confirm Connections, console visibility and the new version. In a test batch, create a file in a monitored folder, watch the event arrive and sign it with a test account.
+
+![Methods A to D side by side with how each installs, the evidence it leaves and its pitfall, then the six-step hotfix path from assessment with Quality to a signed test event, and the five-step rollback from stopping the service to recording the reason](diagrams/sop-lab-002-3.svg)
 
 ## Verify
 

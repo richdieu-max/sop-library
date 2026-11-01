@@ -50,9 +50,13 @@ The account follows the person, not the ticket. If HR and the directory disagree
 3. **Pre-hire check.** Verify the HR-created account (never create a second one): attributes populated, dynamic groups listed, license shows **Inherited**. Leave it disabled until the start date unless pre-hire access is approved.
 4. **Day one.** Enable the account, then **Authentication methods › Add authentication method › Temporary Access Pass**, 8 hours, one-time use. Give it to the manager by phone or in person, never by email. The starter registers Authenticator or a passkey at `https://aka.ms/mysecurityinfo`, then signs in to Windows (SOP-EM-004). Record that a pass was issued, not its value.
 
+![Joiner sequence from the HR hire record through account creation, dynamic groups and inherited licensing, the pre-hire check, day-one enablement, a one-time Temporary Access Pass handed to the manager, and the starter's first sign-in and MFA registration](diagrams/sop-id-002-3.svg)
+
 ### Mover
 
 5. **Role change.** Confirm the new `department` and `jobTitle` have flowed (raise it with HR if not). Check old group gone, new one present. In **Entitlement management › Access packages**, ask the old manager what to keep and remove the rest. Check **Roles and administrators** and PIM eligibility: roles never move automatically. Movers who keep old access are the most common AC-2 audit finding.
+
+![What a role change sets in motion, then three columns: birthright access that moves by itself with the attributes, what stays with the person, and the requested access, roles and directly granted access that people must review](diagrams/sop-id-002-4.svg)
 
 ### Leaver
 

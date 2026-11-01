@@ -39,6 +39,8 @@ The router relays the printer's DHCP broadcast (`ip helper-address`), stamping i
 5. **Replicate.** If the scope is in a failover relationship, right-click the scope › **Replicate Scope**. Reservations are not synchronised to the partner automatically.
 6. **Make the printer ask again.** Power-cycle it (a device only runs DORA when it boots, renews or its lease is rejected). Within a minute 192.0.2.60 shows the new MAC with the reservation icon, and the configuration label reports 192.0.2.60 with the correct mask and gateway.
 
+![Sequence of the printer's DHCP discover relayed by the router with giaddr to the DHCP server, the reservation lookup by MAC that returns 192.0.2.60 instead of a pool address, the offer, request and acknowledgement, with the audit log event IDs 10 to 15 and why a replacement printer with a new MAC takes a pool address](diagrams/sop-lbl-002-3.svg)
+
 ### Method B · DhcpServer PowerShell template
 
 7. **Run `Set-PrinterReservation.ps1`.** It inspects reservations and leases for both the IP and the MAC (stage 0), exports the scope and leases to XML (1), removes a reservation or lease binding the IP to another MAC and any pool lease of the new MAC (2), adds the reservation with type Both and replicates to the failover partner (3), and writes JSON evidence (4). Run with `-WhatIf` first, then again without it once the output matches the plan, then power-cycle the printer.
@@ -72,6 +74,8 @@ The router relays the printer's DHCP broadcast (`ip helper-address`), stamping i
 10. **Create the port and queue.** `New-LabelPrinterQueue.ps1` (elevated, on the print / BarTender server) tests TCP 9100, adds port `IP_192.0.2.60` with `Add-PrinterPort`, checks the driver exists (it must match the printhead resolution) and creates the queue with `Add-Printer`, for example `LAB-PRN-01 (Large)` with driver `ZDesigner ZD621-203dpi ZPL`. GUI: **Print Management › Print Servers › &lt;server&gt; › Ports › Add Port… › Standard TCP/IP Port** (192.0.2.60, Generic Network Card, raw 9100), then **Printers › Add Printer… › Add a new printer using an existing port**.
 11. **Address change only?** Keep the queue: `Add-PrinterPort` for the new address, then `Set-Printer -Name '<queue>' -PortName 'IP_<new address>'`. The queue name, and every BarTender and LIMS reference, stays the same.
 12. **BarTender and LIMS.** Print a test format and confirm driver and stock under **File › Print › Document Properties**; confirm any Integration Builder or print-server service lists the queue. The LIMS administrator registers the exact queue name. Print one label from each with the lab present.
+
+![Chooser for the three addressing methods, A DHCP console, B PowerShell template or C static address when there is no DHCP, feeding the shared Method D path of port, queue, driver, BarTender and LIMS, the keep-the-queue rule for an address change, and the six layer checks from configuration label to labels](diagrams/sop-lbl-002-4.svg)
 
 ## Verify
 

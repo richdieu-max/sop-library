@@ -32,6 +32,8 @@ Veeam Backup for Microsoft Azure writes to **Azure Blob storage repositories**, 
 | 2 Important | Application VMs | 4 h | 4 h |
 | 3 Standard | Dev/test, file servers | 4 h | 8 h |
 
+![One day of recovery points per tier with RPO and RTO, the retention of each copy by location, and the numbered steps of the two recovery paths: primary region lost, and ransomware or corruption](diagrams/sop-az-005-2.svg)
+
 ## Security controls on the backups themselves
 
 - Encryption at rest with customer-managed keys in Key Vault (soft delete and purge protection on); Veeam job-level encryption; TLS 1.2+ in transit.

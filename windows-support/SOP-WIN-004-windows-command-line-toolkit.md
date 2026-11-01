@@ -116,6 +116,8 @@ Some CMD tools take a remote target: `shutdown /r /m \\PC-LAB-0001 /t 600 /c "Re
 
 Use **Devices › All devices › <device>** for device actions (**Restart**, **Sync**, **Collect diagnostics**), Remediations for scheduled or on-demand check-and-fix pairs (**Run remediation**), and platform scripts for one-off PowerShell. Example: a detection script exits 1 if `Spooler` is not running; the remediation stops the spooler, clears `%SystemRoot%\System32\spool\PRINTERS\*`, starts it, and writes the status as its last output line, which Intune shows in the report.
 
+![Nine task families with their CMD, PowerShell, remote and Intune forms and risk class, the print spooler restart done four ways, and the four reading rules before pressing Enter](diagrams/sop-win-004-3.svg)
+
 ## Verify
 
 | Check | Pass |

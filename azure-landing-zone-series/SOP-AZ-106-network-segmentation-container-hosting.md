@@ -37,6 +37,8 @@ An NSG rule on paper is a claim. What reaches a VM is decided by the rules on it
 4. **Score against CIS and Defender.** Open **Microsoft Defender for Cloud › Recommendations** and **Regulatory compliance › CIS Azure Foundations**. Copy every unhealthy item touching network, storage, identity or compute into the scoring sheet with severity and owner role.
 5. **Check the container host.** Run Docker Bench for Security (CIS Docker Benchmark) on the host. Confirm the daemon socket is not exposed over TCP, containers run as non-root, and images come from a trusted registry.
 
+![Inbound traffic evaluated through the subnet NSG rules in priority order then the NIC NSG, and outbound through the NSG then the effective route table to the NAT gateway, showing why the merged effective view on a running VM is the evidence](diagrams/sop-az-106-2.svg)
+
 `SOP-06-network-review.ps1` collects steps 1 to 4 in one read-only pass, writing a numbered CSV or JSON file per check:
 
 ```powershell

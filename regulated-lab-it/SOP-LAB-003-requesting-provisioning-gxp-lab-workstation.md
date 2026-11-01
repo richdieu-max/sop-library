@@ -66,6 +66,8 @@ LTSC editions get security and quality updates only, so no feature update forces
 
 9. **Additions to Method A.** Agree the qualification type with Quality / CSV (automated IQ from the build team, a manual IQ protocol, or both) and select it in the profile; attach the qualification prerequisites form; keep GxP defaults (screensaver lock, restricted access, minimal local admins, automatic-reboot window outside lab hours). The depot records the IQ; the lab or validation team runs OQ (and PQ/UAT if required) and resolves deviations; Quality approves the summary and the CMDB CI is marked **Qualified**. From then on, any change (one more tool, an extra admin, a different window collection) goes through **Request a change to my workstation**.
 
+![The six shared steps of a standard build, the three additions a qualified build attaches to the profile, the maintenance window and the depot build, the OQ, Quality approval and change control that follow delivery, and what IQ, OQ and PQ each prove](diagrams/sop-lab-003-3.svg)
+
 ### Methods C and D · Rebuild and decommission
 
 ![Decommission keeps the reversible steps first (replacement validated, data backed up and verified, cards and dongles returned, request raised) before identity cleanup and NIST SP 800-88 sanitization; a break-fix rebuild needs a linked incident, a backup, an updated profile and repeat checks](diagrams/sop-lab-003-2.svg)

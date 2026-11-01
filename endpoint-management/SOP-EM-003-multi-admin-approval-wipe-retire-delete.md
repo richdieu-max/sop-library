@@ -15,6 +15,8 @@ Multi Admin Approval (MAA) is a two-person rule: one initiator, one different ap
 | No native notification to approvers; requests expire after three days | Urgent wipes stall | Logic App or Power Automate flow on the Intune audit log that alerts the approver group |
 | A factory reset on the device itself | Outside Intune | Physical and device-level controls |
 
+![Bypass map: an admin with delegated permissions passes through the request, approve and Complete gate, while an app with application permissions, a retire or delete without its own policy and a factory reset on the device each go around it, paired with the compensating control for each and the notification-gap flow](diagrams/sop-em-003-2.svg)
+
 ## How it fits together
 
 ![One-time setup of approver group, role and access policies, then the request, notify, approve or reject, and complete flow](diagrams/sop-em-003-1.svg)
@@ -37,6 +39,8 @@ Multi Admin Approval (MAA) is a two-person rule: one initiator, one different ap
 ## Daily use
 
 The Wipe button now reads **Request for wipe**. The initiator adds a justification and submits; an approver reviews the device and the reason, adds notes, approves or rejects; after approval the initiator selects Complete and the wipe runs.
+
+![State machine of one request: Submitted by the initiator, Pending, then Approved or Rejected by a different admin or Expired after three days, and Completed by the initiator before the action runs; the same handshake that activates each policy, and the initiator, approver, timestamps and outcome the audit log keeps](diagrams/sop-em-003-3.svg)
 
 ## Verify
 

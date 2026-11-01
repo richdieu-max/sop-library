@@ -1,8 +1,8 @@
 # SOP Library · Field Guide Series
 
-**36 standard operating procedures · 54 architecture and flow diagrams · 12 technology families**
+**36 standard operating procedures · 109 architecture, flow and concept diagrams · 12 technology families**
 
-Runbooks from my work across Microsoft Azure, Entra ID, Intune, security operations, regulated (GxP) lab IT and Windows support. Every page reads directly on GitHub: what the procedure achieves, a diagram of how it fits together, prerequisites, the steps (portal first, then PowerShell / CLI, then at scale), how to verify it, how to roll it back (for procedures that change something), troubleshooting, and the controls it supports.
+Runbooks from my work across Microsoft Azure, Entra ID, Intune, security operations, regulated (GxP) lab IT and Windows support. Every page reads directly on GitHub: what the procedure achieves, two to four diagrams (how it fits together, the procedure or decision path, and the mechanism behind it), prerequisites, the steps (portal first, then PowerShell / CLI, then at scale), how to verify it, how to roll it back (for procedures that change something), troubleshooting, and the controls it supports.
 
 > **Sanitized reference edition.** Client names, hostnames, tenant IDs and ticket numbers are replaced with placeholders (Contoso, documentation IP ranges, sample change numbers). Microsoft's own built-in role, policy and app IDs are kept because the commands need them.
 
@@ -127,7 +127,7 @@ Runbooks from my work across Microsoft Azure, Entra ID, Intune, security operati
 
 | Chapter | What you get |
 |---|---|
-| Diagram | The architecture or flow, drawn so the steps make sense at a glance |
+| Diagrams | Two to four per runbook: the architecture, the procedure or decision path, and the mechanism it rests on (token flows, rule evaluation order, dependency chains, retention and SLA clocks, what-gets-copied matrices), each drawn to the same system |
 | Before you start | Roles, licensing, access and the risks worth knowing first |
 | Steps | The procedure in the portal or GUI, then as PowerShell / CLI / KQL, then at scale |
 | Verify, rollback, troubleshooting | Checks that prove the result, the safe way back where the procedure changes something (assessment and design runbooks have none to undo), symptom → cause → fix |
@@ -164,7 +164,7 @@ Runbooks from my work across Microsoft Azure, Entra ID, Intune, security operati
 
 ## License
 
-Text and diagrams are licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE): reuse and adapt them, including commercially, as long as you credit Rich Dieu and link back to this repository. Microsoft product names, policy IDs and built-in role IDs that appear in the commands belong to Microsoft.
+Text and the 109 diagrams are licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE): reuse and adapt them, including commercially, as long as you credit Rich Dieu and link back to this repository. Microsoft product names, policy IDs and built-in role IDs that appear in the commands belong to Microsoft.
 
 ---
 

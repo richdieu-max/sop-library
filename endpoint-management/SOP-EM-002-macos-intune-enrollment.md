@@ -51,6 +51,8 @@ Methods B (admin prerequisites) and D (readiness audit) support every path. Movi
 9. **Assign Macs.** In ABM set Default Device Assignment for Mac to the new server, or assign by serial or order number.
 10. **Profile.** Open the token, **Sync**, then **Profiles › Create profile › macOS**: Enroll with User Affinity, Setup Assistant with modern authentication, Locked enrollment Yes, Await final configuration Yes, hide unneeded Setup Assistant screens. Set it as the default profile. Assign Company Portal as Required to macOS users.
 
+![Sequence diagram of Automated Device Enrollment: the yearly token exchange between Intune and Apple Business Manager, then for each new Mac the Setup Assistant assignment check, modern authentication, the locked supervised MDM profile, the APNs wake-up, Company Portal as a required app and the user affinity sign-in, with the profile settings, the verification commands and the skip-enrollment fix alongside](diagrams/sop-em-002-2.svg)
+
 ### Method E · direct enrollment
 
 11. **Shared Macs.** Create an Apple Configurator enrollment profile without user affinity (**Devices › Enrollment › Apple › Apple Configurator › Profiles**), **Export profile** (`.mobileconfig`), install and approve it in **Device Management** on the Mac, then target it with device-based policies.

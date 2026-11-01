@@ -42,6 +42,8 @@ A Windows print queue binds three independent objects: the **driver** (installed
 5. **Record what the printer is.** Identify the physical unit at that IP. A model mismatch between driver name and device (ZT620 against ZD620) is the first red flag.
 6. **Confirm the head resolution** from any of: the configuration label (on a ZD620 hold **FEED + CANCEL** for two seconds; 8 dots/mm = 203 dpi, 12 = 300 dpi), the printer web page at `http://<printer-IP>`, or a `~HI` host identification query on port 9100, whose third reply field is dots per millimetre.
 
+![A 2.0 by 1.0 inch label drawn to scale through three driver and head pairings, a 300 dpi driver on a 300 dpi head at 100 percent, a 203 dpi driver on a 300 dpi head shrunk to 68 percent, and a 300 dpi driver on a 203 dpi head enlarged to 148 percent and cropped, then the 50 mm ruler test showing 590 dots as 50.0 mm on a 300 dpi head and 73.8 mm on a 203 dpi head](diagrams/sop-lbl-001-3.svg)
+
 ### Fix (pick one method; back up first)
 
 7. **Method A · Print Management GUI.** In `printmanagement.msc`, right-click the server › **Export printers to a file…** and screenshot the queue's Advanced and Ports tabs. Right-click **Drivers › Add Driver…**, x64, **Have Disk…**, browse to the `.inf`, choose the matching model and resolution in the ZPL variant (for example `ZD620-300dpi (ZPL)`, never EPL). Then queue **Properties › Advanced › Driver**, select the new driver and **Apply**. Confirm the Ports tab still ticks the same port and the queue name is unchanged.

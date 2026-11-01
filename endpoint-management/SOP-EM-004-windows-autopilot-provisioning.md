@@ -48,10 +48,14 @@ Get-WindowsAutopilotInfo -Online -GroupTag "STD" -Assign   # uploads via Graph
 2. **Import a CSV.** **Devices › Enrollment › Windows › Devices** (Windows Autopilot) › **Import**. Keep the header exactly as exported, no Excel re-save, no more than 500 rows. **Sync** and **Refresh**; each serial shows Profile status Not assigned until the group and profile exist. Correct a group tag on the record rather than re-importing.
 3. **Dynamic group.** Entra admin center › **Groups › All groups › New group**: Security, `Autopilot-STD`, **Dynamic Device**, rule `(device.devicePhysicalIds -any (_ -eq "[OrderID]:STD"))`. `Autopilot-All` uses `(device.devicePhysicalIDs -any (_ -startsWith "[ZTDid]"))`. **Validate Rules** against one known device and wait for membership.
 
+![The four Autopilot modes side by side with who is present, how long they take and what they need; Entra join as the standard and hybrid join as the documented exception; the AP-UserDriven-STD settings that matter; and the four-step path from hardware hash to an assigned profile and ESP through the ZTDId and group-tag dynamic groups](diagrams/sop-em-004-3.svg)
+
 ### Build
 
 4. **Deployment profile.** **Devices › Enrollment › Windows › Deployment profiles › Create profile › Windows PC**, `AP-UserDriven-STD`. Convert all targeted devices No (use it only in its own profile for an existing fleet). User-Driven, Microsoft Entra joined; hide licence terms, privacy settings and change-account options; account type Standard; allow pre-provisioned deployment Yes; name template `CTS-%SERIAL%`. Assign to `Autopilot-STD`.
 5. **Enrollment Status Page.** **Devices › Enrollment › Windows › Enrollment Status Page › Create**, `ESP-STD`. Show progress Yes, error after 60 minutes, custom message with the service desk number, log collection Yes, only OOBE devices Yes, block until installed Yes, allow reset on error Yes, allow use on error No. Block only on selected apps: Company Portal, Defender configuration, VPN client, one core LOB app. Assign to `Autopilot-STD`. Every blocking app is a single point of failure, and Win32 and legacy MSI installs can collide during ESP.
+
+![The three Enrollment Status Page phases, device preparation, device setup and account setup, with what each tracks and who is present in user-driven, pre-provisioned and self-deploying mode; the ESP-STD settings one by one; the four blocking apps as single points of failure with the 0x800705b4 handling; and how a build ends green or red](diagrams/sop-em-004-2.svg)
 
 ### Deploy
 

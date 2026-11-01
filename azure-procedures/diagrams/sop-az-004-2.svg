@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 700" width="1280" height="700" role="img" aria-label="Address plan and routing: four ranges that must never overlap">
+<title>Address plan and routing: four ranges that must never overlap</title>
+<defs><marker id="m0078D4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#0078D4"/></marker></defs>
+<rect width="1280" height="700" fill="#fff"/>
+<rect x="0" y="0" width="1280" height="6" fill="#0078D4"/>
+<text x="32" y="48" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="600" fill="#201F1E">Address plan and routing: four ranges that must never overlap</text>
+<text x="32" y="72" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#605E5C">The client pool sits outside the virtual network, the gateway has its own /27, and the only rule into the VM subnet is RDP from that pool.</text>
+<rect x="32" y="100" width="280" height="356" rx="6" fill="#FAF9F8" stroke="#C8C6C4" stroke-width="1.4"/>
+<g transform="translate(42,108) scale(0.5000)"><rect x="7" y="9" width="34" height="23" rx="2" fill="#0078D4"/><rect x="10" y="12" width="28" height="17" fill="#fff"/><path d="M3 35 h42 l-3 5 h-36 Z" fill="#005A9E"/></g>
+<text x="74" y="125" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#201F1E" text-anchor="start">Outside Azure</text>
+<text x="300" y="125" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="end">user&#x27;s own network</text>
+<rect x="49.5" y="142" width="248" height="86" rx="5" fill="#000" opacity="0.06"/>
+<rect x="48" y="140" width="248" height="86" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="48" y="140" width="4" height="86" rx="0" fill="#0078D4"/>
+<g transform="translate(64,150) scale(0.5000)"><rect x="7" y="9" width="34" height="23" rx="2" fill="#0078D4"/><rect x="10" y="12" width="28" height="17" fill="#fff"/><path d="M3 35 h42 l-3 5 h-36 Z" fill="#005A9E"/></g>
+<text x="98" y="162" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Admin laptop</text>
+<text x="98" y="179" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">Azure VPN Client; after</text>
+<text x="98" y="196" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">connecting it holds one address</text>
+<text x="98" y="213" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">from &lt;client-pool&gt;</text>
+<rect x="49.5" y="242" width="248" height="86" rx="5" fill="#000" opacity="0.06"/>
+<rect x="48" y="240" width="248" height="86" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="48" y="240" width="4" height="86" rx="0" fill="#605E5C"/>
+<g transform="translate(64,250) scale(0.5000)"><rect x="5" y="5" width="38" height="38" rx="8" fill="#605E5C"/><path d="M13 30 a14 14 0 0 1 22 0" stroke="#fff" stroke-width="3" fill="none"/><path d="M17 34 a8 8 0 0 1 14 0" stroke="#fff" stroke-width="3" fill="none"/><circle cx="24" cy="37" r="2.6" fill="#fff"/><path d="M24 11 v10 M19 16 l5 -5 5 5" stroke="#fff" stroke-width="2.6" fill="none"/></g>
+<rect x="215.249304" y="250" width="71" height="20" rx="10" fill="#FFF8F8" stroke="#A4262C" stroke-width="1"/>
+<text x="251" y="264" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#A4262C" text-anchor="middle">no overlap</text>
+<text x="98" y="262" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Home or office</text>
+<text x="98" y="279" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">Must not overlap any of the four</text>
+<text x="98" y="296" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">Azure ranges, or the laptop cannot</text>
+<text x="98" y="313" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">tell local from remote</text>
+<rect x="49.5" y="342" width="248" height="100" rx="5" fill="#000" opacity="0.06"/>
+<rect x="48" y="340" width="248" height="100" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="48" y="340" width="4" height="100" rx="0" fill="#0078D4"/>
+<g transform="translate(64,350) scale(0.5000)"><rect x="3" y="15" width="42" height="18" rx="3" fill="#0078D4"/><rect x="8" y="21" width="4" height="6" fill="#fff"/><rect x="15" y="21" width="4" height="6" fill="#fff"/><rect x="22" y="21" width="4" height="6" fill="#fff"/><rect x="29" y="21" width="4" height="6" fill="#fff"/><rect x="36" y="21" width="4" height="6" fill="#fff"/><circle cx="41" cy="24" r="1.8" fill="#DFF6DD"/></g>
+<rect x="231.80184" y="350" width="54" height="20" rx="10" fill="#EFF6FC" stroke="#0078D4" stroke-width="1"/>
+<text x="259" y="364" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#0078D4" text-anchor="middle">outside</text>
+<text x="98" y="362" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">&lt;client-pool&gt;  /24</text>
+<text x="98" y="379" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">Handed to connected laptops.</text>
+<text x="98" y="396" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">Outside the VNet on purpose:</text>
+<text x="98" y="413" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">Azure routes it through the</text>
+<text x="98" y="430" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">gateway, not the subnet</text>
+<polyline points="312,183 438,183" fill="none" stroke="#0078D4" stroke-width="2.2" marker-end="url(#m0078D4)"/>
+<rect x="318" y="162.0" width="115" height="16" rx="3" fill="#fff" opacity="0.92"/>
+<text x="375.0" y="174.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#0078D4" text-anchor="middle">OpenVPN · TLS 443</text>
+<text x="375" y="204" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="middle">to the gateway public IP</text>
+<rect x="440" y="100" width="808" height="356" rx="6" fill="#EFF6FC" stroke="#0078D4" stroke-width="1.4"/>
+<g transform="translate(450,108) scale(0.5000)"><path d="M14 38 a9 9 0 0 1 -1 -18 a12 12 0 0 1 23 -3 a9 9 0 0 1 -1 21 Z" fill="#0078D4"/></g>
+<text x="482" y="125" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#201F1E" text-anchor="start">&lt;vnet-range&gt;  /16  · the virtual network</text>
+<text x="1236" y="125" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="end">the gateway is the only internet-facing component</text>
+<rect x="456" y="140" width="290" height="300" rx="6" fill="#fff" stroke="#C8C6C4" stroke-width="1.4"/>
+<g transform="translate(466,148) scale(0.5000)"><rect x="16" y="3" width="16" height="12" rx="2" fill="#0078D4"/><rect x="3" y="33" width="14" height="12" rx="2" fill="#0078D4"/><rect x="17" y="33" width="14" height="12" rx="2" fill="#0078D4"/><rect x="31" y="33" width="14" height="12" rx="2" fill="#0078D4"/><path d="M24 15 v9 M10 24 h28 M10 24 v9 M24 24 v9 M38 24 v9" stroke="#005A9E" stroke-width="2" fill="none"/></g>
+<text x="498" y="165" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#201F1E" text-anchor="start">GatewaySubnet  /27</text>
+<text x="734" y="165" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="end">name is exact</text>
+<rect x="471.5" y="182" width="262" height="96" rx="5" fill="#000" opacity="0.06"/>
+<rect x="470" y="180" width="262" height="96" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="470" y="180" width="4" height="96" rx="0" fill="#0078D4"/>
+<g transform="translate(486,190) scale(0.5000)"><path d="M15 21 v-6 a9 9 0 0 1 18 0 v6" fill="none" stroke="#605E5C" stroke-width="4"/><rect x="10" y="21" width="28" height="22" rx="3" fill="#605E5C"/><circle cx="24" cy="31" r="3" fill="#fff"/><rect x="23" y="31" width="2" height="6" fill="#fff"/></g>
+<text x="520" y="202" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">VPN gateway</text>
+<text x="520" y="219" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">Route-based, AZ SKU where</text>
+<text x="520" y="236" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">available, new public IP;</text>
+<text x="520" y="253" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">active-active and BGP off unless</text>
+<text x="520" y="270" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">needed; 30 to 45 minutes to deploy</text>
+<rect x="471.5" y="292" width="262" height="72" rx="5" fill="#000" opacity="0.06"/>
+<rect x="470" y="290" width="262" height="72" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="470" y="290" width="4" height="72" rx="0" fill="#605E5C"/>
+<g transform="translate(486,300) scale(0.5000)"><circle cx="24" cy="24" r="20" fill="#A4262C"/><path d="M16 16 l16 16 M32 16 l-16 16" stroke="#fff" stroke-width="4"/></g>
+<text x="520" y="312" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Nothing else lives here</text>
+<text x="520" y="329" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">Gateway only; no VMs, no other</text>
+<text x="520" y="346" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">services</text>
+<rect x="471.5" y="374" width="262" height="60" rx="5" fill="#000" opacity="0.06"/>
+<rect x="470" y="372" width="262" height="60" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="470" y="372" width="4" height="60" rx="0" fill="#5C2D91"/>
+<g transform="translate(486,382) scale(0.5000)"><rect x="5" y="5" width="38" height="38" rx="6" fill="#107C10"/><circle cx="24" cy="24" r="8" fill="none" stroke="#fff" stroke-width="3.5" stroke-dasharray="4 2.3"/><circle cx="24" cy="24" r="3" fill="#fff"/></g>
+<text x="520" y="394" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">P2S configuration</text>
+<text x="520" y="411" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">pool &lt;client-pool&gt;, OpenVPN, Entra</text>
+<text x="520" y="428" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">ID sign-in</text>
+<polyline points="746,228 784,228" fill="none" stroke="#0078D4" stroke-width="2.2" marker-end="url(#m0078D4)"/>
+<rect x="786" y="140" width="446" height="300" rx="6" fill="#fff" stroke="#C8C6C4" stroke-width="1.4"/>
+<g transform="translate(796,148) scale(0.5000)"><rect x="10" y="4" width="28" height="40" rx="3" fill="#0078D4"/><path d="M15 12 h18 M15 18 h18 M15 24 h18" stroke="#fff" stroke-width="2.4"/><circle cx="32" cy="36" r="2.4" fill="#DFF6DD"/></g>
+<text x="828" y="165" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#201F1E" text-anchor="start">&lt;vm-subnet&gt;  /24</text>
+<text x="1220" y="165" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="end">VMs, private IPs only</text>
+<rect x="803.5" y="182" width="414" height="72" rx="5" fill="#000" opacity="0.06"/>
+<rect x="802" y="180" width="414" height="72" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="802" y="180" width="4" height="72" rx="0" fill="#107C10"/>
+<g transform="translate(818,190) scale(0.5000)"><rect x="4" y="8" width="40" height="32" rx="2" fill="#A4262C"/><path d="M4 18.5 h40 M4 29 h40 M16 8 v10.5 M32 8 v10.5 M24 18.5 v10.5 M10 29 v11 M38 29 v11 M24 29 v11" stroke="#fff" stroke-width="2"/></g>
+<rect x="1159.672976" y="190" width="46" height="20" rx="10" fill="#F2FAF2" stroke="#107C10" stroke-width="1"/>
+<text x="1183" y="204" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#107C10" text-anchor="middle">Allow</text>
+<text x="852" y="202" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">NSG: allow 3389 from &lt;client-pool&gt; only</text>
+<text x="852" y="219" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">No inbound rule from the internet; the subnet never sees a public</text>
+<text x="852" y="236" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">IP</text>
+<rect x="803.5" y="268" width="198" height="80" rx="5" fill="#000" opacity="0.06"/>
+<rect x="802" y="266" width="198" height="80" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="802" y="266" width="4" height="80" rx="0" fill="#5C2D91"/>
+<g transform="translate(818,276) scale(0.5000)"><rect x="4" y="7" width="40" height="27" rx="2" fill="#0078D4"/><rect x="7" y="10" width="34" height="21" fill="#fff"/><ellipse cx="24" cy="15" rx="8" ry="3" fill="#005A9E"/><path d="M16 15 v10 a8 3 0 0 0 16 0 v-10" fill="#005A9E"/><rect x="18" y="34" width="12" height="5" fill="#005A9E"/><rect x="12" y="39" width="24" height="3" rx="1" fill="#005A9E"/></g>
+<text x="852" y="288" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">VM, private IP</text>
+<text x="852" y="305" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">RDP target after the</text>
+<text x="852" y="322" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">tunnel is up</text>
+<rect x="1019.5" y="268" width="198" height="80" rx="5" fill="#000" opacity="0.06"/>
+<rect x="1018" y="266" width="198" height="80" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="1018" y="266" width="4" height="80" rx="0" fill="#5C2D91"/>
+<g transform="translate(1034,276) scale(0.5000)"><rect x="4" y="7" width="40" height="27" rx="2" fill="#0078D4"/><rect x="7" y="10" width="34" height="21" fill="#fff"/><ellipse cx="24" cy="15" rx="8" ry="3" fill="#005A9E"/><path d="M16 15 v10 a8 3 0 0 0 16 0 v-10" fill="#005A9E"/><rect x="18" y="34" width="12" height="5" fill="#005A9E"/><rect x="12" y="39" width="24" height="3" rx="1" fill="#005A9E"/></g>
+<text x="1068" y="288" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">VM, private IP</text>
+<text x="1068" y="305" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">same rule, same path</text>
+<rect x="803.5" y="362" width="414" height="68" rx="5" fill="#000" opacity="0.06"/>
+<rect x="802" y="360" width="414" height="68" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="802" y="360" width="4" height="68" rx="0" fill="#0078D4"/>
+<g transform="translate(818,370) scale(0.5000)"><rect x="5" y="5" width="38" height="38" rx="5" fill="#0078D4"/><path d="M11 24 h26 M31 18 l6 6 -6 6 M17 18 l-6 6 6 6" stroke="#fff" stroke-width="3" fill="none"/><rect x="20" y="10" width="8" height="8" rx="1" fill="#fff"/></g>
+<text x="852" y="382" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Route pushed to the client</text>
+<text x="852" y="399" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">Connected status shows a pool address and a route to</text>
+<text x="852" y="416" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">&lt;vnet-range&gt;, so only VNet traffic enters the tunnel</text>
+<rect x="32" y="476" width="1216" height="140" rx="6" fill="#FAF9F8" stroke="#C8C6C4" stroke-width="1.4"/>
+<g transform="translate(42,484) scale(0.5000)"><rect x="4" y="6" width="40" height="36" rx="3" fill="#5C2D91"/><path d="M10 15 l3 3 5-6 M10 26 l3 3 5-6 M10 37 l3 3 5-6" stroke="#fff" stroke-width="2.2" fill="none"/><path d="M22 16 h16 M22 27 h16 M22 38 h12" stroke="#fff" stroke-width="2.4"/></g>
+<text x="74" y="501" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#201F1E" text-anchor="start">Overlap rules, in one line each</text>
+<rect x="49.5" y="518" width="290" height="86" rx="5" fill="#000" opacity="0.06"/>
+<rect x="48" y="516" width="290" height="86" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="48" y="516" width="4" height="86" rx="0" fill="#0078D4"/>
+<g transform="translate(64,526) scale(0.5000)"><circle cx="24" cy="24" r="19" fill="#0078D4"/><path d="M13 19 h18 l-4 -4 M35 29 h-18 l4 4" stroke="#fff" stroke-width="2.6" fill="none"/></g>
+<text x="98" y="538" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">VNet and client pool</text>
+<text x="98" y="555" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">Different ranges; the pool is not a subnet</text>
+<text x="98" y="572" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">of the VNet</text>
+<rect x="351.5" y="518" width="290" height="86" rx="5" fill="#000" opacity="0.06"/>
+<rect x="350" y="516" width="290" height="86" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="350" y="516" width="4" height="86" rx="0" fill="#0078D4"/>
+<g transform="translate(366,526) scale(0.5000)"><rect x="16" y="3" width="16" height="12" rx="2" fill="#0078D4"/><rect x="3" y="33" width="14" height="12" rx="2" fill="#0078D4"/><rect x="17" y="33" width="14" height="12" rx="2" fill="#0078D4"/><rect x="31" y="33" width="14" height="12" rx="2" fill="#0078D4"/><path d="M24 15 v9 M10 24 h28 M10 24 v9 M24 24 v9 M38 24 v9" stroke="#005A9E" stroke-width="2" fill="none"/></g>
+<text x="400" y="538" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">VM subnet and GatewaySubnet</text>
+<text x="400" y="555" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">Both inside the VNet, never overlapping</text>
+<text x="400" y="572" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">each other</text>
+<rect x="653.5" y="518" width="290" height="86" rx="5" fill="#000" opacity="0.06"/>
+<rect x="652" y="516" width="290" height="86" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="652" y="516" width="4" height="86" rx="0" fill="#A4262C"/>
+<g transform="translate(668,526) scale(0.5000)"><rect x="5" y="5" width="38" height="38" rx="8" fill="#605E5C"/><path d="M13 30 a14 14 0 0 1 22 0" stroke="#fff" stroke-width="3" fill="none"/><path d="M17 34 a8 8 0 0 1 14 0" stroke="#fff" stroke-width="3" fill="none"/><circle cx="24" cy="37" r="2.6" fill="#fff"/><path d="M24 11 v10 M19 16 l5 -5 5 5" stroke="#fff" stroke-width="2.6" fill="none"/></g>
+<text x="702" y="538" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Pool and the user&#x27;s own network</text>
+<text x="702" y="555" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">Overlap here breaks local routing on the</text>
+<text x="702" y="572" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">laptop</text>
+<rect x="955.5" y="518" width="290" height="86" rx="5" fill="#000" opacity="0.06"/>
+<rect x="954" y="516" width="290" height="86" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
+<rect x="954" y="516" width="4" height="86" rx="0" fill="#C19C00"/>
+<g transform="translate(970,526) scale(0.5000)"><rect x="6" y="6" width="36" height="36" rx="8" fill="#0078D4"/><path d="M24 13 v16 M17 23 l7 7 7-7" stroke="#fff" stroke-width="3.4" fill="none"/><path d="M15 35 h18" stroke="#fff" stroke-width="3"/></g>
+<text x="1004" y="538" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Change the pool later?</text>
+<text x="1004" y="555" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">Any P2S change means re-downloading</text>
+<text x="1004" y="572" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">and redistributing the profile</text>
+<text x="32" y="654" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">Sizes from the address plan: VNet /16, VM subnet /24, GatewaySubnet /27, client pool /24. Controls: SC-7 and CM-7 (no public IP on VMs), AC-17 (remote access only through the tunnel).</text>
+<line x1="32" y1="666" x2="1248" y2="666" stroke="#E1DFDD"/>
+<text x="32" y="686" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#8A8886">Generalised design: no client names, tenant IDs, addresses or data. Icons are simplified originals, not Microsoft artwork.</text>
+<text x="1248" y="686" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#8A8886" text-anchor="end">Rich Dieu · github.com/richdieu-max</text>
+</svg>
