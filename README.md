@@ -1,5 +1,7 @@
 # SOP Library · Field Guide Series
 
+![Diagrams](https://github.com/richdieu-max/sop-library/actions/workflows/diagrams.yml/badge.svg)
+
 **36 standard operating procedures · 109 architecture, flow and concept diagrams · 12 technology families**
 
 Runbooks from my work across Microsoft Azure, Entra ID, Intune, security operations, regulated (GxP) lab IT and Windows support. Every page reads directly on GitHub: what the procedure achieves, two to four diagrams (how it fits together, the procedure or decision path, and the mechanism behind it), prerequisites, the steps (portal first, then PowerShell / CLI, then at scale), how to verify it, how to roll it back (for procedures that change something), troubleshooting, and the controls it supports.
@@ -155,6 +157,10 @@ Runbooks from my work across Microsoft Azure, Entra ID, Intune, security operati
 | FDA 21 CFR Part 11 / EU GMP Annex 11 (GxP) | GOV-001, LAB-001, LAB-002, LAB-003, ID-001 |
 | CIS Microsoft 365 / Intune benchmarks | ID-001, EM-002, EM-005 |
 | CIS Critical Security Controls v8 (Control 7) | SEC-001, EM-005 |
+
+## Reproducing the figures
+
+The 55 concept diagrams are generated from specs in [tools/diagrams](tools/diagrams): `python3 tools/diagrams/build.py` rebuilds them with the standard library only, and the Diagrams workflow fails if a committed SVG drifts from its spec. The renderer's rules are in [tools/diagrams/README.md](tools/diagrams/README.md).
 
 ## Related
 
