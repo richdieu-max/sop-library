@@ -73,6 +73,8 @@ exit 0
 8. **Install the EDR.** CylancePROTECT: vendor MSI with the console token, for example `msiexec /i CylancePROTECT_x64.msi /qn PIDKEY=<install-token>`. Defender for Endpoint: onboarding package, or Intune **Endpoint security › Endpoint detection and response**.
 9. **Close the gap.** Record the time between removal and confirmed protection in the change record.
 
+![Two timelines for one endpoint: model A with the legacy engine, the Defender Antivirus-covered gap and the new EDR, and model B with Defender for Endpoint overlapping in passive mode so there is no gap; why two real-time engines must never overlap; and the eight verify-clean checks (services, processes, drivers, registry, programs and folders, Security Center, the gap, the new EDR) with the removal script's exit codes](diagrams/sop-ep-002-3.svg)
+
 ## Verify
 
 | Check | Pass |

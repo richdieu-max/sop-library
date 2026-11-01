@@ -75,6 +75,8 @@ UCClientUpdateStatus
 | summarize Devices = count() by ClientState, ClientSubstate
 ```
 
+![Five-step pipeline from the device's telemetry through Intune reports, the Windows data connector and Log Analytics to the KPI per ring and severity; the SLA and KPI pass line by severity with the worst-case arithmetic behind the day-21 checkpoint; the four day-21 compliance steps that raise the minimum build; and the five-step expedited path for a zero-day](diagrams/sop-em-005-3.svg)
+
 ## Verify
 
 | Check | Pass |

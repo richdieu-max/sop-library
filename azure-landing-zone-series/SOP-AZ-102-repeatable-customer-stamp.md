@@ -17,6 +17,8 @@ Secrets live in the vault the way valuables live in a safe-deposit box. The VM d
 | Boot | Trusted Launch with Secure Boot and vTPM | Blocks boot-level malware |
 | Backup | Recovery Services vault, geo-redundant, cross-region restore, immutable (unlocked) | Copies are never held only at the same site as the tenant |
 
+![Four stacked layers on the stamp VM, Trusted Launch at boot, encryption at host, the disk encryption set with a customer-managed RSA 3072 HSM key and a geo-redundant immutable backup vault, beside the Key Vault, key and two identities that hold only wrap-and-unwrap or read rights, with the two parameter values that onboard the next customer](diagrams/sop-az-102-3.svg)
+
 ## Before you start
 
 | Item | Requirement |
@@ -66,6 +68,8 @@ Secrets live in the vault the way valuables live in a safe-deposit box. The VM d
    umask 077
    { echo "JWT_SECRET=$(get app-jwt-secret)"; } > /run/app/env   # tmpfs, service user only
    ```
+
+![Sequence from the app service through IMDS and Entra ID to Key Vault over the private endpoint: a short-lived token for the VM identity, an RBAC check for Key Vault Secrets User, an AuditEvent, and the value written to tmpfs; alongside, what never happens and the three identities with different rights](diagrams/sop-az-102-2.svg)
 
 ## Verify
 

@@ -14,6 +14,8 @@ Build the part of the tenant that exists before any workload: the management gro
 | Modify | Changes the request on the way in; needs a managed identity on the assignment | Inherit tags from the resource group onto every resource |
 | Audit | Lets the request through and records it as non-compliant | CIS, NIST SP 800-53, ISO 27001, HIPAA and PCI initiatives, which produce evidence |
 
+![A request from the portal, PowerShell, CLI or Bicep reaches Resource Manager and is evaluated against the assignments inherited from the product root: Deny refuses it with RequestDisallowedByPolicy, Modify changes it on the way in, Audit lets it through and records it; guardrails and benchmarks are counted separately and a Deny is diagnosed from the policies property of the activity log event](diagrams/sop-az-101-3.svg)
+
 Log Analytics keeps 365 days of searchable logs (the working window). A geo-redundant storage account with a time-based WORM policy keeps the regulatory record for seven years. Changes made at a management group go to that group's own activity log, which a subscription-level export never sees, so both are streamed.
 
 ## Before you start
@@ -63,6 +65,8 @@ The template is the version of record. Use the portal to learn, review, or rebui
    ```
 
    When the platform and customer subscription IDs are the same, each per-subscription step runs once; record that as a scope decision in the design document.
+
+![Five numbered layers built in order, management groups, groups and RBAC, guardrails at the root, central logging and the hub network with locks, each showing what it builds, what the next layer inherits from it and its exit check, with the template-as-version-of-record and reverse-order rollback notes](diagrams/sop-az-101-2.svg)
 
 ## Verify
 

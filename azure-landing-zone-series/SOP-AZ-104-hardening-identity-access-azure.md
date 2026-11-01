@@ -61,6 +61,10 @@ Think of a badge, a door list and a visitor pass. A person has a badge (their na
    auditors,test-auditor,Delete a lock,Deny,Deny (AuthorizationFailed),2026-10-15T14:03:40Z,<id>
    ```
 
+![A matrix of the five sg-az groups against the product root, Platform and Customers scopes showing where each role is assigned, standing or PIM-eligible, and where it is inherited, with the matrix test log rows for the auditors group and the rule that Resource Policy Contributor is granted only on written request](diagrams/sop-az-104-3.svg)
+
+![Sequence of a PIM activation: an eligible member of the owners group requests Owner with a justification, Conditional Access requires MFA, an approver records the decision, the active assignment is written with a four-hour expiry and lands in the activity log, then is removed automatically; beside it the role settings per group and the rule that a missing P2 licence is a finding, never a reason for standing Owner](diagrams/sop-az-104-4.svg)
+
 ## Verify
 
 | Check | Pass |

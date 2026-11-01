@@ -63,6 +63,8 @@ Copy an Azure VM by snapshotting its OS disk, building a managed disk from the s
 5. **Golden image (D).** Clone first so you never sysprep the original (Sysprep is one-way). In the clone run `sysprep.exe /generalize /oobe /shutdown` (Linux: `waagent -deprovision+user`), then **Capture › Share image to Azure compute gallery › Generalized**, or `Set-AzVM -Generalized` and `New-AzGalleryImageVersion`. Each VM deployed from the gallery gets new credentials and identity.
 6. **Restore (E).** From the Recovery Services vault, **Backup › Restore VM › Create new** from any retained recovery point; `New-AzRestorePoint` gives the same without a vault.
 
+![Matrix of what a specialized clone carries in the disk (OS, applications, data disks), what must change before first use (local credentials, computer name, SID and domain trust, hard-coded configuration), what is new with the VM (NIC, size, tags, diagnostics), what must match the source (Trusted Launch) and what is never created (public IP, public disk access), with the Sysprep route for a fresh identity](diagrams/sop-az-003-2.svg)
+
 ### Connect, rename and harden
 
 7. **Connect without a public IP.** Preferred: **VM › Connect › Bastion** with the source's local admin credentials. Alternative: **Defender for Cloud › Workload protections › Just-in-time VM access › Request access**, My IP, 1 hour, port 3389.

@@ -54,6 +54,8 @@ Open **Virtual machines › + Create › Azure virtual machine**. Do not use **R
 3. **Disks.** OS disk 127 GiB Premium SSD (LRS), **Delete with VM**, platform-managed key (or your disk encryption set). Add a data disk (for example 256 GiB Premium SSD, caching Read-only) to keep content off `C:`; record the LUN-to-drive mapping.
 4. **Networking.** `vnet-prod-gwc` / `snet-web`, **Public IP: None**. NIC NSG **None** when the subnet has an NSG (one rule set per subnet), or **Advanced** with an existing NSG. Never leave **Basic** with RDP allowed. Tick **Delete NIC when VM is deleted** and accelerated networking; add to the load balancer or Application Gateway backend pool.
 
+![Trusted Launch boot chain from a Gen2 image through Secure Boot, vTPM and integrity monitoring; the three encryption layers (SSE always on, encryption at host for temp disk and caches, optional customer-managed key); and the Allowed locations deny policy refusing an out-of-region request with RequestDisallowedByPolicy, plus the four policy assignments from step 11](diagrams/sop-az-002-3.svg)
+
 ### Management, Monitoring, Advanced and Tags
 
 5. **Management.** Confirm Defender for Servers Plan 2 protects the subscription. Tick **Enable system assigned managed identity** and grant it only what it needs (for example Key Vault Secrets User on one vault). Tick **Login with Microsoft Entra ID** and assign Virtual Machine Administrator Login to the admin group. Auto-shutdown off for production.

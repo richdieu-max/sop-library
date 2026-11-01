@@ -18,6 +18,8 @@ A single receipt can support expense claims in several departments. The control 
 | HIPAA Security Rule | Safeguards (164.312(b)) | HITRUST/HIPAA initiative |
 | PCI DSS v4 | Requirements; boundary only here | Attestation letter |
 
+![The LOG-01 crosswalk row exploded into its control ID, statement, Azure implementation, hashed evidence file and status, with its five framework references and where each comes from, two more template rows in the same shape, the rules that keep the crosswalk honest, and the four sources of the evidence](diagrams/sop-az-108-2.svg)
+
 ## Before you start
 
 | Item | Requirement |
