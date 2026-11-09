@@ -1,174 +1,174 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 790" width="1280" height="790" role="img" aria-label="Why a 203 dpi driver shrinks a label designed at 300 dpi">
 <title>Why a 203 dpi driver shrinks a label designed at 300 dpi</title>
 <defs></defs>
-<rect width="1280" height="790" fill="#fff"/>
-<rect x="0" y="0" width="1280" height="6" fill="#0078D4"/>
-<text x="32" y="48" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="600" fill="#201F1E">Why a 203 dpi driver shrinks a label designed at 300 dpi</text>
-<text x="32" y="72" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#605E5C">The driver turns the format into a fixed number of dots at its own resolution; the printhead then prints those dots at its real density, so a dpi mismatch scales every label.</text>
-<rect x="32" y="100" width="1216" height="366" rx="6" fill="#FAF9F8" stroke="#C8C6C4" stroke-width="1.4"/>
+<rect width="1280" height="790" fill="#0D1117"/>
+<rect x="0" y="0" width="1280" height="6" fill="#1F6FEB"/>
+<text x="32" y="48" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="600" fill="#E6EDF3">Why a 203 dpi driver shrinks a label designed at 300 dpi</text>
+<text x="32" y="72" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#9198A1">The driver turns the format into a fixed number of dots at its own resolution; the printhead then prints those dots at its real density, so a dpi mismatch scales every label.</text>
+<rect x="32" y="100" width="1216" height="366" rx="6" fill="#151B23" stroke="#3D444D" stroke-width="1.4"/>
 <g transform="translate(42,108) scale(0.5000)"><rect x="12" y="6" width="24" height="10" rx="1" fill="#005A9E"/><rect x="5" y="14" width="38" height="20" rx="3" fill="#0078D4"/><circle cx="36" cy="21" r="2" fill="#fff"/><rect x="11" y="28" width="26" height="16" fill="#fff" stroke="#605E5C" stroke-width="1.5"/><path d="M15 32 v9 M18 32 v9 M22 32 v9 M25 32 v9 M29 32 v9 M33 32 v9" stroke="#201F1E" stroke-width="1.6"/></g>
-<text x="74" y="125" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#201F1E" text-anchor="start">A 2.0 × 1.0 in label (50.8 × 25.4 mm) through three driver and head pairings</text>
-<text x="1236" y="125" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="end">dashed outline = the label stock · filled block = what the head actually prints</text>
-<text x="48" y="160" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#201F1E" text-anchor="start">Match: 300 dpi driver on a 300 dpi head</text>
-<rect x="48" y="170" width="161" height="20" rx="10" fill="#FAF9F8" stroke="#605E5C" stroke-width="1"/>
-<text x="128" y="184" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#605E5C" text-anchor="middle">driver: ZD620-300dpi (ZPL)</text>
-<rect x="228" y="170" width="109" height="20" rx="10" fill="#FAF9F8" stroke="#605E5C" stroke-width="1"/>
-<text x="282" y="184" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#605E5C" text-anchor="middle">head: 12 dots/mm</text>
-<rect x="58" y="206" width="224" height="112" rx="3" fill="#fff" stroke="#605E5C" stroke-width="1.2" stroke-dasharray="5 4"/>
-<rect x="58" y="206" width="224" height="112" rx="2" fill="#107C10" opacity="0.18"/>
-<rect x="58" y="206" width="224" height="112" rx="2" fill="none" stroke="#107C10" stroke-width="2"/>
-<rect x="68.0" y="220.0" width="6.0" height="52.0" fill="#107C10"/>
-<rect x="78.0" y="220.0" width="3.0" height="52.0" fill="#107C10"/>
-<rect x="85.0" y="220.0" width="3.0" height="52.0" fill="#107C10"/>
-<rect x="92.0" y="220.0" width="6.0" height="52.0" fill="#107C10"/>
-<rect x="102.0" y="220.0" width="3.0" height="52.0" fill="#107C10"/>
-<rect x="109.0" y="220.0" width="3.0" height="52.0" fill="#107C10"/>
-<rect x="116.0" y="220.0" width="6.0" height="52.0" fill="#107C10"/>
-<rect x="126.0" y="220.0" width="3.0" height="52.0" fill="#107C10"/>
-<rect x="133.0" y="220.0" width="3.0" height="52.0" fill="#107C10"/>
-<rect x="140.0" y="220.0" width="6.0" height="52.0" fill="#107C10"/>
-<rect x="150.0" y="220.0" width="3.0" height="52.0" fill="#107C10"/>
-<rect x="157.0" y="220.0" width="3.0" height="52.0" fill="#107C10"/>
-<rect x="164.0" y="220.0" width="6.0" height="52.0" fill="#107C10"/>
-<rect x="174.0" y="220.0" width="3.0" height="52.0" fill="#107C10"/>
-<rect x="68.0" y="284.0" width="150.0" height="8.0" rx="2" fill="#107C10" opacity="0.7"/>
-<text x="289.52" y="265.88" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#107C10" text-anchor="start">50.8 × 25.4 mm</text>
-<text x="58" y="398" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="start">600 × 300 dots sent</text>
-<rect x="58" y="408" width="46" height="20" rx="10" fill="#107C10"/>
+<text x="74" y="125" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#E6EDF3" text-anchor="start">A 2.0 × 1.0 in label (50.8 × 25.4 mm) through three driver and head pairings</text>
+<text x="1236" y="125" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9198A1" text-anchor="end">dashed outline = the label stock · filled block = what the head actually prints</text>
+<text x="48" y="160" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#E6EDF3" text-anchor="start">Match: 300 dpi driver on a 300 dpi head</text>
+<rect x="48" y="170" width="161" height="20" rx="10" fill="#151B23" stroke="#9198A1" stroke-width="1"/>
+<text x="128" y="184" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#9198A1" text-anchor="middle">driver: ZD620-300dpi (ZPL)</text>
+<rect x="228" y="170" width="109" height="20" rx="10" fill="#151B23" stroke="#9198A1" stroke-width="1"/>
+<text x="282" y="184" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#9198A1" text-anchor="middle">head: 12 dots/mm</text>
+<rect x="58" y="206" width="224" height="112" rx="3" fill="#1C2128" stroke="#9198A1" stroke-width="1.2" stroke-dasharray="5 4"/>
+<rect x="58" y="206" width="224" height="112" rx="2" fill="#238636" opacity="0.18"/>
+<rect x="58" y="206" width="224" height="112" rx="2" fill="none" stroke="#3FB950" stroke-width="2"/>
+<rect x="68.0" y="220.0" width="6.0" height="52.0" fill="#238636"/>
+<rect x="78.0" y="220.0" width="3.0" height="52.0" fill="#238636"/>
+<rect x="85.0" y="220.0" width="3.0" height="52.0" fill="#238636"/>
+<rect x="92.0" y="220.0" width="6.0" height="52.0" fill="#238636"/>
+<rect x="102.0" y="220.0" width="3.0" height="52.0" fill="#238636"/>
+<rect x="109.0" y="220.0" width="3.0" height="52.0" fill="#238636"/>
+<rect x="116.0" y="220.0" width="6.0" height="52.0" fill="#238636"/>
+<rect x="126.0" y="220.0" width="3.0" height="52.0" fill="#238636"/>
+<rect x="133.0" y="220.0" width="3.0" height="52.0" fill="#238636"/>
+<rect x="140.0" y="220.0" width="6.0" height="52.0" fill="#238636"/>
+<rect x="150.0" y="220.0" width="3.0" height="52.0" fill="#238636"/>
+<rect x="157.0" y="220.0" width="3.0" height="52.0" fill="#238636"/>
+<rect x="164.0" y="220.0" width="6.0" height="52.0" fill="#238636"/>
+<rect x="174.0" y="220.0" width="3.0" height="52.0" fill="#238636"/>
+<rect x="68.0" y="284.0" width="150.0" height="8.0" rx="2" fill="#238636" opacity="0.7"/>
+<text x="289.52" y="265.88" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#3FB950" text-anchor="start">50.8 × 25.4 mm</text>
+<text x="58" y="398" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#E6EDF3" text-anchor="start">600 × 300 dots sent</text>
+<rect x="58" y="408" width="46" height="20" rx="10" fill="#238636"/>
 <text x="81" y="422" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#fff" text-anchor="middle">100 %</text>
-<text x="58" y="446" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">every field where the format put it</text>
-<text x="448" y="160" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#201F1E" text-anchor="start">Fault: 203 dpi driver on a 300 dpi head</text>
-<rect x="448" y="170" width="161" height="20" rx="10" fill="#FAF9F8" stroke="#605E5C" stroke-width="1"/>
-<text x="528" y="184" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#605E5C" text-anchor="middle">driver: ZT620-203dpi (ZPL)</text>
-<rect x="628" y="170" width="109" height="20" rx="10" fill="#FAF9F8" stroke="#605E5C" stroke-width="1"/>
-<text x="682" y="184" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#605E5C" text-anchor="middle">head: 12 dots/mm</text>
-<rect x="458" y="206" width="224" height="112" rx="3" fill="#fff" stroke="#605E5C" stroke-width="1.2" stroke-dasharray="5 4"/>
-<rect x="458" y="206" width="151" height="76" rx="2" fill="#A4262C" opacity="0.18"/>
-<rect x="458" y="206" width="151" height="76" rx="2" fill="none" stroke="#A4262C" stroke-width="2"/>
-<rect x="464.8" y="215.5" width="4.1" height="35.2" fill="#A4262C"/>
-<rect x="471.5" y="215.5" width="2.0" height="35.2" fill="#A4262C"/>
-<rect x="476.3" y="215.5" width="2.0" height="35.2" fill="#A4262C"/>
-<rect x="481.0" y="215.5" width="4.1" height="35.2" fill="#A4262C"/>
-<rect x="487.8" y="215.5" width="2.0" height="35.2" fill="#A4262C"/>
-<rect x="492.5" y="215.5" width="2.0" height="35.2" fill="#A4262C"/>
-<rect x="497.3" y="215.5" width="4.1" height="35.2" fill="#A4262C"/>
-<rect x="504.0" y="215.5" width="2.0" height="35.2" fill="#A4262C"/>
-<rect x="508.8" y="215.5" width="2.0" height="35.2" fill="#A4262C"/>
-<rect x="513.5" y="215.5" width="4.1" height="35.2" fill="#A4262C"/>
-<rect x="520.3" y="215.5" width="2.0" height="35.2" fill="#A4262C"/>
-<rect x="525.0" y="215.5" width="2.0" height="35.2" fill="#A4262C"/>
-<rect x="529.8" y="215.5" width="4.1" height="35.2" fill="#A4262C"/>
-<rect x="536.6" y="215.5" width="2.0" height="35.2" fill="#A4262C"/>
-<rect x="464.8" y="258.8" width="101.6" height="5.4" rx="2" fill="#A4262C" opacity="0.7"/>
-<text x="462" y="295.68" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#A4262C" text-anchor="start">34.4 × 17.2 mm</text>
-<text x="458" y="398" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="start">406 × 203 dots sent</text>
-<rect x="458" y="408" width="39" height="20" rx="10" fill="#A4262C"/>
+<text x="58" y="446" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#9198A1" text-anchor="start">every field where the format put it</text>
+<text x="448" y="160" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#E6EDF3" text-anchor="start">Fault: 203 dpi driver on a 300 dpi head</text>
+<rect x="448" y="170" width="161" height="20" rx="10" fill="#151B23" stroke="#9198A1" stroke-width="1"/>
+<text x="528" y="184" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#9198A1" text-anchor="middle">driver: ZT620-203dpi (ZPL)</text>
+<rect x="628" y="170" width="109" height="20" rx="10" fill="#151B23" stroke="#9198A1" stroke-width="1"/>
+<text x="682" y="184" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#9198A1" text-anchor="middle">head: 12 dots/mm</text>
+<rect x="458" y="206" width="224" height="112" rx="3" fill="#1C2128" stroke="#9198A1" stroke-width="1.2" stroke-dasharray="5 4"/>
+<rect x="458" y="206" width="151" height="76" rx="2" fill="#DA3633" opacity="0.18"/>
+<rect x="458" y="206" width="151" height="76" rx="2" fill="none" stroke="#F85149" stroke-width="2"/>
+<rect x="464.8" y="215.5" width="4.1" height="35.2" fill="#DA3633"/>
+<rect x="471.5" y="215.5" width="2.0" height="35.2" fill="#DA3633"/>
+<rect x="476.3" y="215.5" width="2.0" height="35.2" fill="#DA3633"/>
+<rect x="481.0" y="215.5" width="4.1" height="35.2" fill="#DA3633"/>
+<rect x="487.8" y="215.5" width="2.0" height="35.2" fill="#DA3633"/>
+<rect x="492.5" y="215.5" width="2.0" height="35.2" fill="#DA3633"/>
+<rect x="497.3" y="215.5" width="4.1" height="35.2" fill="#DA3633"/>
+<rect x="504.0" y="215.5" width="2.0" height="35.2" fill="#DA3633"/>
+<rect x="508.8" y="215.5" width="2.0" height="35.2" fill="#DA3633"/>
+<rect x="513.5" y="215.5" width="4.1" height="35.2" fill="#DA3633"/>
+<rect x="520.3" y="215.5" width="2.0" height="35.2" fill="#DA3633"/>
+<rect x="525.0" y="215.5" width="2.0" height="35.2" fill="#DA3633"/>
+<rect x="529.8" y="215.5" width="4.1" height="35.2" fill="#DA3633"/>
+<rect x="536.6" y="215.5" width="2.0" height="35.2" fill="#DA3633"/>
+<rect x="464.8" y="258.8" width="101.6" height="5.4" rx="2" fill="#DA3633" opacity="0.7"/>
+<text x="462" y="295.68" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#F85149" text-anchor="start">34.4 × 17.2 mm</text>
+<text x="458" y="398" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#E6EDF3" text-anchor="start">406 × 203 dots sent</text>
+<rect x="458" y="408" width="39" height="20" rx="10" fill="#DA3633"/>
 <text x="478" y="422" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#fff" text-anchor="middle">68 %</text>
-<text x="458" y="446" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">uniform shrink: 203 ÷ 300 = 0.68</text>
-<text x="848" y="160" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#201F1E" text-anchor="start">Mirror fault: 300 dpi driver on a 203 dpi head</text>
-<rect x="848" y="170" width="161" height="20" rx="10" fill="#FAF9F8" stroke="#605E5C" stroke-width="1"/>
-<text x="928" y="184" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#605E5C" text-anchor="middle">driver: ZD620-300dpi (ZPL)</text>
-<rect x="1028" y="170" width="102" height="20" rx="10" fill="#FAF9F8" stroke="#605E5C" stroke-width="1"/>
-<text x="1079" y="184" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#605E5C" text-anchor="middle">head: 8 dots/mm</text>
-<rect x="858" y="206" width="224" height="112" rx="3" fill="#fff" stroke="#605E5C" stroke-width="1.2" stroke-dasharray="5 4"/>
-<rect x="858" y="206" width="224" height="112" rx="2" fill="#C19C00" opacity="0.18"/>
-<rect x="858" y="206" width="224" height="112" rx="2" fill="none" stroke="#C19C00" stroke-width="2"/>
-<rect x="868.0" y="220.0" width="6.0" height="52.0" fill="#C19C00"/>
-<rect x="878.0" y="220.0" width="3.0" height="52.0" fill="#C19C00"/>
-<rect x="885.0" y="220.0" width="3.0" height="52.0" fill="#C19C00"/>
-<rect x="892.0" y="220.0" width="6.0" height="52.0" fill="#C19C00"/>
-<rect x="902.0" y="220.0" width="3.0" height="52.0" fill="#C19C00"/>
-<rect x="909.0" y="220.0" width="3.0" height="52.0" fill="#C19C00"/>
-<rect x="916.0" y="220.0" width="6.0" height="52.0" fill="#C19C00"/>
-<rect x="926.0" y="220.0" width="3.0" height="52.0" fill="#C19C00"/>
-<rect x="933.0" y="220.0" width="3.0" height="52.0" fill="#C19C00"/>
-<rect x="940.0" y="220.0" width="6.0" height="52.0" fill="#C19C00"/>
-<rect x="950.0" y="220.0" width="3.0" height="52.0" fill="#C19C00"/>
-<rect x="957.0" y="220.0" width="3.0" height="52.0" fill="#C19C00"/>
-<rect x="964.0" y="220.0" width="6.0" height="52.0" fill="#C19C00"/>
-<rect x="974.0" y="220.0" width="3.0" height="52.0" fill="#C19C00"/>
-<rect x="868.0" y="284.0" width="150.0" height="8.0" rx="2" fill="#C19C00" opacity="0.7"/>
-<rect x="858" y="206" width="330" height="165" rx="2" fill="none" stroke="#C19C00" stroke-width="1" stroke-dasharray="3 3" opacity="0.7"/>
-<text x="1188.44" y="385.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#C19C00" text-anchor="end">75.1 × 37.5 mm would be printed; the stock ends at 50.8 × 25.4</text>
-<text x="858" y="398" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="start">600 × 300 dots sent</text>
-<rect x="858" y="408" width="94" height="20" rx="10" fill="#C19C00"/>
+<text x="458" y="446" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#9198A1" text-anchor="start">uniform shrink: 203 ÷ 300 = 0.68</text>
+<text x="848" y="160" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#E6EDF3" text-anchor="start">Mirror fault: 300 dpi driver on a 203 dpi head</text>
+<rect x="848" y="170" width="161" height="20" rx="10" fill="#151B23" stroke="#9198A1" stroke-width="1"/>
+<text x="928" y="184" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#9198A1" text-anchor="middle">driver: ZD620-300dpi (ZPL)</text>
+<rect x="1028" y="170" width="102" height="20" rx="10" fill="#151B23" stroke="#9198A1" stroke-width="1"/>
+<text x="1079" y="184" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#9198A1" text-anchor="middle">head: 8 dots/mm</text>
+<rect x="858" y="206" width="224" height="112" rx="3" fill="#1C2128" stroke="#9198A1" stroke-width="1.2" stroke-dasharray="5 4"/>
+<rect x="858" y="206" width="224" height="112" rx="2" fill="#9E6A03" opacity="0.18"/>
+<rect x="858" y="206" width="224" height="112" rx="2" fill="none" stroke="#D29922" stroke-width="2"/>
+<rect x="868.0" y="220.0" width="6.0" height="52.0" fill="#9E6A03"/>
+<rect x="878.0" y="220.0" width="3.0" height="52.0" fill="#9E6A03"/>
+<rect x="885.0" y="220.0" width="3.0" height="52.0" fill="#9E6A03"/>
+<rect x="892.0" y="220.0" width="6.0" height="52.0" fill="#9E6A03"/>
+<rect x="902.0" y="220.0" width="3.0" height="52.0" fill="#9E6A03"/>
+<rect x="909.0" y="220.0" width="3.0" height="52.0" fill="#9E6A03"/>
+<rect x="916.0" y="220.0" width="6.0" height="52.0" fill="#9E6A03"/>
+<rect x="926.0" y="220.0" width="3.0" height="52.0" fill="#9E6A03"/>
+<rect x="933.0" y="220.0" width="3.0" height="52.0" fill="#9E6A03"/>
+<rect x="940.0" y="220.0" width="6.0" height="52.0" fill="#9E6A03"/>
+<rect x="950.0" y="220.0" width="3.0" height="52.0" fill="#9E6A03"/>
+<rect x="957.0" y="220.0" width="3.0" height="52.0" fill="#9E6A03"/>
+<rect x="964.0" y="220.0" width="6.0" height="52.0" fill="#9E6A03"/>
+<rect x="974.0" y="220.0" width="3.0" height="52.0" fill="#9E6A03"/>
+<rect x="868.0" y="284.0" width="150.0" height="8.0" rx="2" fill="#9E6A03" opacity="0.7"/>
+<rect x="858" y="206" width="330" height="165" rx="2" fill="none" stroke="#D29922" stroke-width="1" stroke-dasharray="3 3" opacity="0.7"/>
+<text x="1188.44" y="385.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#D29922" text-anchor="end">75.1 × 37.5 mm would be printed; the stock ends at 50.8 × 25.4</text>
+<text x="858" y="398" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#E6EDF3" text-anchor="start">600 × 300 dots sent</text>
+<rect x="858" y="408" width="94" height="20" rx="10" fill="#9E6A03"/>
 <text x="905" y="422" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#fff" text-anchor="middle">148 %, cropped</text>
-<text x="858" y="446" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">enlarged: 300 ÷ 203 = 1.48, cut at the stock edge</text>
-<rect x="32" y="482" width="1216" height="248" rx="6" fill="#FAF9F8" stroke="#C8C6C4" stroke-width="1.4"/>
+<text x="858" y="446" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#9198A1" text-anchor="start">enlarged: 300 ÷ 203 = 1.48, cut at the stock edge</text>
+<rect x="32" y="482" width="1216" height="248" rx="6" fill="#151B23" stroke="#3D444D" stroke-width="1.4"/>
 <g transform="translate(42,490) scale(0.5000)"><rect x="3" y="16" width="42" height="16" rx="2" fill="#C19C00"/><path d="M7 16 v7" stroke="#fff" stroke-width="1.6"/><path d="M12 16 v4" stroke="#fff" stroke-width="1.6"/><path d="M17 16 v7" stroke="#fff" stroke-width="1.6"/><path d="M22 16 v4" stroke="#fff" stroke-width="1.6"/><path d="M27 16 v7" stroke="#fff" stroke-width="1.6"/><path d="M32 16 v4" stroke="#fff" stroke-width="1.6"/><path d="M37 16 v7" stroke="#fff" stroke-width="1.6"/><path d="M42 16 v4" stroke="#fff" stroke-width="1.6"/></g>
-<text x="74" y="507" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#201F1E" text-anchor="start">The 50 mm ruler test proves the head; the LIMS reprint proves the queue</text>
-<text x="1236" y="507" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="end">dots = mm × dpi ÷ 25.4</text>
+<text x="74" y="507" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#E6EDF3" text-anchor="start">The 50 mm ruler test proves the head; the LIMS reprint proves the queue</text>
+<text x="1236" y="507" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9198A1" text-anchor="end">dots = mm × dpi ÷ 25.4</text>
 <rect x="49.5" y="522" width="372" height="88" rx="5" fill="#000" opacity="0.06"/>
-<rect x="48" y="520" width="372" height="88" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="48" y="520" width="4" height="88" rx="0" fill="#0078D4"/>
+<rect x="48" y="520" width="372" height="88" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="48" y="520" width="4" height="88" rx="0" fill="#1F6FEB"/>
 <g transform="translate(64,530) scale(0.5000)"><rect x="4" y="7" width="40" height="34" rx="3" fill="#201F1E"/><path d="M11 17 l7 6 -7 6" stroke="#fff" stroke-width="3" fill="none"/><path d="M22 31 h13" stroke="#fff" stroke-width="3"/></g>
-<text x="98" y="542" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Raw ZPL sent to port 9100</text>
-<text x="98" y="559" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">^GB590,8,8 draws a bar 590 dots long. The head, not</text>
-<text x="98" y="576" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">the driver, decides how long 590 dots are.</text>
+<text x="98" y="542" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Raw ZPL sent to port 9100</text>
+<text x="98" y="559" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">^GB590,8,8 draws a bar 590 dots long. The head, not</text>
+<text x="98" y="576" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">the driver, decides how long 590 dots are.</text>
 <rect x="49.5" y="620" width="372" height="100" rx="5" fill="#000" opacity="0.06"/>
-<rect x="48" y="618" width="372" height="100" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="48" y="618" width="4" height="100" rx="0" fill="#605E5C"/>
+<rect x="48" y="618" width="372" height="100" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="48" y="618" width="4" height="100" rx="0" fill="#9198A1"/>
 <g transform="translate(64,628) scale(0.5000)"><path d="M10 4 h20 l8 8 v32 h-28 Z" fill="#605E5C"/><circle cx="22" cy="25" r="7" fill="none" stroke="#fff" stroke-width="2.6"/><path d="M27 30 l6 6" stroke="#fff" stroke-width="3"/></g>
-<text x="98" y="640" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Read the head without a ruler</text>
-<text x="98" y="657" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Configuration label (FEED + CANCEL, 2 s): 8 dots/mm</text>
-<text x="98" y="674" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">= 203 dpi, 12 dots/mm = 300 dpi; or ~HI on port 9100,</text>
-<text x="98" y="691" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">third field = dots/mm.</text>
-<line x1="452.0" y1="534" x2="452.0" y2="546" stroke="#605E5C" stroke-width="1"/>
-<text x="452.0" y="560" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10" font-weight="400" fill="#605E5C" text-anchor="middle">0</text>
-<line x1="496.0" y1="534" x2="496.0" y2="546" stroke="#605E5C" stroke-width="1"/>
-<text x="496.0" y="560" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10" font-weight="400" fill="#605E5C" text-anchor="middle">10</text>
-<line x1="540.0" y1="534" x2="540.0" y2="546" stroke="#605E5C" stroke-width="1"/>
-<text x="540.0" y="560" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10" font-weight="400" fill="#605E5C" text-anchor="middle">20</text>
-<line x1="584.0" y1="534" x2="584.0" y2="546" stroke="#605E5C" stroke-width="1"/>
-<text x="584.0" y="560" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10" font-weight="400" fill="#605E5C" text-anchor="middle">30</text>
-<line x1="628.0" y1="534" x2="628.0" y2="546" stroke="#605E5C" stroke-width="1"/>
-<text x="628.0" y="560" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10" font-weight="400" fill="#605E5C" text-anchor="middle">40</text>
-<line x1="672.0" y1="534" x2="672.0" y2="546" stroke="#605E5C" stroke-width="1"/>
-<text x="672.0" y="560" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10" font-weight="400" fill="#605E5C" text-anchor="middle">50</text>
-<line x1="716.0" y1="534" x2="716.0" y2="546" stroke="#605E5C" stroke-width="1"/>
-<text x="716.0" y="560" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10" font-weight="400" fill="#605E5C" text-anchor="middle">60</text>
-<line x1="760.0" y1="534" x2="760.0" y2="546" stroke="#605E5C" stroke-width="1"/>
-<text x="760.0" y="560" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10" font-weight="400" fill="#605E5C" text-anchor="middle">70</text>
-<line x1="804.0" y1="534" x2="804.0" y2="546" stroke="#605E5C" stroke-width="1"/>
-<text x="804.0" y="560" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10" font-weight="400" fill="#605E5C" text-anchor="middle">80</text>
-<line x1="452.0" y1="534" x2="452.0" y2="540" stroke="#605E5C" stroke-width="1"/>
-<line x1="474.0" y1="534" x2="474.0" y2="540" stroke="#605E5C" stroke-width="1"/>
-<line x1="496.0" y1="534" x2="496.0" y2="540" stroke="#605E5C" stroke-width="1"/>
-<line x1="518.0" y1="534" x2="518.0" y2="540" stroke="#605E5C" stroke-width="1"/>
-<line x1="540.0" y1="534" x2="540.0" y2="540" stroke="#605E5C" stroke-width="1"/>
-<line x1="562.0" y1="534" x2="562.0" y2="540" stroke="#605E5C" stroke-width="1"/>
-<line x1="584.0" y1="534" x2="584.0" y2="540" stroke="#605E5C" stroke-width="1"/>
-<line x1="606.0" y1="534" x2="606.0" y2="540" stroke="#605E5C" stroke-width="1"/>
-<line x1="628.0" y1="534" x2="628.0" y2="540" stroke="#605E5C" stroke-width="1"/>
-<line x1="650.0" y1="534" x2="650.0" y2="540" stroke="#605E5C" stroke-width="1"/>
-<line x1="672.0" y1="534" x2="672.0" y2="540" stroke="#605E5C" stroke-width="1"/>
-<line x1="694.0" y1="534" x2="694.0" y2="540" stroke="#605E5C" stroke-width="1"/>
-<line x1="716.0" y1="534" x2="716.0" y2="540" stroke="#605E5C" stroke-width="1"/>
-<line x1="738.0" y1="534" x2="738.0" y2="540" stroke="#605E5C" stroke-width="1"/>
-<line x1="760.0" y1="534" x2="760.0" y2="540" stroke="#605E5C" stroke-width="1"/>
-<line x1="782.0" y1="534" x2="782.0" y2="540" stroke="#605E5C" stroke-width="1"/>
-<line x1="804.0" y1="534" x2="804.0" y2="540" stroke="#605E5C" stroke-width="1"/>
-<line x1="452" y1="534" x2="804.0" y2="534" stroke="#605E5C" stroke-width="1.5"/>
-<text x="812.0" y="544" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">mm</text>
-<rect x="452" y="578" width="220" height="16" rx="3" fill="#107C10"/>
-<text x="452" y="612" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#201F1E" text-anchor="start">300 dpi head (12 dots/mm): 590 dots = 50.0 mm</text>
-<rect x="682.0" y="576" width="41" height="20" rx="10" fill="#F2FAF2" stroke="#107C10" stroke-width="1"/>
-<text x="703" y="590" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#107C10" text-anchor="middle">pass</text>
-<rect x="452" y="638" width="325" height="16" rx="3" fill="#A4262C"/>
-<text x="452" y="672" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#201F1E" text-anchor="start">203 dpi head (8 dots/mm): 590 dots = 73.8 mm</text>
-<rect x="786.72" y="636" width="83" height="20" rx="10" fill="#FFF8F8" stroke="#A4262C" stroke-width="1"/>
-<text x="828" y="650" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#A4262C" text-anchor="middle">203 dpi head</text>
-<rect x="900" y="520" width="332" height="198" rx="6" fill="#EFF6FC" stroke="#0078D4" stroke-width="1.4" stroke-dasharray="6 4"/>
+<text x="98" y="640" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Read the head without a ruler</text>
+<text x="98" y="657" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">Configuration label (FEED + CANCEL, 2 s): 8 dots/mm</text>
+<text x="98" y="674" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">= 203 dpi, 12 dots/mm = 300 dpi; or ~HI on port 9100,</text>
+<text x="98" y="691" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">third field = dots/mm.</text>
+<line x1="452.0" y1="534" x2="452.0" y2="546" stroke="#9198A1" stroke-width="1"/>
+<text x="452.0" y="560" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10" font-weight="400" fill="#9198A1" text-anchor="middle">0</text>
+<line x1="496.0" y1="534" x2="496.0" y2="546" stroke="#9198A1" stroke-width="1"/>
+<text x="496.0" y="560" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10" font-weight="400" fill="#9198A1" text-anchor="middle">10</text>
+<line x1="540.0" y1="534" x2="540.0" y2="546" stroke="#9198A1" stroke-width="1"/>
+<text x="540.0" y="560" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10" font-weight="400" fill="#9198A1" text-anchor="middle">20</text>
+<line x1="584.0" y1="534" x2="584.0" y2="546" stroke="#9198A1" stroke-width="1"/>
+<text x="584.0" y="560" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10" font-weight="400" fill="#9198A1" text-anchor="middle">30</text>
+<line x1="628.0" y1="534" x2="628.0" y2="546" stroke="#9198A1" stroke-width="1"/>
+<text x="628.0" y="560" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10" font-weight="400" fill="#9198A1" text-anchor="middle">40</text>
+<line x1="672.0" y1="534" x2="672.0" y2="546" stroke="#9198A1" stroke-width="1"/>
+<text x="672.0" y="560" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10" font-weight="400" fill="#9198A1" text-anchor="middle">50</text>
+<line x1="716.0" y1="534" x2="716.0" y2="546" stroke="#9198A1" stroke-width="1"/>
+<text x="716.0" y="560" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10" font-weight="400" fill="#9198A1" text-anchor="middle">60</text>
+<line x1="760.0" y1="534" x2="760.0" y2="546" stroke="#9198A1" stroke-width="1"/>
+<text x="760.0" y="560" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10" font-weight="400" fill="#9198A1" text-anchor="middle">70</text>
+<line x1="804.0" y1="534" x2="804.0" y2="546" stroke="#9198A1" stroke-width="1"/>
+<text x="804.0" y="560" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10" font-weight="400" fill="#9198A1" text-anchor="middle">80</text>
+<line x1="452.0" y1="534" x2="452.0" y2="540" stroke="#9198A1" stroke-width="1"/>
+<line x1="474.0" y1="534" x2="474.0" y2="540" stroke="#9198A1" stroke-width="1"/>
+<line x1="496.0" y1="534" x2="496.0" y2="540" stroke="#9198A1" stroke-width="1"/>
+<line x1="518.0" y1="534" x2="518.0" y2="540" stroke="#9198A1" stroke-width="1"/>
+<line x1="540.0" y1="534" x2="540.0" y2="540" stroke="#9198A1" stroke-width="1"/>
+<line x1="562.0" y1="534" x2="562.0" y2="540" stroke="#9198A1" stroke-width="1"/>
+<line x1="584.0" y1="534" x2="584.0" y2="540" stroke="#9198A1" stroke-width="1"/>
+<line x1="606.0" y1="534" x2="606.0" y2="540" stroke="#9198A1" stroke-width="1"/>
+<line x1="628.0" y1="534" x2="628.0" y2="540" stroke="#9198A1" stroke-width="1"/>
+<line x1="650.0" y1="534" x2="650.0" y2="540" stroke="#9198A1" stroke-width="1"/>
+<line x1="672.0" y1="534" x2="672.0" y2="540" stroke="#9198A1" stroke-width="1"/>
+<line x1="694.0" y1="534" x2="694.0" y2="540" stroke="#9198A1" stroke-width="1"/>
+<line x1="716.0" y1="534" x2="716.0" y2="540" stroke="#9198A1" stroke-width="1"/>
+<line x1="738.0" y1="534" x2="738.0" y2="540" stroke="#9198A1" stroke-width="1"/>
+<line x1="760.0" y1="534" x2="760.0" y2="540" stroke="#9198A1" stroke-width="1"/>
+<line x1="782.0" y1="534" x2="782.0" y2="540" stroke="#9198A1" stroke-width="1"/>
+<line x1="804.0" y1="534" x2="804.0" y2="540" stroke="#9198A1" stroke-width="1"/>
+<line x1="452" y1="534" x2="804.0" y2="534" stroke="#9198A1" stroke-width="1.5"/>
+<text x="812.0" y="544" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">mm</text>
+<rect x="452" y="578" width="220" height="16" rx="3" fill="#238636"/>
+<text x="452" y="612" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#E6EDF3" text-anchor="start">300 dpi head (12 dots/mm): 590 dots = 50.0 mm</text>
+<rect x="682.0" y="576" width="41" height="20" rx="10" fill="#15221A" stroke="#3FB950" stroke-width="1"/>
+<text x="703" y="590" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#3FB950" text-anchor="middle">pass</text>
+<rect x="452" y="638" width="325" height="16" rx="3" fill="#DA3633"/>
+<text x="452" y="672" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#E6EDF3" text-anchor="start">203 dpi head (8 dots/mm): 590 dots = 73.8 mm</text>
+<rect x="786.72" y="636" width="83" height="20" rx="10" fill="#25171C" stroke="#F85149" stroke-width="1"/>
+<text x="828" y="650" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#F85149" text-anchor="middle">203 dpi head</text>
+<rect x="900" y="520" width="332" height="198" rx="6" fill="#121D2F" stroke="#4493F8" stroke-width="1.4" stroke-dasharray="6 4"/>
 <g transform="translate(910,528) scale(0.5000)"><path d="M24 4 L44 24 L24 44 L4 24 Z" fill="#C19C00"/><text x="24" y="31" font-family="Arial" font-weight="700" font-size="20" fill="#fff" text-anchor="middle">?</text></g>
-<text x="942" y="545" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#0078D4" text-anchor="start">Reading the diagnosis ratio</text>
-<text x="914" y="566" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Bad label ÷ good label ≈ 0.68: a 203 dpi driver on a</text>
-<text x="914" y="583" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">300 dpi head.</text>
-<text x="914" y="600" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">≈ 1.48: a 300 dpi driver on a 203 dpi head, enlarged</text>
-<text x="914" y="617" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">and cropped.</text>
-<text x="914" y="634" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Drifting position or random cropping is media</text>
-<text x="914" y="651" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">calibration, not dpi.</text>
-<text x="32" y="744" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">Fix lives on the print server: swap the queue&#x27;s driver (Set-Printer -DriverName), keep the port and queue name, then ruler test and LIMS reprint. Controls: CM-2, CM-3, CM-6.</text>
-<line x1="32" y1="756" x2="1248" y2="756" stroke="#E1DFDD"/>
-<text x="32" y="776" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#8A8886">Generalised design: no client names, tenant IDs, addresses or data. Icons are simplified originals, not Microsoft artwork.</text>
-<text x="1248" y="776" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#8A8886" text-anchor="end">Rich Dieu · github.com/richdieu-max</text>
+<text x="942" y="545" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#4493F8" text-anchor="start">Reading the diagnosis ratio</text>
+<text x="914" y="566" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">Bad label ÷ good label ≈ 0.68: a 203 dpi driver on a</text>
+<text x="914" y="583" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">300 dpi head.</text>
+<text x="914" y="600" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">≈ 1.48: a 300 dpi driver on a 203 dpi head, enlarged</text>
+<text x="914" y="617" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">and cropped.</text>
+<text x="914" y="634" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">Drifting position or random cropping is media</text>
+<text x="914" y="651" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">calibration, not dpi.</text>
+<text x="32" y="744" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#9198A1" text-anchor="start">Fix lives on the print server: swap the queue&#x27;s driver (Set-Printer -DriverName), keep the port and queue name, then ruler test and LIMS reprint. Controls: CM-2, CM-3, CM-6.</text>
+<line x1="32" y1="756" x2="1248" y2="756" stroke="#30363D"/>
+<text x="32" y="776" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#7D8590">Generalised design: no client names, tenant IDs, addresses or data. Icons are simplified originals, not Microsoft artwork.</text>
+<text x="1248" y="776" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#7D8590" text-anchor="end">Rich Dieu · github.com/richdieu-max</text>
 </svg>

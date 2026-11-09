@@ -1,4 +1,4 @@
-"""Diagram kit: renders the SOP library figures (1280 wide, Fluent palette, Segoe UI stack, shadowed cards
+"""Diagram kit: renders the SOP library figures (1280 wide, Fluent palette mapped to a dark theme by theme.py, Segoe UI stack, shadowed cards
 with 4px accent, 48-unit icons, per-colour arrow markers, fixed footer). Specs live in specs/; build.py runs them all.
 
 Usage
@@ -17,6 +17,8 @@ import json
 import os
 import re
 import html as _html
+
+from theme import to_dark
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 REPO_ROOT = os.path.abspath(os.path.join(HERE, "..", ".."))
@@ -429,7 +431,7 @@ class Diagram:
         body = "\n".join(self.parts)
         os.makedirs(os.path.dirname(os.path.abspath(path)), exist_ok=True)
         with open(path, "w", encoding="utf-8") as fh:
-            fh.write(head + body + "\n</svg>\n")
+            fh.write(to_dark(head + body + "\n</svg>\n"))
         for w in self.warnings:
             print(f"  WARN {os.path.basename(path)}: {w}")
         return self.warnings

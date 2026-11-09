@@ -1,156 +1,156 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 840" width="1280" height="840" role="img" aria-label="Client registration: from install to a healthy peer">
 <title>Client registration: from install to a healthy peer</title>
-<defs><marker id="m605E5C" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#605E5C"/></marker><marker id="m0078D4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#0078D4"/></marker><marker id="m5C2D91" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#5C2D91"/></marker><marker id="m008272" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#008272"/></marker></defs>
-<rect width="1280" height="840" fill="#fff"/>
-<rect x="0" y="0" width="1280" height="6" fill="#0078D4"/>
-<text x="32" y="48" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="600" fill="#201F1E">Client registration: from install to a healthy peer</text>
-<text x="32" y="72" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#605E5C">The installer reads tanium-init.dat beside it, the service registers on TCP 17472 with the server&#x27;s trust key, joins the subnet peer chain, and the console can ask it questions.</text>
-<rect x="39" y="100" width="206" height="48" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="39" y="100" width="4" height="48" fill="#605E5C"/>
+<defs><marker id="m605E5C" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#9198A1"/></marker><marker id="m0078D4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#4493F8"/></marker><marker id="m5C2D91" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#A371F7"/></marker><marker id="m008272" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#39C5CF"/></marker></defs>
+<rect width="1280" height="840" fill="#0D1117"/>
+<rect x="0" y="0" width="1280" height="6" fill="#1F6FEB"/>
+<text x="32" y="48" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="600" fill="#E6EDF3">Client registration: from install to a healthy peer</text>
+<text x="32" y="72" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#9198A1">The installer reads tanium-init.dat beside it, the service registers on TCP 17472 with the server&#x27;s trust key, joins the subnet peer chain, and the console can ask it questions.</text>
+<rect x="39" y="100" width="206" height="48" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="39" y="100" width="4" height="48" fill="#9198A1"/>
 <g transform="translate(51.0,112) scale(0.5000)"><path d="M24 4 L42 14 V34 L24 44 L6 34 V14 Z" fill="#C19C00"/><path d="M24 4 V24 M6 14 L24 24 L42 14" stroke="#fff" stroke-width="2" fill="none"/></g>
-<text x="85.0" y="122" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#201F1E" text-anchor="start">Installer +</text>
-<text x="85.0" y="138" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#201F1E" text-anchor="start">tanium-init.dat</text>
-<rect x="259" y="100" width="206" height="48" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="259" y="100" width="4" height="48" fill="#0078D4"/>
+<text x="85.0" y="122" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#E6EDF3" text-anchor="start">Installer +</text>
+<text x="85.0" y="138" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#E6EDF3" text-anchor="start">tanium-init.dat</text>
+<rect x="259" y="100" width="206" height="48" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="259" y="100" width="4" height="48" fill="#1F6FEB"/>
 <g transform="translate(271.0,112) scale(0.5000)"><rect x="5" y="5" width="38" height="38" rx="6" fill="#107C10"/><circle cx="24" cy="24" r="8" fill="none" stroke="#fff" stroke-width="3.5" stroke-dasharray="4 2.3"/><circle cx="24" cy="24" r="3" fill="#fff"/></g>
-<text x="305.0" y="130" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#201F1E" text-anchor="start">Tanium Client service</text>
-<rect x="479" y="100" width="206" height="48" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="479" y="100" width="4" height="48" fill="#5C2D91"/>
+<text x="305.0" y="130" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#E6EDF3" text-anchor="start">Tanium Client service</text>
+<rect x="479" y="100" width="206" height="48" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="479" y="100" width="4" height="48" fill="#8957E5"/>
 <g transform="translate(491.0,112) scale(0.5000)"><rect x="10" y="4" width="28" height="40" rx="3" fill="#0078D4"/><path d="M15 12 h18 M15 18 h18 M15 24 h18" stroke="#fff" stroke-width="2.4"/><circle cx="32" cy="36" r="2.4" fill="#DFF6DD"/></g>
-<text x="525.0" y="122" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#201F1E" text-anchor="start">Tanium Server or Zone</text>
-<text x="525.0" y="138" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#201F1E" text-anchor="start">Server</text>
-<rect x="699" y="100" width="206" height="48" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="699" y="100" width="4" height="48" fill="#008272"/>
+<text x="525.0" y="122" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#E6EDF3" text-anchor="start">Tanium Server or Zone</text>
+<text x="525.0" y="138" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#E6EDF3" text-anchor="start">Server</text>
+<rect x="699" y="100" width="206" height="48" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="699" y="100" width="4" height="48" fill="#1B7C83"/>
 <g transform="translate(711.0,112) scale(0.5000)"><rect x="4" y="8" width="40" height="32" rx="3" fill="#0078D4"/><rect x="4" y="8" width="40" height="8" rx="3" fill="#005A9E"/><circle cx="9" cy="12" r="1.6" fill="#fff"/><circle cx="14" cy="12" r="1.6" fill="#fff"/><path d="M10 24 h28 M10 30 h20" stroke="#fff" stroke-width="2.4"/></g>
-<text x="745.0" y="130" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#201F1E" text-anchor="start">Console (HTTPS 443)</text>
-<line x1="142.0" y1="148" x2="142.0" y2="590" stroke="#C8C6C4" stroke-width="1" stroke-dasharray="5 4"/>
-<line x1="362.0" y1="148" x2="362.0" y2="590" stroke="#C8C6C4" stroke-width="1" stroke-dasharray="5 4"/>
-<line x1="582.0" y1="148" x2="582.0" y2="590" stroke="#C8C6C4" stroke-width="1" stroke-dasharray="5 4"/>
-<line x1="802.0" y1="148" x2="802.0" y2="590" stroke="#C8C6C4" stroke-width="1" stroke-dasharray="5 4"/>
-<polyline points="142.0,174 188.0,174 188.0,190 146.0,190" fill="none" stroke="#605E5C" stroke-width="1.6" marker-end="url(#m605E5C)"/>
-<text x="198.0" y="180" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="start">both files staged together;</text>
-<text x="198.0" y="195" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="start">SHA-256 checked</text>
-<polyline points="146.0,216 356.0,216" fill="none" stroke="#605E5C" stroke-width="1.6" marker-end="url(#m605E5C)"/>
-<rect x="97" y="198" width="311" height="16" rx="3" fill="#fff" opacity="0.95"/>
-<text x="252.0" y="210" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="middle">SetupClient.exe /S reads the init file from its own folder</text>
-<polyline points="362.0,242 408.0,242 408.0,258 366.0,258" fill="none" stroke="#0078D4" stroke-width="1.6" marker-end="url(#m0078D4)"/>
-<text x="418.0" y="248" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="start">service starts; set to</text>
-<text x="418.0" y="263" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="start">Automatic</text>
-<polyline points="366.0,284 576.0,284" fill="none" stroke="#0078D4" stroke-width="1.6" marker-end="url(#m0078D4)"/>
-<rect x="317" y="266" width="309" height="16" rx="3" fill="#fff" opacity="0.95"/>
-<text x="472.0" y="278" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="middle">register on TCP 17472: server name list, port, trust key</text>
-<polyline points="578.0,318 368.0,318" fill="none" stroke="#5C2D91" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#m5C2D91)"/>
-<rect x="353" y="300" width="239" height="16" rx="3" fill="#fff" opacity="0.95"/>
-<text x="472.0" y="312" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="middle">registered; questions and packages follow</text>
-<polyline points="362.0,344 408.0,344 408.0,360 366.0,360" fill="none" stroke="#0078D4" stroke-width="1.6" marker-end="url(#m0078D4)"/>
-<text x="418.0" y="350" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="start">peer chain with subnet</text>
-<text x="418.0" y="365" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="start">neighbours on 17472</text>
-<polyline points="578.0,386 368.0,386" fill="none" stroke="#5C2D91" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#m5C2D91)"/>
-<rect x="321" y="368" width="301" height="16" rx="3" fill="#fff" opacity="0.95"/>
-<text x="472.0" y="380" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="middle">only the leader and backward leader talk to the server</text>
-<polyline points="798.0,420 588.0,420" fill="none" stroke="#008272" stroke-width="1.6" marker-end="url(#m008272)"/>
-<rect x="591" y="402" width="202" height="16" rx="3" fill="#fff" opacity="0.95"/>
-<text x="692.0" y="414" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="middle">Interact question filtered to the host</text>
-<polyline points="578.0,454 368.0,454" fill="none" stroke="#5C2D91" stroke-width="1.6" marker-end="url(#m5C2D91)"/>
-<rect x="380" y="436" width="184" height="16" rx="3" fill="#fff" opacity="0.95"/>
-<text x="472.0" y="448" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="middle">question passed along the chain</text>
-<polyline points="366.0,488 576.0,488" fill="none" stroke="#0078D4" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#m0078D4)"/>
-<rect x="423" y="470" width="98" height="16" rx="3" fill="#fff" opacity="0.95"/>
-<text x="472.0" y="482" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="middle">answer returned</text>
-<polyline points="586.0,522 796.0,522" fill="none" stroke="#5C2D91" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#m5C2D91)"/>
-<rect x="542" y="504" width="300" height="16" rx="3" fill="#fff" opacity="0.95"/>
-<text x="692.0" y="516" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="middle">Client Management: Online, version, computer groups</text>
-<polyline points="362.0,548 408.0,548 408.0,564 366.0,564" fill="none" stroke="#0078D4" stroke-width="1.6" marker-end="url(#m0078D4)"/>
-<text x="418.0" y="554" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="start">JSON evidence written with</text>
-<text x="418.0" y="569" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="start">the change reference</text>
-<rect x="936" y="100" width="312" height="350" rx="6" fill="#FFF8F8" stroke="#A4262C" stroke-width="1.4" stroke-dasharray="6 4"/>
+<text x="745.0" y="130" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#E6EDF3" text-anchor="start">Console (HTTPS 443)</text>
+<line x1="142.0" y1="148" x2="142.0" y2="590" stroke="#3D444D" stroke-width="1" stroke-dasharray="5 4"/>
+<line x1="362.0" y1="148" x2="362.0" y2="590" stroke="#3D444D" stroke-width="1" stroke-dasharray="5 4"/>
+<line x1="582.0" y1="148" x2="582.0" y2="590" stroke="#3D444D" stroke-width="1" stroke-dasharray="5 4"/>
+<line x1="802.0" y1="148" x2="802.0" y2="590" stroke="#3D444D" stroke-width="1" stroke-dasharray="5 4"/>
+<polyline points="142.0,174 188.0,174 188.0,190 146.0,190" fill="none" stroke="#9198A1" stroke-width="1.6" marker-end="url(#m605E5C)"/>
+<text x="198.0" y="180" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#E6EDF3" text-anchor="start">both files staged together;</text>
+<text x="198.0" y="195" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#E6EDF3" text-anchor="start">SHA-256 checked</text>
+<polyline points="146.0,216 356.0,216" fill="none" stroke="#9198A1" stroke-width="1.6" marker-end="url(#m605E5C)"/>
+<rect x="97" y="198" width="311" height="16" rx="3" fill="#0D1117" opacity="0.95"/>
+<text x="252.0" y="210" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#E6EDF3" text-anchor="middle">SetupClient.exe /S reads the init file from its own folder</text>
+<polyline points="362.0,242 408.0,242 408.0,258 366.0,258" fill="none" stroke="#4493F8" stroke-width="1.6" marker-end="url(#m0078D4)"/>
+<text x="418.0" y="248" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#E6EDF3" text-anchor="start">service starts; set to</text>
+<text x="418.0" y="263" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#E6EDF3" text-anchor="start">Automatic</text>
+<polyline points="366.0,284 576.0,284" fill="none" stroke="#4493F8" stroke-width="1.6" marker-end="url(#m0078D4)"/>
+<rect x="317" y="266" width="309" height="16" rx="3" fill="#0D1117" opacity="0.95"/>
+<text x="472.0" y="278" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#E6EDF3" text-anchor="middle">register on TCP 17472: server name list, port, trust key</text>
+<polyline points="578.0,318 368.0,318" fill="none" stroke="#A371F7" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#m5C2D91)"/>
+<rect x="353" y="300" width="239" height="16" rx="3" fill="#0D1117" opacity="0.95"/>
+<text x="472.0" y="312" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#E6EDF3" text-anchor="middle">registered; questions and packages follow</text>
+<polyline points="362.0,344 408.0,344 408.0,360 366.0,360" fill="none" stroke="#4493F8" stroke-width="1.6" marker-end="url(#m0078D4)"/>
+<text x="418.0" y="350" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#E6EDF3" text-anchor="start">peer chain with subnet</text>
+<text x="418.0" y="365" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#E6EDF3" text-anchor="start">neighbours on 17472</text>
+<polyline points="578.0,386 368.0,386" fill="none" stroke="#A371F7" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#m5C2D91)"/>
+<rect x="321" y="368" width="301" height="16" rx="3" fill="#0D1117" opacity="0.95"/>
+<text x="472.0" y="380" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#E6EDF3" text-anchor="middle">only the leader and backward leader talk to the server</text>
+<polyline points="798.0,420 588.0,420" fill="none" stroke="#39C5CF" stroke-width="1.6" marker-end="url(#m008272)"/>
+<rect x="591" y="402" width="202" height="16" rx="3" fill="#0D1117" opacity="0.95"/>
+<text x="692.0" y="414" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#E6EDF3" text-anchor="middle">Interact question filtered to the host</text>
+<polyline points="578.0,454 368.0,454" fill="none" stroke="#A371F7" stroke-width="1.6" marker-end="url(#m5C2D91)"/>
+<rect x="380" y="436" width="184" height="16" rx="3" fill="#0D1117" opacity="0.95"/>
+<text x="472.0" y="448" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#E6EDF3" text-anchor="middle">question passed along the chain</text>
+<polyline points="366.0,488 576.0,488" fill="none" stroke="#4493F8" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#m0078D4)"/>
+<rect x="423" y="470" width="98" height="16" rx="3" fill="#0D1117" opacity="0.95"/>
+<text x="472.0" y="482" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#E6EDF3" text-anchor="middle">answer returned</text>
+<polyline points="586.0,522 796.0,522" fill="none" stroke="#A371F7" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#m5C2D91)"/>
+<rect x="542" y="504" width="300" height="16" rx="3" fill="#0D1117" opacity="0.95"/>
+<text x="692.0" y="516" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#E6EDF3" text-anchor="middle">Client Management: Online, version, computer groups</text>
+<polyline points="362.0,548 408.0,548 408.0,564 366.0,564" fill="none" stroke="#4493F8" stroke-width="1.6" marker-end="url(#m0078D4)"/>
+<text x="418.0" y="554" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#E6EDF3" text-anchor="start">JSON evidence written with</text>
+<text x="418.0" y="569" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#E6EDF3" text-anchor="start">the change reference</text>
+<rect x="936" y="100" width="312" height="350" rx="6" fill="#25171C" stroke="#F85149" stroke-width="1.4" stroke-dasharray="6 4"/>
 <g transform="translate(946,108) scale(0.5000)"><path d="M24 3 L41 9 V23 C41 34 33 41 24 45 C15 41 7 34 7 23 V9 Z" fill="#8A8886"/><path d="M16 16 l16 16 M32 16 l-16 16" stroke="#fff" stroke-width="3.4"/></g>
-<text x="978" y="125" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#A4262C" text-anchor="start">Installed but invisible</text>
-<rect x="952" y="140" width="280" height="56" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="952" y="140" width="4" height="56" rx="0" fill="#A4262C"/>
-<text x="970" y="162" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#201F1E" text-anchor="start">No init file beside the installer</text>
-<text x="970" y="177" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">install succeeds, service runs, never registers</text>
-<rect x="952" y="200" width="280" height="56" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="952" y="200" width="4" height="56" rx="0" fill="#A4262C"/>
-<text x="970" y="222" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#201F1E" text-anchor="start">Init file from another environment</text>
-<text x="970" y="237" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">wrong server list or trust key: reinstall with the</text>
-<text x="970" y="252" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">right file</text>
-<rect x="952" y="260" width="280" height="56" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="952" y="260" width="4" height="56" rx="0" fill="#A4262C"/>
-<text x="970" y="282" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#201F1E" text-anchor="start">17472 blocked</text>
-<text x="970" y="297" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">TcpTestSucceeded False: ask for a firewall or</text>
-<text x="970" y="312" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">routing rule</text>
-<rect x="952" y="320" width="280" height="56" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="952" y="320" width="4" height="56" rx="0" fill="#A4262C"/>
-<text x="970" y="342" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#201F1E" text-anchor="start">Clock skew</text>
-<text x="970" y="357" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">key or certificate errors in log0.txt: w32tm</text>
-<text x="970" y="372" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">/resync, reinstall</text>
-<rect x="952" y="380" width="280" height="56" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="952" y="380" width="4" height="56" rx="0" fill="#A4262C"/>
-<text x="970" y="402" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#201F1E" text-anchor="start">Cloned after install</text>
-<text x="970" y="417" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">two endpoints share one identity: reset the clone</text>
-<rect x="936" y="466" width="312" height="150" rx="6" fill="#FAF9F8" stroke="#C8C6C4" stroke-width="1.4"/>
+<text x="978" y="125" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#F85149" text-anchor="start">Installed but invisible</text>
+<rect x="952" y="140" width="280" height="56" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="952" y="140" width="4" height="56" rx="0" fill="#DA3633"/>
+<text x="970" y="162" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#E6EDF3" text-anchor="start">No init file beside the installer</text>
+<text x="970" y="177" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">install succeeds, service runs, never registers</text>
+<rect x="952" y="200" width="280" height="56" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="952" y="200" width="4" height="56" rx="0" fill="#DA3633"/>
+<text x="970" y="222" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#E6EDF3" text-anchor="start">Init file from another environment</text>
+<text x="970" y="237" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">wrong server list or trust key: reinstall with the</text>
+<text x="970" y="252" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">right file</text>
+<rect x="952" y="260" width="280" height="56" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="952" y="260" width="4" height="56" rx="0" fill="#DA3633"/>
+<text x="970" y="282" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#E6EDF3" text-anchor="start">17472 blocked</text>
+<text x="970" y="297" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">TcpTestSucceeded False: ask for a firewall or</text>
+<text x="970" y="312" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">routing rule</text>
+<rect x="952" y="320" width="280" height="56" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="952" y="320" width="4" height="56" rx="0" fill="#DA3633"/>
+<text x="970" y="342" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#E6EDF3" text-anchor="start">Clock skew</text>
+<text x="970" y="357" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">key or certificate errors in log0.txt: w32tm</text>
+<text x="970" y="372" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">/resync, reinstall</text>
+<rect x="952" y="380" width="280" height="56" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="952" y="380" width="4" height="56" rx="0" fill="#DA3633"/>
+<text x="970" y="402" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#E6EDF3" text-anchor="start">Cloned after install</text>
+<text x="970" y="417" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">two endpoints share one identity: reset the clone</text>
+<rect x="936" y="466" width="312" height="150" rx="6" fill="#151B23" stroke="#3D444D" stroke-width="1.4"/>
 <g transform="translate(946,474) scale(0.5000)"><rect x="3" y="15" width="42" height="18" rx="3" fill="#0078D4"/><rect x="8" y="21" width="4" height="6" fill="#fff"/><rect x="15" y="21" width="4" height="6" fill="#fff"/><rect x="22" y="21" width="4" height="6" fill="#fff"/><rect x="29" y="21" width="4" height="6" fill="#fff"/><rect x="36" y="21" width="4" height="6" fill="#fff"/><circle cx="41" cy="24" r="1.8" fill="#DFF6DD"/></g>
-<text x="978" y="491" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#201F1E" text-anchor="start">Ports that matter</text>
-<rect x="952" y="504" width="75" height="20" rx="10" fill="#0078D4"/>
+<text x="978" y="491" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#E6EDF3" text-anchor="start">Ports that matter</text>
+<rect x="952" y="504" width="75" height="20" rx="10" fill="#1F6FEB"/>
 <text x="989" y="518" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#fff" text-anchor="middle">TCP 17472</text>
-<text x="1040" y="517" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">client → server or Zone Server:</text>
-<text x="1040" y="531" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">registration, questions, packages</text>
-<rect x="952" y="540" width="75" height="20" rx="10" fill="#0078D4"/>
+<text x="1040" y="517" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">client → server or Zone Server:</text>
+<text x="1040" y="531" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">registration, questions, packages</text>
+<rect x="952" y="540" width="75" height="20" rx="10" fill="#1F6FEB"/>
 <text x="989" y="554" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#fff" text-anchor="middle">TCP 17472</text>
-<text x="1040" y="553" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">client ↔ client on the same subnet:</text>
-<text x="1040" y="567" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">peer chaining</text>
-<rect x="952" y="576" width="62" height="20" rx="10" fill="#008272"/>
+<text x="1040" y="553" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">client ↔ client on the same subnet:</text>
+<text x="1040" y="567" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">peer chaining</text>
+<rect x="952" y="576" width="62" height="20" rx="10" fill="#1B7C83"/>
 <text x="983" y="590" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#fff" text-anchor="middle">TCP 443</text>
-<text x="1040" y="589" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">operator browser → server: the console</text>
-<rect x="32" y="630" width="1216" height="150" rx="6" fill="#FAF9F8" stroke="#C8C6C4" stroke-width="1.4"/>
+<text x="1040" y="589" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">operator browser → server: the console</text>
+<rect x="32" y="630" width="1216" height="150" rx="6" fill="#151B23" stroke="#3D444D" stroke-width="1.4"/>
 <g transform="translate(42,638) scale(0.5000)"><circle cx="24" cy="24" r="20" fill="#107C10"/><path d="M14 24 l7 7 13-14" stroke="#fff" stroke-width="4" fill="none"/></g>
-<text x="74" y="655" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#201F1E" text-anchor="start">Proof the client is healthy, in the order to check it</text>
-<text x="1236" y="655" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="end">service, then init file, then 17472, then the log</text>
-<rect x="48" y="670" width="384" height="46" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="48" y="670" width="4" height="46" rx="0" fill="#107C10"/>
-<circle cx="72" cy="686" r="11" fill="#107C10"/>
+<text x="74" y="655" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#E6EDF3" text-anchor="start">Proof the client is healthy, in the order to check it</text>
+<text x="1236" y="655" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9198A1" text-anchor="end">service, then init file, then 17472, then the log</text>
+<rect x="48" y="670" width="384" height="46" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="48" y="670" width="4" height="46" rx="0" fill="#238636"/>
+<circle cx="72" cy="686" r="11" fill="#238636"/>
 <text x="72" y="690" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">1</text>
-<text x="92" y="692" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start"></text>
-<text x="90" y="689" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="start">Get-Service &#x27;Tanium Client&#x27;</text>
-<text x="90" y="705" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">Running, Automatic</text>
-<rect x="448" y="670" width="384" height="46" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="448" y="670" width="4" height="46" rx="0" fill="#107C10"/>
-<circle cx="472" cy="686" r="11" fill="#107C10"/>
+<text x="92" y="692" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start"></text>
+<text x="90" y="689" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#E6EDF3" text-anchor="start">Get-Service &#x27;Tanium Client&#x27;</text>
+<text x="90" y="705" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">Running, Automatic</text>
+<rect x="448" y="670" width="384" height="46" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="448" y="670" width="4" height="46" rx="0" fill="#238636"/>
+<circle cx="472" cy="686" r="11" fill="#238636"/>
 <text x="472" y="690" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">2</text>
-<text x="492" y="692" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start"></text>
-<text x="490" y="689" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="start">Get-NetTCPConnection -RemotePort 17472</text>
-<text x="490" y="705" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">Established connection to the server</text>
-<rect x="848" y="670" width="384" height="46" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="848" y="670" width="4" height="46" rx="0" fill="#107C10"/>
-<circle cx="872" cy="686" r="11" fill="#107C10"/>
+<text x="492" y="692" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start"></text>
+<text x="490" y="689" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#E6EDF3" text-anchor="start">Get-NetTCPConnection -RemotePort 17472</text>
+<text x="490" y="705" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">Established connection to the server</text>
+<rect x="848" y="670" width="384" height="46" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="848" y="670" width="4" height="46" rx="0" fill="#238636"/>
+<circle cx="872" cy="686" r="11" fill="#238636"/>
 <text x="872" y="690" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">3</text>
-<text x="892" y="692" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start"></text>
-<text x="890" y="689" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="start">log0.txt in the install folder</text>
-<text x="890" y="705" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">registration lines, no repeated errors</text>
-<rect x="48" y="722" width="384" height="46" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="48" y="722" width="4" height="46" rx="0" fill="#107C10"/>
-<circle cx="72" cy="738" r="11" fill="#107C10"/>
+<text x="892" y="692" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start"></text>
+<text x="890" y="689" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#E6EDF3" text-anchor="start">log0.txt in the install folder</text>
+<text x="890" y="705" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">registration lines, no repeated errors</text>
+<rect x="48" y="722" width="384" height="46" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="48" y="722" width="4" height="46" rx="0" fill="#238636"/>
+<circle cx="72" cy="738" r="11" fill="#238636"/>
 <text x="72" y="742" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">4</text>
-<text x="92" y="744" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start"></text>
-<text x="90" y="741" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="start">TaniumClient.exe config get ServerNameList</text>
-<text x="90" y="757" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">the expected server</text>
-<rect x="448" y="722" width="384" height="46" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="448" y="722" width="4" height="46" rx="0" fill="#107C10"/>
-<circle cx="472" cy="738" r="11" fill="#107C10"/>
+<text x="92" y="744" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start"></text>
+<text x="90" y="741" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#E6EDF3" text-anchor="start">TaniumClient.exe config get ServerNameList</text>
+<text x="90" y="757" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">the expected server</text>
+<rect x="448" y="722" width="384" height="46" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="448" y="722" width="4" height="46" rx="0" fill="#238636"/>
+<circle cx="472" cy="738" r="11" fill="#238636"/>
 <text x="472" y="742" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">5</text>
-<text x="492" y="744" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start"></text>
-<text x="490" y="741" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="start">Interact question filtered to the host</text>
-<text x="490" y="757" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">answer returned</text>
-<rect x="848" y="722" width="384" height="46" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="848" y="722" width="4" height="46" rx="0" fill="#107C10"/>
-<circle cx="872" cy="738" r="11" fill="#107C10"/>
+<text x="492" y="744" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start"></text>
+<text x="490" y="741" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#E6EDF3" text-anchor="start">Interact question filtered to the host</text>
+<text x="490" y="757" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">answer returned</text>
+<rect x="848" y="722" width="384" height="46" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="848" y="722" width="4" height="46" rx="0" fill="#238636"/>
+<circle cx="872" cy="738" r="11" fill="#238636"/>
 <text x="872" y="742" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">6</text>
-<text x="892" y="744" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start"></text>
-<text x="890" y="741" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#201F1E" text-anchor="start">Client Management health view</text>
-<text x="890" y="757" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">Online, expected version, expected computer groups</text>
-<text x="32" y="794" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">Only the chain leader and backward leader reach the server; a host firewall that blocks peering makes every client talk to the server directly. Controls: CM-8, SI-7 (hashes and trust key), AU-12 (JSON evidence).</text>
-<line x1="32" y1="806" x2="1248" y2="806" stroke="#E1DFDD"/>
-<text x="32" y="826" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#8A8886">Generalised design: no client names, tenant IDs, addresses or data. Icons are simplified originals, not Microsoft artwork.</text>
-<text x="1248" y="826" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#8A8886" text-anchor="end">Rich Dieu · github.com/richdieu-max</text>
+<text x="892" y="744" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start"></text>
+<text x="890" y="741" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#E6EDF3" text-anchor="start">Client Management health view</text>
+<text x="890" y="757" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">Online, expected version, expected computer groups</text>
+<text x="32" y="794" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#9198A1" text-anchor="start">Only the chain leader and backward leader reach the server; a host firewall that blocks peering makes every client talk to the server directly. Controls: CM-8, SI-7 (hashes and trust key), AU-12 (JSON evidence).</text>
+<line x1="32" y1="806" x2="1248" y2="806" stroke="#30363D"/>
+<text x="32" y="826" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#7D8590">Generalised design: no client names, tenant IDs, addresses or data. Icons are simplified originals, not Microsoft artwork.</text>
+<text x="1248" y="826" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#7D8590" text-anchor="end">Rich Dieu · github.com/richdieu-max</text>
 </svg>

@@ -1,146 +1,146 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 828" width="1280" height="828" role="img" aria-label="At scale: Intune Win32, ConfigMgr, GPO startup script or the Tanium-native route">
 <title>At scale: Intune Win32, ConfigMgr, GPO startup script or the Tanium-native route</title>
-<defs><marker id="m0078D4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#0078D4"/></marker><marker id="m5C2D91" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#5C2D91"/></marker><marker id="m605E5C" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#605E5C"/></marker></defs>
-<rect width="1280" height="828" fill="#fff"/>
-<rect x="0" y="0" width="1280" height="6" fill="#0078D4"/>
-<text x="32" y="48" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="600" fill="#201F1E">At scale: Intune Win32, ConfigMgr, GPO startup script or the Tanium-native route</text>
-<text x="32" y="72" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#605E5C">Prefer the platform that already manages the endpoint; the native deployment is for estates nothing manages yet, and remoting is for a handful.</text>
-<rect x="32" y="100" width="1216" height="190" rx="6" fill="#FAF9F8" stroke="#C8C6C4" stroke-width="1.4"/>
+<defs><marker id="m0078D4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#4493F8"/></marker><marker id="m5C2D91" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#A371F7"/></marker><marker id="m605E5C" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#9198A1"/></marker></defs>
+<rect width="1280" height="828" fill="#0D1117"/>
+<rect x="0" y="0" width="1280" height="6" fill="#1F6FEB"/>
+<text x="32" y="48" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="600" fill="#E6EDF3">At scale: Intune Win32, ConfigMgr, GPO startup script or the Tanium-native route</text>
+<text x="32" y="72" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#9198A1">Prefer the platform that already manages the endpoint; the native deployment is for estates nothing manages yet, and remoting is for a handful.</text>
+<rect x="32" y="100" width="1216" height="190" rx="6" fill="#151B23" stroke="#3D444D" stroke-width="1.4"/>
 <g transform="translate(42,108) scale(0.5000)"><path d="M24 3 L45 24 L24 45 L3 24 Z" fill="#C19C00"/><text x="24" y="30" font-family="Arial" font-weight="700" font-size="17" fill="#fff" text-anchor="middle">?</text></g>
-<text x="74" y="125" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#201F1E" text-anchor="start">Which route? Ask about the endpoint, not the agent</text>
-<rect x="48" y="140" width="224" height="54" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="48" y="140" width="4" height="54" rx="0" fill="#C19C00"/>
-<text x="66" y="162" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start"></text>
-<text x="62" y="162" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#201F1E" text-anchor="start">Already managed by Intune?</text>
-<text x="62" y="180" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">yes ↓</text>
-<polyline points="160,194 160,214" fill="none" stroke="#0078D4" stroke-width="2" marker-end="url(#m0078D4)"/>
-<rect x="48" y="216" width="224" height="56" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="48" y="216" width="4" height="56" rx="0" fill="#0078D4"/>
-<circle cx="72" cy="232" r="11" fill="#0078D4"/>
+<text x="74" y="125" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#E6EDF3" text-anchor="start">Which route? Ask about the endpoint, not the agent</text>
+<rect x="48" y="140" width="224" height="54" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="48" y="140" width="4" height="54" rx="0" fill="#9E6A03"/>
+<text x="66" y="162" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start"></text>
+<text x="62" y="162" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#E6EDF3" text-anchor="start">Already managed by Intune?</text>
+<text x="62" y="180" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">yes ↓</text>
+<polyline points="160,194 160,214" fill="none" stroke="#4493F8" stroke-width="2" marker-end="url(#m0078D4)"/>
+<rect x="48" y="216" width="224" height="56" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="48" y="216" width="4" height="56" rx="0" fill="#1F6FEB"/>
+<circle cx="72" cy="232" r="11" fill="#1F6FEB"/>
 <text x="72" y="236" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">D</text>
-<text x="92" y="238" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="start">Intune Win32 app</text>
-<text x="280" y="170" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="middle">no →</text>
-<rect x="288" y="140" width="224" height="54" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="288" y="140" width="4" height="54" rx="0" fill="#C19C00"/>
-<text x="306" y="162" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start"></text>
-<text x="302" y="162" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#201F1E" text-anchor="start">Managed by ConfigMgr?</text>
-<text x="302" y="180" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">yes ↓</text>
-<polyline points="400,194 400,214" fill="none" stroke="#0078D4" stroke-width="2" marker-end="url(#m0078D4)"/>
-<rect x="288" y="216" width="224" height="56" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="288" y="216" width="4" height="56" rx="0" fill="#0078D4"/>
-<circle cx="312" cy="232" r="11" fill="#0078D4"/>
+<text x="92" y="238" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Intune Win32 app</text>
+<text x="280" y="170" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="middle">no →</text>
+<rect x="288" y="140" width="224" height="54" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="288" y="140" width="4" height="54" rx="0" fill="#9E6A03"/>
+<text x="306" y="162" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start"></text>
+<text x="302" y="162" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#E6EDF3" text-anchor="start">Managed by ConfigMgr?</text>
+<text x="302" y="180" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">yes ↓</text>
+<polyline points="400,194 400,214" fill="none" stroke="#4493F8" stroke-width="2" marker-end="url(#m0078D4)"/>
+<rect x="288" y="216" width="224" height="56" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="288" y="216" width="4" height="56" rx="0" fill="#1F6FEB"/>
+<circle cx="312" cy="232" r="11" fill="#1F6FEB"/>
 <text x="312" y="236" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">D</text>
-<text x="332" y="238" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="start">ConfigMgr application</text>
-<text x="520" y="170" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="middle">no →</text>
-<rect x="528" y="140" width="224" height="54" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="528" y="140" width="4" height="54" rx="0" fill="#C19C00"/>
-<text x="546" y="162" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start"></text>
-<text x="542" y="162" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#201F1E" text-anchor="start">Domain-joined, neither?</text>
-<text x="542" y="180" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">yes ↓</text>
-<polyline points="640,194 640,214" fill="none" stroke="#0078D4" stroke-width="2" marker-end="url(#m0078D4)"/>
-<rect x="528" y="216" width="224" height="56" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="528" y="216" width="4" height="56" rx="0" fill="#0078D4"/>
-<circle cx="552" cy="232" r="11" fill="#0078D4"/>
+<text x="332" y="238" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#E6EDF3" text-anchor="start">ConfigMgr application</text>
+<text x="520" y="170" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="middle">no →</text>
+<rect x="528" y="140" width="224" height="54" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="528" y="140" width="4" height="54" rx="0" fill="#9E6A03"/>
+<text x="546" y="162" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start"></text>
+<text x="542" y="162" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#E6EDF3" text-anchor="start">Domain-joined, neither?</text>
+<text x="542" y="180" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">yes ↓</text>
+<polyline points="640,194 640,214" fill="none" stroke="#4493F8" stroke-width="2" marker-end="url(#m0078D4)"/>
+<rect x="528" y="216" width="224" height="56" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="528" y="216" width="4" height="56" rx="0" fill="#1F6FEB"/>
+<circle cx="552" cy="232" r="11" fill="#1F6FEB"/>
 <text x="552" y="236" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">D</text>
-<text x="572" y="238" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="start">GPO startup script</text>
-<text x="760" y="170" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="middle">no →</text>
-<rect x="768" y="140" width="224" height="54" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="768" y="140" width="4" height="54" rx="0" fill="#C19C00"/>
-<text x="786" y="162" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start"></text>
-<text x="782" y="162" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#201F1E" text-anchor="start">Unmanaged estate, M&amp;A?</text>
-<text x="782" y="180" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">yes ↓</text>
-<polyline points="880,194 880,214" fill="none" stroke="#5C2D91" stroke-width="2" marker-end="url(#m5C2D91)"/>
-<rect x="768" y="216" width="224" height="56" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="768" y="216" width="4" height="56" rx="0" fill="#5C2D91"/>
-<circle cx="792" cy="232" r="11" fill="#5C2D91"/>
+<text x="572" y="238" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#E6EDF3" text-anchor="start">GPO startup script</text>
+<text x="760" y="170" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="middle">no →</text>
+<rect x="768" y="140" width="224" height="54" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="768" y="140" width="4" height="54" rx="0" fill="#9E6A03"/>
+<text x="786" y="162" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start"></text>
+<text x="782" y="162" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#E6EDF3" text-anchor="start">Unmanaged estate, M&amp;A?</text>
+<text x="782" y="180" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">yes ↓</text>
+<polyline points="880,194 880,214" fill="none" stroke="#A371F7" stroke-width="2" marker-end="url(#m5C2D91)"/>
+<rect x="768" y="216" width="224" height="56" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="768" y="216" width="4" height="56" rx="0" fill="#8957E5"/>
+<circle cx="792" cy="232" r="11" fill="#8957E5"/>
 <text x="792" y="236" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">E</text>
-<text x="812" y="238" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="start">Tanium client deployment</text>
-<text x="1000" y="170" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="middle">no →</text>
-<rect x="1008" y="140" width="224" height="54" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="1008" y="140" width="4" height="54" rx="0" fill="#C19C00"/>
-<text x="1026" y="162" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start"></text>
-<text x="1022" y="162" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#201F1E" text-anchor="start">Just a handful of PCs?</text>
-<text x="1022" y="180" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">yes ↓</text>
-<polyline points="1120,194 1120,214" fill="none" stroke="#605E5C" stroke-width="2" marker-end="url(#m605E5C)"/>
-<rect x="1008" y="216" width="224" height="56" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="1008" y="216" width="4" height="56" rx="0" fill="#605E5C"/>
-<circle cx="1032" cy="232" r="11" fill="#605E5C"/>
+<text x="812" y="238" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Tanium client deployment</text>
+<text x="1000" y="170" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="middle">no →</text>
+<rect x="1008" y="140" width="224" height="54" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="1008" y="140" width="4" height="54" rx="0" fill="#9E6A03"/>
+<text x="1026" y="162" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start"></text>
+<text x="1022" y="162" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#E6EDF3" text-anchor="start">Just a handful of PCs?</text>
+<text x="1022" y="180" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">yes ↓</text>
+<polyline points="1120,194 1120,214" fill="none" stroke="#9198A1" stroke-width="2" marker-end="url(#m605E5C)"/>
+<rect x="1008" y="216" width="224" height="56" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="1008" y="216" width="4" height="56" rx="0" fill="#9198A1"/>
+<circle cx="1032" cy="232" r="11" fill="#9198A1"/>
 <text x="1032" y="236" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">C</text>
-<text x="1052" y="238" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="start">PsExec or WinRM</text>
-<rect x="32" y="306" width="1216" height="338" rx="6" fill="#FAF9F8" stroke="#C8C6C4" stroke-width="1.4"/>
+<text x="1052" y="238" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#E6EDF3" text-anchor="start">PsExec or WinRM</text>
+<rect x="32" y="306" width="1216" height="338" rx="6" fill="#151B23" stroke="#3D444D" stroke-width="1.4"/>
 <g transform="translate(42,314) scale(0.5000)"><rect x="8" y="4" width="32" height="12" rx="2" fill="#0078D4"/><rect x="8" y="18" width="32" height="12" rx="2" fill="#0078D4"/><rect x="8" y="32" width="32" height="12" rx="2" fill="#005A9E"/><circle cx="14" cy="10" r="2" fill="#fff"/><circle cx="14" cy="24" r="2" fill="#fff"/><circle cx="14" cy="38" r="2" fill="#fff"/><path d="M22 10 h12 M22 24 h12 M22 38 h12" stroke="#fff" stroke-width="2"/></g>
-<text x="74" y="331" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#201F1E" text-anchor="start">The four fleet routes compared</text>
-<text x="1236" y="331" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="end">all run SetupClient.exe /S with tanium-init.dat beside it</text>
-<rect x="48" y="346" width="1168" height="28" rx="0" fill="#FAF9F8" stroke="#C8C6C4" stroke-width="1"/>
-<text x="296" y="365" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#201F1E" text-anchor="start">Intune Win32</text>
-<text x="528" y="365" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#201F1E" text-anchor="start">ConfigMgr</text>
-<text x="760" y="365" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#201F1E" text-anchor="start">GPO startup script</text>
-<text x="992" y="365" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#201F1E" text-anchor="start">Tanium client deployment</text>
-<rect x="48" y="374" width="1168" height="36" rx="0" fill="#FCFCFB" stroke="#E1DFDD" stroke-width="1"/>
-<text x="56" y="396" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#201F1E" text-anchor="start">Package</text>
-<text x="296" y="390" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">source folder + install.cmd (%~dp0),</text>
-<text x="296" y="403" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">IntuneWinAppUtil</text>
-<text x="528" y="390" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">both files on the content share, Script</text>
-<text x="528" y="403" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">Installer</text>
-<text x="760" y="390" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">idempotent script on a read-only share</text>
-<text x="992" y="390" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">targets plus a stored deployment credential</text>
-<rect x="48" y="410" width="1168" height="36" rx="0" fill="#fff" stroke="#E1DFDD" stroke-width="1"/>
-<text x="56" y="432" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#201F1E" text-anchor="start">Runs as</text>
-<text x="296" y="426" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">System, Required to a device group</text>
-<text x="528" y="426" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">system, whether or not a user is logged on</text>
-<text x="760" y="426" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">computer startup, before any user</text>
-<text x="992" y="426" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">console credential over SMB 445</text>
-<rect x="48" y="446" width="1168" height="36" rx="0" fill="#FCFCFB" stroke="#E1DFDD" stroke-width="1"/>
-<text x="56" y="468" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#201F1E" text-anchor="start">Detection</text>
-<text x="296" y="462" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">TaniumClient.exe or the service</text>
-<text x="528" y="462" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">file detection rule</text>
-<text x="760" y="462" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">returns early if the service exists</text>
-<text x="992" y="462" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">per-endpoint results in the console</text>
-<rect x="48" y="482" width="1168" height="36" rx="0" fill="#fff" stroke="#E1DFDD" stroke-width="1"/>
-<text x="56" y="504" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#201F1E" text-anchor="start">Reporting</text>
-<text x="296" y="498" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">app install status</text>
-<text x="528" y="498" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">Monitoring › Deployments</text>
-<text x="760" y="498" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">none: query for stragglers</text>
-<text x="992" y="498" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">per endpoint; discovery</text>
-<text x="992" y="511" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">finds unmanaged PCs</text>
-<rect x="48" y="518" width="1168" height="36" rx="0" fill="#FCFCFB" stroke="#E1DFDD" stroke-width="1"/>
-<text x="56" y="540" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#201F1E" text-anchor="start">Uninstall</text>
-<text x="296" y="534" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">uninst.exe /S (confirm the path)</text>
-<text x="528" y="534" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">uninstall deployment</text>
-<text x="760" y="534" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">not provided by the script</text>
-<text x="992" y="534" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">not provided</text>
-<rect x="48" y="554" width="1168" height="36" rx="0" fill="#fff" stroke="#E1DFDD" stroke-width="1"/>
-<text x="56" y="576" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#201F1E" text-anchor="start">Role needed</text>
-<text x="296" y="570" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">Intune Application Manager</text>
-<text x="528" y="570" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">Application Author + Deployment Manager</text>
-<text x="760" y="570" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">GPO edit and OU link rights</text>
-<text x="992" y="570" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">a Tanium role to deploy clients</text>
-<rect x="48" y="590" width="1168" height="36" rx="0" fill="#FCFCFB" stroke="#E1DFDD" stroke-width="1"/>
-<text x="56" y="612" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#201F1E" text-anchor="start">Afterwards</text>
-<text x="296" y="606" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">nothing extra</text>
-<text x="528" y="606" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">nothing extra</text>
-<text x="760" y="606" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">remove the link once complete</text>
-<text x="992" y="606" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">remove the credential&#x27;s rights or rotate it</text>
-<rect x="464" y="490" width="35" height="20" rx="10" fill="#F2FAF2" stroke="#107C10" stroke-width="1"/>
-<text x="481" y="504" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#107C10" text-anchor="middle">yes</text>
-<rect x="696" y="490" width="35" height="20" rx="10" fill="#F2FAF2" stroke="#107C10" stroke-width="1"/>
-<text x="713" y="504" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#107C10" text-anchor="middle">yes</text>
-<rect x="928" y="490" width="29" height="20" rx="10" fill="#FFF8F8" stroke="#A4262C" stroke-width="1"/>
-<text x="942" y="504" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#A4262C" text-anchor="middle">no</text>
-<rect x="1160" y="490" width="35" height="20" rx="10" fill="#F2FAF2" stroke="#107C10" stroke-width="1"/>
-<text x="1177" y="504" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#107C10" text-anchor="middle">yes</text>
-<rect x="32" y="660" width="600" height="100" rx="6" fill="#FAF9F8" stroke="#C8C6C4" stroke-width="1.4"/>
+<text x="74" y="331" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#E6EDF3" text-anchor="start">The four fleet routes compared</text>
+<text x="1236" y="331" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9198A1" text-anchor="end">all run SetupClient.exe /S with tanium-init.dat beside it</text>
+<rect x="48" y="346" width="1168" height="28" rx="0" fill="#151B23" stroke="#3D444D" stroke-width="1"/>
+<text x="296" y="365" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#E6EDF3" text-anchor="start">Intune Win32</text>
+<text x="528" y="365" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#E6EDF3" text-anchor="start">ConfigMgr</text>
+<text x="760" y="365" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#E6EDF3" text-anchor="start">GPO startup script</text>
+<text x="992" y="365" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#E6EDF3" text-anchor="start">Tanium client deployment</text>
+<rect x="48" y="374" width="1168" height="36" rx="0" fill="#181E26" stroke="#30363D" stroke-width="1"/>
+<text x="56" y="396" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#E6EDF3" text-anchor="start">Package</text>
+<text x="296" y="390" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">source folder + install.cmd (%~dp0),</text>
+<text x="296" y="403" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">IntuneWinAppUtil</text>
+<text x="528" y="390" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">both files on the content share, Script</text>
+<text x="528" y="403" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">Installer</text>
+<text x="760" y="390" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">idempotent script on a read-only share</text>
+<text x="992" y="390" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">targets plus a stored deployment credential</text>
+<rect x="48" y="410" width="1168" height="36" rx="0" fill="#1C2128" stroke="#30363D" stroke-width="1"/>
+<text x="56" y="432" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#E6EDF3" text-anchor="start">Runs as</text>
+<text x="296" y="426" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">System, Required to a device group</text>
+<text x="528" y="426" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">system, whether or not a user is logged on</text>
+<text x="760" y="426" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">computer startup, before any user</text>
+<text x="992" y="426" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">console credential over SMB 445</text>
+<rect x="48" y="446" width="1168" height="36" rx="0" fill="#181E26" stroke="#30363D" stroke-width="1"/>
+<text x="56" y="468" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#E6EDF3" text-anchor="start">Detection</text>
+<text x="296" y="462" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">TaniumClient.exe or the service</text>
+<text x="528" y="462" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">file detection rule</text>
+<text x="760" y="462" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">returns early if the service exists</text>
+<text x="992" y="462" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">per-endpoint results in the console</text>
+<rect x="48" y="482" width="1168" height="36" rx="0" fill="#1C2128" stroke="#30363D" stroke-width="1"/>
+<text x="56" y="504" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#E6EDF3" text-anchor="start">Reporting</text>
+<text x="296" y="498" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">app install status</text>
+<text x="528" y="498" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">Monitoring › Deployments</text>
+<text x="760" y="498" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">none: query for stragglers</text>
+<text x="992" y="498" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">per endpoint; discovery</text>
+<text x="992" y="511" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">finds unmanaged PCs</text>
+<rect x="48" y="518" width="1168" height="36" rx="0" fill="#181E26" stroke="#30363D" stroke-width="1"/>
+<text x="56" y="540" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#E6EDF3" text-anchor="start">Uninstall</text>
+<text x="296" y="534" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">uninst.exe /S (confirm the path)</text>
+<text x="528" y="534" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">uninstall deployment</text>
+<text x="760" y="534" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">not provided by the script</text>
+<text x="992" y="534" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">not provided</text>
+<rect x="48" y="554" width="1168" height="36" rx="0" fill="#1C2128" stroke="#30363D" stroke-width="1"/>
+<text x="56" y="576" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#E6EDF3" text-anchor="start">Role needed</text>
+<text x="296" y="570" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">Intune Application Manager</text>
+<text x="528" y="570" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">Application Author + Deployment Manager</text>
+<text x="760" y="570" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">GPO edit and OU link rights</text>
+<text x="992" y="570" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">a Tanium role to deploy clients</text>
+<rect x="48" y="590" width="1168" height="36" rx="0" fill="#181E26" stroke="#30363D" stroke-width="1"/>
+<text x="56" y="612" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#E6EDF3" text-anchor="start">Afterwards</text>
+<text x="296" y="606" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">nothing extra</text>
+<text x="528" y="606" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">nothing extra</text>
+<text x="760" y="606" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">remove the link once complete</text>
+<text x="992" y="606" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">remove the credential&#x27;s rights or rotate it</text>
+<rect x="464" y="490" width="35" height="20" rx="10" fill="#15221A" stroke="#3FB950" stroke-width="1"/>
+<text x="481" y="504" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#3FB950" text-anchor="middle">yes</text>
+<rect x="696" y="490" width="35" height="20" rx="10" fill="#15221A" stroke="#3FB950" stroke-width="1"/>
+<text x="713" y="504" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#3FB950" text-anchor="middle">yes</text>
+<rect x="928" y="490" width="29" height="20" rx="10" fill="#25171C" stroke="#F85149" stroke-width="1"/>
+<text x="942" y="504" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#F85149" text-anchor="middle">no</text>
+<rect x="1160" y="490" width="35" height="20" rx="10" fill="#15221A" stroke="#3FB950" stroke-width="1"/>
+<text x="1177" y="504" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#3FB950" text-anchor="middle">yes</text>
+<rect x="32" y="660" width="600" height="100" rx="6" fill="#151B23" stroke="#3D444D" stroke-width="1.4"/>
 <g transform="translate(42,668) scale(0.5000)"><rect x="4" y="7" width="40" height="34" rx="3" fill="#201F1E"/><path d="M11 17 l7 6 -7 6" stroke="#fff" stroke-width="3" fill="none"/><path d="M22 31 h13" stroke="#fff" stroke-width="3"/></g>
-<text x="74" y="685" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#201F1E" text-anchor="start">Route C for a handful: PsExec or PowerShell remoting</text>
-<text x="48" y="706" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">psexec \\PC -s -w C:\Install\Tanium SetupClient.exe /S, or Copy-Item -ToSession and Invoke-Command with</text>
-<text x="48" y="721" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">the template. Many EDR products flag PsExec: tell security operations first, or use remoting.</text>
-<rect x="656" y="660" width="592" height="100" rx="6" fill="#FAF9F8" stroke="#C8C6C4" stroke-width="1.4"/>
+<text x="74" y="685" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#E6EDF3" text-anchor="start">Route C for a handful: PsExec or PowerShell remoting</text>
+<text x="48" y="706" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#9198A1" text-anchor="start">psexec \\PC -s -w C:\Install\Tanium SetupClient.exe /S, or Copy-Item -ToSession and Invoke-Command with</text>
+<text x="48" y="721" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#9198A1" text-anchor="start">the template. Many EDR products flag PsExec: tell security operations first, or use remoting.</text>
+<rect x="656" y="660" width="592" height="100" rx="6" fill="#151B23" stroke="#3D444D" stroke-width="1.4"/>
 <g transform="translate(666,668) scale(0.5000)"><rect x="4" y="6" width="40" height="36" rx="3" fill="#5C2D91"/><path d="M10 15 l3 3 5-6 M10 26 l3 3 5-6 M10 37 l3 3 5-6" stroke="#fff" stroke-width="2.2" fill="none"/><path d="M22 16 h16 M22 27 h16 M22 38 h12" stroke="#fff" stroke-width="2.4"/></g>
-<text x="698" y="685" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#201F1E" text-anchor="start">Every route, every time</text>
-<text x="672" y="706" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">Just-in-time roles only. SHA-256 of both files checked. Never reuse an init file from another environment.</text>
-<text x="672" y="721" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">Notify the tooling owner and have them confirm the endpoint reports.</text>
-<text x="32" y="782" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">Method letters match the runbook&#x27;s method table: C remote, D managed fleets, E Tanium-native. Controls: CM-8 (inventory), AC-6 (scoped, just-in-time roles; credential rights removed after the campaign).</text>
-<line x1="32" y1="794" x2="1248" y2="794" stroke="#E1DFDD"/>
-<text x="32" y="814" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#8A8886">Generalised design: no client names, tenant IDs, addresses or data. Icons are simplified originals, not Microsoft artwork.</text>
-<text x="1248" y="814" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#8A8886" text-anchor="end">Rich Dieu · github.com/richdieu-max</text>
+<text x="698" y="685" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#E6EDF3" text-anchor="start">Every route, every time</text>
+<text x="672" y="706" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#9198A1" text-anchor="start">Just-in-time roles only. SHA-256 of both files checked. Never reuse an init file from another environment.</text>
+<text x="672" y="721" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#9198A1" text-anchor="start">Notify the tooling owner and have them confirm the endpoint reports.</text>
+<text x="32" y="782" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#9198A1" text-anchor="start">Method letters match the runbook&#x27;s method table: C remote, D managed fleets, E Tanium-native. Controls: CM-8 (inventory), AC-6 (scoped, just-in-time roles; credential rights removed after the campaign).</text>
+<line x1="32" y1="794" x2="1248" y2="794" stroke="#30363D"/>
+<text x="32" y="814" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#7D8590">Generalised design: no client names, tenant IDs, addresses or data. Icons are simplified originals, not Microsoft artwork.</text>
+<text x="1248" y="814" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#7D8590" text-anchor="end">Rich Dieu · github.com/richdieu-max</text>
 </svg>

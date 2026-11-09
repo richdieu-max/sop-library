@@ -1,112 +1,112 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 780" width="1280" height="780" role="img" aria-label="DORA with a reservation: where the MAC decides which address the printer gets">
 <title>DORA with a reservation: where the MAC decides which address the printer gets</title>
-<defs><marker id="mC19C00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#C19C00"/></marker><marker id="m605E5C" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#605E5C"/></marker><marker id="m0078D4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#0078D4"/></marker></defs>
-<rect width="1280" height="780" fill="#fff"/>
-<rect x="0" y="0" width="1280" height="6" fill="#0078D4"/>
-<text x="32" y="48" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="600" fill="#201F1E">DORA with a reservation: where the MAC decides which address the printer gets</text>
-<text x="32" y="72" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#605E5C">The printer only asks when it boots, renews or is refused; the router relays the broadcast and stamps the scope; the server matches the MAC against reservations before it touches the pool.</text>
-<rect x="54" y="100" width="230" height="52" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="54" y="100" width="4" height="52" fill="#C19C00"/>
+<defs><marker id="mC19C00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#D29922"/></marker><marker id="m605E5C" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#9198A1"/></marker><marker id="m0078D4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#4493F8"/></marker></defs>
+<rect width="1280" height="780" fill="#0D1117"/>
+<rect x="0" y="0" width="1280" height="6" fill="#1F6FEB"/>
+<text x="32" y="48" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="600" fill="#E6EDF3">DORA with a reservation: where the MAC decides which address the printer gets</text>
+<text x="32" y="72" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#9198A1">The printer only asks when it boots, renews or is refused; the router relays the broadcast and stamps the scope; the server matches the MAC against reservations before it touches the pool.</text>
+<rect x="54" y="100" width="230" height="52" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="54" y="100" width="4" height="52" fill="#9E6A03"/>
 <g transform="translate(65.66666666666666,112) scale(0.5000)"><rect x="12" y="6" width="24" height="10" rx="1" fill="#005A9E"/><rect x="5" y="14" width="38" height="20" rx="3" fill="#0078D4"/><circle cx="36" cy="21" r="2" fill="#fff"/><rect x="11" y="28" width="26" height="16" fill="#fff" stroke="#605E5C" stroke-width="1.5"/><path d="M15 32 v9 M18 32 v9 M22 32 v9 M25 32 v9 M29 32 v9 M33 32 v9" stroke="#201F1E" stroke-width="1.6"/></g>
-<text x="99.66666666666666" y="122" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#201F1E" text-anchor="start">Label printer (MAC on its</text>
-<text x="99.66666666666666" y="138" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#201F1E" text-anchor="start">configuration label)</text>
-<rect x="327" y="100" width="230" height="52" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="327" y="100" width="4" height="52" fill="#605E5C"/>
+<text x="99.66666666666666" y="122" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#E6EDF3" text-anchor="start">Label printer (MAC on its</text>
+<text x="99.66666666666666" y="138" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#E6EDF3" text-anchor="start">configuration label)</text>
+<rect x="327" y="100" width="230" height="52" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="327" y="100" width="4" height="52" fill="#9198A1"/>
 <g transform="translate(339.0,112) scale(0.5000)"><rect x="16" y="3" width="16" height="12" rx="2" fill="#0078D4"/><rect x="3" y="33" width="14" height="12" rx="2" fill="#0078D4"/><rect x="17" y="33" width="14" height="12" rx="2" fill="#0078D4"/><rect x="31" y="33" width="14" height="12" rx="2" fill="#0078D4"/><path d="M24 15 v9 M10 24 h28 M10 24 v9 M24 24 v9 M38 24 v9" stroke="#005A9E" stroke-width="2" fill="none"/></g>
-<text x="373.0" y="122" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#201F1E" text-anchor="start">Router on the lab VLAN (ip</text>
-<text x="373.0" y="138" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#201F1E" text-anchor="start">helper-address)</text>
-<rect x="600" y="100" width="230" height="52" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="600" y="100" width="4" height="52" fill="#0078D4"/>
+<text x="373.0" y="122" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#E6EDF3" text-anchor="start">Router on the lab VLAN (ip</text>
+<text x="373.0" y="138" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#E6EDF3" text-anchor="start">helper-address)</text>
+<rect x="600" y="100" width="230" height="52" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="600" y="100" width="4" height="52" fill="#1F6FEB"/>
 <g transform="translate(612.3333333333333,112) scale(0.5000)"><rect x="10" y="4" width="28" height="40" rx="3" fill="#0078D4"/><path d="M15 12 h18 M15 18 h18 M15 24 h18" stroke="#fff" stroke-width="2.4"/><circle cx="32" cy="36" r="2.4" fill="#DFF6DD"/></g>
-<text x="646.3333333333333" y="122" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#201F1E" text-anchor="start">DHCP server, scope</text>
-<text x="646.3333333333333" y="138" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#201F1E" text-anchor="start">192.0.2.0</text>
-<line x1="168.66666666666666" y1="152" x2="168.66666666666666" y2="532" stroke="#C8C6C4" stroke-width="1" stroke-dasharray="5 4"/>
-<line x1="442.0" y1="152" x2="442.0" y2="532" stroke="#C8C6C4" stroke-width="1" stroke-dasharray="5 4"/>
-<line x1="715.3333333333333" y1="152" x2="715.3333333333333" y2="532" stroke="#C8C6C4" stroke-width="1" stroke-dasharray="5 4"/>
-<polyline points="172.66666666666666,190 436.0,190" fill="none" stroke="#C19C00" stroke-width="1.6" marker-end="url(#mC19C00)"/>
-<rect x="174" y="172" width="262" height="16" rx="3" fill="#fff" opacity="0.95"/>
-<text x="305.3333333333333" y="184" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="middle">DISCOVER, broadcast, carries the printer MAC</text>
-<polyline points="446.0,228 709.3333333333333,228" fill="none" stroke="#605E5C" stroke-width="1.6" marker-end="url(#m605E5C)"/>
-<rect x="407" y="210" width="344" height="16" rx="3" fill="#fff" opacity="0.95"/>
-<text x="578.6666666666666" y="222" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="middle">relayed unicast; giaddr = router interface → selects the scope</text>
-<polyline points="715.3333333333333,258 669.3333333333333,258 669.3333333333333,274 711.3333333333333,274" fill="none" stroke="#0078D4" stroke-width="1.6" marker-end="url(#m0078D4)"/>
-<text x="659.3333333333333" y="264" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="end">reservation for this MAC in the scope?</text>
-<polyline points="711.3333333333333,304 448.0,304" fill="none" stroke="#0078D4" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#m0078D4)"/>
-<rect x="423" y="286" width="312" height="16" rx="3" fill="#fff" opacity="0.95"/>
-<text x="578.6666666666666" y="298" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="middle">OFFER 192.0.2.60 (reserved) with mask, gateway, DNS</text>
-<polyline points="438.0,342 174.66666666666666,342" fill="none" stroke="#605E5C" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#m605E5C)"/>
-<rect x="216" y="324" width="179" height="16" rx="3" fill="#fff" opacity="0.95"/>
-<text x="305.3333333333333" y="336" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="middle">OFFER forwarded to the printer</text>
-<polyline points="172.66666666666666,380 436.0,380" fill="none" stroke="#C19C00" stroke-width="1.6" marker-end="url(#mC19C00)"/>
-<rect x="195" y="362" width="221" height="16" rx="3" fill="#fff" opacity="0.95"/>
-<text x="305.3333333333333" y="374" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="middle">REQUEST: the printer accepts the offer</text>
-<polyline points="446.0,418 709.3333333333333,418" fill="none" stroke="#605E5C" stroke-width="1.6" marker-end="url(#m605E5C)"/>
-<rect x="554" y="400" width="50" height="16" rx="3" fill="#fff" opacity="0.95"/>
-<text x="578.6666666666666" y="412" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="middle">relayed</text>
-<polyline points="715.3333333333333,448 669.3333333333333,448 669.3333333333333,464 711.3333333333333,464" fill="none" stroke="#0078D4" stroke-width="1.6" marker-end="url(#m0078D4)"/>
-<text x="659.3333333333333" y="454" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="end">lease recorded; audit log event 10 (new)</text>
-<text x="659.3333333333333" y="469" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="end">or 11 (renewal)</text>
-<polyline points="711.3333333333333,494 174.66666666666666,494" fill="none" stroke="#0078D4" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#m0078D4)"/>
-<rect x="378" y="476" width="127" height="16" rx="3" fill="#fff" opacity="0.95"/>
-<text x="441.99999999999994" y="488" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="middle">ACK: the lease is live</text>
-<rect x="876" y="100" width="372" height="206" rx="6" fill="#EFF6FC" stroke="#0078D4" stroke-width="1.4"/>
+<text x="646.3333333333333" y="122" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#E6EDF3" text-anchor="start">DHCP server, scope</text>
+<text x="646.3333333333333" y="138" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#E6EDF3" text-anchor="start">192.0.2.0</text>
+<line x1="168.66666666666666" y1="152" x2="168.66666666666666" y2="532" stroke="#3D444D" stroke-width="1" stroke-dasharray="5 4"/>
+<line x1="442.0" y1="152" x2="442.0" y2="532" stroke="#3D444D" stroke-width="1" stroke-dasharray="5 4"/>
+<line x1="715.3333333333333" y1="152" x2="715.3333333333333" y2="532" stroke="#3D444D" stroke-width="1" stroke-dasharray="5 4"/>
+<polyline points="172.66666666666666,190 436.0,190" fill="none" stroke="#D29922" stroke-width="1.6" marker-end="url(#mC19C00)"/>
+<rect x="174" y="172" width="262" height="16" rx="3" fill="#0D1117" opacity="0.95"/>
+<text x="305.3333333333333" y="184" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#E6EDF3" text-anchor="middle">DISCOVER, broadcast, carries the printer MAC</text>
+<polyline points="446.0,228 709.3333333333333,228" fill="none" stroke="#9198A1" stroke-width="1.6" marker-end="url(#m605E5C)"/>
+<rect x="407" y="210" width="344" height="16" rx="3" fill="#0D1117" opacity="0.95"/>
+<text x="578.6666666666666" y="222" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#E6EDF3" text-anchor="middle">relayed unicast; giaddr = router interface → selects the scope</text>
+<polyline points="715.3333333333333,258 669.3333333333333,258 669.3333333333333,274 711.3333333333333,274" fill="none" stroke="#4493F8" stroke-width="1.6" marker-end="url(#m0078D4)"/>
+<text x="659.3333333333333" y="264" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#E6EDF3" text-anchor="end">reservation for this MAC in the scope?</text>
+<polyline points="711.3333333333333,304 448.0,304" fill="none" stroke="#4493F8" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#m0078D4)"/>
+<rect x="423" y="286" width="312" height="16" rx="3" fill="#0D1117" opacity="0.95"/>
+<text x="578.6666666666666" y="298" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#E6EDF3" text-anchor="middle">OFFER 192.0.2.60 (reserved) with mask, gateway, DNS</text>
+<polyline points="438.0,342 174.66666666666666,342" fill="none" stroke="#9198A1" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#m605E5C)"/>
+<rect x="216" y="324" width="179" height="16" rx="3" fill="#0D1117" opacity="0.95"/>
+<text x="305.3333333333333" y="336" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#E6EDF3" text-anchor="middle">OFFER forwarded to the printer</text>
+<polyline points="172.66666666666666,380 436.0,380" fill="none" stroke="#D29922" stroke-width="1.6" marker-end="url(#mC19C00)"/>
+<rect x="195" y="362" width="221" height="16" rx="3" fill="#0D1117" opacity="0.95"/>
+<text x="305.3333333333333" y="374" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#E6EDF3" text-anchor="middle">REQUEST: the printer accepts the offer</text>
+<polyline points="446.0,418 709.3333333333333,418" fill="none" stroke="#9198A1" stroke-width="1.6" marker-end="url(#m605E5C)"/>
+<rect x="554" y="400" width="50" height="16" rx="3" fill="#0D1117" opacity="0.95"/>
+<text x="578.6666666666666" y="412" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#E6EDF3" text-anchor="middle">relayed</text>
+<polyline points="715.3333333333333,448 669.3333333333333,448 669.3333333333333,464 711.3333333333333,464" fill="none" stroke="#4493F8" stroke-width="1.6" marker-end="url(#m0078D4)"/>
+<text x="659.3333333333333" y="454" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#E6EDF3" text-anchor="end">lease recorded; audit log event 10 (new)</text>
+<text x="659.3333333333333" y="469" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#E6EDF3" text-anchor="end">or 11 (renewal)</text>
+<polyline points="711.3333333333333,494 174.66666666666666,494" fill="none" stroke="#4493F8" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#m0078D4)"/>
+<rect x="378" y="476" width="127" height="16" rx="3" fill="#0D1117" opacity="0.95"/>
+<text x="441.99999999999994" y="488" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#E6EDF3" text-anchor="middle">ACK: the lease is live</text>
+<rect x="876" y="100" width="372" height="206" rx="6" fill="#121D2F" stroke="#4493F8" stroke-width="1.4"/>
 <g transform="translate(886,108) scale(0.5000)"><path d="M24 4 L44 24 L24 44 L4 24 Z" fill="#C19C00"/><text x="24" y="31" font-family="Arial" font-weight="700" font-size="20" fill="#fff" text-anchor="middle">?</text></g>
-<text x="918" y="125" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#201F1E" text-anchor="start">Reservation first, pool second</text>
-<rect x="892" y="140" width="340" height="72" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="892" y="140" width="4" height="72" rx="0" fill="#107C10"/>
-<rect x="1150.207536" y="150" width="72" height="20" rx="10" fill="#F2FAF2" stroke="#107C10" stroke-width="1"/>
-<text x="1186" y="164" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#107C10" text-anchor="middle">192.0.2.60</text>
-<text x="910" y="162" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">MAC matches a reservation</text>
-<text x="910" y="179" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">the reserved address wins, every time; gateway, mask</text>
-<text x="910" y="196" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">and DNS still come from the scope options</text>
-<rect x="892" y="222" width="340" height="72" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="892" y="222" width="4" height="72" rx="0" fill="#A4262C"/>
-<rect x="1151.943816" y="232" width="70" height="20" rx="10" fill="#FFF8F8" stroke="#A4262C" stroke-width="1"/>
-<text x="1187" y="246" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#A4262C" text-anchor="middle">pool lease</text>
-<text x="910" y="244" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">No reservation for this MAC</text>
-<text x="910" y="261" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">next free pool address; the queue keeps pointing at .60</text>
-<text x="910" y="278" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">where nothing answers</text>
-<rect x="876" y="322" width="372" height="214" rx="6" fill="#FFF8F8" stroke="#A4262C" stroke-width="1.4" stroke-dasharray="6 4"/>
+<text x="918" y="125" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#E6EDF3" text-anchor="start">Reservation first, pool second</text>
+<rect x="892" y="140" width="340" height="72" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="892" y="140" width="4" height="72" rx="0" fill="#238636"/>
+<rect x="1150.207536" y="150" width="72" height="20" rx="10" fill="#15221A" stroke="#3FB950" stroke-width="1"/>
+<text x="1186" y="164" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#3FB950" text-anchor="middle">192.0.2.60</text>
+<text x="910" y="162" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start">MAC matches a reservation</text>
+<text x="910" y="179" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9198A1" text-anchor="start">the reserved address wins, every time; gateway, mask</text>
+<text x="910" y="196" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9198A1" text-anchor="start">and DNS still come from the scope options</text>
+<rect x="892" y="222" width="340" height="72" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="892" y="222" width="4" height="72" rx="0" fill="#DA3633"/>
+<rect x="1151.943816" y="232" width="70" height="20" rx="10" fill="#25171C" stroke="#F85149" stroke-width="1"/>
+<text x="1187" y="246" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#F85149" text-anchor="middle">pool lease</text>
+<text x="910" y="244" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start">No reservation for this MAC</text>
+<text x="910" y="261" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9198A1" text-anchor="start">next free pool address; the queue keeps pointing at .60</text>
+<text x="910" y="278" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9198A1" text-anchor="start">where nothing answers</text>
+<rect x="876" y="322" width="372" height="214" rx="6" fill="#25171C" stroke="#F85149" stroke-width="1.4" stroke-dasharray="6 4"/>
 <g transform="translate(886,330) scale(0.5000)"><path d="M24 4 L45 42 H3 Z" fill="#A4262C"/><rect x="22" y="17" width="4" height="13" fill="#fff"/><circle cx="24" cy="35" r="2.5" fill="#fff"/></g>
-<text x="918" y="347" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#A4262C" text-anchor="start">Why a replacement printer breaks</text>
-<text x="890" y="368" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">The reservation for .60 still names the retired printer&#x27;s MAC.</text>
-<text x="890" y="385" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">The new unit has a new MAC, finds no match and takes a</text>
-<text x="890" y="402" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">pool address, so every team&#x27;s own check comes back</text>
-<text x="890" y="419" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">&quot;looks fine&quot;.</text>
-<text x="890" y="436" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Fix: rebind the reservation to the MAC on the configuration</text>
-<text x="890" y="453" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">label, delete the stale leases for .60 and for the new MAC,</text>
-<text x="890" y="470" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">replicate to the failover partner (reservations are not</text>
-<text x="890" y="487" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">synchronised automatically), then power-cycle.</text>
-<rect x="32" y="546" width="820" height="150" rx="6" fill="#FAF9F8" stroke="#C8C6C4" stroke-width="1.4"/>
+<text x="918" y="347" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#F85149" text-anchor="start">Why a replacement printer breaks</text>
+<text x="890" y="368" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">The reservation for .60 still names the retired printer&#x27;s MAC.</text>
+<text x="890" y="385" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">The new unit has a new MAC, finds no match and takes a</text>
+<text x="890" y="402" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">pool address, so every team&#x27;s own check comes back</text>
+<text x="890" y="419" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">&quot;looks fine&quot;.</text>
+<text x="890" y="436" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">Fix: rebind the reservation to the MAC on the configuration</text>
+<text x="890" y="453" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">label, delete the stale leases for .60 and for the new MAC,</text>
+<text x="890" y="470" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">replicate to the failover partner (reservations are not</text>
+<text x="890" y="487" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">synchronised automatically), then power-cycle.</text>
+<rect x="32" y="546" width="820" height="150" rx="6" fill="#151B23" stroke="#3D444D" stroke-width="1.4"/>
 <g transform="translate(42,554) scale(0.5000)"><path d="M10 4 h20 l8 8 v32 h-28 Z" fill="#605E5C"/><circle cx="22" cy="25" r="7" fill="none" stroke="#fff" stroke-width="2.6"/><path d="M27 30 l6 6" stroke="#fff" stroke-width="3"/></g>
-<text x="74" y="571" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#201F1E" text-anchor="start">What the DHCP audit log says</text>
-<text x="840" y="571" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="end">%windir%\System32\dhcp\DhcpSrvLog-&lt;Day&gt;.log · search the MAC without separators</text>
-<rect x="48" y="584" width="800" height="18" fill="#FAF9F8" stroke="#C8C6C4" stroke-width="1"/>
-<text x="56" y="597.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#201F1E" text-anchor="start">Event</text>
-<text x="126" y="597.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#201F1E" text-anchor="start">Meaning</text>
-<text x="276" y="597.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#201F1E" text-anchor="start">What it tells you</text>
-<rect x="48" y="602" width="800" height="18" fill="#fff" stroke="#E1DFDD" stroke-width="1"/>
-<text x="56" y="615.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#0078D4" text-anchor="start">10</text>
-<text x="126" y="615.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#201F1E" text-anchor="start">New lease</text>
-<text x="276" y="615.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">the printer asked and got an address: check which one</text>
-<rect x="48" y="620" width="800" height="18" fill="#FCFCFB" stroke="#E1DFDD" stroke-width="1"/>
-<text x="56" y="633.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#0078D4" text-anchor="start">11</text>
-<text x="126" y="633.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#201F1E" text-anchor="start">Renewal</text>
-<text x="276" y="633.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">the existing binding was renewed, nothing changed</text>
-<rect x="48" y="638" width="800" height="18" fill="#fff" stroke="#E1DFDD" stroke-width="1"/>
-<text x="56" y="651.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#0078D4" text-anchor="start">13</text>
-<text x="126" y="651.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#201F1E" text-anchor="start">Address in use</text>
-<text x="276" y="651.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">conflict detection found another device on the address</text>
-<rect x="48" y="656" width="800" height="18" fill="#FCFCFB" stroke="#E1DFDD" stroke-width="1"/>
-<text x="56" y="669.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#0078D4" text-anchor="start">14</text>
-<text x="126" y="669.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#201F1E" text-anchor="start">Pool exhausted</text>
-<text x="276" y="669.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">no free address left in the scope</text>
-<rect x="48" y="674" width="800" height="18" fill="#fff" stroke="#E1DFDD" stroke-width="1"/>
-<text x="56" y="687.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#0078D4" text-anchor="start">15</text>
-<text x="126" y="687.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#201F1E" text-anchor="start">Lease denied</text>
-<text x="276" y="687.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">the server refused this client</text>
-<text x="32" y="734" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">A device runs DORA only on boot, renewal or refusal, so a corrected reservation takes effect after a power-cycle. Controls: CM-3, CM-8, AC-6 (DHCP Administrators, not Domain Admins).</text>
-<line x1="32" y1="746" x2="1248" y2="746" stroke="#E1DFDD"/>
-<text x="32" y="766" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#8A8886">Generalised design: no client names, tenant IDs, addresses or data. Icons are simplified originals, not Microsoft artwork.</text>
-<text x="1248" y="766" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#8A8886" text-anchor="end">Rich Dieu · github.com/richdieu-max</text>
+<text x="74" y="571" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#E6EDF3" text-anchor="start">What the DHCP audit log says</text>
+<text x="840" y="571" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9198A1" text-anchor="end">%windir%\System32\dhcp\DhcpSrvLog-&lt;Day&gt;.log · search the MAC without separators</text>
+<rect x="48" y="584" width="800" height="18" fill="#151B23" stroke="#3D444D" stroke-width="1"/>
+<text x="56" y="597.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Event</text>
+<text x="126" y="597.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Meaning</text>
+<text x="276" y="597.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#E6EDF3" text-anchor="start">What it tells you</text>
+<rect x="48" y="602" width="800" height="18" fill="#1C2128" stroke="#30363D" stroke-width="1"/>
+<text x="56" y="615.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#4493F8" text-anchor="start">10</text>
+<text x="126" y="615.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#E6EDF3" text-anchor="start">New lease</text>
+<text x="276" y="615.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">the printer asked and got an address: check which one</text>
+<rect x="48" y="620" width="800" height="18" fill="#181E26" stroke="#30363D" stroke-width="1"/>
+<text x="56" y="633.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#4493F8" text-anchor="start">11</text>
+<text x="126" y="633.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#E6EDF3" text-anchor="start">Renewal</text>
+<text x="276" y="633.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">the existing binding was renewed, nothing changed</text>
+<rect x="48" y="638" width="800" height="18" fill="#1C2128" stroke="#30363D" stroke-width="1"/>
+<text x="56" y="651.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#4493F8" text-anchor="start">13</text>
+<text x="126" y="651.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#E6EDF3" text-anchor="start">Address in use</text>
+<text x="276" y="651.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">conflict detection found another device on the address</text>
+<rect x="48" y="656" width="800" height="18" fill="#181E26" stroke="#30363D" stroke-width="1"/>
+<text x="56" y="669.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#4493F8" text-anchor="start">14</text>
+<text x="126" y="669.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#E6EDF3" text-anchor="start">Pool exhausted</text>
+<text x="276" y="669.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">no free address left in the scope</text>
+<rect x="48" y="674" width="800" height="18" fill="#1C2128" stroke="#30363D" stroke-width="1"/>
+<text x="56" y="687.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#4493F8" text-anchor="start">15</text>
+<text x="126" y="687.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#E6EDF3" text-anchor="start">Lease denied</text>
+<text x="276" y="687.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">the server refused this client</text>
+<text x="32" y="734" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#9198A1" text-anchor="start">A device runs DORA only on boot, renewal or refusal, so a corrected reservation takes effect after a power-cycle. Controls: CM-3, CM-8, AC-6 (DHCP Administrators, not Domain Admins).</text>
+<line x1="32" y1="746" x2="1248" y2="746" stroke="#30363D"/>
+<text x="32" y="766" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#7D8590">Generalised design: no client names, tenant IDs, addresses or data. Icons are simplified originals, not Microsoft artwork.</text>
+<text x="1248" y="766" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#7D8590" text-anchor="end">Rich Dieu · github.com/richdieu-max</text>
 </svg>

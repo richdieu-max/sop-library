@@ -1,107 +1,107 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 800" width="1280" height="800" role="img" aria-label="PIM activation: eligible to active, time-boxed and audited">
 <title>PIM activation: eligible to active, time-boxed and audited</title>
-<defs><marker id="m0078D4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#0078D4"/></marker><marker id="m5C2D91" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#5C2D91"/></marker><marker id="m008272" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#008272"/></marker><marker id="mC19C00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#C19C00"/></marker><marker id="mA4262C" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#A4262C"/></marker></defs>
-<rect width="1280" height="800" fill="#fff"/>
-<rect x="0" y="0" width="1280" height="6" fill="#0078D4"/>
-<text x="32" y="48" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="600" fill="#201F1E">PIM activation: eligible to active, time-boxed and audited</text>
-<text x="32" y="72" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#605E5C">A member of the owners group holds nothing until activation; MFA, a justification and an approval stand between the request and an Owner role that expires on its own.</text>
-<rect x="39" y="100" width="229" height="48" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="39" y="100" width="4" height="48" fill="#0078D4"/>
+<defs><marker id="m0078D4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#4493F8"/></marker><marker id="m5C2D91" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#A371F7"/></marker><marker id="m008272" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#39C5CF"/></marker><marker id="mC19C00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#D29922"/></marker><marker id="mA4262C" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#F85149"/></marker></defs>
+<rect width="1280" height="800" fill="#0D1117"/>
+<rect x="0" y="0" width="1280" height="6" fill="#1F6FEB"/>
+<text x="32" y="48" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="600" fill="#E6EDF3">PIM activation: eligible to active, time-boxed and audited</text>
+<text x="32" y="72" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#9198A1">A member of the owners group holds nothing until activation; MFA, a justification and an approval stand between the request and an Owner role that expires on its own.</text>
+<rect x="39" y="100" width="229" height="48" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="39" y="100" width="4" height="48" fill="#1F6FEB"/>
 <g transform="translate(51.0,112) scale(0.5000)"><circle cx="24" cy="15" r="9" fill="#0078D4"/><path d="M6 44 q18-26 36 0 Z" fill="#0078D4"/></g>
-<text x="85.0" y="122" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#201F1E" text-anchor="start">Eligible member of</text>
-<text x="85.0" y="138" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#201F1E" text-anchor="start">sg-az-…-owners</text>
-<rect x="282" y="100" width="229" height="48" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="282" y="100" width="4" height="48" fill="#5C2D91"/>
+<text x="85.0" y="122" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#E6EDF3" text-anchor="start">Eligible member of</text>
+<text x="85.0" y="138" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#E6EDF3" text-anchor="start">sg-az-…-owners</text>
+<rect x="282" y="100" width="229" height="48" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="282" y="100" width="4" height="48" fill="#8957E5"/>
 <g transform="translate(294.19999999999993,112) scale(0.5000)"><rect x="5" y="6" width="38" height="36" rx="4" fill="#C19C00"/><circle cx="19" cy="24" r="7" fill="none" stroke="#fff" stroke-width="3"/><path d="M26 24 h12 M33 24 v6 M37 24 v5" stroke="#fff" stroke-width="3"/></g>
-<text x="328.19999999999993" y="122" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#201F1E" text-anchor="start">Privileged Identity</text>
-<text x="328.19999999999993" y="138" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#201F1E" text-anchor="start">Management</text>
-<rect x="525" y="100" width="229" height="48" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="525" y="100" width="4" height="48" fill="#008272"/>
+<text x="328.19999999999993" y="122" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#E6EDF3" text-anchor="start">Privileged Identity</text>
+<text x="328.19999999999993" y="138" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#E6EDF3" text-anchor="start">Management</text>
+<rect x="525" y="100" width="229" height="48" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="525" y="100" width="4" height="48" fill="#1B7C83"/>
 <g transform="translate(537.4,112) scale(0.5000)"><path d="M24 3 L41 9 V23 C41 34 33 41 24 45 C15 41 7 34 7 23 V9 Z" fill="#0078D4"/><path d="M24 3 V45 C33 41 41 34 41 23 V9 Z" fill="#005A9E"/><path d="M16 24 l6 6 11-12" stroke="#fff" stroke-width="3.2" fill="none"/></g>
-<text x="571.4" y="130" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#201F1E" text-anchor="start">Conditional Access</text>
-<rect x="769" y="100" width="229" height="48" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="769" y="100" width="4" height="48" fill="#C19C00"/>
+<text x="571.4" y="130" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#E6EDF3" text-anchor="start">Conditional Access</text>
+<rect x="769" y="100" width="229" height="48" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="769" y="100" width="4" height="48" fill="#9E6A03"/>
 <g transform="translate(780.5999999999999,112) scale(0.5000)"><rect x="5" y="8" width="38" height="32" rx="3" fill="#5C2D91"/><circle cx="17" cy="21" r="5" fill="#fff"/><path d="M9 34 q8-12 16 0Z" fill="#fff"/><path d="M28 18 h10 M28 25 h10 M28 32 h7" stroke="#fff" stroke-width="2.4"/></g>
-<text x="814.5999999999999" y="130" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#201F1E" text-anchor="start">Approver</text>
-<rect x="1012" y="100" width="229" height="48" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="1012" y="100" width="4" height="48" fill="#A4262C"/>
+<text x="814.5999999999999" y="130" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#E6EDF3" text-anchor="start">Approver</text>
+<rect x="1012" y="100" width="229" height="48" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="1012" y="100" width="4" height="48" fill="#DA3633"/>
 <g transform="translate(1023.7999999999998,112) scale(0.5000)"><rect x="16" y="3" width="16" height="12" rx="2" fill="#0078D4"/><rect x="3" y="33" width="14" height="12" rx="2" fill="#0078D4"/><rect x="17" y="33" width="14" height="12" rx="2" fill="#0078D4"/><rect x="31" y="33" width="14" height="12" rx="2" fill="#0078D4"/><path d="M24 15 v9 M10 24 h28 M10 24 v9 M24 24 v9 M38 24 v9" stroke="#005A9E" stroke-width="2" fill="none"/></g>
-<text x="1057.7999999999997" y="122" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#201F1E" text-anchor="start">Azure RBAC at the product</text>
-<text x="1057.7999999999997" y="138" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#201F1E" text-anchor="start">root</text>
-<line x1="153.6" y1="148" x2="153.6" y2="508" stroke="#C8C6C4" stroke-width="1" stroke-dasharray="5 4"/>
-<line x1="396.79999999999995" y1="148" x2="396.79999999999995" y2="508" stroke="#C8C6C4" stroke-width="1" stroke-dasharray="5 4"/>
-<line x1="640.0" y1="148" x2="640.0" y2="508" stroke="#C8C6C4" stroke-width="1" stroke-dasharray="5 4"/>
-<line x1="883.1999999999999" y1="148" x2="883.1999999999999" y2="508" stroke="#C8C6C4" stroke-width="1" stroke-dasharray="5 4"/>
-<line x1="1126.3999999999999" y1="148" x2="1126.3999999999999" y2="508" stroke="#C8C6C4" stroke-width="1" stroke-dasharray="5 4"/>
-<polyline points="157.6,184 390.79999999999995,184" fill="none" stroke="#0078D4" stroke-width="1.6" marker-end="url(#m0078D4)"/>
-<rect x="111" y="166" width="329" height="16" rx="3" fill="#fff" opacity="0.95"/>
-<text x="275.2" y="178" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="middle">Activate Owner: duration (max 4 h) and written justification</text>
-<polyline points="400.79999999999995,220 634.0,220" fill="none" stroke="#5C2D91" stroke-width="1.6" marker-end="url(#m5C2D91)"/>
-<rect x="426" y="202" width="185" height="16" rx="3" fill="#fff" opacity="0.95"/>
-<text x="518.4" y="214" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="middle">MFA required by the role setting</text>
-<polyline points="636.0,256 159.6,256" fill="none" stroke="#008272" stroke-width="1.6" marker-end="url(#m008272)"/>
-<rect x="240" y="238" width="313" height="16" rx="3" fill="#fff" opacity="0.95"/>
-<text x="396.8" y="250" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="middle">prompt: multifactor authentication on the named account</text>
-<polyline points="157.6,292 634.0,292" fill="none" stroke="#0078D4" stroke-width="1.6" marker-end="url(#m0078D4)"/>
-<rect x="229" y="274" width="336" height="16" rx="3" fill="#fff" opacity="0.95"/>
-<text x="396.8" y="286" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="middle">MFA satisfied (break-glass accounts are the only exclusion)</text>
-<polyline points="400.79999999999995,328 877.1999999999999,328" fill="none" stroke="#5C2D91" stroke-width="1.6" marker-end="url(#m5C2D91)"/>
-<rect x="533" y="310" width="215" height="16" rx="3" fill="#fff" opacity="0.95"/>
-<text x="640.0" y="322" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="middle">approval request with the justification</text>
-<polyline points="879.1999999999999,364 402.79999999999995,364" fill="none" stroke="#C19C00" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#mC19C00)"/>
-<rect x="510" y="346" width="260" height="16" rx="3" fill="#fff" opacity="0.95"/>
-<text x="640.0" y="358" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="middle">approve or deny, recorded with name and time</text>
-<polyline points="400.79999999999995,400 1120.3999999999999,400" fill="none" stroke="#5C2D91" stroke-width="1.6" marker-end="url(#m5C2D91)"/>
-<rect x="609" y="382" width="305" height="16" rx="3" fill="#fff" opacity="0.95"/>
-<text x="761.5999999999999" y="394" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="middle">active Owner assignment written, expiry set at T + 4 h</text>
-<polyline points="1126.3999999999999,428 1080.3999999999999,428 1080.3999999999999,444 1122.3999999999999,444" fill="none" stroke="#A4262C" stroke-width="1.6" marker-end="url(#mA4262C)"/>
-<text x="1070.3999999999999" y="434" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="end">roleAssignments/write lands in the</text>
-<text x="1070.3999999999999" y="449" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="end">activity log</text>
-<polyline points="400.79999999999995,472 1120.3999999999999,472" fill="none" stroke="#5C2D91" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#m5C2D91)"/>
-<rect x="639" y="454" width="244" height="16" rx="3" fill="#fff" opacity="0.95"/>
-<text x="761.5999999999999" y="466" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="middle">T + 4 h: assignment removed automatically</text>
-<rect x="32" y="524" width="596" height="188" rx="6" fill="#FAF9F8" stroke="#C8C6C4" stroke-width="1.4"/>
+<text x="1057.7999999999997" y="122" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#E6EDF3" text-anchor="start">Azure RBAC at the product</text>
+<text x="1057.7999999999997" y="138" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#E6EDF3" text-anchor="start">root</text>
+<line x1="153.6" y1="148" x2="153.6" y2="508" stroke="#3D444D" stroke-width="1" stroke-dasharray="5 4"/>
+<line x1="396.79999999999995" y1="148" x2="396.79999999999995" y2="508" stroke="#3D444D" stroke-width="1" stroke-dasharray="5 4"/>
+<line x1="640.0" y1="148" x2="640.0" y2="508" stroke="#3D444D" stroke-width="1" stroke-dasharray="5 4"/>
+<line x1="883.1999999999999" y1="148" x2="883.1999999999999" y2="508" stroke="#3D444D" stroke-width="1" stroke-dasharray="5 4"/>
+<line x1="1126.3999999999999" y1="148" x2="1126.3999999999999" y2="508" stroke="#3D444D" stroke-width="1" stroke-dasharray="5 4"/>
+<polyline points="157.6,184 390.79999999999995,184" fill="none" stroke="#4493F8" stroke-width="1.6" marker-end="url(#m0078D4)"/>
+<rect x="111" y="166" width="329" height="16" rx="3" fill="#0D1117" opacity="0.95"/>
+<text x="275.2" y="178" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#E6EDF3" text-anchor="middle">Activate Owner: duration (max 4 h) and written justification</text>
+<polyline points="400.79999999999995,220 634.0,220" fill="none" stroke="#A371F7" stroke-width="1.6" marker-end="url(#m5C2D91)"/>
+<rect x="426" y="202" width="185" height="16" rx="3" fill="#0D1117" opacity="0.95"/>
+<text x="518.4" y="214" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#E6EDF3" text-anchor="middle">MFA required by the role setting</text>
+<polyline points="636.0,256 159.6,256" fill="none" stroke="#39C5CF" stroke-width="1.6" marker-end="url(#m008272)"/>
+<rect x="240" y="238" width="313" height="16" rx="3" fill="#0D1117" opacity="0.95"/>
+<text x="396.8" y="250" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#E6EDF3" text-anchor="middle">prompt: multifactor authentication on the named account</text>
+<polyline points="157.6,292 634.0,292" fill="none" stroke="#4493F8" stroke-width="1.6" marker-end="url(#m0078D4)"/>
+<rect x="229" y="274" width="336" height="16" rx="3" fill="#0D1117" opacity="0.95"/>
+<text x="396.8" y="286" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#E6EDF3" text-anchor="middle">MFA satisfied (break-glass accounts are the only exclusion)</text>
+<polyline points="400.79999999999995,328 877.1999999999999,328" fill="none" stroke="#A371F7" stroke-width="1.6" marker-end="url(#m5C2D91)"/>
+<rect x="533" y="310" width="215" height="16" rx="3" fill="#0D1117" opacity="0.95"/>
+<text x="640.0" y="322" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#E6EDF3" text-anchor="middle">approval request with the justification</text>
+<polyline points="879.1999999999999,364 402.79999999999995,364" fill="none" stroke="#D29922" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#mC19C00)"/>
+<rect x="510" y="346" width="260" height="16" rx="3" fill="#0D1117" opacity="0.95"/>
+<text x="640.0" y="358" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#E6EDF3" text-anchor="middle">approve or deny, recorded with name and time</text>
+<polyline points="400.79999999999995,400 1120.3999999999999,400" fill="none" stroke="#A371F7" stroke-width="1.6" marker-end="url(#m5C2D91)"/>
+<rect x="609" y="382" width="305" height="16" rx="3" fill="#0D1117" opacity="0.95"/>
+<text x="761.5999999999999" y="394" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#E6EDF3" text-anchor="middle">active Owner assignment written, expiry set at T + 4 h</text>
+<polyline points="1126.3999999999999,428 1080.3999999999999,428 1080.3999999999999,444 1122.3999999999999,444" fill="none" stroke="#F85149" stroke-width="1.6" marker-end="url(#mA4262C)"/>
+<text x="1070.3999999999999" y="434" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#E6EDF3" text-anchor="end">roleAssignments/write lands in the</text>
+<text x="1070.3999999999999" y="449" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#E6EDF3" text-anchor="end">activity log</text>
+<polyline points="400.79999999999995,472 1120.3999999999999,472" fill="none" stroke="#A371F7" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#m5C2D91)"/>
+<rect x="639" y="454" width="244" height="16" rx="3" fill="#0D1117" opacity="0.95"/>
+<text x="761.5999999999999" y="466" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#E6EDF3" text-anchor="middle">T + 4 h: assignment removed automatically</text>
+<rect x="32" y="524" width="596" height="188" rx="6" fill="#151B23" stroke="#3D444D" stroke-width="1.4"/>
 <g transform="translate(42,532) scale(0.5000)"><rect x="5" y="5" width="38" height="38" rx="6" fill="#107C10"/><circle cx="24" cy="24" r="8" fill="none" stroke="#fff" stroke-width="3.5" stroke-dasharray="4 2.3"/><circle cx="24" cy="24" r="3" fill="#fff"/></g>
-<text x="74" y="549" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#201F1E" text-anchor="start">Role settings that drive the sequence</text>
-<text x="616" y="549" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="end">PIM › Azure resources › Settings</text>
-<rect x="46" y="564" width="280" height="64" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="46" y="564" width="4" height="64" rx="0" fill="#A4262C"/>
-<rect x="278.701632" y="574" width="37" height="20" rx="10" fill="#FFF8F8" stroke="#A4262C" stroke-width="1"/>
-<text x="297" y="588" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#A4262C" text-anchor="middle">PIM</text>
-<text x="64" y="586" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="start">Owner (owners group)</text>
-<text x="64" y="602" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">eligible; max 4 h; MFA, justification and</text>
-<text x="64" y="618" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">approval required</text>
-<rect x="338" y="564" width="276" height="64" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="338" y="564" width="4" height="64" rx="0" fill="#C19C00"/>
-<rect x="566.701632" y="574" width="37" height="20" rx="10" fill="#FFF9E6" stroke="#C19C00" stroke-width="1"/>
-<text x="585" y="588" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#C19C00" text-anchor="middle">PIM</text>
-<text x="356" y="586" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="start">Contributor on Customers</text>
-<text x="356" y="602" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">customer-ops; eligible; max 8 h; MFA and</text>
-<text x="356" y="618" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">justification</text>
-<rect x="46" y="636" width="280" height="64" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="46" y="636" width="4" height="64" rx="0" fill="#008272"/>
-<rect x="232.748088" y="646" width="83" height="20" rx="10" fill="#EEF8F6" stroke="#008272" stroke-width="1"/>
-<text x="274" y="660" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#008272" text-anchor="middle">no activation</text>
-<text x="64" y="658" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="start">Standing roles</text>
-<text x="64" y="674" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">platform-ops Contributor on Platform; security</text>
-<text x="64" y="690" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">and auditors Reader at the root</text>
-<rect x="338" y="636" width="276" height="64" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="338" y="636" width="4" height="64" rx="0" fill="#605E5C"/>
-<rect x="552.579888" y="646" width="51" height="20" rx="10" fill="#FFF8F8" stroke="#A4262C" stroke-width="1"/>
-<text x="578" y="660" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#A4262C" text-anchor="middle">finding</text>
-<text x="356" y="658" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="start">What never appears</text>
-<text x="356" y="674" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">a user holding Owner or User Access</text>
-<text x="356" y="690" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">Administrator directly: a finding</text>
-<rect x="652" y="524" width="596" height="188" rx="6" fill="#FFF8F8" stroke="#A4262C" stroke-width="1.4" stroke-dasharray="6 4"/>
+<text x="74" y="549" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#E6EDF3" text-anchor="start">Role settings that drive the sequence</text>
+<text x="616" y="549" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9198A1" text-anchor="end">PIM › Azure resources › Settings</text>
+<rect x="46" y="564" width="280" height="64" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="46" y="564" width="4" height="64" rx="0" fill="#DA3633"/>
+<rect x="278.701632" y="574" width="37" height="20" rx="10" fill="#25171C" stroke="#F85149" stroke-width="1"/>
+<text x="297" y="588" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#F85149" text-anchor="middle">PIM</text>
+<text x="64" y="586" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Owner (owners group)</text>
+<text x="64" y="602" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#9198A1" text-anchor="start">eligible; max 4 h; MFA, justification and</text>
+<text x="64" y="618" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#9198A1" text-anchor="start">approval required</text>
+<rect x="338" y="564" width="276" height="64" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="338" y="564" width="4" height="64" rx="0" fill="#9E6A03"/>
+<rect x="566.701632" y="574" width="37" height="20" rx="10" fill="#272115" stroke="#D29922" stroke-width="1"/>
+<text x="585" y="588" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#D29922" text-anchor="middle">PIM</text>
+<text x="356" y="586" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Contributor on Customers</text>
+<text x="356" y="602" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#9198A1" text-anchor="start">customer-ops; eligible; max 8 h; MFA and</text>
+<text x="356" y="618" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#9198A1" text-anchor="start">justification</text>
+<rect x="46" y="636" width="280" height="64" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="46" y="636" width="4" height="64" rx="0" fill="#1B7C83"/>
+<rect x="232.748088" y="646" width="83" height="20" rx="10" fill="#12231F" stroke="#39C5CF" stroke-width="1"/>
+<text x="274" y="660" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#39C5CF" text-anchor="middle">no activation</text>
+<text x="64" y="658" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Standing roles</text>
+<text x="64" y="674" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#9198A1" text-anchor="start">platform-ops Contributor on Platform; security</text>
+<text x="64" y="690" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#9198A1" text-anchor="start">and auditors Reader at the root</text>
+<rect x="338" y="636" width="276" height="64" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="338" y="636" width="4" height="64" rx="0" fill="#9198A1"/>
+<rect x="552.579888" y="646" width="51" height="20" rx="10" fill="#25171C" stroke="#F85149" stroke-width="1"/>
+<text x="578" y="660" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#F85149" text-anchor="middle">finding</text>
+<text x="356" y="658" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#E6EDF3" text-anchor="start">What never appears</text>
+<text x="356" y="674" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#9198A1" text-anchor="start">a user holding Owner or User Access</text>
+<text x="356" y="690" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#9198A1" text-anchor="start">Administrator directly: a finding</text>
+<rect x="652" y="524" width="596" height="188" rx="6" fill="#25171C" stroke="#F85149" stroke-width="1.4" stroke-dasharray="6 4"/>
 <g transform="translate(662,532) scale(0.5000)"><rect x="4" y="8" width="40" height="28" rx="3" fill="#C19C00"/><path d="M10 16 h20 M10 22 h16" stroke="#fff" stroke-width="2.4"/><circle cx="35" cy="34" r="7" fill="#A4262C"/><path d="M31 40 l-2 6 4-2 2 3 1-6 M39 40 l2 6 -4-2 -2 3" fill="#A4262C"/></g>
-<text x="694" y="549" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#A4262C" text-anchor="start">No P2 licence, no eligibility: record it, never work around it</text>
-<text x="666" y="570" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Eligible assignments need Entra ID P2. If the assignment fails with AadPremiumLicenseRequired,</text>
-<text x="666" y="587" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">record the missing licence as a finding and do not quietly fall back to standing Owner.</text>
-<text x="666" y="604" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Conditional Access needs P1. Start the MFA policy in Report-only for a week to catch service</text>
-<text x="666" y="621" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">accounts and old clients, then switch it On; group changes take effect after the cached token expires</text>
-<text x="666" y="638" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">or a fresh sign-in.</text>
-<text x="32" y="754" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">Verify: the PIM export lists Owner and Contributor as eligible, not active; the Conditional Access export shows MFA On and legacy authentication blocked. Controls: AC-6, IA-2, IA-5; HIPAA 164.312(d).</text>
-<line x1="32" y1="766" x2="1248" y2="766" stroke="#E1DFDD"/>
-<text x="32" y="786" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#8A8886">Generalised design: no client names, tenant IDs, addresses or data. Icons are simplified originals, not Microsoft artwork.</text>
-<text x="1248" y="786" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#8A8886" text-anchor="end">Rich Dieu · github.com/richdieu-max</text>
+<text x="694" y="549" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#F85149" text-anchor="start">No P2 licence, no eligibility: record it, never work around it</text>
+<text x="666" y="570" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">Eligible assignments need Entra ID P2. If the assignment fails with AadPremiumLicenseRequired,</text>
+<text x="666" y="587" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">record the missing licence as a finding and do not quietly fall back to standing Owner.</text>
+<text x="666" y="604" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">Conditional Access needs P1. Start the MFA policy in Report-only for a week to catch service</text>
+<text x="666" y="621" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">accounts and old clients, then switch it On; group changes take effect after the cached token expires</text>
+<text x="666" y="638" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">or a fresh sign-in.</text>
+<text x="32" y="754" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#9198A1" text-anchor="start">Verify: the PIM export lists Owner and Contributor as eligible, not active; the Conditional Access export shows MFA On and legacy authentication blocked. Controls: AC-6, IA-2, IA-5; HIPAA 164.312(d).</text>
+<line x1="32" y1="766" x2="1248" y2="766" stroke="#30363D"/>
+<text x="32" y="786" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#7D8590">Generalised design: no client names, tenant IDs, addresses or data. Icons are simplified originals, not Microsoft artwork.</text>
+<text x="1248" y="786" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#7D8590" text-anchor="end">Rich Dieu · github.com/richdieu-max</text>
 </svg>

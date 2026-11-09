@@ -1,99 +1,99 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 740" width="1280" height="740" role="img" aria-label="Register, install, connect, verify: the agent&#x27;s path to a healthy connection">
 <title>Register, install, connect, verify: the agent&#x27;s path to a healthy connection</title>
-<defs><marker id="m0078D4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#0078D4"/></marker><marker id="m5C2D91" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#5C2D91"/></marker><marker id="m107C10" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#107C10"/></marker><marker id="mC19C00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#C19C00"/></marker></defs>
-<rect width="1280" height="740" fill="#fff"/>
-<rect x="0" y="0" width="1280" height="6" fill="#0078D4"/>
-<text x="32" y="48" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="600" fill="#201F1E">Register, install, connect, verify: the agent&#x27;s path to a healthy connection</text>
-<text x="32" y="72" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#605E5C">Every method starts in the console and ends with the same proof: the workstation listed under its System, a current last-contact time, and a test event captured and signed.</text>
-<rect x="39" y="100" width="202" height="48" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="39" y="100" width="4" height="48" fill="#0078D4"/>
+<defs><marker id="m0078D4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#4493F8"/></marker><marker id="m5C2D91" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#A371F7"/></marker><marker id="m107C10" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#3FB950"/></marker><marker id="mC19C00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#D29922"/></marker></defs>
+<rect width="1280" height="740" fill="#0D1117"/>
+<rect x="0" y="0" width="1280" height="6" fill="#1F6FEB"/>
+<text x="32" y="48" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="600" fill="#E6EDF3">Register, install, connect, verify: the agent&#x27;s path to a healthy connection</text>
+<text x="32" y="72" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#9198A1">Every method starts in the console and ends with the same proof: the workstation listed under its System, a current last-contact time, and a test event captured and signed.</text>
+<rect x="39" y="100" width="202" height="48" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="39" y="100" width="4" height="48" fill="#1F6FEB"/>
 <g transform="translate(51.0,112) scale(0.5000)"><circle cx="24" cy="15" r="9" fill="#0078D4"/><path d="M6 44 q18-26 36 0 Z" fill="#0078D4"/></g>
-<text x="85.0" y="130" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#201F1E" text-anchor="start">Administrator</text>
-<rect x="255" y="100" width="202" height="48" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="255" y="100" width="4" height="48" fill="#5C2D91"/>
+<text x="85.0" y="130" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#E6EDF3" text-anchor="start">Administrator</text>
+<rect x="255" y="100" width="202" height="48" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="255" y="100" width="4" height="48" fill="#8957E5"/>
 <g transform="translate(267.0,112) scale(0.5000)"><rect x="4" y="8" width="40" height="32" rx="3" fill="#0078D4"/><rect x="4" y="8" width="40" height="8" rx="3" fill="#005A9E"/><circle cx="9" cy="12" r="1.6" fill="#fff"/><circle cx="14" cy="12" r="1.6" fill="#fff"/><path d="M10 24 h28 M10 30 h20" stroke="#fff" stroke-width="2.4"/></g>
-<text x="301.0" y="130" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#201F1E" text-anchor="start">Web console (HTTPS)</text>
-<rect x="471" y="100" width="202" height="48" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="471" y="100" width="4" height="48" fill="#107C10"/>
+<text x="301.0" y="130" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#E6EDF3" text-anchor="start">Web console (HTTPS)</text>
+<rect x="471" y="100" width="202" height="48" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="471" y="100" width="4" height="48" fill="#238636"/>
 <g transform="translate(483.0,112) scale(0.5000)"><rect x="4" y="7" width="40" height="27" rx="2" fill="#0078D4"/><rect x="7" y="10" width="34" height="21" fill="#fff"/><path d="M15 15 h18 M15 20 h18 M15 25 h12" stroke="#0078D4" stroke-width="2.4"/><rect x="18" y="34" width="12" height="5" fill="#005A9E"/><rect x="12" y="39" width="24" height="3" rx="1" fill="#005A9E"/></g>
-<text x="517.0" y="122" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#201F1E" text-anchor="start">Workstation agent</text>
-<text x="517.0" y="138" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#201F1E" text-anchor="start">service</text>
-<rect x="687" y="100" width="202" height="48" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="687" y="100" width="4" height="48" fill="#C19C00"/>
+<text x="517.0" y="122" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#E6EDF3" text-anchor="start">Workstation agent</text>
+<text x="517.0" y="138" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#E6EDF3" text-anchor="start">service</text>
+<rect x="687" y="100" width="202" height="48" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="687" y="100" width="4" height="48" fill="#9E6A03"/>
 <g transform="translate(699.0,112) scale(0.5000)"><rect x="10" y="4" width="28" height="40" rx="3" fill="#0078D4"/><path d="M15 12 h18 M15 18 h18 M15 24 h18" stroke="#fff" stroke-width="2.4"/><circle cx="32" cy="36" r="2.4" fill="#DFF6DD"/></g>
-<text x="733.0" y="130" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#201F1E" text-anchor="start">Compliance server</text>
-<line x1="140.0" y1="148" x2="140.0" y2="555" stroke="#C8C6C4" stroke-width="1" stroke-dasharray="5 4"/>
-<line x1="356.0" y1="148" x2="356.0" y2="555" stroke="#C8C6C4" stroke-width="1" stroke-dasharray="5 4"/>
-<line x1="572.0" y1="148" x2="572.0" y2="555" stroke="#C8C6C4" stroke-width="1" stroke-dasharray="5 4"/>
-<line x1="788.0" y1="148" x2="788.0" y2="555" stroke="#C8C6C4" stroke-width="1" stroke-dasharray="5 4"/>
-<polyline points="144.0,185 350.0,185" fill="none" stroke="#0078D4" stroke-width="1.6" marker-end="url(#m0078D4)"/>
-<rect x="65" y="167" width="367" height="16" rx="3" fill="#fff" opacity="0.95"/>
-<text x="248.0" y="179" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="middle">Workstations › Add: exact hostname, System, lab, owner, purpose</text>
-<polyline points="356.0,214 402.0,214 402.0,230 360.0,230" fill="none" stroke="#5C2D91" stroke-width="1.6" marker-end="url(#m5C2D91)"/>
-<text x="412.0" y="220" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="start">System Reload if needed;</text>
-<text x="412.0" y="235" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="start">screenshot the entry</text>
-<polyline points="144.0,259 566.0,259" fill="none" stroke="#0078D4" stroke-width="1.6" marker-end="url(#m0078D4)"/>
-<rect x="128" y="241" width="455" height="16" rx="3" fill="#fff" opacity="0.95"/>
-<text x="356.0" y="253" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="middle">Test-AgentPrereqs.ps1: admin rights, time source, DNS, port, disk, pending reboot</text>
-<polyline points="144.0,296 566.0,296" fill="none" stroke="#0078D4" stroke-width="1.6" marker-end="url(#m0078D4)"/>
-<rect x="133" y="278" width="446" height="16" rx="3" fill="#fff" opacity="0.95"/>
-<text x="356.0" y="290" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="middle">copy the MSI locally, check SHA-256 against the repository, msiexec /i elevated</text>
-<polyline points="144.0,333 566.0,333" fill="none" stroke="#0078D4" stroke-width="1.6" marker-end="url(#m0078D4)"/>
-<rect x="168" y="315" width="376" height="16" rx="3" fill="#fff" opacity="0.95"/>
-<text x="356.0" y="327" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="middle">Connections: server, port, authentication; service Automatic; restart</text>
-<polyline points="576.0,370 782.0,370" fill="none" stroke="#107C10" stroke-width="1.6" marker-end="url(#m107C10)"/>
-<rect x="528" y="352" width="304" height="16" rx="3" fill="#fff" opacity="0.95"/>
-<text x="680.0" y="364" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="middle">connect over TLS on &lt;agent-port&gt;; hostname checked</text>
-<polyline points="784.0,407 578.0,407" fill="none" stroke="#C19C00" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#mC19C00)"/>
-<rect x="571" y="389" width="219" height="16" rx="3" fill="#fff" opacity="0.95"/>
-<text x="680.0" y="401" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="middle">accepted: capture rules for the System</text>
-<polyline points="784.0,444 362.0,444" fill="none" stroke="#C19C00" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#mC19C00)"/>
-<rect x="415" y="426" width="314" height="16" rx="3" fill="#fff" opacity="0.95"/>
-<text x="572.0" y="438" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="middle">workstation listed under its System; last contact current</text>
-<polyline points="572.0,473 618.0,473 618.0,489 576.0,489" fill="none" stroke="#107C10" stroke-width="1.6" marker-end="url(#m107C10)"/>
-<text x="628.0" y="479" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="start">test file in a monitored folder:</text>
-<text x="628.0" y="494" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="start">event captured</text>
-<polyline points="576.0,518 782.0,518" fill="none" stroke="#107C10" stroke-width="1.6" marker-end="url(#m107C10)"/>
-<rect x="505" y="500" width="349" height="16" rx="3" fill="#fff" opacity="0.95"/>
-<text x="680.0" y="512" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="middle">event uploaded with who and when; signed with a test account</text>
-<rect x="920" y="100" width="328" height="330" rx="6" fill="#FFF8F8" stroke="#A4262C" stroke-width="1.4"/>
+<text x="733.0" y="130" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#E6EDF3" text-anchor="start">Compliance server</text>
+<line x1="140.0" y1="148" x2="140.0" y2="555" stroke="#3D444D" stroke-width="1" stroke-dasharray="5 4"/>
+<line x1="356.0" y1="148" x2="356.0" y2="555" stroke="#3D444D" stroke-width="1" stroke-dasharray="5 4"/>
+<line x1="572.0" y1="148" x2="572.0" y2="555" stroke="#3D444D" stroke-width="1" stroke-dasharray="5 4"/>
+<line x1="788.0" y1="148" x2="788.0" y2="555" stroke="#3D444D" stroke-width="1" stroke-dasharray="5 4"/>
+<polyline points="144.0,185 350.0,185" fill="none" stroke="#4493F8" stroke-width="1.6" marker-end="url(#m0078D4)"/>
+<rect x="65" y="167" width="367" height="16" rx="3" fill="#0D1117" opacity="0.95"/>
+<text x="248.0" y="179" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#E6EDF3" text-anchor="middle">Workstations › Add: exact hostname, System, lab, owner, purpose</text>
+<polyline points="356.0,214 402.0,214 402.0,230 360.0,230" fill="none" stroke="#A371F7" stroke-width="1.6" marker-end="url(#m5C2D91)"/>
+<text x="412.0" y="220" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#E6EDF3" text-anchor="start">System Reload if needed;</text>
+<text x="412.0" y="235" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#E6EDF3" text-anchor="start">screenshot the entry</text>
+<polyline points="144.0,259 566.0,259" fill="none" stroke="#4493F8" stroke-width="1.6" marker-end="url(#m0078D4)"/>
+<rect x="128" y="241" width="455" height="16" rx="3" fill="#0D1117" opacity="0.95"/>
+<text x="356.0" y="253" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#E6EDF3" text-anchor="middle">Test-AgentPrereqs.ps1: admin rights, time source, DNS, port, disk, pending reboot</text>
+<polyline points="144.0,296 566.0,296" fill="none" stroke="#4493F8" stroke-width="1.6" marker-end="url(#m0078D4)"/>
+<rect x="133" y="278" width="446" height="16" rx="3" fill="#0D1117" opacity="0.95"/>
+<text x="356.0" y="290" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#E6EDF3" text-anchor="middle">copy the MSI locally, check SHA-256 against the repository, msiexec /i elevated</text>
+<polyline points="144.0,333 566.0,333" fill="none" stroke="#4493F8" stroke-width="1.6" marker-end="url(#m0078D4)"/>
+<rect x="168" y="315" width="376" height="16" rx="3" fill="#0D1117" opacity="0.95"/>
+<text x="356.0" y="327" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#E6EDF3" text-anchor="middle">Connections: server, port, authentication; service Automatic; restart</text>
+<polyline points="576.0,370 782.0,370" fill="none" stroke="#3FB950" stroke-width="1.6" marker-end="url(#m107C10)"/>
+<rect x="528" y="352" width="304" height="16" rx="3" fill="#0D1117" opacity="0.95"/>
+<text x="680.0" y="364" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#E6EDF3" text-anchor="middle">connect over TLS on &lt;agent-port&gt;; hostname checked</text>
+<polyline points="784.0,407 578.0,407" fill="none" stroke="#D29922" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#mC19C00)"/>
+<rect x="571" y="389" width="219" height="16" rx="3" fill="#0D1117" opacity="0.95"/>
+<text x="680.0" y="401" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#E6EDF3" text-anchor="middle">accepted: capture rules for the System</text>
+<polyline points="784.0,444 362.0,444" fill="none" stroke="#D29922" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#mC19C00)"/>
+<rect x="415" y="426" width="314" height="16" rx="3" fill="#0D1117" opacity="0.95"/>
+<text x="572.0" y="438" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#E6EDF3" text-anchor="middle">workstation listed under its System; last contact current</text>
+<polyline points="572.0,473 618.0,473 618.0,489 576.0,489" fill="none" stroke="#3FB950" stroke-width="1.6" marker-end="url(#m107C10)"/>
+<text x="628.0" y="479" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#E6EDF3" text-anchor="start">test file in a monitored folder:</text>
+<text x="628.0" y="494" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#E6EDF3" text-anchor="start">event captured</text>
+<polyline points="576.0,518 782.0,518" fill="none" stroke="#3FB950" stroke-width="1.6" marker-end="url(#m107C10)"/>
+<rect x="505" y="500" width="349" height="16" rx="3" fill="#0D1117" opacity="0.95"/>
+<text x="680.0" y="512" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#E6EDF3" text-anchor="middle">event uploaded with who and when; signed with a test account</text>
+<rect x="920" y="100" width="328" height="330" rx="6" fill="#25171C" stroke="#F85149" stroke-width="1.4"/>
 <g transform="translate(930,108) scale(0.5000)"><path d="M24 4 L45 42 H3 Z" fill="#A4262C"/><rect x="22" y="17" width="4" height="13" fill="#fff"/><circle cx="24" cy="35" r="2.5" fill="#fff"/></g>
-<text x="962" y="125" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#A4262C" text-anchor="start">Where it goes wrong</text>
-<rect x="934" y="140" width="300" height="62" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="934" y="140" width="4" height="62" rx="0" fill="#A4262C"/>
-<text x="952" y="162" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="start">Installed but never connects</text>
-<text x="952" y="178" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">no connection entry: add it, save, restart the service</text>
-<rect x="934" y="210" width="300" height="62" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="934" y="210" width="4" height="62" rx="0" fill="#A4262C"/>
-<text x="952" y="232" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="start">Entry exists, still red</text>
-<text x="952" y="248" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">not registered, or the server was not reloaded</text>
-<rect x="934" y="280" width="300" height="62" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="934" y="280" width="4" height="62" rx="0" fill="#A4262C"/>
-<text x="952" y="302" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="start">TcpTestSucceeded : False</text>
-<text x="952" y="318" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">firewall or VLAN ACL: request source, destination</text>
-<text x="952" y="334" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">and port</text>
-<rect x="934" y="350" width="300" height="62" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="934" y="350" width="4" height="62" rx="0" fill="#A4262C"/>
-<text x="952" y="372" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="start">Starts then stops (7034 / 7031)</text>
-<text x="952" y="388" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">service account password or Log on as a service</text>
-<rect x="920" y="446" width="328" height="100" rx="6" fill="#FFF9E6" stroke="#C19C00" stroke-width="1.4" stroke-dasharray="6 4"/>
+<text x="962" y="125" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#F85149" text-anchor="start">Where it goes wrong</text>
+<rect x="934" y="140" width="300" height="62" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="934" y="140" width="4" height="62" rx="0" fill="#DA3633"/>
+<text x="952" y="162" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Installed but never connects</text>
+<text x="952" y="178" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#9198A1" text-anchor="start">no connection entry: add it, save, restart the service</text>
+<rect x="934" y="210" width="300" height="62" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="934" y="210" width="4" height="62" rx="0" fill="#DA3633"/>
+<text x="952" y="232" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Entry exists, still red</text>
+<text x="952" y="248" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#9198A1" text-anchor="start">not registered, or the server was not reloaded</text>
+<rect x="934" y="280" width="300" height="62" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="934" y="280" width="4" height="62" rx="0" fill="#DA3633"/>
+<text x="952" y="302" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#E6EDF3" text-anchor="start">TcpTestSucceeded : False</text>
+<text x="952" y="318" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#9198A1" text-anchor="start">firewall or VLAN ACL: request source, destination</text>
+<text x="952" y="334" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#9198A1" text-anchor="start">and port</text>
+<rect x="934" y="350" width="300" height="62" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="934" y="350" width="4" height="62" rx="0" fill="#DA3633"/>
+<text x="952" y="372" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Starts then stops (7034 / 7031)</text>
+<text x="952" y="388" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#9198A1" text-anchor="start">service account password or Log on as a service</text>
+<rect x="920" y="446" width="328" height="100" rx="6" fill="#272115" stroke="#D29922" stroke-width="1.4" stroke-dasharray="6 4"/>
 <g transform="translate(930,454) scale(0.5000)"><rect x="5" y="8" width="38" height="32" rx="3" fill="#5C2D91"/><circle cx="17" cy="21" r="5" fill="#fff"/><path d="M9 34 q8-12 16 0Z" fill="#fff"/><path d="M28 18 h10 M28 25 h10 M28 32 h7" stroke="#fff" stroke-width="2.4"/></g>
-<text x="962" y="471" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#C19C00" text-anchor="start">Hostname mismatch is the usual cause</text>
-<text x="934" y="492" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">A typo, the old name after a reimage, or NetBIOS</text>
-<text x="934" y="509" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">differing from DNS: the console entry must match</text>
-<text x="934" y="526" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">what hostname reports.</text>
-<rect x="920" y="562" width="328" height="84" rx="6" fill="#EFF6FC" stroke="#0078D4" stroke-width="1.4" stroke-dasharray="6 4"/>
+<text x="962" y="471" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#D29922" text-anchor="start">Hostname mismatch is the usual cause</text>
+<text x="934" y="492" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">A typo, the old name after a reimage, or NetBIOS</text>
+<text x="934" y="509" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">differing from DNS: the console entry must match</text>
+<text x="934" y="526" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">what hostname reports.</text>
+<rect x="920" y="562" width="328" height="84" rx="6" fill="#121D2F" stroke="#4493F8" stroke-width="1.4" stroke-dasharray="6 4"/>
 <g transform="translate(930,570) scale(0.5000)"><rect x="5" y="5" width="38" height="38" rx="5" fill="#107C10"/><path d="M33 17 a11 11 0 1 0 2 11" fill="none" stroke="#fff" stroke-width="3.2"/><path d="M28 12 h8 v8" fill="none" stroke="#fff" stroke-width="3.2"/></g>
-<text x="962" y="587" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#0078D4" text-anchor="start">Still disconnected?</text>
-<text x="934" y="608" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">With correct configuration, one clean reboot,</text>
-<text x="934" y="625" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">recorded, often fixes it.</text>
-<rect x="32" y="569" width="864" height="84" rx="6" fill="#FFF8F8" stroke="#A4262C" stroke-width="1.4" stroke-dasharray="6 4"/>
+<text x="962" y="587" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#4493F8" text-anchor="start">Still disconnected?</text>
+<text x="934" y="608" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">With correct configuration, one clean reboot,</text>
+<text x="934" y="625" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">recorded, often fixes it.</text>
+<rect x="32" y="569" width="864" height="84" rx="6" fill="#25171C" stroke="#F85149" stroke-width="1.4" stroke-dasharray="6 4"/>
 <g transform="translate(42,577) scale(0.5000)"><ellipse cx="24" cy="12" rx="17" ry="6" fill="#005A9E"/><path d="M7 12 v24 a17 6 0 0 0 34 0 v-24 a17 6 0 0 1 -34 0Z" fill="#0078D4"/><path d="M7 24 a17 6 0 0 0 34 0" stroke="#fff" stroke-width="1.6" fill="none"/></g>
-<text x="74" y="594" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#A4262C" text-anchor="start">Never delete the agent&#x27;s local queue or database to clear an error</text>
-<text x="46" y="615" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">It destroys unsent audit-trail events, which is a data-integrity incident. Work outward instead: service running, connection entry present, port</text>
-<text x="46" y="632" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">reachable, then registration; reinstalling is the last resort.</text>
-<text x="32" y="694" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">Time must be domain-synchronized (w32tm /query /status) before any of this: audit-trail timestamps depend on it. Controls: 21 CFR Part 11 §11.10(e) audit trails; ALCOA+ Attributable and Contemporaneous.</text>
-<line x1="32" y1="706" x2="1248" y2="706" stroke="#E1DFDD"/>
-<text x="32" y="726" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#8A8886">Generalised design: no client names, tenant IDs, addresses or data. Icons are simplified originals, not Microsoft artwork.</text>
-<text x="1248" y="726" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#8A8886" text-anchor="end">Rich Dieu · github.com/richdieu-max</text>
+<text x="74" y="594" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#F85149" text-anchor="start">Never delete the agent&#x27;s local queue or database to clear an error</text>
+<text x="46" y="615" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">It destroys unsent audit-trail events, which is a data-integrity incident. Work outward instead: service running, connection entry present, port</text>
+<text x="46" y="632" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">reachable, then registration; reinstalling is the last resort.</text>
+<text x="32" y="694" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#9198A1" text-anchor="start">Time must be domain-synchronized (w32tm /query /status) before any of this: audit-trail timestamps depend on it. Controls: 21 CFR Part 11 §11.10(e) audit trails; ALCOA+ Attributable and Contemporaneous.</text>
+<line x1="32" y1="706" x2="1248" y2="706" stroke="#30363D"/>
+<text x="32" y="726" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#7D8590">Generalised design: no client names, tenant IDs, addresses or data. Icons are simplified originals, not Microsoft artwork.</text>
+<text x="1248" y="726" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#7D8590" text-anchor="end">Rich Dieu · github.com/richdieu-max</text>
 </svg>

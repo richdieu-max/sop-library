@@ -1,131 +1,131 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 780" width="1280" height="780" role="img" aria-label="The isolated Hyper-V bridge: a time-boxed Windows 7 VM that reaches the instrument and nothing else">
 <title>The isolated Hyper-V bridge: a time-boxed Windows 7 VM that reaches the instrument and nothing else</title>
-<defs><marker id="m0078D4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#0078D4"/></marker><marker id="m107C10" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#107C10"/></marker><marker id="mC19C00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#C19C00"/></marker></defs>
-<rect width="1280" height="780" fill="#fff"/>
-<rect x="0" y="0" width="1280" height="6" fill="#0078D4"/>
-<text x="32" y="48" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="600" fill="#201F1E">The isolated Hyper-V bridge: a time-boxed Windows 7 VM that reaches the instrument and nothing else</text>
-<text x="32" y="72" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#605E5C">The host stays patched and managed on the corporate NIC; the guest owns the instrument NIC through a vSwitch the host cannot use, and has no other network at all.</text>
+<defs><marker id="m0078D4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#4493F8"/></marker><marker id="m107C10" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#3FB950"/></marker><marker id="mC19C00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#D29922"/></marker></defs>
+<rect width="1280" height="780" fill="#0D1117"/>
+<rect x="0" y="0" width="1280" height="6" fill="#1F6FEB"/>
+<text x="32" y="48" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="600" fill="#E6EDF3">The isolated Hyper-V bridge: a time-boxed Windows 7 VM that reaches the instrument and nothing else</text>
+<text x="32" y="72" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#9198A1">The host stays patched and managed on the corporate NIC; the guest owns the instrument NIC through a vSwitch the host cannot use, and has no other network at all.</text>
 <rect x="33.5" y="148" width="196" height="84" rx="5" fill="#000" opacity="0.06"/>
-<rect x="32" y="146" width="196" height="84" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="32" y="146" width="4" height="84" rx="0" fill="#0078D4"/>
+<rect x="32" y="146" width="196" height="84" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="32" y="146" width="4" height="84" rx="0" fill="#1F6FEB"/>
 <g transform="translate(48,156) scale(0.5000)"><circle cx="24" cy="24" r="19" fill="#8A8886"/><ellipse cx="24" cy="24" rx="8" ry="19" fill="none" stroke="#fff" stroke-width="2"/><path d="M5 24 h38 M9 14 h30 M9 34 h30" stroke="#fff" stroke-width="2"/></g>
-<text x="82" y="168" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Corporate network</text>
-<text x="82" y="185" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">domain, patching, EDR,</text>
-<text x="82" y="202" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">internet</text>
-<polyline points="228,188 252,188" fill="none" stroke="#0078D4" stroke-width="2" marker-end="url(#m0078D4)"/>
-<rect x="32" y="250" width="196" height="170" rx="6" fill="#EFF6FC" stroke="#0078D4" stroke-width="1.4" stroke-dasharray="6 4"/>
+<text x="82" y="168" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Corporate network</text>
+<text x="82" y="185" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">domain, patching, EDR,</text>
+<text x="82" y="202" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">internet</text>
+<polyline points="228,188 252,188" fill="none" stroke="#4493F8" stroke-width="2" marker-end="url(#m0078D4)"/>
+<rect x="32" y="250" width="196" height="170" rx="6" fill="#121D2F" stroke="#4493F8" stroke-width="1.4" stroke-dasharray="6 4"/>
 <g transform="translate(42,258) scale(0.5000)"><path d="M24 3 L41 9 V23 C41 34 33 41 24 45 C15 41 7 34 7 23 V9 Z" fill="#0078D4"/><path d="M24 3 V45 C33 41 41 34 41 23 V9 Z" fill="#005A9E"/><path d="M16 24 l6 6 11-12" stroke="#fff" stroke-width="3.2" fill="none"/></g>
-<text x="74" y="275" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#0078D4" text-anchor="start">Host is managed</text>
-<text x="46" y="296" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Patched, enrolled and</text>
-<text x="46" y="313" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">running EDR over the</text>
-<text x="46" y="330" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">corporate NIC. Only the guest</text>
-<text x="46" y="347" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">is unpatched, and it is boxed</text>
-<text x="46" y="364" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">in.</text>
-<rect x="232" y="100" width="700" height="428" rx="6" fill="#FAF9F8" stroke="#C8C6C4" stroke-width="1.4"/>
+<text x="74" y="275" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#4493F8" text-anchor="start">Host is managed</text>
+<text x="46" y="296" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">Patched, enrolled and</text>
+<text x="46" y="313" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">running EDR over the</text>
+<text x="46" y="330" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">corporate NIC. Only the guest</text>
+<text x="46" y="347" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">is unpatched, and it is boxed</text>
+<text x="46" y="364" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">in.</text>
+<rect x="232" y="100" width="700" height="428" rx="6" fill="#151B23" stroke="#3D444D" stroke-width="1.4"/>
 <g transform="translate(242,108) scale(0.5000)"><rect x="4" y="7" width="40" height="27" rx="2" fill="#0078D4"/><rect x="7" y="10" width="34" height="21" fill="#fff"/><path d="M15 15 h18 M15 20 h18 M15 25 h12" stroke="#0078D4" stroke-width="2.4"/><rect x="18" y="34" width="12" height="5" fill="#005A9E"/><rect x="12" y="39" width="24" height="3" rx="1" fill="#005A9E"/></g>
-<text x="274" y="125" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#201F1E" text-anchor="start">Windows 11 host</text>
-<text x="920" y="125" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="end">Pro, Enterprise or Education · virtualization enabled in firmware</text>
+<text x="274" y="125" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#E6EDF3" text-anchor="start">Windows 11 host</text>
+<text x="920" y="125" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9198A1" text-anchor="end">Pro, Enterprise or Education · virtualization enabled in firmware</text>
 <rect x="253.5" y="148" width="200" height="84" rx="5" fill="#000" opacity="0.06"/>
-<rect x="252" y="146" width="200" height="84" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="252" y="146" width="4" height="84" rx="0" fill="#0078D4"/>
+<rect x="252" y="146" width="200" height="84" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="252" y="146" width="4" height="84" rx="0" fill="#1F6FEB"/>
 <g transform="translate(268,156) scale(0.5000)"><rect x="3" y="14" width="16" height="20" rx="3" fill="#0078D4"/><rect x="29" y="14" width="16" height="20" rx="3" fill="#005A9E"/><path d="M19 24 h10" stroke="#605E5C" stroke-width="3"/><circle cx="24" cy="24" r="3" fill="#107C10"/></g>
-<rect x="403.775616" y="156" width="38" height="20" rx="10" fill="#EFF6FC" stroke="#0078D4" stroke-width="1"/>
-<text x="423" y="170" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#0078D4" text-anchor="middle">host</text>
-<text x="302" y="168" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Corporate NIC</text>
-<text x="302" y="185" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">DHCP address, used by</text>
-<text x="302" y="202" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">the host only</text>
-<rect x="252" y="262" width="660" height="186" rx="6" fill="#fff" stroke="#C8C6C4" stroke-width="1.4"/>
+<rect x="403.775616" y="156" width="38" height="20" rx="10" fill="#121D2F" stroke="#4493F8" stroke-width="1"/>
+<text x="423" y="170" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#4493F8" text-anchor="middle">host</text>
+<text x="302" y="168" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Corporate NIC</text>
+<text x="302" y="185" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">DHCP address, used by</text>
+<text x="302" y="202" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">the host only</text>
+<rect x="252" y="262" width="660" height="186" rx="6" fill="#1C2128" stroke="#3D444D" stroke-width="1.4"/>
 <g transform="translate(262,270) scale(0.5000)"><rect x="4" y="7" width="40" height="27" rx="2" fill="#0078D4"/><rect x="7" y="10" width="34" height="21" fill="#fff"/><ellipse cx="24" cy="15" rx="8" ry="3" fill="#005A9E"/><path d="M16 15 v10 a8 3 0 0 0 16 0 v-10" fill="#005A9E"/><rect x="18" y="34" width="12" height="5" fill="#005A9E"/><rect x="12" y="39" width="24" height="3" rx="1" fill="#005A9E"/></g>
-<text x="294" y="287" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#201F1E" text-anchor="start">Hyper-V role on the host</text>
-<text x="900" y="287" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="end">Generation 1, because the guest is Windows 7</text>
+<text x="294" y="287" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#E6EDF3" text-anchor="start">Hyper-V role on the host</text>
+<text x="900" y="287" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9198A1" text-anchor="end">Generation 1, because the guest is Windows 7</text>
 <rect x="269.5" y="306" width="304" height="124" rx="5" fill="#000" opacity="0.06"/>
-<rect x="268" y="304" width="304" height="124" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="268" y="304" width="4" height="124" rx="0" fill="#C19C00"/>
+<rect x="268" y="304" width="304" height="124" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="268" y="304" width="4" height="124" rx="0" fill="#9E6A03"/>
 <g transform="translate(284,314) scale(0.5000)"><rect x="4" y="7" width="40" height="27" rx="2" fill="#8A8886"/><rect x="7" y="10" width="34" height="21" fill="#fff"/><text x="24" y="26" font-family="Arial" font-weight="700" font-size="12" fill="#8A8886" text-anchor="middle">W7</text><rect x="18" y="34" width="12" height="5" fill="#605E5C"/><rect x="12" y="39" width="24" height="3" rx="1" fill="#605E5C"/></g>
-<rect x="492.522576" y="314" width="69" height="20" rx="10" fill="#FFF8F8" stroke="#A4262C" stroke-width="1"/>
-<text x="527" y="328" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#A4262C" text-anchor="middle">unpatched</text>
-<text x="318" y="326" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Windows 7 VM · Gen 1</text>
-<text x="318" y="343" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">4 GB static memory: dynamic memory off</text>
-<text x="318" y="360" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">so instrument timing stays predictable</text>
-<text x="318" y="377" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">80 GB VHDX; automatic checkpoints off;</text>
-<text x="318" y="394" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">AutomaticStartAction Start</text>
+<rect x="492.522576" y="314" width="69" height="20" rx="10" fill="#25171C" stroke="#F85149" stroke-width="1"/>
+<text x="527" y="328" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#F85149" text-anchor="middle">unpatched</text>
+<text x="318" y="326" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Windows 7 VM · Gen 1</text>
+<text x="318" y="343" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">4 GB static memory: dynamic memory off</text>
+<text x="318" y="360" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">so instrument timing stays predictable</text>
+<text x="318" y="377" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">80 GB VHDX; automatic checkpoints off;</text>
+<text x="318" y="394" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">AutomaticStartAction Start</text>
 <rect x="597.5" y="306" width="300" height="124" rx="5" fill="#000" opacity="0.06"/>
-<rect x="596" y="304" width="300" height="124" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="596" y="304" width="4" height="124" rx="0" fill="#107C10"/>
+<rect x="596" y="304" width="300" height="124" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="596" y="304" width="4" height="124" rx="0" fill="#238636"/>
 <g transform="translate(612,314) scale(0.5000)"><circle cx="24" cy="24" r="19" fill="#0078D4"/><path d="M13 19 h18 l-4 -4 M35 29 h-18 l4 4" stroke="#fff" stroke-width="2.6" fill="none"/></g>
-<rect x="828.32928" y="314" width="58" height="20" rx="10" fill="#F2FAF2" stroke="#107C10" stroke-width="1"/>
-<text x="857" y="328" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#107C10" text-anchor="middle">isolated</text>
-<text x="646" y="326" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">External vSwitch</text>
-<text x="646" y="343" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">bound to the Instrument NIC only;</text>
-<text x="646" y="360" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">AllowManagementOS $false, so the host</text>
-<text x="646" y="377" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">cannot use it</text>
-<text x="646" y="394" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">legacy adapter until the integration</text>
-<text x="646" y="411" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">components update is in the guest</text>
-<polyline points="572,366 596,366" fill="none" stroke="#107C10" stroke-width="2" marker-end="url(#m107C10)"/>
-<line x1="560" y1="304" x2="560" y2="188" stroke="#A4262C" stroke-width="2" stroke-dasharray="5 4"/>
-<line x1="560" y1="188" x2="452" y2="188" stroke="#A4262C" stroke-width="2" stroke-dasharray="5 4"/>
-<rect x="454.363188" y="232" width="211" height="20" rx="10" fill="#A4262C"/>
+<rect x="828.32928" y="314" width="58" height="20" rx="10" fill="#15221A" stroke="#3FB950" stroke-width="1"/>
+<text x="857" y="328" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#3FB950" text-anchor="middle">isolated</text>
+<text x="646" y="326" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start">External vSwitch</text>
+<text x="646" y="343" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">bound to the Instrument NIC only;</text>
+<text x="646" y="360" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">AllowManagementOS $false, so the host</text>
+<text x="646" y="377" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">cannot use it</text>
+<text x="646" y="394" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">legacy adapter until the integration</text>
+<text x="646" y="411" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">components update is in the guest</text>
+<polyline points="572,366 596,366" fill="none" stroke="#3FB950" stroke-width="2" marker-end="url(#m107C10)"/>
+<line x1="560" y1="304" x2="560" y2="188" stroke="#F85149" stroke-width="2" stroke-dasharray="5 4"/>
+<line x1="560" y1="188" x2="452" y2="188" stroke="#F85149" stroke-width="2" stroke-dasharray="5 4"/>
+<rect x="454.363188" y="232" width="211" height="20" rx="10" fill="#DA3633"/>
 <text x="560" y="246" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#fff" text-anchor="middle">blocked: no corporate or internet path</text>
 <rect x="597.5" y="460" width="300" height="62" rx="5" fill="#000" opacity="0.06"/>
-<rect x="596" y="458" width="300" height="62" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="596" y="458" width="4" height="62" rx="0" fill="#107C10"/>
+<rect x="596" y="458" width="300" height="62" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="596" y="458" width="4" height="62" rx="0" fill="#238636"/>
 <g transform="translate(612,468) scale(0.5000)"><rect x="6" y="4" width="26" height="40" rx="3" fill="#005A9E"/><path d="M11 12 h16 M11 18 h16" stroke="#fff" stroke-width="2.4"/><rect x="20" y="24" width="24" height="16" rx="3" fill="#C19C00"/><text x="32" y="36" font-family="Arial" font-weight="700" font-size="10" fill="#fff" text-anchor="middle">IP</text></g>
-<text x="646" y="480" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Instrument NIC</text>
-<text x="646" y="497" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">static address, no gateway or DNS;</text>
-<text x="646" y="514" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">handed to the vSwitch</text>
-<polyline points="746,428 746,458" fill="none" stroke="#107C10" stroke-width="2" marker-end="url(#m107C10)"/>
-<polyline points="746,520 746,548" fill="none" stroke="#107C10" stroke-width="2" marker-end="url(#m107C10)"/>
+<text x="646" y="480" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Instrument NIC</text>
+<text x="646" y="497" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">static address, no gateway or DNS;</text>
+<text x="646" y="514" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">handed to the vSwitch</text>
+<polyline points="746,428 746,458" fill="none" stroke="#3FB950" stroke-width="2" marker-end="url(#m107C10)"/>
+<polyline points="746,520 746,548" fill="none" stroke="#3FB950" stroke-width="2" marker-end="url(#m107C10)"/>
 <rect x="597.5" y="550" width="300" height="60" rx="5" fill="#000" opacity="0.06"/>
-<rect x="596" y="548" width="300" height="60" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="596" y="548" width="4" height="60" rx="0" fill="#107C10"/>
+<rect x="596" y="548" width="300" height="60" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="596" y="548" width="4" height="60" rx="0" fill="#238636"/>
 <g transform="translate(612,558) scale(0.5000)"><rect x="3" y="14" width="42" height="20" rx="3" fill="#008575"/><rect x="7" y="22" width="5" height="6" fill="#fff"/><rect x="14" y="22" width="5" height="6" fill="#fff"/><rect x="21" y="22" width="5" height="6" fill="#fff"/><rect x="28" y="22" width="5" height="6" fill="#fff"/><rect x="35" y="22" width="5" height="6" fill="#fff"/><circle cx="41" cy="20" r="1.8" fill="#fff"/></g>
-<text x="646" y="570" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Isolated instrument switch</text>
-<text x="646" y="587" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">no uplink to anything else</text>
-<polyline points="896,578 940,578" fill="none" stroke="#C19C00" stroke-width="2" marker-end="url(#mC19C00)"/>
+<text x="646" y="570" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Isolated instrument switch</text>
+<text x="646" y="587" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">no uplink to anything else</text>
+<polyline points="896,578 940,578" fill="none" stroke="#D29922" stroke-width="2" marker-end="url(#mC19C00)"/>
 <rect x="941.5" y="550" width="308" height="60" rx="5" fill="#000" opacity="0.06"/>
-<rect x="940" y="548" width="308" height="60" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="940" y="548" width="4" height="60" rx="0" fill="#C19C00"/>
+<rect x="940" y="548" width="308" height="60" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="940" y="548" width="4" height="60" rx="0" fill="#9E6A03"/>
 <g transform="translate(956,558) scale(0.5000)"><rect x="4" y="12" width="36" height="22" rx="2" fill="#0078D4"/><rect x="40" y="10" width="4" height="28" fill="#005A9E"/><rect x="10" y="34" width="22" height="5" fill="#C19C00"/><rect x="10" y="17" width="10" height="10" rx="1" fill="#fff"/><rect x="24" y="17" width="10" height="10" rx="1" fill="#fff" opacity=".6"/></g>
-<text x="990" y="570" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">Instrument controller</text>
-<text x="990" y="587" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">UDP control traffic; the only peer the VM</text>
-<text x="990" y="604" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">can reach</text>
-<rect x="956" y="100" width="292" height="212" rx="6" fill="#FFF8F8" stroke="#A4262C" stroke-width="1.4"/>
+<text x="990" y="570" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Instrument controller</text>
+<text x="990" y="587" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">UDP control traffic; the only peer the VM</text>
+<text x="990" y="604" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">can reach</text>
+<rect x="956" y="100" width="292" height="212" rx="6" fill="#25171C" stroke="#F85149" stroke-width="1.4"/>
 <g transform="translate(966,108) scale(0.5000)"><path d="M24 3 L41 9 V23 C41 34 33 41 24 45 C15 41 7 34 7 23 V9 Z" fill="#8A8886"/><path d="M16 16 l16 16 M32 16 l-16 16" stroke="#fff" stroke-width="3.4"/></g>
-<text x="998" y="125" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#A4262C" text-anchor="start">Containment in the guest</text>
-<rect x="970" y="140" width="264" height="52" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="970" y="140" width="4" height="52" rx="0" fill="#A4262C"/>
-<text x="988" y="162" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="start">No corporate or internet network</text>
-<text x="988" y="177" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">only adapter: the instrument vSwitch</text>
-<rect x="970" y="198" width="264" height="52" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="970" y="198" width="4" height="52" rx="0" fill="#A4262C"/>
-<text x="988" y="220" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="start">Enhanced Session off</text>
-<text x="988" y="235" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">clipboard and drive redirection off</text>
-<rect x="970" y="256" width="264" height="52" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="970" y="256" width="4" height="52" rx="0" fill="#A4262C"/>
-<text x="988" y="278" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="start">No USB pass-through</text>
-<text x="988" y="293" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">dongles need validated USB-over-IP</text>
-<rect x="956" y="326" width="292" height="212" rx="6" fill="#FFF9E6" stroke="#C19C00" stroke-width="1.4"/>
+<text x="998" y="125" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#F85149" text-anchor="start">Containment in the guest</text>
+<rect x="970" y="140" width="264" height="52" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="970" y="140" width="4" height="52" rx="0" fill="#DA3633"/>
+<text x="988" y="162" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#E6EDF3" text-anchor="start">No corporate or internet network</text>
+<text x="988" y="177" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">only adapter: the instrument vSwitch</text>
+<rect x="970" y="198" width="264" height="52" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="970" y="198" width="4" height="52" rx="0" fill="#DA3633"/>
+<text x="988" y="220" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Enhanced Session off</text>
+<text x="988" y="235" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">clipboard and drive redirection off</text>
+<rect x="970" y="256" width="264" height="52" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="970" y="256" width="4" height="52" rx="0" fill="#DA3633"/>
+<text x="988" y="278" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#E6EDF3" text-anchor="start">No USB pass-through</text>
+<text x="988" y="293" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">dongles need validated USB-over-IP</text>
+<rect x="956" y="326" width="292" height="212" rx="6" fill="#272115" stroke="#D29922" stroke-width="1.4"/>
 <g transform="translate(966,334) scale(0.5000)"><rect x="5" y="9" width="38" height="34" rx="3" fill="#fff" stroke="#0078D4" stroke-width="2"/><rect x="5" y="9" width="38" height="10" rx="3" fill="#0078D4"/><path d="M14 5 v8 M34 5 v8" stroke="#005A9E" stroke-width="3"/><rect x="11" y="24" width="7" height="6" fill="#DEECF9"/><rect x="21" y="24" width="7" height="6" fill="#A4262C"/><rect x="31" y="24" width="7" height="6" fill="#DEECF9"/><rect x="11" y="33" width="7" height="6" fill="#DEECF9"/><rect x="21" y="33" width="7" height="6" fill="#DEECF9"/></g>
-<text x="998" y="351" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#C19C00" text-anchor="start">Time-box and evidence</text>
-<rect x="970" y="366" width="264" height="52" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="970" y="366" width="4" height="52" rx="0" fill="#C19C00"/>
-<text x="988" y="388" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="start">Exit date in the change record</text>
-<text x="988" y="403" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">a bridge to the vendor upgrade</text>
-<rect x="970" y="424" width="264" height="52" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="970" y="424" width="4" height="52" rx="0" fill="#C19C00"/>
-<text x="988" y="446" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="start">Export-VM to controlled storage</text>
-<text x="988" y="461" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">checkpoints are not backups</text>
-<rect x="970" y="482" width="264" height="52" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="970" y="482" width="4" height="52" rx="0" fill="#C19C00"/>
-<text x="988" y="504" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="start">Validated baseline checkpoint</text>
-<text x="988" y="519" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">Restore-VMCheckpoint is the rollback</text>
-<rect x="32" y="624" width="1216" height="86" rx="6" fill="#FFF9E6" stroke="#C19C00" stroke-width="1.4" stroke-dasharray="6 4"/>
+<text x="998" y="351" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#D29922" text-anchor="start">Time-box and evidence</text>
+<rect x="970" y="366" width="264" height="52" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="970" y="366" width="4" height="52" rx="0" fill="#9E6A03"/>
+<text x="988" y="388" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Exit date in the change record</text>
+<text x="988" y="403" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">a bridge to the vendor upgrade</text>
+<rect x="970" y="424" width="264" height="52" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="970" y="424" width="4" height="52" rx="0" fill="#9E6A03"/>
+<text x="988" y="446" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Export-VM to controlled storage</text>
+<text x="988" y="461" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">checkpoints are not backups</text>
+<rect x="970" y="482" width="264" height="52" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="970" y="482" width="4" height="52" rx="0" fill="#9E6A03"/>
+<text x="988" y="504" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Validated baseline checkpoint</text>
+<text x="988" y="519" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">Restore-VMCheckpoint is the rollback</text>
+<rect x="32" y="624" width="1216" height="86" rx="6" fill="#272115" stroke="#D29922" stroke-width="1.4" stroke-dasharray="6 4"/>
 <g transform="translate(42,632) scale(0.5000)"><rect x="5" y="5" width="38" height="38" rx="6" fill="#107C10"/><circle cx="24" cy="24" r="8" fill="none" stroke="#fff" stroke-width="3.5" stroke-dasharray="4 2.3"/><circle cx="24" cy="24" r="3" fill="#fff"/></g>
-<text x="74" y="649" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#C19C00" text-anchor="start">Why Generation 1, static memory, automatic start and a legacy adapter</text>
-<text x="46" y="670" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Windows 7 only boots as a Generation 1 VM; dynamic memory is off so control timing is predictable; AutomaticStartAction brings the guest back after a host reboot; the guest sees no network until the</text>
-<text x="46" y="687" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">integration components update is installed, so it starts on a legacy adapter.</text>
-<text x="32" y="734" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">Windows 7 has had no security fixes since January 2023, so the guest must never see the corporate network; confirm guest licensing. Controls: 21 CFR Part 11 §11.10(a); EU GMP Annex 11; GAMP 5.</text>
-<line x1="32" y1="746" x2="1248" y2="746" stroke="#E1DFDD"/>
-<text x="32" y="766" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#8A8886">Generalised design: no client names, tenant IDs, addresses or data. Icons are simplified originals, not Microsoft artwork.</text>
-<text x="1248" y="766" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#8A8886" text-anchor="end">Rich Dieu · github.com/richdieu-max</text>
+<text x="74" y="649" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#D29922" text-anchor="start">Why Generation 1, static memory, automatic start and a legacy adapter</text>
+<text x="46" y="670" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">Windows 7 only boots as a Generation 1 VM; dynamic memory is off so control timing is predictable; AutomaticStartAction brings the guest back after a host reboot; the guest sees no network until the</text>
+<text x="46" y="687" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">integration components update is installed, so it starts on a legacy adapter.</text>
+<text x="32" y="734" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#9198A1" text-anchor="start">Windows 7 has had no security fixes since January 2023, so the guest must never see the corporate network; confirm guest licensing. Controls: 21 CFR Part 11 §11.10(a); EU GMP Annex 11; GAMP 5.</text>
+<line x1="32" y1="746" x2="1248" y2="746" stroke="#30363D"/>
+<text x="32" y="766" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#7D8590">Generalised design: no client names, tenant IDs, addresses or data. Icons are simplified originals, not Microsoft artwork.</text>
+<text x="1248" y="766" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#7D8590" text-anchor="end">Rich Dieu · github.com/richdieu-max</text>
 </svg>

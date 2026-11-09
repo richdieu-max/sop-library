@@ -1,156 +1,156 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 840" width="1280" height="840" role="img" aria-label="Which SMB dialect you get, why SMB1 stays off, and who maps the drives at scale">
 <title>Which SMB dialect you get, why SMB1 stays off, and who maps the drives at scale</title>
-<defs><marker id="m0078D4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#0078D4"/></marker><marker id="m605E5C" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#605E5C"/></marker><marker id="mC19C00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#C19C00"/></marker><marker id="mA4262C" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#A4262C"/></marker><marker id="m107C10" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#107C10"/></marker></defs>
-<rect width="1280" height="840" fill="#fff"/>
-<rect x="0" y="0" width="1280" height="6" fill="#0078D4"/>
-<text x="32" y="48" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="600" fill="#201F1E">Which SMB dialect you get, why SMB1 stays off, and who maps the drives at scale</text>
-<text x="32" y="72" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#605E5C">The client offers every dialect it has and the server picks the highest both speak; with SMB1 absent the ladder stops at 2.0.2, and Group Policy or Intune does the mapping for everyone.</text>
-<rect x="32" y="100" width="620" height="404" rx="6" fill="#FAF9F8" stroke="#C8C6C4" stroke-width="1.4"/>
+<defs><marker id="m0078D4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#4493F8"/></marker><marker id="m605E5C" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#9198A1"/></marker><marker id="mC19C00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#D29922"/></marker><marker id="mA4262C" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#F85149"/></marker><marker id="m107C10" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#3FB950"/></marker></defs>
+<rect width="1280" height="840" fill="#0D1117"/>
+<rect x="0" y="0" width="1280" height="6" fill="#1F6FEB"/>
+<text x="32" y="48" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="600" fill="#E6EDF3">Which SMB dialect you get, why SMB1 stays off, and who maps the drives at scale</text>
+<text x="32" y="72" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#9198A1">The client offers every dialect it has and the server picks the highest both speak; with SMB1 absent the ladder stops at 2.0.2, and Group Policy or Intune does the mapping for everyone.</text>
+<rect x="32" y="100" width="620" height="404" rx="6" fill="#151B23" stroke="#3D444D" stroke-width="1.4"/>
 <g transform="translate(42,108) scale(0.5000)"><rect x="5" y="5" width="38" height="38" rx="5" fill="#0078D4"/><path d="M11 24 h26 M31 18 l6 6 -6 6 M17 18 l-6 6 6 6" stroke="#fff" stroke-width="3" fill="none"/><rect x="20" y="10" width="8" height="8" rx="1" fill="#fff"/></g>
-<text x="74" y="125" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#201F1E" text-anchor="start">NEGOTIATE: the highest dialect both sides speak</text>
-<text x="640" y="125" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="end">result: Get-SmbConnection Dialect</text>
-<rect x="48" y="142" width="180" height="60" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="48" y="142" width="4" height="60" rx="0" fill="#0078D4"/>
+<text x="74" y="125" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#E6EDF3" text-anchor="start">NEGOTIATE: the highest dialect both sides speak</text>
+<text x="640" y="125" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9198A1" text-anchor="end">result: Get-SmbConnection Dialect</text>
+<rect x="48" y="142" width="180" height="60" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="48" y="142" width="4" height="60" rx="0" fill="#1F6FEB"/>
 <g transform="translate(64,152) scale(0.5000)"><rect x="4" y="7" width="40" height="27" rx="2" fill="#0078D4"/><rect x="7" y="10" width="34" height="21" fill="#fff"/><path d="M15 15 h18 M15 20 h18 M15 25 h12" stroke="#0078D4" stroke-width="2.4"/><rect x="18" y="34" width="12" height="5" fill="#005A9E"/><rect x="12" y="39" width="24" height="3" rx="1" fill="#005A9E"/></g>
-<text x="98" y="164" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="start">Workstation client</text>
-<text x="98" y="180" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">MRxSmb20 offers</text>
-<text x="98" y="196" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">2.0.2 up to 3.1.1</text>
-<rect x="446" y="142" width="190" height="60" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="446" y="142" width="4" height="60" rx="0" fill="#605E5C"/>
+<text x="98" y="164" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Workstation client</text>
+<text x="98" y="180" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#9198A1" text-anchor="start">MRxSmb20 offers</text>
+<text x="98" y="196" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#9198A1" text-anchor="start">2.0.2 up to 3.1.1</text>
+<rect x="446" y="142" width="190" height="60" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="446" y="142" width="4" height="60" rx="0" fill="#9198A1"/>
 <g transform="translate(462,152) scale(0.5000)"><rect x="10" y="4" width="28" height="40" rx="3" fill="#0078D4"/><path d="M15 12 h18 M15 18 h18 M15 24 h18" stroke="#fff" stroke-width="2.4"/><circle cx="32" cy="36" r="2.4" fill="#DFF6DD"/></g>
-<text x="496" y="164" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="start">File server or NAS</text>
-<text x="496" y="180" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">picks the highest dialect</text>
-<text x="496" y="196" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">it also speaks</text>
-<polyline points="228,162 446,162" fill="none" stroke="#0078D4" stroke-width="2" marker-end="url(#m0078D4)"/>
-<rect x="292" y="144.0" width="90" height="16" rx="3" fill="#fff" opacity="0.92"/>
-<text x="337.0" y="156.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#0078D4" text-anchor="middle">dialects offered</text>
-<polyline points="446,184 228,184" fill="none" stroke="#605E5C" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#m605E5C)"/>
-<rect x="294" y="185.0" width="85" height="16" rx="3" fill="#fff" opacity="0.92"/>
-<text x="337.0" y="197.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="middle">dialect chosen</text>
-<rect x="48" y="222" width="588" height="54" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="48" y="222" width="4" height="54" rx="0" fill="#107C10"/>
-<text x="66" y="244" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start"></text>
-<text x="64" y="246" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">3.1.1</text>
-<text x="64" y="264" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">Windows 10 and 11, Server 2016 and later</text>
-<text x="284" y="246" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#201F1E" text-anchor="start">pre-auth integrity, signing, encryption</text>
-<rect x="582.997568" y="239" width="41" height="20" rx="10" fill="#F2FAF2" stroke="#107C10" stroke-width="1"/>
-<text x="603" y="253" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#107C10" text-anchor="middle">pass</text>
-<rect x="48" y="284" width="588" height="54" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="48" y="284" width="4" height="54" rx="0" fill="#107C10"/>
-<text x="66" y="306" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start"></text>
-<text x="64" y="308" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">3.0 / 3.0.2</text>
-<text x="64" y="326" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">Windows 8 / Server 2012 era</text>
-<text x="284" y="308" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#201F1E" text-anchor="start">encryption available</text>
-<rect x="588.553664" y="301" width="35" height="20" rx="10" fill="#F2FAF2" stroke="#107C10" stroke-width="1"/>
-<text x="606" y="315" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#107C10" text-anchor="middle">fine</text>
-<rect x="48" y="346" width="588" height="54" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="48" y="346" width="4" height="54" rx="0" fill="#C19C00"/>
-<text x="66" y="368" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start"></text>
-<text x="64" y="370" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">2.1 / 2.0.2</text>
-<text x="64" y="388" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">Windows 7 / Server 2008 era</text>
-<text x="284" y="370" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#201F1E" text-anchor="start">the lowest an SMB1-free client offers</text>
-<rect x="510.305312" y="363" width="114" height="20" rx="10" fill="#FFF9E6" stroke="#C19C00" stroke-width="1"/>
-<text x="567" y="377" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#C19C00" text-anchor="middle">upgrade the server</text>
-<rect x="48" y="408" width="588" height="54" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="48" y="408" width="4" height="54" rx="0" fill="#A4262C"/>
-<text x="66" y="430" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start"></text>
-<text x="64" y="432" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#201F1E" text-anchor="start">1.5 (SMB1 / CIFS)</text>
-<text x="64" y="450" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">only if the SMB1 client is installed</text>
-<text x="284" y="432" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#201F1E" text-anchor="start">no pre-auth integrity, no encryption</text>
-<rect x="531.719432" y="425" width="92" height="20" rx="10" fill="#FFF8F8" stroke="#A4262C" stroke-width="1"/>
-<text x="578" y="439" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#A4262C" text-anchor="middle">exception only</text>
-<text x="64" y="480" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">Dialect 1.5 in Get-SmbConnection names the server that still needs upgrading; 3.1.1 is the pass condition.</text>
-<text x="64" y="496" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">Windows 11 24H2 also requires signing and blocks guest logons: fix the NAS, not the client.</text>
-<rect x="676" y="100" width="572" height="404" rx="6" fill="#FFF8F8" stroke="#A4262C" stroke-width="1.4" stroke-dasharray="6 4"/>
+<text x="496" y="164" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#E6EDF3" text-anchor="start">File server or NAS</text>
+<text x="496" y="180" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#9198A1" text-anchor="start">picks the highest dialect</text>
+<text x="496" y="196" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#9198A1" text-anchor="start">it also speaks</text>
+<polyline points="228,162 446,162" fill="none" stroke="#4493F8" stroke-width="2" marker-end="url(#m0078D4)"/>
+<rect x="292" y="144.0" width="90" height="16" rx="3" fill="#0D1117" opacity="0.92"/>
+<text x="337.0" y="156.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#4493F8" text-anchor="middle">dialects offered</text>
+<polyline points="446,184 228,184" fill="none" stroke="#9198A1" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#m605E5C)"/>
+<rect x="294" y="185.0" width="85" height="16" rx="3" fill="#0D1117" opacity="0.92"/>
+<text x="337.0" y="197.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#9198A1" text-anchor="middle">dialect chosen</text>
+<rect x="48" y="222" width="588" height="54" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="48" y="222" width="4" height="54" rx="0" fill="#238636"/>
+<text x="66" y="244" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start"></text>
+<text x="64" y="246" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start">3.1.1</text>
+<text x="64" y="264" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">Windows 10 and 11, Server 2016 and later</text>
+<text x="284" y="246" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#E6EDF3" text-anchor="start">pre-auth integrity, signing, encryption</text>
+<rect x="582.997568" y="239" width="41" height="20" rx="10" fill="#15221A" stroke="#3FB950" stroke-width="1"/>
+<text x="603" y="253" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#3FB950" text-anchor="middle">pass</text>
+<rect x="48" y="284" width="588" height="54" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="48" y="284" width="4" height="54" rx="0" fill="#238636"/>
+<text x="66" y="306" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start"></text>
+<text x="64" y="308" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start">3.0 / 3.0.2</text>
+<text x="64" y="326" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">Windows 8 / Server 2012 era</text>
+<text x="284" y="308" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#E6EDF3" text-anchor="start">encryption available</text>
+<rect x="588.553664" y="301" width="35" height="20" rx="10" fill="#15221A" stroke="#3FB950" stroke-width="1"/>
+<text x="606" y="315" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#3FB950" text-anchor="middle">fine</text>
+<rect x="48" y="346" width="588" height="54" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="48" y="346" width="4" height="54" rx="0" fill="#9E6A03"/>
+<text x="66" y="368" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start"></text>
+<text x="64" y="370" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start">2.1 / 2.0.2</text>
+<text x="64" y="388" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">Windows 7 / Server 2008 era</text>
+<text x="284" y="370" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#E6EDF3" text-anchor="start">the lowest an SMB1-free client offers</text>
+<rect x="510.305312" y="363" width="114" height="20" rx="10" fill="#272115" stroke="#D29922" stroke-width="1"/>
+<text x="567" y="377" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#D29922" text-anchor="middle">upgrade the server</text>
+<rect x="48" y="408" width="588" height="54" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="48" y="408" width="4" height="54" rx="0" fill="#DA3633"/>
+<text x="66" y="430" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start"></text>
+<text x="64" y="432" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start">1.5 (SMB1 / CIFS)</text>
+<text x="64" y="450" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">only if the SMB1 client is installed</text>
+<text x="284" y="432" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#E6EDF3" text-anchor="start">no pre-auth integrity, no encryption</text>
+<rect x="531.719432" y="425" width="92" height="20" rx="10" fill="#25171C" stroke="#F85149" stroke-width="1"/>
+<text x="578" y="439" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#F85149" text-anchor="middle">exception only</text>
+<text x="64" y="480" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">Dialect 1.5 in Get-SmbConnection names the server that still needs upgrading; 3.1.1 is the pass condition.</text>
+<text x="64" y="496" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">Windows 11 24H2 also requires signing and blocks guest logons: fix the NAS, not the client.</text>
+<rect x="676" y="100" width="572" height="404" rx="6" fill="#25171C" stroke="#F85149" stroke-width="1.4" stroke-dasharray="6 4"/>
 <g transform="translate(686,108) scale(0.5000)"><path d="M24 3 L41 9 V23 C41 34 33 41 24 45 C15 41 7 34 7 23 V9 Z" fill="#8A8886"/><path d="M16 16 l16 16 M32 16 l-16 16" stroke="#fff" stroke-width="3.4"/></g>
-<text x="718" y="125" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#A4262C" text-anchor="start">Why SMB1 stays off, and what the feature toggle does to the list</text>
-<rect x="692" y="142" width="540" height="64" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="692" y="142" width="4" height="64" rx="0" fill="#A4262C"/>
+<text x="718" y="125" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#F85149" text-anchor="start">Why SMB1 stays off, and what the feature toggle does to the list</text>
+<rect x="692" y="142" width="540" height="64" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="692" y="142" width="4" height="64" rx="0" fill="#DA3633"/>
 <g transform="translate(708,152) scale(0.5000)"><path d="M24 4 L45 42 H3 Z" fill="#A4262C"/><rect x="22" y="17" width="4" height="13" fill="#fff"/><circle cx="24" cy="35" r="2.5" fill="#fff"/></g>
-<text x="742" y="164" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="start">SMB1 has no pre-authentication integrity and no encryption</text>
-<text x="742" y="180" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">the target of MS17-010 (EternalBlue, WannaCry, NotPetya); not installed by default since</text>
-<text x="742" y="196" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">Windows 10 version 1709</text>
-<rect x="692" y="222" width="260" height="100" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="692" y="222" width="4" height="100" rx="0" fill="#107C10"/>
-<rect x="895.441472" y="232" width="47" height="20" rx="10" fill="#F2FAF2" stroke="#107C10" stroke-width="1"/>
-<text x="919" y="246" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#107C10" text-anchor="middle">repair</text>
-<text x="710" y="244" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="start">Feature off</text>
-<text x="710" y="260" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">Windows rewrites the dependency list</text>
-<text x="710" y="276" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">consistently: Bowser / MRxSmb20 / NSI.</text>
-<text x="710" y="292" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">This is the repair.</text>
-<rect x="972" y="222" width="260" height="100" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="972" y="222" width="4" height="100" rx="0" fill="#C19C00"/>
-<rect x="1147.892496" y="232" width="74" height="20" rx="10" fill="#FFF9E6" stroke="#C19C00" stroke-width="1"/>
-<text x="1185" y="246" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#C19C00" text-anchor="middle">time-boxed</text>
-<text x="990" y="244" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="start">Exception on</text>
-<text x="990" y="260" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">SMB1 Client only: MRxSmb10 added;</text>
-<text x="990" y="276" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">record the device, exception reference and</text>
-<text x="990" y="292" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">replacement date</text>
-<rect x="972" y="338" width="260" height="100" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="972" y="338" width="4" height="100" rx="0" fill="#A4262C"/>
-<rect x="1148.239752" y="348" width="74" height="20" rx="10" fill="#FFF8F8" stroke="#A4262C" stroke-width="1"/>
-<text x="1185" y="362" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#A4262C" text-anchor="middle">1068 again</text>
-<text x="990" y="360" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="start">Automatic Removal</text>
-<text x="990" y="376" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">SMB1 removed again later, but a stale list</text>
-<text x="990" y="392" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">may still name MRxSmb10</text>
-<rect x="692" y="338" width="260" height="100" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="692" y="338" width="4" height="100" rx="0" fill="#0078D4"/>
-<rect x="893.936696" y="348" width="48" height="20" rx="10" fill="#EFF6FC" stroke="#0078D4" stroke-width="1"/>
-<text x="918" y="362" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#0078D4" text-anchor="middle">step 6</text>
-<text x="710" y="360" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="start">Fix the list itself</text>
-<text x="710" y="376" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">sc config LanmanWorkstation depend=</text>
-<text x="710" y="392" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">Bowser/MRxSmb20/NSI, then restart the</text>
-<text x="710" y="408" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">service</text>
-<polyline points="952,272 972,272" fill="none" stroke="#C19C00" stroke-width="1.6" marker-end="url(#mC19C00)"/>
-<polyline points="1102,322 1102,338" fill="none" stroke="#A4262C" stroke-width="1.6" marker-end="url(#mA4262C)"/>
-<polyline points="972,388 952,388" fill="none" stroke="#0078D4" stroke-width="1.6" marker-end="url(#m0078D4)"/>
-<polyline points="822,338 822,322" fill="none" stroke="#107C10" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#m107C10)"/>
-<text x="692" y="460" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">Turning the feature off is the repair; turning it on only re-introduces SMB1, and it stays off whenever the</text>
-<text x="692" y="475" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">server speaks SMB 2 or 3. Enabling it needs an approved, scoped, time-boxed exception (risk: high).</text>
-<rect x="32" y="520" width="1216" height="250" rx="6" fill="#FAF9F8" stroke="#C8C6C4" stroke-width="1.4"/>
+<text x="742" y="164" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#E6EDF3" text-anchor="start">SMB1 has no pre-authentication integrity and no encryption</text>
+<text x="742" y="180" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#9198A1" text-anchor="start">the target of MS17-010 (EternalBlue, WannaCry, NotPetya); not installed by default since</text>
+<text x="742" y="196" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#9198A1" text-anchor="start">Windows 10 version 1709</text>
+<rect x="692" y="222" width="260" height="100" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="692" y="222" width="4" height="100" rx="0" fill="#238636"/>
+<rect x="895.441472" y="232" width="47" height="20" rx="10" fill="#15221A" stroke="#3FB950" stroke-width="1"/>
+<text x="919" y="246" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#3FB950" text-anchor="middle">repair</text>
+<text x="710" y="244" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Feature off</text>
+<text x="710" y="260" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#9198A1" text-anchor="start">Windows rewrites the dependency list</text>
+<text x="710" y="276" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#9198A1" text-anchor="start">consistently: Bowser / MRxSmb20 / NSI.</text>
+<text x="710" y="292" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#9198A1" text-anchor="start">This is the repair.</text>
+<rect x="972" y="222" width="260" height="100" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="972" y="222" width="4" height="100" rx="0" fill="#9E6A03"/>
+<rect x="1147.892496" y="232" width="74" height="20" rx="10" fill="#272115" stroke="#D29922" stroke-width="1"/>
+<text x="1185" y="246" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#D29922" text-anchor="middle">time-boxed</text>
+<text x="990" y="244" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Exception on</text>
+<text x="990" y="260" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#9198A1" text-anchor="start">SMB1 Client only: MRxSmb10 added;</text>
+<text x="990" y="276" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#9198A1" text-anchor="start">record the device, exception reference and</text>
+<text x="990" y="292" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#9198A1" text-anchor="start">replacement date</text>
+<rect x="972" y="338" width="260" height="100" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="972" y="338" width="4" height="100" rx="0" fill="#DA3633"/>
+<rect x="1148.239752" y="348" width="74" height="20" rx="10" fill="#25171C" stroke="#F85149" stroke-width="1"/>
+<text x="1185" y="362" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#F85149" text-anchor="middle">1068 again</text>
+<text x="990" y="360" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Automatic Removal</text>
+<text x="990" y="376" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#9198A1" text-anchor="start">SMB1 removed again later, but a stale list</text>
+<text x="990" y="392" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#9198A1" text-anchor="start">may still name MRxSmb10</text>
+<rect x="692" y="338" width="260" height="100" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="692" y="338" width="4" height="100" rx="0" fill="#1F6FEB"/>
+<rect x="893.936696" y="348" width="48" height="20" rx="10" fill="#121D2F" stroke="#4493F8" stroke-width="1"/>
+<text x="918" y="362" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#4493F8" text-anchor="middle">step 6</text>
+<text x="710" y="360" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Fix the list itself</text>
+<text x="710" y="376" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#9198A1" text-anchor="start">sc config LanmanWorkstation depend=</text>
+<text x="710" y="392" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#9198A1" text-anchor="start">Bowser/MRxSmb20/NSI, then restart the</text>
+<text x="710" y="408" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#9198A1" text-anchor="start">service</text>
+<polyline points="952,272 972,272" fill="none" stroke="#D29922" stroke-width="1.6" marker-end="url(#mC19C00)"/>
+<polyline points="1102,322 1102,338" fill="none" stroke="#F85149" stroke-width="1.6" marker-end="url(#mA4262C)"/>
+<polyline points="972,388 952,388" fill="none" stroke="#4493F8" stroke-width="1.6" marker-end="url(#m0078D4)"/>
+<polyline points="822,338 822,322" fill="none" stroke="#3FB950" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#m107C10)"/>
+<text x="692" y="460" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">Turning the feature off is the repair; turning it on only re-introduces SMB1, and it stays off whenever the</text>
+<text x="692" y="475" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">server speaks SMB 2 or 3. Enabling it needs an approved, scoped, time-boxed exception (risk: high).</text>
+<rect x="32" y="520" width="1216" height="250" rx="6" fill="#151B23" stroke="#3D444D" stroke-width="1.4"/>
 <g transform="translate(42,528) scale(0.5000)"><rect x="4" y="8" width="32" height="22" rx="2" fill="#0078D4"/><rect x="7" y="11" width="26" height="16" fill="#fff"/><rect x="14" y="30" width="12" height="4" fill="#0078D4"/><rect x="28" y="18" width="16" height="26" rx="2" fill="#005A9E"/><rect x="30" y="21" width="12" height="18" fill="#fff"/><path d="M10 19 l5 4 9-8" stroke="#107C10" stroke-width="2.6" fill="none"/></g>
-<text x="74" y="545" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#201F1E" text-anchor="start">Method D · at scale: who does what</text>
-<text x="1236" y="545" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="end">user context maps drives; SYSTEM context repairs the client</text>
-<text x="362" y="560" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="middle">Group Policy</text>
-<text x="702" y="560" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="middle">Intune</text>
-<text x="1056" y="560" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="middle">Both</text>
-<text x="48" y="592" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#201F1E" text-anchor="start">Map the drives</text>
-<rect x="48" y="598" width="83" height="20" rx="10" fill="#EFF6FC" stroke="#0078D4" stroke-width="1"/>
-<text x="90" y="612" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#0078D4" text-anchor="middle">user session</text>
-<rect x="200" y="570" width="324" height="62" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="200" y="570" width="4" height="62" rx="0" fill="#0078D4"/>
-<text x="218" y="592" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#201F1E" text-anchor="start">GPP Drive Maps</text>
-<text x="218" y="607" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">User Configuration › Preferences; Replace (cures stale</text>
-<text x="218" y="622" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">maps) or Update; item-level targeting by security group</text>
-<rect x="540" y="570" width="324" height="62" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="540" y="570" width="4" height="62" rx="0" fill="#0078D4"/>
-<text x="558" y="592" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#201F1E" text-anchor="start">Platform script</text>
-<text x="558" y="607" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">no native drive-map profile: Run using the logged-on</text>
-<text x="558" y="622" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">credentials = Yes, New-SmbMapping per letter</text>
-<rect x="880" y="570" width="352" height="62" rx="5" fill="#FAF9F8" stroke="#E1DFDD" stroke-width="1"/>
-<text x="1056.0" y="605" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#8A8886" text-anchor="middle">—</text>
-<text x="48" y="660" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#201F1E" text-anchor="start">Keep the client healthy</text>
-<rect x="48" y="666" width="64" height="20" rx="10" fill="#F6F2FA" stroke="#5C2D91" stroke-width="1"/>
-<text x="80" y="680" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#5C2D91" text-anchor="middle">SYSTEM</text>
-<rect x="200" y="638" width="324" height="62" rx="5" fill="#FAF9F8" stroke="#E1DFDD" stroke-width="1"/>
-<text x="362.0" y="673" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#8A8886" text-anchor="middle">—</text>
-<rect x="540" y="638" width="324" height="62" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="540" y="638" width="4" height="62" rx="0" fill="#5C2D91"/>
-<text x="558" y="660" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#201F1E" text-anchor="start">SYSTEM Remediation</text>
-<text x="558" y="675" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">detects MRxSmb10 listed while SMB1 is not enabled, or</text>
-<text x="558" y="690" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">Workstation not running, and resets the list</text>
-<rect x="880" y="638" width="352" height="62" rx="5" fill="#FAF9F8" stroke="#E1DFDD" stroke-width="1"/>
-<text x="1056.0" y="673" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#8A8886" text-anchor="middle">—</text>
-<text x="48" y="728" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#201F1E" text-anchor="start">Stop it coming back</text>
-<rect x="48" y="734" width="52" height="20" rx="10" fill="#F2FAF2" stroke="#107C10" stroke-width="1"/>
-<text x="74" y="748" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#107C10" text-anchor="middle">central</text>
-<rect x="880" y="706" width="352" height="62" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="880" y="706" width="4" height="62" rx="0" fill="#107C10"/>
-<text x="898" y="728" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#201F1E" text-anchor="start">SMB1 off centrally; fix the package at source</text>
-<text x="898" y="743" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">the package owner corrects it, otherwise it reinstalls and breaks</text>
-<text x="898" y="758" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#605E5C" text-anchor="start">every PC it is assigned to</text>
-<text x="32" y="794" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">Dependencies on a current Windows 11 client: Bowser, MRxSmb20, NSI; MRxSmb10 only with the SMB1 client. Controls: CM-7, SC-8, IA-5, AC-6.</text>
-<line x1="32" y1="806" x2="1248" y2="806" stroke="#E1DFDD"/>
-<text x="32" y="826" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#8A8886">Generalised design: no client names, tenant IDs, addresses or data. Icons are simplified originals, not Microsoft artwork.</text>
-<text x="1248" y="826" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#8A8886" text-anchor="end">Rich Dieu · github.com/richdieu-max</text>
+<text x="74" y="545" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#E6EDF3" text-anchor="start">Method D · at scale: who does what</text>
+<text x="1236" y="545" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9198A1" text-anchor="end">user context maps drives; SYSTEM context repairs the client</text>
+<text x="362" y="560" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#E6EDF3" text-anchor="middle">Group Policy</text>
+<text x="702" y="560" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#E6EDF3" text-anchor="middle">Intune</text>
+<text x="1056" y="560" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#E6EDF3" text-anchor="middle">Both</text>
+<text x="48" y="592" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#E6EDF3" text-anchor="start">Map the drives</text>
+<rect x="48" y="598" width="83" height="20" rx="10" fill="#121D2F" stroke="#4493F8" stroke-width="1"/>
+<text x="90" y="612" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#4493F8" text-anchor="middle">user session</text>
+<rect x="200" y="570" width="324" height="62" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="200" y="570" width="4" height="62" rx="0" fill="#1F6FEB"/>
+<text x="218" y="592" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#E6EDF3" text-anchor="start">GPP Drive Maps</text>
+<text x="218" y="607" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">User Configuration › Preferences; Replace (cures stale</text>
+<text x="218" y="622" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">maps) or Update; item-level targeting by security group</text>
+<rect x="540" y="570" width="324" height="62" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="540" y="570" width="4" height="62" rx="0" fill="#1F6FEB"/>
+<text x="558" y="592" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#E6EDF3" text-anchor="start">Platform script</text>
+<text x="558" y="607" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">no native drive-map profile: Run using the logged-on</text>
+<text x="558" y="622" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">credentials = Yes, New-SmbMapping per letter</text>
+<rect x="880" y="570" width="352" height="62" rx="5" fill="#151B23" stroke="#30363D" stroke-width="1"/>
+<text x="1056.0" y="605" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8590" text-anchor="middle">—</text>
+<text x="48" y="660" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#E6EDF3" text-anchor="start">Keep the client healthy</text>
+<rect x="48" y="666" width="64" height="20" rx="10" fill="#221A32" stroke="#A371F7" stroke-width="1"/>
+<text x="80" y="680" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#A371F7" text-anchor="middle">SYSTEM</text>
+<rect x="200" y="638" width="324" height="62" rx="5" fill="#151B23" stroke="#30363D" stroke-width="1"/>
+<text x="362.0" y="673" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8590" text-anchor="middle">—</text>
+<rect x="540" y="638" width="324" height="62" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="540" y="638" width="4" height="62" rx="0" fill="#8957E5"/>
+<text x="558" y="660" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#E6EDF3" text-anchor="start">SYSTEM Remediation</text>
+<text x="558" y="675" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">detects MRxSmb10 listed while SMB1 is not enabled, or</text>
+<text x="558" y="690" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">Workstation not running, and resets the list</text>
+<rect x="880" y="638" width="352" height="62" rx="5" fill="#151B23" stroke="#30363D" stroke-width="1"/>
+<text x="1056.0" y="673" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#7D8590" text-anchor="middle">—</text>
+<text x="48" y="728" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#E6EDF3" text-anchor="start">Stop it coming back</text>
+<rect x="48" y="734" width="52" height="20" rx="10" fill="#15221A" stroke="#3FB950" stroke-width="1"/>
+<text x="74" y="748" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#3FB950" text-anchor="middle">central</text>
+<rect x="880" y="706" width="352" height="62" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="880" y="706" width="4" height="62" rx="0" fill="#238636"/>
+<text x="898" y="728" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="600" fill="#E6EDF3" text-anchor="start">SMB1 off centrally; fix the package at source</text>
+<text x="898" y="743" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">the package owner corrects it, otherwise it reinstalls and breaks</text>
+<text x="898" y="758" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="400" fill="#9198A1" text-anchor="start">every PC it is assigned to</text>
+<text x="32" y="794" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#9198A1" text-anchor="start">Dependencies on a current Windows 11 client: Bowser, MRxSmb20, NSI; MRxSmb10 only with the SMB1 client. Controls: CM-7, SC-8, IA-5, AC-6.</text>
+<line x1="32" y1="806" x2="1248" y2="806" stroke="#30363D"/>
+<text x="32" y="826" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#7D8590">Generalised design: no client names, tenant IDs, addresses or data. Icons are simplified originals, not Microsoft artwork.</text>
+<text x="1248" y="826" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#7D8590" text-anchor="end">Rich Dieu · github.com/richdieu-max</text>
 </svg>

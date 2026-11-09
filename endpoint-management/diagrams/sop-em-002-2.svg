@@ -1,124 +1,124 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 820" width="1280" height="820" role="img" aria-label="Automated Device Enrollment: from Apple Business Manager to Company Portal">
 <title>Automated Device Enrollment: from Apple Business Manager to Company Portal</title>
-<defs><marker id="m0078D4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#0078D4"/></marker><marker id="m201F1E" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#201F1E"/></marker><marker id="m5C2D91" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#5C2D91"/></marker><marker id="m107C10" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#107C10"/></marker></defs>
-<rect width="1280" height="820" fill="#fff"/>
-<rect x="0" y="0" width="1280" height="6" fill="#0078D4"/>
-<text x="32" y="48" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="600" fill="#201F1E">Automated Device Enrollment: from Apple Business Manager to Company Portal</text>
-<text x="32" y="72" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#605E5C">A yearly token handshake between Intune and ABM, then a zero-touch path for every new Mac: Setup Assistant, modern sign-in, a locked MDM profile, and Company Portal as a required app.</text>
-<rect x="39" y="100" width="203" height="48" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="39" y="100" width="4" height="48" fill="#201F1E"/>
+<defs><marker id="m0078D4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#4493F8"/></marker><marker id="m201F1E" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#E6EDF3"/></marker><marker id="m5C2D91" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#A371F7"/></marker><marker id="m107C10" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#3FB950"/></marker></defs>
+<rect width="1280" height="820" fill="#0D1117"/>
+<rect x="0" y="0" width="1280" height="6" fill="#1F6FEB"/>
+<text x="32" y="48" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="600" fill="#E6EDF3">Automated Device Enrollment: from Apple Business Manager to Company Portal</text>
+<text x="32" y="72" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#9198A1">A yearly token handshake between Intune and ABM, then a zero-touch path for every new Mac: Setup Assistant, modern sign-in, a locked MDM profile, and Company Portal as a required app.</text>
+<rect x="39" y="100" width="203" height="48" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="39" y="100" width="4" height="48" fill="#E6EDF3"/>
 <g transform="translate(51.0,112) scale(0.5000)"><rect x="5" y="5" width="38" height="38" rx="8" fill="#605E5C"/><path d="M24 15 c4-6 14-3 12 6 c-1 8-6 15-12 15 c-6 0-11-7-12-15 c-2-9 8-12 12-6Z" fill="#fff"/><path d="M24 14 q1-5 5-6" stroke="#fff" stroke-width="2.4" fill="none"/></g>
-<text x="85.0" y="122" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#201F1E" text-anchor="start">Apple Business</text>
-<text x="85.0" y="138" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#201F1E" text-anchor="start">Manager</text>
-<rect x="256" y="100" width="203" height="48" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="256" y="100" width="4" height="48" fill="#0078D4"/>
+<text x="85.0" y="122" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#E6EDF3" text-anchor="start">Apple Business</text>
+<text x="85.0" y="138" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#E6EDF3" text-anchor="start">Manager</text>
+<rect x="256" y="100" width="203" height="48" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="256" y="100" width="4" height="48" fill="#1F6FEB"/>
 <g transform="translate(268.0,112) scale(0.5000)"><rect x="4" y="8" width="32" height="22" rx="2" fill="#0078D4"/><rect x="7" y="11" width="26" height="16" fill="#fff"/><rect x="14" y="30" width="12" height="4" fill="#0078D4"/><rect x="28" y="18" width="16" height="26" rx="2" fill="#005A9E"/><rect x="30" y="21" width="12" height="18" fill="#fff"/><path d="M10 19 l5 4 9-8" stroke="#107C10" stroke-width="2.6" fill="none"/></g>
-<text x="302.0" y="130" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#201F1E" text-anchor="start">Intune</text>
-<rect x="473" y="100" width="203" height="48" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="473" y="100" width="4" height="48" fill="#5C2D91"/>
+<text x="302.0" y="130" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#E6EDF3" text-anchor="start">Intune</text>
+<rect x="473" y="100" width="203" height="48" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="473" y="100" width="4" height="48" fill="#8957E5"/>
 <g transform="translate(485.0,112) scale(0.5000)"><rect x="7" y="9" width="34" height="23" rx="2" fill="#0078D4"/><rect x="10" y="12" width="28" height="17" fill="#fff"/><path d="M3 35 h42 l-3 5 h-36 Z" fill="#005A9E"/></g>
-<text x="519.0" y="122" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#201F1E" text-anchor="start">New Mac, Setup</text>
-<text x="519.0" y="138" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#201F1E" text-anchor="start">Assistant</text>
-<rect x="690" y="100" width="203" height="48" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="690" y="100" width="4" height="48" fill="#107C10"/>
+<text x="519.0" y="122" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#E6EDF3" text-anchor="start">New Mac, Setup</text>
+<text x="519.0" y="138" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#E6EDF3" text-anchor="start">Assistant</text>
+<rect x="690" y="100" width="203" height="48" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="690" y="100" width="4" height="48" fill="#238636"/>
 <g transform="translate(702.0,112) scale(0.5000)"><circle cx="24" cy="15" r="9" fill="#0078D4"/><path d="M6 44 q18-26 36 0 Z" fill="#0078D4"/></g>
-<text x="736.0" y="122" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#201F1E" text-anchor="start">User and Company</text>
-<text x="736.0" y="138" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#201F1E" text-anchor="start">Portal</text>
-<line x1="140.5" y1="148" x2="140.5" y2="658" stroke="#C8C6C4" stroke-width="1" stroke-dasharray="5 4"/>
-<line x1="357.5" y1="148" x2="357.5" y2="658" stroke="#C8C6C4" stroke-width="1" stroke-dasharray="5 4"/>
-<line x1="574.5" y1="148" x2="574.5" y2="658" stroke="#C8C6C4" stroke-width="1" stroke-dasharray="5 4"/>
-<line x1="791.5" y1="148" x2="791.5" y2="658" stroke="#C8C6C4" stroke-width="1" stroke-dasharray="5 4"/>
-<polyline points="353.5,182 146.5,182" fill="none" stroke="#0078D4" stroke-width="1.6" marker-end="url(#m0078D4)"/>
-<rect x="114" y="164" width="271" height="16" rx="3" fill="#fff" opacity="0.95"/>
-<text x="249.0" y="176" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="middle">public key from a new enrollment program token</text>
-<polyline points="140.5,208 186.5,208 186.5,224 144.5,224" fill="none" stroke="#201F1E" stroke-width="1.6" marker-end="url(#m201F1E)"/>
-<text x="196.5" y="214" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="start">Your MDM Servers › Add,</text>
-<text x="196.5" y="229" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="start">upload the key</text>
-<polyline points="144.5,250 351.5,250" fill="none" stroke="#201F1E" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#m201F1E)"/>
-<rect x="85" y="232" width="329" height="16" rx="3" fill="#fff" opacity="0.95"/>
-<text x="249.0" y="244" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="middle">server token (.p7m), uploaded with the ABM Apple Account</text>
-<polyline points="140.5,276 186.5,276 186.5,292 144.5,292" fill="none" stroke="#201F1E" stroke-width="1.6" marker-end="url(#m201F1E)"/>
-<text x="196.5" y="282" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="start">assign Macs: default</text>
-<text x="196.5" y="297" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="start">assignment, serial or order</text>
-<polyline points="357.5,310 403.5,310 403.5,326 361.5,326" fill="none" stroke="#0078D4" stroke-width="1.6" marker-end="url(#m0078D4)"/>
-<text x="413.5" y="316" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="start">Sync; create the macOS</text>
-<text x="413.5" y="331" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="start">profile; set as default</text>
-<polyline points="570.5,352 146.5,352" fill="none" stroke="#5C2D91" stroke-width="1.6" marker-end="url(#m5C2D91)"/>
-<rect x="197" y="334" width="320" height="16" rx="3" fill="#fff" opacity="0.95"/>
-<text x="357.5" y="346" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="middle">first power-on: is this serial assigned to an MDM server?</text>
-<polyline points="144.5,386 568.5,386" fill="none" stroke="#201F1E" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#m201F1E)"/>
-<rect x="217" y="368" width="282" height="16" rx="3" fill="#fff" opacity="0.95"/>
-<text x="357.5" y="380" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="middle">yes: enrollment profile applies, locked, zero-touch</text>
-<polyline points="570.5,420 363.5,420" fill="none" stroke="#5C2D91" stroke-width="1.6" marker-end="url(#m5C2D91)"/>
-<rect x="335" y="402" width="262" height="16" rx="3" fill="#fff" opacity="0.95"/>
-<text x="466.0" y="414" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="middle">modern authentication: work account and MFA</text>
-<polyline points="361.5,454 568.5,454" fill="none" stroke="#0078D4" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#m0078D4)"/>
-<rect x="314" y="436" width="304" height="16" rx="3" fill="#fff" opacity="0.95"/>
-<text x="466.0" y="448" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="middle">MDM profile installed: supervised, Corporate, via DEP</text>
-<polyline points="357.5,480 403.5,480 403.5,496 361.5,496" fill="none" stroke="#0078D4" stroke-width="1.6" marker-end="url(#m0078D4)"/>
-<text x="413.5" y="486" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="start">Await final configuration: hold</text>
-<polyline points="361.5,522 568.5,522" fill="none" stroke="#0078D4" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#m0078D4)"/>
-<rect x="320" y="504" width="293" height="16" rx="3" fill="#fff" opacity="0.95"/>
-<text x="466.0" y="516" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="middle">wake through APNs; the Mac checks in over HTTPS</text>
-<polyline points="361.5,556 785.5,556" fill="none" stroke="#0078D4" stroke-width="1.6" marker-end="url(#m0078D4)"/>
-<rect x="456" y="538" width="238" height="16" rx="3" fill="#fff" opacity="0.95"/>
-<text x="574.5" y="550" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="middle">Company Portal arrives as a Required app</text>
-<polyline points="787.5,590 363.5,590" fill="none" stroke="#107C10" stroke-width="1.6" marker-end="url(#m107C10)"/>
-<rect x="451" y="572" width="247" height="16" rx="3" fill="#fff" opacity="0.95"/>
-<text x="574.5" y="584" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="middle">user signs in: user affinity, primary user set</text>
-<polyline points="357.5,616 403.5,616 403.5,632 361.5,632" fill="none" stroke="#0078D4" stroke-width="1.6" marker-end="url(#m0078D4)"/>
-<text x="413.5" y="622" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="start">device: ADE enrollment type,</text>
-<text x="413.5" y="637" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#201F1E" text-anchor="start">Supervised Yes</text>
-<rect x="820" y="158" width="77" height="20" rx="10" fill="#FAF9F8" stroke="#201F1E" stroke-width="1"/>
-<text x="858" y="172" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#201F1E" text-anchor="middle">once a year</text>
-<rect x="820" y="338" width="97" height="20" rx="10" fill="#F6F2FA" stroke="#5C2D91" stroke-width="1"/>
-<text x="868" y="352" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#5C2D91" text-anchor="middle">every new Mac</text>
-<line x1="40" y1="168" x2="40" y2="330" stroke="#201F1E" stroke-width="2"/>
-<line x1="40" y1="340" x2="40" y2="652" stroke="#5C2D91" stroke-width="2"/>
-<rect x="924" y="100" width="324" height="196" rx="6" fill="#FAF9F8" stroke="#C8C6C4" stroke-width="1.4"/>
+<text x="736.0" y="122" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#E6EDF3" text-anchor="start">User and Company</text>
+<text x="736.0" y="138" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13" font-weight="600" fill="#E6EDF3" text-anchor="start">Portal</text>
+<line x1="140.5" y1="148" x2="140.5" y2="658" stroke="#3D444D" stroke-width="1" stroke-dasharray="5 4"/>
+<line x1="357.5" y1="148" x2="357.5" y2="658" stroke="#3D444D" stroke-width="1" stroke-dasharray="5 4"/>
+<line x1="574.5" y1="148" x2="574.5" y2="658" stroke="#3D444D" stroke-width="1" stroke-dasharray="5 4"/>
+<line x1="791.5" y1="148" x2="791.5" y2="658" stroke="#3D444D" stroke-width="1" stroke-dasharray="5 4"/>
+<polyline points="353.5,182 146.5,182" fill="none" stroke="#4493F8" stroke-width="1.6" marker-end="url(#m0078D4)"/>
+<rect x="114" y="164" width="271" height="16" rx="3" fill="#0D1117" opacity="0.95"/>
+<text x="249.0" y="176" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#E6EDF3" text-anchor="middle">public key from a new enrollment program token</text>
+<polyline points="140.5,208 186.5,208 186.5,224 144.5,224" fill="none" stroke="#E6EDF3" stroke-width="1.6" marker-end="url(#m201F1E)"/>
+<text x="196.5" y="214" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#E6EDF3" text-anchor="start">Your MDM Servers › Add,</text>
+<text x="196.5" y="229" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#E6EDF3" text-anchor="start">upload the key</text>
+<polyline points="144.5,250 351.5,250" fill="none" stroke="#E6EDF3" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#m201F1E)"/>
+<rect x="85" y="232" width="329" height="16" rx="3" fill="#0D1117" opacity="0.95"/>
+<text x="249.0" y="244" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#E6EDF3" text-anchor="middle">server token (.p7m), uploaded with the ABM Apple Account</text>
+<polyline points="140.5,276 186.5,276 186.5,292 144.5,292" fill="none" stroke="#E6EDF3" stroke-width="1.6" marker-end="url(#m201F1E)"/>
+<text x="196.5" y="282" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#E6EDF3" text-anchor="start">assign Macs: default</text>
+<text x="196.5" y="297" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#E6EDF3" text-anchor="start">assignment, serial or order</text>
+<polyline points="357.5,310 403.5,310 403.5,326 361.5,326" fill="none" stroke="#4493F8" stroke-width="1.6" marker-end="url(#m0078D4)"/>
+<text x="413.5" y="316" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#E6EDF3" text-anchor="start">Sync; create the macOS</text>
+<text x="413.5" y="331" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#E6EDF3" text-anchor="start">profile; set as default</text>
+<polyline points="570.5,352 146.5,352" fill="none" stroke="#A371F7" stroke-width="1.6" marker-end="url(#m5C2D91)"/>
+<rect x="197" y="334" width="320" height="16" rx="3" fill="#0D1117" opacity="0.95"/>
+<text x="357.5" y="346" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#E6EDF3" text-anchor="middle">first power-on: is this serial assigned to an MDM server?</text>
+<polyline points="144.5,386 568.5,386" fill="none" stroke="#E6EDF3" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#m201F1E)"/>
+<rect x="217" y="368" width="282" height="16" rx="3" fill="#0D1117" opacity="0.95"/>
+<text x="357.5" y="380" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#E6EDF3" text-anchor="middle">yes: enrollment profile applies, locked, zero-touch</text>
+<polyline points="570.5,420 363.5,420" fill="none" stroke="#A371F7" stroke-width="1.6" marker-end="url(#m5C2D91)"/>
+<rect x="335" y="402" width="262" height="16" rx="3" fill="#0D1117" opacity="0.95"/>
+<text x="466.0" y="414" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#E6EDF3" text-anchor="middle">modern authentication: work account and MFA</text>
+<polyline points="361.5,454 568.5,454" fill="none" stroke="#4493F8" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#m0078D4)"/>
+<rect x="314" y="436" width="304" height="16" rx="3" fill="#0D1117" opacity="0.95"/>
+<text x="466.0" y="448" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#E6EDF3" text-anchor="middle">MDM profile installed: supervised, Corporate, via DEP</text>
+<polyline points="357.5,480 403.5,480 403.5,496 361.5,496" fill="none" stroke="#4493F8" stroke-width="1.6" marker-end="url(#m0078D4)"/>
+<text x="413.5" y="486" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#E6EDF3" text-anchor="start">Await final configuration: hold</text>
+<polyline points="361.5,522 568.5,522" fill="none" stroke="#4493F8" stroke-width="1.6" stroke-dasharray="5 4" marker-end="url(#m0078D4)"/>
+<rect x="320" y="504" width="293" height="16" rx="3" fill="#0D1117" opacity="0.95"/>
+<text x="466.0" y="516" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#E6EDF3" text-anchor="middle">wake through APNs; the Mac checks in over HTTPS</text>
+<polyline points="361.5,556 785.5,556" fill="none" stroke="#4493F8" stroke-width="1.6" marker-end="url(#m0078D4)"/>
+<rect x="456" y="538" width="238" height="16" rx="3" fill="#0D1117" opacity="0.95"/>
+<text x="574.5" y="550" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#E6EDF3" text-anchor="middle">Company Portal arrives as a Required app</text>
+<polyline points="787.5,590 363.5,590" fill="none" stroke="#3FB950" stroke-width="1.6" marker-end="url(#m107C10)"/>
+<rect x="451" y="572" width="247" height="16" rx="3" fill="#0D1117" opacity="0.95"/>
+<text x="574.5" y="584" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#E6EDF3" text-anchor="middle">user signs in: user affinity, primary user set</text>
+<polyline points="357.5,616 403.5,616 403.5,632 361.5,632" fill="none" stroke="#4493F8" stroke-width="1.6" marker-end="url(#m0078D4)"/>
+<text x="413.5" y="622" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#E6EDF3" text-anchor="start">device: ADE enrollment type,</text>
+<text x="413.5" y="637" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#E6EDF3" text-anchor="start">Supervised Yes</text>
+<rect x="820" y="158" width="77" height="20" rx="10" fill="#151B23" stroke="#E6EDF3" stroke-width="1"/>
+<text x="858" y="172" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#E6EDF3" text-anchor="middle">once a year</text>
+<rect x="820" y="338" width="97" height="20" rx="10" fill="#221A32" stroke="#A371F7" stroke-width="1"/>
+<text x="868" y="352" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#A371F7" text-anchor="middle">every new Mac</text>
+<line x1="40" y1="168" x2="40" y2="330" stroke="#E6EDF3" stroke-width="2"/>
+<line x1="40" y1="340" x2="40" y2="652" stroke="#A371F7" stroke-width="2"/>
+<rect x="924" y="100" width="324" height="196" rx="6" fill="#151B23" stroke="#3D444D" stroke-width="1.4"/>
 <g transform="translate(934,108) scale(0.5000)"><rect x="4" y="6" width="40" height="36" rx="3" fill="#5C2D91"/><path d="M10 15 l3 3 5-6 M10 26 l3 3 5-6 M10 37 l3 3 5-6" stroke="#fff" stroke-width="2.2" fill="none"/><path d="M22 16 h16 M22 27 h16 M22 38 h12" stroke="#fff" stroke-width="2.4"/></g>
-<text x="966" y="125" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#201F1E" text-anchor="start">Profile settings for zero-touch</text>
-<rect x="938" y="140" width="296" height="44" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="938" y="140" width="4" height="44" rx="0" fill="#5C2D91"/>
-<text x="956" y="162" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="start">Enroll with User Affinity</text>
-<text x="956" y="178" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">assigned Macs; none for shared Macs</text>
-<rect x="938" y="190" width="296" height="44" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="938" y="190" width="4" height="44" rx="0" fill="#5C2D91"/>
-<text x="956" y="212" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="start">Modern authentication at setup</text>
-<text x="956" y="228" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">work account and MFA in Setup Assistant</text>
-<rect x="938" y="240" width="296" height="44" rx="5" fill="#fff" stroke="#C8C6C4" stroke-width="1"/>
-<rect x="938" y="240" width="4" height="44" rx="0" fill="#5C2D91"/>
-<text x="956" y="262" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#201F1E" text-anchor="start">Locked enrollment: Yes</text>
-<text x="956" y="278" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">removable only by Intune or an erase</text>
-<rect x="924" y="312" width="324" height="178" rx="6" fill="#FAF9F8" stroke="#C8C6C4" stroke-width="1.4"/>
+<text x="966" y="125" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#E6EDF3" text-anchor="start">Profile settings for zero-touch</text>
+<rect x="938" y="140" width="296" height="44" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="938" y="140" width="4" height="44" rx="0" fill="#8957E5"/>
+<text x="956" y="162" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Enroll with User Affinity</text>
+<text x="956" y="178" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#9198A1" text-anchor="start">assigned Macs; none for shared Macs</text>
+<rect x="938" y="190" width="296" height="44" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="938" y="190" width="4" height="44" rx="0" fill="#8957E5"/>
+<text x="956" y="212" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Modern authentication at setup</text>
+<text x="956" y="228" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#9198A1" text-anchor="start">work account and MFA in Setup Assistant</text>
+<rect x="938" y="240" width="296" height="44" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="938" y="240" width="4" height="44" rx="0" fill="#8957E5"/>
+<text x="956" y="262" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Locked enrollment: Yes</text>
+<text x="956" y="278" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#9198A1" text-anchor="start">removable only by Intune or an erase</text>
+<rect x="924" y="312" width="324" height="178" rx="6" fill="#151B23" stroke="#3D444D" stroke-width="1.4"/>
 <g transform="translate(934,320) scale(0.5000)"><circle cx="24" cy="24" r="20" fill="#107C10"/><path d="M14 24 l7 7 13-14" stroke="#fff" stroke-width="4" fill="none"/></g>
-<text x="966" y="337" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#201F1E" text-anchor="start">Verify on the Mac and in Intune</text>
-<text x="938" y="358" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="11" font-weight="600" fill="#201F1E" text-anchor="start">sudo profiles status -type enrollment</text>
-<text x="938" y="376" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">MDM enrollment: Yes (User Approved)</text>
-<text x="938" y="392" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">Enrolled via DEP: Yes</text>
-<line x1="938" y1="404" x2="1234" y2="404" stroke="#E1DFDD" stroke-width="1"/>
-<text x="938" y="424" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">Intune device properties: Enrollment type Apple</text>
-<text x="938" y="440" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">automated device enrollment, Supervised: Yes,</text>
-<text x="938" y="456" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#605E5C" text-anchor="start">correct primary user and a recent check-in.</text>
-<rect x="924" y="506" width="324" height="150" rx="6" fill="#FFF8F8" stroke="#A4262C" stroke-width="1.4" stroke-dasharray="6 4"/>
+<text x="966" y="337" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#E6EDF3" text-anchor="start">Verify on the Mac and in Intune</text>
+<text x="938" y="358" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="11" font-weight="600" fill="#E6EDF3" text-anchor="start">sudo profiles status -type enrollment</text>
+<text x="938" y="376" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="11" font-weight="400" fill="#9198A1" text-anchor="start">MDM enrollment: Yes (User Approved)</text>
+<text x="938" y="392" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="11" font-weight="400" fill="#9198A1" text-anchor="start">Enrolled via DEP: Yes</text>
+<line x1="938" y1="404" x2="1234" y2="404" stroke="#30363D" stroke-width="1"/>
+<text x="938" y="424" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9198A1" text-anchor="start">Intune device properties: Enrollment type Apple</text>
+<text x="938" y="440" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9198A1" text-anchor="start">automated device enrollment, Supervised: Yes,</text>
+<text x="938" y="456" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9198A1" text-anchor="start">correct primary user and a recent check-in.</text>
+<rect x="924" y="506" width="324" height="150" rx="6" fill="#25171C" stroke="#F85149" stroke-width="1.4" stroke-dasharray="6 4"/>
 <g transform="translate(934,514) scale(0.5000)"><path d="M24 4 L45 42 H3 Z" fill="#A4262C"/><rect x="22" y="17" width="4" height="13" fill="#fff"/><circle cx="24" cy="35" r="2.5" fill="#fff"/></g>
-<text x="966" y="531" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#A4262C" text-anchor="start">If the Mac skips enrollment</text>
-<text x="938" y="552" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Not assigned to the MDM server, token not synced,</text>
-<text x="938" y="569" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">or no profile. Assign, sync, then erase the Mac or</text>
-<text x="938" y="586" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">run sudo profiles renew -type enrollment.</text>
-<text x="938" y="603" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Moving an existing Mac to ADE means erasing it.</text>
-<rect x="32" y="672" width="868" height="84" rx="6" fill="#FFF9E6" stroke="#C19C00" stroke-width="1.4" stroke-dasharray="6 4"/>
+<text x="966" y="531" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#F85149" text-anchor="start">If the Mac skips enrollment</text>
+<text x="938" y="552" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">Not assigned to the MDM server, token not synced,</text>
+<text x="938" y="569" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">or no profile. Assign, sync, then erase the Mac or</text>
+<text x="938" y="586" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">run sudo profiles renew -type enrollment.</text>
+<text x="938" y="603" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">Moving an existing Mac to ADE means erasing it.</text>
+<rect x="32" y="672" width="868" height="84" rx="6" fill="#272115" stroke="#D29922" stroke-width="1.4" stroke-dasharray="6 4"/>
 <g transform="translate(42,680) scale(0.5000)"><rect x="5" y="9" width="38" height="34" rx="3" fill="#fff" stroke="#0078D4" stroke-width="2"/><rect x="5" y="9" width="38" height="10" rx="3" fill="#0078D4"/><path d="M14 5 v8 M34 5 v8" stroke="#005A9E" stroke-width="3"/><rect x="11" y="24" width="7" height="6" fill="#DEECF9"/><rect x="21" y="24" width="7" height="6" fill="#A4262C"/><rect x="31" y="24" width="7" height="6" fill="#DEECF9"/><rect x="11" y="33" width="7" height="6" fill="#DEECF9"/><rect x="21" y="33" width="7" height="6" fill="#DEECF9"/></g>
-<text x="74" y="697" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#C19C00" text-anchor="start">Token and account hygiene</text>
-<text x="46" y="718" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">The ABM token expires after one year and a token error also follows changed ABM terms: renew in ABM, upload, sync. The APNs certificate is</text>
-<text x="46" y="735" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">renewed, never re-created, or every Apple device must re-enroll.</text>
-<rect x="924" y="672" width="324" height="84" rx="6" fill="#EFF6FC" stroke="#0078D4" stroke-width="1.4" stroke-dasharray="6 4"/>
+<text x="74" y="697" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#D29922" text-anchor="start">Token and account hygiene</text>
+<text x="46" y="718" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">The ABM token expires after one year and a token error also follows changed ABM terms: renew in ABM, upload, sync. The APNs certificate is</text>
+<text x="46" y="735" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">renewed, never re-created, or every Apple device must re-enroll.</text>
+<rect x="924" y="672" width="324" height="84" rx="6" fill="#121D2F" stroke="#4493F8" stroke-width="1.4" stroke-dasharray="6 4"/>
 <g transform="translate(934,680) scale(0.5000)"><rect x="5" y="5" width="38" height="38" rx="8" fill="#605E5C"/><path d="M13 30 a14 14 0 0 1 22 0" stroke="#fff" stroke-width="3" fill="none"/><path d="M17 34 a8 8 0 0 1 14 0" stroke="#fff" stroke-width="3" fill="none"/><circle cx="24" cy="37" r="2.6" fill="#fff"/><path d="M24 11 v10 M19 16 l5 -5 5 5" stroke="#fff" stroke-width="2.6" fill="none"/></g>
-<text x="966" y="697" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#0078D4" text-anchor="start">Network</text>
-<text x="938" y="718" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">Macs reach *.push.apple.com (TCP 443/5223) and</text>
-<text x="938" y="735" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#605E5C" text-anchor="start">*.manage.microsoft.com with no TLS inspection.</text>
-<text x="32" y="774" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#605E5C" text-anchor="start">14 steps: 5 once a year, 9 per Mac. Result: supervised, locked, always Corporate. Controls: CM-8 (inventory with owner and ownership type), CM-3 (restrictions under change control).</text>
-<line x1="32" y1="786" x2="1248" y2="786" stroke="#E1DFDD"/>
-<text x="32" y="806" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#8A8886">Generalised design: no client names, tenant IDs, addresses or data. Icons are simplified originals, not Microsoft artwork.</text>
-<text x="1248" y="806" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#8A8886" text-anchor="end">Rich Dieu · github.com/richdieu-max</text>
+<text x="966" y="697" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#4493F8" text-anchor="start">Network</text>
+<text x="938" y="718" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">Macs reach *.push.apple.com (TCP 443/5223) and</text>
+<text x="938" y="735" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">*.manage.microsoft.com with no TLS inspection.</text>
+<text x="32" y="774" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#9198A1" text-anchor="start">14 steps: 5 once a year, 9 per Mac. Result: supervised, locked, always Corporate. Controls: CM-8 (inventory with owner and ownership type), CM-3 (restrictions under change control).</text>
+<line x1="32" y1="786" x2="1248" y2="786" stroke="#30363D"/>
+<text x="32" y="806" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#7D8590">Generalised design: no client names, tenant IDs, addresses or data. Icons are simplified originals, not Microsoft artwork.</text>
+<text x="1248" y="806" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#7D8590" text-anchor="end">Rich Dieu · github.com/richdieu-max</text>
 </svg>
