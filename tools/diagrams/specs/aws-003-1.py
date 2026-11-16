@@ -16,7 +16,7 @@ d.card(372, 250, 268, 110, "SAML application client-vpn", ["Subject = email", "m
 d.card(372, 380, 268, 90, "IAM SAML provider", ["Trusts the application's metadata"], icon="certificate", accent=C.purple)
 d.arrow([(316, 185), (372, 185)], C.purple)
 
-d.zone(680, 100, 568, 460, "VPC 10.30.0.0/16", icon="globe", stroke=C.gold, dashed=True, title_color=C.gold)
+d.zone(680, 100, 568, 460, "VPC 10.30.0.0/16", icon="globe", stroke=C.purple, title_color=C.purple)
 d.card(696, 140, 536, 90, "Client VPN endpoint", ["TLS on UDP 443 · server certificate in ACM · connection log to CloudWatch", "Associated with one private subnet per AZ · security group sg-client-vpn"], icon="lock", accent=C.gold, badge="3", badge_color=C.gold)
 d.arrow([(640, 185), (696, 185)], C.gold, label="assertion")
 d.text(696, 262, "Authorization rules (one per group and network)", 12.5, 600, C.ink)

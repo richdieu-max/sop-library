@@ -39,4 +39,4 @@ with an approximate Segoe UI metric and anything that would overflow its box is 
 - Orthogonal arrows; five to twelve cards per figure; one footnote line with the numbers and control references.
 - No client names, tenant IDs, real hostnames or addresses: placeholders are Contoso, `<tenant-id>`,
   `PC-LAB-0001`, and RFC 5737 ranges such as 192.0.2.0/24.
-- Icons are simplified originals, not vendor artwork. `Diagram(..., vendor="AWS")` names the vendor in the footer for AWS and Red Hat figures.
+- Icons are simplified originals, not vendor artwork. `Diagram(..., vendor="AWS")` or `vendor="Red Hat"` restyles a figure in that vendor's look (palette, type, corners, icon treatment); the rules are in `vendors.py`.

@@ -1,148 +1,148 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 690" width="1280" height="690" role="img" aria-label="AWS account day zero: root locked away, people through Identity Center, everything recorded">
 <title>AWS account day zero: root locked away, people through Identity Center, everything recorded</title>
-<defs><marker id="m0078D4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#4493F8"/></marker></defs>
-<rect width="1280" height="690" fill="#0D1117"/>
-<rect x="0" y="0" width="1280" height="6" fill="#9E6A03"/>
-<text x="32" y="48" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="600" fill="#E6EDF3">AWS account day zero: root locked away, people through Identity Center, everything recorded</text>
-<text x="32" y="72" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#9198A1">The baseline applied before the first workload: one identity nobody uses, short-lived access for people, and account-wide logging, detection and safe defaults.</text>
-<rect x="32" y="100" width="360" height="440" rx="6" fill="#151B23" stroke="#3D444D" stroke-width="1.4"/>
-<g transform="translate(42,108) scale(0.5000)"><path d="M15 21 v-6 a9 9 0 0 1 18 0 v6" fill="none" stroke="#605E5C" stroke-width="4"/><rect x="10" y="21" width="28" height="22" rx="3" fill="#605E5C"/><circle cx="24" cy="31" r="3" fill="#fff"/><rect x="23" y="31" width="2" height="6" fill="#fff"/></g>
-<text x="74" y="125" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#E6EDF3" text-anchor="start">Root user: locked away</text>
-<text x="380" y="125" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9198A1" text-anchor="end">steps 1-5</text>
-<rect x="49.5" y="142" width="328" height="80" rx="5" fill="#000" opacity="0.06"/>
-<rect x="48" y="140" width="328" height="80" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
-<rect x="48" y="140" width="4" height="80" rx="0" fill="#DA3633"/>
-<g transform="translate(64,150) scale(0.5000)"><rect x="5" y="6" width="38" height="36" rx="4" fill="#C19C00"/><circle cx="19" cy="24" r="7" fill="none" stroke="#fff" stroke-width="3"/><path d="M26 24 h12 M33 24 v6 M37 24 v5" stroke="#fff" stroke-width="3"/></g>
-<rect x="324.53456" y="150" width="41" height="20" rx="10" fill="#15221A" stroke="#3FB950" stroke-width="1"/>
-<text x="345" y="164" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#3FB950" text-anchor="middle">MFA</text>
-<text x="98" y="162" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Two FIDO2 security keys</text>
-<text x="98" y="179" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">Registered on root, stored apart under dual</text>
-<text x="98" y="196" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">control</text>
-<rect x="49.5" y="234" width="328" height="80" rx="5" fill="#000" opacity="0.06"/>
-<rect x="48" y="232" width="328" height="80" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
-<rect x="48" y="232" width="4" height="80" rx="0" fill="#DA3633"/>
-<g transform="translate(64,242) scale(0.5000)"><circle cx="24" cy="24" r="20" fill="#A4262C"/><path d="M16 16 l16 16 M32 16 l-16 16" stroke="#fff" stroke-width="4"/></g>
-<text x="98" y="254" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start">No access keys, ever</text>
-<text x="98" y="271" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">Root keys cannot be limited by any policy</text>
-<rect x="49.5" y="326" width="328" height="80" rx="5" fill="#000" opacity="0.06"/>
-<rect x="48" y="324" width="328" height="80" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
-<rect x="48" y="324" width="4" height="80" rx="0" fill="#DA3633"/>
-<g transform="translate(64,334) scale(0.5000)"><circle cx="17" cy="16" r="7" fill="#005A9E"/><path d="M3 40 q14-20 28 0Z" fill="#005A9E"/><circle cx="31" cy="18" r="7" fill="#0078D4"/><path d="M17 44 q14-20 28 0Z" fill="#0078D4"/></g>
-<text x="98" y="346" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Group mailbox, three contacts</text>
-<text x="98" y="363" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">Billing, operations and security alternate</text>
-<text x="98" y="380" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">contacts</text>
-<rect x="49.5" y="418" width="328" height="80" rx="5" fill="#000" opacity="0.06"/>
-<rect x="48" y="416" width="328" height="80" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
-<rect x="48" y="416" width="4" height="80" rx="0" fill="#DA3633"/>
-<g transform="translate(64,426) scale(0.5000)"><rect x="16" y="3" width="16" height="12" rx="2" fill="#0078D4"/><rect x="3" y="33" width="14" height="12" rx="2" fill="#0078D4"/><rect x="17" y="33" width="14" height="12" rx="2" fill="#0078D4"/><rect x="31" y="33" width="14" height="12" rx="2" fill="#0078D4"/><path d="M24 15 v9 M10 24 h28 M10 24 v9 M24 24 v9 M38 24 v9" stroke="#005A9E" stroke-width="2" fill="none"/></g>
-<rect x="333.331712" y="426" width="33" height="20" rx="10" fill="#121D2F" stroke="#4493F8" stroke-width="1"/>
-<text x="350" y="440" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#4493F8" text-anchor="middle">org</text>
-<text x="98" y="438" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Centralized root access</text>
-<text x="98" y="455" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">In an Organization: member accounts lose root</text>
-<text x="98" y="472" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">credentials</text>
-<rect x="416" y="100" width="400" height="440" rx="6" fill="#151B23" stroke="#3D444D" stroke-width="1.4"/>
-<g transform="translate(426,108) scale(0.5000)"><path d="M24 4 L44 24 L24 44 L4 24 Z" fill="#0078D4"/><circle cx="24" cy="19" r="6" fill="#fff"/><path d="M13 34 q11-13 22 0" fill="#fff"/></g>
-<text x="458" y="125" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#E6EDF3" text-anchor="start">People: IAM Identity Center</text>
-<text x="804" y="125" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9198A1" text-anchor="end">steps 6-9</text>
-<rect x="437.5" y="142" width="360" height="70" rx="5" fill="#000" opacity="0.06"/>
-<rect x="436" y="140" width="360" height="70" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
-<rect x="436" y="140" width="4" height="70" rx="0" fill="#1F6FEB"/>
-<g transform="translate(452,150) scale(0.5000)"><circle cx="24" cy="15" r="9" fill="#0078D4"/><path d="M6 44 q18-26 36 0 Z" fill="#0078D4"/></g>
-<circle cx="776" cy="156" r="11" fill="#1F6FEB"/>
-<text x="776" y="160" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">1</text>
-<text x="486" y="162" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Identity Center user</text>
-<text x="486" y="179" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">MFA every time they sign in</text>
-<polyline points="616,210 616,236" fill="none" stroke="#4493F8" stroke-width="2" marker-end="url(#m0078D4)"/>
-<rect x="437.5" y="240" width="360" height="70" rx="5" fill="#000" opacity="0.06"/>
-<rect x="436" y="238" width="360" height="70" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
-<rect x="436" y="238" width="4" height="70" rx="0" fill="#1F6FEB"/>
-<g transform="translate(452,248) scale(0.5000)"><circle cx="17" cy="16" r="7" fill="#005A9E"/><path d="M3 40 q14-20 28 0Z" fill="#005A9E"/><circle cx="31" cy="18" r="7" fill="#0078D4"/><path d="M17 44 q14-20 28 0Z" fill="#0078D4"/></g>
-<circle cx="776" cy="254" r="11" fill="#1F6FEB"/>
-<text x="776" y="258" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">2</text>
-<text x="486" y="260" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Group: aws-admins / operators / auditors</text>
-<text x="486" y="277" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">People are assigned to groups, never to accounts</text>
-<polyline points="616,308 616,334" fill="none" stroke="#4493F8" stroke-width="2" marker-end="url(#m0078D4)"/>
-<rect x="437.5" y="338" width="360" height="70" rx="5" fill="#000" opacity="0.06"/>
-<rect x="436" y="336" width="360" height="70" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
-<rect x="436" y="336" width="4" height="70" rx="0" fill="#1F6FEB"/>
-<g transform="translate(452,346) scale(0.5000)"><rect x="5" y="8" width="38" height="32" rx="3" fill="#5C2D91"/><circle cx="17" cy="21" r="5" fill="#fff"/><path d="M9 34 q8-12 16 0Z" fill="#fff"/><path d="M28 18 h10 M28 25 h10 M28 32 h7" stroke="#fff" stroke-width="2.4"/></g>
-<circle cx="776" cy="352" r="11" fill="#1F6FEB"/>
-<text x="776" y="356" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">3</text>
-<text x="486" y="358" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Permission set</text>
-<text x="486" y="375" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">AdministratorAccess 1 h · PowerUser ·</text>
-<text x="486" y="392" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">SecurityAudit</text>
-<polyline points="616,406 616,432" fill="none" stroke="#4493F8" stroke-width="2" marker-end="url(#m0078D4)"/>
-<rect x="437.5" y="436" width="360" height="70" rx="5" fill="#000" opacity="0.06"/>
-<rect x="436" y="434" width="360" height="70" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
-<rect x="436" y="434" width="4" height="70" rx="0" fill="#1F6FEB"/>
-<g transform="translate(452,444) scale(0.5000)"><path d="M14 38 a9 9 0 0 1 -1 -18 a12 12 0 0 1 23 -3 a9 9 0 0 1 -1 21 Z" fill="#0078D4"/></g>
-<circle cx="776" cy="450" r="11" fill="#1F6FEB"/>
-<text x="776" y="454" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">4</text>
-<text x="486" y="456" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Account 111122223333</text>
-<text x="486" y="473" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">Temporary role credentials, no IAM users</text>
-<rect x="840" y="100" width="408" height="440" rx="6" fill="#151B23" stroke="#3D444D" stroke-width="1.4"/>
-<g transform="translate(850,108) scale(0.5000)"><path d="M24 3 L41 9 V23 C41 34 33 41 24 45 C15 41 7 34 7 23 V9 Z" fill="#0078D4"/><path d="M24 3 V45 C33 41 41 34 41 23 V9 Z" fill="#005A9E"/><path d="M16 24 l6 6 11-12" stroke="#fff" stroke-width="3.2" fill="none"/></g>
-<text x="882" y="125" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#E6EDF3" text-anchor="start">Record, detect, default</text>
-<text x="1236" y="125" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9198A1" text-anchor="end">steps 10-11 + CLI</text>
-<rect x="857.5" y="142" width="182" height="84" rx="5" fill="#000" opacity="0.06"/>
-<rect x="856" y="140" width="182" height="84" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
-<rect x="856" y="140" width="4" height="84" rx="0" fill="#9E6A03"/>
-<g transform="translate(872,150) scale(0.5000)"><path d="M10 4 h20 l8 8 v32 h-28 Z" fill="#605E5C"/><circle cx="22" cy="25" r="7" fill="none" stroke="#fff" stroke-width="2.6"/><path d="M27 30 l6 6" stroke="#fff" stroke-width="3"/></g>
-<text x="906" y="162" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start">CloudTrail</text>
-<text x="906" y="179" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">multi-region, log</text>
-<text x="906" y="196" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">validation</text>
-<rect x="1049.5" y="142" width="182" height="84" rx="5" fill="#000" opacity="0.06"/>
-<rect x="1048" y="140" width="182" height="84" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
-<rect x="1048" y="140" width="4" height="84" rx="0" fill="#9E6A03"/>
-<g transform="translate(1064,150) scale(0.5000)"><path d="M24 4 L40 10 V24 C40 34 33 41 24 44 C15 41 8 34 8 24 V10 Z" fill="#0078D4"/><path d="M17 24 h14 M24 17 v14" stroke="#fff" stroke-width="3"/><circle cx="24" cy="24" r="9" fill="none" stroke="#fff" stroke-width="2"/></g>
-<text x="1098" y="162" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start">GuardDuty</text>
-<text x="1098" y="179" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">every used region</text>
-<rect x="857.5" y="238" width="182" height="84" rx="5" fill="#000" opacity="0.06"/>
-<rect x="856" y="236" width="182" height="84" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
-<rect x="856" y="236" width="4" height="84" rx="0" fill="#9E6A03"/>
-<g transform="translate(872,246) scale(0.5000)"><rect x="4" y="6" width="40" height="36" rx="3" fill="#008575"/><path d="M9 30 l7 -8 6 5 8 -11 9 7" stroke="#fff" stroke-width="2.6" fill="none"/><path d="M9 36 h30" stroke="#fff" stroke-width="1.6"/></g>
-<text x="906" y="258" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Security Hub</text>
-<text x="906" y="275" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">FSBP + CIS</text>
-<text x="906" y="292" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">standards</text>
-<rect x="1049.5" y="238" width="182" height="84" rx="5" fill="#000" opacity="0.06"/>
-<rect x="1048" y="236" width="182" height="84" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
-<rect x="1048" y="236" width="4" height="84" rx="0" fill="#9E6A03"/>
-<g transform="translate(1064,246) scale(0.5000)"><path d="M24 3 L41 9 V23 C41 34 33 41 24 45 C15 41 7 34 7 23 V9 Z" fill="#107C10"/><rect x="14" y="17" width="20" height="14" fill="none" stroke="#fff" stroke-width="2.4"/><path d="M14 24 h20 M24 17 v14" stroke="#fff" stroke-width="2"/></g>
-<text x="1098" y="258" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start">AWS Config</text>
-<text x="1098" y="275" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">recorder per region</text>
-<rect x="857.5" y="334" width="182" height="84" rx="5" fill="#000" opacity="0.06"/>
-<rect x="856" y="332" width="182" height="84" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
-<rect x="856" y="332" width="4" height="84" rx="0" fill="#9E6A03"/>
-<g transform="translate(872,342) scale(0.5000)"><rect x="5" y="6" width="38" height="36" rx="4" fill="#0078D4"/><circle cx="24" cy="24" r="10" fill="none" stroke="#fff" stroke-width="3"/><path d="M24 14 v4 M24 30 v4 M14 24 h4 M30 24 h4" stroke="#fff" stroke-width="3"/><circle cx="24" cy="24" r="3" fill="#fff"/></g>
-<text x="906" y="354" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Access Analyzer</text>
-<text x="906" y="371" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">external access</text>
-<text x="906" y="388" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">findings</text>
-<rect x="1049.5" y="334" width="182" height="84" rx="5" fill="#000" opacity="0.06"/>
-<rect x="1048" y="332" width="182" height="84" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
-<rect x="1048" y="332" width="4" height="84" rx="0" fill="#9E6A03"/>
-<g transform="translate(1064,342) scale(0.5000)"><ellipse cx="24" cy="12" rx="17" ry="6" fill="#005A9E"/><path d="M7 12 v24 a17 6 0 0 0 34 0 v-24 a17 6 0 0 1 -34 0Z" fill="#0078D4"/><path d="M7 24 a17 6 0 0 0 34 0" stroke="#fff" stroke-width="1.6" fill="none"/></g>
-<text x="1098" y="354" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start">S3 public block</text>
-<text x="1098" y="371" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">Block Public</text>
-<text x="1098" y="388" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">Access, account</text>
-<text x="1098" y="405" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">level</text>
-<rect x="857.5" y="430" width="182" height="84" rx="5" fill="#000" opacity="0.06"/>
-<rect x="856" y="428" width="182" height="84" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
-<rect x="856" y="428" width="4" height="84" rx="0" fill="#9E6A03"/>
-<g transform="translate(872,438) scale(0.5000)"><rect x="4" y="14" width="40" height="22" rx="4" fill="#605E5C"/><path d="M4 28 h40" stroke="#fff" stroke-width="1.6"/><circle cx="36" cy="32" r="2" fill="#107C10"/><path d="M24 4 v8 M18 8 h12" stroke="#0078D4" stroke-width="3"/></g>
-<text x="906" y="450" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start">EBS encryption</text>
-<text x="906" y="467" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">on by default, every</text>
-<text x="906" y="484" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">region</text>
-<rect x="1049.5" y="430" width="182" height="84" rx="5" fill="#000" opacity="0.06"/>
-<rect x="1048" y="428" width="182" height="84" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
-<rect x="1048" y="428" width="4" height="84" rx="0" fill="#9E6A03"/>
-<g transform="translate(1064,438) scale(0.5000)"><circle cx="24" cy="24" r="20" fill="#C19C00"/><circle cx="24" cy="24" r="15" fill="none" stroke="#fff" stroke-width="1.6"/><text x="24" y="31" font-family="Arial" font-weight="700" font-size="20" fill="#fff" text-anchor="middle">$</text></g>
-<text x="1098" y="450" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Budget alarm</text>
-<text x="1098" y="467" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">80% and 100%</text>
-<rect x="32" y="556" width="1216" height="64" rx="6" fill="#272115" stroke="#D29922" stroke-width="1.4" stroke-dasharray="6 4"/>
-<g transform="translate(42,564) scale(0.5000)"><path d="M10 4 h20 l8 8 v32 h-28 Z" fill="#0078D4"/><path d="M30 4 v8 h8" fill="#fff" opacity=".5"/><path d="M15 22 h18 M15 28 h18 M15 34 h12" stroke="#fff" stroke-width="2.4"/></g>
-<text x="74" y="581" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#D29922" text-anchor="start">A cost spike is often the first sign of stolen access keys, which is why the budget alarm is part of the security baseline.</text>
-<text x="32" y="644" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#9198A1" text-anchor="start">Root: 2 keys, 0 access keys. People: 3 groups, sessions of 1 to 4 hours. Controls supported: AC-2, AC-6(5), IA-2(1), AU-2, AU-12, SI-4, SC-28; CIS AWS Foundations 1 to 4.</text>
-<line x1="32" y1="656" x2="1248" y2="656" stroke="#30363D"/>
-<text x="32" y="676" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#7D8590">Generalised design: no client names, tenant IDs, addresses or data. Icons are simplified originals, not AWS artwork.</text>
-<text x="1248" y="676" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#7D8590" text-anchor="end">Rich Dieu · github.com/richdieu-max</text>
+<defs><marker id="m0078D4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#539FE5"/></marker></defs>
+<rect width="1280" height="690" fill="#0F1B2A"/>
+<rect x="0" y="0" width="1280" height="6" fill="#EC7211"/>
+<text x="32" y="48" font-family="'Amazon Ember', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="22" font-weight="600" fill="#FFFFFF">AWS account day zero: root locked away, people through Identity Center, everything recorded</text>
+<text x="32" y="72" font-family="'Amazon Ember', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" fill="#B6BEC9">The baseline applied before the first workload: one identity nobody uses, short-lived access for people, and account-wide logging, detection and safe defaults.</text>
+<rect x="32" y="100" width="360" height="440" rx="2" fill="#16212F" stroke="#414D5C" stroke-width="1.4"/>
+<g transform="translate(42,108) scale(0.5000)"><rect x="0" y="0" width="48" height="48" rx="2" fill="#DD344C"/><g transform="translate(7,7) scale(0.7083)"><path d="M15 21 v-6 a9 9 0 0 1 18 0 v6" fill="none" stroke="#FFFFFF" stroke-width="4"/><rect x="10" y="21" width="28" height="22" rx="3" fill="#FFFFFF"/><circle cx="24" cy="31" r="3" fill="#DD344C"/><rect x="23" y="31" width="2" height="6" fill="#DD344C"/></g></g>
+<text x="74" y="125" font-family="'Amazon Ember', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#FFFFFF" text-anchor="start">Root user: locked away</text>
+<text x="380" y="125" font-family="'Amazon Ember', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#B6BEC9" text-anchor="end">steps 1-5</text>
+<rect x="49.5" y="142" width="328" height="80" rx="2" fill="#000" opacity="0.06"/>
+<rect x="48" y="140" width="328" height="80" rx="2" fill="#232F3E" stroke="#414D5C" stroke-width="1"/>
+<rect x="48" y="140" width="4" height="80" rx="0" fill="#DD344C"/>
+<g transform="translate(64,150) scale(0.5000)"><rect x="0" y="0" width="48" height="48" rx="2" fill="#DD344C"/><g transform="translate(7,7) scale(0.7083)"><rect x="5" y="6" width="38" height="36" rx="4" fill="#FFFFFF"/><circle cx="19" cy="24" r="7" fill="none" stroke="#DD344C" stroke-width="3"/><path d="M26 24 h12 M33 24 v6 M37 24 v5" stroke="#DD344C" stroke-width="3"/></g></g>
+<rect x="324.53456" y="150" width="41" height="20" rx="10" fill="#1F2E12" stroke="#9BC53D" stroke-width="1"/>
+<text x="345" y="164" font-family="'Amazon Ember', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="600" fill="#9BC53D" text-anchor="middle">MFA</text>
+<text x="98" y="162" font-family="'Amazon Ember', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#FFFFFF" text-anchor="start">Two FIDO2 security keys</text>
+<text x="98" y="179" font-family="'Amazon Ember', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#B6BEC9" text-anchor="start">Registered on root, stored apart under dual</text>
+<text x="98" y="196" font-family="'Amazon Ember', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#B6BEC9" text-anchor="start">control</text>
+<rect x="49.5" y="234" width="328" height="80" rx="2" fill="#000" opacity="0.06"/>
+<rect x="48" y="232" width="328" height="80" rx="2" fill="#232F3E" stroke="#414D5C" stroke-width="1"/>
+<rect x="48" y="232" width="4" height="80" rx="0" fill="#DD344C"/>
+<g transform="translate(64,242) scale(0.5000)"><rect x="0" y="0" width="48" height="48" rx="2" fill="#5A6B86"/><g transform="translate(7,7) scale(0.7083)"><circle cx="24" cy="24" r="20" fill="#FFFFFF"/><path d="M16 16 l16 16 M32 16 l-16 16" stroke="#5A6B86" stroke-width="4"/></g></g>
+<text x="98" y="254" font-family="'Amazon Ember', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#FFFFFF" text-anchor="start">No access keys, ever</text>
+<text x="98" y="271" font-family="'Amazon Ember', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#B6BEC9" text-anchor="start">Root keys cannot be limited by any policy</text>
+<rect x="49.5" y="326" width="328" height="80" rx="2" fill="#000" opacity="0.06"/>
+<rect x="48" y="324" width="328" height="80" rx="2" fill="#232F3E" stroke="#414D5C" stroke-width="1"/>
+<rect x="48" y="324" width="4" height="80" rx="0" fill="#DD344C"/>
+<g transform="translate(64,334) scale(0.5000)"><rect x="0" y="0" width="48" height="48" rx="2" fill="#DD344C"/><g transform="translate(7,7) scale(0.7083)"><circle cx="17" cy="16" r="7" fill="#FFFFFF"/><path d="M3 40 q14-20 28 0Z" fill="#FFFFFF"/><circle cx="31" cy="18" r="7" fill="#FFFFFF"/><path d="M17 44 q14-20 28 0Z" fill="#FFFFFF"/></g></g>
+<text x="98" y="346" font-family="'Amazon Ember', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#FFFFFF" text-anchor="start">Group mailbox, three contacts</text>
+<text x="98" y="363" font-family="'Amazon Ember', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#B6BEC9" text-anchor="start">Billing, operations and security alternate</text>
+<text x="98" y="380" font-family="'Amazon Ember', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#B6BEC9" text-anchor="start">contacts</text>
+<rect x="49.5" y="418" width="328" height="80" rx="2" fill="#000" opacity="0.06"/>
+<rect x="48" y="416" width="328" height="80" rx="2" fill="#232F3E" stroke="#414D5C" stroke-width="1"/>
+<rect x="48" y="416" width="4" height="80" rx="0" fill="#DD344C"/>
+<g transform="translate(64,426) scale(0.5000)"><rect x="0" y="0" width="48" height="48" rx="2" fill="#8C4FFF"/><g transform="translate(7,7) scale(0.7083)"><rect x="16" y="3" width="16" height="12" rx="2" fill="#FFFFFF"/><rect x="3" y="33" width="14" height="12" rx="2" fill="#FFFFFF"/><rect x="17" y="33" width="14" height="12" rx="2" fill="#FFFFFF"/><rect x="31" y="33" width="14" height="12" rx="2" fill="#FFFFFF"/><path d="M24 15 v9 M10 24 h28 M10 24 v9 M24 24 v9 M38 24 v9" stroke="#FFFFFF" stroke-width="2" fill="none"/></g></g>
+<rect x="333.331712" y="426" width="33" height="20" rx="10" fill="#12293F" stroke="#539FE5" stroke-width="1"/>
+<text x="350" y="440" font-family="'Amazon Ember', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="10.5" font-weight="600" fill="#539FE5" text-anchor="middle">org</text>
+<text x="98" y="438" font-family="'Amazon Ember', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#FFFFFF" text-anchor="start">Centralized root access</text>
+<text x="98" y="455" font-family="'Amazon Ember', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#B6BEC9" text-anchor="start">In an Organization: member accounts lose root</text>
+<text x="98" y="472" font-family="'Amazon Ember', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#B6BEC9" text-anchor="start">credentials</text>
+<rect x="416" y="100" width="400" height="440" rx="2" fill="#16212F" stroke="#414D5C" stroke-width="1.4"/>
+<g transform="translate(426,108) scale(0.5000)"><rect x="0" y="0" width="48" height="48" rx="2" fill="#DD344C"/><g transform="translate(7,7) scale(0.7083)"><path d="M24 4 L44 24 L24 44 L4 24 Z" fill="#FFFFFF"/><circle cx="24" cy="19" r="6" fill="#DD344C"/><path d="M13 34 q11-13 22 0" fill="#DD344C"/></g></g>
+<text x="458" y="125" font-family="'Amazon Ember', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#FFFFFF" text-anchor="start">People: IAM Identity Center</text>
+<text x="804" y="125" font-family="'Amazon Ember', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#B6BEC9" text-anchor="end">steps 6-9</text>
+<rect x="437.5" y="142" width="360" height="70" rx="2" fill="#000" opacity="0.06"/>
+<rect x="436" y="140" width="360" height="70" rx="2" fill="#232F3E" stroke="#414D5C" stroke-width="1"/>
+<rect x="436" y="140" width="4" height="70" rx="0" fill="#0972D3"/>
+<g transform="translate(452,150) scale(0.5000)"><rect x="0" y="0" width="48" height="48" rx="2" fill="#DD344C"/><g transform="translate(7,7) scale(0.7083)"><circle cx="24" cy="15" r="9" fill="#FFFFFF"/><path d="M6 44 q18-26 36 0 Z" fill="#FFFFFF"/></g></g>
+<circle cx="776" cy="156" r="11" fill="#0972D3"/>
+<text x="776" y="160" font-family="'Amazon Ember', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">1</text>
+<text x="486" y="162" font-family="'Amazon Ember', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#FFFFFF" text-anchor="start">Identity Center user</text>
+<text x="486" y="179" font-family="'Amazon Ember', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#B6BEC9" text-anchor="start">MFA every time they sign in</text>
+<polyline points="616,210 616,236" fill="none" stroke="#539FE5" stroke-width="2" marker-end="url(#m0078D4)"/>
+<rect x="437.5" y="240" width="360" height="70" rx="2" fill="#000" opacity="0.06"/>
+<rect x="436" y="238" width="360" height="70" rx="2" fill="#232F3E" stroke="#414D5C" stroke-width="1"/>
+<rect x="436" y="238" width="4" height="70" rx="0" fill="#0972D3"/>
+<g transform="translate(452,248) scale(0.5000)"><rect x="0" y="0" width="48" height="48" rx="2" fill="#DD344C"/><g transform="translate(7,7) scale(0.7083)"><circle cx="17" cy="16" r="7" fill="#FFFFFF"/><path d="M3 40 q14-20 28 0Z" fill="#FFFFFF"/><circle cx="31" cy="18" r="7" fill="#FFFFFF"/><path d="M17 44 q14-20 28 0Z" fill="#FFFFFF"/></g></g>
+<circle cx="776" cy="254" r="11" fill="#0972D3"/>
+<text x="776" y="258" font-family="'Amazon Ember', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">2</text>
+<text x="486" y="260" font-family="'Amazon Ember', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#FFFFFF" text-anchor="start">Group: aws-admins / operators / auditors</text>
+<text x="486" y="277" font-family="'Amazon Ember', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#B6BEC9" text-anchor="start">People are assigned to groups, never to accounts</text>
+<polyline points="616,308 616,334" fill="none" stroke="#539FE5" stroke-width="2" marker-end="url(#m0078D4)"/>
+<rect x="437.5" y="338" width="360" height="70" rx="2" fill="#000" opacity="0.06"/>
+<rect x="436" y="336" width="360" height="70" rx="2" fill="#232F3E" stroke="#414D5C" stroke-width="1"/>
+<rect x="436" y="336" width="4" height="70" rx="0" fill="#0972D3"/>
+<g transform="translate(452,346) scale(0.5000)"><rect x="0" y="0" width="48" height="48" rx="2" fill="#DD344C"/><g transform="translate(7,7) scale(0.7083)"><rect x="5" y="8" width="38" height="32" rx="3" fill="#FFFFFF"/><circle cx="17" cy="21" r="5" fill="#DD344C"/><path d="M9 34 q8-12 16 0Z" fill="#DD344C"/><path d="M28 18 h10 M28 25 h10 M28 32 h7" stroke="#DD344C" stroke-width="2.4"/></g></g>
+<circle cx="776" cy="352" r="11" fill="#0972D3"/>
+<text x="776" y="356" font-family="'Amazon Ember', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">3</text>
+<text x="486" y="358" font-family="'Amazon Ember', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#FFFFFF" text-anchor="start">Permission set</text>
+<text x="486" y="375" font-family="'Amazon Ember', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#B6BEC9" text-anchor="start">AdministratorAccess 1 h · PowerUser ·</text>
+<text x="486" y="392" font-family="'Amazon Ember', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#B6BEC9" text-anchor="start">SecurityAudit</text>
+<polyline points="616,406 616,432" fill="none" stroke="#539FE5" stroke-width="2" marker-end="url(#m0078D4)"/>
+<rect x="437.5" y="436" width="360" height="70" rx="2" fill="#000" opacity="0.06"/>
+<rect x="436" y="434" width="360" height="70" rx="2" fill="#232F3E" stroke="#414D5C" stroke-width="1"/>
+<rect x="436" y="434" width="4" height="70" rx="0" fill="#0972D3"/>
+<g transform="translate(452,444) scale(0.5000)"><rect x="0" y="0" width="48" height="48" rx="2" fill="#8C4FFF"/><g transform="translate(7,7) scale(0.7083)"><path d="M14 38 a9 9 0 0 1 -1 -18 a12 12 0 0 1 23 -3 a9 9 0 0 1 -1 21 Z" fill="#FFFFFF"/></g></g>
+<circle cx="776" cy="450" r="11" fill="#0972D3"/>
+<text x="776" y="454" font-family="'Amazon Ember', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">4</text>
+<text x="486" y="456" font-family="'Amazon Ember', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#FFFFFF" text-anchor="start">Account 111122223333</text>
+<text x="486" y="473" font-family="'Amazon Ember', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#B6BEC9" text-anchor="start">Temporary role credentials, no IAM users</text>
+<rect x="840" y="100" width="408" height="440" rx="2" fill="#16212F" stroke="#414D5C" stroke-width="1.4"/>
+<g transform="translate(850,108) scale(0.5000)"><rect x="0" y="0" width="48" height="48" rx="2" fill="#DD344C"/><g transform="translate(7,7) scale(0.7083)"><path d="M24 3 L41 9 V23 C41 34 33 41 24 45 C15 41 7 34 7 23 V9 Z" fill="#FFFFFF"/><path d="M24 3 V45 C33 41 41 34 41 23 V9 Z" fill="#FFFFFF"/><path d="M16 24 l6 6 11-12" stroke="#DD344C" stroke-width="3.2" fill="none"/></g></g>
+<text x="882" y="125" font-family="'Amazon Ember', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#FFFFFF" text-anchor="start">Record, detect, default</text>
+<text x="1236" y="125" font-family="'Amazon Ember', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11.5" font-weight="400" fill="#B6BEC9" text-anchor="end">steps 10-11 + CLI</text>
+<rect x="857.5" y="142" width="182" height="84" rx="2" fill="#000" opacity="0.06"/>
+<rect x="856" y="140" width="182" height="84" rx="2" fill="#232F3E" stroke="#414D5C" stroke-width="1"/>
+<rect x="856" y="140" width="4" height="84" rx="0" fill="#EC7211"/>
+<g transform="translate(872,150) scale(0.5000)"><rect x="0" y="0" width="48" height="48" rx="2" fill="#E7157B"/><g transform="translate(7,7) scale(0.7083)"><path d="M10 4 h20 l8 8 v32 h-28 Z" fill="#FFFFFF"/><circle cx="22" cy="25" r="7" fill="none" stroke="#E7157B" stroke-width="2.6"/><path d="M27 30 l6 6" stroke="#E7157B" stroke-width="3"/></g></g>
+<text x="906" y="162" font-family="'Amazon Ember', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#FFFFFF" text-anchor="start">CloudTrail</text>
+<text x="906" y="179" font-family="'Amazon Ember', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#B6BEC9" text-anchor="start">multi-region, log</text>
+<text x="906" y="196" font-family="'Amazon Ember', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#B6BEC9" text-anchor="start">validation</text>
+<rect x="1049.5" y="142" width="182" height="84" rx="2" fill="#000" opacity="0.06"/>
+<rect x="1048" y="140" width="182" height="84" rx="2" fill="#232F3E" stroke="#414D5C" stroke-width="1"/>
+<rect x="1048" y="140" width="4" height="84" rx="0" fill="#EC7211"/>
+<g transform="translate(1064,150) scale(0.5000)"><rect x="0" y="0" width="48" height="48" rx="2" fill="#DD344C"/><g transform="translate(7,7) scale(0.7083)"><path d="M24 4 L40 10 V24 C40 34 33 41 24 44 C15 41 8 34 8 24 V10 Z" fill="#FFFFFF"/><path d="M17 24 h14 M24 17 v14" stroke="#DD344C" stroke-width="3"/><circle cx="24" cy="24" r="9" fill="none" stroke="#DD344C" stroke-width="2"/></g></g>
+<text x="1098" y="162" font-family="'Amazon Ember', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#FFFFFF" text-anchor="start">GuardDuty</text>
+<text x="1098" y="179" font-family="'Amazon Ember', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#B6BEC9" text-anchor="start">every used region</text>
+<rect x="857.5" y="238" width="182" height="84" rx="2" fill="#000" opacity="0.06"/>
+<rect x="856" y="236" width="182" height="84" rx="2" fill="#232F3E" stroke="#414D5C" stroke-width="1"/>
+<rect x="856" y="236" width="4" height="84" rx="0" fill="#EC7211"/>
+<g transform="translate(872,246) scale(0.5000)"><rect x="0" y="0" width="48" height="48" rx="2" fill="#E7157B"/><g transform="translate(7,7) scale(0.7083)"><rect x="4" y="6" width="40" height="36" rx="3" fill="#FFFFFF"/><path d="M9 30 l7 -8 6 5 8 -11 9 7" stroke="#E7157B" stroke-width="2.6" fill="none"/><path d="M9 36 h30" stroke="#E7157B" stroke-width="1.6"/></g></g>
+<text x="906" y="258" font-family="'Amazon Ember', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#FFFFFF" text-anchor="start">Security Hub</text>
+<text x="906" y="275" font-family="'Amazon Ember', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#B6BEC9" text-anchor="start">FSBP + CIS</text>
+<text x="906" y="292" font-family="'Amazon Ember', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#B6BEC9" text-anchor="start">standards</text>
+<rect x="1049.5" y="238" width="182" height="84" rx="2" fill="#000" opacity="0.06"/>
+<rect x="1048" y="236" width="182" height="84" rx="2" fill="#232F3E" stroke="#414D5C" stroke-width="1"/>
+<rect x="1048" y="236" width="4" height="84" rx="0" fill="#EC7211"/>
+<g transform="translate(1064,246) scale(0.5000)"><rect x="0" y="0" width="48" height="48" rx="2" fill="#DD344C"/><g transform="translate(7,7) scale(0.7083)"><path d="M24 3 L41 9 V23 C41 34 33 41 24 45 C15 41 7 34 7 23 V9 Z" fill="#FFFFFF"/><rect x="14" y="17" width="20" height="14" fill="none" stroke="#DD344C" stroke-width="2.4"/><path d="M14 24 h20 M24 17 v14" stroke="#DD344C" stroke-width="2"/></g></g>
+<text x="1098" y="258" font-family="'Amazon Ember', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#FFFFFF" text-anchor="start">AWS Config</text>
+<text x="1098" y="275" font-family="'Amazon Ember', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#B6BEC9" text-anchor="start">recorder per region</text>
+<rect x="857.5" y="334" width="182" height="84" rx="2" fill="#000" opacity="0.06"/>
+<rect x="856" y="332" width="182" height="84" rx="2" fill="#232F3E" stroke="#414D5C" stroke-width="1"/>
+<rect x="856" y="332" width="4" height="84" rx="0" fill="#EC7211"/>
+<g transform="translate(872,342) scale(0.5000)"><rect x="0" y="0" width="48" height="48" rx="2" fill="#E7157B"/><g transform="translate(7,7) scale(0.7083)"><rect x="5" y="6" width="38" height="36" rx="4" fill="#FFFFFF"/><circle cx="24" cy="24" r="10" fill="none" stroke="#E7157B" stroke-width="3"/><path d="M24 14 v4 M24 30 v4 M14 24 h4 M30 24 h4" stroke="#E7157B" stroke-width="3"/><circle cx="24" cy="24" r="3" fill="#E7157B"/></g></g>
+<text x="906" y="354" font-family="'Amazon Ember', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#FFFFFF" text-anchor="start">Access Analyzer</text>
+<text x="906" y="371" font-family="'Amazon Ember', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#B6BEC9" text-anchor="start">external access</text>
+<text x="906" y="388" font-family="'Amazon Ember', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#B6BEC9" text-anchor="start">findings</text>
+<rect x="1049.5" y="334" width="182" height="84" rx="2" fill="#000" opacity="0.06"/>
+<rect x="1048" y="332" width="182" height="84" rx="2" fill="#232F3E" stroke="#414D5C" stroke-width="1"/>
+<rect x="1048" y="332" width="4" height="84" rx="0" fill="#EC7211"/>
+<g transform="translate(1064,342) scale(0.5000)"><rect x="0" y="0" width="48" height="48" rx="2" fill="#C925D1"/><g transform="translate(7,7) scale(0.7083)"><ellipse cx="24" cy="12" rx="17" ry="6" fill="#FFFFFF"/><path d="M7 12 v24 a17 6 0 0 0 34 0 v-24 a17 6 0 0 1 -34 0Z" fill="#FFFFFF"/><path d="M7 24 a17 6 0 0 0 34 0" stroke="#C925D1" stroke-width="1.6" fill="none"/></g></g>
+<text x="1098" y="354" font-family="'Amazon Ember', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#FFFFFF" text-anchor="start">S3 public block</text>
+<text x="1098" y="371" font-family="'Amazon Ember', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#B6BEC9" text-anchor="start">Block Public</text>
+<text x="1098" y="388" font-family="'Amazon Ember', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#B6BEC9" text-anchor="start">Access, account</text>
+<text x="1098" y="405" font-family="'Amazon Ember', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#B6BEC9" text-anchor="start">level</text>
+<rect x="857.5" y="430" width="182" height="84" rx="2" fill="#000" opacity="0.06"/>
+<rect x="856" y="428" width="182" height="84" rx="2" fill="#232F3E" stroke="#414D5C" stroke-width="1"/>
+<rect x="856" y="428" width="4" height="84" rx="0" fill="#EC7211"/>
+<g transform="translate(872,438) scale(0.5000)"><rect x="0" y="0" width="48" height="48" rx="2" fill="#7AA116"/><g transform="translate(7,7) scale(0.7083)"><rect x="4" y="14" width="40" height="22" rx="4" fill="#FFFFFF"/><path d="M4 28 h40" stroke="#7AA116" stroke-width="1.6"/><circle cx="36" cy="32" r="2" fill="#FFFFFF"/><path d="M24 4 v8 M18 8 h12" stroke="#FFFFFF" stroke-width="3"/></g></g>
+<text x="906" y="450" font-family="'Amazon Ember', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#FFFFFF" text-anchor="start">EBS encryption</text>
+<text x="906" y="467" font-family="'Amazon Ember', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#B6BEC9" text-anchor="start">on by default, every</text>
+<text x="906" y="484" font-family="'Amazon Ember', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#B6BEC9" text-anchor="start">region</text>
+<rect x="1049.5" y="430" width="182" height="84" rx="2" fill="#000" opacity="0.06"/>
+<rect x="1048" y="428" width="182" height="84" rx="2" fill="#232F3E" stroke="#414D5C" stroke-width="1"/>
+<rect x="1048" y="428" width="4" height="84" rx="0" fill="#EC7211"/>
+<g transform="translate(1064,438) scale(0.5000)"><rect x="0" y="0" width="48" height="48" rx="2" fill="#E7157B"/><g transform="translate(7,7) scale(0.7083)"><circle cx="24" cy="24" r="20" fill="#FFFFFF"/><circle cx="24" cy="24" r="15" fill="none" stroke="#E7157B" stroke-width="1.6"/><text x="24" y="31" font-family="Arial" font-weight="700" font-size="20" fill="#E7157B" text-anchor="middle">$</text></g></g>
+<text x="1098" y="450" font-family="'Amazon Ember', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5" font-weight="600" fill="#FFFFFF" text-anchor="start">Budget alarm</text>
+<text x="1098" y="467" font-family="'Amazon Ember', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12" font-weight="400" fill="#B6BEC9" text-anchor="start">80% and 100%</text>
+<rect x="32" y="556" width="1216" height="64" rx="2" fill="#33240F" stroke="#FF9900" stroke-width="1.4" stroke-dasharray="6 4"/>
+<g transform="translate(42,564) scale(0.5000)"><rect x="0" y="0" width="48" height="48" rx="2" fill="#5A6B86"/><g transform="translate(7,7) scale(0.7083)"><path d="M10 4 h20 l8 8 v32 h-28 Z" fill="#FFFFFF"/><path d="M30 4 v8 h8" fill="#5A6B86" opacity=".5"/><path d="M15 22 h18 M15 28 h18 M15 34 h12" stroke="#5A6B86" stroke-width="2.4"/></g></g>
+<text x="74" y="581" font-family="'Amazon Ember', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#FF9900" text-anchor="start">A cost spike is often the first sign of stolen access keys, which is why the budget alarm is part of the security baseline.</text>
+<text x="32" y="644" font-family="'Amazon Ember', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" font-weight="400" fill="#B6BEC9" text-anchor="start">Root: 2 keys, 0 access keys. People: 3 groups, sessions of 1 to 4 hours. Controls supported: AC-2, AC-6(5), IA-2(1), AU-2, AU-12, SI-4, SC-28; CIS AWS Foundations 1 to 4.</text>
+<line x1="32" y1="656" x2="1248" y2="656" stroke="#354150"/>
+<text x="32" y="676" font-family="'Amazon Ember', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" fill="#8D99A8">Generalised design: no client names, tenant IDs, addresses or data. Icons are simplified originals, not AWS artwork.</text>
+<text x="1248" y="676" font-family="'Amazon Ember', 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="11" fill="#8D99A8" text-anchor="end">Rich Dieu · github.com/richdieu-max</text>
 </svg>

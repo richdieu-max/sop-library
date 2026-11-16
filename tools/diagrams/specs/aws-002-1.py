@@ -5,7 +5,7 @@ d = Diagram("Hardened EC2 in one approved region: no public IP, Session Manager 
             "Two instances in private subnets behind a load balancer; admins arrive through Systems Manager, and an SCP refuses every other region.",
             height=712, accent=C.gold, vendor="AWS")
 
-d.zone(32, 100, 1216, 460, "Region eu-central-1 (Frankfurt) · VPC 10.30.0.0/16", icon="globe", note="SCP: every other region denied", stroke=C.gold, dashed=True, title_color=C.gold)
+d.zone(32, 100, 1216, 460, "Region eu-central-1 (Frankfurt) · VPC 10.30.0.0/16", icon="globe", note="SCP: every other region denied", stroke=C.teal, dashed=True, title_color=C.teal)
 d.card(52, 150, 230, 92, "Administrator", ["Identity Center sign-in with MFA", "No key pair, no VPN"], icon="user", accent=C.blue, badge="1")
 d.card(52, 270, 230, 92, "Session Manager", ["Shell or RDP through SSM", "Every session logged"], icon="terminal-blue", accent=C.blue, badge="2")
 d.arrow([(167, 242), (167, 270)], C.blue)
@@ -19,7 +19,7 @@ d.zone(610, 140, 340, 380, "Private subnets, AZ a and b", icon="lock")
 d.card(626, 180, 308, 100, "web-prd-euc1-01  (AZ a)", ["IMDSv2 required · no public IP", "EBS encrypted with KMS key"], icon="server", accent=C.gold, pill=("private", C.green))
 d.card(626, 296, 308, 100, "web-prd-euc1-02  (AZ b)", ["Same build, second zone", "Instance profile: SSM + CloudWatch"], icon="server", accent=C.gold, pill=("private", C.green))
 d.card(626, 412, 308, 88, "VPC interface endpoints", ["ssm, ssmmessages, ec2messages, logs, kms"], icon="link", accent=C.blue)
-d.arrow([(570, 430), (598, 430), (598, 240), (626, 240)], C.green, label="443 from ALB SG")
+d.arrow([(570, 430), (598, 430), (598, 240), (626, 240)], C.green)
 d.arrow([(282, 316), (612, 316), (612, 456), (626, 456)], C.blue, dashed=True)
 
 d.zone(974, 140, 254, 380, "Same region only", icon="shield-check")

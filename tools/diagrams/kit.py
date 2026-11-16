@@ -19,6 +19,7 @@ import re
 import html as _html
 
 from theme import to_dark
+from vendors import icon_markup, restyle
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 REPO_ROOT = os.path.abspath(os.path.join(HERE, "..", ".."))
@@ -167,6 +168,7 @@ class Diagram:
         inner = ICONS[name]
         if color:
             inner = re.sub(r'fill="#(?!fff)[0-9A-Fa-f]{6}"', f'fill="{color}"', inner)
+        inner = icon_markup(self.vendor, name, inner)
         self.parts.append(f'<g transform="translate({x},{y}) scale({scale:.4f})">{inner}</g>')
 
     def rect(self, x, y, w, h, fill=C.paper, stroke=C.border, sw=1, rx=5, dashed=False, opacity=None):
@@ -432,7 +434,7 @@ class Diagram:
         body = "\n".join(self.parts)
         os.makedirs(os.path.dirname(os.path.abspath(path)), exist_ok=True)
         with open(path, "w", encoding="utf-8") as fh:
-            fh.write(to_dark(head + body + "\n</svg>\n"))
+            fh.write(restyle(to_dark(head + body + "\n</svg>\n"), self.vendor, FONT, MONO))
         for w in self.warnings:
             print(f"  WARN {os.path.basename(path)}: {w}")
         return self.warnings

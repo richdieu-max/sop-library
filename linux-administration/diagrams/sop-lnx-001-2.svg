@@ -1,74 +1,74 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 600" width="1280" height="600" role="img" aria-label="From one OpenSCAP rule result to a closed finding">
 <title>From one OpenSCAP rule result to a closed finding</title>
-<defs><marker id="m5C2D91" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#A371F7"/></marker><marker id="mA4262C" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#F85149"/></marker></defs>
-<rect width="1280" height="600" fill="#0D1117"/>
-<rect x="0" y="0" width="1280" height="6" fill="#DA3633"/>
-<text x="32" y="48" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="600" fill="#E6EDF3">From one OpenSCAP rule result to a closed finding</text>
-<text x="32" y="72" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#9198A1">The ARF file holds the result; the SCAP Security Guide benchmark in the same file holds the title, severity and NIST references.</text>
-<rect x="33.5" y="112" width="380" height="150" rx="5" fill="#000" opacity="0.06"/>
-<rect x="32" y="110" width="380" height="150" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
-<rect x="32" y="110" width="4" height="150" rx="0" fill="#8957E5"/>
-<g transform="translate(48,120) scale(0.5000)"><path d="M10 4 h20 l8 8 v32 h-28 Z" fill="#008575"/><path d="M30 4 v8 h8" fill="#fff" opacity=".5"/><text x="24" y="33" font-family="Consolas,monospace" font-weight="700" font-size="12" fill="#fff" text-anchor="middle">{ }</text></g>
-<circle cx="392" cy="126" r="11" fill="#8957E5"/>
-<text x="392" y="130" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">1</text>
-<text x="82" y="132" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start">rule-result in the ARF</text>
-<text x="82" y="149" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">idref ...content_rule_sshd_disable_root_login</text>
-<text x="82" y="166" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">result: fail</text>
-<text x="82" y="183" font-family="Consolas, 'Cascadia Mono', Menlo, monospace" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">severity: medium</text>
-<rect x="451.5" y="112" width="380" height="150" rx="5" fill="#000" opacity="0.06"/>
-<rect x="450" y="110" width="380" height="150" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
-<rect x="450" y="110" width="4" height="150" rx="0" fill="#8957E5"/>
-<g transform="translate(466,120) scale(0.5000)"><path d="M10 4 h20 l8 8 v32 h-28 Z" fill="#0078D4"/><path d="M30 4 v8 h8" fill="#fff" opacity=".5"/><path d="M15 22 h18 M15 28 h18 M15 34 h12" stroke="#fff" stroke-width="2.4"/></g>
-<circle cx="810" cy="126" r="11" fill="#8957E5"/>
-<text x="810" y="130" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">2</text>
-<text x="500" y="132" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Rule in the benchmark</text>
-<text x="500" y="149" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">title: Disable SSH Root Login</text>
-<text x="500" y="166" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">reference (800-53): AC-6(2), AC-17(a), IA-2</text>
-<text x="500" y="183" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">CIS reference kept separate</text>
-<polyline points="412,185 450,185" fill="none" stroke="#A371F7" stroke-width="2" marker-end="url(#m5C2D91)"/>
-<rect x="869.5" y="112" width="380" height="150" rx="5" fill="#000" opacity="0.06"/>
-<rect x="868" y="110" width="380" height="150" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
-<rect x="868" y="110" width="4" height="150" rx="0" fill="#DA3633"/>
-<g transform="translate(884,120) scale(0.5000)"><rect x="4" y="6" width="40" height="36" rx="2" fill="#0078D4"/><path d="M4 16 h40 M4 25 h40 M4 34 h40 M16 6 v36" stroke="#fff" stroke-width="1.8"/></g>
-<circle cx="1228" cy="126" r="11" fill="#DA3633"/>
-<text x="1228" y="130" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">3</text>
-<text x="918" y="132" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Finding in report.md</text>
-<text x="918" y="149" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">FAIL · SSH · Disable SSH Root Login</text>
-<text x="918" y="166" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">NIST: AC-6(2), AC-17(a), IA-2</text>
-<polyline points="830,185 868,185" fill="none" stroke="#F85149" stroke-width="2" marker-end="url(#mA4262C)"/>
-<text x="32" y="300" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Status mapping</text>
-<rect x="32" y="314" width="1216" height="34" fill="#151B23" stroke="#3D444D" stroke-width="1"/>
-<text x="40" y="335.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#E6EDF3" text-anchor="start">oscap result</text>
-<text x="420" y="335.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Severity</text>
-<text x="620" y="335.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Finding</text>
-<text x="920" y="335.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Listed in report.md</text>
-<rect x="32" y="348" width="1216" height="34" fill="#1C2128" stroke="#30363D" stroke-width="1"/>
-<text x="40" y="369.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#E6EDF3" text-anchor="start">fail</text>
-<text x="420" y="369.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9198A1" text-anchor="start">high or medium</text>
-<text x="620" y="369.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9198A1" text-anchor="start">FAIL</text>
-<text x="920" y="369.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9198A1" text-anchor="start">yes</text>
-<rect x="32" y="382" width="1216" height="34" fill="#181E26" stroke="#30363D" stroke-width="1"/>
-<text x="40" y="403.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#E6EDF3" text-anchor="start">fail</text>
-<text x="420" y="403.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9198A1" text-anchor="start">low or unknown</text>
-<text x="620" y="403.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9198A1" text-anchor="start">WARN</text>
-<text x="920" y="403.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9198A1" text-anchor="start">yes</text>
-<rect x="32" y="416" width="1216" height="34" fill="#1C2128" stroke="#30363D" stroke-width="1"/>
-<text x="40" y="437.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#E6EDF3" text-anchor="start">error, unknown</text>
-<text x="420" y="437.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9198A1" text-anchor="start">any</text>
-<text x="620" y="437.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9198A1" text-anchor="start">WARN (could not evaluate)</text>
-<text x="920" y="437.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9198A1" text-anchor="start">yes</text>
-<rect x="32" y="450" width="1216" height="34" fill="#181E26" stroke="#30363D" stroke-width="1"/>
-<text x="40" y="471.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#E6EDF3" text-anchor="start">pass, fixed</text>
-<text x="420" y="471.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9198A1" text-anchor="start">any</text>
-<text x="620" y="471.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9198A1" text-anchor="start">PASS</text>
-<text x="920" y="471.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9198A1" text-anchor="start">findings.json only</text>
-<rect x="32" y="484" width="1216" height="34" fill="#1C2128" stroke="#30363D" stroke-width="1"/>
-<text x="40" y="505.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#E6EDF3" text-anchor="start">notapplicable, notselected, notchecked</text>
-<text x="420" y="505.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9198A1" text-anchor="start">any</text>
-<text x="620" y="505.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9198A1" text-anchor="start">counted, not a finding</text>
-<text x="920" y="505.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9198A1" text-anchor="start">count in the header</text>
-<text x="32" y="554" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#9198A1" text-anchor="start">Exit code 2 from oscap means rules failed: a result, not an error. Controls supported: CA-2, CA-7, RA-5, AU-9 (SHA-256 manifest).</text>
-<line x1="32" y1="566" x2="1248" y2="566" stroke="#30363D"/>
-<text x="32" y="586" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#7D8590">Generalised design: no client names, tenant IDs, addresses or data. Icons are simplified originals, not Red Hat artwork.</text>
-<text x="1248" y="586" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#7D8590" text-anchor="end">Rich Dieu · github.com/richdieu-max</text>
+<defs><marker id="m5C2D91" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#B6A6E9"/></marker><marker id="mA4262C" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#F56E6E"/></marker></defs>
+<rect width="1280" height="600" fill="#151515"/>
+<rect x="0" y="0" width="1280" height="6" fill="#EE0000"/>
+<text x="32" y="48" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="600" fill="#FFFFFF">From one OpenSCAP rule result to a closed finding</text>
+<text x="32" y="72" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#C7C7C7">The ARF file holds the result; the SCAP Security Guide benchmark in the same file holds the title, severity and NIST references.</text>
+<rect x="33.5" y="112" width="380" height="150" rx="3" fill="#000" opacity="0.06"/>
+<rect x="32" y="110" width="380" height="150" rx="3" fill="#292929" stroke="#4D4D4D" stroke-width="1"/>
+<rect x="32" y="110" width="4" height="150" rx="0" fill="#5E40BE"/>
+<g transform="translate(48,120) scale(0.5000)"><path d="M10 4 h20 l8 8 v32 h-28 Z" fill="#FFFFFF"/><path d="M30 4 v8 h8" fill="#EE0000" opacity=".5"/><text x="24" y="33" font-family="Consolas,monospace" font-weight="700" font-size="12" fill="#EE0000" text-anchor="middle">{ }</text></g>
+<circle cx="392" cy="126" r="11" fill="#5E40BE"/>
+<text x="392" y="130" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">1</text>
+<text x="82" y="132" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#FFFFFF" text-anchor="start">rule-result in the ARF</text>
+<text x="82" y="149" font-family="'Red Hat Mono', Consolas, Menlo, monospace" font-size="12" font-weight="400" fill="#C7C7C7" text-anchor="start">idref ...content_rule_sshd_disable_root_login</text>
+<text x="82" y="166" font-family="'Red Hat Mono', Consolas, Menlo, monospace" font-size="12" font-weight="400" fill="#C7C7C7" text-anchor="start">result: fail</text>
+<text x="82" y="183" font-family="'Red Hat Mono', Consolas, Menlo, monospace" font-size="12" font-weight="400" fill="#C7C7C7" text-anchor="start">severity: medium</text>
+<rect x="451.5" y="112" width="380" height="150" rx="3" fill="#000" opacity="0.06"/>
+<rect x="450" y="110" width="380" height="150" rx="3" fill="#292929" stroke="#4D4D4D" stroke-width="1"/>
+<rect x="450" y="110" width="4" height="150" rx="0" fill="#5E40BE"/>
+<g transform="translate(466,120) scale(0.5000)"><path d="M10 4 h20 l8 8 v32 h-28 Z" fill="#FFFFFF"/><path d="M30 4 v8 h8" fill="#EE0000" opacity=".5"/><path d="M15 22 h18 M15 28 h18 M15 34 h12" stroke="#EE0000" stroke-width="2.4"/></g>
+<circle cx="810" cy="126" r="11" fill="#5E40BE"/>
+<text x="810" y="130" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">2</text>
+<text x="500" y="132" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#FFFFFF" text-anchor="start">Rule in the benchmark</text>
+<text x="500" y="149" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#C7C7C7" text-anchor="start">title: Disable SSH Root Login</text>
+<text x="500" y="166" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#C7C7C7" text-anchor="start">reference (800-53): AC-6(2), AC-17(a), IA-2</text>
+<text x="500" y="183" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#C7C7C7" text-anchor="start">CIS reference kept separate</text>
+<polyline points="412,185 450,185" fill="none" stroke="#B6A6E9" stroke-width="2" marker-end="url(#m5C2D91)"/>
+<rect x="869.5" y="112" width="380" height="150" rx="3" fill="#000" opacity="0.06"/>
+<rect x="868" y="110" width="380" height="150" rx="3" fill="#292929" stroke="#4D4D4D" stroke-width="1"/>
+<rect x="868" y="110" width="4" height="150" rx="0" fill="#EE0000"/>
+<g transform="translate(884,120) scale(0.5000)"><rect x="4" y="6" width="40" height="36" rx="2" fill="#FFFFFF"/><path d="M4 16 h40 M4 25 h40 M4 34 h40 M16 6 v36" stroke="#EE0000" stroke-width="1.8"/></g>
+<circle cx="1228" cy="126" r="11" fill="#EE0000"/>
+<text x="1228" y="130" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">3</text>
+<text x="918" y="132" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#FFFFFF" text-anchor="start">Finding in report.md</text>
+<text x="918" y="149" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#C7C7C7" text-anchor="start">FAIL · SSH · Disable SSH Root Login</text>
+<text x="918" y="166" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#C7C7C7" text-anchor="start">NIST: AC-6(2), AC-17(a), IA-2</text>
+<polyline points="830,185 868,185" fill="none" stroke="#F56E6E" stroke-width="2" marker-end="url(#mA4262C)"/>
+<text x="32" y="300" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#FFFFFF" text-anchor="start">Status mapping</text>
+<rect x="32" y="314" width="1216" height="34" fill="#1F1F1F" stroke="#4D4D4D" stroke-width="1"/>
+<text x="40" y="335.0" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#FFFFFF" text-anchor="start">oscap result</text>
+<text x="420" y="335.0" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#FFFFFF" text-anchor="start">Severity</text>
+<text x="620" y="335.0" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#FFFFFF" text-anchor="start">Finding</text>
+<text x="920" y="335.0" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#FFFFFF" text-anchor="start">Listed in report.md</text>
+<rect x="32" y="348" width="1216" height="34" fill="#292929" stroke="#383838" stroke-width="1"/>
+<text x="40" y="369.0" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#FFFFFF" text-anchor="start">fail</text>
+<text x="420" y="369.0" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#C7C7C7" text-anchor="start">high or medium</text>
+<text x="620" y="369.0" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#C7C7C7" text-anchor="start">FAIL</text>
+<text x="920" y="369.0" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#C7C7C7" text-anchor="start">yes</text>
+<rect x="32" y="382" width="1216" height="34" fill="#242424" stroke="#383838" stroke-width="1"/>
+<text x="40" y="403.0" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#FFFFFF" text-anchor="start">fail</text>
+<text x="420" y="403.0" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#C7C7C7" text-anchor="start">low or unknown</text>
+<text x="620" y="403.0" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#C7C7C7" text-anchor="start">WARN</text>
+<text x="920" y="403.0" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#C7C7C7" text-anchor="start">yes</text>
+<rect x="32" y="416" width="1216" height="34" fill="#292929" stroke="#383838" stroke-width="1"/>
+<text x="40" y="437.0" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#FFFFFF" text-anchor="start">error, unknown</text>
+<text x="420" y="437.0" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#C7C7C7" text-anchor="start">any</text>
+<text x="620" y="437.0" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#C7C7C7" text-anchor="start">WARN (could not evaluate)</text>
+<text x="920" y="437.0" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#C7C7C7" text-anchor="start">yes</text>
+<rect x="32" y="450" width="1216" height="34" fill="#242424" stroke="#383838" stroke-width="1"/>
+<text x="40" y="471.0" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#FFFFFF" text-anchor="start">pass, fixed</text>
+<text x="420" y="471.0" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#C7C7C7" text-anchor="start">any</text>
+<text x="620" y="471.0" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#C7C7C7" text-anchor="start">PASS</text>
+<text x="920" y="471.0" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#C7C7C7" text-anchor="start">findings.json only</text>
+<rect x="32" y="484" width="1216" height="34" fill="#292929" stroke="#383838" stroke-width="1"/>
+<text x="40" y="505.0" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#FFFFFF" text-anchor="start">notapplicable, notselected, notchecked</text>
+<text x="420" y="505.0" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#C7C7C7" text-anchor="start">any</text>
+<text x="620" y="505.0" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#C7C7C7" text-anchor="start">counted, not a finding</text>
+<text x="920" y="505.0" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#C7C7C7" text-anchor="start">count in the header</text>
+<text x="32" y="554" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#C7C7C7" text-anchor="start">Exit code 2 from oscap means rules failed: a result, not an error. Controls supported: CA-2, CA-7, RA-5, AU-9 (SHA-256 manifest).</text>
+<line x1="32" y1="566" x2="1248" y2="566" stroke="#383838"/>
+<text x="32" y="586" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#A3A3A3">Generalised design: no client names, tenant IDs, addresses or data. Icons are simplified originals, not Red Hat artwork.</text>
+<text x="1248" y="586" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#A3A3A3" text-anchor="end">Rich Dieu · github.com/richdieu-max</text>
 </svg>

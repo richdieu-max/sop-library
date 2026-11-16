@@ -1,102 +1,102 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 720" width="1280" height="720" role="img" aria-label="RHEL triage order: the fastest path from &#x27;it is down&#x27; to the cause">
 <title>RHEL triage order: the fastest path from &#x27;it is down&#x27; to the cause</title>
-<defs><marker id="m605E5C" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#9198A1"/></marker></defs>
-<rect width="1280" height="720" fill="#0D1117"/>
-<rect x="0" y="0" width="1280" height="6" fill="#DA3633"/>
-<text x="32" y="48" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="600" fill="#E6EDF3">RHEL triage order: the fastest path from &#x27;it is down&#x27; to the cause</text>
-<text x="32" y="72" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#9198A1">Work down the steps; most faults show up in the first four. Each step names the command and the cause most often found there.</text>
-<rect x="33.5" y="108" width="300" height="64" rx="5" fill="#000" opacity="0.06"/>
-<rect x="32" y="106" width="300" height="64" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
-<rect x="32" y="106" width="4" height="64" rx="0" fill="#DA3633"/>
-<circle cx="56" cy="122" r="11" fill="#DA3633"/>
-<text x="56" y="126" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">1</text>
-<text x="76" y="128" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Service running?</text>
-<rect x="348" y="106" width="420" height="64" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
-<g transform="translate(360,116) scale(0.5000)"><rect x="4" y="7" width="40" height="34" rx="3" fill="#005A9E"/><path d="M11 17 l9 7 -9 7" stroke="#fff" stroke-width="3" fill="none"/><path d="M23 31 h13" stroke="#fff" stroke-width="3"/></g>
-<text x="394" y="128" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#E6EDF3" text-anchor="start">systemctl status · journalctl -u -b</text>
-<rect x="784" y="106" width="464" height="64" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
-<g transform="translate(796,116) scale(0.5000)"><path d="M10 4 h20 l8 8 v32 h-28 Z" fill="#0078D4"/><path d="M30 4 v8 h8" fill="#fff" opacity=".5"/><path d="M15 22 h18 M15 28 h18 M15 34 h12" stroke="#fff" stroke-width="2.4"/></g>
-<text x="830" y="128" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Unit failed: bad path (203/EXEC) or app error</text>
-<polyline points="182,170 182,182" fill="none" stroke="#9198A1" stroke-width="2" marker-end="url(#m605E5C)"/>
-<rect x="33.5" y="184" width="300" height="64" rx="5" fill="#000" opacity="0.06"/>
-<rect x="32" y="182" width="300" height="64" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
-<rect x="32" y="182" width="4" height="64" rx="0" fill="#DA3633"/>
-<circle cx="56" cy="198" r="11" fill="#DA3633"/>
-<text x="56" y="202" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">2</text>
-<text x="76" y="204" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Listening, and where?</text>
-<rect x="348" y="182" width="420" height="64" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
-<g transform="translate(360,192) scale(0.5000)"><rect x="4" y="7" width="40" height="34" rx="3" fill="#005A9E"/><path d="M11 17 l9 7 -9 7" stroke="#fff" stroke-width="3" fill="none"/><path d="M23 31 h13" stroke="#fff" stroke-width="3"/></g>
-<text x="394" y="204" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#E6EDF3" text-anchor="start">ss -tlnp</text>
-<rect x="784" y="182" width="464" height="64" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
-<g transform="translate(796,192) scale(0.5000)"><path d="M10 4 h20 l8 8 v32 h-28 Z" fill="#0078D4"/><path d="M30 4 v8 h8" fill="#fff" opacity=".5"/><path d="M15 22 h18 M15 28 h18 M15 34 h12" stroke="#fff" stroke-width="2.4"/></g>
-<text x="830" y="204" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Bound to 127.0.0.1 only</text>
-<polyline points="182,246 182,258" fill="none" stroke="#9198A1" stroke-width="2" marker-end="url(#m605E5C)"/>
-<rect x="33.5" y="260" width="300" height="64" rx="5" fill="#000" opacity="0.06"/>
-<rect x="32" y="258" width="300" height="64" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
-<rect x="32" y="258" width="4" height="64" rx="0" fill="#DA3633"/>
-<circle cx="56" cy="274" r="11" fill="#DA3633"/>
-<text x="56" y="278" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">3</text>
-<text x="76" y="280" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Can traffic reach it?</text>
-<rect x="348" y="258" width="420" height="64" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
-<g transform="translate(360,268) scale(0.5000)"><rect x="4" y="7" width="40" height="34" rx="3" fill="#005A9E"/><path d="M11 17 l9 7 -9 7" stroke="#fff" stroke-width="3" fill="none"/><path d="M23 31 h13" stroke="#fff" stroke-width="3"/></g>
-<text x="394" y="280" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#E6EDF3" text-anchor="start">firewall-cmd --list-all · ip route get</text>
-<rect x="784" y="258" width="464" height="64" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
-<g transform="translate(796,268) scale(0.5000)"><path d="M10 4 h20 l8 8 v32 h-28 Z" fill="#0078D4"/><path d="M30 4 v8 h8" fill="#fff" opacity=".5"/><path d="M15 22 h18 M15 28 h18 M15 34 h12" stroke="#fff" stroke-width="2.4"/></g>
-<text x="830" y="280" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Port not allowed in the active zone</text>
-<polyline points="182,322 182,334" fill="none" stroke="#9198A1" stroke-width="2" marker-end="url(#m605E5C)"/>
-<rect x="33.5" y="336" width="300" height="64" rx="5" fill="#000" opacity="0.06"/>
-<rect x="32" y="334" width="300" height="64" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
-<rect x="32" y="334" width="4" height="64" rx="0" fill="#DA3633"/>
-<circle cx="56" cy="350" r="11" fill="#DA3633"/>
-<text x="56" y="354" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">4</text>
-<text x="76" y="356" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start">SELinux saying no?</text>
-<rect x="348" y="334" width="420" height="64" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
-<g transform="translate(360,344) scale(0.5000)"><rect x="4" y="7" width="40" height="34" rx="3" fill="#005A9E"/><path d="M11 17 l9 7 -9 7" stroke="#fff" stroke-width="3" fill="none"/><path d="M23 31 h13" stroke="#fff" stroke-width="3"/></g>
-<text x="394" y="356" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#E6EDF3" text-anchor="start">ausearch -m AVC -ts recent</text>
-<rect x="784" y="334" width="464" height="64" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
-<g transform="translate(796,344) scale(0.5000)"><path d="M10 4 h20 l8 8 v32 h-28 Z" fill="#0078D4"/><path d="M30 4 v8 h8" fill="#fff" opacity=".5"/><path d="M15 22 h18 M15 28 h18 M15 34 h12" stroke="#fff" stroke-width="2.4"/></g>
-<text x="830" y="356" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Wrong file context or a non-standard port</text>
-<polyline points="182,398 182,410" fill="none" stroke="#9198A1" stroke-width="2" marker-end="url(#m605E5C)"/>
-<rect x="33.5" y="412" width="300" height="64" rx="5" fill="#000" opacity="0.06"/>
-<rect x="32" y="410" width="300" height="64" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
-<rect x="32" y="410" width="4" height="64" rx="0" fill="#9E6A03"/>
-<circle cx="56" cy="426" r="11" fill="#9E6A03"/>
-<text x="56" y="430" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">5</text>
-<text x="76" y="432" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Disk, memory, load?</text>
-<rect x="348" y="410" width="420" height="64" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
-<g transform="translate(360,420) scale(0.5000)"><rect x="4" y="7" width="40" height="34" rx="3" fill="#005A9E"/><path d="M11 17 l9 7 -9 7" stroke="#fff" stroke-width="3" fill="none"/><path d="M23 31 h13" stroke="#fff" stroke-width="3"/></g>
-<text x="394" y="432" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#E6EDF3" text-anchor="start">df -hT · df -i · free -h · lsof +L1</text>
-<rect x="784" y="410" width="464" height="64" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
-<g transform="translate(796,420) scale(0.5000)"><path d="M10 4 h20 l8 8 v32 h-28 Z" fill="#0078D4"/><path d="M30 4 v8 h8" fill="#fff" opacity=".5"/><path d="M15 22 h18 M15 28 h18 M15 34 h12" stroke="#fff" stroke-width="2.4"/></g>
-<text x="830" y="432" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Full /var or deleted files held open</text>
-<polyline points="182,474 182,486" fill="none" stroke="#9198A1" stroke-width="2" marker-end="url(#m605E5C)"/>
-<rect x="33.5" y="488" width="300" height="64" rx="5" fill="#000" opacity="0.06"/>
-<rect x="32" y="486" width="300" height="64" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
-<rect x="32" y="486" width="4" height="64" rx="0" fill="#9E6A03"/>
-<circle cx="56" cy="502" r="11" fill="#9E6A03"/>
-<text x="56" y="506" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">6</text>
-<text x="76" y="508" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Names and time?</text>
-<rect x="348" y="486" width="420" height="64" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
-<g transform="translate(360,496) scale(0.5000)"><rect x="4" y="7" width="40" height="34" rx="3" fill="#005A9E"/><path d="M11 17 l9 7 -9 7" stroke="#fff" stroke-width="3" fill="none"/><path d="M23 31 h13" stroke="#fff" stroke-width="3"/></g>
-<text x="394" y="508" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#E6EDF3" text-anchor="start">dig · getent hosts · chronyc tracking</text>
-<rect x="784" y="486" width="464" height="64" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
-<g transform="translate(796,496) scale(0.5000)"><path d="M10 4 h20 l8 8 v32 h-28 Z" fill="#0078D4"/><path d="M30 4 v8 h8" fill="#fff" opacity=".5"/><path d="M15 22 h18 M15 28 h18 M15 34 h12" stroke="#fff" stroke-width="2.4"/></g>
-<text x="830" y="508" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Resolver or clock offset</text>
-<polyline points="182,550 182,562" fill="none" stroke="#9198A1" stroke-width="2" marker-end="url(#m605E5C)"/>
-<rect x="33.5" y="564" width="300" height="64" rx="5" fill="#000" opacity="0.06"/>
-<rect x="32" y="562" width="300" height="64" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
-<rect x="32" y="562" width="4" height="64" rx="0" fill="#9E6A03"/>
-<circle cx="56" cy="578" r="11" fill="#9E6A03"/>
-<text x="56" y="582" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">7</text>
-<text x="76" y="584" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start">What changed?</text>
-<rect x="348" y="562" width="420" height="64" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
-<g transform="translate(360,572) scale(0.5000)"><rect x="4" y="7" width="40" height="34" rx="3" fill="#005A9E"/><path d="M11 17 l9 7 -9 7" stroke="#fff" stroke-width="3" fill="none"/><path d="M23 31 h13" stroke="#fff" stroke-width="3"/></g>
-<text x="394" y="584" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#E6EDF3" text-anchor="start">dnf history · rpm -V</text>
-<rect x="784" y="562" width="464" height="64" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
-<g transform="translate(796,572) scale(0.5000)"><path d="M10 4 h20 l8 8 v32 h-28 Z" fill="#0078D4"/><path d="M30 4 v8 h8" fill="#fff" opacity=".5"/><path d="M15 22 h18 M15 28 h18 M15 34 h12" stroke="#fff" stroke-width="2.4"/></g>
-<text x="830" y="584" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#E6EDF3" text-anchor="start">A package update the night before</text>
-<text x="32" y="674" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#9198A1" text-anchor="start">Then the application&#x27;s own logs. Collect a sos report for Red Hat support. Controls supported: IR-4, SI-4, AU-6.</text>
-<line x1="32" y1="686" x2="1248" y2="686" stroke="#30363D"/>
-<text x="32" y="706" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#7D8590">Generalised design: no client names, tenant IDs, addresses or data. Icons are simplified originals, not Red Hat artwork.</text>
-<text x="1248" y="706" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#7D8590" text-anchor="end">Rich Dieu · github.com/richdieu-max</text>
+<defs><marker id="m605E5C" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#C7C7C7"/></marker></defs>
+<rect width="1280" height="720" fill="#151515"/>
+<rect x="0" y="0" width="1280" height="6" fill="#EE0000"/>
+<text x="32" y="48" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="600" fill="#FFFFFF">RHEL triage order: the fastest path from &#x27;it is down&#x27; to the cause</text>
+<text x="32" y="72" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#C7C7C7">Work down the steps; most faults show up in the first four. Each step names the command and the cause most often found there.</text>
+<rect x="33.5" y="108" width="300" height="64" rx="3" fill="#000" opacity="0.06"/>
+<rect x="32" y="106" width="300" height="64" rx="3" fill="#292929" stroke="#4D4D4D" stroke-width="1"/>
+<rect x="32" y="106" width="4" height="64" rx="0" fill="#EE0000"/>
+<circle cx="56" cy="122" r="11" fill="#EE0000"/>
+<text x="56" y="126" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">1</text>
+<text x="76" y="128" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#FFFFFF" text-anchor="start">Service running?</text>
+<rect x="348" y="106" width="420" height="64" rx="3" fill="#292929" stroke="#4D4D4D" stroke-width="1"/>
+<g transform="translate(360,116) scale(0.5000)"><rect x="4" y="7" width="40" height="34" rx="3" fill="#FFFFFF"/><path d="M11 17 l9 7 -9 7" stroke="#EE0000" stroke-width="3" fill="none"/><path d="M23 31 h13" stroke="#EE0000" stroke-width="3"/></g>
+<text x="394" y="128" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#FFFFFF" text-anchor="start">systemctl status · journalctl -u -b</text>
+<rect x="784" y="106" width="464" height="64" rx="3" fill="#292929" stroke="#4D4D4D" stroke-width="1"/>
+<g transform="translate(796,116) scale(0.5000)"><path d="M10 4 h20 l8 8 v32 h-28 Z" fill="#FFFFFF"/><path d="M30 4 v8 h8" fill="#EE0000" opacity=".5"/><path d="M15 22 h18 M15 28 h18 M15 34 h12" stroke="#EE0000" stroke-width="2.4"/></g>
+<text x="830" y="128" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#FFFFFF" text-anchor="start">Unit failed: bad path (203/EXEC) or app error</text>
+<polyline points="182,170 182,182" fill="none" stroke="#C7C7C7" stroke-width="2" marker-end="url(#m605E5C)"/>
+<rect x="33.5" y="184" width="300" height="64" rx="3" fill="#000" opacity="0.06"/>
+<rect x="32" y="182" width="300" height="64" rx="3" fill="#292929" stroke="#4D4D4D" stroke-width="1"/>
+<rect x="32" y="182" width="4" height="64" rx="0" fill="#EE0000"/>
+<circle cx="56" cy="198" r="11" fill="#EE0000"/>
+<text x="56" y="202" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">2</text>
+<text x="76" y="204" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#FFFFFF" text-anchor="start">Listening, and where?</text>
+<rect x="348" y="182" width="420" height="64" rx="3" fill="#292929" stroke="#4D4D4D" stroke-width="1"/>
+<g transform="translate(360,192) scale(0.5000)"><rect x="4" y="7" width="40" height="34" rx="3" fill="#FFFFFF"/><path d="M11 17 l9 7 -9 7" stroke="#EE0000" stroke-width="3" fill="none"/><path d="M23 31 h13" stroke="#EE0000" stroke-width="3"/></g>
+<text x="394" y="204" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#FFFFFF" text-anchor="start">ss -tlnp</text>
+<rect x="784" y="182" width="464" height="64" rx="3" fill="#292929" stroke="#4D4D4D" stroke-width="1"/>
+<g transform="translate(796,192) scale(0.5000)"><path d="M10 4 h20 l8 8 v32 h-28 Z" fill="#FFFFFF"/><path d="M30 4 v8 h8" fill="#EE0000" opacity=".5"/><path d="M15 22 h18 M15 28 h18 M15 34 h12" stroke="#EE0000" stroke-width="2.4"/></g>
+<text x="830" y="204" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#FFFFFF" text-anchor="start">Bound to 127.0.0.1 only</text>
+<polyline points="182,246 182,258" fill="none" stroke="#C7C7C7" stroke-width="2" marker-end="url(#m605E5C)"/>
+<rect x="33.5" y="260" width="300" height="64" rx="3" fill="#000" opacity="0.06"/>
+<rect x="32" y="258" width="300" height="64" rx="3" fill="#292929" stroke="#4D4D4D" stroke-width="1"/>
+<rect x="32" y="258" width="4" height="64" rx="0" fill="#EE0000"/>
+<circle cx="56" cy="274" r="11" fill="#EE0000"/>
+<text x="56" y="278" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">3</text>
+<text x="76" y="280" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#FFFFFF" text-anchor="start">Can traffic reach it?</text>
+<rect x="348" y="258" width="420" height="64" rx="3" fill="#292929" stroke="#4D4D4D" stroke-width="1"/>
+<g transform="translate(360,268) scale(0.5000)"><rect x="4" y="7" width="40" height="34" rx="3" fill="#FFFFFF"/><path d="M11 17 l9 7 -9 7" stroke="#EE0000" stroke-width="3" fill="none"/><path d="M23 31 h13" stroke="#EE0000" stroke-width="3"/></g>
+<text x="394" y="280" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#FFFFFF" text-anchor="start">firewall-cmd --list-all · ip route get</text>
+<rect x="784" y="258" width="464" height="64" rx="3" fill="#292929" stroke="#4D4D4D" stroke-width="1"/>
+<g transform="translate(796,268) scale(0.5000)"><path d="M10 4 h20 l8 8 v32 h-28 Z" fill="#FFFFFF"/><path d="M30 4 v8 h8" fill="#EE0000" opacity=".5"/><path d="M15 22 h18 M15 28 h18 M15 34 h12" stroke="#EE0000" stroke-width="2.4"/></g>
+<text x="830" y="280" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#FFFFFF" text-anchor="start">Port not allowed in the active zone</text>
+<polyline points="182,322 182,334" fill="none" stroke="#C7C7C7" stroke-width="2" marker-end="url(#m605E5C)"/>
+<rect x="33.5" y="336" width="300" height="64" rx="3" fill="#000" opacity="0.06"/>
+<rect x="32" y="334" width="300" height="64" rx="3" fill="#292929" stroke="#4D4D4D" stroke-width="1"/>
+<rect x="32" y="334" width="4" height="64" rx="0" fill="#EE0000"/>
+<circle cx="56" cy="350" r="11" fill="#EE0000"/>
+<text x="56" y="354" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">4</text>
+<text x="76" y="356" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#FFFFFF" text-anchor="start">SELinux saying no?</text>
+<rect x="348" y="334" width="420" height="64" rx="3" fill="#292929" stroke="#4D4D4D" stroke-width="1"/>
+<g transform="translate(360,344) scale(0.5000)"><rect x="4" y="7" width="40" height="34" rx="3" fill="#FFFFFF"/><path d="M11 17 l9 7 -9 7" stroke="#EE0000" stroke-width="3" fill="none"/><path d="M23 31 h13" stroke="#EE0000" stroke-width="3"/></g>
+<text x="394" y="356" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#FFFFFF" text-anchor="start">ausearch -m AVC -ts recent</text>
+<rect x="784" y="334" width="464" height="64" rx="3" fill="#292929" stroke="#4D4D4D" stroke-width="1"/>
+<g transform="translate(796,344) scale(0.5000)"><path d="M10 4 h20 l8 8 v32 h-28 Z" fill="#FFFFFF"/><path d="M30 4 v8 h8" fill="#EE0000" opacity=".5"/><path d="M15 22 h18 M15 28 h18 M15 34 h12" stroke="#EE0000" stroke-width="2.4"/></g>
+<text x="830" y="356" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#FFFFFF" text-anchor="start">Wrong file context or a non-standard port</text>
+<polyline points="182,398 182,410" fill="none" stroke="#C7C7C7" stroke-width="2" marker-end="url(#m605E5C)"/>
+<rect x="33.5" y="412" width="300" height="64" rx="3" fill="#000" opacity="0.06"/>
+<rect x="32" y="410" width="300" height="64" rx="3" fill="#292929" stroke="#4D4D4D" stroke-width="1"/>
+<rect x="32" y="410" width="4" height="64" rx="0" fill="#B98412"/>
+<circle cx="56" cy="426" r="11" fill="#B98412"/>
+<text x="56" y="430" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">5</text>
+<text x="76" y="432" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#FFFFFF" text-anchor="start">Disk, memory, load?</text>
+<rect x="348" y="410" width="420" height="64" rx="3" fill="#292929" stroke="#4D4D4D" stroke-width="1"/>
+<g transform="translate(360,420) scale(0.5000)"><rect x="4" y="7" width="40" height="34" rx="3" fill="#FFFFFF"/><path d="M11 17 l9 7 -9 7" stroke="#EE0000" stroke-width="3" fill="none"/><path d="M23 31 h13" stroke="#EE0000" stroke-width="3"/></g>
+<text x="394" y="432" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#FFFFFF" text-anchor="start">df -hT · df -i · free -h · lsof +L1</text>
+<rect x="784" y="410" width="464" height="64" rx="3" fill="#292929" stroke="#4D4D4D" stroke-width="1"/>
+<g transform="translate(796,420) scale(0.5000)"><path d="M10 4 h20 l8 8 v32 h-28 Z" fill="#FFFFFF"/><path d="M30 4 v8 h8" fill="#EE0000" opacity=".5"/><path d="M15 22 h18 M15 28 h18 M15 34 h12" stroke="#EE0000" stroke-width="2.4"/></g>
+<text x="830" y="432" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#FFFFFF" text-anchor="start">Full /var or deleted files held open</text>
+<polyline points="182,474 182,486" fill="none" stroke="#C7C7C7" stroke-width="2" marker-end="url(#m605E5C)"/>
+<rect x="33.5" y="488" width="300" height="64" rx="3" fill="#000" opacity="0.06"/>
+<rect x="32" y="486" width="300" height="64" rx="3" fill="#292929" stroke="#4D4D4D" stroke-width="1"/>
+<rect x="32" y="486" width="4" height="64" rx="0" fill="#B98412"/>
+<circle cx="56" cy="502" r="11" fill="#B98412"/>
+<text x="56" y="506" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">6</text>
+<text x="76" y="508" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#FFFFFF" text-anchor="start">Names and time?</text>
+<rect x="348" y="486" width="420" height="64" rx="3" fill="#292929" stroke="#4D4D4D" stroke-width="1"/>
+<g transform="translate(360,496) scale(0.5000)"><rect x="4" y="7" width="40" height="34" rx="3" fill="#FFFFFF"/><path d="M11 17 l9 7 -9 7" stroke="#EE0000" stroke-width="3" fill="none"/><path d="M23 31 h13" stroke="#EE0000" stroke-width="3"/></g>
+<text x="394" y="508" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#FFFFFF" text-anchor="start">dig · getent hosts · chronyc tracking</text>
+<rect x="784" y="486" width="464" height="64" rx="3" fill="#292929" stroke="#4D4D4D" stroke-width="1"/>
+<g transform="translate(796,496) scale(0.5000)"><path d="M10 4 h20 l8 8 v32 h-28 Z" fill="#FFFFFF"/><path d="M30 4 v8 h8" fill="#EE0000" opacity=".5"/><path d="M15 22 h18 M15 28 h18 M15 34 h12" stroke="#EE0000" stroke-width="2.4"/></g>
+<text x="830" y="508" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#FFFFFF" text-anchor="start">Resolver or clock offset</text>
+<polyline points="182,550 182,562" fill="none" stroke="#C7C7C7" stroke-width="2" marker-end="url(#m605E5C)"/>
+<rect x="33.5" y="564" width="300" height="64" rx="3" fill="#000" opacity="0.06"/>
+<rect x="32" y="562" width="300" height="64" rx="3" fill="#292929" stroke="#4D4D4D" stroke-width="1"/>
+<rect x="32" y="562" width="4" height="64" rx="0" fill="#B98412"/>
+<circle cx="56" cy="578" r="11" fill="#B98412"/>
+<text x="56" y="582" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">7</text>
+<text x="76" y="584" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#FFFFFF" text-anchor="start">What changed?</text>
+<rect x="348" y="562" width="420" height="64" rx="3" fill="#292929" stroke="#4D4D4D" stroke-width="1"/>
+<g transform="translate(360,572) scale(0.5000)"><rect x="4" y="7" width="40" height="34" rx="3" fill="#FFFFFF"/><path d="M11 17 l9 7 -9 7" stroke="#EE0000" stroke-width="3" fill="none"/><path d="M23 31 h13" stroke="#EE0000" stroke-width="3"/></g>
+<text x="394" y="584" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#FFFFFF" text-anchor="start">dnf history · rpm -V</text>
+<rect x="784" y="562" width="464" height="64" rx="3" fill="#292929" stroke="#4D4D4D" stroke-width="1"/>
+<g transform="translate(796,572) scale(0.5000)"><path d="M10 4 h20 l8 8 v32 h-28 Z" fill="#FFFFFF"/><path d="M30 4 v8 h8" fill="#EE0000" opacity=".5"/><path d="M15 22 h18 M15 28 h18 M15 34 h12" stroke="#EE0000" stroke-width="2.4"/></g>
+<text x="830" y="584" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#FFFFFF" text-anchor="start">A package update the night before</text>
+<text x="32" y="674" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#C7C7C7" text-anchor="start">Then the application&#x27;s own logs. Collect a sos report for Red Hat support. Controls supported: IR-4, SI-4, AU-6.</text>
+<line x1="32" y1="686" x2="1248" y2="686" stroke="#383838"/>
+<text x="32" y="706" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#A3A3A3">Generalised design: no client names, tenant IDs, addresses or data. Icons are simplified originals, not Red Hat artwork.</text>
+<text x="1248" y="706" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#A3A3A3" text-anchor="end">Rich Dieu · github.com/richdieu-max</text>
 </svg>

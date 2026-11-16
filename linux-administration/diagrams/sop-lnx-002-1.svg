@@ -1,112 +1,112 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 660" width="1280" height="660" role="img" aria-label="Patch rings for RHEL: errata reach production only after earlier rings ran clean">
 <title>Patch rings for RHEL: errata reach production only after earlier rings ran clean</title>
-<defs><marker id="m107C10" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#3FB950"/></marker><marker id="mC19C00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#D29922"/></marker><marker id="mA4262C" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#F85149"/></marker><marker id="m605E5C" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#9198A1"/></marker></defs>
-<rect width="1280" height="660" fill="#0D1117"/>
-<rect x="0" y="0" width="1280" height="6" fill="#DA3633"/>
-<text x="32" y="48" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="600" fill="#E6EDF3">Patch rings for RHEL: errata reach production only after earlier rings ran clean</text>
-<text x="32" y="72" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#9198A1">Red Hat publishes the advisory; ring 0 takes it within a day, ring 1 in the weekly window, ring 2 in the monthly window or an emergency one.</text>
-<rect x="33.5" y="112" width="260" height="110" rx="5" fill="#000" opacity="0.06"/>
-<rect x="32" y="110" width="260" height="110" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
-<rect x="32" y="110" width="4" height="110" rx="0" fill="#DA3633"/>
-<g transform="translate(48,120) scale(0.5000)"><path d="M10 4 h20 l8 8 v32 h-28 Z" fill="#0078D4"/><path d="M30 4 v8 h8" fill="#fff" opacity=".5"/><path d="M15 22 h18 M15 28 h18 M15 34 h12" stroke="#fff" stroke-width="2.4"/></g>
-<circle cx="272" cy="126" r="11" fill="#DA3633"/>
-<text x="272" y="130" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">0</text>
-<text x="82" y="132" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Red Hat advisory (RHSA)</text>
-<text x="82" y="149" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">Severity, CVEs, packages</text>
-<text x="82" y="166" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">dnf updateinfo info RHSA-...</text>
-<rect x="337.5" y="112" width="288" height="110" rx="5" fill="#000" opacity="0.06"/>
-<rect x="336" y="110" width="288" height="110" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
-<rect x="336" y="110" width="4" height="110" rx="0" fill="#238636"/>
-<g transform="translate(352,120) scale(0.5000)"><rect x="8" y="4" width="32" height="12" rx="2" fill="#0078D4"/><rect x="8" y="18" width="32" height="12" rx="2" fill="#0078D4"/><rect x="8" y="32" width="32" height="12" rx="2" fill="#005A9E"/><circle cx="14" cy="10" r="2" fill="#fff"/><circle cx="14" cy="24" r="2" fill="#fff"/><circle cx="14" cy="38" r="2" fill="#fff"/><path d="M22 10 h12 M22 24 h12 M22 38 h12" stroke="#fff" stroke-width="2"/></g>
-<rect x="572.303056" y="120" width="42" height="20" rx="10" fill="#15221A" stroke="#3FB950" stroke-width="1"/>
-<text x="593" y="134" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#3FB950" text-anchor="middle">daily</text>
-<text x="386" y="132" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Ring 0 · Test</text>
-<text x="386" y="149" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">dnf-automatic, security, daily</text>
-<text x="386" y="166" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">Lab copies of each role</text>
-<polyline points="292,165 336,165" fill="none" stroke="#3FB950" stroke-width="2" marker-end="url(#m107C10)"/>
-<rect x="645.5" y="112" width="288" height="110" rx="5" fill="#000" opacity="0.06"/>
-<rect x="644" y="110" width="288" height="110" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
-<rect x="644" y="110" width="4" height="110" rx="0" fill="#9E6A03"/>
-<g transform="translate(660,120) scale(0.5000)"><rect x="8" y="4" width="32" height="12" rx="2" fill="#0078D4"/><rect x="8" y="18" width="32" height="12" rx="2" fill="#0078D4"/><rect x="8" y="32" width="32" height="12" rx="2" fill="#005A9E"/><circle cx="14" cy="10" r="2" fill="#fff"/><circle cx="14" cy="24" r="2" fill="#fff"/><circle cx="14" cy="38" r="2" fill="#fff"/><path d="M22 10 h12 M22 24 h12 M22 38 h12" stroke="#fff" stroke-width="2"/></g>
-<rect x="868.0333439999999" y="120" width="54" height="20" rx="10" fill="#272115" stroke="#D29922" stroke-width="1"/>
-<text x="895" y="134" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#D29922" text-anchor="middle">weekly</text>
-<text x="694" y="132" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Ring 1 · Non-production</text>
-<text x="694" y="149" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">Ansible play, weekly window</text>
-<text x="694" y="166" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">Errata at least 3 days old</text>
-<polyline points="624,165 644,165" fill="none" stroke="#D29922" stroke-width="2" marker-end="url(#mC19C00)"/>
-<rect x="953.5" y="112" width="288" height="110" rx="5" fill="#000" opacity="0.06"/>
-<rect x="952" y="110" width="288" height="110" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
-<rect x="952" y="110" width="4" height="110" rx="0" fill="#DA3633"/>
-<g transform="translate(968,120) scale(0.5000)"><rect x="8" y="4" width="32" height="12" rx="2" fill="#0078D4"/><rect x="8" y="18" width="32" height="12" rx="2" fill="#0078D4"/><rect x="8" y="32" width="32" height="12" rx="2" fill="#005A9E"/><circle cx="14" cy="10" r="2" fill="#fff"/><circle cx="14" cy="24" r="2" fill="#fff"/><circle cx="14" cy="38" r="2" fill="#fff"/><path d="M22 10 h12 M22 24 h12 M22 38 h12" stroke="#fff" stroke-width="2"/></g>
-<rect x="1172.560784" y="120" width="57" height="20" rx="10" fill="#25171C" stroke="#F85149" stroke-width="1"/>
-<text x="1201" y="134" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#F85149" text-anchor="middle">monthly</text>
-<text x="1002" y="132" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Ring 2 · Production</text>
-<text x="1002" y="149" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">Ansible play, monthly window</text>
-<text x="1002" y="166" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">Emergency window for critical</text>
-<polyline points="932,165 952,165" fill="none" stroke="#F85149" stroke-width="2" marker-end="url(#mA4262C)"/>
-<rect x="32" y="250" width="760" height="300" rx="6" fill="#151B23" stroke="#3D444D" stroke-width="1.4"/>
-<g transform="translate(42,258) scale(0.5000)"><rect x="4" y="7" width="40" height="34" rx="3" fill="#005A9E"/><path d="M11 17 l9 7 -9 7" stroke="#fff" stroke-width="3" fill="none"/><path d="M23 31 h13" stroke="#fff" stroke-width="3"/></g>
-<text x="74" y="275" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#E6EDF3" text-anchor="start">The patch play, per batch</text>
-<text x="780" y="275" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9198A1" text-anchor="end">serial: 2 · max_fail_percentage: 0</text>
-<rect x="49.5" y="298" width="170" height="110" rx="5" fill="#000" opacity="0.06"/>
-<rect x="48" y="296" width="170" height="110" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
-<rect x="48" y="296" width="4" height="110" rx="0" fill="#1F6FEB"/>
-<circle cx="72" cy="312" r="11" fill="#1F6FEB"/>
-<text x="72" y="316" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">1</text>
-<text x="92" y="318" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Apply errata</text>
-<text x="92" y="335" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">dnf name=&#x27;*&#x27;</text>
-<text x="92" y="352" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">security=true</text>
-<polyline points="218,351 232,351" fill="none" stroke="#9198A1" stroke-width="2" marker-end="url(#m605E5C)"/>
-<rect x="233.5" y="298" width="170" height="110" rx="5" fill="#000" opacity="0.06"/>
-<rect x="232" y="296" width="170" height="110" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
-<rect x="232" y="296" width="4" height="110" rx="0" fill="#1F6FEB"/>
-<circle cx="256" cy="312" r="11" fill="#1F6FEB"/>
-<text x="256" y="316" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">2</text>
-<text x="276" y="318" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Reboot?</text>
-<text x="276" y="335" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">only if dnf</text>
-<text x="276" y="352" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">needs-restarting -r</text>
-<text x="276" y="369" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">says so</text>
-<polyline points="402,351 416,351" fill="none" stroke="#9198A1" stroke-width="2" marker-end="url(#m605E5C)"/>
-<rect x="417.5" y="298" width="170" height="110" rx="5" fill="#000" opacity="0.06"/>
-<rect x="416" y="296" width="170" height="110" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
-<rect x="416" y="296" width="4" height="110" rx="0" fill="#1F6FEB"/>
-<circle cx="440" cy="312" r="11" fill="#1F6FEB"/>
-<text x="440" y="316" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">3</text>
-<text x="460" y="318" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Health check</text>
-<text x="460" y="335" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">uri until 200, 10</text>
-<text x="460" y="352" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">tries</text>
-<polyline points="586,351 600,351" fill="none" stroke="#9198A1" stroke-width="2" marker-end="url(#m605E5C)"/>
-<rect x="601.5" y="298" width="170" height="110" rx="5" fill="#000" opacity="0.06"/>
-<rect x="600" y="296" width="170" height="110" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
-<rect x="600" y="296" width="4" height="110" rx="0" fill="#1F6FEB"/>
-<circle cx="624" cy="312" r="11" fill="#1F6FEB"/>
-<text x="624" y="316" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">4</text>
-<text x="644" y="318" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Next batch</text>
-<text x="644" y="335" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">or stop if any check</text>
-<text x="644" y="352" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">fails</text>
-<rect x="48" y="428" width="728" height="104" rx="6" fill="#25171C" stroke="#F85149" stroke-width="1.4" stroke-dasharray="6 4"/>
-<g transform="translate(58,436) scale(0.5000)"><path d="M24 4 L45 42 H3 Z" fill="#A4262C"/><rect x="22" y="17" width="4" height="13" fill="#fff"/><circle cx="24" cy="35" r="2.5" fill="#fff"/></g>
-<text x="90" y="453" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#F85149" text-anchor="start">A failed health check stops the play</text>
-<text x="62" y="474" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">The failed batch is patched and the rest of production is not: fix forward on that batch or roll it back, then continue.</text>
-<rect x="816" y="250" width="432" height="300" rx="6" fill="#151B23" stroke="#3D444D" stroke-width="1.4"/>
-<g transform="translate(826,258) scale(0.5000)"><circle cx="24" cy="24" r="19" fill="#0078D4"/><circle cx="24" cy="24" r="15" fill="#fff"/><path d="M24 14 v10 l7 5" stroke="#0078D4" stroke-width="3" fill="none"/></g>
-<text x="858" y="275" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#E6EDF3" text-anchor="start">SLA from release to production</text>
-<rect x="832" y="294" width="400" height="38" fill="#151B23" stroke="#3D444D" stroke-width="1"/>
-<text x="840" y="317.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Red Hat severity</text>
-<text x="1010" y="317.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#E6EDF3" text-anchor="start">SLA</text>
-<rect x="832" y="332" width="400" height="38" fill="#1C2128" stroke="#30363D" stroke-width="1"/>
-<text x="840" y="355.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#E6EDF3" text-anchor="start">Critical</text>
-<text x="1010" y="355.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9198A1" text-anchor="start">7 days (48 h if in CISA KEV)</text>
-<rect x="832" y="370" width="400" height="38" fill="#181E26" stroke="#30363D" stroke-width="1"/>
-<text x="840" y="393.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#E6EDF3" text-anchor="start">Important</text>
-<text x="1010" y="393.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9198A1" text-anchor="start">30 days</text>
-<rect x="832" y="408" width="400" height="38" fill="#1C2128" stroke="#30363D" stroke-width="1"/>
-<text x="840" y="431.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#E6EDF3" text-anchor="start">Moderate, low</text>
-<text x="1010" y="431.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9198A1" text-anchor="start">Next monthly window</text>
-<text x="832" y="470" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9198A1" text-anchor="start">Report: dnf updateinfo summary --security per host,</text>
-<text x="832" y="488" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9198A1" text-anchor="start">collected by Ansible, or Insights / Satellite views.</text>
-<text x="32" y="614" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#9198A1" text-anchor="start">3 rings, 1 play, 0 unplanned reboots. Controls supported: SI-2, SI-2(2), SI-2(3), CM-3, CM-4; CIS Controls v8 7.3 and 7.4.</text>
-<line x1="32" y1="626" x2="1248" y2="626" stroke="#30363D"/>
-<text x="32" y="646" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#7D8590">Generalised design: no client names, tenant IDs, addresses or data. Icons are simplified originals, not Red Hat artwork.</text>
-<text x="1248" y="646" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#7D8590" text-anchor="end">Rich Dieu · github.com/richdieu-max</text>
+<defs><marker id="m107C10" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#87BB62"/></marker><marker id="mC19C00" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#F5C12E"/></marker><marker id="mA4262C" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#F56E6E"/></marker><marker id="m605E5C" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#C7C7C7"/></marker></defs>
+<rect width="1280" height="660" fill="#151515"/>
+<rect x="0" y="0" width="1280" height="6" fill="#EE0000"/>
+<text x="32" y="48" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="600" fill="#FFFFFF">Patch rings for RHEL: errata reach production only after earlier rings ran clean</text>
+<text x="32" y="72" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#C7C7C7">Red Hat publishes the advisory; ring 0 takes it within a day, ring 1 in the weekly window, ring 2 in the monthly window or an emergency one.</text>
+<rect x="33.5" y="112" width="260" height="110" rx="3" fill="#000" opacity="0.06"/>
+<rect x="32" y="110" width="260" height="110" rx="3" fill="#292929" stroke="#4D4D4D" stroke-width="1"/>
+<rect x="32" y="110" width="4" height="110" rx="0" fill="#EE0000"/>
+<g transform="translate(48,120) scale(0.5000)"><path d="M10 4 h20 l8 8 v32 h-28 Z" fill="#FFFFFF"/><path d="M30 4 v8 h8" fill="#EE0000" opacity=".5"/><path d="M15 22 h18 M15 28 h18 M15 34 h12" stroke="#EE0000" stroke-width="2.4"/></g>
+<circle cx="272" cy="126" r="11" fill="#EE0000"/>
+<text x="272" y="130" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">0</text>
+<text x="82" y="132" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#FFFFFF" text-anchor="start">Red Hat advisory (RHSA)</text>
+<text x="82" y="149" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#C7C7C7" text-anchor="start">Severity, CVEs, packages</text>
+<text x="82" y="166" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#C7C7C7" text-anchor="start">dnf updateinfo info RHSA-...</text>
+<rect x="337.5" y="112" width="288" height="110" rx="3" fill="#000" opacity="0.06"/>
+<rect x="336" y="110" width="288" height="110" rx="3" fill="#292929" stroke="#4D4D4D" stroke-width="1"/>
+<rect x="336" y="110" width="4" height="110" rx="0" fill="#3D7317"/>
+<g transform="translate(352,120) scale(0.5000)"><rect x="8" y="4" width="32" height="12" rx="2" fill="#FFFFFF"/><rect x="8" y="18" width="32" height="12" rx="2" fill="#FFFFFF"/><rect x="8" y="32" width="32" height="12" rx="2" fill="#FFFFFF"/><circle cx="14" cy="10" r="2" fill="#EE0000"/><circle cx="14" cy="24" r="2" fill="#EE0000"/><circle cx="14" cy="38" r="2" fill="#EE0000"/><path d="M22 10 h12 M22 24 h12 M22 38 h12" stroke="#EE0000" stroke-width="2"/></g>
+<rect x="572.303056" y="120" width="42" height="20" rx="10" fill="#1B2911" stroke="#87BB62" stroke-width="1"/>
+<text x="593" y="134" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#87BB62" text-anchor="middle">daily</text>
+<text x="386" y="132" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#FFFFFF" text-anchor="start">Ring 0 · Test</text>
+<text x="386" y="149" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#C7C7C7" text-anchor="start">dnf-automatic, security, daily</text>
+<text x="386" y="166" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#C7C7C7" text-anchor="start">Lab copies of each role</text>
+<polyline points="292,165 336,165" fill="none" stroke="#87BB62" stroke-width="2" marker-end="url(#m107C10)"/>
+<rect x="645.5" y="112" width="288" height="110" rx="3" fill="#000" opacity="0.06"/>
+<rect x="644" y="110" width="288" height="110" rx="3" fill="#292929" stroke="#4D4D4D" stroke-width="1"/>
+<rect x="644" y="110" width="4" height="110" rx="0" fill="#B98412"/>
+<g transform="translate(660,120) scale(0.5000)"><rect x="8" y="4" width="32" height="12" rx="2" fill="#FFFFFF"/><rect x="8" y="18" width="32" height="12" rx="2" fill="#FFFFFF"/><rect x="8" y="32" width="32" height="12" rx="2" fill="#FFFFFF"/><circle cx="14" cy="10" r="2" fill="#EE0000"/><circle cx="14" cy="24" r="2" fill="#EE0000"/><circle cx="14" cy="38" r="2" fill="#EE0000"/><path d="M22 10 h12 M22 24 h12 M22 38 h12" stroke="#EE0000" stroke-width="2"/></g>
+<rect x="868.0333439999999" y="120" width="54" height="20" rx="10" fill="#302710" stroke="#F5C12E" stroke-width="1"/>
+<text x="895" y="134" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#F5C12E" text-anchor="middle">weekly</text>
+<text x="694" y="132" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#FFFFFF" text-anchor="start">Ring 1 · Non-production</text>
+<text x="694" y="149" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#C7C7C7" text-anchor="start">Ansible play, weekly window</text>
+<text x="694" y="166" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#C7C7C7" text-anchor="start">Errata at least 3 days old</text>
+<polyline points="624,165 644,165" fill="none" stroke="#F5C12E" stroke-width="2" marker-end="url(#mC19C00)"/>
+<rect x="953.5" y="112" width="288" height="110" rx="3" fill="#000" opacity="0.06"/>
+<rect x="952" y="110" width="288" height="110" rx="3" fill="#292929" stroke="#4D4D4D" stroke-width="1"/>
+<rect x="952" y="110" width="4" height="110" rx="0" fill="#EE0000"/>
+<g transform="translate(968,120) scale(0.5000)"><rect x="8" y="4" width="32" height="12" rx="2" fill="#FFFFFF"/><rect x="8" y="18" width="32" height="12" rx="2" fill="#FFFFFF"/><rect x="8" y="32" width="32" height="12" rx="2" fill="#FFFFFF"/><circle cx="14" cy="10" r="2" fill="#EE0000"/><circle cx="14" cy="24" r="2" fill="#EE0000"/><circle cx="14" cy="38" r="2" fill="#EE0000"/><path d="M22 10 h12 M22 24 h12 M22 38 h12" stroke="#EE0000" stroke-width="2"/></g>
+<rect x="1172.560784" y="120" width="57" height="20" rx="10" fill="#2B1414" stroke="#F56E6E" stroke-width="1"/>
+<text x="1201" y="134" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#F56E6E" text-anchor="middle">monthly</text>
+<text x="1002" y="132" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#FFFFFF" text-anchor="start">Ring 2 · Production</text>
+<text x="1002" y="149" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#C7C7C7" text-anchor="start">Ansible play, monthly window</text>
+<text x="1002" y="166" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#C7C7C7" text-anchor="start">Emergency window for critical</text>
+<polyline points="932,165 952,165" fill="none" stroke="#F56E6E" stroke-width="2" marker-end="url(#mA4262C)"/>
+<rect x="32" y="250" width="760" height="300" rx="3" fill="#1F1F1F" stroke="#4D4D4D" stroke-width="1.4"/>
+<g transform="translate(42,258) scale(0.5000)"><rect x="4" y="7" width="40" height="34" rx="3" fill="#FFFFFF"/><path d="M11 17 l9 7 -9 7" stroke="#EE0000" stroke-width="3" fill="none"/><path d="M23 31 h13" stroke="#EE0000" stroke-width="3"/></g>
+<text x="74" y="275" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#FFFFFF" text-anchor="start">The patch play, per batch</text>
+<text x="780" y="275" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#C7C7C7" text-anchor="end">serial: 2 · max_fail_percentage: 0</text>
+<rect x="49.5" y="298" width="170" height="110" rx="3" fill="#000" opacity="0.06"/>
+<rect x="48" y="296" width="170" height="110" rx="3" fill="#292929" stroke="#4D4D4D" stroke-width="1"/>
+<rect x="48" y="296" width="4" height="110" rx="0" fill="#0066CC"/>
+<circle cx="72" cy="312" r="11" fill="#0066CC"/>
+<text x="72" y="316" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">1</text>
+<text x="92" y="318" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#FFFFFF" text-anchor="start">Apply errata</text>
+<text x="92" y="335" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#C7C7C7" text-anchor="start">dnf name=&#x27;*&#x27;</text>
+<text x="92" y="352" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#C7C7C7" text-anchor="start">security=true</text>
+<polyline points="218,351 232,351" fill="none" stroke="#C7C7C7" stroke-width="2" marker-end="url(#m605E5C)"/>
+<rect x="233.5" y="298" width="170" height="110" rx="3" fill="#000" opacity="0.06"/>
+<rect x="232" y="296" width="170" height="110" rx="3" fill="#292929" stroke="#4D4D4D" stroke-width="1"/>
+<rect x="232" y="296" width="4" height="110" rx="0" fill="#0066CC"/>
+<circle cx="256" cy="312" r="11" fill="#0066CC"/>
+<text x="256" y="316" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">2</text>
+<text x="276" y="318" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#FFFFFF" text-anchor="start">Reboot?</text>
+<text x="276" y="335" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#C7C7C7" text-anchor="start">only if dnf</text>
+<text x="276" y="352" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#C7C7C7" text-anchor="start">needs-restarting -r</text>
+<text x="276" y="369" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#C7C7C7" text-anchor="start">says so</text>
+<polyline points="402,351 416,351" fill="none" stroke="#C7C7C7" stroke-width="2" marker-end="url(#m605E5C)"/>
+<rect x="417.5" y="298" width="170" height="110" rx="3" fill="#000" opacity="0.06"/>
+<rect x="416" y="296" width="170" height="110" rx="3" fill="#292929" stroke="#4D4D4D" stroke-width="1"/>
+<rect x="416" y="296" width="4" height="110" rx="0" fill="#0066CC"/>
+<circle cx="440" cy="312" r="11" fill="#0066CC"/>
+<text x="440" y="316" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">3</text>
+<text x="460" y="318" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#FFFFFF" text-anchor="start">Health check</text>
+<text x="460" y="335" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#C7C7C7" text-anchor="start">uri until 200, 10</text>
+<text x="460" y="352" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#C7C7C7" text-anchor="start">tries</text>
+<polyline points="586,351 600,351" fill="none" stroke="#C7C7C7" stroke-width="2" marker-end="url(#m605E5C)"/>
+<rect x="601.5" y="298" width="170" height="110" rx="3" fill="#000" opacity="0.06"/>
+<rect x="600" y="296" width="170" height="110" rx="3" fill="#292929" stroke="#4D4D4D" stroke-width="1"/>
+<rect x="600" y="296" width="4" height="110" rx="0" fill="#0066CC"/>
+<circle cx="624" cy="312" r="11" fill="#0066CC"/>
+<text x="624" y="316" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">4</text>
+<text x="644" y="318" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#FFFFFF" text-anchor="start">Next batch</text>
+<text x="644" y="335" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#C7C7C7" text-anchor="start">or stop if any check</text>
+<text x="644" y="352" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#C7C7C7" text-anchor="start">fails</text>
+<rect x="48" y="428" width="728" height="104" rx="3" fill="#2B1414" stroke="#F56E6E" stroke-width="1.4" stroke-dasharray="6 4"/>
+<g transform="translate(58,436) scale(0.5000)"><path d="M24 4 L45 42 H3 Z" fill="#FFFFFF"/><rect x="22" y="17" width="4" height="13" fill="#EE0000"/><circle cx="24" cy="35" r="2.5" fill="#EE0000"/></g>
+<text x="90" y="453" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#F56E6E" text-anchor="start">A failed health check stops the play</text>
+<text x="62" y="474" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#C7C7C7" text-anchor="start">The failed batch is patched and the rest of production is not: fix forward on that batch or roll it back, then continue.</text>
+<rect x="816" y="250" width="432" height="300" rx="3" fill="#1F1F1F" stroke="#4D4D4D" stroke-width="1.4"/>
+<g transform="translate(826,258) scale(0.5000)"><circle cx="24" cy="24" r="19" fill="#FFFFFF"/><circle cx="24" cy="24" r="15" fill="#EE0000"/><path d="M24 14 v10 l7 5" stroke="#FFFFFF" stroke-width="3" fill="none"/></g>
+<text x="858" y="275" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#FFFFFF" text-anchor="start">SLA from release to production</text>
+<rect x="832" y="294" width="400" height="38" fill="#1F1F1F" stroke="#4D4D4D" stroke-width="1"/>
+<text x="840" y="317.0" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#FFFFFF" text-anchor="start">Red Hat severity</text>
+<text x="1010" y="317.0" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="600" fill="#FFFFFF" text-anchor="start">SLA</text>
+<rect x="832" y="332" width="400" height="38" fill="#292929" stroke="#383838" stroke-width="1"/>
+<text x="840" y="355.0" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#FFFFFF" text-anchor="start">Critical</text>
+<text x="1010" y="355.0" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#C7C7C7" text-anchor="start">7 days (48 h if in CISA KEV)</text>
+<rect x="832" y="370" width="400" height="38" fill="#242424" stroke="#383838" stroke-width="1"/>
+<text x="840" y="393.0" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#FFFFFF" text-anchor="start">Important</text>
+<text x="1010" y="393.0" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#C7C7C7" text-anchor="start">30 days</text>
+<rect x="832" y="408" width="400" height="38" fill="#292929" stroke="#383838" stroke-width="1"/>
+<text x="840" y="431.0" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#FFFFFF" text-anchor="start">Moderate, low</text>
+<text x="1010" y="431.0" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#C7C7C7" text-anchor="start">Next monthly window</text>
+<text x="832" y="470" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#C7C7C7" text-anchor="start">Report: dnf updateinfo summary --security per host,</text>
+<text x="832" y="488" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#C7C7C7" text-anchor="start">collected by Ansible, or Insights / Satellite views.</text>
+<text x="32" y="614" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#C7C7C7" text-anchor="start">3 rings, 1 play, 0 unplanned reboots. Controls supported: SI-2, SI-2(2), SI-2(3), CM-3, CM-4; CIS Controls v8 7.3 and 7.4.</text>
+<line x1="32" y1="626" x2="1248" y2="626" stroke="#383838"/>
+<text x="32" y="646" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#A3A3A3">Generalised design: no client names, tenant IDs, addresses or data. Icons are simplified originals, not Red Hat artwork.</text>
+<text x="1248" y="646" font-family="'Red Hat Text', 'Red Hat Display', Overpass, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#A3A3A3" text-anchor="end">Rich Dieu · github.com/richdieu-max</text>
 </svg>
