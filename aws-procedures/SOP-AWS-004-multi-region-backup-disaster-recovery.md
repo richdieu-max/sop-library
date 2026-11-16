@@ -1,0 +1,86 @@
+# SOP-AWS-004 · Two-region backup and disaster recovery for AWS workloads
+
+Protect EC2 instances and RDS databases in a primary region with recovery points that attackers cannot delete, copy them to a second region, and keep a warm recovery path for the servers that need minutes rather than hours. Prove all of it with scheduled restore tests. This is the AWS counterpart of [SOP-AZ-005](../azure-procedures/SOP-AZ-005-multi-region-backup-disaster-recovery.md).
+
+**Family:** AWS procedures · **Covers:** AWS Backup plans, vaults, Vault Lock and cross-region copy; AWS Elastic Disaster Recovery for low-RTO servers; RDS cross-region automated backups; restore testing and the evidence it leaves · **Does not cover:** application-level replication (Aurora Global Database, DynamoDB global tables), or backups of SaaS data.
+
+## Shape
+
+![Primary region eu-central-1 with EC2 and RDS protected by an AWS Backup plan into a locked vault, copies flowing to a locked vault in eu-west-1, Elastic Disaster Recovery replicating the tier-1 servers continuously to a staging area in eu-west-1, and restore testing proving recovery on a schedule](diagrams/sop-aws-004-1.svg)
+
+| Tier | Example | Method | RPO | RTO |
+|---|---|---|---|---|
+| 1 | Order processing servers | Elastic Disaster Recovery (continuous block replication) plus daily AWS Backup | Seconds | Minutes, after launch in the recovery region |
+| 2 | Internal web and file servers | AWS Backup daily, copied to the second region | 24 hours | Hours |
+| Database | RDS | Automated backups with point-in-time restore, replicated cross-region, plus AWS Backup snapshots | About 5 minutes in-region | Minutes to hours |
+
+RPO and RTO are targets agreed with the business owner. The restore tests below are what turn them into measured numbers.
+
+## Before you start
+
+| Item | Requirement |
+|---|---|
+| Regions | Primary `eu-central-1`, recovery `eu-west-1` (both inside the approved residency boundary; see [SOP-AWS-002](SOP-AWS-002-hardened-ec2-data-residency-region.md)) |
+| Keys | A customer-managed KMS key in **each** region. Copies are re-encrypted with the destination region's key |
+| Roles | Backup administrator via Identity Center; the AWS Backup service role (`AWSBackupDefaultServiceRole` or your own) |
+| Tags | `Backup=daily` on tier-2 resources, `Backup=tier1` on tier-1 |
+| Decision | Vault Lock mode and retention signed off by the data owner. Compliance mode cannot be undone once its grace period ends |
+
+## Steps
+
+### AWS Backup
+
+1. **Vaults.** Create `vault-prd-euc1` in the primary region and `vault-dr-euw1` in the recovery region, each encrypted with that region's key.
+2. **Vault Lock.** Start in **governance mode** with a minimum retention of 7 days and a maximum of 400. After a full restore test has passed, switch the recovery vault to **compliance mode** with a grace period of at least 3 days. Once the grace period ends, nobody, root included, can delete recovery points early or change the lock.
+3. **Backup plan** `plan-prd`: a daily rule at 01:00 UTC with a 35-day retention and a **copy to `vault-dr-euw1`** with the same retention; a monthly rule with 1-year retention, also copied. Assign resources **by tag** (`Backup=daily`, `Backup=tier1`).
+4. **Notifications.** Send `BACKUP_JOB_FAILED`, `COPY_JOB_FAILED` and `RESTORE_JOB_FAILED` events to an SNS topic watched by operations.
+
+```bash
+aws backup create-backup-vault --backup-vault-name vault-dr-euw1 --encryption-key-arn <euw1-key-arn> --region eu-west-1
+aws backup put-backup-vault-lock-configuration --backup-vault-name vault-dr-euw1 \
+  --min-retention-days 7 --max-retention-days 400 --region eu-west-1          # governance mode: no --changeable-for-days
+aws backup create-backup-plan --backup-plan file://plan-prd.json --region eu-central-1
+aws backup create-backup-selection --backup-plan-id <plan-id> --region eu-central-1 --backup-selection \
+  '{"SelectionName":"by-tag","IamRoleArn":"arn:aws:iam::111122223333:role/service-role/AWSBackupDefaultServiceRole","ListOfTags":[{"ConditionType":"STRINGEQUALS","ConditionKey":"Backup","ConditionValue":"daily"}]}'
+```
+
+### Elastic Disaster Recovery (tier 1)
+
+5. **Initialize** the service in the recovery region; set the default replication settings: staging subnet in `eu-west-1`, EBS encryption with the recovery key, point-in-time snapshots retained for 7 days.
+6. **Install the replication agent** on each tier-1 instance (through Systems Manager Run Command, not by hand), pointing at the recovery region. The data replication state should reach **Healthy** after the first full sync.
+7. **Launch settings.** Set the instance type, subnet, security groups and instance profile for the recovery instances, so a drill does not depend on someone's memory.
+
+### RDS
+
+8. Enable **cross-region automated backups** to `eu-west-1` (`aws rds start-db-instance-automated-backups-replication`) with the recovery region's KMS key. This keeps point-in-time restore available if the primary region is lost.
+
+![Three ways back after a failure: an AWS Backup restore into the same or the recovery region (hours), an Elastic Disaster Recovery launch of tier-1 servers from the latest point in time (minutes), and an RDS point-in-time restore from the replicated automated backups; for each, the clock that matters, who triggers it, and what has to be repointed afterwards (DNS, load balancer targets, connection strings)](diagrams/sop-aws-004-2.svg)
+
+## Verify (restore testing)
+
+1. **AWS Backup › Restore testing › Create plan**: weekly, latest recovery point, the tier-2 resource types, with validation through an EventBridge rule or a Lambda health check. The test restores, records the time it took, and deletes the restored resource on its own.
+2. **Elastic Disaster Recovery › Launch recovery instances › Drill** every quarter for tier 1. Time the run from the launch to the application answering. Then terminate the drill instances.
+3. Keep the restore test results and drill timings with the change record. They are the evidence that the RPO and RTO in the table are real.
+
+## Roll back
+
+Vault Lock in governance mode can be removed by a user with `backup:DeleteBackupVaultLockConfiguration`. Compliance mode cannot be removed after its grace period, which is why it waits for a passed restore test and a written sign-off. To stop protecting a resource, remove its tag. Existing recovery points then age out under their own retention.
+
+## Troubleshooting
+
+| Symptom | Cause and fix |
+|---|---|
+| Copy job fails with an access error | The destination vault's key policy does not let the AWS Backup role use it, or the source key is an AWS-managed key the service cannot share |
+| EDR source server stuck in initial sync | The agent cannot reach the replication servers on TCP 1500, or the staging subnet has no route to the EDR endpoint |
+| Restore test reports success, but the application is broken | Validation only checked that the instance started; add an application health check to the restore test |
+| Recovery points cannot be deleted during a clean-up | The vault is locked: that is the control working. Wait for retention, or use governance-mode bypass permissions if the lock is still in governance mode |
+
+## Control mapping
+
+| Framework | Reference | How this supports it |
+|---|---|---|
+| NIST SP 800-53 R5 | CP-9, CP-9(1), CP-9(8) | Backups by plan, tested on a schedule, encrypted |
+| | CP-6, CP-7, CP-10 | Alternate storage and processing region; tested recovery |
+| | SI-7, AU-9 | Vault Lock stops recovery points being altered or deleted |
+| NIST CSF 2.0 | PR.DS-11, RC.RP-01, RC.RP-03 | Backups maintained and tested; recovery executed and verified |
+| ISO/IEC 27001:2022 | 8.13, 8.14, 5.30 | Information backup; redundancy; ICT readiness for continuity |

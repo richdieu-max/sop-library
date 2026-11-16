@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 680" width="1280" height="680" role="img" aria-label="Why IMDSv2, and the three layers that keep data in the region">
+<title>Why IMDSv2, and the three layers that keep data in the region</title>
+<defs><marker id="mA4262C" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#F85149"/></marker><marker id="m107C10" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#3FB950"/></marker></defs>
+<rect width="1280" height="680" fill="#0D1117"/>
+<rect x="0" y="0" width="1280" height="6" fill="#9E6A03"/>
+<text x="32" y="48" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="600" fill="#E6EDF3">Why IMDSv2, and the three layers that keep data in the region</text>
+<text x="32" y="72" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#9198A1">An SSRF bug can relay a GET to the metadata service; IMDSv2 answers only requests carrying a session token obtained with a PUT, which a relayed GET cannot get.</text>
+<rect x="32" y="100" width="740" height="470" rx="6" fill="#151B23" stroke="#3D444D" stroke-width="1.4"/>
+<g transform="translate(42,108) scale(0.5000)"><path d="M24 4 L45 42 H3 Z" fill="#A4262C"/><rect x="22" y="17" width="4" height="13" fill="#fff"/><circle cx="24" cy="35" r="2.5" fill="#fff"/></g>
+<text x="74" y="125" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#E6EDF3" text-anchor="start">A web app with an SSRF bug asks for credentials</text>
+<text x="52" y="152" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#E6EDF3" text-anchor="start">IMDSv1 (optional tokens)</text>
+<rect x="53.5" y="166" width="220" height="76" rx="5" fill="#000" opacity="0.06"/>
+<rect x="52" y="164" width="220" height="76" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="52" y="164" width="4" height="76" rx="0" fill="#DA3633"/>
+<g transform="translate(68,174) scale(0.5000)"><circle cx="24" cy="15" r="9" fill="#0078D4"/><path d="M6 44 q18-26 36 0 Z" fill="#0078D4"/></g>
+<circle cx="252" cy="180" r="11" fill="#DA3633"/>
+<text x="252" y="184" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">1</text>
+<text x="102" y="186" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Attacker</text>
+<text x="102" y="203" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">?url=http://169.254.169.254/...</text>
+<rect x="303.5" y="166" width="200" height="76" rx="5" fill="#000" opacity="0.06"/>
+<rect x="302" y="164" width="200" height="76" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="302" y="164" width="4" height="76" rx="0" fill="#DA3633"/>
+<g transform="translate(318,174) scale(0.5000)"><rect x="4" y="8" width="40" height="32" rx="3" fill="#0078D4"/><rect x="4" y="8" width="40" height="8" rx="3" fill="#005A9E"/><circle cx="9" cy="12" r="1.6" fill="#fff"/><circle cx="14" cy="12" r="1.6" fill="#fff"/><path d="M10 24 h28 M10 30 h20" stroke="#fff" stroke-width="2.4"/></g>
+<text x="352" y="186" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Vulnerable app</text>
+<text x="352" y="203" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">Fetches the URL it is</text>
+<text x="352" y="220" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">given</text>
+<rect x="533.5" y="166" width="220" height="76" rx="5" fill="#000" opacity="0.06"/>
+<rect x="532" y="164" width="220" height="76" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="532" y="164" width="4" height="76" rx="0" fill="#DA3633"/>
+<g transform="translate(548,174) scale(0.5000)"><rect x="10" y="4" width="28" height="40" rx="3" fill="#0078D4"/><path d="M15 12 h18 M15 18 h18 M15 24 h18" stroke="#fff" stroke-width="2.4"/><circle cx="32" cy="36" r="2.4" fill="#DFF6DD"/></g>
+<rect x="697.525008" y="174" width="44" height="20" rx="10" fill="#25171C" stroke="#F85149" stroke-width="1"/>
+<text x="720" y="188" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#F85149" text-anchor="middle">leaks</text>
+<text x="582" y="186" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start">IMDSv1</text>
+<text x="582" y="203" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">Answers any GET</text>
+<polyline points="272,202 302,202" fill="none" stroke="#F85149" stroke-width="2" marker-end="url(#mA4262C)"/>
+<polyline points="502,202 532,202" fill="none" stroke="#F85149" stroke-width="2" marker-end="url(#mA4262C)"/>
+<text x="52" y="268" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#F85149" text-anchor="start">Role credentials go back to the attacker in the page response.</text>
+<text x="52" y="320" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12.5" font-weight="600" fill="#E6EDF3" text-anchor="start">IMDSv2 (HttpTokens = required)</text>
+<rect x="53.5" y="334" width="220" height="76" rx="5" fill="#000" opacity="0.06"/>
+<rect x="52" y="332" width="220" height="76" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="52" y="332" width="4" height="76" rx="0" fill="#238636"/>
+<g transform="translate(68,342) scale(0.5000)"><circle cx="24" cy="15" r="9" fill="#0078D4"/><path d="M6 44 q18-26 36 0 Z" fill="#0078D4"/></g>
+<circle cx="252" cy="348" r="11" fill="#238636"/>
+<text x="252" y="352" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">2</text>
+<text x="102" y="354" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Attacker</text>
+<text x="102" y="371" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">Same relayed GET</text>
+<rect x="303.5" y="334" width="200" height="76" rx="5" fill="#000" opacity="0.06"/>
+<rect x="302" y="332" width="200" height="76" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="302" y="332" width="4" height="76" rx="0" fill="#238636"/>
+<g transform="translate(318,342) scale(0.5000)"><rect x="4" y="8" width="40" height="32" rx="3" fill="#0078D4"/><rect x="4" y="8" width="40" height="8" rx="3" fill="#005A9E"/><circle cx="9" cy="12" r="1.6" fill="#fff"/><circle cx="14" cy="12" r="1.6" fill="#fff"/><path d="M10 24 h28 M10 30 h20" stroke="#fff" stroke-width="2.4"/></g>
+<text x="352" y="354" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Vulnerable app</text>
+<text x="352" y="371" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">Cannot add the token</text>
+<text x="352" y="388" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">header</text>
+<rect x="533.5" y="334" width="220" height="76" rx="5" fill="#000" opacity="0.06"/>
+<rect x="532" y="332" width="220" height="76" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="532" y="332" width="4" height="76" rx="0" fill="#238636"/>
+<g transform="translate(548,342) scale(0.5000)"><path d="M24 3 L41 9 V23 C41 34 33 41 24 45 C15 41 7 34 7 23 V9 Z" fill="#0078D4"/><path d="M24 3 V45 C33 41 41 34 41 23 V9 Z" fill="#005A9E"/><path d="M16 24 l6 6 11-12" stroke="#fff" stroke-width="3.2" fill="none"/></g>
+<rect x="687.107328" y="342" width="55" height="20" rx="10" fill="#15221A" stroke="#3FB950" stroke-width="1"/>
+<text x="715" y="356" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#3FB950" text-anchor="middle">refused</text>
+<text x="582" y="354" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start">IMDSv2</text>
+<text x="582" y="371" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">401: no session token</text>
+<polyline points="272,370 302,370" fill="none" stroke="#3FB950" stroke-width="2" marker-end="url(#m107C10)"/>
+<polyline points="502,370 532,370" fill="none" stroke="#3FB950" stroke-width="2" marker-end="url(#m107C10)"/>
+<rect x="53.5" y="432" width="700" height="118" rx="5" fill="#000" opacity="0.06"/>
+<rect x="52" y="430" width="700" height="118" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="52" y="430" width="4" height="118" rx="0" fill="#1F6FEB"/>
+<g transform="translate(68,440) scale(0.5000)"><rect x="5" y="6" width="38" height="36" rx="4" fill="#C19C00"/><circle cx="19" cy="24" r="7" fill="none" stroke="#fff" stroke-width="3"/><path d="M26 24 h12 M33 24 v6 M37 24 v5" stroke="#fff" stroke-width="3"/></g>
+<text x="102" y="452" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start">How a legitimate client gets in</text>
+<text x="102" y="469" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">PUT /latest/api/token with a TTL header returns a token; every GET then sends X-aws-ec2-metadata-token.</text>
+<text x="102" y="486" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">Hop limit 1 means the PUT response cannot leave the instance; containers on the host need 2.</text>
+<text x="102" y="503" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">Set the account default once: aws ec2 modify-instance-metadata-defaults --http-tokens required.</text>
+<rect x="796" y="100" width="452" height="470" rx="6" fill="#151B23" stroke="#3D444D" stroke-width="1.4"/>
+<g transform="translate(806,108) scale(0.5000)"><circle cx="24" cy="24" r="19" fill="#8A8886"/><ellipse cx="24" cy="24" rx="8" ry="19" fill="none" stroke="#fff" stroke-width="2"/><path d="M5 24 h38 M9 14 h30 M9 34 h30" stroke="#fff" stroke-width="2"/></g>
+<text x="838" y="125" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#E6EDF3" text-anchor="start">Residency: three layers</text>
+<text x="1236" y="125" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9198A1" text-anchor="end">all three, not one</text>
+<rect x="813.5" y="142" width="420" height="128" rx="5" fill="#000" opacity="0.06"/>
+<rect x="812" y="140" width="420" height="128" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="812" y="140" width="4" height="128" rx="0" fill="#9E6A03"/>
+<g transform="translate(828,150) scale(0.5000)"><path d="M24 3 L41 9 V23 C41 34 33 41 24 45 C15 41 7 34 7 23 V9 Z" fill="#107C10"/><rect x="14" y="17" width="20" height="14" fill="none" stroke="#fff" stroke-width="2.4"/><path d="M14 24 h20 M24 17 v14" stroke="#fff" stroke-width="2"/></g>
+<circle cx="1212" cy="156" r="11" fill="#9E6A03"/>
+<text x="1212" y="160" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">A</text>
+<text x="862" y="162" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start">SCP on the OU</text>
+<text x="862" y="179" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">Denies any request whose aws:RequestedRegion is not</text>
+<text x="862" y="196" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">eu-central-1; global services exempt; break-glass role</text>
+<text x="862" y="213" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">excluded</text>
+<rect x="813.5" y="282" width="420" height="128" rx="5" fill="#000" opacity="0.06"/>
+<rect x="812" y="280" width="420" height="128" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="812" y="280" width="4" height="128" rx="0" fill="#9E6A03"/>
+<g transform="translate(828,290) scale(0.5000)"><rect x="5" y="5" width="38" height="38" rx="5" fill="#107C10"/><path d="M33 17 a11 11 0 1 0 2 11" fill="none" stroke="#fff" stroke-width="3.2"/><path d="M28 12 h8 v8" fill="none" stroke="#fff" stroke-width="3.2"/></g>
+<circle cx="1212" cy="296" r="11" fill="#9E6A03"/>
+<text x="1212" y="300" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">B</text>
+<text x="862" y="302" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Backups and copies stay in-region</text>
+<text x="862" y="319" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">Backup vault, snapshots and AMI copies in eu-central-1; any</text>
+<text x="862" y="336" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">DR region must also be inside the residency boundary</text>
+<rect x="813.5" y="422" width="420" height="128" rx="5" fill="#000" opacity="0.06"/>
+<rect x="812" y="420" width="420" height="128" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="812" y="420" width="4" height="128" rx="0" fill="#9E6A03"/>
+<g transform="translate(828,430) scale(0.5000)"><rect x="5" y="6" width="38" height="36" rx="4" fill="#C19C00"/><circle cx="19" cy="24" r="7" fill="none" stroke="#fff" stroke-width="3"/><path d="M26 24 h12 M33 24 v6 M37 24 v5" stroke="#fff" stroke-width="3"/></g>
+<circle cx="1212" cy="436" r="11" fill="#9E6A03"/>
+<text x="1212" y="440" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">C</text>
+<text x="862" y="442" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start">KMS keys are regional</text>
+<text x="862" y="459" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">A snapshot encrypted with a Frankfurt key cannot be read in</text>
+<text x="862" y="476" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">another region without a deliberate re-encrypting copy</text>
+<text x="32" y="634" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#9198A1" text-anchor="start">IMDS answers on 169.254.169.254; tokens last up to 6 hours. Controls supported: CM-6, AC-3, SC-12, SC-28, SA-9(5); CIS AWS Foundations 5.6 (IMDSv2).</text>
+<line x1="32" y1="646" x2="1248" y2="646" stroke="#30363D"/>
+<text x="32" y="666" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#7D8590">Generalised design: no client names, tenant IDs, addresses or data. Icons are simplified originals, not AWS artwork.</text>
+<text x="1248" y="666" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#7D8590" text-anchor="end">Rich Dieu · github.com/richdieu-max</text>
+</svg>

@@ -1,0 +1,77 @@
+# SOP-AWS-003 · AWS Client VPN with IAM Identity Center sign-in
+
+Give administrators and support staff private access to a VPC through an OpenVPN tunnel (TLS on 443). Every connection signs in with an organisational account and MFA through IAM Identity Center, and access to each network is granted by group. This is the AWS counterpart of [SOP-AZ-004](../azure-procedures/SOP-AZ-004-point-to-site-vpn-entra-id.md).
+
+**Family:** AWS procedures · **Covers:** the one-time endpoint build, SAML federation with IAM Identity Center, group-based authorization rules, and the user connection · **Does not cover:** site-to-site VPN, Transit Gateway designs, or shell access to single instances (Session Manager in [SOP-AWS-002](SOP-AWS-002-hardened-ec2-data-residency-region.md) is simpler for that).
+
+## Shape
+
+![A laptop running the AWS-provided client signs in through IAM Identity Center with MFA, receives a SAML assertion carrying its groups, tunnels to the Client VPN endpoint over TLS 443, and reaches only the subnets its group's authorization rule allows; the endpoint is associated with private subnets and logs every connection to CloudWatch Logs](diagrams/sop-aws-003-1.svg)
+
+## Address plan
+
+| Range | Size | Use |
+|---|---|---|
+| `<vpc-range>` | for example `10.30.0.0/16` | The VPC |
+| Target subnets | one per AZ for resilience | Where the endpoint's network interfaces live |
+| `<client-cidr>` | between /12 and /22, **outside** the VPC, for example `172.20.0.0/22` | Addresses handed to connected laptops. It cannot be changed after creation |
+
+The client range must not overlap the VPC, any peered network, or the home and office networks users connect from.
+
+## Build (administrator, once)
+
+1. **Server certificate.** Import a server certificate into **ACM** in the endpoint's region, or request a private one. Client VPN requires a server certificate even when users sign in with SAML.
+2. **Identity Center application.** Applications › **Add application** › custom SAML 2.0 application named `client-vpn`:
+   - ACS URL `http://127.0.0.1:35001`, audience `urn:amazon:webservices:clientvpn`.
+   - Attribute mappings: `Subject` → `${user:email}` (format `emailAddress`), `memberOf` → `${user:groups}`.
+   - Assign the groups allowed to connect, for example `vpn-admins` and `vpn-support`. Download the application's SAML metadata file.
+3. **IAM identity provider.** IAM › Identity providers › **Add provider** › SAML, name `identity-center-client-vpn`, upload the metadata.
+4. **Endpoint.** VPC › Client VPN endpoints › **Create**: client CIDR, server certificate from step 1, **Use user-based authentication › Federated authentication** with the provider from step 3, connection logging **on** to a CloudWatch log group, **split tunnel on**, transport UDP 443, session timeout 8 hours, VPC and a security group `sg-client-vpn`.
+5. **Associate** the endpoint with one private subnet per AZ.
+6. **Authorization rules**, one per group and network. **Grant access to users in a specific access group**: the access group ID is the Identity Center **group ID** (the value sent in `memberOf`), not the group name. For example, `vpn-admins` gets `10.30.0.0/16` and `vpn-support` gets `10.30.20.0/24` only.
+7. **Security groups.** Resources accept traffic **from `sg-client-vpn`**, on the ports needed only. Nothing is allowed from the internet.
+8. **Client configuration.** **Download client configuration** and distribute the `.ovpn` file over an access-controlled channel. Any change to the endpoint's DNS or authentication settings means distributing it again.
+
+![Sequence from clicking Connect: the AWS-provided client opens the browser to Identity Center, the user signs in with MFA, the assertion posts to 127.0.0.1:35001 on the laptop, the client presents it to the endpoint over TLS 443, the endpoint checks it against the IAM SAML provider, assigns an address from the client CIDR, and the authorization rule for the user's group decides which routes work; alongside, where each step can fail](diagrams/sop-aws-003-2.svg)
+
+## Build (CLI)
+
+```bash
+aws ec2 create-client-vpn-endpoint --region eu-central-1 \
+  --client-cidr-block 172.20.0.0/22 \
+  --server-certificate-arn arn:aws:acm:eu-central-1:111122223333:certificate/00000000-0000-0000-0000-000000000000 \
+  --authentication-options 'Type=federated-authentication,FederatedAuthentication={SAMLProviderArn=arn:aws:iam::111122223333:saml-provider/identity-center-client-vpn}' \
+  --connection-log-options Enabled=true,CloudwatchLogGroup=/client-vpn/prd \
+  --split-tunnel --transport-protocol udp --vpn-port 443 --session-timeout-hours 8 \
+  --vpc-id vpc-0ccccccccccccccc1 --security-group-ids sg-0ddddddddddddddd1
+
+aws ec2 associate-client-vpn-target-network --client-vpn-endpoint-id cvpn-endpoint-0123456789abcdef0 --subnet-id subnet-0aaaaaaaaaaaaaaa1
+aws ec2 authorize-client-vpn-ingress --client-vpn-endpoint-id cvpn-endpoint-0123456789abcdef0 \
+  --target-network-cidr 10.30.0.0/16 --access-group-id <vpn-admins-group-id> --description "vpn-admins: whole VPC"
+```
+
+## Connect (each user, once per device)
+
+Install the **AWS-provided client** (the SAML sign-in needs it; generic OpenVPN clients do not support it) › **File › Manage profiles › Add** the `.ovpn` file › **Connect**. A browser opens; sign in and approve MFA. The client shows Connected and an address from the client CIDR. Then reach private resources by their private IP or private DNS name.
+
+## Troubleshooting
+
+| Symptom | Cause and fix |
+|---|---|
+| Browser shows a SAML error after sign-in | ACS URL or audience typo in the Identity Center application, or the user is not assigned to it |
+| Connected, but nothing answers | No authorization rule for the user's group (the access group ID must be the group's ID), or the resource's security group does not allow `sg-client-vpn` |
+| Some users connect, others do not | Their group is not assigned to the Identity Center application, or the `memberOf` mapping is missing |
+| Clients cannot resolve private names | Set the endpoint's DNS servers to the VPC resolver (the VPC's base address plus two) and redistribute the profile |
+| Unexpected cost | Client VPN is billed per hour for each associated subnet and per connection hour; remove associations for unused environments |
+
+## Control mapping
+
+| Framework | Reference | How this supports it |
+|---|---|---|
+| NIST SP 800-53 R5 | AC-17, AC-17(1), AC-17(2) | Remote access only through an authenticated, monitored, encrypted tunnel |
+| | IA-2, IA-2(1), IA-8 | Organisational identities with MFA through federation |
+| | AC-3, AC-6 | Group-based authorization rules limit each group to the networks it needs |
+| | AU-2, AU-12 | Connection logs in CloudWatch Logs, sign-ins in Identity Center and CloudTrail |
+| | SC-8, SC-7 | TLS tunnel; resources have no public exposure |
+| NIST CSF 2.0 | PR.AA-03, PR.AA-05, PR.IR-01 | Authenticated, least-privilege access over protected networks |
+| ISO/IEC 27001:2022 | 8.5, 8.20, 8.24 | Secure authentication; network security; cryptography |

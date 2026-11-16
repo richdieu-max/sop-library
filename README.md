@@ -2,9 +2,9 @@
 
 ![Diagrams](https://github.com/richdieu-max/sop-library/actions/workflows/diagrams.yml/badge.svg)
 
-**36 standard operating procedures · 109 architecture, flow and concept diagrams · 12 technology families**
+**44 standard operating procedures · 125 architecture, flow and concept diagrams · 14 technology families**
 
-Runbooks from my work across Microsoft Azure, Entra ID, Intune, security operations, regulated (GxP) lab IT and Windows support. Every page reads directly on GitHub: what the procedure achieves, two to four diagrams (how it fits together, the procedure or decision path, and the mechanism behind it), prerequisites, the steps (portal first, then PowerShell / CLI, then at scale), how to verify it, how to roll it back (for procedures that change something), troubleshooting, and the controls it supports.
+Runbooks from my work across Microsoft Azure, Entra ID, Intune, AWS, Red Hat Enterprise Linux, security operations, regulated (GxP) lab IT and Windows support. Every page reads directly on GitHub: what the procedure achieves, two to four diagrams (how it fits together, the procedure or decision path, and the mechanism behind it), prerequisites, the steps (console first, then PowerShell, AWS CLI or shell, then at scale), how to verify it, how to roll it back (for procedures that change something), troubleshooting, and the controls it supports.
 
 > **Sanitized reference edition.** Client names, hostnames, tenant IDs and ticket numbers are replaced with placeholders (Contoso, documentation IP ranges, sample change numbers). Microsoft's own built-in role, policy and app IDs are kept because the commands need them.
 
@@ -21,6 +21,8 @@ Runbooks from my work across Microsoft Azure, Entra ID, Intune, security operati
 | GOV | [Governance & Compliance](#governance--compliance) | Change control and objective evidence for regulated (GxP) systems | 1 |
 | AZ-0xx | [Microsoft Azure · Procedures](#microsoft-azure--procedures) | Hands-on builds: tenant, hardened VMs, cloning, VPN, backup and DR | 5 |
 | AZ-1xx | [Microsoft Azure · Landing Zone Build & Assessment Series](#microsoft-azure--landing-zone-build--assessment-series) | Landing zone as code, customer stamps, and the security assessment of that build | 8 |
+| AWS | [AWS · Procedures](#aws--procedures) | Account foundation, hardened EC2, Client VPN, two-region backup and DR: the AWS counterparts of AZ-001 to AZ-005 | 4 |
+| LNX | [Linux Administration (RHEL)](#linux-administration-rhel) | Hardening, patching, Active Directory join and troubleshooting for Red Hat Enterprise Linux 8 and 9 | 4 |
 | M365 | [Microsoft 365](#microsoft-365) | Collaboration platform migrations | 1 |
 | MIG | [Cloud Migration](#cloud-migration) | Moving on-premises servers to the cloud | 1 |
 | LAB | [Regulated Lab IT](#regulated-lab-it) | GxP lab workstations, lab applications and compliance agents | 3 |
@@ -89,6 +91,24 @@ Runbooks from my work across Microsoft Azure, Entra ID, Intune, security operati
 | AZ-107 | [Validating logging and proving every alert fires](azure-landing-zone-series/SOP-AZ-107-validating-logging-alerts-fire.md) | Logging validation: source inventory, retention, alerts on destructive actions, immutability, and a controlled test that fires every alert. |
 | AZ-108 | [Mapping one build to many compliance frameworks](azure-landing-zone-series/SOP-AZ-108-mapping-build-many-compliance-frameworks.md) | One control matrix crosswalked to NIST CSF 2.0, SP 800-53 R5, ISO 27001:2022, HIPAA and a PCI DSS boundary, every row backed by hashed evidence. |
 
+### AWS · Procedures
+
+| SOP | Runbook | What it covers |
+|---|---|---|
+| AWS-001 | [AWS account foundation: day-zero identity, logging and guardrails](aws-procedures/SOP-AWS-001-creating-securing-aws-account.md) | Lock down root, sign in through IAM Identity Center, turn on CloudTrail, GuardDuty, Security Hub and Config, and set the defaults AWS leaves off. |
+| AWS-002 | [Deploying a hardened EC2 instance in a data-residency region](aws-procedures/SOP-AWS-002-hardened-ec2-data-residency-region.md) | Private EC2 with IMDSv2, KMS-encrypted volumes, Session Manager access and backup, kept in one region by a service control policy. |
+| AWS-003 | [AWS Client VPN with IAM Identity Center sign-in](aws-procedures/SOP-AWS-003-client-vpn-identity-center.md) | Client VPN with SAML sign-in and MFA through Identity Center, and group-based authorization rules for each network. |
+| AWS-004 | [Two-region backup and disaster recovery for AWS workloads](aws-procedures/SOP-AWS-004-multi-region-backup-disaster-recovery.md) | AWS Backup with locked vaults and cross-region copies, Elastic Disaster Recovery for tier 1, RDS cross-region backups, restore testing. |
+
+### Linux Administration (RHEL)
+
+| SOP | Runbook | What it covers |
+|---|---|---|
+| LNX-001 | [Hardening a RHEL server to a CIS baseline with Ansible, proven by OpenSCAP](linux-administration/SOP-LNX-001-hardening-rhel-baseline-ansible-openscap.md) | Dry run, staged apply by tag, OpenSCAP before and after, reading the results, dated exceptions, rollback by area. |
+| LNX-002 | [Patching RHEL servers in rings, with maintenance windows and rollback](linux-administration/SOP-LNX-002-rhel-patching-maintenance-windows.md) | Patch rings, the SLA clock, an Ansible play with batches and health checks, live kernel patching, and rollback with dnf history or GRUB. |
+| LNX-003 | [Joining RHEL to Active Directory with realmd and SSSD](linux-administration/SOP-LNX-003-join-rhel-active-directory-sssd.md) | realm join, SSSD access by AD group, sudo by group, home directories, and the usual failures (DNS, clock, keytab, cache). |
+| LNX-004 | [The RHEL troubleshooting toolkit for support engineers](linux-administration/SOP-LNX-004-rhel-troubleshooting-toolkit.md) | A triage order with the commands for each step: systemd, sockets, firewalld, SELinux denials, disk and memory, names and time, recent changes. |
+
 ### Microsoft 365
 
 | SOP | Runbook | What it covers |
@@ -139,38 +159,42 @@ Runbooks from my work across Microsoft Azure, Entra ID, Intune, security operati
 
 | NIST SP 800-53 Rev. 5 family | Procedures |
 |---|---|
-| AC · Access Control | ID-001, ID-002, AZ-104, EM-003, AZ-004 |
-| IA · Identification and Authentication | ID-001, AZ-001, AZ-004, AZ-104 |
+| AC · Access Control | ID-001, ID-002, AZ-104, EM-003, AZ-004, AWS-001, AWS-003, LNX-003 |
+| IA · Identification and Authentication | ID-001, AZ-001, AZ-004, AZ-104, AWS-001, AWS-003, LNX-003 |
 | PS · Personnel Security | ID-002 |
-| CM · Configuration Management | GOV-001, EM-002, EM-004, EM-005, LAB-001, LAB-003, AZ-101, AZ-102, EP-001 |
-| SI · System and Information Integrity | EM-005, SEC-001, EM-001, EP-002, LAB-002 |
-| RA · Risk Assessment | SEC-001, AZ-103 |
-| IR · Incident Response | SEC-002 |
-| AU · Audit and Accountability | AZ-107, SEC-002, GOV-001 |
-| CP · Contingency Planning | AZ-005, AZ-003 |
-| SC · System and Communications Protection | AZ-002, AZ-004, AZ-106, LBL-002 |
+| CM · Configuration Management | GOV-001, EM-002, EM-004, EM-005, LAB-001, LAB-003, AZ-101, AZ-102, EP-001, AWS-002, LNX-001, LNX-002 |
+| SI · System and Information Integrity | EM-005, SEC-001, EM-001, EP-002, LAB-002, LNX-002, AWS-001 |
+| RA · Risk Assessment | SEC-001, AZ-103, LNX-001 |
+| IR · Incident Response | SEC-002, LNX-004 |
+| AU · Audit and Accountability | AZ-107, SEC-002, GOV-001, AWS-001, LNX-001 |
+| CP · Contingency Planning | AZ-005, AZ-003, AWS-004 |
+| SC · System and Communications Protection | AZ-002, AZ-004, AZ-106, LBL-002, AWS-002, AWS-003 |
 | SA / SR · Acquisition and Supply Chain | AZ-105, GOV-001 |
-| CA · Assessment, Authorization and Monitoring | AZ-108, SEC-001 |
+| CA · Assessment, Authorization and Monitoring | AZ-108, SEC-001, LNX-001 |
 
 | Regulation or benchmark | Procedures |
 |---|---|
 | FDA 21 CFR Part 11 / EU GMP Annex 11 (GxP) | GOV-001, LAB-001, LAB-002, LAB-003, ID-001 |
 | CIS Microsoft 365 / Intune benchmarks | ID-001, EM-002, EM-005 |
-| CIS Critical Security Controls v8 (Control 7) | SEC-001, EM-005 |
+| CIS Critical Security Controls v8 (Control 7) | SEC-001, EM-005, LNX-002 |
+| CIS AWS Foundations Benchmark | AWS-001, AWS-002 |
+| CIS Red Hat Enterprise Linux Benchmark (OpenSCAP) | LNX-001 |
 
 ## Reproducing the figures
 
-The 55 concept diagrams are generated from specs in [tools/diagrams](tools/diagrams): `python3 tools/diagrams/build.py` rebuilds them with the standard library only, and the Diagrams workflow fails if a committed SVG drifts from its spec. The renderer's rules are in [tools/diagrams/README.md](tools/diagrams/README.md).
+The 71 concept diagrams are generated from specs in [tools/diagrams](tools/diagrams): `python3 tools/diagrams/build.py` rebuilds them with the standard library only, and the Diagrams workflow fails if a committed SVG drifts from its spec. The renderer's rules are in [tools/diagrams/README.md](tools/diagrams/README.md).
 
 ## Related
 
 - [endpoint-identity-runbooks](https://github.com/richdieu-max/endpoint-identity-runbooks): short-form versions of AZ-001, AZ-004, AZ-005, EM-001 and EM-003
 - [azure-posture-check](https://github.com/richdieu-max/azure-posture-check): the read-only evidence script referenced by the AZ-1xx series
+- [aws-posture-check](https://github.com/richdieu-max/aws-posture-check): the same check for AWS, used to verify AWS-001 and AWS-002
+- [rhel-hardening](https://github.com/richdieu-max/rhel-hardening): the Ansible role and OpenSCAP evidence tooling behind LNX-001 and LNX-002
 - [security-assessment-toolkit](https://github.com/richdieu-max/security-assessment-toolkit): the workbook behind AZ-103 to AZ-108
 
 ## License
 
-Text and the 109 diagrams are licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE): reuse and adapt them, including commercially, as long as you credit Rich Dieu and link back to this repository. Microsoft product names, policy IDs and built-in role IDs that appear in the commands belong to Microsoft.
+Text and the 125 diagrams are licensed under [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE): reuse and adapt them, including commercially, as long as you credit Rich Dieu and link back to this repository. Microsoft, AWS and Red Hat product names, and the policy and role IDs that appear in the commands, belong to their owners.
 
 ---
 

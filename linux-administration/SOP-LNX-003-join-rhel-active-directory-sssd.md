@@ -1,0 +1,117 @@
+# SOP-LNX-003 · Joining RHEL to Active Directory with realmd and SSSD
+
+Let people sign in to RHEL servers with their Active Directory accounts, limit each server to the AD groups that should use it, and grant sudo through AD groups instead of local accounts. When someone leaves, disabling their AD account is enough. This is the Linux side of the joiner-mover-leaver flow in [SOP-ID-002](../identity-access/SOP-ID-002-joiner-mover-leaver-lifecycle.md).
+
+**Family:** Linux administration · **Covers:** prerequisites (DNS, time, ports), `realm join`, SSSD access control and sudo by group, home directories, verification, leaving the domain, and the usual failures · **Does not cover:** IdM (FreeIPA) with an AD trust, which is the better design above a few hundred hosts; Kerberos-protected NFS; or Microsoft Entra Domain Services specifics beyond a note.
+
+## Shape
+
+![A RHEL server discovers the domain through DNS SRV records, joins with realm join (creating a computer account and keytab), and from then on SSSD authenticates users with Kerberos and looks up users and groups over LDAP, caching them for offline logins; access is limited to two AD groups and sudo is granted to one](diagrams/sop-lnx-003-1.svg)
+
+| Piece | Role |
+|---|---|
+| `realmd` | Discovers the domain and runs the join (computer account, keytab, `sssd.conf`, PAM and NSS through authselect) |
+| `sssd` | Authenticates (Kerberos), resolves users and groups (LDAP), caches credentials for offline login |
+| `adcli` | Creates the computer object and the keytab `/etc/krb5.keytab` |
+| `oddjob-mkhomedir` | Creates a home directory at first login |
+
+## Before you start
+
+| Item | Requirement |
+|---|---|
+| DNS | The server uses the domain controllers (or a resolver that forwards to them): `dig -t SRV _ldap._tcp.ad.contoso.com` returns them |
+| Time | chrony synced, within 5 minutes of the domain controllers, or Kerberos fails |
+| Ports | From the server to the DCs: 53, 88 (TCP and UDP), 389, 464, 3268, 636 if LDAPS is required |
+| Account | An AD account allowed to join computers to the target OU, for example `svc-linuxjoin`, used interactively, never stored in a script |
+| OU and groups | Target OU `OU=Linux,OU=Servers,DC=ad,DC=contoso,DC=com`; groups `GG-Linux-Web-Login` and `GG-Linux-Web-Admins` |
+| Hostname | A short hostname of 15 characters or fewer (the NetBIOS limit for the computer account), set with `hostnamectl` |
+
+## Steps
+
+1. **Packages.**
+
+   ```bash
+   dnf install -y realmd sssd sssd-tools adcli oddjob oddjob-mkhomedir samba-common-tools krb5-workstation
+   ```
+
+2. **Discover.** Confirms DNS works and lists the packages still needed:
+
+   ```bash
+   realm discover ad.contoso.com
+   ```
+
+3. **Join** into the right OU:
+
+   ```bash
+   realm join ad.contoso.com -U svc-linuxjoin --computer-ou="OU=Linux,OU=Servers,DC=ad,DC=contoso,DC=com"
+   ```
+
+4. **Who may sign in.** Deny everyone, then permit the login and admin groups:
+
+   ```bash
+   realm deny --all
+   realm permit -g GG-Linux-Web-Login@ad.contoso.com GG-Linux-Web-Admins@ad.contoso.com
+   ```
+
+5. **Short names and home directories.** In `/etc/sssd/sssd.conf`, under `[domain/ad.contoso.com]`:
+
+   ```ini
+   use_fully_qualified_names = False
+   fallback_homedir = /home/%u
+   ```
+
+   Then `authselect enable-feature with-mkhomedir`, `systemctl enable --now oddjobd`, and `systemctl restart sssd`.
+
+6. **sudo by group.** Create `/etc/sudoers.d/60-ad-admins` with mode 0440, and validate it with `visudo -cf` before saving:
+
+   ```text
+   %GG-Linux-Web-Admins ALL=(ALL) ALL
+   ```
+
+   Group names that contain spaces need a backslash before each space (`%Linux\ Admins`). Keep a local break-glass admin with a key, so a domain outage does not lock out every administrator.
+
+![Sign-in path for an AD user over SSH: sshd hands the password to PAM, pam_sss asks SSSD, SSSD gets a Kerberos ticket from a domain controller and reads group membership over LDAP, the simple access provider checks the permitted groups, then sudo checks the sudoers group rule; and where each step fails: DNS, clock skew, keytab, group not permitted, sudoers syntax](diagrams/sop-lnx-003-2.svg)
+
+## Verify
+
+```bash
+realm list                                  # configured: kerberos-member, permitted groups listed
+sssctl domain-status ad.contoso.com         # Online status: Online, and the DCs it found
+id jdoe                                     # uid, gid and the AD groups
+klist -k /etc/krb5.keytab                   # the computer account's keys
+ssh jdoe@web-prd-01 'sudo -l'               # an admin sees the group rule; a login-only user is refused sudo
+```
+
+A user in neither group must get `Permission denied` at SSH login, and the refusal must appear in `/var/log/secure`.
+
+## Roll back
+
+```bash
+realm leave ad.contoso.com -U svc-linuxjoin --remove   # removes the computer account as well
+```
+
+Then remove `/etc/sudoers.d/60-ad-admins`. Home directories created for AD users stay on disk; archive or remove them according to the data policy.
+
+## Troubleshooting
+
+| Symptom | Cause and fix |
+|---|---|
+| `realm discover` finds nothing | The server's DNS does not point at AD; fix the resolver before anything else |
+| Join fails with `Clock skew too great` | Time is off by more than 5 minutes; fix chrony, then join again |
+| `id user` returns "no such user" | Wrong name format (the user is `jdoe@ad.contoso.com` until step 5), or SSSD is offline: check `sssctl domain-status` and `journalctl -u sssd` |
+| Valid users get `Permission denied` | Their group is not in the `realm permit` list, or group membership changed and the cache is still old: `sss_cache -E` |
+| Logins work, sudo does not | Sudoers group name does not match exactly (case and spaces), or the file has the wrong mode; check with `sudo -l -U jdoe` |
+| Works for weeks, then stops | The computer account password was reset, or the object was deleted in AD; check with `klist -k` and rejoin |
+
+**Microsoft Entra Domain Services:** the same steps apply. The managed domain's DNS servers are the domain controllers, the default join OU is `AADDC Computers`, and Microsoft's documented join account is a member of `AAD DC Administrators`.
+
+## Control mapping
+
+| Framework | Reference | How this supports it |
+|---|---|---|
+| NIST SP 800-53 R5 | AC-2, AC-2(1) | Accounts managed centrally in AD; leavers lose access when their AD account is disabled |
+| | AC-3, AC-6 | Per-server login groups; sudo only through an admin group |
+| | IA-2, IA-5 | Unique organisational accounts; domain password and lockout policy apply |
+| | AU-2, AU-3 | Logins and refusals recorded with the user's real identity |
+| NIST CSF 2.0 | PR.AA-01, PR.AA-05 | Identities managed; access permissions enforced |
+| ISO/IEC 27001:2022 | 5.15, 5.16, 5.18 | Access control; identity management; access rights |

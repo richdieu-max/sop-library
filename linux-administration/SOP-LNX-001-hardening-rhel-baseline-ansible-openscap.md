@@ -1,0 +1,102 @@
+# SOP-LNX-001 · Hardening a RHEL server to a CIS baseline with Ansible, proven by OpenSCAP
+
+Apply a hardening baseline to Red Hat Enterprise Linux 8 and 9 servers with an Ansible role, then check it with an OpenSCAP scan against the CIS profile Red Hat ships. Keep the scan results as hashed evidence. The role, playbooks and summary tool are published in [rhel-hardening](https://github.com/richdieu-max/rhel-hardening). This runbook is how to use them in a change window.
+
+**Family:** Linux administration · **Covers:** dry run, staged apply by tag, scanning, reading the results, accepting exceptions, rollback · **Does not cover:** building the image, disk layout (separate partitions are decided at install), or central log forwarding.
+
+## Shape
+
+![The control node dry-runs the role, applies it in stages by tag to one canary host and then the group, scans each host with OpenSCAP using the CIS Server Level 1 profile, and turns the results into a hashed evidence folder; failures are either fixed and re-scanned, or accepted with a dated exception](diagrams/sop-lnx-001-1.svg)
+
+| Stage | What happens | Stop if |
+|---|---|---|
+| Baseline scan | OpenSCAP before any change, so the improvement can be shown | The scan cannot run (content missing) |
+| Dry run | `--check --diff` on one canary host | The diff touches something you did not expect |
+| Staged apply | SSH and auth first, then the rest, on the canary | You lose the session or sudo |
+| Group apply | The rest of the group, with `--forks` limited | More than one host fails |
+| Proof | Scan again, summarise, hash | A high-severity rule still fails without an exception |
+
+## Before you start
+
+| Item | Requirement |
+|---|---|
+| Access | An admin account with an SSH **key** and sudo on every host. The role's preflight refuses to turn off password login for a user without `authorized_keys` |
+| Console | Out-of-band console access to the canary (hypervisor or cloud serial console) in case SSH breaks |
+| Control node | `ansible-core` 2.15+, collections from `requirements.yml`, Python 3.9+ |
+| Hosts | RHEL 8 or 9 registered for updates, `scap-security-guide` available from the repositories |
+| Change | Approved change `CHG0012347` naming the canary and the group; a maintenance window if any host will need a reboot |
+| Snapshot | A VM snapshot or backup of the canary taken in the window |
+
+## Steps
+
+1. **Inventory.** Copy `inventory/hosts.example.yml` to `inventory/hosts.yml`; put each host in a group. Give container hosts `rhel_baseline_sysctl_overrides: {net.ipv4.ip_forward: 1}` and web servers `rhel_baseline_firewall_services: [ssh, https]`.
+2. **Baseline scan** (before):
+
+   ```bash
+   ansible-playbook playbooks/evidence.yml --limit canary-01 -e scap_profile=cis_server_l1
+   ```
+
+3. **Dry run** on the canary. Read the diff for SSH, firewalld and PAM above all:
+
+   ```bash
+   ansible-playbook playbooks/site.yml --limit canary-01 --check --diff
+   ```
+
+4. **Apply SSH and authentication first**, keep the current session open, then open a **second** SSH session to prove you can still log in and `sudo -v`:
+
+   ```bash
+   ansible-playbook playbooks/site.yml --limit canary-01 --tags ssh,auth
+   ```
+
+5. **Apply the rest** on the canary. Read the last task's message: it lists any reboot that is pending (SELinux relabel, crypto policy, kernel update). Reboot in the window if needed.
+6. **Group apply**, a few hosts at a time:
+
+   ```bash
+   ansible-playbook playbooks/site.yml --limit rhel_web --forks 5
+   ```
+
+7. **Scan again** and keep the folder:
+
+   ```bash
+   ansible-playbook playbooks/evidence.yml --limit rhel_web -e scap_profile=cis_server_l1
+   ```
+
+![How one OpenSCAP rule becomes a finding: the rule result in the ARF file, its severity and NIST references from the SCAP Security Guide benchmark, the status mapping (fail high or medium to FAIL, fail low or error to WARN, pass and fixed to PASS, not applicable counted only), and the three ways a FAIL is closed: fix and re-scan, change the role and re-run, or a dated exception](diagrams/sop-lnx-001-2.svg)
+
+## Read the results
+
+Open `report.md` in each host's evidence folder. Work FAIL rows first, then WARN rows:
+
+| Finding | Usual cause | Action |
+|---|---|---|
+| Separate partition for `/var/log/audit`, `/tmp`, `/home` | Decided when the disk was laid out | Exception now; fix in the next build image |
+| Remote log host not configured | Logs are not yet forwarded | Configure rsyslog forwarding or the SIEM agent under its own change |
+| Boot loader password | Needs a password held by the organisation | Set with `grub2-setpassword`, store the password in the vault, or accept |
+| A rule the role should have fixed | A variable switched the area off, or a later change drifted | Re-run the role with that tag and re-scan |
+
+Record each accepted exception with the rule ID, the reason, the owner and an expiry date. The scan will keep reporting it, and that is intended.
+
+## Roll back
+
+Every area is tagged, so roll back only what broke. Set the area off (for example `rhel_baseline_firewall: false`) and revert by hand, or restore the canary snapshot. For SSH, the RHEL 9 settings live in one file, `/etc/ssh/sshd_config.d/40-baseline.conf`: delete it and restart sshd from the console. On RHEL 8, remove the block between the `rhel_baseline` markers in `sshd_config`.
+
+## Troubleshooting
+
+| Symptom | Cause and fix |
+|---|---|
+| Preflight stops: "has no authorized_keys" | The admin user signs in with a password. Add a key with `ssh-copy-id` first, or set `rhel_baseline_ssh_password_authentication: true` for that host |
+| sudo fails after applying `auth` | pam_faillock locked the account after failed attempts: `faillock --user <name> --reset` from the console |
+| An application stopped after SELinux was set to enforcing | Find the denial with `ausearch -m AVC -ts recent`, then fix the file context (`semanage fcontext`, `restorecon`) or the boolean. Do not switch SELinux off |
+| `oscap` exits with code 2 | Some rules failed. That is a result, not an error; the playbook treats it as success |
+| Containers lost networking | IP forwarding was turned off; give that group the forwarding override and re-run the `kernel` tag |
+
+## Control mapping
+
+| Framework | Reference | How this supports it |
+|---|---|---|
+| NIST SP 800-53 R5 | CM-2, CM-6, CM-7 | A defined, version-controlled baseline applied the same way to every host |
+| | CA-2, CA-7, RA-5 | Independent assessment against a published benchmark, repeated after changes |
+| | AC-7, AC-17, IA-2, IA-5(1) | SSH and authentication settings in the role |
+| | AU-2, AU-12, SI-7 | Audit rules and AIDE |
+| NIST CSF 2.0 | PR.PS-01, ID.RA-01, DE.CM-09 | Configuration management, vulnerability identification, platform monitoring |
+| CIS Red Hat Enterprise Linux Benchmark | Level 1 Server | Scored with the SCAP Security Guide `cis_server_l1` profile |

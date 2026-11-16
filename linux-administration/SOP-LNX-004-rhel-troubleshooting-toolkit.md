@@ -1,0 +1,124 @@
+# SOP-LNX-004 · The RHEL troubleshooting toolkit for support engineers
+
+The everyday commands for finding out why a RHEL 8 or 9 server is not doing its job. The order is the one that usually finds the fault fastest: is it up, is the service running, is it listening, can traffic reach it, is SELinux or the firewall saying no, is the disk or memory full. This is the Linux counterpart of [SOP-WIN-004](../windows-support/SOP-WIN-004-windows-command-line-toolkit.md).
+
+**Family:** Linux administration · **Covers:** a triage order, the commands for each step with what good and bad output look like, collecting a support bundle, and running the same checks across many hosts with Ansible · **Does not cover:** kernel crash dump analysis (kdump and crash), or performance tuning.
+
+## Shape
+
+![Triage order as a decision path: reach the host, then systemd service state, then the listening socket, then firewalld, then SELinux denials, then disk, memory and load, then name resolution and routes, then the application's own logs; each step names the command and the most common cause found there](diagrams/sop-lnx-004-1.svg)
+
+## The triage order
+
+### 1 · Is the service running?
+
+```bash
+systemctl status nginx                         # Active: active (running)? Last log lines?
+systemctl list-units --state=failed            # everything that failed since boot
+journalctl -u nginx -b --no-pager -n 100       # this boot's log for the unit
+journalctl -p err -b                           # all errors this boot, every unit
+systemctl cat nginx                            # the unit file actually in use, drop-ins included
+```
+
+A unit in `failed` state with `status=203/EXEC` means the binary path is wrong or not executable. A unit with `status=1/FAILURE` failed inside the program, so read its own log.
+
+### 2 · Is it listening, and where?
+
+```bash
+ss -tlnp                                       # TCP listeners with the owning process
+ss -tlnp 'sport = :443'                        # one port
+ss -tn state established '( dport = :5432 )'   # who it is connected to
+```
+
+A service listening on `127.0.0.1:443` works locally but is unreachable from other hosts. Check its bind address.
+
+### 3 · Can traffic reach it?
+
+```bash
+firewall-cmd --get-active-zones                # which zone each interface is in
+firewall-cmd --zone=public --list-all          # services and ports allowed there
+ip -br addr; ip route; ip route get 192.0.2.50 # addresses, routes, and the route to one host
+nmcli device status; nmcli connection show     # NetworkManager's view
+curl -vk https://127.0.0.1/ ; curl -vk https://web-prd-01/   # local first, then remote
+```
+
+If it works locally but not remotely, the cause is the firewall, the bind address, or a network path outside the host.
+
+### 4 · Is SELinux saying no?
+
+```bash
+getenforce
+ausearch -m AVC,USER_AVC -ts recent            # denials in the last 10 minutes
+sealert -a /var/log/audit/audit.log            # explained denials (setroubleshoot-server)
+ls -Z /srv/www                                 # file contexts
+semanage port -l | grep http_port_t            # ports a confined service may use
+```
+
+The usual fixes keep SELinux enforcing:
+- Wrong file context: `semanage fcontext -a -t httpd_sys_content_t "/srv/www(/.*)?"`, then `restorecon -Rv /srv/www`.
+- Non-standard port: `semanage port -a -t http_port_t -p tcp 8443`.
+- A behaviour switched off by a boolean: for example `setsebool -P httpd_can_network_connect on`.
+
+`setenforce 0` is a test, not a fix. If the problem disappears in permissive mode, SELinux is the cause, so return to enforcing and fix the context, port or boolean.
+
+![SELinux decision path for a denial: read the AVC record (source context, target context, class, permission), then decide between a wrong file label (restorecon or semanage fcontext), a non-standard port (semanage port), a boolean (setsebool -P), or a genuine policy gap (a local module from audit2allow, reviewed before loading); with the commands for each and why disabling SELinux is never the fix](diagrams/sop-lnx-004-2.svg)
+
+### 5 · Disk, memory and load
+
+```bash
+df -hT; df -i                                  # space and inodes per filesystem
+du -xh --max-depth=1 /var | sort -h | tail     # what is filling /var
+lsof +L1                                       # deleted files still held open (space not freed)
+free -h; vmstat 1 5                            # memory, swap, run queue
+uptime; top -o %CPU                            # load and the busiest processes
+journalctl -k -b | grep -i -E 'oom|killed process'   # the OOM killer at work
+```
+
+A full `/var/log` stops logging and often stops the services that write there. Rotate and compress logs before deleting them, and never delete the active audit log.
+
+### 6 · Names and time
+
+```bash
+resolvectl status 2>/dev/null || cat /etc/resolv.conf
+dig +short web-prd-01.contoso.com; getent hosts web-prd-01
+chronyc tracking; timedatectl                  # clock offset and sync source
+```
+
+Clock offset breaks Kerberos (see [SOP-LNX-003](SOP-LNX-003-join-rhel-active-directory-sssd.md)), TLS certificate checks and log correlation.
+
+### 7 · Packages and recent changes
+
+```bash
+dnf history list | head                        # what changed, and when
+dnf history info last
+rpm -V nginx                                   # files changed since the package installed them
+rpm -qf /usr/sbin/nginx                        # which package owns a file
+```
+
+## Collect evidence for Red Hat support
+
+```bash
+sos report --batch --case-id 01234567          # writes /var/tmp/sosreport-*.tar.xz
+```
+
+The archive contains configuration and logs. Treat it as confidential, and upload it only to the support case.
+
+## The same checks across many hosts
+
+```bash
+ansible rhel_web -b -m ansible.builtin.command -a 'systemctl is-active nginx'
+ansible rhel_web -b -m ansible.builtin.shell -a 'df -h /var | tail -1'
+ansible rhel_web -b -m ansible.builtin.shell -a 'ausearch -m AVC -ts today 2>/dev/null | grep -c type=AVC || true'
+```
+
+Ad hoc commands are for looking. Anything that changes a host belongs in a playbook under change control.
+
+## Control mapping
+
+| Framework | Reference | How this supports it |
+|---|---|---|
+| NIST SP 800-53 R5 | IR-4, SI-4 | A repeatable triage order and evidence collection |
+| | AC-3, AC-6 | Denials resolved by fixing labels, ports and booleans, with SELinux left enforcing |
+| | AU-6, AU-9 | Logs read, not deleted; the active audit log protected |
+| | CM-3, CM-5 | Changes go through playbooks under change control, not ad hoc edits |
+| NIST CSF 2.0 | DE.AE-02, RS.AN-03 | Events analysed; the cause established before a fix |

@@ -116,8 +116,9 @@ def esc(s):
 
 # ------------------------------------------------------------------ diagram
 class Diagram:
-    def __init__(self, title, subtitle, height=760, accent=C.blue, aria=None):
+    def __init__(self, title, subtitle, height=760, accent=C.blue, aria=None, vendor="Microsoft"):
         self.title, self.subtitle, self.h, self.accent = title, subtitle, height, accent
+        self.vendor = vendor
         self.aria = aria or title
         self.parts, self.markers, self.warnings = [], {}, []
         self.min_bottom = 100
@@ -414,7 +415,7 @@ class Diagram:
     def footer(self):
         y = self.h - 34
         self.parts.append(f'<line x1="32" y1="{y}" x2="1248" y2="{y}" stroke="{C.rule}"/>')
-        self.parts.append(f'<text x="32" y="{y + 20}" font-family="{FONT}" font-size="11" fill="{C.light}">Generalised design: no client names, tenant IDs, addresses or data. Icons are simplified originals, not Microsoft artwork.</text>')
+        self.parts.append(f'<text x="32" y="{y + 20}" font-family="{FONT}" font-size="11" fill="{C.light}">Generalised design: no client names, tenant IDs, addresses or data. Icons are simplified originals, not {self.vendor} artwork.</text>')
         self.parts.append(f'<text x="1248" y="{y + 20}" font-family="{FONT}" font-size="11" fill="{C.light}" text-anchor="end">Rich Dieu · github.com/richdieu-max</text>')
 
     def render(self, path):

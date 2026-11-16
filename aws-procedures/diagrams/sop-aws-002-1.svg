@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 712" width="1280" height="712" role="img" aria-label="Hardened EC2 in one approved region: no public IP, Session Manager in, everything in-region">
+<title>Hardened EC2 in one approved region: no public IP, Session Manager in, everything in-region</title>
+<defs><marker id="m0078D4" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#4493F8"/></marker><marker id="m107C10" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto"><path d="M0,0 L10,5 L0,10 z" fill="#3FB950"/></marker></defs>
+<rect width="1280" height="712" fill="#0D1117"/>
+<rect x="0" y="0" width="1280" height="6" fill="#9E6A03"/>
+<text x="32" y="48" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="22" font-weight="600" fill="#E6EDF3">Hardened EC2 in one approved region: no public IP, Session Manager in, everything in-region</text>
+<text x="32" y="72" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" fill="#9198A1">Two instances in private subnets behind a load balancer; admins arrive through Systems Manager, and an SCP refuses every other region.</text>
+<rect x="32" y="100" width="1216" height="460" rx="6" fill="#151B23" stroke="#D29922" stroke-width="1.4" stroke-dasharray="6 4"/>
+<g transform="translate(42,108) scale(0.5000)"><circle cx="24" cy="24" r="19" fill="#8A8886"/><ellipse cx="24" cy="24" rx="8" ry="19" fill="none" stroke="#fff" stroke-width="2"/><path d="M5 24 h38 M9 14 h30 M9 34 h30" stroke="#fff" stroke-width="2"/></g>
+<text x="74" y="125" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#D29922" text-anchor="start">Region eu-central-1 (Frankfurt) · VPC 10.30.0.0/16</text>
+<text x="1236" y="125" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11.5" font-weight="400" fill="#9198A1" text-anchor="end">SCP: every other region denied</text>
+<rect x="53.5" y="152" width="230" height="92" rx="5" fill="#000" opacity="0.06"/>
+<rect x="52" y="150" width="230" height="92" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="52" y="150" width="4" height="92" rx="0" fill="#1F6FEB"/>
+<g transform="translate(68,160) scale(0.5000)"><circle cx="24" cy="15" r="9" fill="#0078D4"/><path d="M6 44 q18-26 36 0 Z" fill="#0078D4"/></g>
+<circle cx="262" cy="166" r="11" fill="#1F6FEB"/>
+<text x="262" y="170" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">1</text>
+<text x="102" y="172" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Administrator</text>
+<text x="102" y="189" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">Identity Center sign-in with</text>
+<text x="102" y="206" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">MFA</text>
+<text x="102" y="223" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">No key pair, no VPN</text>
+<rect x="53.5" y="272" width="230" height="92" rx="5" fill="#000" opacity="0.06"/>
+<rect x="52" y="270" width="230" height="92" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="52" y="270" width="4" height="92" rx="0" fill="#1F6FEB"/>
+<g transform="translate(68,280) scale(0.5000)"><rect x="4" y="7" width="40" height="34" rx="3" fill="#005A9E"/><path d="M11 17 l9 7 -9 7" stroke="#fff" stroke-width="3" fill="none"/><path d="M23 31 h13" stroke="#fff" stroke-width="3"/></g>
+<circle cx="262" cy="286" r="11" fill="#1F6FEB"/>
+<text x="262" y="290" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle">2</text>
+<text x="102" y="292" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Session Manager</text>
+<text x="102" y="309" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">Shell or RDP through SSM</text>
+<text x="102" y="326" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">Every session logged</text>
+<polyline points="167,242 167,270" fill="none" stroke="#4493F8" stroke-width="2" marker-end="url(#m0078D4)"/>
+<rect x="53.5" y="392" width="230" height="92" rx="5" fill="#000" opacity="0.06"/>
+<rect x="52" y="390" width="230" height="92" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="52" y="390" width="4" height="92" rx="0" fill="#238636"/>
+<g transform="translate(68,400) scale(0.5000)"><circle cx="17" cy="16" r="7" fill="#005A9E"/><path d="M3 40 q14-20 28 0Z" fill="#005A9E"/><circle cx="31" cy="18" r="7" fill="#0078D4"/><path d="M17 44 q14-20 28 0Z" fill="#0078D4"/></g>
+<text x="102" y="412" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Users (HTTPS)</text>
+<text x="102" y="429" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">Reach only the load balancer</text>
+<rect x="306" y="140" width="280" height="380" rx="6" fill="#151B23" stroke="#3D444D" stroke-width="1.4"/>
+<g transform="translate(316,148) scale(0.5000)"><rect x="3" y="15" width="42" height="18" rx="3" fill="#0078D4"/><rect x="8" y="21" width="4" height="6" fill="#fff"/><rect x="15" y="21" width="4" height="6" fill="#fff"/><rect x="22" y="21" width="4" height="6" fill="#fff"/><rect x="29" y="21" width="4" height="6" fill="#fff"/><rect x="36" y="21" width="4" height="6" fill="#fff"/><circle cx="41" cy="24" r="1.8" fill="#DFF6DD"/></g>
+<text x="348" y="165" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#E6EDF3" text-anchor="start">Public subnets</text>
+<rect x="323.5" y="382" width="248" height="100" rx="5" fill="#000" opacity="0.06"/>
+<rect x="322" y="380" width="248" height="100" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="322" y="380" width="4" height="100" rx="0" fill="#238636"/>
+<g transform="translate(338,390) scale(0.5000)"><rect x="5" y="5" width="38" height="38" rx="5" fill="#0078D4"/><path d="M11 24 h26 M31 18 l6 6 -6 6 M17 18 l-6 6 6 6" stroke="#fff" stroke-width="3" fill="none"/><rect x="20" y="10" width="8" height="8" rx="1" fill="#fff"/></g>
+<text x="372" y="402" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Application Load Balancer</text>
+<text x="372" y="419" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">443 from the internet</text>
+<text x="372" y="436" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">Targets: the two instances</text>
+<polyline points="282,436 322,436" fill="none" stroke="#3FB950" stroke-width="2" marker-end="url(#m107C10)"/>
+<rect x="610" y="140" width="340" height="380" rx="6" fill="#151B23" stroke="#3D444D" stroke-width="1.4"/>
+<g transform="translate(620,148) scale(0.5000)"><path d="M15 21 v-6 a9 9 0 0 1 18 0 v6" fill="none" stroke="#605E5C" stroke-width="4"/><rect x="10" y="21" width="28" height="22" rx="3" fill="#605E5C"/><circle cx="24" cy="31" r="3" fill="#fff"/><rect x="23" y="31" width="2" height="6" fill="#fff"/></g>
+<text x="652" y="165" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#E6EDF3" text-anchor="start">Private subnets, AZ a and b</text>
+<rect x="627.5" y="182" width="308" height="100" rx="5" fill="#000" opacity="0.06"/>
+<rect x="626" y="180" width="308" height="100" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="626" y="180" width="4" height="100" rx="0" fill="#9E6A03"/>
+<g transform="translate(642,190) scale(0.5000)"><rect x="10" y="4" width="28" height="40" rx="3" fill="#0078D4"/><path d="M15 12 h18 M15 18 h18 M15 24 h18" stroke="#fff" stroke-width="2.4"/><circle cx="32" cy="36" r="2.4" fill="#DFF6DD"/></g>
+<rect x="871.885376" y="190" width="52" height="20" rx="10" fill="#15221A" stroke="#3FB950" stroke-width="1"/>
+<text x="898" y="204" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#3FB950" text-anchor="middle">private</text>
+<text x="676" y="202" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start">web-prd-euc1-01  (AZ a)</text>
+<text x="676" y="219" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">IMDSv2 required · no public IP</text>
+<text x="676" y="236" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">EBS encrypted with KMS key</text>
+<rect x="627.5" y="298" width="308" height="100" rx="5" fill="#000" opacity="0.06"/>
+<rect x="626" y="296" width="308" height="100" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="626" y="296" width="4" height="100" rx="0" fill="#9E6A03"/>
+<g transform="translate(642,306) scale(0.5000)"><rect x="10" y="4" width="28" height="40" rx="3" fill="#0078D4"/><path d="M15 12 h18 M15 18 h18 M15 24 h18" stroke="#fff" stroke-width="2.4"/><circle cx="32" cy="36" r="2.4" fill="#DFF6DD"/></g>
+<rect x="871.885376" y="306" width="52" height="20" rx="10" fill="#15221A" stroke="#3FB950" stroke-width="1"/>
+<text x="898" y="320" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="10.5" font-weight="600" fill="#3FB950" text-anchor="middle">private</text>
+<text x="676" y="318" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start">web-prd-euc1-02  (AZ b)</text>
+<text x="676" y="335" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">Same build, second zone</text>
+<text x="676" y="352" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">Instance profile: SSM + CloudWatch</text>
+<rect x="627.5" y="414" width="308" height="88" rx="5" fill="#000" opacity="0.06"/>
+<rect x="626" y="412" width="308" height="88" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<rect x="626" y="412" width="4" height="88" rx="0" fill="#1F6FEB"/>
+<g transform="translate(642,422) scale(0.5000)"><rect x="3" y="14" width="16" height="20" rx="3" fill="#0078D4"/><rect x="29" y="14" width="16" height="20" rx="3" fill="#005A9E"/><path d="M19 24 h10" stroke="#605E5C" stroke-width="3"/><circle cx="24" cy="24" r="3" fill="#107C10"/></g>
+<text x="676" y="434" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start">VPC interface endpoints</text>
+<text x="676" y="451" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">ssm, ssmmessages, ec2messages, logs,</text>
+<text x="676" y="468" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">kms</text>
+<polyline points="570,430 598,430 598,240 626,240" fill="none" stroke="#3FB950" stroke-width="2" marker-end="url(#m107C10)"/>
+<rect x="548" y="318.0" width="100" height="16" rx="3" fill="#0D1117" opacity="0.92"/>
+<text x="598.0" y="330.0" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#3FB950" text-anchor="middle">443 from ALB SG</text>
+<polyline points="282,316 612,316 612,456 626,456" fill="none" stroke="#4493F8" stroke-width="2" stroke-dasharray="5 4" marker-end="url(#m0078D4)"/>
+<rect x="974" y="140" width="254" height="380" rx="6" fill="#151B23" stroke="#3D444D" stroke-width="1.4"/>
+<g transform="translate(984,148) scale(0.5000)"><path d="M24 3 L41 9 V23 C41 34 33 41 24 45 C15 41 7 34 7 23 V9 Z" fill="#0078D4"/><path d="M24 3 V45 C33 41 41 34 41 23 V9 Z" fill="#005A9E"/><path d="M16 24 l6 6 11-12" stroke="#fff" stroke-width="3.2" fill="none"/></g>
+<text x="1016" y="165" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#E6EDF3" text-anchor="start">Same region only</text>
+<rect x="991.5" y="182" width="222" height="72" rx="5" fill="#000" opacity="0.06"/>
+<rect x="990" y="180" width="222" height="72" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<g transform="translate(1002,190) scale(0.5000)"><rect x="5" y="5" width="38" height="38" rx="5" fill="#107C10"/><path d="M33 17 a11 11 0 1 0 2 11" fill="none" stroke="#fff" stroke-width="3.2"/><path d="M28 12 h8 v8" fill="none" stroke="#fff" stroke-width="3.2"/></g>
+<text x="1036" y="202" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start">AWS Backup</text>
+<text x="1036" y="219" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">Daily by tag, locked vault</text>
+<rect x="991.5" y="266" width="222" height="72" rx="5" fill="#000" opacity="0.06"/>
+<rect x="990" y="264" width="222" height="72" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<g transform="translate(1002,274) scale(0.5000)"><rect x="5" y="6" width="38" height="36" rx="4" fill="#C19C00"/><circle cx="19" cy="24" r="7" fill="none" stroke="#fff" stroke-width="3"/><path d="M26 24 h12 M33 24 v6 M37 24 v5" stroke="#fff" stroke-width="3"/></g>
+<text x="1036" y="286" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start">KMS key</text>
+<text x="1036" y="303" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">alias/ebs-prd-euc1, rotation</text>
+<text x="1036" y="320" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">on</text>
+<rect x="991.5" y="350" width="222" height="72" rx="5" fill="#000" opacity="0.06"/>
+<rect x="990" y="348" width="222" height="72" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<g transform="translate(1002,358) scale(0.5000)"><rect x="4" y="6" width="40" height="36" rx="3" fill="#008575"/><path d="M9 30 l7 -8 6 5 8 -11 9 7" stroke="#fff" stroke-width="2.6" fill="none"/><path d="M9 36 h30" stroke="#fff" stroke-width="1.6"/></g>
+<text x="1036" y="370" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start">CloudWatch</text>
+<text x="1036" y="387" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">Agent logs and metrics</text>
+<rect x="991.5" y="434" width="222" height="72" rx="5" fill="#000" opacity="0.06"/>
+<rect x="990" y="432" width="222" height="72" rx="5" fill="#1C2128" stroke="#3D444D" stroke-width="1"/>
+<g transform="translate(1002,442) scale(0.5000)"><rect x="5" y="5" width="38" height="38" rx="6" fill="#A4262C"/><path d="M14 34 l12 -12 M28 12 a7 7 0 1 0 8 8 l-4 -1 -3 -3 -1 -4Z" stroke="#fff" stroke-width="3.2" fill="#fff"/></g>
+<text x="1036" y="454" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="13.5" font-weight="600" fill="#E6EDF3" text-anchor="start">Patch Manager</text>
+<text x="1036" y="471" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="12" font-weight="400" fill="#9198A1" text-anchor="start">Baseline and window</text>
+<rect x="32" y="578" width="1216" height="62" rx="6" fill="#25171C" stroke="#F85149" stroke-width="1.4" stroke-dasharray="6 4"/>
+<g transform="translate(42,586) scale(0.5000)"><path d="M24 4 L45 42 H3 Z" fill="#A4262C"/><rect x="22" y="17" width="4" height="13" fill="#fff"/><circle cx="24" cy="35" r="2.5" fill="#fff"/></g>
+<text x="74" y="603" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="14" font-weight="600" fill="#F85149" text-anchor="start">Wizard defaults: a default subnet assigns a public IP, and the suggested security group allows SSH from 0.0.0.0/0. Steps 3 to 6 change both.</text>
+<text x="32" y="666" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" font-weight="400" fill="#9198A1" text-anchor="start">2 AZs, 0 public IPs on instances, 0 inbound admin ports. Controls supported: SC-7, AC-17, SC-28, SC-12, CM-6, CP-9, SA-9(5).</text>
+<line x1="32" y1="678" x2="1248" y2="678" stroke="#30363D"/>
+<text x="32" y="698" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#7D8590">Generalised design: no client names, tenant IDs, addresses or data. Icons are simplified originals, not AWS artwork.</text>
+<text x="1248" y="698" font-family="'Segoe UI', 'Segoe UI Web', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif" font-size="11" fill="#7D8590" text-anchor="end">Rich Dieu · github.com/richdieu-max</text>
+</svg>
