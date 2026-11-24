@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aws-posture-check"
+version = "1.0.0"
+description = "Read-only AWS security posture check that writes a hashed evidence bundle"
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Rich Dieu" }]
+requires-python = ">=3.9"
+dependencies = ["boto3>=1.28"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Security",
+    "Topic :: System :: Systems Administration",
+]
+
+[project.scripts]
+aws-posture-check = "aws_posture_check.cli:run"
+
+[tool.setuptools.packages.find]
+where = ["src"]

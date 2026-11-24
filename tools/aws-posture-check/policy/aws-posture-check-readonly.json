@@ -1,0 +1,41 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "AwsPostureCheckReadOnly",
+      "Effect": "Allow",
+      "Action": [
+        "iam:GetAccountSummary",
+        "iam:GetAccountPasswordPolicy",
+        "iam:ListVirtualMFADevices",
+        "iam:GenerateCredentialReport",
+        "iam:GetCredentialReport",
+        "sso:ListInstances",
+        "cloudtrail:DescribeTrails",
+        "cloudtrail:GetTrailStatus",
+        "cloudtrail:GetEventSelectors",
+        "config:DescribeConfigurationRecorders",
+        "config:DescribeConfigurationRecorderStatus",
+        "guardduty:ListDetectors",
+        "guardduty:GetDetector",
+        "securityhub:DescribeHub",
+        "securityhub:GetEnabledStandards",
+        "access-analyzer:ListAnalyzers",
+        "s3:GetAccountPublicAccessBlock",
+        "ec2:GetEbsEncryptionByDefault",
+        "ec2:DescribeInstances",
+        "ec2:DescribeVolumes",
+        "ec2:DescribeSecurityGroups",
+        "ec2:DescribeVpcs",
+        "ec2:DescribeFlowLogs",
+        "kms:ListAliases",
+        "ssm:DescribeInstanceInformation",
+        "backup:ListBackupPlans",
+        "backup:GetBackupPlan",
+        "backup:ListProtectedResources",
+        "backup:ListBackupVaults"
+      ],
+      "Resource": "*"
+    }
+  ]
+}

@@ -99,7 +99,7 @@ Global services run their control plane in `us-east-1`, so they are exempt throu
 1. **Systems Manager › Fleet Manager** lists the instance as managed; **Session Manager › Start session** opens a shell without any inbound port.
 2. `aws ec2 describe-instances --instance-ids i-... --query 'Reservations[].Instances[].{IMDS:MetadataOptions.HttpTokens,PublicIp:PublicIpAddress}'` returns `required` and `null`.
 3. Launching any resource in another region as a normal role fails with `UnauthorizedOperation`, and the message names the SCP.
-4. `aws-posture-check --regions eu-central-1 --areas Compute Network Backup` shows the instances as PASS.
+4. `aws-posture-check --regions eu-central-1 --areas Compute Network Backup` shows the instances as PASS. Run it again after the first scheduled backup: until a recovery point exists, BKP-02 reports FAIL for a new instance, and EC2-02 warns if a volume uses the AWS-managed `aws/ebs` key instead of the customer-managed key.
 
 ## Roll back
 
