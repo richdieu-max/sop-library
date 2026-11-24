@@ -41,7 +41,7 @@ jobs:
       - name: Evidence summary tool tests
         run: python3 -m unittest discover -s tools/rhel-hardening/tests -v
       - name: Install Ansible
-        run: pip install "ansible-core>=2.15,<2.18"
+        run: pip install ansible-core
       - name: Install collections
         working-directory: tools/rhel-hardening
         run: ansible-galaxy collection install -r requirements.yml
