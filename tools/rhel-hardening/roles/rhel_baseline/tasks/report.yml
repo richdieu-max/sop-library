@@ -1,0 +1,51 @@
+---
+# The last task of the role lists every reboot that is pending, from this
+# run and from earlier ones, so the operator can plan it in the window.
+- name: Report | Ask dnf whether the kernel or core libraries need a reboot
+  ansible.builtin.command:
+    cmd: dnf needs-restarting -r
+  register: rhel_baseline_needs_restarting
+  changed_when: false
+  failed_when: rhel_baseline_needs_restarting.rc not in [0, 1]
+  check_mode: false
+
+- name: Report | Check for a pending SELinux relabel
+  ansible.builtin.stat:
+    path: /.autorelabel
+  register: rhel_baseline_autorelabel
+
+- name: Report | Read the running kernel command line
+  ansible.builtin.slurp:
+    src: /proc/cmdline
+  register: rhel_baseline_report_cmdline
+
+- name: Report | Collect the pending reboots
+  ansible.builtin.set_fact:
+    rhel_baseline_reboot_reasons: >-
+      {{ (rhel_baseline_reboot_reasons
+          + (['kernel: a kernel or core library update is installed but not running (dnf needs-restarting -r)']
+             if rhel_baseline_needs_restarting.rc == 1 else [])
+          + (['SELinux: a full relabel is scheduled (/.autorelabel)']
+             if rhel_baseline_autorelabel.stat.exists and rhel_baseline_reboot_reasons | select('search', 'relabel') | list | length == 0
+             else [])
+          + (['kernel arguments: ' ~ (rhel_baseline_kernel_args
+               | difference((rhel_baseline_report_cmdline.content | b64decode).split()) | join(' ')) ~ ' take effect at the next boot']
+             if rhel_baseline_audit | bool
+                and rhel_baseline_kernel_args | difference((rhel_baseline_report_cmdline.content | b64decode).split()) | length > 0
+             else []))
+         | unique }}
+
+- name: Report | Pending reboots
+  ansible.builtin.debug:
+    msg: >-
+      {{ (['No reboot is pending.'] if rhel_baseline_reboot_reasons | length == 0
+          else ['Reboot needed in the maintenance window:'] + rhel_baseline_reboot_reasons)
+         + ((['Warnings:'] + rhel_baseline_warnings) if rhel_baseline_warnings | length > 0 else [])
+         + (['Check mode: nothing was changed.'] if ansible_check_mode else []) }}
+
+- name: Report | Reboot now (rhel_baseline_reboot_if_needed is true)
+  ansible.builtin.reboot:
+    reboot_timeout: "{{ rhel_baseline_reboot_timeout }}"
+  when:
+    - rhel_baseline_reboot_if_needed | bool
+    - rhel_baseline_reboot_reasons | length > 0

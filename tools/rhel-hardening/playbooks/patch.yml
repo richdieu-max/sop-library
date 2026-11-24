@@ -1,0 +1,319 @@
+---
+# Patch a ring in serial batches with health checks (SOP-LNX-002).
+#
+#   Ring 1, weekly window (security errata at least 3 days old, set in group_vars/ring1.yml):
+#     ansible-playbook playbooks/patch.yml -e patch_target=ring1
+#   Ring 2, monthly window, only the errata that passed ring 1:
+#     ansible-playbook playbooks/patch.yml -e patch_target=ring2_web -e patch_change_id=CHG0012348 \
+#       -e @reports/patch/<ring 1 run id>/advisories.yml
+#   Emergency window, critical errata only:
+#     ansible-playbook playbooks/patch.yml -e patch_target=ring2 -e '{"patch_severities": ["Critical"]}'
+#   Dry run (what would update, current health, no changes):
+#     ansible-playbook playbooks/patch.yml -e patch_target=ring2_web --check
+#
+# serial with max_fail_percentage 0 stops the play after the first batch
+# with a failed host, so the rest of the ring keeps running unpatched.
+# Every host gets a record in reports/patch/<run id>/ with the dnf
+# transaction ID, which is the rollback handle (dnf history undo <id>).
+
+- name: Patch in serial batches with health checks
+  hosts: "{{ patch_target | default('patch_target_not_set') }}"
+  become: true
+  gather_facts: true
+  serial: "{{ patch_serial | default(2) }}"
+  max_fail_percentage: "{{ patch_max_fail_percentage | default(0) }}"
+  # Settings come from inventory (group_vars, host_vars) or -e. Play vars
+  # would override inventory, so each cfg_ name below only supplies the
+  # default for the patch_ variable of the same name.
+  vars:
+    # patch_change_id: change record for the window, for example CHG0012348
+    cfg_change_id: "{{ patch_change_id | default('') }}"
+    # patch_mode: security (security errata only) or all (every update)
+    cfg_mode: "{{ patch_mode | default('security') }}"
+    # patch_severities: only these severities, for example [Critical] in an emergency window
+    cfg_severities: "{{ patch_severities | default([]) }}"
+    # patch_advisories: only these advisories, for example the ones that passed ring 1
+    cfg_advisories: "{{ patch_advisories | default([]) }}"
+    # patch_min_errata_age_days: only security errata issued at least this many days ago (ring 1: 3)
+    cfg_min_errata_age_days: "{{ patch_min_errata_age_days | default(0) }}"
+    # patch_exclude: packages to leave alone
+    cfg_exclude: "{{ patch_exclude | default([]) }}"
+    # patch_allow_reboot: reboot when dnf needs-restarting -r says so
+    cfg_allow_reboot: "{{ patch_allow_reboot | default(true) }}"
+    cfg_reboot_timeout: "{{ patch_reboot_timeout | default(900) }}"
+    # patch_health_checks: see tasks/health_check.yml
+    cfg_health_checks: "{{ patch_health_checks | default([]) }}"
+    cfg_health_retries: "{{ patch_health_retries | default(10) }}"
+    cfg_health_delay: "{{ patch_health_delay | default(15) }}"
+    # patch_pre_tasks_file: task file run before patching, for example to leave a load balancer pool
+    cfg_pre_tasks_file: "{{ patch_pre_tasks_file | default('') }}"
+    # patch_post_tasks_file: task file run after the health checks, for example to rejoin the pool
+    cfg_post_tasks_file: "{{ patch_post_tasks_file | default('') }}"
+    # patch_fail_if_outstanding: fail a host that still has critical or important errata
+    cfg_fail_if_outstanding: "{{ patch_fail_if_outstanding | default(false) }}"
+    cfg_report_root: "{{ patch_report_root | default(playbook_dir ~ '/../reports/patch') }}"
+    patch_run_id: >-
+      {{ ansible_play_hosts_all | map('extract', hostvars) | selectattr('patch_run_id_once', 'defined')
+         | map(attribute='patch_run_id_once') | first }}
+    patch_report_dir: "{{ cfg_report_root }}/{{ patch_run_id }}"
+
+  pre_tasks:
+    - name: Check a target was given
+      ansible.builtin.assert:
+        that: patch_target is defined
+        fail_msg: Set the hosts to patch with -e patch_target=<group or host>
+        quiet: true
+      run_once: true
+
+    - name: Set the run id from the control node clock (UTC)
+      ansible.builtin.set_fact:
+        patch_run_id_once: "{{ patch_run_id_override | default(now(utc=true, fmt='%Y%m%dT%H%M%SZ')) }}"
+      run_once: true
+
+    - name: Check the host is RHEL 8 or 9
+      ansible.builtin.assert:
+        that:
+          - ansible_facts.distribution == 'RedHat'
+          - ansible_facts.distribution_major_version in ['8', '9']
+        quiet: true
+
+    - name: Check the subscription status
+      ansible.builtin.command:
+        cmd: subscription-manager status
+      register: patch_subscription
+      changed_when: false
+      failed_when: false
+      check_mode: false
+
+    - name: Warn when the host is not registered
+      ansible.builtin.debug:
+        msg: "subscription-manager status returned {{ patch_subscription.rc }}: errata data may be missing. {{ patch_subscription.stdout_lines | join(' ') }}"
+      when: patch_subscription.rc != 0
+
+    - name: Run the health checks before patching
+      ansible.builtin.include_tasks: tasks/health_check.yml
+      vars:
+        patch_health_phase: before
+
+    - name: Run the pre-patch hook (for example, leave the pool)
+      ansible.builtin.include_tasks: "{{ cfg_pre_tasks_file }}"
+      when: cfg_pre_tasks_file | length > 0
+
+    - name: Record the running kernel before patching
+      ansible.builtin.set_fact:
+        patch_kernel_before: "{{ ansible_facts.kernel }}"
+
+    - name: Read the last dnf transaction before patching
+      ansible.builtin.command:
+        cmd: dnf -q history list
+      register: patch_history_before
+      changed_when: false
+      check_mode: false
+
+    - name: List outstanding security errata before patching
+      ansible.builtin.command:
+        cmd: dnf -q updateinfo list --security
+      register: patch_outstanding_before
+      changed_when: false
+      check_mode: false
+
+  tasks:
+    - name: Read the issue date of each outstanding security advisory
+      ansible.builtin.command:
+        cmd: dnf -q updateinfo info --security
+      register: patch_updateinfo_info
+      changed_when: false
+      check_mode: false
+      when:
+        - cfg_advisories | length == 0
+        - cfg_min_errata_age_days | int > 0
+
+    - name: Choose the advisories to apply
+      ansible.builtin.set_fact:
+        patch_selected_advisories: >-
+          {{ cfg_advisories if cfg_advisories | length > 0
+             else ((patch_updateinfo_info.stdout | default('')
+                    | regex_findall('Update ID: *([A-Z]+-[0-9]+:[0-9]+)(?:(?!Update ID:)(?s:.))*?(?:Issued|Updated) *: *([0-9]{4}-[0-9]{2}-[0-9]{2})')
+                    | selectattr('1', 'le', '%Y-%m-%d' | strftime(now(utc=true).timestamp() | int - (cfg_min_errata_age_days | int) * 86400))
+                    | map(attribute='0') | unique | list)
+                   if cfg_min_errata_age_days | int > 0 else []) }}
+        patch_use_dnf_cli: "{{ cfg_advisories | length > 0 or cfg_min_errata_age_days | int > 0 or cfg_severities | length > 0 }}"
+
+    - name: Show the advisories chosen by age
+      ansible.builtin.debug:
+        msg: >-
+          {{ patch_selected_advisories | length }} advisories issued at least
+          {{ cfg_min_errata_age_days }} days ago: {{ patch_selected_advisories | join(', ') }}
+      when: cfg_min_errata_age_days | int > 0 and cfg_advisories | length == 0
+
+    # The SOP's task: every security erratum that applies (or every update
+    # with cfg_mode: all). Latest is the point of a patch play.
+    - name: Apply security errata
+      ansible.builtin.dnf:  # noqa: package-latest
+        name: "*"
+        security: "{{ cfg_mode == 'security' }}"
+        exclude: "{{ cfg_exclude }}"
+        state: latest
+      register: patch_dnf
+      when: not patch_use_dnf_cli | bool
+
+    # The dnf module has no --advisory or --sec-severity option, so the
+    # selective cases call dnf directly.
+    - name: Apply the selected advisories or severities
+      ansible.builtin.command:
+        argv: >-
+          {{ ['dnf', '-y', 'upgrade']
+             + (patch_selected_advisories | map('regex_replace', '^', '--advisory=') | list)
+             + (['--security'] + (cfg_severities | map('regex_replace', '^', '--sec-severity=') | list)
+                if patch_selected_advisories | length == 0 else [])
+             + (cfg_exclude | map('regex_replace', '^', '--exclude=') | list) }}
+      register: patch_dnf_cli
+      changed_when: "'Nothing to do' not in patch_dnf_cli.stdout"
+      when:
+        - patch_use_dnf_cli | bool
+        - patch_selected_advisories | length > 0 or cfg_severities | length > 0
+
+    - name: Is a reboot needed?
+      ansible.builtin.command:
+        cmd: dnf needs-restarting -r
+      register: needs_reboot
+      changed_when: false
+      failed_when: needs_reboot.rc not in [0, 1]
+      check_mode: false
+
+    - name: Reboot when needed
+      ansible.builtin.reboot:
+        reboot_timeout: "{{ cfg_reboot_timeout }}"
+        msg: "Reboot after patching ({{ cfg_change_id | default('no change id', true) }})"
+      register: patch_reboot
+      when:
+        - needs_reboot.rc == 1
+        - cfg_allow_reboot | bool
+
+    - name: Refresh the kernel fact (changes after a reboot)
+      ansible.builtin.setup:
+        gather_subset: [min, kernel]
+
+    - name: Run the health checks after patching
+      ansible.builtin.include_tasks: tasks/health_check.yml
+      vars:
+        patch_health_phase: after
+
+  post_tasks:
+    - name: Run the post-patch hook (for example, rejoin the pool)
+      ansible.builtin.include_tasks: "{{ cfg_post_tasks_file }}"
+      when: cfg_post_tasks_file | length > 0
+
+    - name: Read the last dnf transaction after patching
+      ansible.builtin.command:
+        cmd: dnf -q history list
+      register: patch_history_after
+      changed_when: false
+      check_mode: false
+
+    - name: Work out the dnf transaction IDs
+      ansible.builtin.set_fact:
+        patch_txn_before: >-
+          {{ (patch_history_before.stdout_lines | select('match', '^ *[0-9]+ *[|]') | first | default('0 |')).split('|')[0] | trim | int }}
+        patch_txn_after: >-
+          {{ (patch_history_after.stdout_lines | select('match', '^ *[0-9]+ *[|]') | first | default('0 |')).split('|')[0] | trim | int }}
+
+    - name: Read the patch transaction
+      ansible.builtin.command:
+        argv: [dnf, -q, history, info, "{{ patch_txn_after }}"]
+      register: patch_history_info
+      changed_when: false
+      check_mode: false
+      when: patch_txn_after | int > patch_txn_before | int
+
+    - name: List security errata still outstanding
+      ansible.builtin.command:
+        cmd: dnf -q updateinfo list --security
+      register: patch_outstanding_after_all
+      changed_when: false
+      check_mode: false
+
+    - name: List critical and important errata still outstanding
+      ansible.builtin.command:
+        cmd: dnf -q updateinfo list --security --sec-severity Critical,Important
+      register: patch_outstanding_after
+      changed_when: false
+      check_mode: false
+
+    - name: Work out the advisories this run applied
+      ansible.builtin.set_fact:
+        patch_advisories_before: >-
+          {{ patch_outstanding_before.stdout_lines | select('match', '^RH[SBE]A-') | map('split') | map('first') | unique | list }}
+        patch_advisories_after: >-
+          {{ patch_outstanding_after_all.stdout_lines | select('match', '^RH[SBE]A-') | map('split') | map('first') | unique | list }}
+
+    - name: Create the patch record folder
+      ansible.builtin.file:
+        path: "{{ patch_report_dir }}"
+        state: directory
+        mode: "0750"
+      delegate_to: localhost
+      become: false
+      run_once: true
+      check_mode: false
+
+    - name: Write the patch record for this host
+      ansible.builtin.copy:
+        dest: "{{ patch_report_dir }}/{{ inventory_hostname }}.json"
+        content: >-
+          {{ {'host': inventory_hostname,
+              'run_id': patch_run_id,
+              'change_id': cfg_change_id,
+              'target': patch_target,
+              'rings': group_names | select('match', '^ring') | list,
+              'check_mode': ansible_check_mode,
+              'kernel_before': patch_kernel_before,
+              'kernel_after': ansible_facts.kernel,
+              'advisories_outstanding_before': patch_advisories_before,
+              'advisories_selected': patch_selected_advisories,
+              'advisories_applied': [] if ansible_check_mode else patch_advisories_before | difference(patch_advisories_after),
+              'advisories_outstanding_after': patch_advisories_after,
+              'critical_important_outstanding_after': patch_outstanding_after.stdout_lines
+                  | select('match', '^RH[SBE]A-') | map('split') | map('first') | unique | list,
+              'dnf_transaction_before': patch_txn_before | int,
+              'dnf_transaction': (patch_txn_after | int) if (patch_txn_after | int > patch_txn_before | int) else none,
+              'reboot_needed': needs_reboot.rc == 1,
+              'rebooted': patch_reboot is changed,
+              'rollback': (['dnf history undo ' ~ patch_txn_after] if patch_txn_after | int > patch_txn_before | int else [])
+                  + (['grubby --set-default /boot/vmlinuz-' ~ patch_kernel_before]
+                     if patch_kernel_before != ansible_facts.kernel else [])} | to_nice_json }}
+        mode: "0640"
+      delegate_to: localhost
+      become: false
+      check_mode: false
+
+    - name: Keep the dnf transaction detail for this host
+      ansible.builtin.copy:
+        dest: "{{ patch_report_dir }}/{{ inventory_hostname }}.dnf-history.txt"
+        content: "{{ patch_history_info.stdout | default('No dnf transaction in this run.') }}\n"
+        mode: "0640"
+      delegate_to: localhost
+      become: false
+      check_mode: false
+
+    # Rewritten after every batch, so it always covers all hosts so far.
+    - name: Write the advisories this run applied, for the next ring
+      ansible.builtin.copy:
+        dest: "{{ patch_report_dir }}/advisories.yml"
+        content: |
+          # Advisories applied to the hosts patched in run {{ patch_run_id }}.
+          # Pass to the next ring with: -e @{{ patch_report_dir }}/advisories.yml
+          {{ {'cfg_advisories': (query('ansible.builtin.file', *query('ansible.builtin.fileglob', patch_report_dir ~ '/*.json'))
+              | map('from_json') | map(attribute='advisories_applied') | flatten | unique | sort)} | to_nice_yaml }}
+        mode: "0640"
+      delegate_to: localhost
+      become: false
+      run_once: true
+      check_mode: false
+
+    - name: Stop when critical or important errata are still outstanding
+      ansible.builtin.fail:
+        msg: "Still outstanding: {{ patch_outstanding_after.stdout_lines | join('; ') }}"
+      when:
+        - cfg_fail_if_outstanding | bool
+        - patch_outstanding_after.stdout_lines | select('match', '^RH[SBE]A-') | list | length > 0

@@ -1,0 +1,31 @@
+---
+# Accepted exceptions for the OpenSCAP findings (SOP-LNX-001).
+# Copy to exceptions/exceptions.yml; playbooks/evidence.yml uses that file
+# when it exists. JSON with the same fields also works.
+#
+# rule      SCAP Security Guide rule id, short or full (xccdf_org.ssgproject.content_rule_...)
+# reason    why the finding is accepted for now
+# owner     who renews or closes it
+# expires   YYYY-MM-DD; after this date the finding counts again and is flagged
+# hosts     optional list of host names or patterns (web-*); omitted means all hosts
+# reference optional change or risk record
+exceptions:
+  - rule: partition_for_var_log_audit
+    reason: Disk layout is decided at install; the next build image adds the partition
+    owner: Linux platform team
+    expires: 2027-03-31
+    reference: CHG0012347
+  - rule: partition_for_tmp
+    reason: Disk layout is decided at install; the next build image adds the partition
+    owner: Linux platform team
+    expires: 2027-03-31
+    reference: CHG0012347
+  - rule: rsyslog_remote_loghost
+    reason: Log forwarding to the SIEM is configured under its own change
+    owner: Security operations
+    expires: 2027-01-31
+  - rule: grub2_password
+    reason: Boot loader password to be set once the vault entry exists
+    owner: Linux platform team
+    expires: 2027-02-28
+    hosts: [web-*]

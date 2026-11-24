@@ -1,0 +1,203 @@
+---
+# rhel_baseline defaults.
+# Every area has an on/off switch. Turn an area off for a host or group to
+# skip it (and to roll it back by hand, see README.md).
+
+# ---------------------------------------------------------------- areas
+rhel_baseline_ssh: true
+rhel_baseline_auth: true
+rhel_baseline_kernel: true
+rhel_baseline_firewall: true
+rhel_baseline_selinux: true
+rhel_baseline_audit: true
+rhel_baseline_aide: true
+rhel_baseline_crypto: true
+rhel_baseline_services: true
+rhel_baseline_patching: true
+
+# Reboot at the end of the run when a reboot is pending. Off by default:
+# the runbook reboots by hand in the maintenance window.
+rhel_baseline_reboot_if_needed: false
+rhel_baseline_reboot_timeout: 900
+
+# ------------------------------------------------------------ preflight
+rhel_baseline_supported_distributions: [RedHat]
+rhel_baseline_supported_major_versions: ["8", "9"]
+# Accounts that must keep SSH access. Preflight checks each one has a
+# non-empty ~/.ssh/authorized_keys before password login is turned off.
+rhel_baseline_admin_users:
+  - "{{ ansible_user | default(lookup('ansible.builtin.env', 'USER'), true) }}"
+# Set true when keys come from an AuthorizedKeysCommand (for example SSSD)
+# instead of ~/.ssh/authorized_keys, so preflight does not look for the file.
+rhel_baseline_ssh_keys_from_command: false
+
+# ------------------------------------------------------------------ ssh
+rhel_baseline_ssh_password_authentication: false
+rhel_baseline_ssh_permit_root_login: "no"
+rhel_baseline_ssh_max_auth_tries: 4
+rhel_baseline_ssh_max_sessions: 10
+rhel_baseline_ssh_max_startups: "10:30:60"
+rhel_baseline_ssh_login_grace_time: 60
+rhel_baseline_ssh_client_alive_interval: 300
+rhel_baseline_ssh_client_alive_count_max: 3
+rhel_baseline_ssh_log_level: VERBOSE
+rhel_baseline_ssh_x11_forwarding: false
+rhel_baseline_ssh_allow_groups: []
+# Extra sshd keywords, for example {AllowTcpForwarding: "no"}.
+rhel_baseline_ssh_extra_settings: {}
+rhel_baseline_login_banner: |
+  Authorized use only. Activity on this system is monitored and recorded.
+  Disconnect now if you are not an authorized user.
+
+# ----------------------------------------------------------------- auth
+# authselect profile used only when the host has no authselect profile yet
+# and rhel_baseline_authselect_force is true. A host that already has a
+# profile (for example sssd after an Active Directory join) keeps it.
+rhel_baseline_authselect_profile: sssd
+rhel_baseline_authselect_force: false
+rhel_baseline_authselect_features:
+  - with-faillock
+  - without-nullok
+rhel_baseline_faillock_deny: 5
+rhel_baseline_faillock_unlock_time: 900
+rhel_baseline_faillock_fail_interval: 900
+rhel_baseline_pwquality_minlen: 14
+rhel_baseline_pwquality_minclass: 4
+rhel_baseline_pwquality_retry: 3
+rhel_baseline_pass_max_days: 365
+rhel_baseline_pass_min_days: 1
+rhel_baseline_pass_warn_age: 7
+rhel_baseline_umask: "027"
+rhel_baseline_shell_timeout: 900
+rhel_baseline_sudo_logfile: /var/log/sudo.log
+
+# --------------------------------------------------------------- kernel
+rhel_baseline_sysctl_file: /etc/sysctl.d/50-rhel-baseline.conf
+rhel_baseline_sysctl:
+  net.ipv4.ip_forward: 0
+  net.ipv4.conf.all.send_redirects: 0
+  net.ipv4.conf.default.send_redirects: 0
+  net.ipv4.conf.all.accept_redirects: 0
+  net.ipv4.conf.default.accept_redirects: 0
+  net.ipv4.conf.all.secure_redirects: 0
+  net.ipv4.conf.default.secure_redirects: 0
+  net.ipv4.conf.all.accept_source_route: 0
+  net.ipv4.conf.default.accept_source_route: 0
+  net.ipv4.conf.all.log_martians: 1
+  net.ipv4.conf.default.log_martians: 1
+  net.ipv4.conf.all.rp_filter: 1
+  net.ipv4.conf.default.rp_filter: 1
+  net.ipv4.icmp_echo_ignore_broadcasts: 1
+  net.ipv4.icmp_ignore_bogus_error_responses: 1
+  net.ipv4.tcp_syncookies: 1
+  net.ipv6.conf.all.forwarding: 0
+  net.ipv6.conf.all.accept_ra: 0
+  net.ipv6.conf.default.accept_ra: 0
+  net.ipv6.conf.all.accept_redirects: 0
+  net.ipv6.conf.default.accept_redirects: 0
+  net.ipv6.conf.all.accept_source_route: 0
+  net.ipv6.conf.default.accept_source_route: 0
+  kernel.randomize_va_space: 2
+  kernel.yama.ptrace_scope: 1
+  kernel.dmesg_restrict: 1
+  fs.suid_dumpable: 0
+# Per host or group changes merged over rhel_baseline_sysctl, for example
+# {net.ipv4.ip_forward: 1} on container hosts.
+rhel_baseline_sysctl_overrides: {}
+rhel_baseline_disabled_modules:
+  - cramfs
+  - freevxfs
+  - hfs
+  - hfsplus
+  - jffs2
+  - dccp
+  - sctp
+  - rds
+  - tipc
+  - usb-storage
+rhel_baseline_disable_core_dumps: true
+
+# ------------------------------------------------------------- firewall
+# Leave empty to manage the zone firewalld uses as its default.
+rhel_baseline_firewall_zone: ""
+rhel_baseline_firewall_services: [ssh]
+rhel_baseline_firewall_ports: []
+# Remove services from the zone that are not in the list above
+# (cockpit and dhcpv6-client on a default install).
+rhel_baseline_firewall_prune: true
+# Preflight refuses a service list without ssh unless this is true.
+rhel_baseline_firewall_allow_no_ssh: false
+
+# -------------------------------------------------------------- selinux
+rhel_baseline_selinux_state: enforcing
+rhel_baseline_selinux_policy: targeted
+
+# ---------------------------------------------------------------- audit
+rhel_baseline_audit_uid_min: 1000
+rhel_baseline_audit_max_log_file: 32
+rhel_baseline_audit_max_log_file_action: keep_logs
+rhel_baseline_audit_space_left_action: email
+rhel_baseline_audit_admin_space_left_action: suspend
+rhel_baseline_audit_action_mail_acct: root
+# -e 2 makes the rules immutable until reboot. Changing rules then needs a
+# reboot every time, so it is off by default.
+rhel_baseline_audit_immutable: false
+rhel_baseline_kernel_args:
+  - audit=1
+  - audit_backlog_limit=8192
+rhel_baseline_journald_storage: persistent
+
+# ----------------------------------------------------------------- aide
+rhel_baseline_aide_cron_minute: "0"
+rhel_baseline_aide_cron_hour: "5"
+rhel_baseline_aide_init_timeout: 3600
+
+# --------------------------------------------------------------- crypto
+# DEFAULT, DEFAULT:NO-SHA1, FUTURE or FIPS. Never LEGACY.
+rhel_baseline_crypto_policy: DEFAULT
+rhel_baseline_fips: false
+
+# ------------------------------------------------------------- services
+rhel_baseline_services_disabled:
+  - avahi-daemon.service
+  - avahi-daemon.socket
+  - cups.service
+  - cups.socket
+  - nfs-server.service
+  - rpcbind.service
+  - rpcbind.socket
+  - rsyncd.service
+  - snmpd.service
+  - vsftpd.service
+  - squid.service
+  - smb.service
+  - dovecot.service
+  - named.service
+  - ypserv.service
+rhel_baseline_services_mask: true
+rhel_baseline_packages_absent:
+  - telnet-server
+  - telnet
+  - tftp-server
+  - tftp
+  - xinetd
+  - ypbind
+  - ypserv
+  - rsh
+  - rsh-server
+  - talk
+  - talk-server
+  - setroubleshoot
+  - mcstrans
+rhel_baseline_time_service: chronyd
+
+# ------------------------------------------------------------- patching
+rhel_baseline_dnf_installonly_limit: 3
+# Ring 0: dnf-automatic applies security errata daily.
+rhel_baseline_patching_automatic: false
+rhel_baseline_patching_automatic_upgrade_type: security
+# never, when-changed or when-needed. Only written when not "never"
+# (the option needs dnf 4.14 or later).
+rhel_baseline_patching_automatic_reboot: never
+# Subscribe installed kernels to live patches (kpatch-dnf).
+rhel_baseline_patching_kpatch: false

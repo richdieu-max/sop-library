@@ -1,0 +1,83 @@
+---
+- name: Firewall | Install firewalld
+  ansible.builtin.dnf:
+    name: firewalld
+    state: present
+  register: rhel_baseline_firewalld_pkg
+
+- name: Firewall | Enable and start firewalld
+  ansible.builtin.systemd:
+    name: firewalld
+    enabled: true
+    masked: false
+    state: started
+  register: rhel_baseline_firewalld_svc
+
+# In check mode firewalld may not be installed or running yet, so the zone
+# cannot be read. The rest of the area is then reported, not simulated.
+- name: Firewall | Decide whether the zone can be read in this run
+  ansible.builtin.set_fact:
+    rhel_baseline_firewall_live: >-
+      {{ not (ansible_check_mode and (rhel_baseline_firewalld_pkg is changed or rhel_baseline_firewalld_svc is changed)) }}
+
+- name: Firewall | Read the default zone
+  ansible.builtin.command:
+    cmd: firewall-cmd --get-default-zone
+  register: rhel_baseline_firewall_default_zone
+  changed_when: false
+  check_mode: false
+  when: rhel_baseline_firewall_live | bool
+
+- name: Firewall | Choose the zone to manage
+  ansible.builtin.set_fact:
+    rhel_baseline_firewall_zone_effective: >-
+      {{ rhel_baseline_firewall_zone if rhel_baseline_firewall_zone | length > 0
+         else rhel_baseline_firewall_default_zone.stdout | default('public') }}
+
+- name: Firewall | Allow the listed services
+  ansible.posix.firewalld:
+    zone: "{{ rhel_baseline_firewall_zone_effective }}"
+    service: "{{ item }}"
+    permanent: true
+    immediate: true
+    state: enabled
+  loop: "{{ rhel_baseline_firewall_services }}"
+  when: rhel_baseline_firewall_live | bool
+
+- name: Firewall | Allow the listed ports
+  ansible.posix.firewalld:
+    zone: "{{ rhel_baseline_firewall_zone_effective }}"
+    port: "{{ item }}"
+    permanent: true
+    immediate: true
+    state: enabled
+  loop: "{{ rhel_baseline_firewall_ports }}"
+  when: rhel_baseline_firewall_live | bool
+
+- name: Firewall | Read the services allowed in the zone
+  ansible.builtin.command:
+    argv: [firewall-cmd, --permanent, "--zone={{ rhel_baseline_firewall_zone_effective }}", --list-services]
+  register: rhel_baseline_firewall_current
+  changed_when: false
+  check_mode: false
+  when:
+    - rhel_baseline_firewall_live | bool
+    - rhel_baseline_firewall_prune | bool
+
+- name: Firewall | Remove services that are not in the list
+  ansible.posix.firewalld:
+    zone: "{{ rhel_baseline_firewall_zone_effective }}"
+    service: "{{ item }}"
+    permanent: true
+    immediate: true
+    state: disabled
+  loop: "{{ rhel_baseline_firewall_current.stdout.split() | difference(rhel_baseline_firewall_services) }}"
+  when:
+    - rhel_baseline_firewall_live | bool
+    - rhel_baseline_firewall_prune | bool
+
+- name: Firewall | Note that the zone was not simulated
+  ansible.builtin.set_fact:
+    rhel_baseline_warnings: >-
+      {{ rhel_baseline_warnings + ['firewall: firewalld is not installed or running yet, so the zone changes were not simulated in check mode'] }}
+  when: not rhel_baseline_firewall_live | bool

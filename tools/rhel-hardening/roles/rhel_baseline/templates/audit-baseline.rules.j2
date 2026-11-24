@@ -1,0 +1,85 @@
+## Managed by Ansible role rhel_baseline. Local changes are overwritten.
+## Keys match the CIS benchmark and SCAP Security Guide rule names.
+{% set uid = rhel_baseline_audit_uid_min %}
+{% if ansible_facts.architecture == 'x86_64' %}
+{%   set arches = ['b64', 'b32'] %}
+{%   set sc_perm_chmod = 'chmod,fchmod,fchmodat' %}
+{%   set sc_perm_chown = 'chown,fchown,fchownat,lchown' %}
+{%   set sc_access = 'creat,open,openat,truncate,ftruncate' %}
+{%   set sc_delete = 'unlink,unlinkat,rename,renameat' %}
+{% else %}
+{%   set arches = ['b64'] %}
+{%   set sc_perm_chmod = 'fchmod,fchmodat' %}
+{%   set sc_perm_chown = 'fchown,fchownat' %}
+{%   set sc_access = 'openat,truncate,ftruncate' %}
+{%   set sc_delete = 'unlinkat,renameat' %}
+{% endif %}
+
+## Date and time changes
+{% for a in arches %}
+-a always,exit -F arch={{ a }} -S adjtimex,settimeofday,clock_settime -k time-change
+{% endfor %}
+-w /etc/localtime -p wa -k time-change
+
+## Users and groups
+-w /etc/group -p wa -k identity
+-w /etc/passwd -p wa -k identity
+-w /etc/gshadow -p wa -k identity
+-w /etc/shadow -p wa -k identity
+-w /etc/security/opasswd -p wa -k identity
+
+## Network environment
+{% for a in arches %}
+-a always,exit -F arch={{ a }} -S sethostname,setdomainname -k system-locale
+{% endfor %}
+-w /etc/issue -p wa -k system-locale
+-w /etc/issue.net -p wa -k system-locale
+-w /etc/hosts -p wa -k system-locale
+-w /etc/hostname -p wa -k system-locale
+-w /etc/sysconfig/network -p wa -k system-locale
+-w /etc/NetworkManager -p wa -k system-locale
+
+## Mandatory access control
+-w /etc/selinux -p wa -k MAC-policy
+-w /usr/share/selinux -p wa -k MAC-policy
+
+## Logins and sessions
+-w /var/log/lastlog -p wa -k logins
+-w /var/run/faillock -p wa -k logins
+-w /var/run/utmp -p wa -k session
+-w /var/log/wtmp -p wa -k session
+-w /var/log/btmp -p wa -k session
+
+## Permission changes by users
+{% for a in arches %}
+-a always,exit -F arch={{ a }} -S {{ sc_perm_chmod }} -F auid>={{ uid }} -F auid!=unset -k perm_mod
+-a always,exit -F arch={{ a }} -S {{ sc_perm_chown }} -F auid>={{ uid }} -F auid!=unset -k perm_mod
+-a always,exit -F arch={{ a }} -S setxattr,lsetxattr,fsetxattr,removexattr,lremovexattr,fremovexattr -F auid>={{ uid }} -F auid!=unset -k perm_mod
+{% endfor %}
+
+## Unsuccessful file access
+{% for a in arches %}
+-a always,exit -F arch={{ a }} -S {{ sc_access }} -F exit=-EACCES -F auid>={{ uid }} -F auid!=unset -k access
+-a always,exit -F arch={{ a }} -S {{ sc_access }} -F exit=-EPERM -F auid>={{ uid }} -F auid!=unset -k access
+{% endfor %}
+
+## Mounts and deletions
+{% for a in arches %}
+-a always,exit -F arch={{ a }} -S mount -F auid>={{ uid }} -F auid!=unset -k mounts
+-a always,exit -F arch={{ a }} -S {{ sc_delete }} -F auid>={{ uid }} -F auid!=unset -k delete
+{% endfor %}
+
+## Privilege use
+-w /etc/sudoers -p wa -k scope
+-w /etc/sudoers.d -p wa -k scope
+-w {{ rhel_baseline_sudo_logfile }} -p wa -k actions
+-a always,exit -F arch=b64 -C euid!=uid -F auid!=unset -S execve -k user_emulation
+{% if 'b32' in arches %}
+-a always,exit -F arch=b32 -C euid!=uid -F auid!=unset -S execve -k user_emulation
+{% endif %}
+
+## Kernel modules
+-w /usr/sbin/insmod -p x -k modules
+-w /usr/sbin/rmmod -p x -k modules
+-w /usr/sbin/modprobe -p x -k modules
+-a always,exit -F arch=b64 -S init_module,finit_module,delete_module -k modules

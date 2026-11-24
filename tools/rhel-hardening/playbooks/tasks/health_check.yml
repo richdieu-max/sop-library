@@ -1,0 +1,61 @@
+---
+# Health checks for one host, run before and after patching.
+# cfg_health_checks is a list; each entry has a type:
+#   - {type: url, url: "https://{{ inventory_hostname }}/health", status_code: 200, validate_certs: true}
+#   - {type: port, port: 443, host: 127.0.0.1}
+#   - {type: service, name: httpd}
+#   - {type: command, cmd: "/usr/local/bin/app-check --quiet"}
+# A command check must be read-only: it also runs in check mode.
+- name: Health check | URL returns the expected status ({{ patch_health_phase }})
+  ansible.builtin.uri:
+    url: "{{ item.url }}"
+    status_code: "{{ item.status_code | default(200) }}"
+    validate_certs: "{{ item.validate_certs | default(true) }}"
+    timeout: "{{ item.timeout | default(10) }}"
+  loop: "{{ cfg_health_checks | selectattr('type', 'equalto', 'url') | list }}"
+  loop_control:
+    label: "{{ item.url }}"
+  register: patch_health_url
+  until: patch_health_url.status == (item.status_code | default(200))
+  retries: "{{ cfg_health_retries }}"
+  delay: "{{ cfg_health_delay }}"
+  check_mode: false
+
+- name: Health check | Port accepts connections ({{ patch_health_phase }})
+  ansible.builtin.wait_for:
+    host: "{{ item.host | default('127.0.0.1') }}"
+    port: "{{ item.port }}"
+    state: started
+    timeout: "{{ cfg_health_retries * cfg_health_delay }}"
+  loop: "{{ cfg_health_checks | selectattr('type', 'equalto', 'port') | list }}"
+  loop_control:
+    label: "{{ item.host | default('127.0.0.1') }}:{{ item.port }}"
+  check_mode: false
+
+- name: Health check | Service is active ({{ patch_health_phase }})
+  ansible.builtin.command:  # noqa: command-instead-of-module  (systemd has no read-only is-active check with retries)
+    argv: [systemctl, is-active, "{{ item.name }}"]
+  loop: "{{ cfg_health_checks | selectattr('type', 'equalto', 'service') | list }}"
+  loop_control:
+    label: "{{ item.name }}"
+  register: patch_health_service
+  until: patch_health_service.rc == 0
+  retries: "{{ cfg_health_retries }}"
+  delay: "{{ cfg_health_delay }}"
+  changed_when: false
+  failed_when: patch_health_service.rc != 0
+  check_mode: false
+
+- name: Health check | Command succeeds ({{ patch_health_phase }})
+  ansible.builtin.command:
+    cmd: "{{ item.cmd }}"
+  loop: "{{ cfg_health_checks | selectattr('type', 'equalto', 'command') | list }}"
+  loop_control:
+    label: "{{ item.cmd }}"
+  register: patch_health_command
+  until: patch_health_command.rc == 0
+  retries: "{{ cfg_health_retries }}"
+  delay: "{{ cfg_health_delay }}"
+  changed_when: false
+  failed_when: patch_health_command.rc != 0
+  check_mode: false

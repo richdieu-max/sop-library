@@ -1,0 +1,102 @@
+---
+# The patching area prepares every host for SOP-LNX-002: package signatures
+# checked, three kernels kept for rollback, needs-restarting available. On
+# ring 0 hosts it also turns on dnf-automatic for security errata.
+- name: Patching | Check signatures and keep three kernels
+  community.general.ini_file:
+    path: /etc/dnf/dnf.conf
+    section: main
+    option: "{{ item.key }}"
+    value: "{{ item.value }}"
+    no_extra_spaces: true
+    owner: root
+    group: root
+    mode: "0644"
+  loop:
+    - {key: gpgcheck, value: "1"}
+    - {key: installonly_limit, value: "{{ rhel_baseline_dnf_installonly_limit }}"}
+  loop_control:
+    label: "{{ item.key }}"
+
+- name: Patching | Find repositories with signature checks turned off
+  ansible.builtin.command:
+    cmd: grep -rlE '^[[:space:]]*gpgcheck[[:space:]]*=[[:space:]]*0' /etc/yum.repos.d
+  register: rhel_baseline_repo_nogpg
+  changed_when: false
+  failed_when: rhel_baseline_repo_nogpg.rc > 1
+  check_mode: false
+
+- name: Patching | Warn about repositories without signature checks
+  ansible.builtin.set_fact:
+    rhel_baseline_warnings: >-
+      {{ rhel_baseline_warnings + ['patching: gpgcheck=0 in ' ~ (rhel_baseline_repo_nogpg.stdout_lines | join(', '))] }}
+  when: rhel_baseline_repo_nogpg.stdout_lines | length > 0
+
+- name: Patching | Install the dnf plugins (needs-restarting)
+  ansible.builtin.dnf:
+    name: dnf-plugins-core
+    state: present
+
+- name: Patching | Install dnf-automatic (ring 0)
+  ansible.builtin.dnf:
+    name: dnf-automatic
+    state: present
+  register: rhel_baseline_dnf_automatic_pkg
+  when: rhel_baseline_patching_automatic | bool
+
+- name: Patching | Configure dnf-automatic to apply security errata (ring 0)
+  community.general.ini_file:
+    path: /etc/dnf/automatic.conf
+    section: commands
+    option: "{{ item.key }}"
+    value: "{{ item.value }}"
+    owner: root
+    group: root
+    mode: "0644"
+  when:
+    - rhel_baseline_patching_automatic | bool
+    - not (ansible_check_mode and rhel_baseline_dnf_automatic_pkg is changed)
+  loop: >-
+    {{ [{'key': 'upgrade_type', 'value': rhel_baseline_patching_automatic_upgrade_type},
+        {'key': 'download_updates', 'value': 'yes'},
+        {'key': 'apply_updates', 'value': 'yes'}]
+       + ([{'key': 'reboot', 'value': rhel_baseline_patching_automatic_reboot}]
+          if rhel_baseline_patching_automatic_reboot != 'never' else []) }}
+  loop_control:
+    label: "{{ item.key }}"
+
+- name: Patching | Enable the dnf-automatic timer (ring 0)
+  ansible.builtin.systemd:
+    name: dnf-automatic.timer
+    enabled: true
+    state: started
+  when:
+    - rhel_baseline_patching_automatic | bool
+    - not (ansible_check_mode and rhel_baseline_dnf_automatic_pkg is changed)
+
+- name: Patching | Install the live patching plugin
+  ansible.builtin.dnf:
+    name: kpatch-dnf
+    state: present
+  register: rhel_baseline_kpatch_pkg
+  when: rhel_baseline_patching_kpatch | bool
+
+- name: Patching | Read the live patch setting
+  ansible.builtin.command:
+    cmd: dnf kpatch status
+  register: rhel_baseline_kpatch_status
+  changed_when: false
+  failed_when: false
+  check_mode: false
+  when:
+    - rhel_baseline_patching_kpatch | bool
+    - not (ansible_check_mode and rhel_baseline_kpatch_pkg is changed)
+
+- name: Patching | Subscribe installed kernels to live patches
+  ansible.builtin.command:
+    cmd: dnf kpatch auto
+  changed_when: true
+  when:
+    - rhel_baseline_patching_kpatch | bool
+    - rhel_baseline_kpatch_status.stdout is defined
+    - "'auto' not in rhel_baseline_kpatch_status.stdout"

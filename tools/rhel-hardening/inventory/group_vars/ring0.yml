@@ -1,0 +1,4 @@
+---
+# Ring 0, test: dnf-automatic applies security errata every day.
+rhel_baseline_patching_automatic: true
+rhel_baseline_patching_automatic_upgrade_type: security

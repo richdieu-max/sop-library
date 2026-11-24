@@ -1,0 +1,66 @@
+---
+# Each area is a static import, so --tags and --list-tags work and the
+# area switch (rhel_baseline_<area>) applies to every task in it.
+- name: Start the list of pending reboots and warnings
+  ansible.builtin.set_fact:
+    rhel_baseline_reboot_reasons: []
+    rhel_baseline_warnings: []
+  tags: [always]
+
+- name: Preflight
+  ansible.builtin.import_tasks: preflight.yml
+  tags: [preflight, always]
+
+- name: SSH
+  ansible.builtin.import_tasks: ssh.yml
+  when: rhel_baseline_ssh | bool
+  tags: [ssh]
+
+- name: Authentication
+  ansible.builtin.import_tasks: auth.yml
+  when: rhel_baseline_auth | bool
+  tags: [auth]
+
+- name: Kernel parameters and modules
+  ansible.builtin.import_tasks: kernel.yml
+  when: rhel_baseline_kernel | bool
+  tags: [kernel]
+
+- name: Firewall
+  ansible.builtin.import_tasks: firewall.yml
+  when: rhel_baseline_firewall | bool
+  tags: [firewall]
+
+- name: SELinux
+  ansible.builtin.import_tasks: selinux.yml
+  when: rhel_baseline_selinux | bool
+  tags: [selinux]
+
+- name: Audit and logging
+  ansible.builtin.import_tasks: audit.yml
+  when: rhel_baseline_audit | bool
+  tags: [audit]
+
+- name: AIDE
+  ansible.builtin.import_tasks: aide.yml
+  when: rhel_baseline_aide | bool
+  tags: [aide]
+
+- name: Crypto policy
+  ansible.builtin.import_tasks: crypto.yml
+  when: rhel_baseline_crypto | bool
+  tags: [crypto]
+
+- name: Services and packages
+  ansible.builtin.import_tasks: services.yml
+  when: rhel_baseline_services | bool
+  tags: [services]
+
+- name: Patching
+  ansible.builtin.import_tasks: patching.yml
+  when: rhel_baseline_patching | bool
+  tags: [patching]
+
+- name: Pending reboot report
+  ansible.builtin.import_tasks: report.yml
+  tags: [always]

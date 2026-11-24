@@ -1,0 +1,10 @@
+---
+# Per host settings for the canary. Examples:
+#
+# This host still has a user that signs in with a password. Keep password
+# login on until the key is in place, then remove this line:
+# rhel_baseline_ssh_password_authentication: true
+#
+# Leave an area out on this host:
+# rhel_baseline_aide: false
+rhel_baseline_reboot_if_needed: false

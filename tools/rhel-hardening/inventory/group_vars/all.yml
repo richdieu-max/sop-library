@@ -1,0 +1,12 @@
+---
+# Settings for every host. Values here are the role defaults made explicit
+# where a site usually changes them; see README.md for the full list.
+
+# Accounts that must keep SSH access. Preflight checks each has a key
+# before password login is turned off.
+rhel_baseline_admin_users:
+  - opsadmin
+
+# Health check used by playbooks/patch.yml when a group sets nothing better.
+patch_health_checks:
+  - {type: service, name: sshd}

@@ -1,0 +1,11 @@
+# Real inventory and run output stay out of version control.
+inventory/hosts.yml
+evidence/
+reports/
+# Local tooling
+.ansible/
+collections/
+__pycache__/
+*.pyc
+.venv/
+venv/

@@ -1,0 +1,58 @@
+---
+- name: AIDE | Install AIDE and cron
+  ansible.builtin.dnf:
+    name:
+      - aide
+      - cronie
+    state: present
+  register: rhel_baseline_aide_pkg
+
+- name: AIDE | Watch the audit tools
+  ansible.builtin.blockinfile:
+    path: /etc/aide.conf
+    marker: "# {mark} rhel_baseline audit tools"
+    block: |
+      /usr/sbin/auditctl p+i+n+u+g+s+b+acl+xattrs+sha512
+      /usr/sbin/auditd p+i+n+u+g+s+b+acl+xattrs+sha512
+      /usr/sbin/ausearch p+i+n+u+g+s+b+acl+xattrs+sha512
+      /usr/sbin/aureport p+i+n+u+g+s+b+acl+xattrs+sha512
+      /usr/sbin/autrace p+i+n+u+g+s+b+acl+xattrs+sha512
+      /usr/sbin/augenrules p+i+n+u+g+s+b+acl+xattrs+sha512
+    owner: root
+    group: root
+    mode: "0600"
+  when: not (ansible_check_mode and rhel_baseline_aide_pkg is changed)
+
+- name: AIDE | Check for an existing database
+  ansible.builtin.stat:
+    path: /var/lib/aide/aide.db.gz
+  register: rhel_baseline_aide_db
+
+# The first database build reads the whole file system and can take
+# several minutes, so it runs as an async job. Ansible does not allow async
+# in check mode, so a dry run only reports that the build would happen.
+- name: AIDE | Build the first database
+  ansible.builtin.shell:
+    cmd: /usr/sbin/aide --init && mv -f /var/lib/aide/aide.db.new.gz /var/lib/aide/aide.db.gz
+    creates: /var/lib/aide/aide.db.gz
+  async: "{{ rhel_baseline_aide_init_timeout }}"
+  poll: 15
+  when:
+    - not rhel_baseline_aide_db.stat.exists
+    - not ansible_check_mode
+
+- name: AIDE | Report the database build a real run would do
+  ansible.builtin.set_fact:
+    rhel_baseline_warnings: "{{ rhel_baseline_warnings + ['aide: the first database build (aide --init) runs on the real apply'] }}"
+  when:
+    - not rhel_baseline_aide_db.stat.exists
+    - ansible_check_mode
+
+- name: AIDE | Schedule the daily check
+  ansible.builtin.cron:
+    name: rhel_baseline aide check
+    cron_file: rhel_baseline_aide
+    user: root
+    minute: "{{ rhel_baseline_aide_cron_minute }}"
+    hour: "{{ rhel_baseline_aide_cron_hour }}"
+    job: /usr/sbin/aide --check

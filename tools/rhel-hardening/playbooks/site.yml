@@ -1,0 +1,11 @@
+---
+# Apply the hardening baseline (SOP-LNX-001).
+#   ansible-playbook playbooks/site.yml --limit canary-01 --check --diff
+#   ansible-playbook playbooks/site.yml --limit canary-01 --tags ssh,auth
+#   ansible-playbook playbooks/site.yml --limit rhel_web --forks 5
+- name: Apply the RHEL hardening baseline
+  hosts: all
+  become: true
+  gather_facts: true
+  roles:
+    - role: rhel_baseline

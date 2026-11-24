@@ -1,0 +1,5 @@
+# Managed by Ansible role rhel_baseline. Local changes are overwritten.
+{% for module in rhel_baseline_disabled_modules %}
+install {{ module }} /bin/false
+blacklist {{ module }}
+{% endfor %}

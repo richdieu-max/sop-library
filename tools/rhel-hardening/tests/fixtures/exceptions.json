@@ -1,0 +1,4 @@
+[
+  {"rule": "partition_for_var_log_audit", "reason": "Disk layout is fixed at install", "owner": "Linux platform team", "expires": "2027-03-31"},
+  {"rule": "grub2_password", "reason": "Boot loader password pending vault entry", "owner": "Linux platform team", "expires": "2026-10-31"}
+]

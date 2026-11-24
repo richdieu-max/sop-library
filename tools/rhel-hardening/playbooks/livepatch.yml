@@ -1,0 +1,63 @@
+---
+# Live kernel patches between windows (SOP-LNX-002).
+#   ansible-playbook playbooks/livepatch.yml -e patch_target=ring2
+#
+# Live patches cover only selected critical and important kernel CVEs, and
+# only supported kernel releases. The full kernel update and reboot still
+# happen in the next window.
+- name: Apply live kernel patches to the running kernel
+  hosts: "{{ patch_target | default('patch_target_not_set') }}"
+  become: true
+  gather_facts: true
+  tasks:
+    - name: Install the kpatch dnf plugin
+      ansible.builtin.dnf:
+        name: kpatch-dnf
+        state: present
+      register: livepatch_plugin
+
+    - name: Read the live patch setting
+      ansible.builtin.command:
+        cmd: dnf kpatch status
+      register: livepatch_status
+      changed_when: false
+      failed_when: false
+      check_mode: false
+      when: not (ansible_check_mode and livepatch_plugin is changed)
+
+    - name: Subscribe installed kernels to live patches
+      ansible.builtin.command:
+        cmd: dnf kpatch auto
+      changed_when: true
+      when:
+        - livepatch_status.stdout is defined
+        - "'auto' not in livepatch_status.stdout"
+
+    # The documented form: dnf install "kpatch-patch = $(uname -r)"
+    - name: Install the live patch for the running kernel
+      ansible.builtin.command:
+        argv: [dnf, -y, install, "kpatch-patch = {{ ansible_facts.kernel }}"]
+      register: livepatch_install
+      changed_when: livepatch_install.rc == 0 and 'Nothing to do' not in livepatch_install.stdout
+      failed_when:
+        - livepatch_install.rc != 0
+        - "'No match for argument' not in (livepatch_install.stdout ~ livepatch_install.stderr)"
+
+    - name: Report when no live patch exists for this kernel
+      ansible.builtin.debug:
+        msg: "No live patch is published for kernel {{ ansible_facts.kernel }}. Patch the kernel in the next window."
+      when:
+        - livepatch_install.rc is defined
+        - livepatch_install.rc != 0
+
+    - name: List the loaded live patches
+      ansible.builtin.command:
+        cmd: kpatch list
+      register: livepatch_list
+      changed_when: false
+      failed_when: false
+      check_mode: false
+
+    - name: Show the loaded live patches
+      ansible.builtin.debug:
+        msg: "{{ livepatch_list.stdout_lines }}"

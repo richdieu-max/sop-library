@@ -1,0 +1,69 @@
+---
+- name: Crypto | Choose the policy (FIPS mode needs the FIPS policy)
+  ansible.builtin.set_fact:
+    rhel_baseline_crypto_policy_effective: "{{ 'FIPS' if rhel_baseline_fips | bool else rhel_baseline_crypto_policy }}"
+
+- name: Crypto | Refuse the LEGACY policy
+  ansible.builtin.assert:
+    that: not (rhel_baseline_crypto_policy_effective | upper).startswith('LEGACY')
+    fail_msg: The LEGACY crypto policy is below the baseline. Use DEFAULT, DEFAULT:NO-SHA1, FUTURE or FIPS.
+    quiet: true
+
+- name: Crypto | Read the current system-wide crypto policy
+  ansible.builtin.command:
+    cmd: update-crypto-policies --show
+  register: rhel_baseline_crypto_current
+  changed_when: false
+  check_mode: false
+
+- name: Crypto | Set the system-wide crypto policy
+  ansible.builtin.command:
+    argv: [update-crypto-policies, --set, "{{ rhel_baseline_crypto_policy_effective }}"]
+  changed_when: true
+  when:
+    - not rhel_baseline_fips | bool
+    - rhel_baseline_crypto_current.stdout | trim != rhel_baseline_crypto_policy_effective
+  notify: Reload sshd
+
+- name: Crypto | Record the reboot for the crypto policy
+  ansible.builtin.set_fact:
+    rhel_baseline_reboot_reasons: >-
+      {{ rhel_baseline_reboot_reasons + ['crypto policy: changed from ' ~ (rhel_baseline_crypto_current.stdout | trim)
+         ~ ' to ' ~ rhel_baseline_crypto_policy_effective ~ '; running services keep the old settings until reboot'] }}
+  when:
+    - not rhel_baseline_fips | bool
+    - rhel_baseline_crypto_current.stdout | trim != rhel_baseline_crypto_policy_effective
+
+- name: Crypto | Read the FIPS mode
+  ansible.builtin.command:
+    cmd: fips-mode-setup --check
+  register: rhel_baseline_fips_current
+  changed_when: false
+  failed_when: false
+  check_mode: false
+  when: rhel_baseline_fips | bool
+
+- name: Crypto | Turn on FIPS mode
+  ansible.builtin.command:
+    cmd: fips-mode-setup --enable
+  changed_when: true
+  when:
+    - rhel_baseline_fips | bool
+    - "'FIPS mode is enabled' not in rhel_baseline_fips_current.stdout"
+    - "'Inconsistent state' not in rhel_baseline_fips_current.stdout"
+
+- name: Crypto | Record the reboot for FIPS mode
+  ansible.builtin.set_fact:
+    rhel_baseline_reboot_reasons: "{{ rhel_baseline_reboot_reasons + ['crypto policy: FIPS mode is turned on at the next boot'] }}"
+  when:
+    - rhel_baseline_fips | bool
+    - "'FIPS mode is enabled' not in rhel_baseline_fips_current.stdout"
+
+# RHEL 8 sshd can override the system policy from /etc/sysconfig/sshd.
+- name: Crypto | Stop sshd overriding the system crypto policy (RHEL 8)
+  ansible.builtin.lineinfile:
+    path: /etc/sysconfig/sshd
+    regexp: '^\s*CRYPTO_POLICY='
+    state: absent
+  when: ansible_facts.distribution_major_version == '8'
+  notify: Reload sshd

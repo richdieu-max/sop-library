@@ -1,0 +1,5 @@
+---
+# Web servers: the patch play checks the application after each batch.
+patch_health_checks:
+  - {type: service, name: httpd}
+  - {type: url, url: "https://{{ inventory_hostname }}/health", status_code: 200}

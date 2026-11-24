@@ -54,6 +54,15 @@ Keep RHEL 8 and 9 servers inside the patch SLA without surprise outages. Securit
 
 ### In the window (Ansible)
 
+Run the full play from [rhel-hardening](../tools/rhel-hardening), limited to the errata that passed ring 1:
+
+```bash
+ansible-playbook playbooks/patch.yml -e patch_target=ring2_web -e patch_change_id=CHG0012348 \
+  -e @reports/patch/<ring1-run>/advisories.yml
+```
+
+It writes a record per host with the dnf transaction IDs and the rollback commands. The core of the play, simplified:
+
 ```yaml
 - name: Patch production, two hosts at a time
   hosts: ring2_web

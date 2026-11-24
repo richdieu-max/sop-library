@@ -1,0 +1,94 @@
+---
+# Patch compliance report against the SLA (SOP-LNX-002, Verify step 3).
+#   ansible-playbook playbooks/patch_report.yml
+#   ansible-playbook playbooks/patch_report.yml --limit ring2
+#
+# Collects dnf updateinfo from every host and writes, on the control node:
+#   reports/compliance/<run id>/compliance.md
+#   reports/compliance/<run id>/compliance.json
+#   reports/compliance/<run id>/<host>/updateinfo-*.txt (raw input)
+- name: Collect outstanding security errata and score them against the SLA
+  hosts: all
+  become: true
+  gather_facts: false
+  vars:
+    report_root: "{{ playbook_dir }}/../reports/compliance"
+    report_run_id: >-
+      {{ ansible_play_hosts_all | map('extract', hostvars) | selectattr('report_run_id_once', 'defined')
+         | map(attribute='report_run_id_once') | first }}
+    report_dir: "{{ report_root }}/{{ report_run_id }}"
+    report_tool: "{{ playbook_dir }}/../tools/patch_report.py"
+    # Days from release to production per Red Hat severity.
+    report_sla_days: {Critical: 7, Important: 30, Moderate: 31, Low: 31}
+  tasks:
+    - name: Set the run id from the control node clock (UTC)
+      ansible.builtin.set_fact:
+        report_run_id_once: "{{ now(utc=true, fmt='%Y%m%dT%H%M%SZ') }}"
+      run_once: true
+
+    - name: Summarise outstanding security errata
+      ansible.builtin.command:
+        cmd: dnf -q updateinfo summary --security
+      register: report_summary
+      changed_when: false
+      check_mode: false
+
+    - name: List outstanding security errata
+      ansible.builtin.command:
+        cmd: dnf -q updateinfo list --security
+      register: report_list
+      changed_when: false
+      check_mode: false
+
+    - name: Read the advisory details (issue dates)
+      ansible.builtin.command:
+        cmd: dnf -q updateinfo info --security
+      register: report_info
+      changed_when: false
+      check_mode: false
+
+    - name: Create the folder for this host
+      ansible.builtin.file:
+        path: "{{ report_dir }}/{{ inventory_hostname }}"
+        state: directory
+        mode: "0750"
+      delegate_to: localhost
+      become: false
+      check_mode: false
+
+    - name: Save the raw output
+      ansible.builtin.copy:
+        dest: "{{ report_dir }}/{{ inventory_hostname }}/{{ item.name }}"
+        content: "{{ item.content }}\n"
+        mode: "0640"
+      loop:
+        - {name: updateinfo-summary.txt, content: "{{ report_summary.stdout }}"}
+        - {name: updateinfo-list.txt, content: "{{ report_list.stdout }}"}
+        - {name: updateinfo-info.txt, content: "{{ report_info.stdout }}"}
+        - name: host.json
+          content: "{{ {'host': inventory_hostname, 'rings': group_names | select('match', '^ring') | list} | to_nice_json }}"
+      loop_control:
+        label: "{{ item.name }}"
+      delegate_to: localhost
+      become: false
+      check_mode: false
+
+    - name: Score every host against the SLA
+      ansible.builtin.command:
+        argv:
+          - "{{ ansible_playbook_python }}"
+          - "{{ report_tool }}"
+          - "{{ report_dir }}"
+          - --sla
+          - "{{ report_sla_days | to_json }}"
+      register: report_result
+      changed_when: false
+      delegate_to: localhost
+      become: false
+      run_once: true
+      check_mode: false
+
+    - name: Show the compliance summary
+      ansible.builtin.debug:
+        msg: "{{ report_result.stdout_lines }}"
+      run_once: true

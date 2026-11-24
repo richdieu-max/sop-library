@@ -1,0 +1,57 @@
+---
+- name: Kernel | Set kernel parameters in {{ rhel_baseline_sysctl_file }}
+  ansible.posix.sysctl:
+    name: "{{ item.key }}"
+    value: "{{ item.value | string }}"
+    sysctl_file: "{{ rhel_baseline_sysctl_file }}"
+    sysctl_set: true
+    state: present
+    reload: false
+  # An override set to null drops the key, for example on a host without IPv6.
+  loop: "{{ rhel_baseline_sysctl | combine(rhel_baseline_sysctl_overrides) | dict2items | rejectattr('value', 'none') | list }}"
+  loop_control:
+    label: "{{ item.key }} = {{ item.value }}"
+
+- name: Kernel | Stop unused file system and network modules from loading
+  ansible.builtin.template:
+    src: modprobe-baseline.conf.j2
+    dest: /etc/modprobe.d/50-rhel-baseline.conf
+    owner: root
+    group: root
+    mode: "0644"
+
+- name: Kernel | Limit core dumps for all users
+  ansible.builtin.copy:
+    dest: /etc/security/limits.d/50-rhel-baseline.conf
+    content: |
+      # Managed by Ansible role rhel_baseline.
+      *    hard    core    0
+    owner: root
+    group: root
+    mode: "0644"
+  when: rhel_baseline_disable_core_dumps | bool
+
+- name: Kernel | Create the systemd-coredump drop-in directory
+  ansible.builtin.file:
+    path: /etc/systemd/coredump.conf.d
+    state: directory
+    owner: root
+    group: root
+    mode: "0755"
+  register: rhel_baseline_coredump_dir
+  when: rhel_baseline_disable_core_dumps | bool
+
+- name: Kernel | Stop systemd-coredump from storing dumps
+  ansible.builtin.copy:
+    dest: /etc/systemd/coredump.conf.d/50-rhel-baseline.conf
+    content: |
+      # Managed by Ansible role rhel_baseline.
+      [Coredump]
+      Storage=none
+      ProcessSizeMax=0
+    owner: root
+    group: root
+    mode: "0644"
+  when:
+    - rhel_baseline_disable_core_dumps | bool
+    - not (ansible_check_mode and rhel_baseline_coredump_dir is changed)

@@ -1,0 +1,112 @@
+---
+# PAM is changed only through authselect, never by editing files in
+# /etc/pam.d by hand, so authselect keeps owning the stack.
+- name: Auth | Read the current authselect profile
+  ansible.builtin.command:
+    cmd: authselect current --raw
+  register: rhel_baseline_authselect_current
+  changed_when: false
+  failed_when: false
+  check_mode: false
+
+- name: Auth | Stop when PAM is not managed by authselect
+  ansible.builtin.fail:
+    msg: >-
+      authselect does not manage PAM on this host ({{ rhel_baseline_authselect_current.stdout
+      | default('') }}{{ rhel_baseline_authselect_current.stderr | default('') }}). Review /etc/pam.d,
+      then set rhel_baseline_authselect_force: true to select the
+      {{ rhel_baseline_authselect_profile }} profile, or turn the area off with rhel_baseline_auth: false.
+  when:
+    - rhel_baseline_authselect_current.rc != 0
+    - not rhel_baseline_authselect_force | bool
+
+- name: Auth | Select the authselect profile with the baseline features
+  ansible.builtin.command:
+    argv: "{{ ['authselect', 'select', rhel_baseline_authselect_profile] + rhel_baseline_authselect_features + ['--force'] }}"
+  register: rhel_baseline_authselect_select
+  changed_when: rhel_baseline_authselect_select.rc == 0
+  when:
+    - rhel_baseline_authselect_current.rc != 0
+    - rhel_baseline_authselect_force | bool
+
+- name: Auth | Enable the missing authselect features
+  ansible.builtin.command:
+    argv: [authselect, enable-feature, "{{ item }}"]
+  loop: "{{ rhel_baseline_authselect_features }}"
+  register: rhel_baseline_authselect_feature
+  changed_when: rhel_baseline_authselect_feature.rc == 0
+  when:
+    - rhel_baseline_authselect_current.rc == 0
+    - item not in rhel_baseline_authselect_current.stdout.split()
+
+- name: Auth | Configure pam_faillock
+  ansible.builtin.lineinfile:
+    path: /etc/security/faillock.conf
+    regexp: '^\s*#?\s*{{ item.key }}\s*='
+    line: "{{ item.key }} = {{ item.value }}"
+    owner: root
+    group: root
+    mode: "0644"
+  loop:
+    - {key: deny, value: "{{ rhel_baseline_faillock_deny }}"}
+    - {key: unlock_time, value: "{{ rhel_baseline_faillock_unlock_time }}"}
+    - {key: fail_interval, value: "{{ rhel_baseline_faillock_fail_interval }}"}
+  loop_control:
+    label: "{{ item.key }}"
+
+- name: Auth | Configure password quality
+  ansible.builtin.lineinfile:
+    path: /etc/security/pwquality.conf
+    regexp: '^\s*#?\s*{{ item.key }}\s*='
+    line: "{{ item.key }} = {{ item.value }}"
+    owner: root
+    group: root
+    mode: "0644"
+  loop:
+    - {key: minlen, value: "{{ rhel_baseline_pwquality_minlen }}"}
+    - {key: minclass, value: "{{ rhel_baseline_pwquality_minclass }}"}
+    - {key: retry, value: "{{ rhel_baseline_pwquality_retry }}"}
+  loop_control:
+    label: "{{ item.key }}"
+
+- name: Auth | Configure password ageing and umask in login.defs
+  ansible.builtin.lineinfile:
+    path: /etc/login.defs
+    regexp: '^\s*#?\s*{{ item.key }}\s'
+    line: "{{ item.key }}\t{{ item.value }}"
+    owner: root
+    group: root
+    mode: "0644"
+  loop:
+    - {key: PASS_MAX_DAYS, value: "{{ rhel_baseline_pass_max_days }}"}
+    - {key: PASS_MIN_DAYS, value: "{{ rhel_baseline_pass_min_days }}"}
+    - {key: PASS_WARN_AGE, value: "{{ rhel_baseline_pass_warn_age }}"}
+    - {key: UMASK, value: "{{ rhel_baseline_umask }}"}
+  loop_control:
+    label: "{{ item.key }}"
+
+- name: Auth | Set the shell idle timeout
+  ansible.builtin.copy:
+    dest: /etc/profile.d/50-rhel-baseline-tmout.sh
+    content: |
+      # Managed by Ansible role rhel_baseline.
+      if ! readonly -p 2>/dev/null | grep -q ' TMOUT='; then
+          TMOUT={{ rhel_baseline_shell_timeout }}
+          readonly TMOUT
+          export TMOUT
+      fi
+    owner: root
+    group: root
+    mode: "0644"
+
+- name: Auth | Configure sudo to use a pty and keep a log
+  ansible.builtin.copy:
+    dest: /etc/sudoers.d/50-rhel-baseline
+    content: |
+      # Managed by Ansible role rhel_baseline.
+      Defaults use_pty
+      Defaults logfile="{{ rhel_baseline_sudo_logfile }}"
+    owner: root
+    group: root
+    mode: "0440"
+    validate: /usr/sbin/visudo -cf %s

@@ -1,0 +1,69 @@
+---
+# sshd uses the first value it reads for a keyword. On RHEL 9 the drop-in
+# 40-baseline.conf sorts before 50-redhat.conf and any 50-cloud-init.conf, so
+# its values win. On RHEL 8 there is no drop-in directory, so the managed
+# block goes at the top of sshd_config, before the vendor defaults and any
+# Match block.
+- name: SSH | Write the login banner
+  ansible.builtin.copy:
+    content: "{{ rhel_baseline_login_banner }}"
+    dest: "{{ item }}"
+    owner: root
+    group: root
+    mode: "0644"
+  loop:
+    - /etc/issue
+    - /etc/issue.net
+
+- name: SSH | Write /etc/ssh/sshd_config.d/40-baseline.conf (RHEL 9)
+  ansible.builtin.template:
+    src: sshd_baseline.conf.j2
+    dest: /etc/ssh/sshd_config.d/40-baseline.conf
+    owner: root
+    group: root
+    mode: "0600"
+    validate: /usr/sbin/sshd -t -f %s
+  when: ansible_facts.distribution_major_version is version('9', '>=')
+  notify: Reload sshd
+
+- name: SSH | Manage the rhel_baseline block at the top of sshd_config (RHEL 8)
+  ansible.builtin.blockinfile:
+    path: /etc/ssh/sshd_config
+    marker: "# {mark} rhel_baseline managed block"
+    insertbefore: BOF
+    block: "{{ lookup('ansible.builtin.template', 'sshd_baseline.conf.j2') }}"
+    owner: root
+    group: root
+    mode: "0600"
+    validate: /usr/sbin/sshd -t -f %s
+  when: ansible_facts.distribution_major_version is version('9', '<')
+  notify: Reload sshd
+
+- name: SSH | Check the permissions of sshd_config
+  ansible.builtin.file:
+    path: /etc/ssh/sshd_config
+    owner: root
+    group: root
+    mode: "0600"
+
+- name: SSH | Find the private host keys
+  ansible.builtin.find:
+    paths: /etc/ssh
+    patterns: ssh_host_*_key
+  register: rhel_baseline_ssh_host_keys
+
+- name: SSH | Restrict the private host keys
+  ansible.builtin.file:
+    path: "{{ item.path }}"
+    owner: root
+    group: ssh_keys
+    mode: "0640"
+  loop: "{{ rhel_baseline_ssh_host_keys.files }}"
+  loop_control:
+    label: "{{ item.path }}"
+
+- name: SSH | Test the complete sshd configuration
+  ansible.builtin.command:
+    cmd: /usr/sbin/sshd -t
+  changed_when: false
+  check_mode: false

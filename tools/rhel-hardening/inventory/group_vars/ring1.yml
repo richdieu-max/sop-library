@@ -1,0 +1,4 @@
+---
+# Ring 1, non-production: the weekly window takes security errata issued at
+# least 3 days ago.
+patch_min_errata_age_days: 3

@@ -1,0 +1,35 @@
+===============================================================================
+  Important: kernel security update
+===============================================================================
+  Update ID: RHSA-2026:0001
+       Type: security
+    Updated: 2026-10-01 08:00:00
+       Bugs: 2300001 - CVE-2026-10001 kernel: example flaw one
+           : 2300002 - CVE-2026-10002 kernel: example flaw two
+       CVEs: CVE-2026-10001
+           : CVE-2026-10002
+Description : The kernel packages contain the Linux kernel.
+           : Security Fix(es):
+           : * kernel: example flaw one (CVE-2026-10001)
+   Severity: Important
+
+===============================================================================
+  Critical: openssl security update
+===============================================================================
+  Update ID: RHSA-2026:0002
+       Type: security
+    Updated: 2026-11-21 10:00:00
+       CVEs: CVE-2026-20001
+Description : OpenSSL is a toolkit that implements SSL and TLS.
+   Severity: Critical
+
+===============================================================================
+  Moderate: curl security update
+===============================================================================
+  Update ID: RHSA-2026:0003
+       Type: security
+     Issued: 2026-09-15 00:00:00
+    Updated: 2026-10-20 00:00:00
+       CVEs: CVE-2026-30001
+Description : curl is a command line tool for transferring data.
+   Severity: Moderate

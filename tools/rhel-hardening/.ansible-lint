@@ -1,0 +1,11 @@
+---
+profile: production
+exclude_paths:
+  - tests/
+  - evidence/
+  - reports/
+  - .ansible/
+kinds:
+  - tasks: "**/playbooks/tasks/*.yml"
+  - vars: "**/inventory/group_vars/*.yml"
+  - vars: "**/inventory/host_vars/*.yml"

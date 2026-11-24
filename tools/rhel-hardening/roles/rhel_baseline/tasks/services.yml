@@ -1,0 +1,82 @@
+---
+- name: Services | Remove packages the baseline does not allow
+  ansible.builtin.dnf:
+    name: "{{ rhel_baseline_packages_absent }}"
+    state: absent
+    autoremove: false
+
+# service_facts does not list socket units, so read them from systemctl.
+- name: Services | List the installed service and socket units
+  ansible.builtin.command:  # noqa: command-instead-of-module
+    cmd: systemctl list-unit-files --no-legend --no-pager --type=service,socket
+  register: rhel_baseline_unit_files
+  changed_when: false
+  check_mode: false
+
+- name: Services | Stop and disable services the baseline does not allow
+  ansible.builtin.systemd:
+    name: "{{ item }}"
+    state: stopped
+    enabled: false
+    masked: "{{ rhel_baseline_services_mask | bool }}"
+  loop: >-
+    {{ rhel_baseline_services_disabled
+       | intersect(rhel_baseline_unit_files.stdout_lines | map('split') | map('first') | list) }}
+
+- name: Services | Install and enable time synchronisation
+  ansible.builtin.dnf:
+    name: chrony
+    state: present
+  register: rhel_baseline_chrony_pkg
+  when: rhel_baseline_time_service == 'chronyd'
+
+- name: Services | Enable chronyd
+  ansible.builtin.systemd:
+    name: chronyd
+    enabled: true
+    state: started
+  when:
+    - rhel_baseline_time_service == 'chronyd'
+    - not (ansible_check_mode and rhel_baseline_chrony_pkg is changed)
+
+- name: Services | Check the cron files exist
+  ansible.builtin.stat:
+    path: "{{ item }}"
+  loop:
+    - /etc/crontab
+    - /etc/cron.hourly
+    - /etc/cron.daily
+    - /etc/cron.weekly
+    - /etc/cron.monthly
+    - /etc/cron.d
+  register: rhel_baseline_cron_paths
+
+- name: Services | Restrict cron files to root
+  ansible.builtin.file:
+    path: "{{ item.item }}"
+    owner: root
+    group: root
+    mode: "{{ '0600' if item.stat.isreg else '0700' }}"
+  loop: "{{ rhel_baseline_cron_paths.results | selectattr('stat.exists') | list }}"
+  loop_control:
+    label: "{{ item.item }}"
+
+- name: Services | Allow only root to use cron and at
+  ansible.builtin.copy:
+    dest: "{{ item }}"
+    content: "root\n"
+    owner: root
+    group: root
+    mode: "0600"
+    force: false
+  loop:
+    - /etc/cron.allow
+    - /etc/at.allow
+
+- name: Services | Remove the cron and at deny lists
+  ansible.builtin.file:
+    path: "{{ item }}"
+    state: absent
+  loop:
+    - /etc/cron.deny
+    - /etc/at.deny

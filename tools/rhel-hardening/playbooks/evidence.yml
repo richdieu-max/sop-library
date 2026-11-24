@@ -1,0 +1,182 @@
+---
+# Scan with OpenSCAP and keep hashed evidence (SOP-LNX-001).
+#   ansible-playbook playbooks/evidence.yml --limit canary-01 -e scap_profile=cis_server_l1
+#
+# Output, per run and host:
+#   evidence/<run id>/<host>/arf.xml       OpenSCAP ARF results (the record)
+#   evidence/<run id>/<host>/report.html   OpenSCAP HTML report
+#   evidence/<run id>/<host>/report.md     findings, FAIL and WARN first
+#   evidence/<run id>/<host>/summary.json  counts and scan metadata
+#   evidence/<run id>/<host>/findings.json every finding, PASS included
+#   evidence/<run id>/<host>/host.json     host, OS, content version, oscap exit code
+#   evidence/<run id>/<host>/SHA256SUMS    sha256sum -c compatible manifest
+
+- name: Scan each host with OpenSCAP and keep the evidence
+  hosts: all
+  become: true
+  gather_facts: true
+  vars:
+    scap_profile: cis_server_l1
+    scap_profile_id: >-
+      {{ scap_profile if scap_profile.startswith('xccdf_') else 'xccdf_org.ssgproject.content_profile_' ~ scap_profile }}
+    scap_datastream: "/usr/share/xml/scap/ssg/content/ssg-rhel{{ ansible_facts.distribution_major_version }}-ds.xml"
+    scap_fetch_remote: false
+    scap_timeout: 3600
+    scap_remote_dir: /var/tmp/rhel-hardening-evidence
+    scap_exceptions_file: "{{ playbook_dir }}/../exceptions/exceptions.yml"
+    # none, high (a high-severity FAIL without an exception) or fail (any FAIL)
+    evidence_fail_on: none
+    evidence_root: "{{ playbook_dir }}/../evidence"
+    # One run id for every host in the run, taken once from the control node clock.
+    evidence_run_id: >-
+      {{ ansible_play_hosts_all | map('extract', hostvars) | selectattr('evidence_run_id_once', 'defined')
+         | map(attribute='evidence_run_id_once') | first }}
+    evidence_dir: "{{ evidence_root }}/{{ evidence_run_id }}/{{ inventory_hostname }}"
+    evidence_tool: "{{ playbook_dir }}/../tools/scap_summary.py"
+  tasks:
+    - name: Set the run id from the control node clock (UTC)
+      ansible.builtin.set_fact:
+        evidence_run_id_once: "{{ evidence_run_id_override | default(now(utc=true, fmt='%Y%m%dT%H%M%SZ')) }}"
+      run_once: true
+
+    - name: Check the host is RHEL 8 or 9
+      ansible.builtin.assert:
+        that:
+          - ansible_facts.distribution == 'RedHat'
+          - ansible_facts.distribution_major_version in ['8', '9']
+        fail_msg: "SCAP content for {{ ansible_facts.distribution }} {{ ansible_facts.distribution_version }} is not handled here"
+        quiet: true
+
+    - name: Install the scanner and the SCAP Security Guide content
+      ansible.builtin.dnf:
+        name:
+          - openscap-scanner
+          - scap-security-guide
+        state: present
+      check_mode: false
+
+    - name: Check the data stream is present
+      ansible.builtin.stat:
+        path: "{{ scap_datastream }}"
+      register: evidence_ds
+
+    - name: Stop when the SCAP content is missing
+      ansible.builtin.fail:
+        msg: "{{ scap_datastream }} is missing. Install scap-security-guide from the RHEL AppStream repository."
+      when: not evidence_ds.stat.exists
+
+    - name: List the profiles in the data stream
+      ansible.builtin.command:
+        argv: [oscap, info, --profiles, "{{ scap_datastream }}"]
+      register: evidence_profiles
+      changed_when: false
+      check_mode: false
+
+    - name: Stop when the profile is not in the data stream
+      ansible.builtin.fail:
+        msg: "Profile {{ scap_profile_id }} is not in {{ scap_datastream }}. Profiles: {{ evidence_profiles.stdout_lines | join(', ') }}"
+      when: scap_profile_id not in evidence_profiles.stdout
+
+    - name: Read the content version
+      ansible.builtin.command:
+        argv: [rpm, -q, --qf, "%{VERSION}-%{RELEASE}", scap-security-guide]
+      register: evidence_ssg_version
+      changed_when: false
+      check_mode: false
+
+    - name: Create a private working folder on the host
+      ansible.builtin.file:
+        path: "{{ scap_remote_dir }}/{{ evidence_run_id }}"
+        state: directory
+        owner: root
+        group: root
+        mode: "0700"
+      check_mode: false
+
+    # Exit codes: 0 all rules passed, 2 at least one rule failed (a result,
+    # not an error), 1 the scan itself failed.
+    - name: Run the OpenSCAP scan
+      ansible.builtin.command:
+        argv: >-
+          {{ ['oscap', 'xccdf', 'eval', '--profile', scap_profile_id,
+              '--results-arf', scap_remote_dir ~ '/' ~ evidence_run_id ~ '/arf.xml',
+              '--report', scap_remote_dir ~ '/' ~ evidence_run_id ~ '/report.html']
+             + (['--fetch-remote-resources'] if scap_fetch_remote | bool else [])
+             + [scap_datastream] }}
+      register: evidence_oscap
+      changed_when: false
+      failed_when: evidence_oscap.rc not in [0, 2]
+      async: "{{ scap_timeout }}"
+      poll: 15
+      check_mode: false
+
+    - name: Create the local evidence folder
+      ansible.builtin.file:
+        path: "{{ evidence_dir }}"
+        state: directory
+        mode: "0750"
+      delegate_to: localhost
+      become: false
+      check_mode: false
+
+    - name: Fetch the results to the control node
+      ansible.builtin.fetch:
+        src: "{{ scap_remote_dir }}/{{ evidence_run_id }}/{{ item }}"
+        dest: "{{ evidence_dir }}/{{ item }}"
+        flat: true
+        validate_checksum: true
+      loop:
+        - arf.xml
+        - report.html
+      check_mode: false
+
+    - name: Record the scan details
+      ansible.builtin.copy:
+        dest: "{{ evidence_dir }}/host.json"
+        content: >-
+          {{ {'host': inventory_hostname,
+              'fqdn': ansible_facts.fqdn,
+              'os': ansible_facts.distribution ~ ' ' ~ ansible_facts.distribution_version,
+              'kernel': ansible_facts.kernel,
+              'profile': scap_profile_id,
+              'datastream': scap_datastream,
+              'scap_security_guide': evidence_ssg_version.stdout,
+              'oscap_exit_code': evidence_oscap.rc,
+              'oscap_exit_meaning': {0: 'all rules passed', 2: 'one or more rules failed'}[evidence_oscap.rc],
+              'started': evidence_oscap.start | default(''),
+              'finished': evidence_oscap.end | default(''),
+              'run_id': evidence_run_id} | to_nice_json }}
+        mode: "0640"
+      delegate_to: localhost
+      become: false
+      check_mode: false
+
+    - name: Check for an exceptions file
+      ansible.builtin.stat:
+        path: "{{ scap_exceptions_file }}"
+      register: evidence_exceptions
+      delegate_to: localhost
+      become: false
+
+    - name: Summarise the results and write SHA256SUMS
+      ansible.builtin.command:
+        argv: >-
+          {{ [ansible_playbook_python, evidence_tool, evidence_dir ~ '/arf.xml',
+              '--out-dir', evidence_dir, '--host', inventory_hostname, '--sha256sums',
+              '--fail-on', evidence_fail_on]
+             + (['--exceptions', scap_exceptions_file] if evidence_exceptions.stat.exists else []) }}
+      register: evidence_summary
+      changed_when: false
+      delegate_to: localhost
+      become: false
+      check_mode: false
+
+    - name: Show the result
+      ansible.builtin.debug:
+        msg: "{{ evidence_summary.stdout_lines }}"
+
+    - name: Remove the working folder from the host
+      ansible.builtin.file:
+        path: "{{ scap_remote_dir }}/{{ evidence_run_id }}"
+        state: absent
+      check_mode: false

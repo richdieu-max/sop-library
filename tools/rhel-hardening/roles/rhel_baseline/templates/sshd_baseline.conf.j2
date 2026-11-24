@@ -1,0 +1,26 @@
+# Managed by Ansible role rhel_baseline. Local changes are overwritten.
+# sshd keeps the first value it reads for each keyword.
+PermitRootLogin {{ rhel_baseline_ssh_permit_root_login }}
+PasswordAuthentication {{ 'yes' if rhel_baseline_ssh_password_authentication | bool else 'no' }}
+KbdInteractiveAuthentication {{ 'yes' if rhel_baseline_ssh_password_authentication | bool else 'no' }}
+PermitEmptyPasswords no
+PubkeyAuthentication yes
+HostbasedAuthentication no
+IgnoreRhosts yes
+PermitUserEnvironment no
+UsePAM yes
+MaxAuthTries {{ rhel_baseline_ssh_max_auth_tries }}
+MaxSessions {{ rhel_baseline_ssh_max_sessions }}
+MaxStartups {{ rhel_baseline_ssh_max_startups }}
+LoginGraceTime {{ rhel_baseline_ssh_login_grace_time }}
+ClientAliveInterval {{ rhel_baseline_ssh_client_alive_interval }}
+ClientAliveCountMax {{ rhel_baseline_ssh_client_alive_count_max }}
+LogLevel {{ rhel_baseline_ssh_log_level }}
+X11Forwarding {{ 'yes' if rhel_baseline_ssh_x11_forwarding | bool else 'no' }}
+Banner /etc/issue.net
+{% if rhel_baseline_ssh_allow_groups | length > 0 %}
+AllowGroups {{ rhel_baseline_ssh_allow_groups | join(' ') }}
+{% endif %}
+{% for key, value in rhel_baseline_ssh_extra_settings | dictsort %}
+{{ key }} {{ value }}
+{% endfor %}

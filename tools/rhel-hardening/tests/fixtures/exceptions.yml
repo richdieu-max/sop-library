@@ -1,0 +1,26 @@
+# Exceptions fixture for the unit tests.
+exceptions:
+  - rule: partition_for_var_log_audit
+    reason: "Disk layout is fixed at install; next build image adds the partition"
+    owner: Linux platform team
+    expires: 2027-03-31
+    reference: CHG0012347
+  - rule: xccdf_org.ssgproject.content_rule_rsyslog_remote_loghost   # full id also works
+    reason: Log forwarding is configured under its own change
+    owner: 'Security operations'
+    expires: "2027-01-15"
+    hosts: [canary-*, web-01]
+  - rule: grub2_password
+    reason: Boot loader password pending vault entry
+    owner: Linux platform team
+    expires: 2026-10-31
+  - rule: accounts_tmout
+    reason: Applies to web hosts only
+    owner: Linux platform team
+    expires: 2027-06-30
+    hosts:
+      - web-*
+  - rule: package_aide_installed
+    reason: Old exception, the rule passes now
+    owner: Linux platform team
+    expires: 2027-06-30

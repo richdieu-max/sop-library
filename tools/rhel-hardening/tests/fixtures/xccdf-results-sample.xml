@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Plain XCCDF 1.2 result file, the shape that oscap xccdf eval writes with its results option. Values are illustrative. -->
+<Benchmark xmlns="http://checklists.nist.gov/xccdf/1.2" id="xccdf_org.ssgproject.content_benchmark_RHEL-8" resolved="1">
+  <status>draft</status>
+  <title>Guide to the Secure Configuration of Red Hat Enterprise Linux 8</title>
+  <version>0.1.72</version>
+  <Rule id="xccdf_org.ssgproject.content_rule_sshd_set_max_auth_tries" severity="medium">
+    <title>Set SSH authentication attempt limit</title>
+    <reference href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r4.pdf">CM-6(a)</reference>
+  </Rule>
+  <Rule id="xccdf_org.ssgproject.content_rule_ensure_gpgcheck_globally_activated" severity="high">
+    <title>Ensure gpgcheck Enabled In Main dnf Configuration</title>
+    <reference href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r4.pdf">CM-5(3),SI-7,SC-12</reference>
+  </Rule>
+  <TestResult id="xccdf_org.open-scap_testresult_xccdf_org.ssgproject.content_profile_cis_server_l1"
+      start-time="2026-11-21T02:00:00+00:00" end-time="2026-11-21T02:01:30+00:00">
+    <profile idref="xccdf_org.ssgproject.content_profile_cis_server_l1"/>
+    <target>web-01.example.test</target>
+    <rule-result idref="xccdf_org.ssgproject.content_rule_sshd_set_max_auth_tries" severity="medium">
+      <result>pass</result>
+    </rule-result>
+    <rule-result idref="xccdf_org.ssgproject.content_rule_ensure_gpgcheck_globally_activated" severity="high">
+      <result>fail</result>
+    </rule-result>
+    <score system="urn:xccdf:scoring:default" maximum="100.000000">50.000000</score>
+  </TestResult>
+</Benchmark>

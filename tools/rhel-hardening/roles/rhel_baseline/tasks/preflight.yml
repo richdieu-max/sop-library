@@ -1,0 +1,90 @@
+---
+- name: Preflight | Gather facts when the play did not
+  ansible.builtin.setup:
+    gather_subset: [min, selinux, distribution, kernel]
+  when: ansible_facts.distribution is not defined or ansible_facts.selinux is not defined
+
+- name: Preflight | Check the operating system is supported
+  ansible.builtin.assert:
+    that:
+      - ansible_facts.distribution in rhel_baseline_supported_distributions
+      - ansible_facts.distribution_major_version in rhel_baseline_supported_major_versions
+    fail_msg: >-
+      {{ ansible_facts.distribution }} {{ ansible_facts.distribution_version }} is not supported.
+      The role supports {{ rhel_baseline_supported_distributions | join(', ') }}
+      {{ rhel_baseline_supported_major_versions | join(' and ') }}.
+    quiet: true
+
+- name: Preflight | Check the Ansible version on the control node
+  ansible.builtin.assert:
+    that: ansible_version.full is version('2.15', '>=')
+    fail_msg: "ansible-core 2.15 or later is required, this is {{ ansible_version.full }}"
+    quiet: true
+
+- name: Preflight | Check the firewall keeps SSH open
+  ansible.builtin.assert:
+    that: >-
+      rhel_baseline_firewall_allow_no_ssh | bool
+      or 'ssh' in rhel_baseline_firewall_services
+      or '22/tcp' in rhel_baseline_firewall_ports
+    fail_msg: >-
+      rhel_baseline_firewall_services does not contain ssh. Applying it would close SSH.
+      Add ssh, or set rhel_baseline_firewall_allow_no_ssh: true if access is by another path.
+    quiet: true
+  when: rhel_baseline_firewall | bool
+
+- name: Preflight | Look up the admin users
+  ansible.builtin.getent:
+    database: passwd
+    key: "{{ item }}"
+  loop: "{{ rhel_baseline_admin_users | select | list }}"
+  register: rhel_baseline_admin_lookup
+  check_mode: false
+  when:
+    - rhel_baseline_ssh | bool
+    - not rhel_baseline_ssh_password_authentication | bool
+
+- name: Preflight | Check the authorized_keys file of each admin user
+  ansible.builtin.stat:
+    path: "{{ item.ansible_facts.getent_passwd[item.item][4] }}/.ssh/authorized_keys"
+  loop: "{{ rhel_baseline_admin_lookup.results | default([]) | selectattr('ansible_facts', 'defined') | list }}"
+  loop_control:
+    label: "{{ item.item }}"
+  register: rhel_baseline_admin_keys
+  when:
+    - rhel_baseline_ssh | bool
+    - not rhel_baseline_ssh_password_authentication | bool
+    - not rhel_baseline_ssh_keys_from_command | bool
+
+- name: Preflight | Refuse to turn off password login for a user without a key
+  ansible.builtin.fail:
+    msg: >-
+      Admin user {{ item.item.item }} has no authorized_keys
+      ({{ item.invocation.module_args.path | default('~/.ssh/authorized_keys') }} is missing or empty).
+      Turning off SSH password login would lock this user out. Add a key with
+      ssh-copy-id first, or set rhel_baseline_ssh_password_authentication: true for this host.
+  loop: "{{ rhel_baseline_admin_keys.results | default([]) | selectattr('stat', 'defined') | list }}"
+  loop_control:
+    label: "{{ item.item.item }}"
+  when: not item.stat.exists or item.stat.size == 0
+
+- name: Preflight | Check the sshd drop-in directory is included (RHEL 9)
+  ansible.builtin.command:
+    cmd: grep -Eq '^[[:space:]]*Include[[:space:]]+/etc/ssh/sshd_config\.d/\*\.conf' /etc/ssh/sshd_config
+  register: rhel_baseline_sshd_include
+  changed_when: false
+  failed_when: false
+  check_mode: false
+  when:
+    - rhel_baseline_ssh | bool
+    - ansible_facts.distribution_major_version == '9'
+
+- name: Preflight | Stop when sshd_config does not include sshd_config.d
+  ansible.builtin.fail:
+    msg: >-
+      /etc/ssh/sshd_config has no "Include /etc/ssh/sshd_config.d/*.conf" line, so
+      40-baseline.conf would be ignored. Restore the line (it is the RHEL 9 default) and re-run.
+  when:
+    - rhel_baseline_ssh | bool
+    - ansible_facts.distribution_major_version == '9'
+    - rhel_baseline_sshd_include.rc != 0

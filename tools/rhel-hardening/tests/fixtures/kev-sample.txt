@@ -1,0 +1,2 @@
+# One CVE id per line; illustrative.
+CVE-2026-20001

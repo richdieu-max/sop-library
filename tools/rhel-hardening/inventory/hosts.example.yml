@@ -1,0 +1,63 @@
+---
+# Copy to inventory/hosts.yml (git ignores it) and replace the example
+# hosts. Addresses are from the documentation range 192.0.2.0/24.
+#
+# Hardening groups (SOP-LNX-001): canary, rhel_web, container_hosts.
+# Patch rings (SOP-LNX-002): ring0 (test), ring1 (non-production),
+# ring2 (production), with ring2_web and ring2_containers for batches.
+all:
+  vars:
+    ansible_user: opsadmin
+  children:
+    canary:
+      hosts:
+        canary-01:
+          ansible_host: 192.0.2.10
+
+    rhel_web:
+      hosts:
+        canary-01:
+        web-01:
+          ansible_host: 192.0.2.21
+        web-02:
+          ansible_host: 192.0.2.22
+        web-03:
+          ansible_host: 192.0.2.23
+      vars:
+        rhel_baseline_firewall_services: [ssh, https]
+
+    container_hosts:
+      hosts:
+        ctr-01:
+          ansible_host: 192.0.2.31
+        ctr-02:
+          ansible_host: 192.0.2.32
+      vars:
+        rhel_baseline_sysctl_overrides: {net.ipv4.ip_forward: 1}
+
+    ring0:
+      hosts:
+        lab-web-01:
+          ansible_host: 192.0.2.41
+        lab-ctr-01:
+          ansible_host: 192.0.2.42
+
+    ring1:
+      hosts:
+        canary-01:
+        dev-web-01:
+          ansible_host: 192.0.2.51
+        stg-web-01:
+          ansible_host: 192.0.2.52
+
+    ring2:
+      children:
+        ring2_web:
+          hosts:
+            web-01:
+            web-02:
+            web-03:
+        ring2_containers:
+          hosts:
+            ctr-01:
+            ctr-02:

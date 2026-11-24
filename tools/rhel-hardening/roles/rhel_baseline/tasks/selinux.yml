@@ -1,0 +1,58 @@
+---
+# Going from disabled straight to enforcing on reboot can leave files
+# without labels and stop services. A disabled host is moved to permissive
+# with a full relabel first; the next run after the reboot sets enforcing.
+- name: SELinux | Install the policy and tools
+  ansible.builtin.dnf:
+    name:
+      - "selinux-policy-{{ rhel_baseline_selinux_policy }}"
+      - policycoreutils
+      - policycoreutils-python-utils
+    state: present
+
+- name: SELinux | Read the kernel command line
+  ansible.builtin.slurp:
+    src: /proc/cmdline
+  register: rhel_baseline_proc_cmdline
+
+- name: SELinux | Remove selinux=0 from the kernel arguments
+  ansible.builtin.command:
+    cmd: grubby --update-kernel=ALL --remove-args=selinux
+  changed_when: true
+  when: "'selinux=0' in (rhel_baseline_proc_cmdline.content | b64decode).split()"
+
+- name: SELinux | Record the reboot for removing selinux=0
+  ansible.builtin.set_fact:
+    rhel_baseline_reboot_reasons: "{{ rhel_baseline_reboot_reasons + ['SELinux: selinux=0 removed from the kernel arguments'] }}"
+  when: "'selinux=0' in (rhel_baseline_proc_cmdline.content | b64decode).split()"
+
+- name: SELinux | Set permissive and request a relabel (SELinux is disabled now)
+  ansible.posix.selinux:
+    policy: "{{ rhel_baseline_selinux_policy }}"
+    state: permissive
+  register: rhel_baseline_selinux_permissive
+  when: ansible_facts.selinux.status == 'disabled'
+
+- name: SELinux | Request a full relabel at the next boot
+  ansible.builtin.file:
+    path: /.autorelabel
+    state: touch
+    owner: root
+    group: root
+    mode: "0644"
+    modification_time: preserve
+    access_time: preserve
+  when: ansible_facts.selinux.status == 'disabled'
+
+- name: SELinux | Record the reboot for the relabel
+  ansible.builtin.set_fact:
+    rhel_baseline_reboot_reasons: >-
+      {{ rhel_baseline_reboot_reasons + ['SELinux: relabel to permissive; run the role again after the reboot to set '
+         ~ rhel_baseline_selinux_state] }}
+  when: ansible_facts.selinux.status == 'disabled'
+
+- name: SELinux | Set the SELinux mode
+  ansible.posix.selinux:
+    policy: "{{ rhel_baseline_selinux_policy }}"
+    state: "{{ rhel_baseline_selinux_state }}"
+  when: ansible_facts.selinux.status != 'disabled'

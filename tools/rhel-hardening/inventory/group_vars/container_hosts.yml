@@ -1,0 +1,7 @@
+---
+# Container hosts route traffic for their containers, so IP forwarding stays
+# on (rhel_baseline_sysctl_overrides is set in hosts.example.yml). Do not
+# let the firewall area remove the services the container runtime adds.
+rhel_baseline_firewall_prune: false
+patch_health_checks:
+  - {type: command, cmd: podman ps --quiet}

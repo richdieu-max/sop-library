@@ -1,0 +1,136 @@
+---
+- name: Audit | Install audit and rsyslog
+  ansible.builtin.dnf:
+    name:
+      - audit
+      - rsyslog
+    state: present
+  register: rhel_baseline_audit_pkg
+
+- name: Audit | Enable auditd and rsyslog
+  ansible.builtin.systemd:
+    name: "{{ item }}"
+    enabled: true
+    state: started
+  loop:
+    - auditd
+    - rsyslog
+  when: not (ansible_check_mode and rhel_baseline_audit_pkg is changed)
+
+- name: Audit | Configure auditd.conf
+  ansible.builtin.lineinfile:
+    path: /etc/audit/auditd.conf
+    regexp: '^\s*#?\s*{{ item.key }}\s*='
+    line: "{{ item.key }} = {{ item.value }}"
+    owner: root
+    group: root
+    mode: "0640"
+  loop:
+    - {key: max_log_file, value: "{{ rhel_baseline_audit_max_log_file }}"}
+    - {key: max_log_file_action, value: "{{ rhel_baseline_audit_max_log_file_action }}"}
+    - {key: space_left_action, value: "{{ rhel_baseline_audit_space_left_action }}"}
+    - {key: action_mail_acct, value: "{{ rhel_baseline_audit_action_mail_acct }}"}
+    - {key: admin_space_left_action, value: "{{ rhel_baseline_audit_admin_space_left_action }}"}
+  loop_control:
+    label: "{{ item.key }}"
+  when: not (ansible_check_mode and rhel_baseline_audit_pkg is changed)
+  notify: Restart auditd
+
+- name: Audit | Write the baseline audit rules
+  ansible.builtin.template:
+    src: audit-baseline.rules.j2
+    dest: /etc/audit/rules.d/50-rhel-baseline.rules
+    owner: root
+    group: root
+    mode: "0600"
+  register: rhel_baseline_audit_rules
+
+- name: Audit | Write or remove the immutable flag
+  ansible.builtin.copy:
+    dest: /etc/audit/rules.d/99-rhel-baseline-finalize.rules
+    content: |
+      ## Managed by Ansible role rhel_baseline. Rules cannot change until reboot.
+      -e 2
+    owner: root
+    group: root
+    mode: "0600"
+  register: rhel_baseline_audit_finalize
+  when: rhel_baseline_audit_immutable | bool
+
+- name: Audit | Remove the immutable flag when it is not wanted
+  ansible.builtin.file:
+    path: /etc/audit/rules.d/99-rhel-baseline-finalize.rules
+    state: absent
+  register: rhel_baseline_audit_finalize_removed
+  when: not rhel_baseline_audit_immutable | bool
+
+- name: Audit | Read the audit status
+  ansible.builtin.command:
+    cmd: auditctl -s
+  register: rhel_baseline_auditctl_status
+  changed_when: false
+  failed_when: false
+  check_mode: false
+
+- name: Audit | Load the rules now (audit rules are not immutable)
+  ansible.builtin.command:
+    cmd: augenrules --load
+  changed_when: true
+  when:
+    - rhel_baseline_audit_rules is changed or rhel_baseline_audit_finalize is changed or rhel_baseline_audit_finalize_removed is changed
+    - "'enabled 2' not in rhel_baseline_auditctl_status.stdout"
+
+- name: Audit | Record the reboot for rules that are locked
+  ansible.builtin.set_fact:
+    rhel_baseline_reboot_reasons: "{{ rhel_baseline_reboot_reasons + ['audit: rules are immutable (-e 2), new rules load at reboot'] }}"
+  when:
+    - rhel_baseline_audit_rules is changed or rhel_baseline_audit_finalize is changed or rhel_baseline_audit_finalize_removed is changed
+    - "'enabled 2' in rhel_baseline_auditctl_status.stdout"
+
+- name: Audit | Read the kernel arguments of every boot entry
+  ansible.builtin.command:
+    cmd: grubby --info=ALL
+  register: rhel_baseline_grubby_info
+  changed_when: false
+  check_mode: false
+
+- name: Audit | Add audit kernel arguments to every boot entry
+  ansible.builtin.command:
+    argv: [grubby, --update-kernel=ALL, "--args={{ rhel_baseline_kernel_args | join(' ') }}"]
+  changed_when: true
+  when: >-
+    rhel_baseline_grubby_info.stdout_lines
+    | select('match', '^args=')
+    | map('regex_replace', '^args=', '')
+    | map('replace', '"', '')
+    | map('split')
+    | reject('superset', rhel_baseline_kernel_args)
+    | list | length > 0
+
+- name: Audit | Add audit kernel arguments for future kernels in /etc/default/grub
+  ansible.builtin.lineinfile:
+    path: /etc/default/grub
+    regexp: '^(GRUB_CMDLINE_LINUX="(?!(?:.*\s)?{{ item | regex_escape }}(?:\s|")).*)"$'
+    line: '\1 {{ item }}"'
+    backrefs: true
+    owner: root
+    group: root
+    mode: "0644"
+  loop: "{{ rhel_baseline_kernel_args }}"
+
+- name: Audit | Make the journal persistent and compressed
+  community.general.ini_file:
+    path: /etc/systemd/journald.conf
+    section: Journal
+    option: "{{ item.key }}"
+    value: "{{ item.value }}"
+    no_extra_spaces: true
+    owner: root
+    group: root
+    mode: "0644"
+  loop:
+    - {key: Storage, value: "{{ rhel_baseline_journald_storage }}"}
+    - {key: Compress, value: "yes"}
+  loop_control:
+    label: "{{ item.key }}"
+  notify: Restart journald
