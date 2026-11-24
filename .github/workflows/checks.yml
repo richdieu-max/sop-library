@@ -1,0 +1,50 @@
+name: Checks
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  catalog:
+    name: Runbook tags and README indexes
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Tags, NIST mapping and indexes match the runbooks
+        run: python3 tools/catalog/build.py --check
+
+  aws-posture-check:
+    name: aws-posture-check tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python3 -m unittest discover -s tools/aws-posture-check/tests -v
+
+  rhel-hardening:
+    name: rhel-hardening tests and syntax check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Evidence summary tool tests
+        run: python3 -m unittest discover -s tools/rhel-hardening/tests -v
+      - name: Install Ansible
+        run: pip install "ansible-core>=2.15,<2.18"
+      - name: Install collections
+        working-directory: tools/rhel-hardening
+        run: ansible-galaxy collection install -r requirements.yml
+      - name: Syntax-check every playbook
+        working-directory: tools/rhel-hardening
+        run: for p in playbooks/*.yml; do ansible-playbook -i inventory/hosts.example.yml --syntax-check "$p"; done
